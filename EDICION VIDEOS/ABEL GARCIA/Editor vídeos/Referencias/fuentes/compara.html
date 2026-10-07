@@ -1,0 +1,29 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:InterV;src:url('Inter-Variable.ttf');font-weight:100 900}
+body{margin:0;background:#282828;font-family:Arial;width:1250px}
+.r{background:#000;color:#fff;font-family:InterV;font-size:var(--s);white-space:nowrap;padding:10px;display:inline-block}
+.e{color:#ff0;font-size:20px;padding:6px 10px}
+</style></head><body>
+<div class="e">ORIGINAL (ancho 1029)</div><img src="original.png">
+<div id="filas"></div>
+<script>
+const txt='Solo te tienes que preocupar de:';
+const pruebas=[];
+for (const w of [700,800,900]) for (const op of [14,32]) for (const ls of [-0.02,-0.035]) pruebas.push({w,op,ls});
+const cont=document.getElementById('filas');
+document.fonts.load('800 66px InterV').then(()=>{
+  for (const p of pruebas){
+    const e=document.createElement('div'); e.className='e'; cont.appendChild(e);
+    const r=document.createElement('div'); r.className='r'; r.textContent=txt;
+    r.style.fontVariationSettings=`'wght' ${p.w}, 'opsz' ${p.op}`; r.style.letterSpacing=p.ls+'em';
+    cont.appendChild(r); cont.appendChild(document.createElement('br'));
+    // tamaño que da la misma altura de la «S» que el original (64 px de alto de mayúscula aprox.): se ajusta por ancho
+    let s=60; r.style.setProperty('--s',s+'px');
+    p.el=r; p.et=e;
+  }
+  // igualar alto de mayúscula: Inter cap-height = 0,727 em; el original mide ~49 px de «S»
+  for (const p of pruebas){ const s=Math.round(49/0.727); p.el.style.setProperty('--s',s+'px');
+    const w=p.el.getBoundingClientRect().width-20; p.et.textContent=`Inter peso ${p.w} · opsz ${p.op} · espaciado ${p.ls}em · ${s}px · ancho ${w.toFixed(0)}`; }
+  document.title='listo';
+});
+</script></body></html>

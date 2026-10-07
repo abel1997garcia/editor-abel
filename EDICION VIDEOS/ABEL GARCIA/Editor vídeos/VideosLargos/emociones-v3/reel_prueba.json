@@ -1,0 +1,15 @@
+{
+ "fuente": "../Dejar_ir_emociones_2min_v3_1080p.mp4",
+ "tiempos": "trabajo/tiempos.json",
+ "montaje": "edicion/montaje.json",
+ "salida": "out/reels",
+ "reels": {
+  "prueba_4x3": {
+   "tramos": [[137, 216]],
+   "quitar": [],
+   "titulo": "Tu emoción no es el problema, es energía",
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3",
+   "desde": null
+  }
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "fps": 30.0,
+ "fuente": "C:\\Users\\Clap\\Desktop\\EDICION VIDEOS\\ABEL GARCIA\\Editor vídeos\\VideosLargos\\toma_emociones_150s.mp4",
+ "suelo_db": -49.7,
+ "fotogramas": 4363,
+ "duracion": 145.4333,
+ "ajustes": {
+  "pre": 0.09,
+  "post": 0.13,
+  "min_pausa": 0.55,
+  "inicio": 0.1,
+  "cola": 0.35,
+  "fin": 0
+ },
+ "tramos": [
+  {
+   "src_f0": 0,
+   "src_f1": 355,
+   "edit_f0": 0,
+   "src_s": 0.0,
+   "src_e": 11.8333,
+   "edit_s": 0.0,
+   "texto": "Vamos … elevados"
+  },
+  {
+   "src_f0": 387,
+   "src_f1": 2308,
+   "edit_f0": 355,
+   "src_s": 12.9,
+   "src_e": 76.9333,
+   "edit_s": 11.8333,
+   "texto": "Digamos … cuerpo / El … sensación / Por … gusta / Lo … identificarla / Dónde … cuerpo / El … etc / Al … controlar / Una … todo / Siempre … saciedad / Por … va"
+  },
+  {
+   "src_f0": 2326,
+   "src_f1": 3393,
+   "edit_f0": 2276,
+   "src_s": 77.5333,
+   "src_e": 113.1,
+   "edit_s": 75.8667,
+   "texto": "Luego … repite / Puedo … parezca / que … proceso / Es … vida"
+  },
+  {
+   "src_f0": 3430,
+   "src_f1": 3670,
+   "edit_f0": 3343,
+   "src_s": 114.3333,
+   "src_e": 122.3333,
+   "edit_s": 111.4333,
+   "texto": "Por … emoción"
+  },
+  {
+   "src_f0": 3692,
+   "src_f1": 4157,
+   "edit_f0": 3583,
+   "src_s": 123.0667,
+   "src_e": 138.5667,
+   "edit_s": 119.4333,
+   "texto": "Si … atención / Tú … enseñarte"
+  },
+  {
+   "src_f0": 4185,
+   "src_f1": 4500,
+   "edit_f0": 4048,
+   "src_s": 139.5,
+   "src_e": 150.0,
+   "edit_s": 134.9333,
+   "texto": "Entonces … confíes"
+  }
+ ]
+}

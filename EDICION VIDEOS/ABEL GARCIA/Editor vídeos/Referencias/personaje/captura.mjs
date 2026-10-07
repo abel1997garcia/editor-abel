@@ -1,0 +1,14 @@
+import { chromium } from 'playwright-core';
+import { pathToFileURL } from 'node:url';
+import { readdirSync } from 'node:fs';
+const [,, html, png, ancho = '1250'] = process.argv;
+const base = process.env.LOCALAPPDATA + '/ms-playwright';
+const dir = readdirSync(base).find(d => d.startsWith('chromium_headless_shell-'));
+const b = await chromium.launch({ executablePath: `${base}/${dir}/chrome-headless-shell-win64/chrome-headless-shell.exe`, args: ['--allow-file-access-from-files'] });
+const p = await b.newPage({ viewport: { width: +ancho, height: 800 } });
+p.on('console', m => console.log(m.text()));
+await p.goto(pathToFileURL(process.cwd() + '/' + html).href);
+await p.waitForFunction(() => document.title === 'listo');
+await p.waitForTimeout(200);
+await p.screenshot({ path: png, fullPage: true });
+await b.close();

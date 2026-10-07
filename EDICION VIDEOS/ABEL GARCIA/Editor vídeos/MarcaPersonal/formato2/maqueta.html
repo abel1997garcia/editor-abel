@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:M;src:url(Montserrat-Variable.ttf);font-weight:100 900}
+body{margin:0;background:#000}
+#r{position:relative;width:1080px;height:1920px;overflow:hidden;background:#fff;font-family:M}
+#arriba{position:absolute;left:0;top:0;width:1080px;height:760px;background:url(arriba.png) center/cover}
+#sub{position:absolute;left:0;width:1080px;top:610px;text-align:center;color:#fff;font-weight:800;font-size:62px;letter-spacing:-.01em;
+ text-shadow:0 3px 0 rgba(0,0,0,.55),0 0 14px rgba(0,0,0,.65)}
+#banda{position:absolute;left:0;top:760px;width:1080px;height:180px;background:#fff;display:flex;align-items:flex-start;justify-content:center;padding-top:22px;box-sizing:border-box}
+#tit{font-weight:700;font-size:62px;line-height:1.12;text-align:center;color:#111;text-transform:uppercase;letter-spacing:.005em}
+#abajo{position:absolute;left:0;top:940px;width:1080px;height:980px;background:#fff}
+#mapa{position:absolute;left:150px;top:20px;width:780px;height:640px}
+.b{position:absolute;left:0;width:780px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;font-size:25px;text-shadow:0 1px 3px rgba(0,0,0,.35)}
+.lado{position:absolute;font-weight:600;font-size:24px;letter-spacing:.12em;color:#444;writing-mode:vertical-rl;transform:rotate(180deg)}
+</style></head><body><div id="r">
+<div id="arriba"></div><div id="sub">conciencia</div>
+<div id="banda"><div id="tit">Vives en el miedo<br>sin saberlo</div></div>
+<div id="abajo"><div id="mapa"></div>
+</div>
+<div id="g" style="display:none">
+<div style="position:absolute;left:0;top:0;width:1080px;height:220px;background:rgba(220,40,40,.28)"></div>
+<div style="position:absolute;left:930px;top:1000px;width:150px;height:920px;background:rgba(220,40,40,.28)"></div>
+<div style="position:absolute;left:0;top:1600px;width:1080px;height:320px;background:rgba(220,40,40,.28)"></div>
+<div style="position:absolute;left:30px;top:1720px;color:#a00;font:600 34px M">zona de la interfaz (me gusta, comentarios, descripción)</div></div>
+</div><script>if(location.search.includes('guias'))document.getElementById('g').style.display='block';
+const N=[['700+','Iluminación','#8E2A8B'],['600','Paz','#6B2FA0'],['540','Alegría','#4B3BB0'],['500','Amor','#2D4FC0'],['400','Razón','#1F6FCC'],['350','Aceptación','#1C8BCF'],['310','Voluntad','#1AA3C4'],['250','Neutralidad','#2BB3A3'],['200','Coraje','#6CBF6A'],['175','Orgullo','#9CC84A'],['150','Ira','#C9CB33'],['125','Deseo','#E8C02C'],['100','Miedo','#F0A12A'],['75','Pena','#EE8030'],['50','Apatía','#E65E33'],['30','Culpa','#D93E32'],['20','Vergüenza','#C42A2E']];
+const m=document.getElementById('mapa'),H=640/N.length;
+N.forEach(([n,t,c],i)=>{const d=document.createElement('div');d.className='b';d.style.top=(i*H)+'px';d.style.height=(H+1)+'px';d.style.background=c;
+ const w0=1-.74*i/N.length,w1=1-.74*(i+1)/N.length,a=(1-w0)/2*100,b=(1-w1)/2*100;
+ d.style.clipPath=`polygon(${a}% 0,${100-a}% 0,${100-b}% 100%,${b}% 100%)`;d.textContent=n+'  '+t;m.appendChild(d);});
+document.fonts.load('700 20px M').then(()=>document.fonts.load('800 20px M')).then(()=>document.title='listo');
+</script></body></html>

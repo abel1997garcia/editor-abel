@@ -1,0 +1,53 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Mano;src:url('file:///C:/Windows/Fonts/Inkfree.ttf')}
+@font-face{font-family:Print;src:url('file:///C:/Windows/Fonts/segoepr.ttf')}
+@font-face{font-family:PrintB;src:url('file:///C:/Windows/Fonts/segoeprb.ttf')}
+html,body{margin:0}
+#s{position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--bg);color:#141414}
+.t{position:absolute;white-space:nowrap;font-family:var(--f);line-height:1}
+.ac{color:#1E7A46}
+svg{position:absolute;left:0;top:0}
+</style></head>
+<body>
+<div id="s">
+<svg width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <!-- trazo a mano: el contorno tiembla un poco, como dibujado con rotulador -->
+    <filter id="mano" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4" result="r"/>
+      <feDisplacementMap in="SourceGraphic" in2="r" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#mano)" fill="none" stroke="#141414" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- stickman «Tú» -->
+    <circle cx="330" cy="470" r="62"/>
+    <path d="M330 532 L332 760"/>
+    <path d="M332 600 L250 690"/><path d="M332 600 L430 560 L470 500"/>
+    <path d="M332 760 L268 900"/><path d="M332 760 L392 900"/>
+    <path d="M330 300 L330 380 M312 360 L330 382 L348 360" stroke-width="5"/>
+    <!-- caja izquierda: lo que dices -->
+    <path d="M640 330 C760 322 900 326 1050 332 C1056 470 1052 600 1048 720 C900 728 770 726 644 722 C636 600 638 470 640 330 Z"/>
+    <!-- caja derecha: lo que buscas (verde) -->
+    <path d="M1170 330 C1300 324 1440 328 1600 334 C1606 470 1602 600 1598 722 C1440 730 1300 728 1174 724 C1166 600 1168 470 1170 330 Z" stroke="#1E7A46"/>
+    <!-- flecha de una caja a otra -->
+    <path d="M1062 520 C1090 506 1120 506 1152 520 M1130 500 L1154 521 L1128 540" stroke-width="6"/>
+    <!-- tachón sobre «quiero ayudar» -->
+    <path d="M690 548 C780 540 900 552 1000 538" stroke-width="6"/>
+    <!-- subrayado de «real» -->
+    <path d="M1090 200 C1160 192 1250 196 1330 204" stroke="#1E7A46" stroke-width="8"/>
+    <!-- ojo en la caja verde -->
+    <path d="M1300 610 C1340 570 1420 570 1460 610 C1420 650 1340 650 1300 610 Z" stroke="#1E7A46" stroke-width="6"/>
+    <circle cx="1380" cy="610" r="14" stroke="#1E7A46" stroke-width="6"/>
+  </g>
+</svg>
+<div class="t" style="left:330px;top:250px;transform:translateX(-50%);font-size:58px">Tú</div>
+<div class="t" style="left:960px;top:110px;transform:translateX(-50%);font-size:96px">Tu intención <span class="ac">real</span></div>
+<div class="t" style="left:845px;top:370px;transform:translateX(-50%);font-size:46px">Lo que dices</div>
+<div class="t" style="left:845px;top:505px;transform:translateX(-50%);font-size:62px">"Quiero ayudar"</div>
+<div class="t" style="left:1385px;top:370px;transform:translateX(-50%);font-size:46px" >Lo que buscas</div>
+<div class="t ac" style="left:1385px;top:470px;transform:translateX(-50%);font-size:72px">Que te vean</div>
+<div class="t" style="left:960px;top:870px;transform:translateX(-50%);font-size:52px">...y eso es <span class="ac">ego</span>, no ayuda</div>
+</div>
+</body></html>

@@ -1,0 +1,75 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:InterV;src:url('../fuentes/Inter-Variable.ttf');font-weight:100 900}
+html,body{margin:0}
+.s{position:relative;width:1920px;height:1080px;overflow:hidden;background:#fff;font-family:InterV;color:#111}
+.t{position:absolute;white-space:nowrap;transform:translate(-50%,-50%);font-variation-settings:'wght' 800,'opsz' 14;letter-spacing:-.02em;line-height:1.1}
+.m{font-variation-settings:'wght' 600,'opsz' 14;letter-spacing:-.01em}
+.izq{transform:translate(0,-50%)}
+svg{position:absolute;left:0;top:0;overflow:visible}
+</style></head>
+<body>
+<div class="s" id="s"><svg id="sv" width="1920" height="1080"></svg></div>
+<script>
+const NS = 'http://www.w3.org/2000/svg', sv = document.getElementById('sv'), S = document.getElementById('s');
+function el(tag, at, padre = sv) { const e = document.createElementNS(NS, tag); for (const k in at) e.setAttribute(k, at[k]); padre.appendChild(e); return e; }
+function txt(html, x, y, tam, cls = '', color = '#111') { const d = document.createElement('div'); d.className = 't ' + cls; d.innerHTML = html;
+  d.style.left = x + 'px'; d.style.top = y + 'px'; d.style.fontSize = tam + 'px'; d.style.color = color; S.appendChild(d); return d; }
+const L = { stroke: '#111', 'stroke-width': 6.5, fill: '#fff', 'stroke-linecap': 'round', 'stroke-linejoin': 'round' };
+
+/* La silueta de Abel (su boceto, 05/10/2026): un solo contorno continuo y alargado.
+   Hombros que caen desde el cuello, brazos como lóbulos que cuelgan pegados al cuerpo, piernas largas en punta redonda.
+   Se define la mitad izquierda (segmentos cúbicos) y la derecha sale en espejo: siempre simétrica y equilibrada. */
+const INICIO = [-13, 122];
+const MITAD = [                              // [control 1, control 2, fin]
+  [[-30, 128], [-52, 140], [-62, 162]],      // hombro
+  [[-76, 205], [-86, 300], [-86, 398]],      // borde exterior del brazo
+  [[-86, 432], [-60, 436], [-58, 404]],      // punta redondeada de la mano
+  [[-56, 330], [-50, 262], [-44, 222]],      // borde interior del brazo hasta la axila
+  [[-44, 300], [-46, 362], [-44, 424]],      // costado hasta la cadera
+  [[-48, 505], [-50, 585], [-46, 662]],      // borde exterior de la pierna
+  [[-44, 694], [-14, 694], [-12, 662]],      // punta redondeada del pie
+  [[-10, 592], [-8, 524], [0, 466]],         // interior de la pierna hasta la entrepierna
+];
+function silueta() {
+  const f = ([x, y]) => `${x},${y}`, m = ([x, y]) => [-x, y];
+  let d = `M${f(INICIO)} `;
+  MITAD.forEach(([a, b, c]) => d += `C${f(a)} ${f(b)} ${f(c)} `);
+  for (let i = MITAD.length - 1; i >= 0; i--) {               // vuelta por el lado derecho, en espejo y al revés
+    const [a, b] = MITAD[i], ini = i ? MITAD[i - 1][2] : INICIO;
+    d += `C${f(m(b))} ${f(m(a))} ${f(m(ini))} `;
+  }
+  return d;
+}
+function monigote(cx, top, esc = 1) {
+  const g = el('g', { transform: `translate(${cx},${top}) scale(${esc})` });
+  el('path', { d: silueta(), ...L }, g);
+  el('ellipse', { cx: 0, cy: 58, rx: 40, ry: 54, transform: 'rotate(-6 0 58)', ...L }, g);   // cabeza ovalada, un poco ladeada
+  return g;
+}
+const CHAKRAS = [
+  ['Corona', 'conciencia', '#7A3FC4', -18], ['Tercer ojo', 'mente · intuición', '#3F3FB5', 56], ['Garganta', 'expresión', '#1D7FD1', 140],
+  ['Corazón', 'amor', '#1E7A46', 224], ['Plexo solar', 'estómago · poder', '#C99A00', 306], ['Sacro', 'sexualidad', '#E06A1B', 384], ['Raíz', 'seguridad', '#C8372D', 446]];
+document.fonts.load('800 40px InterV').then(() => document.fonts.ready).then(() => {
+  // 1 · neutro
+  monigote(330, 230); txt('El personaje', 330, 140, 50);
+  // 2 · los siete centros, cada uno en su sitio y su color
+  const x2 = 860, t2 = 230; monigote(x2, t2);
+  CHAKRAS.forEach(([n, sub, c, y], i) => {
+    el('circle', { cx: x2, cy: t2 + y, r: 12, fill: c });
+    el('circle', { cx: x2, cy: t2 + y, r: 22, fill: 'none', stroke: c, 'stroke-width': 4, opacity: .55 });
+    const ly = 215 + i * 96;
+    el('path', { d: `M${x2 + 28},${t2 + y} C${x2 + 90},${t2 + y} ${x2 + 110},${ly} ${x2 + 165},${ly}`, fill: 'none', stroke: c, 'stroke-width': 3.5, 'stroke-linecap': 'round' });
+    txt(n, x2 + 180, ly - 12, 34, 'izq', c); txt(sub, x2 + 180, ly + 22, 24, 'izq m', '#777');
+  });
+  txt('Los 7 centros', 960, 140, 50);
+  // 3 · la emoción que se siente en el estómago
+  const x3 = 1620, t3 = 230; monigote(x3, t3);
+  for (const [r, o] of [[26, .9], [46, .55], [68, .3]]) el('circle', { cx: x3, cy: t3 + 306, r, fill: 'none', stroke: '#C99A00', 'stroke-width': 5, opacity: o });
+  el('circle', { cx: x3, cy: t3 + 306, r: 12, fill: '#C99A00' });
+  txt('Emoción en el <span style="color:#C99A00">estómago</span>', 1560, 140, 50);
+  document.title = 'listo';
+});
+</script>
+</body></html>

@@ -1,0 +1,89 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:InterV;src:url('Inter-Variable.ttf');font-weight:100 900}
+html,body{margin:0}
+.s{position:relative;width:1920px;height:1080px;overflow:hidden;background:#fff;color:#111;font-family:InterV;
+   font-variation-settings:'wght' 800,'opsz' 14;letter-spacing:-.02em}
+.t{position:absolute;white-space:nowrap;line-height:1.1;transform:translate(-50%,-50%);text-align:center}
+.m{font-variation-settings:'wght' 600,'opsz' 14;letter-spacing:-.01em}
+.ac{color:#1E7A46}
+svg{position:absolute;left:0;top:0;overflow:visible}
+</style></head>
+<body>
+<!-- escena 1: lo que dices / lo que buscas, con una figura sin cara -->
+<div class="s" id="e1">
+  <svg id="sv1" width="1920" height="1080"></svg>
+  <div class="t" id="tit1" style="left:960px;top:150px;font-size:80px">Tu intención <span class="ac">real</span></div>
+  <div class="t m" id="l1" style="left:860px;top:470px;font-size:38px">Lo que dices</div>
+  <div class="t" id="d1" style="left:860px;top:565px;font-size:54px">«Quiero ayudar»</div>
+  <div class="t m" id="l2" style="left:1520px;top:470px;font-size:38px">Lo que buscas</div>
+  <div class="t ac" id="d2" style="left:1520px;top:565px;font-size:60px">Que te vean</div>
+  <div class="t" id="pie" style="left:1190px;top:870px;font-size:46px">…y eso es <span class="ac">ego</span>, no ayuda</div>
+  <div class="t m" style="left:330px;top:290px;font-size:40px">Tú</div>
+</div>
+<!-- escena 2: el iceberg del inconsciente -->
+<div class="s" id="e2">
+  <svg id="sv2" width="1920" height="1080"></svg>
+  <div class="t" style="left:960px;top:120px;font-size:76px">Lo que te <span class="ac">mueve</span></div>
+  <div class="t m" id="ic1" style="left:1420px;top:330px;font-size:40px">Consciente</div>
+  <div class="t" id="ic1b" style="left:1420px;top:385px;font-size:56px">5 %</div>
+  <div class="t m" id="ic2" style="left:1420px;top:640px;font-size:40px">Inconsciente</div>
+  <div class="t ac" id="ic2b" style="left:1420px;top:705px;font-size:72px">95 %</div>
+  <div class="t m" style="left:1420px;top:790px;font-size:34px;color:#555">creencias · miedos · heridas</div>
+</div>
+<script>
+let semilla = 11; const az = () => (semilla = (semilla * 16807) % 2147483647) / 2147483647 - .5;
+const linea = (x1, y1, x2, y2, j = 4) => { const mx = (x1 + x2) / 2 + az() * j * 2, my = (y1 + y2) / 2 + az() * j * 2; return `M${x1},${y1} Q${mx},${my} ${x2},${y2}`; };
+function caja(x, y, w, h) { const o = 10, p = [[x - 4, y + 3], [x + w + 3, y - 2], [x + w - 2, y + h + 3], [x + 3, y + h - 2]];
+  let d = ''; for (let i = 0; i < 4; i++) { const a = p[i], b = p[(i + 1) % 4]; d += linea(a[0], a[1], b[0], b[1]) + ' '; } return d + linea(p[0][0], p[0][1], p[0][0] + o, p[0][1] - 1); }
+function trazo(svg, d, color = '#111', ancho = 6, extra = '') {
+  const e = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+  e.setAttribute('d', d); e.setAttribute('fill', 'none'); e.setAttribute('stroke', color); e.setAttribute('stroke-width', ancho);
+  e.setAttribute('stroke-linecap', 'round'); e.setAttribute('stroke-linejoin', 'round'); if (extra) e.setAttribute('stroke-dasharray', extra); svg.appendChild(e); }
+// figura humana sobria: cabeza de línea sin cara, cuerpo de trazo perfilado
+function figura(s, cx, cy, pose = 'señala') {
+  const r = 46, cu = cy + r, ca = cu + 220;
+  // cabeza: círculo cerrado a mano (dos medios arcos que se solapan un poco), centrado sobre el cuello
+  trazo(s, `M${cx - r},${cy + 2} A${r},${r} 0 0 1 ${cx + r},${cy} A${r},${r} 0 0 1 ${cx - r + 8},${cy + 14}`, '#111', 7);
+  trazo(s, `M${cx},${cu} C${cx + 2},${cu + 80} ${cx - 2},${cu + 150} ${cx},${ca}`, '#111', 7);
+  trazo(s, `M${cx},${ca} C${cx - 20},${ca + 60} ${cx - 45},${ca + 120} ${cx - 62},${ca + 175}`, '#111', 7);
+  trazo(s, `M${cx},${ca} C${cx + 20},${ca + 60} ${cx + 45},${ca + 120} ${cx + 62},${ca + 175}`, '#111', 7);
+  const h = cu + 55;
+  if (pose === 'señala') trazo(s, `M${cx},${h} C${cx + 60},${h - 10} ${cx + 120},${h - 30} ${cx + 170},${h - 66}`, '#111', 7);
+  else trazo(s, `M${cx},${h} C${cx + 40},${h + 50} ${cx + 70},${h + 100} ${cx + 82},${h + 150}`, '#111', 7);
+  trazo(s, `M${cx},${h} C${cx - 40},${h + 50} ${cx - 70},${h + 100} ${cx - 82},${h + 150}`, '#111', 7);
+}
+const R = id => document.getElementById(id).getBoundingClientRect();
+document.fonts.load("800 60px InterV").then(() => document.fonts.ready).then(() => {
+  // --- escena 1 ---
+  const s1 = document.getElementById('sv1'), o1 = R('e1');
+  const r = id => { const b = R(id); return { left: b.left - o1.left, right: b.right - o1.left, top: b.top - o1.top, bottom: b.bottom - o1.top, width: b.width, height: b.height }; };
+  const pad = 46, w = Math.max(r('l1').width, r('d1').width, r('l2').width, r('d2').width) + pad * 2;
+  const top = r('l1').top - pad, h = r('d1').bottom - r('l1').top + pad * 2, xa = 860, xb = 1520;
+  trazo(s1, caja(xa - w / 2, top, w, h)); trazo(s1, caja(xb - w / 2, top, w, h), '#1E7A46');
+  const f0 = xa + w / 2 + 26, f1 = xb - w / 2 - 26, fy = top + h / 2;
+  if (f1 - f0 < 60) console.log('AVISO: no cabe la flecha');
+  trazo(s1, linea(f0, fy, f1, fy, 2) + ` M${f1 - 22},${fy - 18} L${f1},${fy} L${f1 - 22},${fy + 18}`);
+  const d1 = r('d1'); trazo(s1, linea(d1.left - 6, d1.top + d1.height * .55, d1.right + 6, d1.top + d1.height * .5, 3), '#111', 6);
+  const ac = document.querySelector('#tit1 .ac').getBoundingClientRect(); trazo(s1, linea(ac.left - o1.left - 6, ac.bottom - o1.top + 4, ac.right - o1.left + 8, ac.bottom - o1.top + 2, 3), '#1E7A46', 8);
+  const eg = document.querySelector('#pie .ac').getBoundingClientRect();
+  trazo(s1, linea(eg.left - o1.left - 4, eg.bottom - o1.top + 2, eg.right - o1.left + 6, eg.bottom - o1.top, 2), '#1E7A46', 6);
+  trazo(s1, linea(330, 318, 330, 352, 1) + ' M316,336 L330,354 L344,336', '#111', 5);
+  figura(s1, 330, 420, 'señala');
+  // --- escena 2: iceberg (punta pequeña sobre el agua, masa enorme debajo) ---
+  const s2 = document.getElementById('sv2'), ag = 470;
+  trazo(s2, `M160,${ag} C380,${ag - 8} 560,${ag + 8} 760,${ag} C940,${ag - 8} 1060,${ag + 6} 1180,${ag}`, '#111', 5);
+  trazo(s2, `M200,${ag + 40} C320,${ag + 34} 420,${ag + 44} 520,${ag + 38} M860,${ag + 44} C960,${ag + 38} 1040,${ag + 48} 1140,${ag + 42}`, '#111', 3, '14 16');
+  trazo(s2, `M560,${ag} L610,${ag - 120} L660,${ag - 165} L700,${ag - 130} L740,${ag - 150} L790,${ag}`, '#111', 7);
+  // masa sumergida: facetas de hielo (ángulos), mucho más ancha y profunda que la punta
+  trazo(s2, `M560,${ag} L470,${ag + 70} L430,${ag + 190} L390,${ag + 260} L430,${ag + 380} L540,${ag + 470} L700,${ag + 500} L840,${ag + 450} L930,${ag + 340} L960,${ag + 220} L900,${ag + 110} L850,${ag + 60} L790,${ag}`, '#1E7A46', 7);
+  trazo(s2, `M470,${ag + 70} L560,${ag + 160} L520,${ag + 300} M560,${ag + 160} L700,${ag + 200} L840,${ag + 150} L900,${ag + 110} M700,${ag + 200} L720,${ag + 360} L700,${ag + 500}`, '#1E7A46', 3);
+  // llaves que unen cada parte con su etiqueta (aire de 30 px hasta el texto)
+  const c1 = R('ic1'), c2 = R('ic2'), oy = R('e2').top;
+  trazo(s2, linea(800, ag - 90, c1.left - 30, c1.top - oy + 30, 3), '#111', 4, '10 12');
+  trazo(s2, linea(960, ag + 260, c2.left - 30, c2.top - oy + 40, 3), '#1E7A46', 4, '10 12');
+  document.title = 'listo';
+});
+</script>
+</body></html>

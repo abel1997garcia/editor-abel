@@ -1,0 +1,26 @@
+{
+ "fps": 30.0,
+ "fuente": "C:\\Users\\Clap\\Desktop\\EDICION VIDEOS\\ABEL GARCIA\\Editor vídeos\\VideosLargos\\dejar-ir-emociones\\edicion\\toma_limpia3.mov",
+ "suelo_db": -46.8,
+ "fotogramas": 4214,
+ "duracion": 140.4667,
+ "ajustes": {
+  "pre": 0.2,
+  "post": 0.13,
+  "min_pausa": 5.0,
+  "inicio": 0.0,
+  "cola": 0.35,
+  "fin": 140.6
+ },
+ "tramos": [
+  {
+   "src_f0": 0,
+   "src_f1": 4214,
+   "edit_f0": 0,
+   "src_s": 0.0,
+   "src_e": 140.4667,
+   "edit_s": 0.0,
+   "texto": "Cuando … vida / Vamos … elevados / Digamos … cuerpo / El … sensación / Por … gusta / Lo … identificarla / Dónde … cuerpo / El … etc / Al … controlar / Una … todo / Siempre … saciedad / Por … va / Luego … repite / Puedo … parezca / que … proceso / Es … vida / Por … emoción / Si … atención / Tú … enseñarte / Entonces … confíes"
+  }
+ ]
+}

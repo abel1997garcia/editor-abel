@@ -1,0 +1,99 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Mano;src:url(Inkfree.ttf)}
+html,body{margin:0;background:#fff}
+#t{position:relative;width:1080px;height:960px;overflow:hidden;background:#fdfdfb}
+svg{position:absolute;left:0;top:0}
+text{font-family:Mano;font-weight:700}
+</style></head><body><div id="t"><svg id="s" width="1080" height="960" viewBox="0 0 1080 960"></svg></div><script>
+/* Formato «dibujo a mano» (prueba 2). Cada parte del dibujo se dibuja MIENTRAS lo dice (empieza con la palabra).
+   Para que parezca humano: presión variable (fino al empezar y acabar), cada trazo acelera y frena, pausas
+   irregulares al levantar el lápiz y letras escritas una a una, cada una algo distinta. Sin punta de lápiz. */
+const NS = 'http://www.w3.org/2000/svg', S = document.getElementById('s');
+const T0 = 500.30;
+const COL = { negro: '#1d1d1d', rojo: '#d23a2f', azul: '#2d6bd1' };
+const VEL = 950;                                       // px/s de media al dibujar
+let sem = 11; const az = () => (sem = (sem * 16807) % 2147483647) / 2147483647 - .5;
+const suave = u => .5 - .5 * Math.cos(Math.PI * u);    // acelera y frena dentro del trazo
+// pulso de mano: une puntos con curvas que se desvían un poco (fijo, no tiembla)
+function mano(pts, j = 2.5) {
+  let d = `M${pts[0][0]},${pts[0][1]}`;
+  for (let i = 1; i < pts.length; i++) { const [a, b] = pts[i - 1], [c, e] = pts[i];
+    d += ` Q${((a + c) / 2 + az() * j * 2).toFixed(1)},${((b + e) / 2 + az() * j * 2).toFixed(1)} ${c},${e}`; }
+  return d;
+}
+const arco = (cx, cy, rx, ry, a0, a1, n = 26) => Array.from({ length: n + 1 }, (_, i) => { const a = a0 + (a1 - a0) * i / n; return [cx + rx * Math.cos(a), cy + ry * Math.sin(a)]; });
+const G = [];                                            // grupos: lo que dibuja mientras dice una cosa
+function grupo(desde) { G.push({ desde, items: [] }); return G[G.length - 1]; }
+// trazo con presión: se muestrea el camino y en cada fotograma se rellena un contorno de grosor variable
+function trazo(gr, pts, color = 'negro', W = 9, j) {
+  const guia = document.createElementNS(NS, 'path'); guia.setAttribute('d', mano(pts, j));
+  const L = guia.getTotalLength(), N = Math.max(12, Math.round(L / 6)), m = [];
+  for (let i = 0; i <= N; i++) { const p = guia.getPointAtLength(L * i / N); m.push([p.x, p.y]); }
+  const ancho = m.map((_, i) => { const u = i / N, borde = Math.min(1, u / .1, (1 - u) / .14); return W * (.3 + .7 * Math.sqrt(Math.max(0, borde))) * (1 + az() * .12); });
+  const el = document.createElementNS(NS, 'path'); el.setAttribute('fill', COL[color]); S.appendChild(el);
+  gr.items.push({ m, ancho, el, dur: Math.max(.14, L / VEL) * (0.85 + az() * .3), pausa: .06 + Math.abs(az()) * .22 });
+}
+function pintaTrazo(k, p) {
+  const n = Math.round(suave(p) * (k.m.length - 1)); if (n < 1) { k.el.setAttribute('d', ''); return; }
+  const izq = [], der = [];
+  for (let i = 0; i <= n; i++) { const a = k.m[Math.max(0, i - 1)], b = k.m[Math.min(k.m.length - 1, i + 1)], dx = b[0] - a[0], dy = b[1] - a[1], l = Math.hypot(dx, dy) || 1;
+    const w = k.ancho[i] / 2 * (i === n && p < 1 ? .6 : 1), nx = -dy / l * w, ny = dx / l * w;
+    izq.push([k.m[i][0] + nx, k.m[i][1] + ny]); der.push([k.m[i][0] - nx, k.m[i][1] - ny]); }
+  k.el.setAttribute('d', 'M' + izq.concat(der.reverse()).map(q => q[0].toFixed(1) + ',' + q[1].toFixed(1)).join('L') + 'Z');
+}
+// escritura a mano: letra a letra, cada una con su pequeño giro y altura
+function escribe(gr, txt, x, y, tam, color = 'negro') {
+  let cx = x;
+  for (const ch of txt) {
+    if (ch === ' ') { cx += tam * .32; continue; }
+    const t = document.createElementNS(NS, 'text'); t.textContent = ch; t.setAttribute('font-size', tam * (1 + az() * .06)); t.setAttribute('fill', COL[color]);
+    const dy = az() * 6; t.setAttribute('x', cx); t.setAttribute('y', y + dy); S.appendChild(t);
+    const w = t.getComputedTextLength(); t.setAttribute('transform', `rotate(${(az() * 7).toFixed(1)} ${cx + w / 2} ${y})`);
+    const id = 'c' + Math.random().toString(36).slice(2), cp = document.createElementNS(NS, 'clipPath'), r = document.createElementNS(NS, 'rect');
+    cp.setAttribute('id', id); r.setAttribute('x', cx - 4); r.setAttribute('y', y - tam * 1.2 + dy); r.setAttribute('height', tam * 1.6); r.setAttribute('width', 0); cp.appendChild(r); S.appendChild(cp);
+    t.setAttribute('clip-path', `url(#${id})`);
+    gr.items.push({ r, w: w + 10, dur: .09 + Math.abs(az()) * .09, pausa: .02 + Math.abs(az()) * .05 });
+    cx += w * (0.92 + az() * .08);
+  }
+}
+const cerrada = (cx, cy, rx, ry, a0 = -1.9) => arco(cx, cy, rx * (1 + az() * .04), ry * (1 + az() * .04), a0, a0 + Math.PI * 2.08, 30);   // se pasa un poco al cerrar
+document.fonts.load('700 40px Mano').then(() => {
+  let g;
+  // «Si tú sabes que hacer scroll»: el muñeco con el móvil
+  g = grupo(500.40);
+  trazo(g, cerrada(250, 380, 46, 52));                                             // cabeza
+  trazo(g, [[250, 432], [252, 520], [248, 610]]);                                  // cuerpo
+  trazo(g, [[250, 470], [300, 505], [336, 470]]);                                  // brazo hacia el móvil
+  trazo(g, [[248, 610], [212, 720]]); trazo(g, [[248, 610], [288, 720]]);          // piernas
+  trazo(g, [[330, 400], [394, 398], [398, 500], [334, 504], [330, 400]], 'negro', 7);   // móvil
+  g = grupo(501.40);
+  trazo(g, [[430, 490], [434, 430], [430, 380]], 'azul', 7); trazo(g, [[412, 402], [430, 378], [450, 400]], 'azul', 7);   // dedo que hace scroll
+  // «empiezas y dices voy a estar cinco minutos»: bocadillo con «5 MIN»
+  g = grupo(502.10);
+  trazo(g, [...cerrada(780, 260, 230, 100, 2.3)], 'negro', 7); trazo(g, [[612, 322], [520, 350], [596, 300]], 'negro', 7);
+  g = grupo(503.18); escribe(g, '5 MIN', 650, 292, 96);
+  // «y acabas estando una hora»: se tacha y aparece «1 HORA»
+  g = grupo(503.95); trazo(g, [[635, 272], [905, 252]], 'rojo', 11);
+  g = grupo(504.80); escribe(g, '1 HORA', 600, 500, 118, 'rojo');
+  // «eso es porque tú estás ahí enganchado»: una caña con hilo y anzuelo que engancha el móvil
+  g = grupo(505.50);
+  trazo(g, [[60, 80], [220, 58], [366, 72]], 'negro', 10);                         // caña
+  trazo(g, [[364, 74], [363, 230], [362, 380]], 'negro', 4);                        // hilo
+  g = grupo(506.40); trazo(g, [[362, 380], [362, 412], [346, 426], [332, 410]], 'negro', 7);   // anzuelo clavado en el móvil
+  // «por tu dopamina»: la caña es la dopamina
+  g = grupo(506.95); escribe(g, 'DOPAMINA', 40, 160, 62, 'azul');
+  // «Por tanto corta todo eso»: tijeras que cortan el hilo
+  g = grupo(508.50);
+  trazo(g, cerrada(460, 220, 18, 18), 'rojo', 6); trazo(g, cerrada(460, 270, 18, 18), 'rojo', 6);
+  trazo(g, [[446, 232], [330, 270]], 'rojo', 7); trazo(g, [[446, 258], [330, 216]], 'rojo', 7);
+  // cada grupo empieza con la palabra y acaba antes del siguiente; si no le da tiempo, la mano va más deprisa (hasta ×2,5)
+  G.forEach((g, i) => { const lim = (G[i + 1] ? G[i + 1].desde : 1e9) - .05, nat = g.items.reduce((a, k) => a + k.dur + k.pausa, 0);
+    const f = Math.max(1 / 2.5, Math.min(1, (lim - g.desde) / nat)); let r = g.desde;
+    g.items.forEach(k => { k.t0 = r; k.dur *= f; r += k.dur + k.pausa * f; }); });
+  const TODO = G.flatMap(g => g.items);
+  window.pintar = t => { t += T0;
+    for (const k of TODO) { const p = Math.min(1, Math.max(0, (t - k.t0) / k.dur));
+      if (k.m) pintaTrazo(k, p); else k.r.setAttribute('width', (k.w * suave(p)).toFixed(1)); } };
+  window.pintar(9); document.title = 'listo';
+});
+</script></body></html>

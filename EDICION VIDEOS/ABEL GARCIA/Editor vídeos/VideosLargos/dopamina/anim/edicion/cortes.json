@@ -1,0 +1,26 @@
+{
+ "fps": 30.0,
+ "fuente": "C:\\Users\\Clap\\Desktop\\EDICION VIDEOS\\ABEL GARCIA\\Editor vídeos\\VideosLargos\\dopamina\\toma_limpia.mov",
+ "suelo_db": -54.8,
+ "fotogramas": 22248,
+ "duracion": 741.6,
+ "ajustes": {
+  "pre": 0.2,
+  "post": 0.13,
+  "min_pausa": 5.0,
+  "inicio": 0.0,
+  "cola": 1.4,
+  "fin": 742.85
+ },
+ "tramos": [
+  {
+   "src_f0": 0,
+   "src_f1": 22248,
+   "edit_f0": 0,
+   "src_s": 0.0,
+   "src_e": 741.6,
+   "edit_s": 0.0,
+   "texto": "si … estás / constantemente … ti / como … voy / a … que / está … cambias / tu … eligiera / crear … lo / serías … es / de … hay / una … toda / la … no / está … eso / es … en / la … debes / entender … obtener / resultados … tú / elijas … apuntes / porque … foco / para … vídeos / de … y / utilizar … dopamina / Y … lo / mismo … hablando / solamente … es / constante … útiles / para … sabes / que … estás / buscando … tú / cedes … gran / error … que / sean … tengas / estos … benefician / y … puedo / estar … novedad / Y … todas / y … cosas / que … mucho / más … combinar / ese … cortando / todos … incluso / cinco … yo / no … tu / cuerpo … una / variedad … que / obtenías … por / ejemplo … dar / cuenta … mucha / más … aseguro / que … durante / un … siempre / va … es / hacer … ejemplo / ir … sudado / luego … último / minuto … a / tu … y / tal … cuerpo / entonces … entra / en … recursos / es … segregar / más … indirecto / Entonces … nada / y … haría / una … pero / todo … estando / una … entrenar / y … buenas / todo … el / poder … da / ser … por / ser … de / tu … que / hace … sientas / y … recompensa / que … y / empezar … tu / mente … y / sé … ahí / el … información / necesitas … porque / si … ver / los … te / he … el / móvil … a / poder … y / cómo … motivación / para … energía / en … tiempo / largo … un / plato … importante / el … que / al … me / motiva … de / cosas … dopamina / se … hay / algo … Así / que … próximo"
+  }
+ ]
+}

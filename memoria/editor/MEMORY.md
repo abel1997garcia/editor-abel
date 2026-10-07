@@ -1,0 +1,7 @@
+- [Aprender de cada edición](aprender-de-cada-edicion.md) — Abel quiere que guarde errores y feedback tras cada vídeo para mejorar
+- [Registro de edición de Abel](registro-edicion-abel.md) — leer ANTES de editar: silencios con dos criterios (entre frases sí, dentro no), lo aprobado, errores a evitar
+- [Reels de marca personal](reels-marca-personal.md) — 3 formatos (F1 yapping 4:3, F2 imagen abajo, F3 tablero); mensajes → reels gancho+estructura+formato en publicar/ y trial/
+- [Estilo vídeos largos](estilo-videos-largos-stickman.md) — producto principal: su estructura intacta + pizarra blanca (stickman, silueta para energía), siempre en movimiento, zona 4:3
+- [Entorno skill animaciones](entorno-skill-animaciones.md) — instalación, fallos de Windows, fuentes y detección de caras
+- [Usar System Change](usar-system-change.md) — cambios permanentes a flujos/skills/reglas pasan antes por la skill system-change
+- [Marca y Fábrica de contenido](posicionamiento-abel.md) — su marca vive en FÁBRICA DE CONTENIDO (creencias, voz, afirmaciones): leer su plan PG antes de editar y actualizar su TABLERO al terminar

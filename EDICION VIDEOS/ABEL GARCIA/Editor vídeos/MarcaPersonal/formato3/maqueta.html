@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:M;src:url(Montserrat-Variable.ttf);font-weight:100 900}
+body{margin:0}
+#r{position:relative;width:1080px;height:1920px;overflow:hidden;background:#fff;font-family:M;
+ background-image:radial-gradient(#e4e4e4 2.2px,transparent 2.2px);background-size:36px 36px}
+.pill{position:absolute;left:50%;transform:translateX(-50%);background:#111;color:#fff;font-weight:700;font-size:36px;padding:14px 32px;border-radius:999px;white-space:nowrap}
+.foto{position:absolute;left:130px;width:820px;border-radius:36px;overflow:hidden;box-shadow:0 16px 36px rgba(0,0,0,.16)}
+.gris{position:absolute;left:0;width:1080px;text-align:center;font-weight:600;font-size:40px;color:#9a9a9a}
+.grande{position:absolute;left:0;width:1080px;text-align:center;font-weight:800;font-size:116px;color:#111;letter-spacing:-.02em;line-height:1}
+.fila{position:absolute;left:130px;width:820px}
+.et{font-weight:800;font-size:50px;color:#111}
+.et small{font-weight:500;font-size:28px;color:#999;float:right;margin-top:16px}
+.bar{height:44px;border-radius:999px;background:#eee;margin-top:12px;position:relative;overflow:hidden}
+.bar i{position:absolute;left:0;top:0;bottom:0;border-radius:999px}
+#card{position:absolute;left:130px;width:820px;height:500px;border-radius:40px;overflow:hidden;box-shadow:0 18px 40px rgba(0,0,0,.18)}
+.capa{position:absolute;width:1381px;height:777px}
+#sale{position:absolute;left:0;top:0;width:1080px;overflow:hidden}
+</style></head><body><div id="r"></div><script>
+const F = location.search.includes('f=2') ? 2 : 1, r = document.getElementById('r'), T = F === 1 ? 1010 : 1060, s = 820 / 1140;
+const capa = (src) => `<div class="capa" style="left:${(130 - 327 * s).toFixed(1)}px;top:${(T - 260 * s).toFixed(1)}px;background:url(${src}) 0 0/1381px 777px"></div>`;
+let h = '';
+if (F === 1) h += `<div class="pill" style="top:250px">Joe Dispenza</div>
+  <div class="foto" style="top:330px;height:370px;background:url(dispenza_2025.jpg) 0 -80px/1337px auto"></div>
+  <div class="gris" style="top:730px">según Dispenza eres</div><div class="grande" style="top:782px">adicto</div>`;
+else h += `<div class="pill" style="top:250px">Tu cerebro vive enganchado</div>
+  <div class="fila" style="top:380px"><div class="et">Novedad <small>scroll, móvil, porno</small></div><div class="bar"><i style="width:96%;background:#111"></i></div></div>
+  <div class="fila" style="top:545px"><div class="et">Calma <small>silencio, leer, entrenar</small></div><div class="bar"><i style="width:13%;background:#E06A1B"></i></div></div>
+  <div class="grande" style="top:815px;font-size:96px"><span style="color:#b9b9b9;text-decoration:line-through;text-decoration-thickness:7px">placer</span> → <span style="color:#E06A1B">calma</span></div>
+  <div class="gris" style="top:760px">cambia el</div>`;
+h += `<div id="card" style="top:${T}px">${capa('frame.png').replace('left:', 'left:-130px;margin-left:').replace(`top:${(T - 260 * s).toFixed(1)}px`, `top:${(-260 * s).toFixed(1)}px`)}</div>`;
+h += `<div id="sale" style="height:${T + 2}px">${capa('recorte.png')}</div>`;   // la cabeza sobresale por encima de la tarjeta
+r.innerHTML = h;
+document.fonts.load('800 20px M').then(() => document.title = 'listo');
+</script></body></html>

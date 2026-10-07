@@ -1,0 +1,63 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:InterV;src:url('../fuentes/Inter-Variable.ttf');font-weight:100 900}
+html,body{margin:0}
+.s{position:relative;width:1920px;height:1080px;overflow:hidden;background:#fff;font-family:InterV;color:#111}
+.t{position:absolute;white-space:nowrap;transform:translate(-50%,-50%);font-variation-settings:'wght' 800,'opsz' 14;letter-spacing:-.02em;line-height:1.1}
+.m{font-variation-settings:'wght' 600,'opsz' 14;letter-spacing:-.01em}
+.izq{transform:translate(0,-50%)}
+svg{position:absolute;left:0;top:0;overflow:visible}
+</style></head>
+<body>
+<div class="s" id="s"><svg id="sv" width="1920" height="1080"></svg></div>
+<script>
+const NS = 'http://www.w3.org/2000/svg', sv = document.getElementById('sv'), S = document.getElementById('s');
+function el(tag, at, padre = sv) { const e = document.createElementNS(NS, tag); for (const k in at) e.setAttribute(k, at[k]); padre.appendChild(e); return e; }
+function txt(html, x, y, tam, cls = '', color = '#111') { const d = document.createElement('div'); d.className = 't ' + cls; d.innerHTML = html;
+  d.style.left = x + 'px'; d.style.top = y + 'px'; d.style.fontSize = tam + 'px'; d.style.color = color; S.appendChild(d); return d; }
+const L = { stroke: '#111', 'stroke-width': 6.5, fill: '#fff', 'stroke-linecap': 'round', 'stroke-linejoin': 'round' };
+// --- el monigote: líneas perfiladas, formas redondeadas tipo Baymax pero más delgado ---
+function monigote(cx, top, { ojos = false, pose = 'quieto', esc = 1 } = {}) {
+  const g = el('g', { transform: `translate(${cx},${top}) scale(${esc})` });
+  const brazo = s => `M${-72 * s},150 C${-100 * s},182 ${-114 * s},262 ${-114 * s},338 C${-114 * s},370 ${-84 * s},372 ${-84 * s},342 C${-86 * s},282 ${-80 * s},222 ${-74 * s},192`;
+  const pierna = s => `M${-48 * s},444 C${-52 * s},500 ${-54 * s},560 ${-52 * s},600 C${-52 * s},628 ${-18 * s},628 ${-18 * s},600 C${-16 * s},560 ${-14 * s},508 ${-12 * s},458`;
+  el('path', { d: pierna(1), ...L }, g); el('path', { d: pierna(-1), ...L }, g);
+  el('path', { d: brazo(1), ...L }, g);
+  if (pose === 'señala') el('path', { d: 'M72,152 C112,160 170,148 214,116 C238,100 256,128 232,144 C192,172 132,192 80,202', ...L }, g);
+  else el('path', { d: brazo(-1), ...L }, g);
+  // cuerpo de pera: hombros estrechos, tripa redondeada, sin cuello marcado
+  el('path', { d: 'M-24,100 C-56,108 -72,140 -76,190 C-84,270 -90,350 -68,414 C-54,450 -28,462 0,462 C28,462 54,450 68,414 C90,350 84,270 76,190 C72,140 56,108 24,100', ...L }, g);
+  el('ellipse', { cx: 0, cy: 58, rx: 58, ry: 46, ...L }, g);         // cabeza ovalada, más ancha que alta
+  if (ojos) { el('line', { x1: -18, y1: 58, x2: 18, y2: 58, stroke: '#111', 'stroke-width': 4 }, g);
+    el('circle', { cx: -19, cy: 58, r: 7, fill: '#111' }, g); el('circle', { cx: 19, cy: 58, r: 7, fill: '#111' }, g); }
+  return g;
+}
+const CHAKRAS = [
+  ['Corona', 'conciencia', '#7A3FC4', -30], ['Tercer ojo', 'mente · intuición', '#3F3FB5', 58], ['Garganta', 'expresión', '#1D7FD1', 122],
+  ['Corazón', 'amor', '#1E7A46', 200], ['Plexo solar', 'estómago · poder', '#C99A00', 288], ['Sacro', 'sexualidad', '#E06A1B', 368], ['Raíz', 'seguridad', '#C8372D', 440]];
+document.fonts.load('800 40px InterV').then(() => document.fonts.ready).then(() => {
+  // 1 · de frente, con los siete centros en sus colores
+  const x1 = 330, t1 = 250; monigote(x1, t1);
+  CHAKRAS.forEach(([n, sub, c, y], i) => {
+    el('circle', { cx: x1, cy: t1 + y, r: 13, fill: c });
+    el('circle', { cx: x1, cy: t1 + y, r: 24, fill: 'none', stroke: c, 'stroke-width': 4, opacity: .55 });
+    const ly = 230 + i * 92;
+    el('path', { d: `M${x1 + 30},${t1 + y} C${x1 + 90},${t1 + y} ${x1 + 110},${ly} ${x1 + 170},${ly}`, fill: 'none', stroke: c, 'stroke-width': 3.5, 'stroke-linecap': 'round' });
+    txt(n, x1 + 185, ly - 12, 34, 'izq', c); txt(sub, x1 + 185, ly + 22, 24, 'izq m', '#777');
+  });
+  txt('Los 7 centros', 420, 110, 54);
+  // 2 · señalando dónde se siente la emoción (sin cara)
+  const x2 = 1120, t2 = 300; monigote(x2, t2, { pose: 'señala' });
+  for (const [r, o] of [[30, .9], [52, .55], [76, .3]]) el('circle', { cx: x2, cy: t2 + 288, r, fill: 'none', stroke: '#C99A00', 'stroke-width': 5, opacity: o });
+  el('circle', { cx: x2, cy: t2 + 288, r: 14, fill: '#C99A00' });
+  txt('La emoción en el <span style="color:#C99A00">estómago</span>', 1200, 160, 52);
+  txt('plexo solar', 1250, 600, 34, 'izq m', '#9a7700');
+  el('path', { d: `M${x2 + 90},${t2 + 288} C${x2 + 110},${t2 + 300} ${x2 + 115},600 1238,600`, fill: 'none', stroke: '#C99A00', 'stroke-width': 3.5, 'stroke-linecap': 'round' });
+  // 3 · la misma figura con los ojos de Baymax (opción)
+  const x3 = 1660, t3 = 300; monigote(x3, t3, { ojos: true, esc: .9 });
+  txt('Con ojos (opción)', 1660, 980, 34, 'm', '#777'); txt('Sin cara', 1120, 980, 34, 'm', '#777');
+  document.title = 'listo';
+});
+</script>
+</body></html>

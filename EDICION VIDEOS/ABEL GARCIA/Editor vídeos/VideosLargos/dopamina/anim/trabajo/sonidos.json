@@ -1,0 +1,997 @@
+{
+ "dur": 741.6,
+ "voz": "assets/audio/voz.wav",
+ "estilo": {
+  "modo": "cara",
+  "tema": "oscuro",
+  "fondo": "cortina",
+  "acabado": "cristal",
+  "tipo": "outfit",
+  "acento": "#3E6EF2",
+  "sonido": "efectos",
+  "musica": "intro-tambores",
+  "densidad": "media",
+  "subtitulos": false,
+  "camaraEnMano": false
+ },
+ "cues": [
+  {
+   "t": 2.942,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 3.602,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 4.833,
+   "id": "descarte",
+   "vol": 0.4,
+   "pan": 0
+  },
+  {
+   "t": 8.906,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 11.768,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 12.709,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 13.589,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 17.952,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 18.412,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 24.797,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 26.398,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 25.357,
+   "id": "barrido",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 27.639,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 29.3,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 33.222,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 30.721,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 35.964,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 37.725,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 46.792,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 47.512,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 49.453,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 51.255,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 72.969,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 73.369,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 73.869,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 74.369,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 80.774,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 81.615,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 75.6902,
+   "id": "pop",
+   "vol": 0.2,
+   "pan": 0
+  },
+  {
+   "t": 77.6114,
+   "id": "pop",
+   "vol": 0.2,
+   "pan": 0
+  },
+  {
+   "t": 79.5326,
+   "id": "pop",
+   "vol": 0.2,
+   "pan": 0
+  },
+  {
+   "t": 91.762,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 92.302,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 97.286,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 99.727,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 94.224,
+   "id": "brillo",
+   "vol": 0.25,
+   "pan": 0
+  },
+  {
+   "t": 106.812,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 110.595,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 112.236,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 120.621,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 122.282,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 126.085,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 130.108,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 130.548,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 137.152,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 140.315,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 145.398,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 139.094,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 167.493,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 175.678,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 171.155,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 172.276,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 173.757,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 169.254,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 176.659,
+   "id": "nota",
+   "vol": 0.35,
+   "pan": 0
+  },
+  {
+   "t": 182.203,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 182.903,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 188.707,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 180.742,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 187.366,
+   "id": "notificacion",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 203.357,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 205.418,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 207.16,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 208.941,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 210.982,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 211.342,
+   "id": "descarte",
+   "vol": 0.35,
+   "pan": 0
+  },
+  {
+   "t": 230.015,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 235.799,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 236.94,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 238.461,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 232.177,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 253.851,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 255.712,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 256.793,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 259.415,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 261.837,
+   "id": "golpe",
+   "vol": 0.4,
+   "pan": 0
+  },
+  {
+   "t": 258.474,
+   "id": "tick",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 271.563,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 273.845,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 275.105,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 269.602,
+   "id": "brillo",
+   "vol": 0.25,
+   "pan": 0
+  },
+  {
+   "t": 283.451,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 284.712,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 294.679,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 295.199,
+   "id": "brillo",
+   "vol": 0.35,
+   "pan": 0
+  },
+  {
+   "t": 298.261,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 302.884,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 305.026,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 306.287,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 310.629,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 314.332,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 319.175,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 315.373,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 317.354,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 317.7782,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 318.2024,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 318.6266,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 312.611,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 344.953,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 347.714,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 346.674,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 345.253,
+   "id": "corte",
+   "vol": 0.45,
+   "pan": 0
+  },
+  {
+   "t": 354.239,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 356.741,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 354.719,
+   "id": "tick",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 359.082,
+   "id": "tick",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 360.723,
+   "id": "tick",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 389.282,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 393.806,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 390.884,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 393.005,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 396.167,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 388.062,
+   "id": "impacto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 396.467,
+   "id": "glitch",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 399.609,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 407.575,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 406.994,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 418.542,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 421.424,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 426.307,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 458.829,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 455.847,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 480.444,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 481.465,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 485.067,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 482.285,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 506.501,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 503.279,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 504.92,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 532.439,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 533.3,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 534.16,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 538.883,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 545.568,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 540.645,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 542.326,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 536.262,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 567.042,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 570.725,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 575.888,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 572.566,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 565.201,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 567.663,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 569.484,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 576.689,
+   "id": "golpe",
+   "vol": 0.4,
+   "pan": 0
+  },
+  {
+   "t": 614.354,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 617.176,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 617.757,
+   "id": "pop",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 621.559,
+   "id": "golpe-corto",
+   "vol": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 622.019,
+   "id": "descarte",
+   "vol": 0.35,
+   "pan": 0
+  },
+  {
+   "t": 634.728,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 635.468,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 636.889,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 638.29,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 663.788,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 664.788,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 668.431,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 664.388,
+   "id": "fallo",
+   "vol": 0.25,
+   "pan": 0
+  },
+  {
+   "t": 665.388,
+   "id": "fallo",
+   "vol": 0.25,
+   "pan": 0
+  },
+  {
+   "t": 722.487,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 725.449,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 723.928,
+   "id": "tick-suave",
+   "vol": 0.22,
+   "pan": 0
+  },
+  {
+   "t": 725.849,
+   "id": "nota-doble",
+   "vol": 0.35,
+   "pan": 0
+  }
+ ]
+}

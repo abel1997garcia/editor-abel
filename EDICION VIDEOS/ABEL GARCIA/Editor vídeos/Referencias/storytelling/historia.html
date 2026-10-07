@@ -1,0 +1,84 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:InterV;src:url('../fuentes/Inter-Variable.ttf');font-weight:100 900}
+html,body{margin:0;background:#fff}
+#s{position:relative;width:1920px;height:1080px;overflow:hidden;background:#fff}
+#mundo{position:absolute;left:0;top:0;width:3840px;height:1080px;transform-origin:0 0}
+.t{position:absolute;white-space:nowrap;font-family:InterV;font-variation-settings:'wght' 800,'opsz' 14;letter-spacing:-.02em;color:#111;line-height:1.08;transform:translate(-50%,-50%)}
+.m{font-variation-settings:'wght' 600,'opsz' 14}
+svg{position:absolute;left:0;top:0;overflow:visible}
+/* zona 4:3 (lo que se ve en el reel): x 240–1680 */
+</style></head>
+<body>
+<div id="s"><div id="mundo"><svg id="sv" width="3840" height="1080"></svg></div></div>
+<script>
+/* Muestra de storytelling para el vídeo horizontal de Abel (05/10/2026).
+   Escena 1 (0–4,5 s): el personaje junto a su portátil; YouTube; el contador sube a 15.000 €/mes; «Lo tenía TODO».
+   Paso de cámara (4,3–5,1 s): el mundo se desliza a la escena 2.
+   Escena 2 (5–12 s): el mismo personaje, solo, cabeza baja; el corazón (centro del pecho, verde) vacío y apagado;
+   bocadillo con lo que piensa; «VACÍO» grande. Todo dentro de la zona 4:3; textos a tamaño de móvil.
+   Cada fotograma es función pura de t (window.pintar(t)). */
+const NS = 'http://www.w3.org/2000/svg', sv = document.getElementById('sv'), M = document.getElementById('mundo');
+const C = { corazon: '#1E7A46', plexo: '#C99A00', raiz: '#C8372D', ojo: '#3F3FB5' };
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x)), P = (t, t0, d) => clamp((t - t0) / d);
+const io = x => x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2, out = x => 1 - Math.pow(1 - x, 3);
+const back = x => { const c = 1.7; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+function el(tag, at, padre = sv) { const e = document.createElementNS(NS, tag); for (const k in at) e.setAttribute(k, at[k]); padre.appendChild(e); return e; }
+function trazo(d, o = {}, padre = sv) { return el('path', { d, fill: o.fill || 'none', stroke: o.color || '#111', 'stroke-width': o.ancho || 7, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', pathLength: 1 }, padre); }
+function dibujar(e, p, o = 1) { if (p <= 0 || o <= .002) { e.style.opacity = 0; return; } e.style.opacity = o; e.style.strokeDasharray = p >= 1 ? 'none' : '1 1'; e.style.strokeDashoffset = 1 - p; }
+function txt(html, x, y, tam, cls = '') { const d = document.createElement('div'); d.className = 't ' + cls; d.innerHTML = html; d.style.left = x + 'px'; d.style.top = y + 'px'; d.style.fontSize = tam + 'px'; M.appendChild(d); return d; }
+function ver(e, p, dy = 18) { e.style.opacity = clamp(p * 1.4); e.style.transform = `translate(-50%,-50%) translateY(${(1 - out(clamp(p))) * dy}px)`; }
+// --- la silueta de su boceto (mitad izquierda en cúbicas, la derecha en espejo)
+const MITAD = [[[-30,128],[-52,140],[-62,162]],[[-76,205],[-86,300],[-86,398]],[[-86,432],[-60,436],[-58,404]],[[-56,330],[-50,262],[-44,222]],[[-44,300],[-46,362],[-44,424]],[[-48,505],[-50,585],[-46,662]],[[-44,694],[-14,694],[-12,662]],[[-10,592],[-8,524],[0,466]]];
+function siluetaD() { const f = ([x, y]) => `${x},${y}`, m = ([x, y]) => [-x, y], ini = [-13, 122]; let d = `M${f(ini)} `;
+  MITAD.forEach(([a, b, c]) => d += `C${f(a)} ${f(b)} ${f(c)} `);
+  for (let i = MITAD.length - 1; i >= 0; i--) { const [a, b] = MITAD[i]; d += `C${f(m(b))} ${f(m(a))} ${f(m(i ? MITAD[i - 1][2] : ini))} `; } return d; }
+const CABEZA = 'M-40,58 C-40,22 -18,4 2,4 C24,4 40,26 40,60 C40,92 22,112 0,112 C-22,112 -40,94 -40,58 Z';
+function personaje() { const g = el('g', {}), cab = el('g', {}, g); return { g, cab, cuerpo: trazo(siluetaD(), { ancho: 6.5 }, g), cabeza: trazo(CABEZA, { ancho: 6.5 }, cab) }; }
+
+/* ====== ESCENA 1: el éxito ====== */
+const p1 = personaje();
+const pantalla = trazo('M640,330 L1100,330 Q1116,330 1116,346 L1116,600 Q1116,616 1100,616 L640,616 Q624,616 624,600 L624,346 Q624,330 640,330 Z');
+const base = trazo('M580,640 L1160,640 L1130,668 L610,668 Z');
+const play = el('path', { d: 'M825,420 L825,526 L920,473 Z', fill: C.raiz, opacity: 0 });
+const playMarco = trazo('M785,410 Q785,392 805,392 L935,392 Q955,392 955,410 L955,536 Q955,554 935,554 L805,554 Q785,554 785,536 Z', { color: C.raiz, ancho: 6 });
+const cifra = txt('', 1420, 380, 110), mes = txt('al mes', 1420, 470, 64, 'm');
+const flecha = trazo('M1420,700 L1420,580 M1388,612 L1420,578 L1452,612', { color: C.plexo, ancho: 8 });
+const todo = txt('Lo tenía <span style="color:#C99A00">TODO</span>', 960, 150, 110);
+/* ====== ESCENA 2: el vacío (en el mundo, a la derecha: x + 1920) ====== */
+const X2 = 1920;
+const p2 = personaje();
+const corazon = trazo(`M${X2 + 760},640 C${X2 + 724},610 ${X2 + 700},584 ${X2 + 700},560 C${X2 + 700},536 ${X2 + 724},522 ${X2 + 744},530 C${X2 + 752},534 ${X2 + 758},542 ${X2 + 760},550 C${X2 + 762},542 ${X2 + 768},534 ${X2 + 776},530 C${X2 + 796},522 ${X2 + 820},536 ${X2 + 820},560 C${X2 + 820},584 ${X2 + 796},610 ${X2 + 760},640 Z`, { color: C.corazon, ancho: 6, fill: '#fff' });
+const bocadillo = trazo(`M${X2 + 1010},250 Q${X2 + 1010},200 ${X2 + 1060},200 L${X2 + 1560},200 Q${X2 + 1610},200 ${X2 + 1610},250 L${X2 + 1610},360 Q${X2 + 1610},410 ${X2 + 1560},410 L${X2 + 1120},410 L${X2 + 900},470 L${X2 + 1040},410 Q${X2 + 1010},410 ${X2 + 1010},360 Z`, { ancho: 6 });
+const piensa = txt('¿Y por qué me<br>siento así?', X2 + 1310, 305, 72);
+const vacio = txt('VACÍO', X2 + 1310, 640, 130);
+const sub2 = txt('Por fuera, todo.<br>Por <span style="color:#1E7A46">dentro</span>, nada.', X2 + 1310, 800, 64, 'm');
+
+window.pintar = t => {
+  // paso de cámara entre escenas (suave, con un ligero alejamiento en mitad del viaje)
+  const k = io(P(t, 4.3, .8)), s = 1 - .06 * Math.sin(Math.PI * k);
+  M.style.transform = `translate(${(-X2 * k + 960 * (1 - s)).toFixed(1)}px,${(540 * (1 - s)).toFixed(1)}px) scale(${s.toFixed(4)})`;
+  // --- escena 1
+  p1.g.setAttribute('transform', `translate(400,230) scale(1)`);
+  dibujar(p1.cabeza, P(t, .0, .4)); dibujar(p1.cuerpo, P(t, .15, .8));
+  dibujar(pantalla, P(t, .3, .6)); dibujar(base, P(t, .6, .35)); dibujar(playMarco, P(t, .8, .4));
+  play.setAttribute('opacity', clamp((t - 1.1) / .2));
+  const n = Math.round(15000 * out(P(t, 1.3, 1.4)));
+  cifra.innerHTML = `<span style="color:#C99A00">${n.toLocaleString('es-ES')} €</span>`; ver(cifra, P(t, 1.25, .3)); ver(mes, P(t, 1.5, .3));
+  dibujar(flecha, P(t, 1.4, .5)); ver(todo, P(t, 2.9, .4), 24);
+  // --- escena 2: cabeza baja, cuerpo algo hundido; el corazón vacío late apagado
+  const caida = out(P(t, 5.4, .8));
+  p2.g.setAttribute('transform', `translate(${X2 + 760},250) scale(1,${(1 - .03 * caida).toFixed(4)})`);
+  p2.cab.setAttribute('transform', `translate(${(14 * caida).toFixed(1)},${(26 * caida).toFixed(1)}) rotate(${(16 * caida).toFixed(1)} 0 58)`);
+  dibujar(p2.cabeza, P(t, 4.9, .4)); dibujar(p2.cuerpo, P(t, 4.95, .8));
+  const lat = 1 + .05 * Math.sin(t * 3.2) * (t > 6.4 ? 1 : 0);
+  corazon.setAttribute('transform', `translate(${X2 + 760},474) scale(${(.75 * lat).toFixed(4)}) translate(${-(X2 + 760)},-585)`);
+  dibujar(corazon, P(t, 6.0, .6), t > 6.6 ? .45 + .15 * Math.sin(t * 3.2) : 1);
+  corazon.style.strokeDasharray = t > 6.6 ? '10 14' : corazon.style.strokeDasharray;   // vacío: el contorno se rompe
+  dibujar(bocadillo, P(t, 7.0, .5)); ver(piensa, P(t, 7.4, .4));
+  ver(vacio, P(t, 8.8, .35), 30); ver(sub2, P(t, 9.6, .4));
+};
+document.fonts.load('800 60px InterV').then(() => document.fonts.ready).then(() => { window.pintar(0); document.title = 'listo'; });
+</script>
+</body></html>

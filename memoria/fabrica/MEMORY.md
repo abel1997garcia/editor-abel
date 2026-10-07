@@ -1,0 +1,4 @@
+- [Fábrica de contenido](fabrica-contenido-sistema.md) — pipeline refs inglés→guiones con cerebro de marca y TABLERO; LM y planificación aparcados
+- [Guiones = habla, no texto](guiones-habla-no-texto.md) — un bloque fluido, una idea, su voz manda sobre reglas de las skills
+- [Coherencia del mensaje](coherencia-mensaje.md) — ningún contenido contradice a otro; registro afirmaciones.md
+- [Diferenciador + valor aplicable](diferenciador-y-valor-aplicable.md) — opinión fuerte propia y acción comprobable en cada pieza (consejo de su mentora)

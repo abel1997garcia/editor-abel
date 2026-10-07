@@ -1,0 +1,17 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:InterV;src:url('../fuentes/Inter-Variable.ttf');font-weight:100 900}
+@font-face{font-family:MontV;src:url('../../herramientas/fuentes/Montserrat-Variable.ttf');font-weight:100 900}
+@font-face{font-family:Helv;src:url('file:///C:/Users/Clap/AppData/Local/Microsoft/Windows/Fonts/HelveticaNeueBold.otf')}
+body{margin:0;background:#9bb3c4;width:1100px;font-family:Arial}
+.f{display:flex;align-items:center;gap:30px;padding:6px 20px}
+.e{width:300px;color:#111;font-size:22px}
+.m{color:#fff;font-size:150px;line-height:1;letter-spacing:-.03em;text-shadow:0 4px 18px rgba(0,0,0,.55)}
+</style></head><body>
+<div class="f"><div class="e">ORIGINAL</div><img src="ref.png" style="height:150px;image-rendering:auto"></div>
+<div class="f"><div class="e">Inter 900</div><div class="m" style="font-family:InterV;font-variation-settings:'wght' 900,'opsz' 32">adiós.</div></div>
+<div class="f"><div class="e">Inter 800</div><div class="m" style="font-family:InterV;font-variation-settings:'wght' 800,'opsz' 32">adiós.</div></div>
+<div class="f"><div class="e">Montserrat 900</div><div class="m" style="font-family:MontV;font-weight:900">adiós.</div></div>
+<div class="f"><div class="e">Helvetica Neue Bold</div><div class="m" style="font-family:Helv">adiós.</div></div>
+<div class="f"><div class="e">Arial Black</div><div class="m" style="font-family:'Arial Black'">adiós.</div></div>
+<script>document.fonts.ready.then(()=>document.title='listo')</script>
+</body></html>

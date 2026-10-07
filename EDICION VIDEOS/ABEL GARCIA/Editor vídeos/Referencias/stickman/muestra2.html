@@ -1,0 +1,100 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Mont;src:url('file:///C:/Users/Clap/AppData/Local/Microsoft/Windows/Fonts/Montserrat-SemiBold.ttf')}
+html,body{margin:0}
+.s{position:relative;width:1920px;height:1080px;overflow:hidden;background:#fff;color:#111;font-family:Mont}
+.t{position:absolute;white-space:nowrap;line-height:1.1;transform:translate(-50%,-50%);text-align:center}
+.ac{color:#1E7A46}
+svg{position:absolute;left:0;top:0;overflow:visible}
+.cab{position:absolute;transform:translate(-50%,-100%)}
+</style></head>
+<body>
+<!-- escena: la caja se mide a partir de su texto -->
+<div class="s" id="escena">
+  <svg id="sv" width="1920" height="1080"></svg>
+  <div class="t" id="tit" style="left:960px;top:150px;font-size:84px">Tu intención <span class="ac">real</span></div>
+  <div class="t" id="l1" style="left:830px;top:470px;font-size:40px">Lo que dices</div>
+  <div class="t" id="d1" style="left:830px;top:570px;font-size:56px">«Quiero ayudar»</div>
+  <div class="t" id="l2" style="left:1530px;top:470px;font-size:40px">Lo que buscas</div>
+  <div class="t ac" id="d2" style="left:1530px;top:570px;font-size:64px">Que te vean</div>
+  <div class="t" id="pie" style="left:1170px;top:880px;font-size:48px">…y eso es <span class="ac">ego</span>, no ayuda</div>
+  <div class="t" style="left:330px;top:250px;font-size:44px">Tú</div>
+  <img class="cab" src="caras/cabeza_225.png" style="left:330px;top:560px;width:230px">
+</div>
+<!-- el personaje con tres emociones -->
+<div class="s" id="pers">
+  <svg id="sv2" width="1920" height="1080"></svg>
+  <div class="t" style="left:960px;top:120px;font-size:72px">Tu <span class="ac">personaje</span></div>
+  <img class="cab" src="caras/cabeza_30.png" style="left:420px;top:545px;width:220px">
+  <img class="cab" src="caras/cabeza_225.png" style="left:960px;top:545px;width:220px">
+  <img class="cab" src="caras/cabeza_400.png" style="left:1500px;top:545px;width:220px">
+  <div class="t" style="left:420px;top:990px;font-size:40px">Tranquilo</div>
+  <div class="t" style="left:960px;top:990px;font-size:40px">Escéptico</div>
+  <div class="t ac" style="left:1500px;top:990px;font-size:40px">Convencido</div>
+</div>
+<script>
+// --- trazo a mano pero limpio: curvas suaves con un pulso pequeño y esquinas que se pasan un poco ---
+let semilla = 7; const az = () => (semilla = (semilla * 16807) % 2147483647) / 2147483647 - .5;
+const linea = (x1, y1, x2, y2, j = 4) => {        // recta con una leve curva, como un pulso de rotulador
+  const mx = (x1 + x2) / 2 + az() * j * 2, my = (y1 + y2) / 2 + az() * j * 2;
+  return `M${x1},${y1} Q${mx},${my} ${x2},${y2}`;
+};
+function caja(x, y, w, h) {                          // el recuadro se cierra pasándose un poco de la primera esquina
+  const o = 10, p = [[x - 4, y + 3], [x + w + 3, y - 2], [x + w - 2, y + h + 3], [x + 3, y + h - 2]];
+  let d = ''; for (let i = 0; i < 4; i++) { const a = p[i], b = p[(i + 1) % 4]; d += linea(a[0], a[1], b[0], b[1]) + ' '; }
+  return d + linea(p[0][0], p[0][1], p[0][0] + o, p[0][1] - 1);
+}
+function trazo(svg, d, color = '#111', ancho = 6) {
+  const e = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+  e.setAttribute('d', d); e.setAttribute('fill', 'none'); e.setAttribute('stroke', color);
+  e.setAttribute('stroke-width', ancho); e.setAttribute('stroke-linecap', 'round'); e.setAttribute('stroke-linejoin', 'round');
+  svg.appendChild(e);
+}
+function cuerpo(svg, cx, cuello, pose) {             // cuerpo de stickman bajo la cabeza
+  const cad = cuello + 230, s = svg;
+  trazo(s, `M${cx},${cuello} C${cx + 2},${cuello + 80} ${cx - 2},${cuello + 160} ${cx},${cad}`, '#111', 7);
+  trazo(s, `M${cx},${cad} C${cx - 20},${cad + 60} ${cx - 50},${cad + 120} ${cx - 70},${cad + 180}`, '#111', 7);
+  trazo(s, `M${cx},${cad} C${cx + 20},${cad + 60} ${cx + 50},${cad + 120} ${cx + 70},${cad + 180}`, '#111', 7);
+  const h = cuello + 60;
+  if (pose === 'señala') {
+    trazo(s, `M${cx},${h} C${cx + 60},${h - 10} ${cx + 120},${h - 30} ${cx + 175},${h - 70}`, '#111', 7);
+    trazo(s, `M${cx},${h} C${cx - 40},${h + 50} ${cx - 70},${h + 100} ${cx - 85},${h + 150}`, '#111', 7);
+  } else if (pose === 'brazos') {
+    trazo(s, `M${cx},${h} C${cx - 60},${h + 40} ${cx - 90},${h + 90} ${cx - 100},${h + 150}`, '#111', 7);
+    trazo(s, `M${cx},${h} C${cx + 60},${h + 40} ${cx + 90},${h + 90} ${cx + 100},${h + 150}`, '#111', 7);
+  } else if (pose === 'duda') {
+    trazo(s, `M${cx},${h} C${cx + 50},${h + 50} ${cx + 70},${h + 20} ${cx + 45},${h - 40}`, '#111', 7);
+    trazo(s, `M${cx},${h} C${cx - 40},${h + 50} ${cx - 70},${h + 100} ${cx - 85},${h + 150}`, '#111', 7);
+  } else {
+    trazo(s, `M${cx},${h} C${cx + 60},${h - 30} ${cx + 100},${h - 80} ${cx + 120},${h - 150}`, '#111', 7);
+    trazo(s, `M${cx},${h} C${cx - 60},${h - 30} ${cx - 100},${h - 80} ${cx - 120},${h - 150}`, '#111', 7);
+  }
+}
+document.fonts.ready.then(() => {
+  const sv = document.getElementById('sv'), r = id => document.getElementById(id).getBoundingClientRect();
+  // cajas a la medida de lo que llevan dentro (+ margen), el ancho de las dos cajas igualado
+  const pad = 44, w = Math.max(r('l1').width, r('d1').width, r('l2').width, r('d2').width) + pad * 2;
+  const top = r('l1').top - pad, h = r('d1').bottom - r('l1').top + pad * 2;
+  const xa = 830, xb = 1530;                         // centros de las cajas
+  trazo(sv, caja(xa - w / 2, top, w, h));
+  trazo(sv, caja(xb - w / 2, top, w, h), '#1E7A46');
+  // flecha centrada en el hueco que queda entre las dos cajas, con 26 px de aire a cada lado
+  const f0 = xa + w / 2 + 26, f1 = xb - w / 2 - 26, fy = top + h / 2;
+  if (f1 - f0 < 60) console.log('AVISO: no cabe la flecha entre las cajas');
+  trazo(sv, linea(f0, fy, f1, fy, 2) + ` M${f1 - 22},${fy - 18} L${f1},${fy} L${f1 - 22},${fy + 18}`, '#111', 6);
+  const d1 = r('d1'); trazo(sv, linea(d1.left - 6, d1.top + d1.height * .55, d1.right + 6, d1.top + d1.height * .5, 3), '#111', 6);
+  const ac = document.querySelector('#tit .ac').getBoundingClientRect();
+  trazo(sv, linea(ac.left - 6, ac.bottom + 4, ac.right + 8, ac.bottom + 2, 3), '#1E7A46', 8);
+  const eg = document.querySelector('#pie .ac').getBoundingClientRect();
+  // la palabra destacada, subrayada dos veces a mano (un círculo pisaría las palabras de al lado)
+  trazo(sv, linea(eg.left - 4, eg.bottom + 2, eg.right + 6, eg.bottom, 2), '#1E7A46', 6);
+  trazo(sv, linea(eg.left + 6, eg.bottom + 14, eg.right - 2, eg.bottom + 13, 2), '#1E7A46', 5);
+  trazo(sv, linea(330, 278, 330, 318, 1) + ' M316,302 L330,320 L344,302', '#111', 5);   // la flecha acaba antes de la cabeza
+  cuerpo(sv, 330, 552, 'señala');
+  const sv2 = document.getElementById('sv2');
+  cuerpo(sv2, 420, 537, 'brazos'); cuerpo(sv2, 960, 537, 'duda'); cuerpo(sv2, 1500, 537, 'arriba');
+  document.title = 'listo';
+});
+</script>
+</body></html>

@@ -1,0 +1,20 @@
+{
+ "fuente": "../../Sin buena intención jamás obtendrás la bendición.mp4",
+ "tiempos": "edicion/tiempos.json",
+ "salida": "out/variantes",
+ "reels": {
+  "reel_3": {
+   "gancho": [[802, 849]],
+   "cuerpo": [[696, 747], [616, 626], [628, 686]],
+   "quitar": [818, 720, 650, 651, 654, 655, 656],
+   "titulo": "Tu «quiero ayudar» es ego espiritual",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3"
+  },
+  "reel_3_v2": {
+   "de": "reel_3",
+   "gancho": [[696, 747]],
+   "cuerpo": [[802, 849], [616, 626], [628, 686]],
+   "titulo": "Si lo haces por dinero, dilo"
+  }
+ }
+}
