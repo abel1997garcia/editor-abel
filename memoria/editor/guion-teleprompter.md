@@ -26,8 +26,10 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 
 **3. FORMATO FINAL (Abel, 09/10/2026): igual que «G-001 · El móvil antes de dormir»** (Drive → FÁBRICA → PARA GRABAR → REELS, carpeta id `1pBu6bEIWbsMxds1mj7VhpKilNH2pLK9z`; los guiones se crean AHÍ, como Google Doc subido en markdown):
 - `# Título` y la línea en negrita «**Graba los 3 hooks y luego el cuerpo una vez. El cuerpo vale para cualquiera de los 3.**»;
-- `## Hooks`: 3 hooks adaptados, crudos y sueltos (no se repiten en el cuerpo);
-- `## Cuerpo`: UN párrafo seguido que encaja detrás de cualquiera de los 3, normalmente empezando con «Porque…»;
+- `## Hooks`: 3 hooks CORTOS y DIRECTOS. El primero es casi el del vídeo original (lo da la referencia), y los otros dos van en la misma línea y con la misma longitud. NUNCA más largos que el original. MAL (Abel 09/10: «gancho de mierda»): «Te puedes sentir pobre ganando 17.000 euros al mes, y te lo digo porque me pasó». BIEN: «Puedes ganar mucho dinero y sentirte pobre».
+- `## Cuerpo`: UN párrafo seguido que encaja detrás de cualquiera de los 3. EMPIEZA DIRECTO con la escena («Tú te levantas, visualizas…»), NO con «Porque…»;
+  - OBLIGATORIO, la COLLEJA de verdad («no veo ni una connotación negativa, no cumple»): lo que hace mal, que se está engañando, cómo repite el error y qué le va a pasar si sigue así, llevado al extremo («y así vas a seguir, ganes lo que ganes, toda tu vida», «vas a seguir en el mismo sitio dentro de diez años»);
+  - después, su prueba y la solución con una acción.
 - `## Descripción del post`: sin CTA, con #abelunidad #autoconocimiento #espiritualidad.
 - **NADA MÁS:** ni «guion para teleprompter», ni título de pantalla, ni nota.
 
@@ -40,6 +42,7 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 - una acción concreta y un golpe final rotundo.
 - Nada de frases cortas tipo telegrama ni texto de IA.
 
-**En la hoja «Referencias reels»** (sin las columnas Tipo y Notas, que quitó): Estado, Creador y visitas, Gancho original, Por qué funciona, enlace al guion.
+**En la hoja «Referencias reels»** (él quitó Tipo, Notas y Creador y visitas) quedan: URL, Estado, Gancho original, Por qué funciona y Guion para grabar (enlace).
+Las versiones que él rechaza se mueven a REELS/_descartados (id `1PFadK1T75WZu5yFef15NbaIK1S0n1WXk`). Drive no deja mandarlas a la papelera.
 
 **Primeros guiones (09/10/2026):** las referencias de @khadenhayward («tu siguiente nivel no requiere más, requiere menos» → soltar) y @theabundantmind_ («sentirte rico sin dinero» → lo que emites es lo que sientes). Docs enlazados en «Referencias reels».
