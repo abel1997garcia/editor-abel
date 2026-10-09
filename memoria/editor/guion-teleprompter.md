@@ -24,17 +24,15 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 
 **UNA IDEA = UN REEL.** Si la referencia es viral pero no cumple algo (no tiene colleja, mezcla ideas, no da solución…), se mira de qué va y se adapta hasta que cumpla la estructura.
 
-**⚠️ FORMATO VIGENTE DESDE 09/10/2026 (sustituye al cuerpo escrito): Abel lee el hook e IMPROVISA.** El doc lleva:
+**⚠️ FORMATO VIGENTE (Abel 09/10/2026, «demasiada info para hablar»): él lee el hook e IMPROVISA.** El doc lleva SOLO:
 - `# Título`;
 - `**Idea:**`;
 - `## Hooks` (3);
-- `## De qué hablar`, con 3 datos cortos:
-  1. **Lo que hace (colleja):** las collejas realistas y qué le va a pasar;
-  2. **De dónde viene:** la emoción y el niño o la niña interior, más «primero sientes y luego la cabeza se inventa las razones»;
-  3. **La solución:** simple, sin hablar de la mentoría;
+- `**Colleja:**` en MÁXIMO 2 frases;
+- `**Solución:**` aproximada, en 1 FRASE (con el niño o la niña interior, sin mentoría);
 - `## Descripción del post`.
 
-Ya NO se escribe el párrafo de cuerpo. Todas las reglas de abajo sobre collejas, solución y niño interior siguen valiendo para el contenido de esos 3 datos.
+NADA MÁS: ni cuerpo, ni «De qué hablar», ni datos extra. Las reglas de abajo sobre collejas y solución valen para el CONTENIDO de esas frases.
 
 **3. FORMATO ANTERIOR (sustituido, solo como referencia): igual que «G-001 · El móvil antes de dormir»** (Drive → FÁBRICA → PARA GRABAR → REELS, carpeta id `1pBu6bEIWbsMxds1mj7VhpKilNH2pLK9z`; los guiones se crean AHÍ, como Google Doc subido en markdown):
 - `# Título` y debajo **«Idea:» + máximo 4-5 palabras** que definan la idea (ej. «**Idea:** tu carencia no es económica»). NO poner «Graba los 3 hooks…», que ya lo sabe;
@@ -101,4 +99,4 @@ Las versiones que él rechaza se mueven a REELS/_descartados (id `1PFadK1T75WZu5
   - **NUNCA hablar de su trabajo ni de la mentoría en los reels** (Abel 09/10, «fundamental»: nada de «eso es justo lo que hago con la gente con la que trabajo»). Eso lo dice él de forma indirecta en YouTube. Como mucho, el cambio que se ve fuera («empezó a pedir lo que vale»).
   - **LO QUE MÁS LE GUSTA:** hablarle a la parte más profunda y sensible de la persona, a **ese niño o esa niña interior**, porque todas las emociones vienen de ahí. BIEN: «vio que era el miedo de ese niño que escuchaba que no llegaba, lo sanó…», «ese miedo a quedarte solo es el de ese niño o esa niña que un día sintió que si no aguantaba lo iban a dejar de querer». En cada solución, aterrizarlo al tema.
 - **Le habla a CUALQUIER PERSONA, no solo al hombre** (Abel 09/10: «todas las personas tienen emociones, ahí está la clave»), aunque los documentos del avatar digan hombre.
-- **Versión vigente (09/10):** «Puedes ganar mucho dinero…» `1T44eNhaFdw2TFNHHiA-Tc98eTWjJLFwmeV4FCcavZXM` · «Tu siguiente nivel…» `1GabC1lGYzqutmKfcyvrPLH2jcPD0Y9fHpAByK6ocY1w`. Las anteriores están en _descartados.
+- **Versión vigente (09/10):** «Puedes ganar mucho dinero…» `1clqG-6GdTJ1b82Kgy8ZBUTVcHhPNe1v2RXxRi49SafA` · «Tu siguiente nivel…» `1104kYlAXhPDBMwZVsSBc2g5g6V4Vt4WKrlpRD3z5BbI`. Las anteriores están en _descartados.
