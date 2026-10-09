@@ -22,6 +22,7 @@ Lista viva de ganchos según Abel (la va completando él; apuntar cada veredicto
 - «Te aseguro que en la vida no existe ninguna casualidad.»
 
 ## ❌ Malos (y por qué)
+- «Eres pobre aunque cobres el doble» (10/10/2026): no tiene sentido.
 - «Las dinámicas sociales son un reflejo de cómo tú estás…» (09/10/2026: «una mierda, ni para los trials»): no dice nada, no ataca ninguna creencia limitante y no tiene connotación negativa que remueva.
 - «Vas a comer puta mierda…» (trial c01 travesía) — sin contexto, no se sabe de qué habla (08/10).
 - «Nadie piensa en criticarte, todo el mundo está con su propia película» (trial c02 travesía) — fatal como gancho: falta el contexto de qué miedo rompe (08/10).
