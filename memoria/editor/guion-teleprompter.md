@@ -60,3 +60,18 @@ Las versiones que él rechaza se mueven a REELS/_descartados (id `1PFadK1T75WZu5
 - **HOOKS más POLÉMICOS** (ej. «Las afirmaciones de abundancia son una mentira que te cuentas», «Los cursos de desarrollo personal te están estancando»), y que CONECTEN con cómo empieza el cuerpo. El cuerpo arranca con una frase puente que encaja detrás de los 3 («Y lo sabes, porque…», «Y no es casualidad, porque…»).
 - **CUERPO con POCOS PUNTOS y MUCHAS COMAS:** frases largas que fluyen (unos 3 puntos en todo el cuerpo).
 - **UNA IDEA, UN REEL:** si la referencia habla de 2-3 cosas, elegir UNA: la que más tenga que ver con lo que vende (emociones, vibración, energía) o la que más le duela a la persona.
+
+**COLLEJAS MÁS PROFUNDAS Y REALISTAS (Abel, 09/10/2026, «ahí está el tema»):**
+- **Siempre en contra de lo que piensa la mayoría.** Se usan sus creencias (emociones antes que pensamientos, infancia, energía).
+- **Que sean lo que la persona SIENTE de verdad, nombrando la emoción real y para qué lo hace.** MAL: «tapar con frases bonitas algo que nunca has querido mirar» (no lo siente nadie así). BIEN: «te compras cosas que no necesitas para no ver el miedo que tienes».
+- **Profundizar:** varias collejas concretas, de dónde viene, cómo le está decidiendo la vida y qué le va a pasar. Cuantas más emociones y más preocupación, más necesidad y más fácil que compren.
+- **Escrito en el ORDEN DE HABLADO:**
+  - «vas a seguir así toda tu vida, ganes lo que ganes», no «así vas a seguir, ganes lo que ganes, toda tu vida»;
+  - verbos de la calle: «te suben el sueldo», no «llega el aumento»;
+  - nada de palabras de escrito: «la cifra», «una carencia que no has mirado».
+- **REALISTAS, del día a día, para que se vea reflejado** («cuando describas al 100 % lo que hace mal y se vea reflejado, es cuando va a comprar»).
+  - MAL, porque no lo hace casi nadie: «miras la cuenta diez veces al día».
+  - BIEN: «evitas mirar la app del banco porque te da miedo lo que vas a ver», «dices que no a planes porque "no puedes" y luego te gastas lo que sea…», «guardas reels de hábitos que nunca aplicas».
+  - Matizar lo que sea exagerado: no «sigues exactamente igual», sino «te dura la alegría dos semanas y vuelves al mismo miedo».
+- **SOLUCIÓN FINAL DIRECTA, «de barra de bar»:** plausible y dicha como lo diría en un bar. Ej.: «Así que deja de buscar el sueldo que te va a dar tranquilidad, que no existe, el día que mires de dónde te viene ese miedo y lo sanes, el dinero va a dejar de mandar en tu vida» / «Así que deja de sumar cosas, que no te hace falta nada más, suelta una sola de las que llevas cargando y vas a ver lo rápido que te mueves».
+- **Versión vigente (09/10):** «Puedes ganar mucho dinero…» `1VaZ4RP_jVGq3Jq7k9TwSUSKtUlLl3XNXTBJkiaTQkmM` · «Tu siguiente nivel…» `1kKTmdIwAQWOs9ADsAGWYb6RR1NJ_-qJnxQCosKBKfDw`. Las anteriores están en _descartados.
