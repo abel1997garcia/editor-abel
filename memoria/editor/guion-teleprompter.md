@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 3d4589e7-425f-4ade-ad39-5d4a51f78758
-  modified: 2026-10-09T18:45:01.375Z
+  modified: 2026-10-09T18:47:04.418Z
 ---
 
 Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una referencia de «Referencias reels» ([[referencias-virales]]).
@@ -86,6 +86,7 @@ Las versiones que él rechaza se mueven a REELS/_descartados (id `1PFadK1T75WZu5
   Sigue teniendo que entenderse a la primera.
 - **LA SOLUCIÓN LLEVA LO QUE LE DIFERENCIA, adaptado al tema (Abel 09/10: «si sabes lo que me diferencia, aplícalo, coño»).** Si no, la solución es de «cualquier coach».
   - Su explicación, en palabras simples: «primero sientes la emoción y luego tu cabeza se inventa las razones»; la emoción decide antes que la cabeza; viene de pequeño (el niño interior); sentirla en vez de taparla y sanarla; no es un problema de información.
-  - Una pincelada de la mentoría, solo de vez en cuando: el cambio que se ve fuera (pedir lo que vales…) o «eso es justo lo que hago con la gente con la que trabajo».
+  - **NUNCA hablar de su trabajo ni de la mentoría en los reels** (Abel 09/10, «fundamental»: nada de «eso es justo lo que hago con la gente con la que trabajo»). Eso lo dice él de forma indirecta en YouTube. Como mucho, el cambio que se ve fuera («empezó a pedir lo que vale»).
+  - **LO QUE MÁS LE GUSTA:** hablarle a la parte más profunda y sensible de la persona, a **ese niño o esa niña interior**, porque todas las emociones vienen de ahí. BIEN: «vio que era el miedo de ese niño que escuchaba que no llegaba, lo sanó…», «ese miedo a quedarte solo es el de ese niño o esa niña que un día sintió que si no aguantaba lo iban a dejar de querer». En cada solución, aterrizarlo al tema.
 - **Le habla a CUALQUIER PERSONA, no solo al hombre** (Abel 09/10: «todas las personas tienen emociones, ahí está la clave»), aunque los documentos del avatar digan hombre.
-- **Versión vigente (09/10):** «Puedes ganar mucho dinero…» `10rvAkPvjLD72ACTaYhf0EeXSnOZm6JT8NRj0vKVkYZ4` · «Tu siguiente nivel…» `1GqsgB1WGUU_eXV5zHYNBMwieVkRspDXzjfilWQ6cUZc`. Las anteriores están en _descartados.
+- **Versión vigente (09/10):** «Puedes ganar mucho dinero…» `10rvAkPvjLD72ACTaYhf0EeXSnOZm6JT8NRj0vKVkYZ4` · «Tu siguiente nivel…» `18T0P23juAXO7FrfOwEoun56O3WaA2Vub5TO52eUBVcU`. Las anteriores están en _descartados.
