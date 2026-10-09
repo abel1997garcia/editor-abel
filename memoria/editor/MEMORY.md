@@ -15,5 +15,5 @@
 - [Métricas de Instagram](metricas-instagram.md) — n8n diario → Google Sheet «Métricas Instagram · Abel»; yo enriquezco filas e informe semanal
 - [Copia de seguridad](copia-seguridad.md) — GitHub editor-abel + actualizar_copia.py (--subir, --usb); nunca subir settings.json ni claves
 - [Referencias virales](referencias-virales.md) — la buena es la Sheet «Referencias reels» (él pega SOLO la URL; yo descargo con yt-dlp, transcribo y escribo guion adaptado); NUNCA crear hojas nuevas
-- [Guiones para teleprompter](guion-teleprompter.md) — reels: él lee el hook e improvisa; doc = Idea + 3 hooks + Colleja (≤2 frases) + Solución (1 frase, niño/a interior) + descripción; nunca mentoría
+- [Guiones para teleprompter](guion-teleprompter.md) — referencias en INGLÉS: traducir el guion tal cual (sin presentaciones ni relleno), gancho intacto; si no, Idea + 3 hooks + Colleja + Solución; nunca mentoría
 - [Fichas de YouTube](fichas-youtube.md) — 3 vídeos/día (principal + energía sexual + documentación); UNA cosa concreta por vídeo (como el «yapping»), arranque pegado al tema, cada línea UNA frase

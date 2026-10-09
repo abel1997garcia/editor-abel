@@ -24,6 +24,15 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 
 **UNA IDEA = UN REEL.** Si la referencia es viral pero no cumple algo (no tiene colleja, mezcla ideas, no da solución…), se mira de qué va y se adapta hasta que cumpla la estructura.
 
+**🔴 REFERENCIAS EN INGLÉS (la mayoría; Abel 10/10/2026, MANDA SOBRE TODO LO DEMÁS):** son reels ya validados, así que NO se reescriben con colleja + solución. Se TRADUCE el guion del reel y se deja tal cual:
+- adaptado solo un poco para que se lea fácil en español;
+- se QUITA lo que no es info útil: «soy psicóloga y te explico…», «I was today years old», «así se lo enseño a mi hijo», «gracias, te quiero», repeticiones;
+- el gancho se deja tal cual (hook 1), y si falta connotación negativa se puede añadir un poco (p. ej., un cierre tipo «no es que estés bien, es que te has desconectado de tu cuerpo»);
+- nada de preguntas finales ni CTA.
+Formato del doc: `# Título` (el gancho) · `**Idea:**` · `## Hooks` (1 original + 2 variaciones cercanas con sentido) · `## Guion` (la traducción) · `## Descripción del post`.
+Primer lote con este formato (10/10): 5 reels (Quinlan Walther, Vassia Sar, drcoachrees, candasifamabarnes, its.jaygomez) en `Referencias/virales/lote_1010/`.
+Lo de abajo (colleja ≤ 2 frases + solución) vale SOLO para referencias en español o para ideas propias.
+
 **⚠️ FORMATO VIGENTE (Abel 09/10/2026, «demasiada info para hablar»; APROBADO: «estupendo, seguiremos así»): él lee el hook e IMPROVISA.** El doc lleva SOLO:
 - `# Título`;
 - `**Idea:**`;
