@@ -16,3 +16,4 @@
 - [Copia de seguridad](copia-seguridad.md) — GitHub editor-abel + actualizar_copia.py (--subir, --usb); nunca subir settings.json ni claves
 - [Referencias virales](referencias-virales.md) — la buena es la Sheet «Referencias reels» (él pega SOLO la URL; yo descargo con yt-dlp, transcribo y escribo guion adaptado); NUNCA crear hojas nuevas
 - [Guiones para teleprompter](guion-teleprompter.md) — de cada referencia: conservar lo que la hizo viral, adaptarla a quién vende, girarla a gancho→colleja→solución (una idea), texto SEGUIDO para leer en teleprompter, 90–140 palabras
+- [Fichas de YouTube](fichas-youtube.md) — 2 vídeos/día (principal + energía sexual); UNA cosa concreta por vídeo (como el «yapping»), título que la ataca, arranque ≈ título, 3 caras de esa misma cosa

@@ -37,3 +37,5 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 2. el título de pantalla: con connotación negativa y complementario del gancho, sin repetirlo;
 3. la descripción del post: sin CTA, con #abelunidad #autoconocimiento #espiritualidad;
 4. una nota corta: qué se tomó de la referencia y qué se ha girado.
+
+**Primeros guiones (09/10/2026):** las referencias de @khadenhayward («tu siguiente nivel no requiere más, requiere menos» → soltar) y @theabundantmind_ («sentirte rico sin dinero» → lo que emites es lo que sientes). Docs enlazados en «Referencias reels».
