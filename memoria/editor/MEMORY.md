@@ -13,3 +13,4 @@
 - [Flujo de reels paso a paso](flujo-reels-paso-a-paso.md) — LEER ANTES DE HACER REELS: publicar primero; trial = mismo reel cambiando solo el gancho; audio verificado antes de UN solo render
 - [Miniaturas: estilo nuevo](miniaturas-estilo.md) — fondo blanco siempre, foto real + escena de pizarra con intriga; herramientas/miniaturas; en prueba desde 09/10
 - [Métricas de Instagram](metricas-instagram.md) — n8n diario → Google Sheet «Métricas Instagram · Abel»; yo enriquezco filas e informe semanal
+- [Copia de seguridad](copia-seguridad.md) — GitHub editor-abel + actualizar_copia.py (--subir, --usb); nunca subir settings.json ni claves
