@@ -1,6 +1,9 @@
 # CTAs VÁLIDOS
 
-## Oferta única: Club Unidad
+## Oferta actual (09/10/2026): MENTORÍA 1:1
+Solo se vende la mentoría 1:1 (transformación + ayudarle a crear su servicio o proyecto). El Club Unidad grupal llegará cuando Abel no tenga más hueco para 1:1. Y sin CTA en reels ni en descripciones (regla de Abel, 09/10/2026).
+
+## Oferta futura: Club Unidad
 - **Modalidades:** grupal o 1:1.
 - **Gran Arcano** es un contenido DENTRO del Club Unidad, no un producto aparte. Se puede mencionar como parte del club (ej. en piezas de masculinidad, autocontrol y energía sexual), nunca como oferta independiente.
 - No existe ninguna otra oferta. No inventar productos, recursos gratuitos ni lead magnets.

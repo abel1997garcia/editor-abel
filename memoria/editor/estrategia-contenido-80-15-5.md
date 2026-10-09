@@ -45,3 +45,17 @@ Ver [[posicionamiento-abel]] y [[reels-marca-personal]].
 - Pendiente con Abel:
   - qué incluye exactamente el Club Unidad (formato, resultado, precio);
   - si el contenido le habla al hombre o a cualquiera. Sus documentos dicen hombre; él dice que el sexo y la edad dan igual.
+
+**09/10/2026 · QUÉ VENDE: solo MENTORÍA 1:1.** Vende la transformación de la frase y, dentro, ayuda a crear el servicio o proyecto que la persona quiere. La grupal (Club Unidad) llegará cuando no tenga hueco para más 1:1.
+**A QUIÉN:** `FÁBRICA DE CONTENIDO/01_MI_MARCA/A-QUIEN-LE-VENDO.pdf/.md`, generado con `a_quien_le_vendo.py`. Son 200 descripciones por situación, en 10 bloques:
+1. se sabotean aunque saben qué hacer;
+2. pareja y dependencia;
+3. lo consiguen y siguen vacíos;
+4. comparación;
+5. piloto automático y propósito;
+6. más dolor, más cabeza;
+7. infancia;
+8. espiritualidad o desarrollo personal que no cambia;
+9. complacencia y límites;
+10. quieren crear su servicio.
+Al proponer reels o elegir clips, partir de una de ellas.

@@ -10,21 +10,20 @@
   - conectan con el niño interior, que es quien manifiesta;
   - cuanto más dolor, más vives en la cabeza para no sentir, y desde ahí decides mal y te saboteas.
 
-## Qué vendo
-**Club Unidad** (grupal o 1:1; dentro, el Gran Arcano para autocontrol y energía sexual).
-- **La transformación:** de **sabotearte sin entender por qué** a **vivir y construir desde ti**.
-  - Dejas de repetir lo mismo.
-  - Dejas de anestesiarte y de demostrar.
-  - Sigues siendo ambicioso, pero sin vaciarte.
-- **La prueba:** el propio Abel.
+## Qué vendo (Abel, 09/10/2026)
+**MENTORÍA 1:1.** Es lo único que vende ahora. La grupal (Club Unidad) llega cuando ya no le quede tiempo para más 1:1.
+- **Qué compra la persona: la transformación** de la frase.
+  - Sanar las emociones que la sabotean.
+  - Dejar de repetir la misma historia.
+  - Vivir y construir desde sí misma.
+- **Además, dentro de la mentoría:** Abel la ayuda a **crear el servicio o proyecto que quiere**, «para lo que quieran hacer». Su experiencia con YouTube, los negocios y el contenido es parte del valor.
+- **La prueba es el propio Abel.**
   - Lo tuvo todo (17.000 €/mes, 100K) y estaba roto.
   - Lo perdió todo a los 26.
   - Australia.
   - Sanó y hoy construye desde otro sitio.
-- ⚠️ **Por definir** para venderlo bien:
-  - qué incluye exactamente (sesiones, duración, formato);
-  - qué resultado concreto se lleva el alumno en X semanas;
-  - el precio.
+- **Descripciones de a quién se le vende:** `A-QUIEN-LE-VENDO.pdf` (200, por situación). Sirven para elegir el ángulo de cada pieza.
+- ⚠️ **Por definir:** duración y formato de la mentoría (sesiones, semanas), el resultado concreto al terminar y el precio.
 
 ## A quién (segmento por SITUACIÓN, no por edad)
 Personas **funcionales por fuera y saboteadas por dentro**:
