@@ -32,6 +32,7 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 - `**Solución:**` aproximada, en 1 FRASE (con el niño o la niña interior, sin mentoría);
 - `## Descripción del post`.
 
+**HOOK 1 = EL GANCHO ORIGINAL DE LA REFERENCIA, SIN CAMBIARLO (Abel 10/10/2026).** Si la referencia está en inglés, se traduce literal y solo se adapta un poco para que se lea fácil en español, nada más (ej. «You can feel extremely rich before making money» → «Puedes sentirte rico antes de ganar dinero»). Los hooks 2 y 3 son alternativas propias. Esto sustituye a la regla anterior de «3 hooks distintos del original».
 HOOKS siempre DIRECTOS A LA PERSONA y, siempre que se pueda, de TÚ a TÚ; nunca una frase que solo da información (ver [[ganchos]]).
 
 NADA MÁS: ni cuerpo, ni «De qué hablar», ni datos extra. Las reglas de abajo sobre collejas y solución valen para el CONTENIDO de esas frases.
@@ -101,4 +102,4 @@ Las versiones que él rechaza se mueven a REELS/_descartados (id `1PFadK1T75WZu5
   - **NUNCA hablar de su trabajo ni de la mentoría en los reels** (Abel 09/10, «fundamental»: nada de «eso es justo lo que hago con la gente con la que trabajo»). Eso lo dice él de forma indirecta en YouTube. Como mucho, el cambio que se ve fuera («empezó a pedir lo que vale»).
   - **LO QUE MÁS LE GUSTA:** hablarle a la parte más profunda y sensible de la persona, a **ese niño o esa niña interior**, porque todas las emociones vienen de ahí. BIEN: «vio que era el miedo de ese niño que escuchaba que no llegaba, lo sanó…», «ese miedo a quedarte solo es el de ese niño o esa niña que un día sintió que si no aguantaba lo iban a dejar de querer». En cada solución, aterrizarlo al tema.
 - **Le habla a CUALQUIER PERSONA, no solo al hombre** (Abel 09/10: «todas las personas tienen emociones, ahí está la clave»), aunque los documentos del avatar digan hombre.
-- **Versión vigente (09/10):** «Puedes ganar mucho dinero…» `1clqG-6GdTJ1b82Kgy8ZBUTVcHhPNe1v2RXxRi49SafA` · «Tu siguiente nivel…» `1104kYlAXhPDBMwZVsSBc2g5g6V4Vt4WKrlpRD3z5BbI`. Las anteriores están en _descartados.
+- **Versión vigente (09/10):** «Puedes ganar mucho dinero…» `1I-XnTEs97sUq2iFiX9ujbUsXBwOHe3m_yIdbHoVynV0` · «Tu siguiente nivel…» `16XzcuoX43zWCvzzRp-H_7-oI9nnxOFACq1IWFeiQmKI`. Las anteriores están en _descartados.
