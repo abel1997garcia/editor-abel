@@ -12,6 +12,8 @@ Lista viva de ganchos según Abel (la va completando él; apuntar cada veredicto
 
 **Regla (08/10–09/10/2026):** el gancho ataca una **creencia limitante** con **connotación negativa** (remueve) y habla de un **dolor**, no de una promesa. Siempre en el horizontal; en el vertical, preferible.
 
+**CONDICIÓN OBLIGATORIA (Abel 09/10/2026): el gancho va SIEMPRE DIRECTO A LA PERSONA.** Si es una afirmación directa que la toca («Las adicciones como tal no existen»), vale. Si es solo información sobre un tema («Las dinámicas sociales son…»), NO se pone, ni en publicar ni en trial ni en los guiones. **Siempre que se pueda, de TÚ a TÚ** («Te…», «Tú…», «Eres…», «Cuanto más intentas…»).
+
 **Qué hace bueno a un gancho:** frase directa que **rompe una creencia universal** y se entiende sola, sin nada delante. Impacta en la primera frase.
 
 ## ✅ Buenos (08/10/2026)

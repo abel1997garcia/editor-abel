@@ -1,6 +1,6 @@
 - [Aprender de cada edición](aprender-de-cada-edicion.md) — Abel quiere que guarde errores y feedback tras cada vídeo para mejorar
 - [Registro de edición de Abel](registro-edicion-abel.md) — leer ANTES de editar: silencios con dos criterios (entre frases sí, dentro no), lo aprobado, errores a evitar
-- [Reels de marca personal](reels-marca-personal.md) — 4 formatos (F1 yapping 4:3, F2 una imagen abajo, F3 tablero, F4 talking head con imágenes); ESTRUCTURA OBLIGATORIA gancho → colleja → solución, sin CTA, 40–50 s; publicar/ y trial/
+- [Reels de marca personal](reels-marca-personal.md) — F1 yapping 4:3, F2 una imagen abajo, F3 tablero (los tres desde horizontales); F4 talking head SOLO para verticales del móvil; imágenes solo si complementan; ESTRUCTURA OBLIGATORIA gancho → colleja → solución, sin CTA, 40–50 s; publicar/ y trial/
 - [Estilo vídeos largos](estilo-videos-largos-stickman.md) — producto principal: su estructura intacta + pizarra blanca (stickman, silueta para energía), siempre en movimiento, zona 4:3
 - [Entorno skill animaciones](entorno-skill-animaciones.md) — instalación, fallos de Windows, fuentes y detección de caras
 - [Usar System Change](usar-system-change.md) — cambios permanentes a flujos/skills/reglas pasan antes por la skill system-change
@@ -16,4 +16,4 @@
 - [Copia de seguridad](copia-seguridad.md) — GitHub editor-abel + actualizar_copia.py (--subir, --usb); nunca subir settings.json ni claves
 - [Referencias virales](referencias-virales.md) — la buena es la Sheet «Referencias reels» (él pega SOLO la URL; yo descargo con yt-dlp, transcribo y escribo guion adaptado); NUNCA crear hojas nuevas
 - [Guiones para teleprompter](guion-teleprompter.md) — reels: él lee el hook e improvisa; doc = Idea + 3 hooks + Colleja (≤2 frases) + Solución (1 frase, niño/a interior) + descripción; nunca mentoría
-- [Fichas de YouTube](fichas-youtube.md) — 2 vídeos/día (principal + energía sexual); UNA cosa concreta por vídeo (como el «yapping»), título que la ataca, arranque ≈ título, 3 caras de esa misma cosa
+- [Fichas de YouTube](fichas-youtube.md) — 3 vídeos/día (principal + energía sexual + documentación); UNA cosa concreta por vídeo (como el «yapping»), arranque pegado al tema, cada línea UNA frase

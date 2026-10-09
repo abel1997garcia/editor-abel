@@ -24,13 +24,15 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 
 **UNA IDEA = UN REEL.** Si la referencia es viral pero no cumple algo (no tiene colleja, mezcla ideas, no da solución…), se mira de qué va y se adapta hasta que cumpla la estructura.
 
-**⚠️ FORMATO VIGENTE (Abel 09/10/2026, «demasiada info para hablar»): él lee el hook e IMPROVISA.** El doc lleva SOLO:
+**⚠️ FORMATO VIGENTE (Abel 09/10/2026, «demasiada info para hablar»; APROBADO: «estupendo, seguiremos así»): él lee el hook e IMPROVISA.** El doc lleva SOLO:
 - `# Título`;
 - `**Idea:**`;
 - `## Hooks` (3);
 - `**Colleja:**` en MÁXIMO 2 frases;
 - `**Solución:**` aproximada, en 1 FRASE (con el niño o la niña interior, sin mentoría);
 - `## Descripción del post`.
+
+HOOKS siempre DIRECTOS A LA PERSONA y, siempre que se pueda, de TÚ a TÚ; nunca una frase que solo da información (ver [[ganchos]]).
 
 NADA MÁS: ni cuerpo, ni «De qué hablar», ni datos extra. Las reglas de abajo sobre collejas y solución valen para el CONTENIDO de esas frases.
 
