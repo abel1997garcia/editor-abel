@@ -25,7 +25,7 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 **UNA IDEA = UN REEL.** Si la referencia es viral pero no cumple algo (no tiene colleja, mezcla ideas, no da solución…), se mira de qué va y se adapta hasta que cumpla la estructura.
 
 **3. FORMATO FINAL (Abel, 09/10/2026): igual que «G-001 · El móvil antes de dormir»** (Drive → FÁBRICA → PARA GRABAR → REELS, carpeta id `1pBu6bEIWbsMxds1mj7VhpKilNH2pLK9z`; los guiones se crean AHÍ, como Google Doc subido en markdown):
-- `# Título` y la línea en negrita «**Graba los 3 hooks y luego el cuerpo una vez. El cuerpo vale para cualquiera de los 3.**»;
+- `# Título` y debajo **«Idea:» + máximo 4-5 palabras** que definan la idea (ej. «**Idea:** tu carencia no es económica»). NO poner «Graba los 3 hooks…», que ya lo sabe;
 - `## Hooks`: 3 hooks CORTOS y DIRECTOS. El primero es casi el del vídeo original (lo da la referencia), y los otros dos van en la misma línea y con la misma longitud. NUNCA más largos que el original. MAL (Abel 09/10: «gancho de mierda»): «Te puedes sentir pobre ganando 17.000 euros al mes, y te lo digo porque me pasó». BIEN: «Puedes ganar mucho dinero y sentirte pobre».
 - `## Cuerpo`: UN párrafo seguido que encaja detrás de cualquiera de los 3. EMPIEZA DIRECTO con la escena («Tú te levantas, visualizas…»), NO con «Porque…»;
   - OBLIGATORIO, la COLLEJA de verdad («no veo ni una connotación negativa, no cumple»): lo que hace mal, que se está engañando, cómo repite el error y qué le va a pasar si sigue así, llevado al extremo («y así vas a seguir, ganes lo que ganes, toda tu vida», «vas a seguir en el mismo sitio dentro de diez años»);
@@ -55,3 +55,8 @@ Las versiones que él rechaza se mueven a REELS/_descartados (id `1PFadK1T75WZu5
 - **Hablar de la OTRA persona, no de Abel.** Nada de 17.000 €, Australia, etc. en cada reel («si hablas mucho de mí no va a tener éxito; eso ya lo verán en YouTube»). Como mucho, un apunte suyo breve y concreto.
 - **Los 3 hooks, TRES DISTINTOS entre sí y distintos del título/gancho original.** No reutilizar el título como hook 1. Cortos y directos.
 - **Las versiones anteriores de los dos primeros guiones** están en REELS/_descartados.
+
+**Ajustes del 09/10/2026 (última versión aprobada en espíritu):**
+- **HOOKS más POLÉMICOS** (ej. «Las afirmaciones de abundancia son una mentira que te cuentas», «Los cursos de desarrollo personal te están estancando»), y que CONECTEN con cómo empieza el cuerpo. El cuerpo arranca con una frase puente que encaja detrás de los 3 («Y lo sabes, porque…», «Y no es casualidad, porque…»).
+- **CUERPO con POCOS PUNTOS y MUCHAS COMAS:** frases largas que fluyen (unos 3 puntos en todo el cuerpo).
+- **UNA IDEA, UN REEL:** si la referencia habla de 2-3 cosas, elegir UNA: la que más tenga que ver con lo que vende (emociones, vibración, energía) o la que más le duela a la persona.
