@@ -24,18 +24,22 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 
 **UNA IDEA = UN REEL.** Si la referencia es viral pero no cumple algo (no tiene colleja, mezcla ideas, no da solución…), se mira de qué va y se adapta hasta que cumpla la estructura.
 
-**3. Escrito para SER HABLADO en un teleprompter:**
-- **Texto SEGUIDO, en párrafos, NO una frase por línea** («queda muy raro»).
-- Un párrafo por parte (gancho / colleja / solución), con una línea en blanco entre ellos.
-- Su voz: frases que fluyen («y», «porque», «o sea») más golpes cortos; muletillas suyas con moderación.
-- Nada que se trabe al leer: sin paréntesis, sin «;» ni símbolos; números escritos como se dicen; sin tecnicismos ni frases de IA.
-- 30–50 s hablados (≈ 90–140 palabras).
-- Prueba final: leerlo en voz alta. Si no lo diría él, reescribir.
+**3. FORMATO FINAL (Abel, 09/10/2026): igual que «G-001 · El móvil antes de dormir»** (Drive → FÁBRICA → PARA GRABAR → REELS, carpeta id `1pBu6bEIWbsMxds1mj7VhpKilNH2pLK9z`; los guiones se crean AHÍ, como Google Doc subido en markdown):
+- `# Título` y la línea en negrita «**Graba los 3 hooks y luego el cuerpo una vez. El cuerpo vale para cualquiera de los 3.**»;
+- `## Hooks`: 3 hooks adaptados, crudos y sueltos (no se repiten en el cuerpo);
+- `## Cuerpo`: UN párrafo seguido que encaja detrás de cualquiera de los 3, normalmente empezando con «Porque…»;
+- `## Descripción del post`: sin CTA, con #abelunidad #autoconocimiento #espiritualidad.
+- **NADA MÁS:** ni «guion para teleprompter», ni título de pantalla, ni nota.
 
-**4. El Google Doc de cada guion** (enlazado en la columna «Guion para grabar» de «Referencias reels»):
-1. el guion limpio para pegar en la app del teleprompter;
-2. el título de pantalla: con connotación negativa y complementario del gancho, sin repetirlo;
-3. la descripción del post: sin CTA, con #abelunidad #autoconocimiento #espiritualidad;
-4. una nota corta: qué se tomó de la referencia y qué se ha girado.
+**Estilo del cuerpo (muy hablado, ver `mi-voz/mi-voz.md` y G-001):**
+- MUCHAS COMAS que marquen dónde respira;
+- frases que se encadenan con «y», «porque», «o sea»;
+- diálogos entre comillas («no, si yo no veo las noticias…»);
+- preguntas que se responde él («¿Y sabes por qué? Fíjate en una cosa.»);
+- su prueba sin adornos («Y mira que yo lo hacía…»), hablándole de TÚ;
+- una acción concreta y un golpe final rotundo.
+- Nada de frases cortas tipo telegrama ni texto de IA.
+
+**En la hoja «Referencias reels»** (sin las columnas Tipo y Notas, que quitó): Estado, Creador y visitas, Gancho original, Por qué funciona, enlace al guion.
 
 **Primeros guiones (09/10/2026):** las referencias de @khadenhayward («tu siguiente nivel no requiere más, requiere menos» → soltar) y @theabundantmind_ («sentirte rico sin dinero» → lo que emites es lo que sientes). Docs enlazados en «Referencias reels».
