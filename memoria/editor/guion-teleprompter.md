@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 3d4589e7-425f-4ade-ad39-5d4a51f78758
-  modified: 2026-10-09T17:52:51.789Z
+  modified: 2026-10-09T18:38:29.771Z
 ---
 
 Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una referencia de «Referencias reels» ([[referencias-virales]]).
@@ -73,5 +73,9 @@ Las versiones que él rechaza se mueven a REELS/_descartados (id `1PFadK1T75WZu5
   - MAL, porque no lo hace casi nadie: «miras la cuenta diez veces al día».
   - BIEN: «evitas mirar la app del banco porque te da miedo lo que vas a ver», «dices que no a planes porque "no puedes" y luego te gastas lo que sea…», «guardas reels de hábitos que nunca aplicas».
   - Matizar lo que sea exagerado: no «sigues exactamente igual», sino «te dura la alegría dos semanas y vuelves al mismo miedo».
-- **SOLUCIÓN FINAL DIRECTA, «de barra de bar»:** plausible y dicha como lo diría en un bar. Ej.: «Así que deja de buscar el sueldo que te va a dar tranquilidad, que no existe, el día que mires de dónde te viene ese miedo y lo sanes, el dinero va a dejar de mandar en tu vida» / «Así que deja de sumar cosas, que no te hace falta nada más, suelta una sola de las que llevas cargando y vas a ver lo rápido que te mueves».
-- **Versión vigente (09/10):** «Puedes ganar mucho dinero…» `1VaZ4RP_jVGq3Jq7k9TwSUSKtUlLl3XNXTBJkiaTQkmM` · «Tu siguiente nivel…» `1kKTmdIwAQWOs9ADsAGWYb6RR1NJ_-qJnxQCosKBKfDw`. Las anteriores están en _descartados.
+- **SOLUCIÓN SENCILLA, QUE SE ENTIENDA A LA PRIMERA (Abel 09/10: «no las entiende ni Dios», «¿qué coño me estás diciendo?»):**
+  - NO es un «final» bonito ni una frase redonda: es solo la parte de solución, dicha directa.
+  - Una ACCIÓN CONCRETA que cualquiera pueda hacer mañana (qué hacer, cuándo) + por qué, en palabras de la calle.
+  - Nada de metáforas ni abstracciones («suelta lo que llevas cargando», «el dinero dejará de mandar en tu vida», «lo rápido que te mueves»).
+  - BIEN: «Así que la próxima vez que te agobie el dinero, no te compres nada para calmarte, para, pregúntate de qué tienes miedo de verdad y empieza a trabajar eso, porque mientras ese miedo siga ahí, da igual lo que ganes» / «Así que antes de apuntarte a otro curso, apunta en un papel lo que te está quitando energía, esa relación, ese trabajo, esa amistad que te deja peor, y elige una para dejarla esta semana, porque vas a avanzar más con eso que con diez cursos».
+- **Versión vigente (09/10):** «Puedes ganar mucho dinero…» `1XaysSpjNL5WGOtcM9AG42g8gSHRrBan3tOGHVGHUUho` · «Tu siguiente nivel…» `1HkXxJ7deC6npDAg5CnjMNvjHBRt2DzwTHLOffu84-40`. Las anteriores están en _descartados.
