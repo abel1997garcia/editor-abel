@@ -15,7 +15,7 @@
 | CTA | CTA-xx |
 | Estado | ✍️ Guion |
 
-## 5 hooks alternativos
+## Hooks (3, crudos, aparte del cuerpo)
 
 ## Guion para hablar
 _(bloque corrido, tal cual se dice, sin títulos de sección. Como mucho alguna [indicación] mínima de dirección)_

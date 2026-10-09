@@ -1,0 +1,70 @@
+{
+ "fuente": "../../VideosLargos/intencion-masculina/la intencion y energia masculina - horizontal.mp4",
+ "tiempos": "../../VideosLargos/intencion-masculina/anim/trabajo/tiempos.json",
+ "montaje": "../../VideosLargos/intencion-masculina/anim/edicion/montaje.json",
+ "salida": "out_f1",
+ "reels": {
+  "c01_g2e2_F1": {
+   "gancho": [
+    [
+     1069,
+     1084
+    ]
+   ],
+   "cuerpo": [
+    [
+     704,
+     721
+    ],
+    [
+     725,
+     771
+    ],
+    [
+     772,
+     802
+    ]
+   ],
+   "final": [
+    [
+     1133,
+     1173
+    ]
+   ],
+   "titulo": "Lo que persigues se te escapa",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3"
+  },
+  "c03_g2e2_F1": {
+   "gancho": [
+    [
+     1995,
+     2004
+    ],
+    [
+     2017,
+     2028
+    ]
+   ],
+   "cuerpo": [
+    [
+     2029,
+     2111
+    ],
+    [
+     159,
+     198
+    ]
+   ],
+   "final": [
+    [
+     2005,
+     2016
+    ]
+   ],
+   "titulo": "Te tratan según cómo estás tú",
+   "musica": "EMOCIONAL/Tony Ann - ICARUS _ EPIC Orchestral Version.mp3"
+  }
+ },
+ "toma": "../../VideosLargos/intencion-masculina/toma_limpia.mov",
+ "ventanas": "../../VideosLargos/intencion-masculina/ventanas.json"
+}

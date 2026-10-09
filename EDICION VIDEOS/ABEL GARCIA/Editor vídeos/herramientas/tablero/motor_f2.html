@@ -1,0 +1,138 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+/* F3 · TABLERO (maquetas MarcaPersonal/formato3/maqueta_formato3_*.png). Lo genera reel_tablero.py: datos.js + escenas.js */
+@font-face{font-family:M;src:url(Montserrat-Variable.ttf);font-weight:100 900}
+html,body{margin:0;background:#fff}
+#r{position:relative;width:1080px;height:1920px;overflow:hidden;background:#fff;font-family:M}
+.abs{position:absolute;left:0;top:0;transform-origin:center;will-change:transform}
+.pill{background:#111;color:#fff;font-weight:800;font-size:48px;line-height:1.12;padding:16px 38px;border-radius:44px;text-align:center;white-space:nowrap;letter-spacing:-.01em}
+.big{font-weight:800;letter-spacing:-.025em;white-space:nowrap;line-height:1;color:#fff;text-shadow:0 4px 18px rgba(0,0,0,.6),0 0 3px rgba(0,0,0,.7)}
+.m{font-weight:600;letter-spacing:-.01em;color:#fff;white-space:nowrap;line-height:1;text-shadow:0 3px 12px rgba(0,0,0,.6)}
+.emo{font-family:'Segoe UI Emoji';line-height:1}
+#tarjeta{position:absolute;left:0;top:0;width:1080px;height:760px;overflow:hidden;background:#ccc}
+#tarjeta img{position:absolute;left:0;top:0}
+#banda{position:absolute;left:0;top:760px;width:1080px;height:180px;background:#fff;display:flex;align-items:flex-start;justify-content:center;padding-top:20px;box-sizing:border-box;z-index:3}
+#tit{font-weight:700;font-size:60px;line-height:1.12;text-align:center;color:#111;letter-spacing:.005em}
+#abajo{position:absolute;left:0;top:940px;width:1080px;height:980px;overflow:hidden;background:#111;z-index:0}
+.img{position:absolute;left:0;top:0;width:1080px;height:980px;background-size:cover;background-repeat:no-repeat;will-change:transform,opacity}
+#sub{font-weight:800;letter-spacing:-.01em;white-space:nowrap;line-height:1;color:#fff;z-index:4;text-shadow:0 3px 0 rgba(0,0,0,.55),0 0 14px rgba(0,0,0,.65)}
+svg{position:absolute;left:0;top:0;overflow:visible}
+</style></head><body><div id="r"><div id="abajo"></div><svg id="s" width="1080" height="1920" style="z-index:2"></svg><div id="tarjeta"><img id="foto"></div><div id="banda"><div id="tit"></div></div></div>
+<script src="datos.js"></script><script>
+/* ---------- motor ---------- */
+const R = document.getElementById('r'), S = document.getElementById('s'), TJ = document.getElementById('tarjeta'), FOTO = document.getElementById('foto');
+const NS = 'http://www.w3.org/2000/svg', NEGRO = '#111', GRIS = '#9a9a9a';
+const C = { raiz: '#C8372D', sacro: '#E06A1B', plexo: '#C99A00', corazon: '#1E7A46', garganta: '#1D7FD1', ojo: '#3F3FB5', corona: '#7A3FC4' };
+const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v)), lerp = (a, b, k) => a + (b - a) * k;
+const P = (t, t0, d) => clamp((t - t0) / Math.max(d, 1e-3)), out = u => 1 - (1 - u) ** 3, io = u => u < .5 ? 4 * u ** 3 : 1 - (-2 * u + 2) ** 3 / 2;
+const back = u => u <= 0 ? 0 : u >= 1 ? 1 : 1 + 2.7 * (u - 1) ** 3 + 1.7 * (u - 1) ** 2;
+/* bloques: cada gráfico vive en su tramo de tablero (se crea dentro de bloque() y solo se ve ahí) */
+let CUR_G = null, CUR_D = null; const BLQ = [];
+const el = (cls, html) => { const e = document.createElement('div'); e.className = 'abs ' + cls; e.innerHTML = html; if (CUR_D) CUR_D.appendChild(e); else R.insertBefore(e, TJ); return e; };
+function bloque(a, b, crear) {
+  CUR_G = document.createElementNS('http://www.w3.org/2000/svg', 'g'); S.appendChild(CUR_G);
+  CUR_D = document.createElement('div'); CUR_D.style.cssText = 'position:absolute;left:0;top:0'; R.insertBefore(CUR_D, TJ);
+  const b0 = { a, b, g: CUR_G, d: CUR_D }; b0.fn = crear(a, b); CUR_G = CUR_D = null; BLQ.push(b0); }
+const pon = (e, x, y, s = 1, o = 1, r = 0) => { e.style.opacity = clamp(o).toFixed(3); e.style.transform = `translate(${x.toFixed(1)}px,${y.toFixed(1)}px) translate(-50%,-50%) rotate(${r}deg) scale(${s.toFixed(4)})`; };
+function path(d = '', c = NEGRO, w = 9, fill = 'none', svg = S) { const p = document.createElementNS(NS, 'path'); p.setAttribute('d', d); p.setAttribute('fill', fill); p.setAttribute('stroke', c); p.setAttribute('stroke-width', w); p.setAttribute('stroke-linecap', 'round'); p.setAttribute('stroke-linejoin', 'round'); p.setAttribute('pathLength', 1); p.style.strokeDasharray = 1; (svg === S && CUR_G ? CUR_G : svg).appendChild(p); return p; }
+const dib = (p, u, o = 1) => { p.style.strokeDashoffset = (1 - clamp(u)).toFixed(4); p.style.opacity = u > 0 ? clamp(o).toFixed(3) : 0; if (p.getAttribute('fill') !== 'none') p.style.fillOpacity = clamp(u * 2 - 1) * o; };
+const norm = w => w.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9ñ%]/g, '');
+/* tiempo (s del reel) en que empieza la palabra, buscándola desde ~desde */
+function en(palabra, desde = 0) { const f = palabra.split(' ').map(norm);
+  for (let k = 0; k < PAL.length; k++) { if (PAL[k][1] < desde - .6) continue; if (f.every((w, j) => PAL[k + j] && norm(PAL[k + j][0]) === w)) return PAL[k][1]; }
+  console.error(`en: no encuentro «${palabra}» desde ${desde}`); return desde; }
+const finDe = (frase, desde = 0) => { const a = en(frase, desde), k = PAL.findIndex(x => x[1] === a) + frase.split(' ').length - 1; return PAL[k][2]; };
+/* efectos de sonido (herramientas/sonidos/usos.md): nunca dos a menos de 0,3 s */
+const SFX = []; window.SFX = SFX;
+function suena(t, id, vol = .3) { if (t < 0 || SFX.some(x => Math.abs(x[0] - t) < .3)) return; SFX.push([+t.toFixed(3), id, vol]); }
+/* modo en t: 'tablero' o 'grande' (con su transición) */
+const modoEn = t => { let m = MODOS[0][1], t0 = 0; for (const [a, b] of MODOS) if (t >= a) { m = b; t0 = a; } return { m, t0 }; };
+const enTablero = t => modoEn(t).m === 'tablero';
+/* cuánto se ve el tablero (1) o él en grande (0), con la transición de .35 s */
+function kTablero(t) { const { m, t0 } = modoEn(t), k = io(P(t, t0, .35)); return m === 'tablero' ? (t0 === 0 ? 1 : k) : 1 - k; }
+
+/* tramos de tablero [a, b] en orden: TABLEROS[0] es el gancho */
+const TABLEROS = MODOS.map(([a, m], i) => [a, i + 1 < MODOS.length ? MODOS[i + 1][0] : DUR, m]).filter(x => x[2] === 'tablero').map(([a, b]) => [a, b]);
+
+/* ---------- piezas comunes ---------- */
+const AC = ACENTO;
+/* texto grande que entra con un rebote en su palabra. 'palabra|color' = destacada */
+function texto(frase, t0, o = {}) {
+  const html = frase.split(' ').map(w => { const m = w.match(/^(.*?)\|([a-z]+)$/); return m ? `<span style="color:${m[2] === 'ac' ? AC : C[m[2]] || m[2]}">${m[1]}</span>` : w; }).join(' ');
+  const e = el(o.m ? 'm' : 'big', html); e.style.fontSize = (o.tam || 96) + 'px'; e._t0 = t0; e._o = o;
+  if (o.sonido !== false) suena(t0 - .05, (o.tam || 96) >= 100 ? 'golpe-corto' : 'tick-suave', (o.tam || 96) >= 100 ? .3 : .22);
+  return e;
+}
+let KT = 1;   // cuánto se ve el tablero: todo lo de las escenas se apaga con él
+function pt(e, t, x, y, o = 1, s = 1) { const k = back(P(t, e._t0 - .15, .4)); pon(e, x, y, s * lerp(.7, 1, k), Math.min(o, P(t, e._t0 - .15, .15) * 3) * KT); }
+const pe = (e, t, x, y, s = 1) => pt(e, t, x, y, 1, s);
+function pastilla(txt, t0, o = {}) { const e = el('pill', txt); if (o.ac) e.style.background = AC; if (o.tam) e.style.fontSize = o.tam + 'px'; e._t0 = t0; if (o.sonido !== false) suena(t0 - .05, 'pop', .3); return e; }
+function emoji(ch, t0, tam = 110) { const e = el('emo', ch); e.style.fontSize = tam + 'px'; e._t0 = t0; suena(t0 - .05, 'pop', .3); return e; }
+const circulo = (cx, cy, r) => `M${cx - r},${cy} A${r},${r} 0 1 1 ${cx + r},${cy} A${r},${r} 0 1 1 ${cx - r},${cy}`;
+const cajaR = (x, y, w, h, r = 22) => `M${x + r},${y} L${x + w - r},${y} Q${x + w},${y} ${x + w},${y + r} L${x + w},${y + h - r} Q${x + w},${y + h} ${x + w - r},${y + h} L${x + r},${y + h} Q${x},${y + h} ${x},${y + h - r} L${x},${y + r} Q${x},${y} ${x + r},${y} Z`;
+const flecha = (x1, y1, x2, y2, k = 26) => { const a = Math.atan2(y2 - y1, x2 - x1); return `M${x1},${y1} L${x2},${y2} M${(x2 - k * Math.cos(a - .5)).toFixed(1)},${(y2 - k * Math.sin(a - .5)).toFixed(1)} L${x2},${y2} L${(x2 - k * Math.cos(a + .5)).toFixed(1)},${(y2 - k * Math.sin(a + .5)).toFixed(1)}`; };
+const tick = (x, y, s = 1) => `M${x - 24 * s},${y} L${x - 6 * s},${y + 19 * s} L${x + 28 * s},${y - 24 * s}`;
+const cruz = (x, y, s = 1) => `M${x - 20 * s},${y - 20 * s} L${x + 20 * s},${y + 20 * s} M${x + 20 * s},${y - 20 * s} L${x - 20 * s},${y + 20 * s}`;
+const onda = (x1, x2, y, A, fase, k = 5) => { let d = ''; for (let i = 0; i <= 60; i++) { const x = lerp(x1, x2, i / 60); d += (i ? 'L' : 'M') + x.toFixed(1) + ',' + (y + A * Math.sin(i / 60 * Math.PI * 2 * k + fase)).toFixed(1) + ' '; } return d; };
+/* barra horizontal (negro frente al acento) */
+function barra(color = NEGRO) { return { fondo: path('', '#ececec', 44), b: path('', color, 44) }; }
+function pintarBarra(b, t, t0, x, y, w, v, o = 1) { b.fondo.setAttribute('d', `M${x},${y} L${x + w},${y}`); dib(b.fondo, 1 * (t > t0 - .3), o);
+  const vv = v * out(P(t, t0, .7)); b.b.setAttribute('d', `M${x},${y} L${(x + Math.max(1, w * vv)).toFixed(1)},${y}`); dib(b.b, t > t0 ? 1 : 0, o); }
+/* stickman sencillo de una pieza (x, y = suelo); brazos: 0 caídos … 1 arriba */
+function stickman(color = NEGRO) { return { cab: path('', color, 8), cuerpo: path('', color, 8) }; }
+function pintarStick(f, t, t0, x, y, s = 1, brazos = 0, o = 1) {
+  const hy = y - 330 * s, a = lerp(.25, 2.6, brazos), L = 110 * s, hx = 0;
+  f.cab.setAttribute('d', circulo(x, hy - 48 * s, 42 * s));
+  const hom = [x, hy + 10 * s], cad = [x, y - 150 * s];
+  f.cuerpo.setAttribute('d', `M${x - Math.sin(a) * L},${hom[1] + Math.cos(a) * L} L${hom[0]},${hom[1]} L${x + Math.sin(a) * L},${hom[1] + Math.cos(a) * L} M${hom[0]},${hom[1] - 4 * s} L${cad[0]},${cad[1]} M${x - 45 * s},${y} L${cad[0]},${cad[1]} L${x + 45 * s},${y}`);
+  dib(f.cab, out(P(t, t0, .3)), o); dib(f.cuerpo, out(P(t, t0 + .15, .4)), o);
+  return { cabeza: { x, y: hy - 48 * s }, pecho: { x, y: hy + 60 * s } };
+}
+/* silueta grande del boceto de Abel (energía y cuerpo); x, y = pies; centros como en la pizarra */
+const MITAD = [[[-30, 128], [-52, 140], [-62, 162]], [[-76, 205], [-86, 300], [-86, 398]], [[-86, 432], [-60, 436], [-58, 404]],
+  [[-56, 330], [-50, 262], [-44, 222]], [[-44, 300], [-46, 362], [-44, 424]], [[-48, 505], [-50, 585], [-46, 662]],
+  [[-44, 694], [-14, 694], [-12, 662]], [[-10, 592], [-8, 524], [0, 466]]];
+function _silD(x, y, s) { const f = ([a, b]) => `${(x + a * s).toFixed(1)},${(y - 694 * s + b * s).toFixed(1)}`, m = ([a, b]) => [-a, b], ini = [-13, 122];
+  let d = `M${f(ini)} `; MITAD.forEach(([a, b, c]) => d += `C${f(a)} ${f(b)} ${f(c)} `);
+  for (let i = MITAD.length - 1; i >= 0; i--) { const [a, b] = MITAD[i]; d += `C${f(m(b))} ${f(m(a))} ${f(m(i ? MITAD[i - 1][2] : ini))} `; } return d; }
+const CENTROS = { corona: -18, ojo: 56, garganta: 140, corazon: 224, plexo: 306, sacro: 384, raiz: 446 };
+function silueta(color = NEGRO) { return { cab: path('', color, 7), cu: path('', color, 7) }; }
+function pintarSilueta(sl, t, t0, x, y, s = 1, o = 1) {
+  sl.cab.setAttribute('d', `M${x - 40 * s},${y - 694 * s + 58 * s} C${x - 40 * s},${y - 694 * s + 22 * s} ${x - 18 * s},${y - 690 * s} ${x + 2 * s},${y - 690 * s} C${x + 24 * s},${y - 690 * s} ${x + 40 * s},${y - 668 * s} ${x + 40 * s},${y - 634 * s} C${x + 40 * s},${y - 602 * s} ${x + 22 * s},${y - 582 * s} ${x},${y - 582 * s} C${x - 22 * s},${y - 582 * s} ${x - 40 * s},${y - 600 * s} ${x - 40 * s},${y - 636 * s} Z`);
+  sl.cu.setAttribute('d', _silD(x, y, s)); dib(sl.cab, out(P(t, t0, .4)), o); dib(sl.cu, out(P(t, t0 + .2, .9)), o);
+  return c => ({ x, y: y - 694 * s + CENTROS[c] * s });
+}
+
+/* ---------- él arriba (0–760), centrado en su cara, sin ampliar de más ---------- */
+function pintarTarjeta(t) { const sc = Math.max(1080 / FW, 760 / FH) * 1.02, iw = FW * sc, ih = FH * sc;
+  Object.assign(FOTO.style, { width: iw + 'px', height: ih + 'px', left: clamp(540 - FX * sc, 1080 - iw, 0) + 'px', top: (760 - ih) * .4 + 'px' }); return { k: 1 }; }
+document.getElementById('tit').innerHTML = TITULO.join('<br>');
+/* ---------- imágenes abajo (940–1920): acercamiento lento, transición al cambiar; fx, fy = punto importante (0–1) ---------- */
+const ABAJO = document.getElementById('abajo'), IMGS = [];
+function imagen(src, t0, t1, o = {}) { const d = document.createElement('div'); d.className = 'img'; if (src) d.style.backgroundImage = `url(${src})`; else d.style.background = '#fff';   // sin foto: panel blanco para un esquema
+  d.style.backgroundPosition = `${(o.fx ?? .5) * 100}% ${(o.fy ?? .5) * 100}%`; ABAJO.appendChild(d); const im = { d, t0, t1, z: o.zoom || .08 }; IMGS.push(im);
+  if (t0 > .1) suena(t0, 'aire', .25); return im; }
+function pintarImagenes(t) { IMGS.forEach((im, i) => { const k = io(P(t, im.t0 - .2, .45)), fin = im.t1 < DUR ? 1 - P(t, im.t1, .01) : 1;
+  im.d.style.opacity = (i === 0 ? 1 : k) * (t < im.t1 + .45 ? 1 : 0); im.d.style.display = t > im.t0 - .25 && t < im.t1 + .5 ? '' : 'none';
+  im.d.style.transform = `translateX(${((1 - k) * 60).toFixed(1)}px) scale(${(1 + im.z * P(t, im.t0 - .2, im.t1 - im.t0 + .5)).toFixed(4)})`; im.d.style.zIndex = i; }); }
+/* ---------- subtítulos: 1–2 palabras; negro sobre el tablero, blanco sobre él ---------- */
+const SUB = el('', ''); SUB.id = 'sub';
+const BLOQUES = []; for (let i = 0; i < PAL.length;) { const w = PAL[i][0], n = PAL[i + 1]; const dos = n && (norm(w).length <= 3 || norm(n[0]).length <= 2) && n[1] - PAL[i][2] < .25;
+  BLOQUES.push([dos ? w + ' ' + n[0] : w, PAL[i][1]]); i += dos ? 2 : 1; }
+function pintarSub(t, k) {
+  const b = [...BLOQUES].reverse().find(x => x[1] <= t + .03); SUB.textContent = b ? b[0].replace(/^~/, '') : '';
+  const s = 1 + .07 * (1 - P(t, b ? b[1] : 0, .12)); SUB.style.fontSize = '66px';
+  pon(SUB, 540, 650, s, b ? 1 : 0);
+}
+/* ---------- el gráfico de cada reel (escenas.js) pinta solo con el tablero a la vista ---------- */
+let ESC = () => {};
+window.cargarFoto = i => new Promise(res => { FOTO.onload = res; FOTO.onerror = res; FOTO.src = `frames/${String(i + 1).padStart(5, '0')}.jpg`; });
+window.pintar = t => {
+  const { k } = pintarTarjeta(t);
+  pintarImagenes(t); KT = 1;
+  for (const q of BLQ) { const v = t >= q.a - .1 && t <= q.b + .45; q.g.style.display = q.d.style.display = v ? '' : 'none'; if (v) q.fn(t); }
+  ESC(t, k);
+  pintarSub(t, k);
+};
+</script><script src="escenas.js"></script><script>
+document.fonts.load('800 20px M').then(() => document.fonts.load('600 20px M')).then(async () => { await window.cargarFoto(0); window.pintar(0); document.title = 'listo'; });
+</script></body></html>

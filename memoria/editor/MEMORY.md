@@ -1,7 +1,15 @@
 - [Aprender de cada edición](aprender-de-cada-edicion.md) — Abel quiere que guarde errores y feedback tras cada vídeo para mejorar
 - [Registro de edición de Abel](registro-edicion-abel.md) — leer ANTES de editar: silencios con dos criterios (entre frases sí, dentro no), lo aprobado, errores a evitar
-- [Reels de marca personal](reels-marca-personal.md) — 3 formatos (F1 yapping 4:3, F2 imagen abajo, F3 tablero); mensajes → reels gancho+estructura+formato en publicar/ y trial/
+- [Reels de marca personal](reels-marca-personal.md) — 4 formatos (F1 yapping 4:3, F2 una imagen abajo, F3 tablero, F4 talking head con imágenes); ESTRUCTURA OBLIGATORIA gancho → colleja → solución, sin CTA, 40–50 s; publicar/ y trial/
 - [Estilo vídeos largos](estilo-videos-largos-stickman.md) — producto principal: su estructura intacta + pizarra blanca (stickman, silueta para energía), siempre en movimiento, zona 4:3
 - [Entorno skill animaciones](entorno-skill-animaciones.md) — instalación, fallos de Windows, fuentes y detección de caras
 - [Usar System Change](usar-system-change.md) — cambios permanentes a flujos/skills/reglas pasan antes por la skill system-change
 - [Marca y Fábrica de contenido](posicionamiento-abel.md) — su marca vive en FÁBRICA DE CONTENIDO (creencias, voz, afirmaciones): leer su plan PG antes de editar y actualizar su TABLERO al terminar
+- [Ganchos buenos y malos](ganchos.md) — lista viva con sus veredictos: leer antes de elegir un gancho
+- [Programar en YouTube](reels-marca-personal.md) — n8n + `herramientas/youtube/programar_youtube.py`: principal 16-18-20-22-00 h, trial 17-19-21 h; con su OK las primeras semanas (desde 09/10)
+- [Fotos y vídeos de su vida](fotos-vida-abel.md) — su línea de tiempo completa (de «Mi Historia») + FOTOS MIAS por época: leer antes de usar una foto o contar su historia, nunca mezclar épocas
+- [Estrategia 80/15/5 y FRASE CENTRAL](estrategia-contenido-80-15-5.md) — «Te enseño a sanar tus emociones para que dejen de sabotear tu propia vida» (todo apunta ahí); 80 % conexión (vídeos largos), 15 % nicho viral (referencias virales adaptadas), 5 % venta; sus dudas de avatar
+- [Criterios de contenido útil](criterios-contenido-util.md) — al elegir clips, reels o vídeos de YouTube: que se reconozca (dolor), «la galletita» aplicable, creencia atacada desde su lente; nunca solo educativo
+- [Flujo de reels paso a paso](flujo-reels-paso-a-paso.md) — LEER ANTES DE HACER REELS: publicar primero; trial = mismo reel cambiando solo el gancho; audio verificado antes de UN solo render
+- [Miniaturas: estilo nuevo](miniaturas-estilo.md) — fondo blanco siempre, foto real + escena de pizarra con intriga; herramientas/miniaturas; en prueba desde 09/10
+- [Métricas de Instagram](metricas-instagram.md) — n8n diario → Google Sheet «Métricas Instagram · Abel»; yo enriquezco filas e informe semanal

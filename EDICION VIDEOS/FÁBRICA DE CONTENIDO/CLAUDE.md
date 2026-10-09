@@ -38,7 +38,10 @@ Mis vídeos son habla convertida en texto, no al revés. Lee SIEMPRE `01_MI_MARC
 - **Una sola idea por vídeo**, pocas piezas, todo fluido. Fácil de grabar: se entiende la idea y sale sola.
 - **El guion se entrega como un bloque de texto corrido**, tal cual se diría. SIN títulos de sección dentro (nada de [HOOK], [CONTEXTO]…). Si hace falta mostrar la estructura, va aparte en una línea de "mapa".
 - Ritmo mío: frases largas que fluyen ("y", "porque", "o sea") + golpes cortos que rematan. **Esto prevalece sobre la regla de "máximo 10 palabras por frase" de las skills.**
-- Hook = verdad rotunda en la primera frase ("Si…, …" / "Tú…"). Sin introducciones.
+- **Hooks de reel:** crudos, directos, algo polémicos, que paren el scroll (el 90% del éxito). Son frases APARTE: se graban sueltos y el cuerpo empieza después SIN repetir el hook, y tiene que encajar detrás de cualquiera de los 3. El estilo se afina con lo que funcione en las referencias.
+- **Emocional y contra la creencia:** no basta con describir lo que hace la persona. Hay que poner en palabras lo que siente y lo que se dice por dentro (su diálogo interno del doc 01 / la frase entre comillas del banco) y atacar esa creencia u objeción. Si el texto solo describe el hábito, no vale.
+- **Nunca acabar un reel en pregunta.** Golpe final rotundo; la pregunta para comentar va en la descripción.
+- **Teleprompter:** leo el texto literal, así que tiene que leerse en voz alta con fluidez y sonar a mí hablando.
 - Diálogos dramatizados entre «», preguntas retóricas que me respondo yo, ejemplos concretos, mi prueba personal sin adornos, cierre corto y rotundo.
 - Muletillas mías permitidas con moderación: "o sea", "vale", "mira", "fíjate en una cosa", "¡Pam!", "te lo prometo"…
 - Nada de teoría en lista, ni estructuras escritas (paréntesis, punto y coma, "en primer lugar"), ni copy de IA.
@@ -151,3 +154,39 @@ Abajo, en "PARA CLAUDE", va la ficha (creencia, momentos, diferenciador, coheren
 La edición la hace Claude en `C:/Users/Clap/Desktop/EDICION VIDEOS/ABEL GARCIA/Editor vídeos`. Las dos carpetas comparten este cerebro:
 - **Editor → lee de aquí:** el plan `PG-xxx` del vídeo grabado y `01_MI_MARCA/` (creencias, afirmaciones, correcciones, mi-voz) para ganchos, títulos y descripciones. Este cerebro es la única fuente de la marca.
 - **Editor → escribe aquí:** al terminar un vídeo maestro actualiza este `TABLERO.md` (fila del PG con los horizontales y reels sacados, y la cobertura) y, cuando Abel pase métricas, `06_RESULTADOS/` y los aprendizajes.
+
+## Regla nº 11 — Los 3 tipos de reel y su reparto (15 / 80 / 5)
+
+Todo reel (guionizado, sacado del yapping o adaptado de una referencia) se clasifica en un tipo, y el tablero vigila que el reparto se mantenga:
+
+| Tipo | % | Para qué sirve | De dónde sale | Nivel |
+|---|---|---|---|---|
+| **NV · Nicho viral** | ~15% | Alcance: que me descubra gente nueva. Formatos virales dentro del nicho | Formato/estructura de referencias que han petado + dolores universales del avatar. Lleva igualmente mi toque y algo aplicable | N0-N1 |
+| **CO · Consolidación** | ~80% | Que me conozcan: lo que pienso, las creencias que derribo, mi forma de ver la vida, mi diferenciador. Conectar y derribar creencias y objeciones | C1-C8, frases de batalla, banco B-001…B-123, momentos M | N1-N3 |
+| **VE · Venta** | ~5% | Vender sin vender: testimonios, resultados, cómo es trabajar conmigo, mis objetivos (de facturación o los que sean). Que quieran trabajar conmigo, sin venta directa | Banco de objeciones de compra B-124…B-162 (dinero, confianza en el método, después de dar el paso, vergüenza, miedo a fallar) + material real que me pase Abel | N4-N5 |
+
+- Con las referencias de Instagram: se apunta **su tipo** y se adapta a ese tipo (una referencia viral se adapta como NV, no se convierte en consolidación a la fuerza).
+- **Venta (VE):** nunca inventar testimonios, resultados ni cifras. Solo con material real que me pase Abel. Nunca el cliente médium (ni nombre ni cifras). El CTA UNIDAD sigue en stand by hasta que Abel lo active.
+- Antes de proponer una tanda, mira el reparto del tablero y avisa si se desvía (por ejemplo, demasiada consolidación y nada de viral).
+
+## Regla nº 12 — Google Sheets (entrada) y Google Drive (salida al móvil)
+
+Grabo con el móvil, así que todo lo que tengo que grabar tiene que estar en Google Drive. Se usan los conectores de Google Sheets y Google Drive (no hace falta Drive instalado en el PC).
+
+**IDs fijos:**
+- Carpeta Drive `FÁBRICA DE CONTENIDO`: `1siP4ig7ur4aunm5Y6VLXrdVi6tFhm1tR`
+- Subcarpeta `PARA GRABAR`: `134_hrLrJ4mGow1UPoZN6Cy_ccEhzI8sO`
+  - `PARA GRABAR/REELS`: `1pBu6bEIWbsMxds1mj7VhpKilNH2pLK9z` (guiones de reel)
+  - `PARA GRABAR/VÍDEOS LARGOS`: `148UgxlLx_9nMWMchJg5kvcwLtp3kgtDj` (planes de vídeo maestro)
+- Hoja `Referencias reels`: `171W5sSMonD1FJ34tANzeGzzRMSukeAYtiwQ4bZwRa3k` (pestaña `Hoja 1`)
+- Subcarpeta `GRABADOS (sube aquí tus vídeos)`: `11T484Y_Ey8ltifaQZPHeFayg2YvgbeG1`
+
+**Entrada:** yo SOLO pego en la columna A las URLs de reels que destacan en visitas dentro de su perfil y encajan con lo que quiero transmitir. Todo lo demás lo rellenas tú: B Estado, C Tipo (NV/CO/VE), D Creador y visitas, E Gancho original, F Por qué funciona (breve), G enlace al documento de PARA GRABAR, H Notas. **El guion NUNCA va dentro de la hoja**, solo el enlace. Tú lees las filas con URL y sin estado, descargas cada reel con `yt-dlp` a `00_BANDEJA/` (pidiéndome confirmación antes de descargar), lo transcribes en local, creas la ficha REF en `02_REFERENCIAS/`, la clasificas (NV/CO/VE), pasas la comprobación de coherencia y adaptas. Luego rellenas en la hoja ESTADO, ID, archivo y notas (por ejemplo, "no adaptado: choca con C3").
+
+**Salida:** cada guion o plan aprobado se sube a `PARA GRABAR` como documento de Google (crear con `contentMimeType: text/markdown`), SOLO con lo necesario para grabar:
+- Reel (a `REELS`): título, los 3 hooks y el cuerpo corrido. Nada más.
+- Vídeo maestro (a `VÍDEOS LARGOS`): la parte "PARA GRABAR" (títulos, intros y las 4 ideas por vídeo).
+- Nada de fichas, IDs internos ni checks. Nombre: `G-xxx · título` o `PG-xxx · tema`.
+Como la API de Drive no deja editar el contenido, si se corrige un guion se crea el documento nuevo y el antiguo va a la papelera.
+
+**Reels grabados:** grabo el cuerpo una vez y los 3 hooks seguidos, y subo los vídeos a `GRABADOS` con el ID en el nombre (por ejemplo `G-001`). De ahí se descargan para editarlos (regla 10), montando las 3 versiones hook + cuerpo.

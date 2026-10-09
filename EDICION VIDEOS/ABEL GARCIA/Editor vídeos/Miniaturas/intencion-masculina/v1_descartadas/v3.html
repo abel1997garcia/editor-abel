@@ -1,0 +1,17 @@
+<!doctype html><meta charset="utf-8">
+<link rel="stylesheet" href="../../herramientas/miniaturas/base.css">
+<div id="escena" style="--acento:#C8372D"></div>
+<script src="../../herramientas/miniaturas/base.js"></script>
+<script>
+// «sin propósito.» — un hombre sin propósito: la batería del pecho al 3 %
+foto('recorte_343.33.png', { x: -65, y: -83, ancho: 1728 });
+const s = svg();
+const p = silueta(s, 300, 722, .82);
+const [cx, cy] = p(0, 262);
+// batería vertical en el pecho, con una sola rayita roja abajo
+trazo(s, `M${cx - 30},${cy - 62} h60 a8,8 0 0 1 8,8 v108 a8,8 0 0 1 -8,8 h-60 a8,8 0 0 1 -8,-8 v-108 a8,8 0 0 1 8,-8 Z`, { ancho: 6, relleno: '#fff' });
+trazo(s, `M${cx - 14},${cy - 74} h28`, { ancho: 9 });
+trazo(s, `M${cx - 22},${cy + 44} h44 v8 h-44 Z`, { ancho: 3, color: C.raiz, relleno: C.raiz });
+const t = texto('3%', { x: cx + 70, y: cy - 30, tam: 64, css: { color: C.raiz } });
+texto('sin <span class="c">propósito.</span>', { x: 40, y: 28, tam: 112 });
+</script>

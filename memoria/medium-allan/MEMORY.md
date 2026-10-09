@@ -1,0 +1,6 @@
+- [OBLIGATORIO: cortes y empalmes](cortes-palabras-obligatorio.md) — nunca cortar dentro de una palabra (3 quejas: «exist», «cort»); escuchar TODOS los empalmes antes de entregar
+- [Estilo reel franjas azules](estilo-reel-franjas-azules.md) — reel vertical de Allan con franjas azules: título 60px / subtítulos 44px Montserrat negros, gancho primero, fluido, 50–90 s
+- [Proceso reels Allan](proceso-reels-allan.md) — flujo aprobado: transcribir/alinear, elegir ganchos y mensaje, guion de cortes, montar y verificar
+- [Fallos edición reels Allan](fallos-edicion-reels-allan.md) — desincronía audio/vídeo (primordial), microcortes y ráfagas de cortes, tamaños, muletillas coladas; medir siempre
+- [Descripción Instagram de cada reel](descripcion-instagram-reels.md) — .txt junto a cada vídeo: gancho crudo entre comillas 👇, conexión, objeción, pregunta, CTA "INFO" de sesiones
+- [Estilo reel franja negra](estilo-reel-franja-negra.md) — canalizaciones: Allan arriba, persona abajo, franja negra con subtítulos Montserrat Bold MAYÚSCULAS 2–3 palabras; gancho = mensaje + confirmación

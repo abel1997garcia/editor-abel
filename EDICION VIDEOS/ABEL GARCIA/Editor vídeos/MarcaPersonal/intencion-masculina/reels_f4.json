@@ -1,0 +1,39 @@
+{
+ "fuente": "../../VideosLargos/intencion-masculina/toma_limpia.mov",
+ "tiempos": "../../VideosLargos/intencion-masculina/anim/trabajo/tiempos.json",
+ "salida": "out_f4",
+ "mejorar": true,
+ "reels": {
+  "prueba_F4": {
+   "formato": "F4",
+   "imagenes": "imagenes_f4",
+   "escenas": "c02f4.js",
+   "tramos": [
+    [
+     "todo es energía te lo aseguro",
+     "pero si se siente",
+     680
+    ],
+    [
+     "y tú puedes sentir muchas cosas",
+     "y tú puedes sentir muchas cosas",
+     687
+    ],
+    [
+     "puedes sentir cuando tienes ansiedad",
+     "construir la vida que tú quieras",
+     690
+    ],
+    [
+     "así que ten muy en cuenta",
+     "depender toda tu vida",
+     715
+    ]
+   ],
+   "titulo": "Todo es energía, aunque no la veas",
+   "titulo_hasta": 5,
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3",
+   "acento": "corazon"
+  }
+ }
+}

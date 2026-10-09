@@ -1,0 +1,97 @@
+{
+ "fuente": "../../VideosLargos/intencion-masculina/toma_limpia.mov",
+ "tiempos": "../../VideosLargos/intencion-masculina/anim/trabajo/tiempos.json",
+ "salida": "out",
+ "reels": {
+  "c01_frecuencia": {
+   "tramos": [
+    [
+     "nunca se trata de la otra persona",
+     "proyectar en la realidad",
+     219
+    ],
+    [
+     "claro que la realidad parece",
+     "todo es como tú te sientes",
+     238
+    ],
+    [
+     "como todo es un reflejo",
+     "atraer eso mismo",
+     325
+    ],
+    [
+     "pero es todo inconsciente",
+     "lo que realmente funciona",
+     347
+    ]
+   ],
+   "titulo": "Atraes a quien vibra como tú",
+   "acento": "corona",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3",
+   "escenas": "c01.js",
+   "quitar": [
+    [
+     "que estés tú",
+     225
+    ]
+   ]
+  },
+  "c02_energia": {
+   "tramos": [
+    [
+     "todo es energía te lo aseguro",
+     "pero si se siente",
+     680
+    ],
+    [
+     "y tú puedes sentir muchas cosas",
+     "y tú puedes sentir muchas cosas",
+     687
+    ],
+    [
+     "puedes sentir cuando tienes ansiedad",
+     "construir la vida que tú quieras",
+     690
+    ],
+    [
+     "así que ten muy en cuenta",
+     "depender toda tu vida",
+     715
+    ]
+   ],
+   "titulo": "Todo es energía aunque no la veas",
+   "acento": "corazon",
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3",
+   "escenas": "c02.js"
+  },
+  "c03_respeto": {
+   "tramos": [
+    [
+     "si tú te respetas realmente",
+     "te van a respetar",
+     600
+    ],
+    [
+     "las dinámicas sociales es un reflejo",
+     "de cómo tú estás",
+     598
+    ],
+    [
+     "porque básicamente",
+     "llegando a tu mejor versión",
+     604
+    ],
+    [
+     "siempre digo que la intención",
+     "detrás va la energía",
+     45
+    ]
+   ],
+   "titulo": "Si te respetas, te van a respetar",
+   "acento": "plexo",
+   "musica": "EMOCIONAL/Tony Ann - ICARUS _ EPIC Orchestral Version.mp3",
+   "escenas": "c03.js"
+  }
+ }
+}

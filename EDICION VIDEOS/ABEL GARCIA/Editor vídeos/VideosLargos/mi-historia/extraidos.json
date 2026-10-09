@@ -1,0 +1,1016 @@
+[
+ {
+  "archivo": "_extraidos/000_00m02.5s.png",
+  "a": 2.5,
+  "b": 17.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/002_00m41.0s.png",
+  "a": 41.0,
+  "b": 45.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/004_00m51.0s.png",
+  "a": 51.0,
+  "b": 56.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/005_01m02.0s.png",
+  "a": 62.0,
+  "b": 66.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/007_01m12.0s.mp4",
+  "a": 72.0,
+  "b": 83.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/008_01m43.5s.mp4",
+  "a": 103.5,
+  "b": 107.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/009_01m49.0s.png",
+  "a": 109.0,
+  "b": 114.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/010_02m39.0s.png",
+  "a": 159.0,
+  "b": 163.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/012_03m27.5s.png",
+  "a": 207.5,
+  "b": 212.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/013_04m05.0s.png",
+  "a": 245.0,
+  "b": 253.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/014_04m13.0s.png",
+  "a": 253.0,
+  "b": 261.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/015_05m08.5s.png",
+  "a": 308.5,
+  "b": 318.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/017_06m06.5s.png",
+  "a": 366.5,
+  "b": 374.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/018_06m56.0s.mp4",
+  "a": 416.0,
+  "b": 418.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/019_06m58.0s.mp4",
+  "a": 418.0,
+  "b": 419.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/020_06m59.5s.mp4",
+  "a": 419.5,
+  "b": 421.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/021_07m01.0s.mp4",
+  "a": 421.0,
+  "b": 423.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/022_07m03.0s.mp4",
+  "a": 423.0,
+  "b": 424.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/023_07m04.5s.mp4",
+  "a": 424.5,
+  "b": 426.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/024_07m06.0s.mp4",
+  "a": 426.0,
+  "b": 430.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/025_07m10.0s.mp4",
+  "a": 430.0,
+  "b": 431.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/026_07m11.5s.mp4",
+  "a": 431.5,
+  "b": 433.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/027_07m13.0s.mp4",
+  "a": 433.0,
+  "b": 434.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/028_07m48.5s.png",
+  "a": 468.5,
+  "b": 476.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/030_08m21.0s.png",
+  "a": 501.0,
+  "b": 511.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/031_08m31.0s.png",
+  "a": 511.0,
+  "b": 525.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/033_10m03.0s.png",
+  "a": 603.0,
+  "b": 609.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/035_10m54.0s.png",
+  "a": 654.0,
+  "b": 658.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/037_11m06.0s.png",
+  "a": 666.0,
+  "b": 675.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/039_12m57.0s.png",
+  "a": 777.0,
+  "b": 782.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/040_13m09.0s.png",
+  "a": 789.0,
+  "b": 793.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/042_13m16.5s.png",
+  "a": 796.5,
+  "b": 801.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/043_14m27.0s.png",
+  "a": 867.0,
+  "b": 876.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/044_16m07.0s.png",
+  "a": 967.0,
+  "b": 994.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/045_16m46.0s.png",
+  "a": 1006.0,
+  "b": 1030.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/047_17m16.5s.png",
+  "a": 1036.5,
+  "b": 1050.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/049_17m59.0s.png",
+  "a": 1079.0,
+  "b": 1087.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/051_22m11.5s.png",
+  "a": 1331.5,
+  "b": 1355.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/052_22m50.5s.png",
+  "a": 1370.5,
+  "b": 1398.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/053_23m18.5s.png",
+  "a": 1398.5,
+  "b": 1436.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/054_24m12.5s.png",
+  "a": 1452.5,
+  "b": 1468.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/056_26m30.0s.png",
+  "a": 1590.0,
+  "b": 1597.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/058_26m51.5s.png",
+  "a": 1611.5,
+  "b": 1620.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/059_27m41.5s.mp4",
+  "a": 1661.5,
+  "b": 1666.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/060_27m46.0s.mp4",
+  "a": 1666.0,
+  "b": 1669.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/061_27m49.0s.mp4",
+  "a": 1669.0,
+  "b": 1670.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/062_27m50.5s.mp4",
+  "a": 1670.5,
+  "b": 1672.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/063_27m52.0s.mp4",
+  "a": 1672.0,
+  "b": 1674.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/064_27m54.5s.mp4",
+  "a": 1674.5,
+  "b": 1679.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/065_27m59.0s.mp4",
+  "a": 1679.0,
+  "b": 1684.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/066_28m04.0s.mp4",
+  "a": 1684.0,
+  "b": 1684.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/067_28m04.5s.png",
+  "a": 1684.5,
+  "b": 1689.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/068_28m09.0s.png",
+  "a": 1689.0,
+  "b": 1694.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/070_30m28.5s.png",
+  "a": 1828.5,
+  "b": 1842.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/072_33m02.0s.png",
+  "a": 1982.0,
+  "b": 1998.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/073_34m44.5s.png",
+  "a": 2084.5,
+  "b": 2094.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/074_36m05.5s.mp4",
+  "a": 2165.5,
+  "b": 2167.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/075_36m07.0s.mp4",
+  "a": 2167.0,
+  "b": 2169.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/076_36m09.0s.mp4",
+  "a": 2169.0,
+  "b": 2171.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/077_36m11.5s.mp4",
+  "a": 2171.5,
+  "b": 2173.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/078_36m13.0s.mp4",
+  "a": 2173.0,
+  "b": 2175.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/079_36m15.0s.mp4",
+  "a": 2175.0,
+  "b": 2178.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/080_36m18.0s.mp4",
+  "a": 2178.0,
+  "b": 2179.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/081_36m19.5s.mp4",
+  "a": 2179.5,
+  "b": 2181.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/082_36m21.0s.mp4",
+  "a": 2181.0,
+  "b": 2182.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/083_36m22.5s.mp4",
+  "a": 2182.5,
+  "b": 2184.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/084_36m24.0s.mp4",
+  "a": 2184.0,
+  "b": 2186.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/085_36m26.0s.mp4",
+  "a": 2186.0,
+  "b": 2188.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/086_36m28.5s.mp4",
+  "a": 2188.5,
+  "b": 2190.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/087_36m30.0s.mp4",
+  "a": 2190.0,
+  "b": 2191.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/088_36m31.5s.mp4",
+  "a": 2191.5,
+  "b": 2193.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/089_36m33.5s.mp4",
+  "a": 2193.5,
+  "b": 2196.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/090_36m36.5s.mp4",
+  "a": 2196.5,
+  "b": 2198.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/091_36m38.0s.mp4",
+  "a": 2198.0,
+  "b": 2200.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/092_36m40.5s.mp4",
+  "a": 2200.5,
+  "b": 2202.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/093_36m42.0s.mp4",
+  "a": 2202.0,
+  "b": 2203.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/094_36m43.5s.mp4",
+  "a": 2203.5,
+  "b": 2207.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/095_36m47.0s.mp4",
+  "a": 2207.0,
+  "b": 2209.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/096_36m49.0s.mp4",
+  "a": 2209.0,
+  "b": 2211.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/097_36m51.5s.mp4",
+  "a": 2211.5,
+  "b": 2213.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/098_36m53.0s.mp4",
+  "a": 2213.0,
+  "b": 2214.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/099_36m54.5s.mp4",
+  "a": 2214.5,
+  "b": 2217.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/100_36m57.0s.mp4",
+  "a": 2217.0,
+  "b": 2218.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/101_36m58.5s.mp4",
+  "a": 2218.5,
+  "b": 2220.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/102_37m00.0s.mp4",
+  "a": 2220.0,
+  "b": 2221.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/103_37m01.5s.mp4",
+  "a": 2221.5,
+  "b": 2222.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/104_37m10.5s.png",
+  "a": 2230.5,
+  "b": 2239.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/105_38m02.5s.mp4",
+  "a": 2282.5,
+  "b": 2284.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/106_38m04.5s.mp4",
+  "a": 2284.5,
+  "b": 2287.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/107_38m07.5s.mp4",
+  "a": 2287.5,
+  "b": 2290.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/108_38m10.5s.mp4",
+  "a": 2290.5,
+  "b": 2293.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/109_38m13.5s.mp4",
+  "a": 2293.5,
+  "b": 2295.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/110_38m15.0s.mp4",
+  "a": 2295.0,
+  "b": 2297.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/111_38m17.0s.mp4",
+  "a": 2297.0,
+  "b": 2298.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/112_38m18.5s.mp4",
+  "a": 2298.5,
+  "b": 2300.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/113_38m20.0s.mp4",
+  "a": 2300.0,
+  "b": 2301.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/118_39m34.0s.mp4",
+  "a": 2374.0,
+  "b": 2383.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/119_39m43.5s.mp4",
+  "a": 2383.5,
+  "b": 2388.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/120_39m48.5s.mp4",
+  "a": 2388.5,
+  "b": 2393.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/121_39m53.0s.mp4",
+  "a": 2393.0,
+  "b": 2396.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/122_39m56.5s.mp4",
+  "a": 2396.5,
+  "b": 2404.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/123_40m04.5s.mp4",
+  "a": 2404.5,
+  "b": 2415.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/126_40m19.0s.mp4",
+  "a": 2419.0,
+  "b": 2421.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/127_40m21.5s.mp4",
+  "a": 2421.5,
+  "b": 2423.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/128_40m23.0s.mp4",
+  "a": 2423.0,
+  "b": 2428.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/129_40m28.0s.mp4",
+  "a": 2428.0,
+  "b": 2433.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/131_40m39.0s.png",
+  "a": 2439.0,
+  "b": 2467.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/132_41m38.5s.png",
+  "a": 2498.5,
+  "b": 2507.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/133_42m12.5s.mp4",
+  "a": 2532.5,
+  "b": 2546.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/135_42m31.0s.png",
+  "a": 2551.0,
+  "b": 2558.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/137_44m25.5s.png",
+  "a": 2665.5,
+  "b": 2673.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/138_44m33.5s.png",
+  "a": 2673.5,
+  "b": 2678.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/139_44m38.5s.png",
+  "a": 2678.5,
+  "b": 2683.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/140_44m59.5s.mp4",
+  "a": 2699.5,
+  "b": 2707.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/141_45m07.0s.mp4",
+  "a": 2707.0,
+  "b": 2711.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/142_45m11.5s.mp4",
+  "a": 2711.5,
+  "b": 2715.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/143_45m15.0s.mp4",
+  "a": 2715.0,
+  "b": 2715.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/144_45m30.0s.mp4",
+  "a": 2730.0,
+  "b": 2731.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/145_45m31.5s.mp4",
+  "a": 2731.5,
+  "b": 2734.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/146_45m34.0s.mp4",
+  "a": 2734.0,
+  "b": 2736.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/147_45m36.5s.mp4",
+  "a": 2736.5,
+  "b": 2738.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/148_45m38.0s.mp4",
+  "a": 2738.0,
+  "b": 2739.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/149_45m39.5s.mp4",
+  "a": 2739.5,
+  "b": 2741.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/150_45m41.5s.mp4",
+  "a": 2741.5,
+  "b": 2743.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/151_45m43.0s.mp4",
+  "a": 2743.0,
+  "b": 2744.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/152_46m56.5s.mp4",
+  "a": 2816.5,
+  "b": 2818.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/153_46m58.0s.mp4",
+  "a": 2818.0,
+  "b": 2830.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/154_48m05.0s.mp4",
+  "a": 2885.0,
+  "b": 2887.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/156_48m09.5s.mp4",
+  "a": 2889.5,
+  "b": 2891.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/157_48m11.0s.mp4",
+  "a": 2891.0,
+  "b": 2892.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/158_48m12.5s.mp4",
+  "a": 2892.5,
+  "b": 2895.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/159_48m15.5s.mp4",
+  "a": 2895.5,
+  "b": 2897.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/160_48m17.5s.mp4",
+  "a": 2897.5,
+  "b": 2899.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/161_48m19.0s.mp4",
+  "a": 2899.0,
+  "b": 2900.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/162_48m20.5s.mp4",
+  "a": 2900.5,
+  "b": 2902.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/163_48m22.0s.mp4",
+  "a": 2902.0,
+  "b": 2904.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/164_48m24.0s.mp4",
+  "a": 2904.0,
+  "b": 2905.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/165_48m25.5s.mp4",
+  "a": 2905.5,
+  "b": 2907.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/166_48m27.0s.mp4",
+  "a": 2907.0,
+  "b": 2908.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/167_48m28.5s.mp4",
+  "a": 2908.5,
+  "b": 2910.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/168_48m30.0s.mp4",
+  "a": 2910.0,
+  "b": 2911.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/169_48m31.5s.mp4",
+  "a": 2911.5,
+  "b": 2913.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/170_48m33.0s.mp4",
+  "a": 2913.0,
+  "b": 2920.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/171_48m40.5s.mp4",
+  "a": 2920.5,
+  "b": 2921.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/172_49m53.0s.mp4",
+  "a": 2993.0,
+  "b": 2994.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/173_49m54.5s.mp4",
+  "a": 2994.5,
+  "b": 2997.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/174_49m57.5s.mp4",
+  "a": 2997.5,
+  "b": 2999.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/177_50m03.5s.mp4",
+  "a": 3003.5,
+  "b": 3004.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/178_50m27.0s.mp4",
+  "a": 3027.0,
+  "b": 3028.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/179_50m28.5s.mp4",
+  "a": 3028.5,
+  "b": 3030.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/180_50m30.5s.mp4",
+  "a": 3030.5,
+  "b": 3033.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/181_50m33.0s.mp4",
+  "a": 3033.0,
+  "b": 3034.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/182_50m34.5s.mp4",
+  "a": 3034.5,
+  "b": 3036.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/183_50m36.5s.mp4",
+  "a": 3036.5,
+  "b": 3039.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/184_50m39.5s.mp4",
+  "a": 3039.5,
+  "b": 3041.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/185_50m41.0s.mp4",
+  "a": 3041.0,
+  "b": 3043.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/186_50m43.0s.mp4",
+  "a": 3043.0,
+  "b": 3044.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/187_50m44.5s.mp4",
+  "a": 3044.5,
+  "b": 3046.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/188_50m46.0s.mp4",
+  "a": 3046.0,
+  "b": 3047.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/189_50m47.5s.mp4",
+  "a": 3047.5,
+  "b": 3049.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/190_50m49.0s.mp4",
+  "a": 3049.0,
+  "b": 3050.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/191_50m50.5s.mp4",
+  "a": 3050.5,
+  "b": 3053.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/192_50m53.0s.mp4",
+  "a": 3053.0,
+  "b": 3055.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/193_50m55.0s.mp4",
+  "a": 3055.0,
+  "b": 3056.8,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/194_50m56.5s.mp4",
+  "a": 3056.5,
+  "b": 3058.2,
+  "tipo": "video"
+ },
+ {
+  "archivo": "_extraidos/196_52m52.5s.png",
+  "a": 3172.5,
+  "b": 3181.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/198_53m48.0s.png",
+  "a": 3228.0,
+  "b": 3237.2,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/200_53m58.5s.png",
+  "a": 3238.5,
+  "b": 3246.8,
+  "tipo": "foto"
+ },
+ {
+  "archivo": "_extraidos/202_54m39.0s.png",
+  "a": 3279.0,
+  "b": 3288.8,
+  "tipo": "foto"
+ }
+]

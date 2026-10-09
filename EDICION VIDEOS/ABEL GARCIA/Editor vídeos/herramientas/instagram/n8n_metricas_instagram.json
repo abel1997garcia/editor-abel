@@ -1,0 +1,267 @@
+{
+ "name": "Métricas Instagram → Google Sheets (Abel)",
+ "nodes": [
+  {
+   "parameters": {
+    "rule": {
+     "interval": [
+      {
+       "field": "weeks",
+       "weeksInterval": 1,
+       "triggerAtDay": [
+        1
+       ],
+       "triggerAtHour": 9
+      }
+     ]
+    }
+   },
+   "name": "Cada lunes 9:00",
+   "type": "n8n-nodes-base.scheduleTrigger",
+   "typeVersion": 1.2,
+   "position": [
+    0,
+    0
+   ]
+  },
+  {
+   "parameters": {
+    "url": "https://graph.instagram.com/me/media",
+    "authentication": "genericCredentialType",
+    "genericAuthType": "httpQueryAuth",
+    "sendQuery": true,
+    "queryParameters": {
+     "parameters": [
+      {
+       "name": "fields",
+       "value": "id,caption,media_type,media_product_type,permalink,timestamp"
+      },
+      {
+       "name": "limit",
+       "value": "40"
+      }
+     ]
+    },
+    "options": {}
+   },
+   "name": "Mis publicaciones",
+   "type": "n8n-nodes-base.httpRequest",
+   "typeVersion": 4.2,
+   "position": [
+    220,
+    0
+   ]
+  },
+  {
+   "parameters": {
+    "fieldToSplitOut": "data",
+    "options": {}
+   },
+   "name": "Una por una",
+   "type": "n8n-nodes-base.splitOut",
+   "typeVersion": 1,
+   "position": [
+    440,
+    0
+   ]
+  },
+  {
+   "parameters": {
+    "conditions": {
+     "options": {
+      "caseSensitive": true,
+      "typeValidation": "loose"
+     },
+     "conditions": [
+      {
+       "leftValue": "={{ $json.media_product_type }}",
+       "rightValue": "REELS",
+       "operator": {
+        "type": "string",
+        "operation": "equals"
+       }
+      }
+     ],
+     "combinator": "and"
+    },
+    "options": {}
+   },
+   "name": "¿Es reel?",
+   "type": "n8n-nodes-base.filter",
+   "typeVersion": 2,
+   "position": [
+    660,
+    0
+   ]
+  },
+  {
+   "parameters": {
+    "url": "=https://graph.instagram.com/{{ $json.id }}/insights",
+    "authentication": "genericCredentialType",
+    "genericAuthType": "httpQueryAuth",
+    "sendQuery": true,
+    "queryParameters": {
+     "parameters": [
+      {
+       "name": "metric",
+       "value": "views,likes,comments,shares,saved,total_interactions,ig_reels_avg_watch_time"
+      }
+     ]
+    },
+    "options": {}
+   },
+   "name": "Métricas del reel",
+   "type": "n8n-nodes-base.httpRequest",
+   "typeVersion": 4.2,
+   "position": [
+    880,
+    0
+   ],
+   "onError": "continueRegularOutput"
+  },
+  {
+   "parameters": {
+    "mode": "combine",
+    "combineBy": "combineByPosition",
+    "options": {}
+   },
+   "name": "Juntar",
+   "type": "n8n-nodes-base.merge",
+   "typeVersion": 3,
+   "position": [
+    1100,
+    -80
+   ]
+  },
+  {
+   "parameters": {
+    "jsCode": "// Una fila por reel, solo lo útil. «lectura» = SOLO los que destacan (Abel 09/10/2026: «este sí, este sí»); el resto en blanco.\nconst ahora = Date.now();\nconst F = $input.all().map(it => {\n  const m = it.json, ins = {};\n  for (const x of (m.insights?.data || m.data || [])) ins[x.name] = x.values?.[0]?.value ?? x.total_value?.value ?? '';\n  return { fecha: m.timestamp.slice(0, 10), titulo: (m.caption || '').split('\\n')[0].slice(0, 120),\n    vistas: ins.views, me_gusta: ins.likes, comentarios: ins.comments, compartidos: ins.shares, guardados: ins.saved,\n    interacciones: ins.total_interactions, segundos_vista: ins.ig_reels_avg_watch_time ? Math.round(ins.ig_reels_avg_watch_time / 100) / 10 : '',\n    lectura: '', enlace: m.permalink, id: 'ig_' + m.id,   // id como texto: Sheets estropea los números largos\n    _edad: (ahora - new Date(m.timestamp.replace('+0000', 'Z')).getTime()) / 864e5 };\n});\nconst ok = F.filter(f => f._edad >= 3 && f.vistas > 0);                     // solo reels con 3 días o más\nconst pg = f => f.guardados / f.vistas, pc = f => f.compartidos / f.vistas;\nconst nota = (f, t) => { f.lectura = f.lectura ? f.lectura + ' · ' + t : t; };\nif (ok.length) {\n  const mv = ok.reduce((a, f) => a + f.vistas, 0) / ok.length;\n  const puntos = f => f.vistas / mv + pg(f) * 25 + pc(f) * 40;                  // vistas relativas + guardar + compartir\n  const mejor = [...ok].sort((a, b) => puntos(b) - puntos(a))[0];\n  nota(mejor, `🏆 EL MEJOR: ${mejor.vistas} vistas, ${mejor.guardados} guardados, ${mejor.compartidos} compartidos`);\n  [...ok].sort((a, b) => b.vistas - a.vistas).slice(0, 3).forEach(f => nota(f, `👁 TOP VISTAS (${f.vistas})`));\n  const fiables = ok.filter(f => f.vistas >= 1000);\n  if (fiables.length) { const g = [...fiables].sort((a, b) => pg(b) - pg(a))[0]; nota(g, `💾 EL QUE MÁS SE GUARDA (${(pg(g) * 100).toFixed(1)} %)`); }\n  ok.filter(f => !f.lectura && f.vistas >= 1000 && (pg(f) >= 0.04 || f.compartidos >= 20))\n    .forEach(f => nota(f, `✅ SÍ: guarda ${(pg(f) * 100).toFixed(1)} %, ${f.compartidos} compartidos`));\n}\nreturn F.map(({ _edad, ...f }) => ({ json: f }));"
+   },
+   "name": "Preparar fila",
+   "type": "n8n-nodes-base.code",
+   "typeVersion": 2,
+   "position": [
+    1320,
+    -80
+   ]
+  },
+  {
+   "parameters": {
+    "operation": "appendOrUpdate",
+    "documentId": {
+     "__rl": true,
+     "mode": "url",
+     "value": "https://docs.google.com/spreadsheets/d/1cTxkE86Py5Fn3uWBBHTKIxsaxWB3I5GbGkqrSoTKZXw/edit"
+    },
+    "sheetName": {
+     "__rl": true,
+     "mode": "name",
+     "value": "Reels"
+    },
+    "columns": {
+     "mappingMode": "autoMapInputData",
+     "value": {},
+     "matchingColumns": [
+      "id"
+     ]
+    },
+    "options": {}
+   },
+   "name": "Google Sheets · Reels",
+   "type": "n8n-nodes-base.googleSheets",
+   "typeVersion": 4.5,
+   "position": [
+    1540,
+    -80
+   ]
+  }
+ ],
+ "connections": {
+  "Mis publicaciones": {
+   "main": [
+    [
+     {
+      "node": "Una por una",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Una por una": {
+   "main": [
+    [
+     {
+      "node": "¿Es reel?",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "¿Es reel?": {
+   "main": [
+    [
+     {
+      "node": "Métricas del reel",
+      "type": "main",
+      "index": 0
+     },
+     {
+      "node": "Juntar",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Métricas del reel": {
+   "main": [
+    [
+     {
+      "node": "Juntar",
+      "type": "main",
+      "index": 1
+     }
+    ]
+   ]
+  },
+  "Juntar": {
+   "main": [
+    [
+     {
+      "node": "Preparar fila",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Preparar fila": {
+   "main": [
+    [
+     {
+      "node": "Google Sheets · Reels",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Cada lunes 9:00": {
+   "main": [
+    [
+     {
+      "node": "Mis publicaciones",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  }
+ },
+ "settings": {
+  "executionOrder": "v1",
+  "timezone": "Europe/Madrid"
+ }
+}

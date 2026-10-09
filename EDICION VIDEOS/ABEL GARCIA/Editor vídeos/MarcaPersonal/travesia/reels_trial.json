@@ -1,0 +1,130 @@
+{
+ "fuente": "../../la travesía.mp4",
+ "tiempos": "../../VideosLargos/travesia/toma_tiempos.json",
+ "recorte_y": 760,
+ "mejorar": true,
+ "salida": "out_trial",
+ "reels": {
+  "c01_g2e1_F3": {
+   "titulo": "Tu adicción no es el problema",
+   "acento": "sacro",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3",
+   "escenas": "c01t.js",
+   "tramos": [
+    [
+     "la adicción como tal no es mala",
+     "una cosa con otra",
+     343.7
+    ],
+    [
+     "una adicción es básicamente compensar",
+     "no eres consciente",
+     337
+    ],
+    [
+     "si tú tienes mucho vacío",
+     "simplemente sobrevivir",
+     349
+    ],
+    [
+     "muchas personas",
+     "me pasó también comiendo",
+     364
+    ],
+    [
+     "y eso yo me daba cuenta",
+     "comía por ansiedad",
+     322
+    ],
+    [
+     "cuando enfrenté la adicción",
+     "como tal no existen",
+     329
+    ],
+    [
+     "cuando comes como tú lo que necesitas es placer",
+     "estás sobreviviendo",
+     377
+    ],
+    [
+     "siempre vas a comer cosas",
+     "pero lo vas a hacer",
+     389
+    ]
+   ],
+   "quitar": [
+    [
+     "pues sí",
+     386.9
+    ]
+   ]
+  },
+  "c05_g2e2_F3": {
+   "titulo": "Algo me dijo que no",
+   "acento": "corona",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3",
+   "escenas": "c05t.js",
+   "tramos": [
+    [
+     "me ofrecieron 550.000 euros",
+     "que no lo hiciera",
+     873
+    ],
+    [
+     "y con el paso del tiempo",
+     "no tanto con lo que era",
+     884
+    ],
+    [
+     "y con el paso del tiempo dije",
+     "capacidad de sostenerlo",
+     913.8
+    ],
+    [
+     "si hubiese tenido dinero",
+     "autoconocimiento",
+     936.9
+    ],
+    [
+     "todo eso no hubiese pasado",
+     "todo eso no hubiese pasado",
+     960.4
+    ]
+   ],
+   "quitar": [
+    [
+     "y",
+     877.5
+    ],
+    [
+     "como te he dicho antes",
+     887.2
+    ],
+    [
+     "con lo que yo era",
+     909.277
+    ],
+    [
+     "y yo",
+     910.978
+    ],
+    [
+     "no hubiese",
+     949.9
+    ],
+    [
+     "en tanta",
+     952.4
+    ]
+   ],
+   "imagenes": "../FOTOS MIAS",
+   "clips": {
+    "teles": [
+     "../FOTOS MIAS/08-australia/video_reparando_teles_70kg.mov",
+     0,
+     8
+    ]
+   }
+  }
+ }
+}

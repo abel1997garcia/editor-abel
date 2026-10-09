@@ -1,0 +1,318 @@
+{
+ "name": "DMs de Instagram (semanal) → Google Sheets (Abel)",
+ "nodes": [
+  {
+   "parameters": {
+    "rule": {
+     "interval": [
+      {
+       "field": "weeks",
+       "weeksInterval": 1,
+       "triggerAtDay": [
+        1
+       ],
+       "triggerAtHour": 9,
+       "triggerAtMinute": 15
+      }
+     ]
+    }
+   },
+   "name": "Cada lunes 9:15",
+   "type": "n8n-nodes-base.scheduleTrigger",
+   "typeVersion": 1.2,
+   "position": [
+    0,
+    0
+   ]
+  },
+  {
+   "parameters": {
+    "url": "https://graph.instagram.com/me/media",
+    "authentication": "genericCredentialType",
+    "genericAuthType": "httpQueryAuth",
+    "sendQuery": true,
+    "queryParameters": {
+     "parameters": [
+      {
+       "name": "fields",
+       "value": "id,permalink,timestamp,media_product_type"
+      },
+      {
+       "name": "limit",
+       "value": "40"
+      }
+     ]
+    },
+    "options": {}
+   },
+   "name": "Mis reels",
+   "type": "n8n-nodes-base.httpRequest",
+   "typeVersion": 4.2,
+   "position": [
+    220,
+    0
+   ]
+  },
+  {
+   "parameters": {
+    "url": "https://graph.instagram.com/me/conversations",
+    "authentication": "genericCredentialType",
+    "genericAuthType": "httpQueryAuth",
+    "sendQuery": true,
+    "queryParameters": {
+     "parameters": [
+      {
+       "name": "platform",
+       "value": "instagram"
+      },
+      {
+       "name": "fields",
+       "value": "updated_time"
+      },
+      {
+       "name": "limit",
+       "value": "60"
+      }
+     ]
+    },
+    "options": {}
+   },
+   "name": "Conversaciones",
+   "type": "n8n-nodes-base.httpRequest",
+   "typeVersion": 4.2,
+   "position": [
+    440,
+    0
+   ],
+   "executeOnce": true
+  },
+  {
+   "parameters": {
+    "fieldToSplitOut": "data",
+    "options": {}
+   },
+   "name": "Una por una",
+   "type": "n8n-nodes-base.splitOut",
+   "typeVersion": 1,
+   "position": [
+    660,
+    0
+   ]
+  },
+  {
+   "parameters": {
+    "url": "=https://graph.instagram.com/{{ $json.id }}",
+    "authentication": "genericCredentialType",
+    "genericAuthType": "httpQueryAuth",
+    "sendQuery": true,
+    "queryParameters": {
+     "parameters": [
+      {
+       "name": "fields",
+       "value": "messages.limit(50){message,from,created_time,shares}"
+      }
+     ]
+    },
+    "options": {}
+   },
+   "name": "Mensajes",
+   "type": "n8n-nodes-base.httpRequest",
+   "typeVersion": 4.2,
+   "position": [
+    880,
+    0
+   ],
+   "onError": "continueRegularOutput"
+  },
+  {
+   "parameters": {
+    "jsCode": "// Una fila por CONVERSACIÓN que empezó otra persona: su primer mensaje y a qué reel se atribuye.\n// compartido = te escribe compartiendo tu reel · 48h = empezó en las 48 h siguientes a un reel · sin reel\nconst YO = '17841415488505993';\nconst ms = s => Date.parse(String(s).replace('+0000', 'Z'));\nconst reels = $('Mis reels').all().map(i => i.json).flatMap(j => j.data || []).filter(m => m.media_product_type === 'REELS')\n  .map(m => ({ id: 'ig_' + m.id, enlace: m.permalink, codigo: (m.permalink.match(/reel\\/([^/]+)/) || [])[1], t: ms(m.timestamp) }))\n  .sort((a, b) => b.t - a.t);\nconst out = [];\nfor (const it of $input.all()) {\n  const c = it.json, msgs = (c.messages?.data || []).slice().sort((a, b) => ms(a.created_time) - ms(b.created_time));\n  const primero = msgs[0]; if (!primero || primero.from?.id === YO) continue;              // la empezaste tú: no cuenta\n  const t = ms(primero.created_time);\n  const enlaces = msgs.filter(m => m.from?.id !== YO).flatMap(m => (m.shares?.data || []).map(s => s.link || ''));\n  let reel = reels.find(r => r.codigo && enlaces.some(l => l.includes(r.codigo))), como = reel ? 'compartido' : '';\n  if (!reel) { reel = reels.find(r => r.t <= t && t - r.t <= 48 * 3600e3); como = reel ? '48h' : 'sin reel'; }\n  out.push({ json: { fecha: primero.created_time.slice(0, 16).replace('T', ' '), persona_id: 'u_' + primero.from?.id,\n    mensaje: (primero.message || (enlaces.length ? '[comparte una publicación]' : '[adjunto]')).slice(0, 300),\n    reel_compartido: enlaces[0] || '', reel_atribuido: reel ? reel.enlace : '', como, mid: c.id, _reel: reel ? reel.id : '' } });\n}\nreturn out;"
+   },
+   "name": "DMs de cada conversación",
+   "type": "n8n-nodes-base.code",
+   "typeVersion": 2,
+   "position": [
+    1100,
+    0
+   ]
+  },
+  {
+   "parameters": {
+    "operation": "appendOrUpdate",
+    "documentId": {
+     "__rl": true,
+     "mode": "url",
+     "value": "https://docs.google.com/spreadsheets/d/1cTxkE86Py5Fn3uWBBHTKIxsaxWB3I5GbGkqrSoTKZXw/edit"
+    },
+    "sheetName": {
+     "__rl": true,
+     "mode": "name",
+     "value": "DMs"
+    },
+    "columns": {
+     "mappingMode": "defineBelow",
+     "value": {
+      "fecha": "={{ $json.fecha }}",
+      "persona_id": "={{ $json.persona_id }}",
+      "mensaje": "={{ $json.mensaje }}",
+      "reel_compartido": "={{ $json.reel_compartido }}",
+      "reel_atribuido": "={{ $json.reel_atribuido }}",
+      "como": "={{ $json.como }}",
+      "mid": "={{ $json.mid }}"
+     },
+     "matchingColumns": [
+      "mid"
+     ]
+    },
+    "options": {}
+   },
+   "name": "Google Sheets · DMs",
+   "type": "n8n-nodes-base.googleSheets",
+   "typeVersion": 4.5,
+   "position": [
+    1320,
+    0
+   ]
+  },
+  {
+   "parameters": {
+    "jsCode": "// DMs por reel (conversaciones que empezaron gracias a ese reel) -> columna DMs de la pestaña Reels\nconst n = {};\nfor (const it of $('DMs de cada conversación').all()) if (it.json._reel) n[it.json._reel] = (n[it.json._reel] || 0) + 1;\nconst reels = $('Mis reels').all().map(i => i.json).flatMap(j => j.data || []).filter(m => m.media_product_type === 'REELS');\nreturn reels.map(m => ({ json: { id: 'ig_' + m.id, DMs: n['ig_' + m.id] || 0 } }));"
+   },
+   "name": "Contar DMs por reel",
+   "type": "n8n-nodes-base.code",
+   "typeVersion": 2,
+   "position": [
+    1540,
+    0
+   ],
+   "executeOnce": true
+  },
+  {
+   "parameters": {
+    "operation": "appendOrUpdate",
+    "documentId": {
+     "__rl": true,
+     "mode": "url",
+     "value": "https://docs.google.com/spreadsheets/d/1cTxkE86Py5Fn3uWBBHTKIxsaxWB3I5GbGkqrSoTKZXw/edit"
+    },
+    "sheetName": {
+     "__rl": true,
+     "mode": "name",
+     "value": "Reels"
+    },
+    "columns": {
+     "mappingMode": "defineBelow",
+     "value": {
+      "id": "={{ $json.id }}",
+      "DMs": "={{ $json.DMs }}"
+     },
+     "matchingColumns": [
+      "id"
+     ]
+    },
+    "options": {}
+   },
+   "name": "Google Sheets · DMs por reel",
+   "type": "n8n-nodes-base.googleSheets",
+   "typeVersion": 4.5,
+   "position": [
+    1760,
+    0
+   ]
+  }
+ ],
+ "connections": {
+  "Cada lunes 9:15": {
+   "main": [
+    [
+     {
+      "node": "Mis reels",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Mis reels": {
+   "main": [
+    [
+     {
+      "node": "Conversaciones",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Conversaciones": {
+   "main": [
+    [
+     {
+      "node": "Una por una",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Una por una": {
+   "main": [
+    [
+     {
+      "node": "Mensajes",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Mensajes": {
+   "main": [
+    [
+     {
+      "node": "DMs de cada conversación",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "DMs de cada conversación": {
+   "main": [
+    [
+     {
+      "node": "Google Sheets · DMs",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Google Sheets · DMs": {
+   "main": [
+    [
+     {
+      "node": "Contar DMs por reel",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Contar DMs por reel": {
+   "main": [
+    [
+     {
+      "node": "Google Sheets · DMs por reel",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  }
+ },
+ "settings": {
+  "executionOrder": "v1",
+  "timezone": "Europe/Madrid"
+ }
+}

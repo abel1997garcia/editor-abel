@@ -1,0 +1,90 @@
+{
+ "estilo": "franjas_azules",
+ "video": "¿Qué Ocurre con los Seres Queridos Desaparecidos_ + Anécdotas _ Médium Allan García.mp4",
+ "tiempos": "trabajo/desaparecidos/tiempos.json",
+ "componer": {
+  "fondo": "plantillas/fondo_franjas_azules.png",
+  "y": 588,
+  "alto": 768,
+  "x": 90
+ },
+ "nombre": "desap_04_no_es_adivinar",
+ "titulo": "UN MÉDIUM NO ESTÁ PARA ADIVINAR NOMBRES",
+ "lineas": [
+  [
+   1989,
+   1999,
+   "Es muy importante, el trabajo de un médium es muy serio"
+  ],
+  [
+   2000,
+   2017,
+   "y no es sólo adivinar o acertar o a ver si digo un nombre o si no lo digo."
+  ],
+  [
+   2249,
+   2257,
+   "El trabajo de un médium es más que mostrarse"
+  ],
+  [
+   2258,
+   2268,
+   "en redes sociales a ver si contacta con nuestro ser querido."
+  ],
+  [
+   2269,
+   2271,
+   "Hay mucho más."
+  ],
+  [
+   1427,
+   1433,
+   "No es solo despedirse o dar mensajes."
+  ],
+  [
+   1434,
+   1444,
+   "A veces también hay que buscar, cerrar ciclos, cerrar historias, encontrar"
+  ],
+  [
+   1445,
+   1464,
+   "esa parte que queda pendiente, esos pendientes que yo siempre digo que el alma puede arrastrar durante toda una eternidad."
+  ],
+  [
+   1947,
+   1960,
+   "Esas familias que buscan a sus seres queridos y que acuden a los médiums."
+  ],
+  [
+   2131,
+   2134,
+   "A veces los médiums"
+  ],
+  [
+   2136,
+   2142,
+   "colaboramos con equipos de búsqueda en secreto."
+  ],
+  [
+   2186,
+   2198,
+   "El médium también ayuda a las familias a cerrar esos ciclos, esa agonía"
+  ],
+  [
+   2199,
+   2217,
+   "de no saber de sus seres queridos, de no saber si están vivos, si no están vivos, dónde están."
+  ],
+  [
+   2286,
+   2298,
+   "Yo reivindico y lucharé siempre por elevar el significado de la palabra médium"
+  ],
+  [
+   2299,
+   2312,
+   "hasta donde tiene que llegar, porque es un significado muy grande y muy amplio."
+  ]
+ ]
+}

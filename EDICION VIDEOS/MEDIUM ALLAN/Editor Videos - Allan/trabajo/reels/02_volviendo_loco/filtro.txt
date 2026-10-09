@@ -1,0 +1,1 @@
+[0:v]setpts=PTS-STARTPTS,format=yuv420p[v];[1:v]fps=30,format=rgba[c];[v][c]overlay=0:0:format=auto:shortest=0:eof_action=repeat,format=yuv420p[o];[0:a]loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[a]

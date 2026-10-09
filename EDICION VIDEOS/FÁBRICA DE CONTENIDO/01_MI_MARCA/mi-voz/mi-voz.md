@@ -18,6 +18,9 @@ Mis vídeos son **habla convertida en texto**, no texto pensado para leerse. Por
 
 ## Cómo empiezo (hooks)
 
+**Hooks de reel (corrección de Abel, 2026-10-09):** crudos, directos, algo polémicos, que remuevan y paren el scroll. Son el 90% de que un reel funcione. El hook es una frase APARTE: se graba suelto y el cuerpo empieza después sin repetirlo (normalmente con «Porque…», «Y es que…» o directamente la escena). El cuerpo tiene que encajar detrás de cualquiera de los 3 hooks. El estilo de gancho se va afinando con lo que funciona en las referencias.
+
+
 Siempre con una **verdad rotunda en la primera frase**, normalmente con un "si" condicional o un "tú" directo:
 - "**Si** solo buscas lo barato, tu vida será barata."
 - "**Si** no escucha, no aplica y no cambia, no lo ayudes."
@@ -35,6 +38,11 @@ Nada de introducciones, ni de "hola", ni de "hoy te voy a hablar de".
 5. **Me pongo como prueba, sin adornos:** "yo sé perfectamente qué es no tener… porque yo vengo de ahí" / "yo he vendido 5.000 euros".
 
 ## Cómo cierro
+
+**Un reel NUNCA acaba en pregunta** (corrección de Abel). Acaba con un golpe final rotundo; la pregunta para comentar va en la descripción.
+
+**Teleprompter:** leo el texto literal, así que tiene que leerse en voz alta sin trabarse: puntuación que marque dónde respiro, nada de frases que obliguen a releer.
+
 
 Frase corta, rotunda, que devuelve la responsabilidad o resume la identidad:
 - "Si tú no entras en el juego, nunca podrás ganar. **Tú eliges.**"

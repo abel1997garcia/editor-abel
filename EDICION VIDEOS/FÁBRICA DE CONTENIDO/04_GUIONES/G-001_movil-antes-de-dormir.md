@@ -1,6 +1,6 @@
 # G-001 · El móvil antes de dormir
 
-_v4 — 2026-10-05: añadida la energía con la expresión de la calle «hoy no tengo energía». v3: escena del día a día (móvil en la cama). v2: vocabulario de la calle, más fluido, sin tics de IA._
+_v5 — 2026-10-09: hooks más crudos y separados del cuerpo (el cuerpo ya no repite el hook) y sin pregunta al final. v4 — 2026-10-05: añadida la energía con la expresión de la calle «hoy no tengo energía». v3: escena del día a día (móvil en la cama). v2: vocabulario de la calle, más fluido, sin tics de IA._
 
 | Campo | Valor |
 |---|---|
@@ -18,19 +18,17 @@ _v4 — 2026-10-05: añadida la energía con la expresión de la calle «hoy no 
 | Duración estimada | ~50-55 s |
 | Estado | ✅ Aprobado (listo para grabar) |
 
-## 5 hooks alternativos
+## Hooks (se graban aparte; el cuerpo vale para los 3)
 
-① **Dolor directo:** Si te duermes con el móvil en la mano, no te extrañe levantarte tenso.
-② **Paradoja:** Dices que no ves las noticias, pero tu móvil está lleno de ellas.
-③ **Promesa específica:** Una semana sin el móvil en la cama y vas a notar cómo te levantas.
-④ **Reencuadre de identidad:** No es el trabajo lo que te tiene así, es lo que ves en la cama.
-⑤ **Curiosidad disruptiva:** Nadie te ha contado qué le hace a tu cuerpo lo que ves antes de dormir.
+1. Lo último que haces antes de dormir te está jodiendo el día siguiente.
+2. Cada noche te metes en la cama a llenarte la cabeza de mierda y luego te quejas de cómo te levantas.
+3. Tu móvil te está metiendo miedo en la cama y tú a eso lo llamas desconectar.
 
-## Guion para hablar
+## Cuerpo para hablar (teleprompter)
 
-**Mapa:** verdad rotunda → escena del móvil en la cama → «hoy no tengo energía, es el trabajo» → ¿qué es esa energía? → fíjate en una cosa → mi prueba → una semana sin móvil en la cama → pregunta
+**Mapa:** [hook] → «yo no veo las noticias» → el móvil en la cama → «hoy no tengo energía, es el trabajo» → ¿qué es esa energía? → mi prueba → una semana sin móvil en la cama → golpe final
 
-Si te duermes todas las noches con el móvil en la mano, mirando TikTok o Instagram, no te extrañe levantarte tenso. Porque tú dices «no, si yo no veo las noticias», pero luego te metes en la cama, abres el móvil y lo que te sale es que han matado a no sé quién, que si una pelea en no sé dónde, que si la guerra, que si los pisos están imposibles, problemas aquí, problemas allá, y tú ahí, pasando vídeos una hora sin darte cuenta. Y al día siguiente te levantas con el pecho apretado y dices «uf, hoy no tengo energía, es que el trabajo me tiene fatal». Y puede ser, ¿eh?, pero fíjate en una cosa. ¿Tú te has parado a pensar qué es eso de la energía que dices que no tienes? Porque tú crees que eso es desconectar, pero tu cuerpo no distingue si es un vídeo o si te está pasando a ti, para tu cuerpo todo eso es miedo, y ese miedo no se va cuando bloqueas el móvil. Se te queda dentro, te baja la energía y al día siguiente es justo lo que transmites en el trabajo, con tu pareja y con todo el mundo, y luego te preguntas por qué estás de mala leche o por qué desconfías de todos. Y mira que yo lo hacía, me tiraba horas con el móvil, con series y con noticias y ni se me pasaba por la cabeza que eso me estuviera afectando. Hoy lo tengo clarísimo: lo que entra se queda, y lo que se queda es lo que emites. Así que prueba esta semana a dejar el móvil fuera de la cama y luego me cuentas cómo te levantas. ¿Tú qué es lo último que ves antes de dormir?
+Porque tú dices «no, si yo no veo las noticias», pero luego te metes en la cama, abres TikTok o Instagram y lo que te sale es que han matado a no sé quién, que si una pelea en no sé dónde, que si la guerra, que si los pisos están imposibles, problemas aquí, problemas allá, y tú ahí, pasando vídeos una hora sin darte cuenta. Y al día siguiente te levantas con el pecho apretado y dices «uf, hoy no tengo energía, es que el trabajo me tiene fatal». Y puede ser, ¿eh?, pero fíjate en una cosa. ¿Tú te has parado a pensar qué es eso de la energía que dices que no tienes? Porque tu cuerpo no distingue si es un vídeo o si te está pasando a ti, para tu cuerpo todo eso es miedo, y ese miedo no se va cuando bloqueas el móvil. Se te queda dentro, te baja la energía y al día siguiente es justo lo que transmites en el trabajo, con tu pareja y con todo el mundo. Y mira que yo lo hacía, me tiraba horas con el móvil, con series y con noticias, y ni se me pasaba por la cabeza que eso me estuviera afectando. Así que prueba esta semana a dejar el móvil fuera de la cama y fíjate en cómo te levantas. Porque lo que entra se queda, y lo que se queda es lo que emites.
 
 ## Descripción de Instagram
 
@@ -44,7 +42,7 @@ Y lo más curioso es que eso lo eliges tú cada noche sin darte cuenta, con el d
 
 No te pido que tires el móvil. Prueba una semana a dejarlo fuera de la cama y mira qué pasa.
 
-Cuéntame en comentarios qué es lo que más te sale a ti cuando abres el móvil por la noche.
+¿Qué es lo que más te sale a ti cuando abres el móvil por la noche? Te leo en comentarios.
 
 ## Check de coherencia
 
@@ -67,3 +65,6 @@ Primer guion: fija las posturas iniciales sobre consumo, móvil y energía (ver 
 | v2: «Si te duermes todas las noches viendo películas de miedo…» | «Si te duermes todas las noches con el móvil en la mano, mirando TikTok o Instagram…» | Corrección de Abel: nadie ve pelis de miedo cada noche; el móvil en la cama sí es su día a día |
 | — | «tú dices: no, si yo no veo las noticias» | La excusa que se diría la persona: se reconoce al instante |
 | v3: «dices: uf, es que el trabajo me tiene fatal» | «dices: uf, hoy no tengo energía, es que el trabajo me tiene fatal» + «¿Tú te has parado a pensar qué es eso de la energía que dices que no tienes?» | Petición de Abel: meter su lente con palabras que la gente ya usa (puerta cultural L7), sin decir vibración ni frecuencia en un vídeo N1 |
+| v4: hook «Si te duermes con el móvil en la mano, no te extrañe levantarte tenso» y el guion empezaba igual | Hooks crudos y aparte; el cuerpo arranca con «Porque tú dices…» | Corrección de Abel: el hook no puede repetirse en el guion y tiene que ser más crudo |
+| v4: acababa en «¿Tú qué es lo último que ves antes de dormir?» | Acaba en «Porque lo que entra se queda, y lo que se queda es lo que emites.» | Corrección de Abel: el guion no acaba en pregunta. La pregunta pasa a la descripción |
+| v4: hook 3 descartado «No es el trabajo lo que te tiene así…» | «Tu móvil te está metiendo miedo en la cama y tú a eso lo llamas desconectar» | Coherencia: en el cuerpo digo que el trabajo «puede ser» |

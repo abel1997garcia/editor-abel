@@ -1,0 +1,47 @@
+{
+ "fuente": "../../VideosLargos/intencion-masculina/toma_limpia.mov",
+ "tiempos": "../../VideosLargos/intencion-masculina/anim/trabajo/tiempos.json",
+ "salida": "out_f2",
+ "reels": {
+  "c02_g2e2_F2": {
+   "formato": "F2",
+   "imagenes": "imagenes",
+   "escenas": "c02f2.js",
+   "tramos": [
+    [
+     "cada vez que tú vayas escuchando",
+     "que más te complemente el entorno",
+     697
+    ],
+    [
+     "todo es energía te lo aseguro",
+     "pero si se siente",
+     680
+    ],
+    [
+     "y tú puedes sentir muchas cosas",
+     "y tú puedes sentir muchas cosas",
+     687
+    ],
+    [
+     "puedes sentir cuando tienes ansiedad",
+     "las vas a ir sintiendo",
+     690
+    ],
+    [
+     "puedes tener también más capacidad",
+     "vida que tú quieras",
+     709
+    ],
+    [
+     "así que ten muy en cuenta",
+     "depender toda tu vida",
+     715
+    ]
+   ],
+   "titulo": "Deja de ignorar tu voz interior",
+   "acento": "corazon",
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3"
+  }
+ }
+}

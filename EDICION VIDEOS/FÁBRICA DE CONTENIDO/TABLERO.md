@@ -1,6 +1,6 @@
 # TABLERO DE CONTROL
 
-_Última actualización: 2026-10-06 · PG-001 planificado_
+_Última actualización: 2026-10-07 · PG-001 planificado · «La intención y la energía masculina» editado · «La travesía»: 5 reels F3 + 2 trial (08/10)_
 
 ## Estados
 
@@ -13,18 +13,30 @@ _Última actualización: 2026-10-06 · PG-001 planificado_
 | ID | Tema | Creencia | Fecha grabación | V1 | V2 | V3 | Reels sacados | Estado |
 |---|---|---|---|---|---|---|---|---|
 | PG-001 | Ser complaciente no te hace buena persona | C4 | | Decir que sí a todo | Lo que te tragas | Querer no es darle la razón | 7 previstos | 📋 Planificado |
+| — (sin PG) | La intención y la energía masculina | C6 | ≤ 2026-10-07 | Horizontal completo (12:07) | | | 3 F3 (frecuencia, energía, respeto) → publicar/semana_2026-10-12 | 🎬 Editado |
+| — (sin PG) | La travesía (documental: soledad, adicciones, crítica, intuición, casualidad) | C5, C7 | ≤ 2026-10-08 | — (sin horizontal) | | | 5 F3 → publicar/semana_2026-10-19 · 2 trial de gancho → trial/semana_2026-10-19 | 🎬 Editado |
 
 ## 1. Referencias (reels en inglés)
 
-| ID | Creador | Tema | Tipo de hook | Ideas sacadas | Estado |
-|---|---|---|---|---|---|
-| | | | | | |
+| ID | Creador | Tema | Tipo (NV/CO/VE) | Tipo de hook | Ideas sacadas | Estado |
+|---|---|---|---|---|---|---|
+| | | | | | | |
 
 ## 2. Pipeline de contenido
 
-| ID | Título | Viene de | Nivel (N) | Puerta (P) | Creencia (C) | Banco (B) | Lente (L) | Momento (M) | Estado | Fecha publ. |
-|---|---|---|---|---|---|---|---|---|---|---|
-| G-001 | El móvil antes de dormir (v4) | Banco (prueba) | N1→N2 | Contradicción | C7 | B-052 | L5, L7 | M-22 | ✅ Aprobado | |
+| ID | Título | Tipo (NV/CO/VE) | Viene de | Nivel (N) | Puerta (P) | Creencia (C) | Banco (B) | Lente (L) | Momento (M) | Estado | Fecha publ. |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| G-001 | El móvil antes de dormir (v5) | CO | Banco (prueba) | N1→N2 | Contradicción | C7 | B-052 | L5, L7 | M-22 | 🔁 Revisar (falta emoción y atacar la creencia; tras analizar referencias) | |
+
+## 2b. Reparto de reels por tipo (objetivo 15 / 80 / 5)
+
+| Tipo | Objetivo | Reels hechos | % actual |
+|---|---|---|---|
+| NV · Nicho viral | 15% | 0 | — |
+| CO · Consolidación | 80% | 1 (G-001) | — |
+| VE · Venta | 5% | 0 | — |
+
+_Cuenta los reels guionizados, los del yapping y los adaptados de referencias._
 
 ## 3. Cobertura — qué he tocado y qué no
 

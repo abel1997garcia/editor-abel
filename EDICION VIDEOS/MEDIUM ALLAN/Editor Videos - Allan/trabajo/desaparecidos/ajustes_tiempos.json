@@ -1,0 +1,7 @@
+{
+ "_nota": "Muletillas que Whisper no escribió y la alineación pegó a palabras vecinas (vídeo desaparecidos).",
+ "309": {"s": 140.68, "hueco_antes": [140.47, 140.62], "por": "«pues» antes de «de la Guerra Mundial»"},
+ "319": {"fin_max": 145.12, "por": "«¿no?» tras «alemanes» (145.14-145.20)"},
+ "721": {"hueco_antes": [331.84, 332.32], "por": "«¿no?» tras «lo cogieron» (331.86-332.00)"},
+ "1450": {"hueco_antes": [642.84, 643.12], "por": "«¿no?» tras «pendiente»"}
+}

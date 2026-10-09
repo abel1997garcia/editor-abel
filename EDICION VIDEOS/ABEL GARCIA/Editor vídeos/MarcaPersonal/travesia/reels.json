@@ -1,0 +1,154 @@
+{
+ "fuente": "../../la travesía.mp4",
+ "tiempos": "../../VideosLargos/travesia/toma_tiempos.json",
+ "salida": "out",
+ "recorte_y": 760,
+ "mejorar": true,
+ "reels": {
+  "c01_adicciones": {
+   "tramos": [
+    [
+     "las adicciones como tal no existen",
+     "simplemente sobrevivir",
+     330
+    ],
+    [
+     "muchas personas",
+     "me pasó también comiendo",
+     364
+    ],
+    [
+     "cuando comes como tú lo que necesitas es placer",
+     "ese estado de equilibrio",
+     377
+    ],
+    [
+     "siempre vas a comer cosas",
+     "pero lo vas a hacer",
+     389
+    ]
+   ],
+   "titulo": "Las adicciones no existen",
+   "acento": "sacro",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3",
+   "escenas": "c01.js"
+  },
+  "c02_criticas": {
+   "tramos": [
+    [
+     "con 20 años tenías miedo",
+     "es siempre tu cabeza",
+     520
+    ],
+    [
+     "queremos estar bien y muy pocas veces",
+     "tenemos que ser",
+     478
+    ],
+    [
+     "y es que todo eso es una puta mierda",
+     "este tipo de pensamientos",
+     495
+    ],
+    [
+     "nadie piensa en criticarte",
+     "con su propia película",
+     518
+    ]
+   ],
+   "quitar": [
+    [
+     "o nunca o sea",
+     541
+    ],
+    [
+     "realmente",
+     528.5
+    ],
+    [
+     "realmente",
+     544
+    ]
+   ],
+   "titulo": "A nadie le importas tanto como crees",
+   "acento": "garganta",
+   "musica": "EMOCIONAL/Outro - M83 only the best part.mp3",
+   "escenas": "c02.js"
+  },
+  "c03_intuicion": {
+   "tramos": [
+    [
+     "muchas personas que quieren cambiar su vida",
+     "para lo que estás aquí",
+     728
+    ],
+    [
+     "pero qué pasa si un día te levantas",
+     "crea tu propia vida",
+     690
+    ]
+   ],
+   "quitar": [
+    [
+     "va a decir vas a decir que",
+     707
+    ]
+   ],
+   "titulo": "No te fías de lo que sientes",
+   "acento": "ojo",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "escenas": "c03.js"
+  },
+  "c04_reprimir": {
+   "tramos": [
+    [
+     "estuve 15-20 minutos llorando",
+     "esa soledad tan grande",
+     190
+    ],
+    [
+     "me di cuenta de que cuando sacas esa emoción",
+     "y no poner barreras",
+     237
+    ],
+    [
+     "vas sacando un montón de emoción",
+     "cuando querías decir que no",
+     252
+    ],
+    [
+     "no es nunca nada negativo",
+     "aprender a verlo",
+     230
+    ]
+   ],
+   "titulo": "Todo lo que callas sale algún día",
+   "acento": "corazon",
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3",
+   "escenas": "c04b.js"
+  },
+  "c05_casualidad": {
+   "tramos": [
+    [
+     "te aseguro que en la vida no existe",
+     "ninguna casualidad",
+     637
+    ],
+    [
+     "las cosas de hecho más importantes",
+     "puede ser casualidad",
+     607
+    ],
+    [
+     "la clave está en vivir la vida",
+     "aprender a manifestar",
+     964
+    ]
+   ],
+   "titulo": "No existe ninguna casualidad",
+   "acento": "corona",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3",
+   "escenas": "c05.js"
+  }
+ }
+}

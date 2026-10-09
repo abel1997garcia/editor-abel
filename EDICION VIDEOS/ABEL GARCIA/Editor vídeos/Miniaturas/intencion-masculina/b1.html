@@ -1,0 +1,18 @@
+<!doctype html><meta charset="utf-8">
+<link rel="stylesheet" href="../../herramientas/miniaturas/base.css">
+<div id="escena" style="--acento:#C8372D"></div>
+<script src="../../herramientas/miniaturas/base.js"></script>
+<script>
+// «por esto te miran.» — la polaridad: masculino y femenino como dos polos de un imán · su cara seria de 104 s
+fotoCara('abel_104.0.png', [0.42, 0.269, 0.558, 0.563], { cx: 930, cy: 262, alto: 280 });
+const s = svg();
+silueta(s, 130, 520, .6);
+siluetaMujer(s, 420, 520, .6);
+// líneas de campo entre los dos (rojo el polo masculino, añil el femenino)
+[[-60, 1], [-20, 1], [20, 1], [60, 1]].forEach(([dy], i) => {
+  const y = 300 + dy; trazo(s, `M190,${y} C240,${y - 70 + Math.abs(dy)} 310,${y - 70 + Math.abs(dy)} 360,${y}`, { ancho: 5, color: i % 2 ? C.ojo : C.raiz });
+});
+texto('+', { x: 112, y: 40, tam: 110, css: { color: C.raiz } });
+texto('−', { x: 404, y: 40, tam: 110, css: { color: C.ojo } });
+texto('por esto <span class="c">te miran.</span>', { x: 40, y: 560, tam: 112 });
+</script>

@@ -1,0 +1,21 @@
+<!doctype html><meta charset="utf-8">
+<link rel="stylesheet" href="../../herramientas/miniaturas/base.css">
+<div id="escena" style="--acento:#C8372D"></div>
+<script src="../../herramientas/miniaturas/base.js"></script>
+<script>
+// «lo que pierdes.» — al ceder pierde energía masculina: su silueta como batería casi vacía que gotea · cara seria de 104 s
+fotoCara('abel_104.0.png', [0.42, 0.269, 0.558, 0.563], { cx: 930, cy: 262, alto: 280 });
+const s = svg(), X = 290, PIES = 505, E = .62;
+// relleno: solo queda un poco de energía abajo (recortado con la forma de la silueta)
+const defs = document.createElementNS(NS, 'defs'), cp = document.createElementNS(NS, 'clipPath'); cp.id = 'cuerpo';
+const pth = document.createElementNS(NS, 'path'); pth.setAttribute('d', siluetaD() + ' ' + SIL_CABEZA); cp.appendChild(pth); defs.appendChild(cp); s.appendChild(defs);
+const g = grupo(s, X, PIES - 694 * E, E); g.setAttribute('clip-path', 'url(#cuerpo)');
+const nivel = 470; trazo(g, `M-120,${nivel} Q-60,${nivel - 14} 0,${nivel} T120,${nivel} V720 H-120 Z`, { ancho: 0, relleno: C.raiz, vector: false });
+silueta(s, X, PIES, E);
+// marcas de nivel a la derecha (como un depósito) y la flecha hacia abajo
+[[0, 'lleno'], [.5, ''], [.9, '']].forEach(([k]) => { const y = PIES - 694 * E + (120 + k * 520) * E; trazo(s, `M${X + 80},${y} h26`, { ancho: 5, color: GRIS }); });
+trazo(s, flecha(X + 130, PIES - 340, X + 130, PIES - 110, 22), { ancho: 6, color: C.raiz });
+// gotas que caen de los pies
+[[-16, 530, .9], [14, 556, .7], [-2, 580, .5]].forEach(([dx, y, k]) => trazo(s, `M${X + dx},${y - 16 * k} C${X + dx + 9 * k},${y} ${X + dx + 9 * k},${y + 10 * k} ${X + dx},${y + 10 * k} C${X + dx - 9 * k},${y + 10 * k} ${X + dx - 9 * k},${y} ${X + dx},${y - 16 * k} Z`, { ancho: 3, color: C.raiz, relleno: C.raiz }));
+texto('lo que <span class="c">pierdes.</span>', { x: 40, y: 604, tam: 112 });
+</script>

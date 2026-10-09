@@ -1,0 +1,199 @@
+{
+ "name": "DMs de Instagram → Google Sheets (Abel)",
+ "nodes": [
+  {
+   "parameters": {
+    "multipleMethods": true,
+    "httpMethod": [
+     "GET",
+     "POST"
+    ],
+    "path": "instagram-dms",
+    "responseMode": "responseNode",
+    "options": {}
+   },
+   "name": "Instagram avisa",
+   "type": "n8n-nodes-base.webhook",
+   "typeVersion": 2,
+   "position": [
+    0,
+    0
+   ],
+   "webhookId": "instagram-dms-abel"
+  },
+  {
+   "parameters": {
+    "conditions": {
+     "options": {
+      "caseSensitive": true,
+      "typeValidation": "loose"
+     },
+     "conditions": [
+      {
+       "leftValue": "={{ $json.query['hub.verify_token'] }}",
+       "rightValue": "PON_AQUI_TU_PALABRA_DE_VERIFICACION",
+       "operator": {
+        "type": "string",
+        "operation": "equals"
+       }
+      }
+     ],
+     "combinator": "and"
+    },
+    "options": {}
+   },
+   "name": "¿Es Meta verificando?",
+   "type": "n8n-nodes-base.if",
+   "typeVersion": 2,
+   "position": [
+    240,
+    -120
+   ]
+  },
+  {
+   "parameters": {
+    "respondWith": "text",
+    "responseBody": "={{ $json.query['hub.challenge'] }}",
+    "options": {}
+   },
+   "name": "Responder verificación",
+   "type": "n8n-nodes-base.respondToWebhook",
+   "typeVersion": 1.1,
+   "position": [
+    480,
+    -180
+   ]
+  },
+  {
+   "parameters": {
+    "respondWith": "noData",
+    "options": {
+     "responseCode": 403
+    }
+   },
+   "name": "Rechazar",
+   "type": "n8n-nodes-base.respondToWebhook",
+   "typeVersion": 1.1,
+   "position": [
+    480,
+    -40
+   ]
+  },
+  {
+   "parameters": {
+    "respondWith": "noData",
+    "options": {}
+   },
+   "name": "OK a Meta",
+   "type": "n8n-nodes-base.respondToWebhook",
+   "typeVersion": 1.1,
+   "position": [
+    240,
+    120
+   ]
+  },
+  {
+   "parameters": {
+    "jsCode": "// Cada DM que te llega (no los que envías tú): fecha, quién (solo su id), texto y, si comparte un reel, cuál.\n// Acepta los dos formatos de Meta: DMs reales (entry.messaging) y el botón «Test» del panel (entry.changes.value)\nconst out = [];\nfor (const e of ($json.body?.entry || [])) {\n  const eventos = [...(e.messaging || []), ...(e.changes || []).filter(c => c.field === 'messages').map(c => c.value)];\n  for (const m of eventos) {\n    const msg = m?.message; if (!msg || msg.is_echo) continue;\n    const ts = Number(m.timestamp); const fecha = new Date(ts < 1e12 ? ts * 1000 : ts);\n    const reel = (msg.attachments || []).find(a => ['ig_reel', 'reel', 'share', 'story_mention'].includes(a.type));\n    out.push({ json: { fecha: fecha.toISOString().slice(0, 16).replace('T', ' '), persona_id: String(m.sender?.id || ''),\n      mensaje: (msg.text || (reel ? '[comparte una publicación]' : '[adjunto]')).slice(0, 300),\n      reel_compartido: reel ? (reel.payload?.reel_video_id || reel.payload?.url || reel.payload?.title || reel.type) : '', mid: msg.mid || '' } });\n  }\n}\nreturn out;"
+   },
+   "name": "Leer el DM",
+   "type": "n8n-nodes-base.code",
+   "typeVersion": 2,
+   "position": [
+    480,
+    120
+   ]
+  },
+  {
+   "parameters": {
+    "operation": "append",
+    "documentId": {
+     "__rl": true,
+     "mode": "url",
+     "value": "https://docs.google.com/spreadsheets/d/1cTxkE86Py5Fn3uWBBHTKIxsaxWB3I5GbGkqrSoTKZXw/edit"
+    },
+    "sheetName": {
+     "__rl": true,
+     "mode": "name",
+     "value": "DMs"
+    },
+    "columns": {
+     "mappingMode": "autoMapInputData",
+     "value": {}
+    },
+    "options": {}
+   },
+   "name": "Google Sheets · DMs",
+   "type": "n8n-nodes-base.googleSheets",
+   "typeVersion": 4.5,
+   "position": [
+    720,
+    120
+   ]
+  }
+ ],
+ "connections": {
+  "Instagram avisa": {
+   "main": [
+    [
+     {
+      "node": "¿Es Meta verificando?",
+      "type": "main",
+      "index": 0
+     }
+    ],
+    [
+     {
+      "node": "OK a Meta",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "¿Es Meta verificando?": {
+   "main": [
+    [
+     {
+      "node": "Responder verificación",
+      "type": "main",
+      "index": 0
+     }
+    ],
+    [
+     {
+      "node": "Rechazar",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "OK a Meta": {
+   "main": [
+    [
+     {
+      "node": "Leer el DM",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Leer el DM": {
+   "main": [
+    [
+     {
+      "node": "Google Sheets · DMs",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  }
+ },
+ "settings": {
+  "executionOrder": "v1",
+  "timezone": "Europe/Madrid"
+ }
+}

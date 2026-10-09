@@ -1,0 +1,31 @@
+{
+ "_nota": "Correcciones a mano de trabajo/tiempos.json (la alineación pegó muletillas que Whisper no escribió a la palabra vecina). Índice -> nuevos s/e. hueco_antes=[ini,fin] = muletilla pegada antes de la palabra: se corta siempre ahí.",
+ "263": {
+  "s": 108.1,
+  "e": 108.24,
+  "por": "«pues» 107.24-107.78 iba dentro de «una»"
+ },
+ "501": {
+  "w": "pues",
+  "s": 194.22,
+  "e": 194.36,
+  "por": "Whisper oyó «Segundo, que»; en realidad «que, pues»"
+ },
+ "502": {
+  "s": 194.38
+ },
+ "1139": {
+  "s": 447.98,
+  "hueco_antes": [
+   447.72,
+   447.95
+  ],
+  "por": "«o sea» 447.74-447.94 entre «tiempo» y «llegué»"
+ },
+ "1196": {
+  "por": "«Fue» no existe en el audio (Whisper lo inventó): no usar este índice"
+ },
+ "1927": {
+  "por": "dice «que el resultado»: el «que» va dentro de esta palabra"
+ }
+}

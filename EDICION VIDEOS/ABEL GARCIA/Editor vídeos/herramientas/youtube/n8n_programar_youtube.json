@@ -1,0 +1,98 @@
+{
+  "name": "Programar reels en YouTube (Abel)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "programar-youtube-abel",
+        "authentication": "headerAuth",
+        "responseMode": "responseNode",
+        "options": { "binaryPropertyName": "video" }
+      },
+      "id": "a1",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 300]
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            { "conditions": { "options": { "caseSensitive": true, "typeValidation": "strict" }, "combinator": "and",
+                "conditions": [ { "leftValue": "={{ $json.body.canal }}", "rightValue": "principal", "operator": { "type": "string", "operation": "equals" } } ] },
+              "renameOutput": true, "outputKey": "principal" },
+            { "conditions": { "options": { "caseSensitive": true, "typeValidation": "strict" }, "combinator": "and",
+                "conditions": [ { "leftValue": "={{ $json.body.canal }}", "rightValue": "trial", "operator": { "type": "string", "operation": "equals" } } ] },
+              "renameOutput": true, "outputKey": "trial" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "a2",
+      "name": "¿Qué canal?",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "resource": "video",
+        "operation": "upload",
+        "title": "={{ $json.body.titulo }}",
+        "regionCode": "ES",
+        "categoryId": "22",
+        "binaryProperty": "video0",
+        "options": {
+          "description": "={{ $json.body.descripcion }}",
+          "privacyStatus": "private",
+          "publishAt": "={{ $json.body.publicar_en }}",
+          "selfDeclaredMadeForKids": false
+        }
+      },
+      "id": "a3",
+      "name": "YouTube · canal principal",
+      "type": "n8n-nodes-base.youTube",
+      "typeVersion": 1,
+      "position": [500, 200],
+      "credentials": { "youTubeOAuth2Api": { "id": "ELIGE_AQUI_LA_CREDENCIAL_DEL_CANAL_PRINCIPAL", "name": "Canal principal" } }
+    },
+    {
+      "parameters": {
+        "resource": "video",
+        "operation": "upload",
+        "title": "={{ $json.body.titulo }}",
+        "regionCode": "ES",
+        "categoryId": "22",
+        "binaryProperty": "video0",
+        "options": {
+          "description": "={{ $json.body.descripcion }}",
+          "privacyStatus": "private",
+          "publishAt": "={{ $json.body.publicar_en }}",
+          "selfDeclaredMadeForKids": false
+        }
+      },
+      "id": "a4",
+      "name": "YouTube · canal trial",
+      "type": "n8n-nodes-base.youTube",
+      "typeVersion": 1,
+      "position": [500, 400],
+      "credentials": { "youTubeOAuth2Api": { "id": "ELIGE_AQUI_LA_CREDENCIAL_DEL_CANAL_TRIAL", "name": "Canal trial" } }
+    },
+    {
+      "parameters": { "respondWith": "json", "responseBody": "={{ { \"ok\": true, \"id\": $json.id } }}", "options": {} },
+      "id": "a5",
+      "name": "Responder",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [760, 300]
+    }
+  ],
+  "connections": {
+    "Webhook": { "main": [[ { "node": "¿Qué canal?", "type": "main", "index": 0 } ]] },
+    "¿Qué canal?": { "main": [ [ { "node": "YouTube · canal principal", "type": "main", "index": 0 } ], [ { "node": "YouTube · canal trial", "type": "main", "index": 0 } ] ] },
+    "YouTube · canal principal": { "main": [[ { "node": "Responder", "type": "main", "index": 0 } ]] },
+    "YouTube · canal trial": { "main": [[ { "node": "Responder", "type": "main", "index": 0 } ]] }
+  },
+  "settings": { "executionOrder": "v1" }
+}

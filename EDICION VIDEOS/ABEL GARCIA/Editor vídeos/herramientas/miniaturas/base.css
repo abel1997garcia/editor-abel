@@ -1,0 +1,9 @@
+@font-face { font-family: Inter; src: url('../pizarra/assets/fonts/Inter-Variable.ttf'); font-weight: 100 900; }
+html, body { margin: 0; padding: 0; background: #fff; overflow: hidden; }
+#escena { position: relative; width: 1280px; height: 720px; background: #FFFFFF; overflow: hidden; font-family: Inter, sans-serif; }
+.capa { position: absolute; inset: 0; width: 1280px; height: 720px; }
+.tx { position: absolute; font-weight: 900; color: #111; letter-spacing: -0.045em; line-height: .92; white-space: nowrap; }
+.tx .c { color: var(--acento); }
+.tx.sub { font-weight: 700; letter-spacing: -0.02em; color: #8a8a8a; }
+/* Abel recortado: algo más de contraste y una sombra suave de diseñador, sin halos */
+.abel { position: absolute; filter: drop-shadow(0 8px 22px rgba(0,0,0,.10)); }   /* el color y el enfoque ya vienen de integrar.py */

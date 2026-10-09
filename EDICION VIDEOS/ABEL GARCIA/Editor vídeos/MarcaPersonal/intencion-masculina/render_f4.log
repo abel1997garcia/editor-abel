@@ -1,0 +1,5 @@
+[ WARN:0@0.118] global net_impl_backend.cpp:345 cv::dnn::dnn5_v20260605::Net::Impl::setPreferableTarget Targets are not supported by the new graph engine for now
+  0/1164
+  300/1164
+  600/1164
+  900/1164

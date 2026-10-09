@@ -1,0 +1,14 @@
+[ WARN:0@0.100] global net_impl_backend.cpp:345 cv::dnn::dnn5_v20260605::Net::Impl::setPreferableTarget Targets are not supported by the new graph engine for now
+  0/1629
+  300/1629
+
+== c05_g2e2_F3: 54.3 s a 1.1x · 25 planos · «DIJE QUE NO A 550.000 €»
+Me ofrecieron 550.000 euros por ese canal | Ese canal | llegó a facturar 17.000 euros al mes | Me dieron | la placa de los 100.000 suscriptores | Y viendo que yo ganaba | mucho dinero al mes Dije hostia yo creo que igual es una buena idea vender este canal de YouTube Porque seguro que me van a dar mucho dinero | pero algo me dijo que no lo hiciera | y con el paso del tiempo | nunca pasa por casualidad | me di cuenta de que siendo la persona que era en ese pasado | por | lo que yo creía de la vida las creencias sobre mí de la realidad de las personas | y que yo obviamente no estaba preparado | generaba dinero por supuesto que sí pero había muchas otras cosas en mi vida que no estaban bien | mis relaciones | no eran buenas yo no estaba bien emocionalmente tenía mucha dependencia emocional me validaba mucho | con lo que yo tenía | y no tanto con lo que era | Y | con el paso del tiempo | dije | si hubiera vendido ese canal de YouTube primero me hubiese jodido la vida porque no tenía la capacidad de sostenerlo | no hubiese ido a Australia no hubiese aprendido lo que he aprendido no hubiese evolucionado todo lo que he evolucionado | Todo eso no hubiese pasado
+Traceback (most recent call last):
+  File "C:\Users\Clap\Desktop\EDICION VIDEOS\ABEL GARCIA\Editor vídeos\herramientas\reel_tablero.py", line 214, in <module>
+    hacer(cfg, n, r, W, None, cara, modo)
+  File "C:\Users\Clap\Desktop\EDICION VIDEOS\ABEL GARCIA\Editor vídeos\herramientas\reel_tablero.py", line 182, in hacer
+    subprocess.run(node + [str(dur), str(tmp / 'video.mp4'), '--sfx', str(tmp / 'sfx.json')], check=True)
+  File "C:\Users\Clap\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['node', 'C:\\Users\\Clap\\Desktop\\EDICION VIDEOS\\ABEL GARCIA\\Editor vídeos\\herramientas\\tablero\\grabar.mjs', 'C:\\Users\\Clap\\Desktop\\EDICION VIDEOS\\ABEL GARCIA\\Editor vídeos\\MarcaPersonal\\travesia\\out_trial\\_c05_g2e2_F3', '54.304', 'C:\\Users\\Clap\\Desktop\\EDICION VIDEOS\\ABEL GARCIA\\Editor vídeos\\MarcaPersonal\\travesia\\out_trial\\_c05_g2e2_F3\\video.mp4', '--sfx', 'C:\\Users\\Clap\\Desktop\\EDICION VIDEOS\\ABEL GARCIA\\Editor vídeos\\MarcaPersonal\\travesia\\out_trial\\_c05_g2e2_F3\\sfx.json']' returned non-zero exit status 1.

@@ -1,0 +1,580 @@
+{
+ "campo-toroidal/aura_toroidal_dorada_silueta.png": {
+  "tema": "campo-toroidal",
+  "muestra": "Silueta humana dentro de un campo toroidal dorado con aura de colores",
+  "familia": "visionario",
+  "origen": "reel de referencia F4 (Stop romanticizing suffering), fotograma 0000.0",
+  "resolucion": "906x804 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "aura-cuerpo-de-luz/pareja_energia_visionario.png": {
+  "tema": "aura-cuerpo-de-luz",
+  "muestra": "Dos figuras de energía entrelazadas, colores psicodélicos (arte visionario)",
+  "familia": "visionario",
+  "origen": "reel de referencia F4 (Stop romanticizing suffering), fotograma 0014.0",
+  "resolucion": "954x825 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "cotidiano-bocetos/subir_montana_boceto.png": {
+  "tema": "cotidiano-bocetos",
+  "muestra": "Persona subiendo un camino empinado hacia la cima, boceto a tinta",
+  "familia": "boceto",
+  "origen": "reel de referencia F4 (Stop romanticizing suffering), fotograma 0020.5",
+  "resolucion": "828x816 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ },
+ "miedo-amor/miedo_amor_toroide.png": {
+  "tema": "miedo-amor",
+  "muestra": "«Fear» (campo pequeño) → «LOVE» (campo toroidal grande), malla azul sobre negro",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (Stop romanticizing suffering), fotograma 0026.5",
+  "resolucion": "1455x708 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08",
+  "espanol": "textos traducidos"
+ },
+ "miedo-amor/dos_tipos_de_pensamiento.png": {
+  "tema": "miedo-amor",
+  "muestra": "Dos tipos de pensamiento: ilusiones → separación → ego / verdades → unidad → divino",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (Stop romanticizing suffering), fotograma 0028.0",
+  "resolucion": "1206x1035 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08",
+  "espanol": "rehecha entera en español (1200 px)"
+ },
+ "manifestacion/cuerpo_luz_cosmico_abundancia.png": {
+  "tema": "manifestacion",
+  "muestra": "Cuerpo de luz cósmico rodeado de billetes y galaxias (poder superior, abundancia)",
+  "familia": "visionario",
+  "origen": "reel de referencia F4 (Stop romanticizing suffering), fotograma 0048.5",
+  "resolucion": "939x789 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "campo-toroidal/toroide_dorado_figura.png": {
+  "tema": "campo-toroidal",
+  "muestra": "Figura meditando dentro de un toroide dorado luminoso",
+  "familia": "visionario",
+  "origen": "reel de referencia F4 (Stop romanticizing suffering), fotograma 0073.5",
+  "resolucion": "1110x810 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "personajes/magnetismo_michael_jackson_marilyn.png": {
+  "tema": "personajes",
+  "muestra": "Michael Jackson y Marilyn Monroe (personas magnéticas)",
+  "familia": "foto",
+  "origen": "reel de referencia F4 (Comment ALIGN), fotograma 0000.5",
+  "resolucion": "1743x837 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "centros-energeticos/toroide_chakras_columna.png": {
+  "tema": "centros-energeticos",
+  "muestra": "Columna con los 7 chakras dentro de un campo toroidal (dibujo técnico)",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (Comment ALIGN), fotograma 0004.0",
+  "resolucion": "861x861 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ },
+ "leyes-hermeticas/ley_del_mentalismo.png": {
+  "tema": "leyes-hermeticas",
+  "muestra": "«The Law of Mentalism: All is Mind» (leyes herméticas, texto)",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (Comment ALIGN), fotograma 0012.5",
+  "resolucion": "1020x864 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08",
+  "espanol": "rehecha entera en español (1200 px)"
+ },
+ "cotidiano-bocetos/multitarea_desbordada_boceto.png": {
+  "tema": "cotidiano-bocetos",
+  "muestra": "Mujer con varios brazos haciendo mil cosas a la vez, boceto a tinta",
+  "familia": "boceto",
+  "origen": "reel de referencia F4 (Comment ALIGN), fotograma 0020.5",
+  "resolucion": "1080x855 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ },
+ "frecuencia-vibracion/bateria_energia_vs_burnout.png": {
+  "tema": "frecuencia-vibracion",
+  "muestra": "Batería cargada (gestionar la energía) vs batería rota (responder a todo = burnout)",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (Comment ALIGN), fotograma 0031.0",
+  "resolucion": "1347x840 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08",
+  "espanol": "textos traducidos"
+ },
+ "elementos/yin_yang_chi_grabado.png": {
+  "tema": "elementos",
+  "muestra": "Grabado chino antiguo del yin-yang / chi con texto",
+  "familia": "grabado",
+  "origen": "reel de referencia F4 (Comment ALIGN), fotograma 0041.0",
+  "resolucion": "648x987 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ },
+ "centros-energeticos/prana_vayus_meditacion.png": {
+  "tema": "centros-energeticos",
+  "muestra": "Silueta meditando con los vayus (prana, udana, vyana, samana, apana)",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (Comment ALIGN), fotograma 0042.5",
+  "resolucion": "966x969 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ },
+ "tarot/el_mago.png": {
+  "tema": "tarot",
+  "muestra": "Carta del Mago (tarot Rider-Waite)",
+  "familia": "grabado",
+  "origen": "reel de referencia F4 (Comment ALIGN), fotograma 0044.0",
+  "resolucion": "720x1278 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08",
+  "espanol": "«EL MAGO»"
+ },
+ "elementos/cinco_elementos.png": {
+  "tema": "elementos",
+  "muestra": "Los cinco elementos (espíritu, aire, fuego, agua, tierra) con el pentáculo",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (Comment ALIGN), fotograma 0051.0",
+  "resolucion": "1014x978 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08",
+  "espanol": "textos traducidos (nombres sánscritos cortados, quitados)"
+ },
+ "aura-cuerpo-de-luz/cuerpo_luz_visionario.png": {
+  "tema": "aura-cuerpo-de-luz",
+  "muestra": "Cuerpo de luz recibiendo rayos de energía, estilo Alex Grey",
+  "familia": "visionario",
+  "origen": "reel de referencia F4 (Comment ALIGN), fotograma 0057.0",
+  "resolucion": "861x1041 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "manifestacion/proceso_creacion_cabeza.png": {
+  "tema": "manifestacion",
+  "muestra": "Proceso interno y externo de creación: éter → agua → fuego → tierra (cabeza)",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (Comment ALIGN), fotograma 0063.0",
+  "resolucion": "1329x1164 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08",
+  "espanol": "textos traducidos, marca de agua quitada"
+ },
+ "masculino-femenino/unidad_masculino_femenino.png": {
+  "tema": "masculino-femenino",
+  "muestra": "Unidad: femenino (madre divina) y masculino (padre divino), creación consciente",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (Comment ALIGN), fotograma 0067.0",
+  "resolucion": "1482x759 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08",
+  "espanol": "rehecha entera en español (1400 px)"
+ },
+ "intuicion-tercer-ojo/figura_luz_reflejo.png": {
+  "tema": "intuicion-tercer-ojo",
+  "muestra": "Figura de luz que se refleja en el agua, fondo negro",
+  "familia": "visionario",
+  "origen": "reel de referencia F4 (Comment ALIGN), fotograma 0074.5",
+  "resolucion": "921x915 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "intuicion-tercer-ojo/cabeza_cristal_rayo_cosmico.png": {
+  "tema": "intuicion-tercer-ojo",
+  "muestra": "Cabeza de cristal recibiendo un rayo de luz del cosmos (energía vital)",
+  "familia": "visionario",
+  "origen": "reel de referencia F4 (Comment ALIGN), fotograma 0080.5",
+  "resolucion": "1125x1044 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "cotidiano-bocetos/escritorio_reloj_silueta.png": {
+  "tema": "cotidiano-bocetos",
+  "muestra": "Silueta trabajando en el ordenador con un reloj detrás (rutina, prisa)",
+  "familia": "boceto",
+  "origen": "reel de referencia F4 (Comment ALIGN), fotograma 0092.5",
+  "resolucion": "924x927 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ },
+ "universo-cosmos/mago_anciano_galaxia.png": {
+  "tema": "universo-cosmos",
+  "muestra": "Mago anciano sosteniendo una galaxia (estado de flujo, sabiduría)",
+  "familia": "visionario",
+  "origen": "reel de referencia F4 (Comment ALIGN), fotograma 0095.0",
+  "resolucion": "1140x777 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "campo-toroidal/toroide_azul_cuerpo.png": {
+  "tema": "campo-toroidal",
+  "muestra": "Cuerpo con el campo toroidal azul-violeta (magnetismo)",
+  "familia": "visionario",
+  "origen": "reel de referencia F4 (Comment ALIGN), fotograma 0099.0",
+  "resolucion": "1155x786 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "ego/ego_globo_hombre.png": {
+  "tema": "ego",
+  "muestra": "Hombre señalando un globo con la palabra EGO (foto antigua B/N)",
+  "familia": "foto",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 0.8",
+  "resolucion": "1308x858 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "manifestacion/salto_cuantico_figura_luz.png": {
+  "tema": "manifestacion",
+  "muestra": "Figura de luz saltando con efecto glitch de colores (salto cuántico, nueva realidad)",
+  "familia": "visionario",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 3.2",
+  "resolucion": "1602x825 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "descenso-transformacion/inframundo_pintura.png": {
+  "tema": "descenso-transformacion",
+  "muestra": "Pintura clásica del inframundo, fuego y almas",
+  "familia": "pintura",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 7.8",
+  "resolucion": "1458x1086 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "descenso-transformacion/barca_inframundo_grabado.png": {
+  "tema": "descenso-transformacion",
+  "muestra": "Grabado: barquero cruzando el río del inframundo (Dante)",
+  "familia": "grabado",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 10.8",
+  "resolucion": "753x1161 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ },
+ "descenso-transformacion/infierno_rojo_pintura.png": {
+  "tema": "descenso-transformacion",
+  "muestra": "Pintura de infierno en rojo con figuras y llamas",
+  "familia": "pintura",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 12.5",
+  "resolucion": "753x1068 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "descenso-transformacion/ciudad_infierno_oscura.png": {
+  "tema": "descenso-transformacion",
+  "muestra": "Ciudad oscura en llamas, tonos rojos",
+  "familia": "pintura",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 12.5",
+  "resolucion": "1083x720 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "descenso-transformacion/descenso_figura_alada.png": {
+  "tema": "descenso-transformacion",
+  "muestra": "Figura oscura alada que arrastra almas (descenso)",
+  "familia": "pintura",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 12.5",
+  "resolucion": "687x930 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "tarot/la_muerte.png": {
+  "tema": "tarot",
+  "muestra": "Carta XIII La Muerte (tarot Rider-Waite): fin de un ciclo",
+  "familia": "grabado",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 20.0",
+  "resolucion": "732x1128 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ },
+ "descenso-transformacion/descenso_al_abismo_pintura.png": {
+  "tema": "descenso-transformacion",
+  "muestra": "Figuras que descienden a una cueva junto al mar (pintura)",
+  "familia": "pintura",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 20.0",
+  "resolucion": "1134x840 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "mitologia/persefone_rapto_pintura.png": {
+  "tema": "mitologia",
+  "muestra": "Hades raptando a Perséfone (pintura clásica)",
+  "familia": "pintura",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 33.5",
+  "resolucion": "1233x999 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "emociones/pareja_desmoronandose_collage.png": {
+  "tema": "emociones",
+  "muestra": "Pareja que se desmorona en pedazos (relación que se rompe), collage",
+  "familia": "collage",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 39.3",
+  "resolucion": "1116x975 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "sombra-inconsciente/psique_jung_self.png": {
+  "tema": "sombra-inconsciente",
+  "muestra": "Mapa de la psique de Jung: persona, ego, sí mismo, sombra, ánima/ánimus",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 48.3",
+  "resolucion": "882x1005 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08",
+  "espanol": "rehecha en español"
+ },
+ "mitologia/pluton_grabado.png": {
+  "tema": "mitologia",
+  "muestra": "Plutón / Hades, grabado antiguo",
+  "familia": "grabado",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 54.0",
+  "resolucion": "882x1149 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08",
+  "espanol": "«PLUTÓN»"
+ },
+ "mitologia/hades_trono_ceramica.png": {
+  "tema": "mitologia",
+  "muestra": "Hades en su trono (cerámica griega roja)",
+  "familia": "pintura",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 56.0",
+  "resolucion": "795x1080 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "mitologia/inanna_ishtar_relieve_lineas.png": {
+  "tema": "mitologia",
+  "muestra": "Inanna/Ishtar con el león y la estrella (dibujo a línea)",
+  "familia": "grabado",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 79.3",
+  "resolucion": "1440x1002 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ },
+ "aura-cuerpo-de-luz/grial_campo_energia.png": {
+  "tema": "aura-cuerpo-de-luz",
+  "muestra": "Grial dorado en un campo de energía azul (visionario)",
+  "familia": "visionario",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 82.7",
+  "resolucion": "1020x1281 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "aura-cuerpo-de-luz/diosa_agua_luz.png": {
+  "tema": "aura-cuerpo-de-luz",
+  "muestra": "Diosa de luz emergiendo del agua (alma, purificación)",
+  "familia": "visionario",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 87.7",
+  "resolucion": "918x1167 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "mitologia/ishtar_relieve_dorado.png": {
+  "tema": "mitologia",
+  "muestra": "Relieve dorado de Ishtar con alas",
+  "familia": "grabado",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 93.0",
+  "resolucion": "987x1053 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ },
+ "ego/sacrificio_cabeza_mujer.png": {
+  "tema": "ego",
+  "muestra": "Mujer que entrega su propia cabeza (sacrificar falsas identidades), pintura surrealista",
+  "familia": "pintura",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 103.8",
+  "resolucion": "1323x855 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "mitologia/persefone_ceramica_roja.png": {
+  "tema": "mitologia",
+  "muestra": "Perséfone desciende (cerámica griega negra y roja)",
+  "familia": "pintura",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 112.7",
+  "resolucion": "999x972 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "descenso-transformacion/putrefactio_alquimia.png": {
+  "tema": "descenso-transformacion",
+  "muestra": "Grabado alquímico «Putrefactio»: esqueleto sobre el sol negro (muerte del ego)",
+  "familia": "grabado",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 117.3",
+  "resolucion": "1107x903 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ },
+ "sombra-inconsciente/integrar_la_sombra.png": {
+  "tema": "sombra-inconsciente",
+  "muestra": "Silueta blanca frente a su sombra en llamas (integrar la sombra)",
+  "familia": "grabado",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 121.8",
+  "resolucion": "1026x978 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ },
+ "aura-cuerpo-de-luz/silueta_estrellas_nucleo.png": {
+  "tema": "aura-cuerpo-de-luz",
+  "muestra": "Silueta abierta que muestra un núcleo de luz (quién eres de verdad)",
+  "familia": "visionario",
+  "origen": "reel de referencia F4 (vídeo 1 del 08/10), segundo 139.8",
+  "resolucion": "975x1302 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "campo-toroidal/toroide_cuerpo_meridianos.png": {
+  "tema": "campo-toroidal",
+  "muestra": "Cuerpo con meridianos dentro de un campo toroidal",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (vídeo 2 del 08/10), segundo 0.0",
+  "resolucion": "1128x945 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ },
+ "centros-energeticos/espiritu_cuerpo_alma.png": {
+  "tema": "centros-energeticos",
+  "muestra": "Triángulo espíritu–cuerpo–alma",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (vídeo 3 del 08/10), segundo 0.7",
+  "resolucion": "582x708 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08",
+  "espanol": "rehecha en español"
+ },
+ "masculino-femenino/polaridades_masculino_femenino.png": {
+  "tema": "masculino-femenino",
+  "muestra": "Polaridades: femenino (emoción, creatividad, agua) vs masculino (lógica, ciencia, fuego)",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (vídeo 3 del 08/10), segundo 10.8",
+  "resolucion": "2160x1512 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08",
+  "espanol": "rehecha en español (simplificada)"
+ },
+ "masculino-femenino/dios_prisma_subconsciente.png": {
+  "tema": "masculino-femenino",
+  "muestra": "Dios → prisma: mente subconsciente (femenina) y reino dual (consciente, masculina)",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (vídeo 3 del 08/10), segundo 23.0",
+  "resolucion": "1371x744 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08",
+  "espanol": "textos traducidos"
+ },
+ "mitologia/tradiciones_antiguas_collage.png": {
+  "tema": "mitologia",
+  "muestra": "Seis tradiciones: babilonia, hindú, maya, egipcia, cristiana",
+  "familia": "collage",
+  "origen": "reel de referencia F4 (vídeo 3 del 08/10), segundo 30.5",
+  "resolucion": "1035x1005 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08",
+  "espanol": "etiquetas traducidas"
+ },
+ "leyes-hermeticas/arbol_de_la_vida_cabala.png": {
+  "tema": "leyes-hermeticas",
+  "muestra": "Árbol de la vida (Cábala) con nombres hebreos",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (vídeo 3 del 08/10), segundo 35.3",
+  "resolucion": "762x1059 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08",
+  "espanol": "PENDIENTE: etiquetas pequeñas en inglés junto al hebreo (ilegibles en el reel)"
+ },
+ "mitologia/isis_osiris_egipto.png": {
+  "tema": "mitologia",
+  "muestra": "Isis y Osiris (pintura egipcia)",
+  "familia": "pintura",
+  "origen": "reel de referencia F4 (vídeo 3 del 08/10), segundo 37.8",
+  "resolucion": "1053x966 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "masculino-femenino/dualidad_polaridad_yin_yang.png": {
+  "tema": "masculino-femenino",
+  "muestra": "Ley de la polaridad / género: yin-yang",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (vídeo 3 del 08/10), segundo 40.0",
+  "resolucion": "1167x822 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08",
+  "espanol": "rehecha en español"
+ },
+ "masculino-femenino/shiva_shakti.png": {
+  "tema": "masculino-femenino",
+  "muestra": "Shiva y Shakti (arte hindú)",
+  "familia": "pintura",
+  "origen": "reel de referencia F4 (vídeo 3 del 08/10), segundo 42.3",
+  "resolucion": "885x1179 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "intuicion-tercer-ojo/ida_pingala_cerebro.png": {
+  "tema": "intuicion-tercer-ojo",
+  "muestra": "Cabeza con cerebro en colores y los canales ida y pingala",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (vídeo 3 del 08/10), segundo 75.7",
+  "resolucion": "891x996 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ },
+ "manifestacion/alquimista_cuerpo_rayos.png": {
+  "tema": "manifestacion",
+  "muestra": "Alquimista con rayos que salen del cuerpo (grabado)",
+  "familia": "grabado",
+  "origen": "reel de referencia F4 (vídeo 4 del 08/10), segundo 0.0",
+  "resolucion": "777x759 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ },
+ "frecuencia-vibracion/cerebro_ondas_doradas.png": {
+  "tema": "frecuencia-vibracion",
+  "muestra": "Cerebro/figura con ondas doradas sobre negro",
+  "familia": "visionario",
+  "origen": "reel de referencia F4 (vídeo 4 del 08/10), segundo 0.5",
+  "resolucion": "813x771 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "cotidiano-bocetos/reunion_mesa_boceto.png": {
+  "tema": "cotidiano-bocetos",
+  "muestra": "Personas en una mesa vistas desde arriba (conexiones), boceto",
+  "familia": "boceto",
+  "origen": "reel de referencia F4 (vídeo 4 del 08/10), segundo 11.0",
+  "resolucion": "819x888 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ },
+ "cotidiano-bocetos/networking_oficina.png": {
+  "tema": "cotidiano-bocetos",
+  "muestra": "Gente en una oficina conectando (contactos, oportunidades)",
+  "familia": "foto",
+  "origen": "reel de referencia F4 (vídeo 4 del 08/10), segundo 12.3",
+  "resolucion": "837x819 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08",
+  "espanol": "cartel traducido"
+ },
+ "cotidiano-bocetos/trabajando_ordenador.png": {
+  "tema": "cotidiano-bocetos",
+  "muestra": "Hombre de espaldas trabajando en el ordenador",
+  "familia": "foto",
+  "origen": "reel de referencia F4 (vídeo 4 del 08/10), segundo 15.0",
+  "resolucion": "876x879 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "cotidiano-bocetos/pintora_creatividad.png": {
+  "tema": "cotidiano-bocetos",
+  "muestra": "Mujer pintando en su estudio (talento, habilidades)",
+  "familia": "foto",
+  "origen": "reel de referencia F4 (vídeo 4 del 08/10), segundo 15.3",
+  "resolucion": "891x879 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "manifestacion/manos_sosteniendo_mundo.png": {
+  "tema": "manifestacion",
+  "muestra": "Manos sosteniendo el mundo (contribución con sentido)",
+  "familia": "visionario",
+  "origen": "reel de referencia F4 (vídeo 4 del 08/10), segundo 64.8",
+  "resolucion": "831x834 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "manifestacion/luz_desde_el_cielo.png": {
+  "tema": "manifestacion",
+  "muestra": "Figura pequeña bajo un haz de luz cálida (recibir)",
+  "familia": "visionario",
+  "origen": "reel de referencia F4 (vídeo 4 del 08/10), segundo 86.3",
+  "resolucion": "858x858 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "sombra-inconsciente/cerebro_sepia.png": {
+  "tema": "sombra-inconsciente",
+  "muestra": "Cabeza con el cerebro, grabado sepia (reprogramar la mente)",
+  "familia": "grabado",
+  "origen": "reel de referencia F4 (vídeo 4 del 08/10), segundo 105.7",
+  "resolucion": "819x810 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ },
+ "intuicion-tercer-ojo/lamina_esoterica_ondas.png": {
+  "tema": "intuicion-tercer-ojo",
+  "muestra": "Lámina esotérica con ondas y figuras (inspiración)",
+  "familia": "grabado",
+  "origen": "reel de referencia F4 (vídeo 5 del 08/10), segundo 0.5",
+  "resolucion": "768x768 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ },
+ "aura-cuerpo-de-luz/cuerpo_energia_azul_rosa.png": {
+  "tema": "aura-cuerpo-de-luz",
+  "muestra": "Cuerpo humano de energía azul y rosa (creación)",
+  "familia": "visionario",
+  "origen": "reel de referencia F4 (vídeo 5 del 08/10), segundo 15.3",
+  "resolucion": "1230x1512 (mejorada con IA: realesrgan-x4plus)",
+  "fecha": "2026-10-08"
+ },
+ "sombra-inconsciente/realidad_presente_tiempo.png": {
+  "tema": "sombra-inconsciente",
+  "muestra": "Realidad = momento presente; la ilusión del tiempo (pasado/futuro)",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (vídeo 5 del 08/10), segundo 45.3",
+  "resolucion": "1380x1212 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08",
+  "espanol": "rehecha en español"
+ },
+ "campo-toroidal/toroide_silueta_negra.png": {
+  "tema": "campo-toroidal",
+  "muestra": "Silueta negra dentro de un toroide (campo de energía)",
+  "familia": "esquema",
+  "origen": "reel de referencia F4 (vídeo 5 del 08/10), segundo 55.3",
+  "resolucion": "1071x738 (mejorada con IA: realesrgan-x4plus-anime)",
+  "fecha": "2026-10-08"
+ }
+}

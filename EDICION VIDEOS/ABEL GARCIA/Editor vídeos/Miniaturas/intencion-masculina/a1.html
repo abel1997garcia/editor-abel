@@ -1,0 +1,16 @@
+<!doctype html><meta charset="utf-8">
+<link rel="stylesheet" href="../../herramientas/miniaturas/base.css">
+<div id="escena" style="--acento:#C8372D"></div>
+<script src="../../herramientas/miniaturas/base.js"></script>
+<script>
+// «ellas lo notan.» — (ref.: «Las mujeres pueden oler la retención», 1,4 M) · su sonrisa cómplice de 495 s
+fotoCara('abel_495.0.png', [0.395, 0.333, 0.537, 0.624], { cx: 900, cy: 262, alto: 280 });
+const s = svg();
+const p = siluetaMujer(s, 250, 540, .62);
+const [hx, hy] = p(0, 58);
+// ella se gira: rayitas de movimiento junto a la cabeza y su mirada que va hacia él
+trazo(s, `M${hx - 50},${hy - 30} q-14,30 0,60 M${hx - 72},${hy - 18} q-10,18 0,36`, { ancho: 5, color: GRIS });
+trazo(s, `M${hx + 44},${hy - 8} C${hx + 160},${hy - 70} ${hx + 300},${hy - 60} ${hx + 404},${hy - 22}`, { ancho: 6, color: C.raiz }).setAttribute('stroke-dasharray', '2 22');
+trazo(s, `M${hx + 384},${hy - 44} L${hx + 410},${hy - 20} L${hx + 378},${hy - 6}`, { ancho: 6, color: C.raiz });
+texto('ellas lo <span class="c">notan.</span>', { x: 40, y: 560, tam: 124 });
+</script>

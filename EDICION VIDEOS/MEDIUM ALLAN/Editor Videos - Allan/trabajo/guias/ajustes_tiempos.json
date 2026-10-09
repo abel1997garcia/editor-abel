@@ -1,0 +1,35 @@
+{
+ "_nota": "Muletillas pegadas a la palabra anterior (vídeo guías).",
+ "770": {
+  "fin_max": 341.27,
+  "por": "«existente» acaba en 341.27 (la t hace un silencio interno 341.04-341.12); «¿no?» 341.28-341.40. ANTES puse 341.08 y cortaba «exist»"
+ },
+ "2017": {
+  "fin_max": 829.68,
+  "por": "«¿no?» tras «humanos» (829.74-829.86)"
+ },
+ "658": {
+  "ini_fijo": 289.92,
+  "por": "«bueno pues» pegado delante de «se arregla» (medido escuchando con buscar_inicio.py)"
+ },
+ "1306": {
+  "ini_fijo": 551.71,
+  "por": "«pues» delante de «eso nos indica» (medido escuchando con buscar_inicio.py)"
+ },
+ "1168": {
+  "ini_fijo": 494.13,
+  "por": "«o» delante de «no siempre» (medido escuchando con buscar_inicio.py)"
+ },
+ "1231": {
+  "ini_fijo": 520.06,
+  "por": "«entendemos» suena hasta 520.08 (su principio es muy flojo y buscar_inicio se equivocó); «donde» limpio desde 520.0-520.1"
+ },
+ "806": {
+  "ini_fijo": 354.64,
+  "por": "«pues» delante de «es lo único» (medido escuchando con buscar_inicio.py)"
+ },
+ "1179": {
+  "fin_max": 497.94,
+  "por": "«realmente» acaba ~497.82; en 497.98 arranca «que es» (Whisper oía ese trocito como «¿no?»). Confirmado con energía"
+ }
+}

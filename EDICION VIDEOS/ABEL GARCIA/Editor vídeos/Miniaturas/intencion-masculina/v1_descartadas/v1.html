@@ -1,0 +1,22 @@
+<!doctype html><meta charset="utf-8">
+<link rel="stylesheet" href="../../herramientas/miniaturas/base.css">
+<div id="escena" style="--acento:#C8372D"></div>
+<script src="../../herramientas/miniaturas/base.js"></script>
+<script>
+// «desconectado.» — un hombre sin propósito está desconectado: enchufe en el pecho y la clavija fuera
+foto('recorte_343.33.png', { x: -65, y: -83, ancho: 1728 });
+const s = svg();
+const p = silueta(s, 300, 722, .82);
+const [cx, cy] = p(0, 250);                       // enchufe redondo (español) a la altura del corazón
+trazo(s, `M${cx},${cy} m-40,0 a40,40 0 1,0 80,0 a40,40 0 1,0 -80,0`, { ancho: 6, relleno: '#fff' });
+trazo(s, `M${cx},${cy} m-27,0 a27,27 0 1,0 54,0 a27,27 0 1,0 -54,0`, { ancho: 4 });
+trazo(s, `M${cx - 13},${cy} m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 M${cx + 13},${cy} m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0`, { ancho: 5, relleno: NEGRO });
+// clavija arrancada: cuerpo redondo con dos patas, apuntando al enchufe
+const g = grupo(s, 120, 318, 1, 14);
+trazo(g, 'M0,-34 C30,-34 44,-20 44,0 C44,20 30,34 0,34 L-30,26 C-44,22 -44,-22 -30,-26 Z', { ancho: 6, relleno: '#fff' });
+trazo(g, 'M44,-13 h36 M44,13 h36', { ancho: 9 });
+trazo(g, 'M-40,0 C-80,4 -70,80 -96,140 C-120,200 -60,300 -110,440', { ancho: 6 });
+// chispas rojas en el hueco
+[[214, 300, 236, 280], [218, 352, 242, 366], [206, 268, 218, 244]].forEach(([a, b, c, d]) => trazo(s, linea(a, b, c, d, 1), { ancho: 6, color: C.raiz }));
+texto('<span class="c">des</span>conectado.', { x: 40, y: 28, tam: 116 });
+</script>

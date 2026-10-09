@@ -1,0 +1,18 @@
+<!doctype html><meta charset="utf-8">
+<link rel="stylesheet" href="../../herramientas/miniaturas/base.css">
+<div id="escena" style="--acento:#C8372D"></div>
+<script src="../../herramientas/miniaturas/base.js"></script>
+<script>
+// «sin dirección.» — la energía masculina pone dirección: sin ella, flechas hacia todas partes
+foto('recorte_343.33.png', { x: -65, y: -83, ancho: 1728 });
+const s = svg();
+const X = 300, Y = 712;
+stickman(s, X, Y, 1.55, { brazos: [[-46, -120], [46, -120]], piernas: [[-30, 0], [30, 0]] });
+// flechas grises en todas direcciones desde la cabeza; ninguna llega a ningún sitio
+const cab = [X, Y - 232 * 1.55];
+[[-150, -60], [-160, 60], [-60, -150], [70, -150], [160, -40], [170, 80], [-130, 170], [140, 190]].forEach(([dx, dy], i) => {
+  const r0 = 70, L = Math.hypot(dx, dy), ux = dx / L, uy = dy / L;
+  trazo(s, flecha(cab[0] + ux * r0, cab[1] + uy * r0, cab[0] + dx * 1.05, cab[1] + dy * 1.05, 22), { ancho: 6, color: i % 3 ? GRIS : C.raiz });
+});
+texto('sin <span class="c">dirección.</span>', { x: 40, y: 28, tam: 116 });
+</script>

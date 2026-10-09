@@ -1,0 +1,105 @@
+{
+ "estilo": "franjas_azules",
+ "video": "¿Qué Ocurre con los Seres Queridos Desaparecidos_ + Anécdotas _ Médium Allan García.mp4",
+ "tiempos": "trabajo/desaparecidos/tiempos.json",
+ "componer": {
+  "fondo": "plantillas/fondo_franjas_azules.png",
+  "y": 588,
+  "alto": 768,
+  "x": 90
+ },
+ "nombre": "desap_02_sabia_que_no_volveria",
+ "titulo": "SABÍA QUE NO IBA A VOLVER A VERLA",
+ "lineas": [
+  [
+   823,
+   838,
+   "Sabía, cuando iba en ese coche, que no iba a volver a ver a su amada."
+  ],
+  [
+   839,
+   848,
+   "Él sabía que nunca más iba a volver a verla."
+  ],
+  [
+   688,
+   698,
+   "Me explicó que hubo como una cacería, una especie de cacería,"
+  ],
+  [
+   699,
+   707,
+   "donde todas las personas con origen alemán eran perseguidas."
+  ],
+  [
+   718,
+   720,
+   "Pero lo cogieron"
+  ],
+  [
+   721,
+   734,
+   "y él me mostró que le pusieron una pistola en un lado del vientre"
+  ],
+  [
+   736,
+   746,
+   "y lo metieron en un coche y condujeron por la noche"
+  ],
+  [
+   747,
+   750,
+   "y lo llevaron lejos."
+  ],
+  [
+   756,
+   768,
+   "Había más personas en ese coche y hubo más viajes en aquella noche."
+  ],
+  [
+   772,
+   775,
+   "A mí me mostraba"
+  ],
+  [
+   777,
+   780,
+   "un final muy trágico."
+  ],
+  [
+   795,
+   801,
+   "Y él fue uno más, incluso semienterrados."
+  ],
+  [
+   1000,
+   1017,
+   "Él lo sabía, él iba en silencio sabiendo que no iba a volver a ver a los suyos."
+  ],
+  [
+   1075,
+   1083,
+   "Al menos pude dar a esa familia ese cierre."
+  ],
+  [
+   1111,
+   1116,
+   "Esta persona, cuando llegó a Uruguay,"
+  ],
+  [
+   1117,
+   1120,
+   "me mandó un audio"
+  ],
+  [
+   1122,
+   1133,
+   "dándome las gracias y diciendo que iba a hablar con su familia."
+  ],
+  [
+   1250,
+   1258,
+   "La sensación que tuve fue de una paz tremenda."
+  ]
+ ]
+}
