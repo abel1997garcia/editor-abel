@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 3d4589e7-425f-4ade-ad39-5d4a51f78758
-  modified: 2026-10-09T18:38:29.771Z
+  modified: 2026-10-09T18:45:01.375Z
 ---
 
 Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una referencia de «Referencias reels» ([[referencias-virales]]).
@@ -78,4 +78,14 @@ Las versiones que él rechaza se mueven a REELS/_descartados (id `1PFadK1T75WZu5
   - Una ACCIÓN CONCRETA que cualquiera pueda hacer mañana (qué hacer, cuándo) + por qué, en palabras de la calle.
   - Nada de metáforas ni abstracciones («suelta lo que llevas cargando», «el dinero dejará de mandar en tu vida», «lo rápido que te mueves»).
   - BIEN: «Así que la próxima vez que te agobie el dinero, no te compres nada para calmarte, para, pregúntate de qué tienes miedo de verdad y empieza a trabajar eso, porque mientras ese miedo siga ahí, da igual lo que ganes» / «Así que antes de apuntarte a otro curso, apunta en un papel lo que te está quitando energía, esa relación, ese trabajo, esa amistad que te deja peor, y elige una para dejarla esta semana, porque vas a avanzar más con eso que con diez cursos».
-- **Versión vigente (09/10):** «Puedes ganar mucho dinero…» `1XaysSpjNL5WGOtcM9AG42g8gSHRrBan3tOGHVGHUUho` · «Tu siguiente nivel…» `1HkXxJ7deC6npDAg5CnjMNvjHBRt2DzwTHLOffu84-40`. Las anteriores están en _descartados.
+- **VARIAR CÓMO ENTRA LA SOLUCIÓN (Abel 09/10, «no todos tienen que acabar "así que no sé qué"»):** no empezar siempre con «Así que…». También puede ser INDIRECTA, por ejemplo:
+  - lo que hace quien ya salió («la gente que está tranquila con el dinero no gana más, es que un día se paró a mirar ese miedo»);
+  - una pregunta que se responde él;
+  - lo que pasa el día que lo haces;
+  - un apunte breve suyo.
+  Sigue teniendo que entenderse a la primera.
+- **LA SOLUCIÓN LLEVA LO QUE LE DIFERENCIA, adaptado al tema (Abel 09/10: «si sabes lo que me diferencia, aplícalo, coño»).** Si no, la solución es de «cualquier coach».
+  - Su explicación, en palabras simples: «primero sientes la emoción y luego tu cabeza se inventa las razones»; la emoción decide antes que la cabeza; viene de pequeño (el niño interior); sentirla en vez de taparla y sanarla; no es un problema de información.
+  - Una pincelada de la mentoría, solo de vez en cuando: el cambio que se ve fuera (pedir lo que vales…) o «eso es justo lo que hago con la gente con la que trabajo».
+- **Le habla a CUALQUIER PERSONA, no solo al hombre** (Abel 09/10: «todas las personas tienen emociones, ahí está la clave»), aunque los documentos del avatar digan hombre.
+- **Versión vigente (09/10):** «Puedes ganar mucho dinero…» `10rvAkPvjLD72ACTaYhf0EeXSnOZm6JT8NRj0vKVkYZ4` · «Tu siguiente nivel…» `1GqsgB1WGUU_eXV5zHYNBMwieVkRspDXzjfilWQ6cUZc`. Las anteriores están en _descartados.

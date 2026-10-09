@@ -40,7 +40,7 @@ Personas **funcionales por fuera y saboteadas por dentro**:
 - tienen ambición y saben lo que tendrían que hacer, **pero vuelven a caer en lo mismo**;
 - ya han probado **disciplina, cursos, desarrollo personal, terapia o meditación sin llegar a la raíz**.
 
-Son sus documentos: el «megaavatar» es un **hombre** joven-adulto (su yo del pasado). ⚠️ Abel dice que la edad y el sexo no importan: decidir si el contenido le habla al hombre (más concreto y menos competencia) o a cualquier persona.
+**Le habla a CUALQUIER PERSONA (cerrado con Abel el 09/10/2026):** «todas las personas tienen emociones, ahí está la clave». El «megaavatar» de los documentos es un hombre joven-adulto (su yo del pasado), pero el contenido no excluye a nadie por sexo ni por edad.
 
 ## Sus 5 dolores (con la frase que se dice a solas → gancho)
 1. **Se sabotea aunque sabe lo que tiene que hacer:** «Mañana empiezo». «No me fío de mi propia palabra». (Porno, móvil, comida, fiesta, apuestas.)
