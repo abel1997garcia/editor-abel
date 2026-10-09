@@ -46,3 +46,12 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 Las versiones que él rechaza se mueven a REELS/_descartados (id `1PFadK1T75WZu5yFef15NbaIK1S0n1WXk`). Drive no deja mandarlas a la papelera.
 
 **Primeros guiones (09/10/2026):** las referencias de @khadenhayward («tu siguiente nivel no requiere más, requiere menos» → soltar) y @theabundantmind_ («sentirte rico sin dinero» → lo que emites es lo que sientes). Docs enlazados en «Referencias reels».
+
+**REGLAS DEFINITIVAS DEL GUION DE REEL (Abel 09/10/2026, «fundamental»):**
+- **De la referencia interesan DOS cosas:** de qué habla (el tema) y el gancho. La transcripción puede liar; el cuerpo se escribe con SU estructura, sobre el tema de la referencia y lo que él vende.
+- **Estructura:** gancho → CONNOTACIONES NEGATIVAS (cuantas más, mejor: collejas, problemas, lo que hace mal, cómo se engaña, qué le va a pasar) → solución o ejemplo aplicable.
+- **80 % collejas / 20 % solución.**
+- **NO hace falta «describir la escena».** Si se mete algo de escena, va DENTRO de las collejas.
+- **Hablar de la OTRA persona, no de Abel.** Nada de 17.000 €, Australia, etc. en cada reel («si hablas mucho de mí no va a tener éxito; eso ya lo verán en YouTube»). Como mucho, un apunte suyo breve y concreto.
+- **Los 3 hooks, TRES DISTINTOS entre sí y distintos del título/gancho original.** No reutilizar el título como hook 1. Cortos y directos.
+- **Las versiones anteriores de los dos primeros guiones** están en REELS/_descartados.

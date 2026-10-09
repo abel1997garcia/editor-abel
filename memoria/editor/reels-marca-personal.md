@@ -16,7 +16,7 @@ Los reels se sacan del **vídeo horizontal ya editado** ([[estilo-videos-largos-
    - ataca una creencia limitante, con connotación negativa, que remueva a la persona;
    - en la primera frase ya se entiende de qué va el reel.
    - MAL: «Las dinámicas sociales son un reflejo de…» (no dice nada, no ataca nada).
-2. **CONNOTACIÓN NEGATIVA = «la colleja» (LO QUE MÁS VENDE; Abel 09/10/2026, «muy importante»).**
+2. **CONNOTACIÓN NEGATIVA = «la colleja» (LO QUE MÁS VENDE; Abel 09/10/2026, «muy importante»). PROPORCIÓN: 80 % collejas (cuantas más, mejor) / 20 % solución. Se habla de la otra persona, no de Abel (su historia, como mucho, un apunte breve).**
    - **Por qué:** si no le dices a la persona lo que está haciendo mal, no le describes SU problema y no le generas preocupación, no piensa «hostia, claro, esto me pasa a mí». Sin esa necesidad no se interesa por él ni le compra. Un reel solo educativo es información, «pero ya está, no remueve».
    - **Qué es:** decirle a la cara lo que hace mal, en contra de lo que cree y hace la mayoría.
      - Describir el problema que tiene con sus escenas reales.
