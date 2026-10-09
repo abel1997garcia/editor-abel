@@ -46,7 +46,7 @@ Ver [[posicionamiento-abel]] y [[reels-marca-personal]].
   - qué incluye exactamente el Club Unidad (formato, resultado, precio);
   - si el contenido le habla al hombre o a cualquiera. Sus documentos dicen hombre; él dice que el sexo y la edad dan igual.
 
-**09/10/2026 · QUÉ VENDE: solo MENTORÍA 1:1.** Vende la transformación de la frase y, dentro, ayuda a crear el servicio o proyecto que la persona quiere. La grupal (Club Unidad) llegará cuando no tenga hueco para más 1:1.
+**09/10/2026 · QUÉ VENDE: solo MENTORÍA 1:1 — 997 € · 3 meses · 1 llamada/semana + soporte.** Vende la transformación de la frase y, dentro, ayuda a crear el servicio o proyecto que la persona quiere. La grupal (Club Unidad) llegará cuando no tenga hueco para más 1:1.
 **A QUIÉN:** `FÁBRICA DE CONTENIDO/01_MI_MARCA/A-QUIEN-LE-VENDO.pdf/.md`, generado con `a_quien_le_vendo.py`. Son 200 descripciones por situación, en 10 bloques:
 1. se sabotean aunque saben qué hacer;
 2. pareja y dependencia;
@@ -59,3 +59,9 @@ Ver [[posicionamiento-abel]] y [[reels-marca-personal]].
 9. complacencia y límites;
 10. quieren crear su servicio.
 Al proponer reels o elegir clips, partir de una de ellas.
+
+**RESULTADO DE LA MENTORÍA (cerrado el 09/10/2026):** «En 3 meses entenderás qué te sabotea y de dónde viene, tendrás tu forma de sanarlo, y lo habrás aplicado en tu vida conmigo al lado hasta ver el cambio fuera, no solo dentro.»
+- Se compone de autoconocimiento + método propio + APLICACIÓN acompañada (un cambio concreto elegido en la 1.ª llamada).
+- El CÓMO que le diferencia: su nivel de verdad e intuición, que lo ha vivido y el 1:1 con soporte.
+- Sin garantizar, y es mentoría, no terapia.
+- Detalle en `00-avatar-operativo.md`. El contenido del 5 % de venta (testimonios, su transformación) debe apuntar a esto.

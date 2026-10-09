@@ -23,7 +23,17 @@
   - Australia.
   - Sanó y hoy construye desde otro sitio.
 - **Descripciones de a quién se le vende:** `A-QUIEN-LE-VENDO.pdf` (200, por situación). Sirven para elegir el ángulo de cada pieza.
-- ⚠️ **Por definir:** duración y formato de la mentoría (sesiones, semanas), el resultado concreto al terminar y el precio.
+- **Formato (09/10/2026):** 997 € por 3 meses. Una llamada por semana y soporte claro entre llamadas: Abel está con la persona al 100 % hasta conseguir el resultado.
+- **RESULTADO (cerrado con Abel el 09/10/2026):** «En 3 meses entenderás qué te sabotea y de dónde viene, tendrás tu forma de sanarlo, y lo habrás aplicado en tu vida conmigo al lado hasta ver el cambio fuera, no solo dentro.»
+  1. **Autoconocimiento:** su mapa, con sus 2 o 3 patrones de sabotaje, la emoción que los dispara y de qué parte de su historia viene cada uno. Incluye entender cómo funcionan la energía y las emociones al manifestar.
+  2. **Su método para sanarlo solo:** niño interior, silencio, ayuno… lo que le sirva para no anestesiar la emoción.
+  3. **APLICACIÓN acompañada:** en la 1.ª llamada se elige UN cambio concreto que quiere ver fuera (dejar de recaer en X, dejar de mendigar atención, tomar la decisión aplazada, lanzar su proyecto). Cada semana aplica algo real y se revisa, con soporte cuando cae. «La gente paga por aplicación, no por información»: por eso vale 997 €.
+- **El CÓMO (lo que le diferencia):**
+  - su **nivel de verdad / intuición** para ver lo que hay debajo de lo que la persona cuenta («la transformación depende de los campos de verdad a los que se expone»);
+  - lo ha vivido;
+  - acompañamiento 1:1 al 100 %, con soporte.
+- **Sin garantizar resultados:** se promete acompañar hasta conseguirlo. Es mentoría, no terapia.
+- Abel también ha visto que parte de vender es estar convencido de lo que vale su servicio.
 
 ## A quién (segmento por SITUACIÓN, no por edad)
 Personas **funcionales por fuera y saboteadas por dentro**:
