@@ -38,3 +38,10 @@ Ver [[posicionamiento-abel]] y [[reels-marca-personal]].
   - las emociones son más importantes que los pensamientos y los generan;
   - conectan con el niño interior, que es quien manifiesta;
   - cuanto más dolor tiene una persona, más vive en la cabeza para no sentir, y desde ahí decide mal.
+
+**09/10/2026 · AVATAR OPERATIVO** en `FÁBRICA DE CONTENIDO/01_MI_MARCA/00-avatar-operativo.md`. Es una página que manda para cada reel y extracto: frase, qué vende, segmento por situación, 5 dolores con sus frases, colleja, deseos y objeciones.
+- **Segmento:** funcionales por fuera, saboteados por dentro, que ya probaron disciplina, cursos o terapia sin llegar a la raíz.
+- Los PDFs de Descargas («ABEL 1-5», 18/09) son versiones antiguas de los de la FÁBRICA (04/10).
+- Pendiente con Abel:
+  - qué incluye exactamente el Club Unidad (formato, resultado, precio);
+  - si el contenido le habla al hombre o a cualquiera. Sus documentos dicen hombre; él dice que el sexo y la edad dan igual.

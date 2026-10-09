@@ -8,6 +8,7 @@ Antes de generar ideas, guiones o variaciones, lee `01_MI_MARCA/`:
 
 | Archivo | Qué contiene |
 |---|---|
+| `00-avatar-operativo.md` | **Una página: qué vendo y a quién** (frase central, segmento, 5 dolores, colleja, deseos, objeciones). **Manda para decidir cada pieza** |
 | `01-avatar-megaestudio.md` | El avatar (mi yo del pasado): dolores, miedos, deseos, diálogo interno, cómo hablarle, tono PRESENCIA + CONFRONTACIÓN |
 | `02-catalogo-momentos-concretos.md` | Mis momentos de vida reales con detalle (cifras, lugares, edades) |
 | `03-aspiraciones-estilo-vida.md` | La vida que el avatar quiere. No reducirlo a dolor |
