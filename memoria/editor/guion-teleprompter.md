@@ -28,7 +28,9 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 - adaptado solo un poco para que se lea fácil en español;
 - se QUITA lo que no es info útil: «soy psicóloga y te explico…», «I was today years old», «así se lo enseño a mi hijo», «gracias, te quiero», repeticiones;
 - el gancho se deja tal cual (hook 1), y si falta connotación negativa se puede añadir un poco (p. ej., un cierre tipo «no es que estés bien, es que te has desconectado de tu cuerpo»);
-- nada de preguntas finales ni CTA.
+- nada de preguntas finales ni CTA;
+- **ESCRITO PARA HABLAR, NO «IA»** (Abel 10/10: «demasiado IA»): POCOS PUNTOS, MUCHAS COMAS y POCOS CONECTORES. Nada de «Primero… Segundo…», «Así que…», dos puntos ni frases sueltas de manual. Frases largas que se encadenan con comas, tal cual se dirían. Ej.: «Si lo sientes en el pecho es miedo, si lo sientes en el estómago es intuición, en la cabeza es rabia…»;
+- **HOOKS 2 y 3: de TÚ a TÚ, CRUDOS, POLÉMICOS y que toquen el DOLOR** (ej. «Pides perdón hasta por existir y no sabes por qué», «Te pones nervioso y la cagas porque te crees que los nervios son malos», «Si no notas nada en el cuerpo, no estás bien, estás desconectado»).
 Formato del doc: `# Título` (el gancho) · `**Idea:**` · `## Hooks` (1 original + 2 variaciones cercanas con sentido) · `## Guion` (la traducción) · `## Descripción del post`.
 Primer lote con este formato (10/10): 5 reels (Quinlan Walther, Vassia Sar, drcoachrees, candasifamabarnes, its.jaygomez) en `Referencias/virales/lote_1010/`.
 Lo de abajo (colleja ≤ 2 frases + solución) vale SOLO para referencias en español o para ideas propias.
