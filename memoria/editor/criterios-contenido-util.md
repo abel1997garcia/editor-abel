@@ -19,3 +19,14 @@ Al **seleccionar clips** de sus vídeos largos, al decidir reels y al planificar
 **Why:** Abel (08/10/2026) quiere que su contenido sea útil y transformador, no información que se encuentra en cualquier lado. Su estilo de explicar se parece al de Love Again Jen (calmado, como quien enseña una ley), pero él entra por la herida del avatar.
 
 **How to apply:** cuando proponga reels o clips de un horizontal, descartar los trozos que solo informan. Priorizar los que tienen gancho de verdad incómoda, su experiencia y algo aplicable. Al proponer o revisar títulos y temas de YouTube, comprobar que encajan en una línea coherente. Ver [[estrategia-contenido-80-15-5]] y [[reels-marca-personal]].
+
+## BÁJALO A TIERRA (Abel 10/10/2026: «es muy necesario»; reel de Rebeca Schimensky, instagram.com/p/DeU8hHGIXcW)
+**La idea del reel:**
+- Si vendes espiritualidad, lo estás haciendo al revés: la mayoría no tiene ese nivel de consciencia, y no hay que meterle la espiritualidad a la fuerza.
+- El cliente no quiere yoga. Quiere llegar con energía a casa y tener flexibilidad para coger a su hijo.
+- Hay que hablar desde tu esencia, pero bajado a tierra, de tú a tú y de la calle, sin ponerse «súper metafísico».
+
+**Cómo se aplica en TODO (reels, guiones, hooks, títulos, fichas de YouTube, descripciones):**
+- **Se vende el RESULTADO CONCRETO del día a día, nunca la espiritualidad.** «Dejar de explotar con tu pareja por una tontería», «no cagarla en la reunión», «pedir lo que necesitas sin pedir perdón», «dinero sin ansiedad».
+- **Fuera de hooks y títulos para público frío:** energía, frecuencia, vibración, conciencia, manifestar, ley de atracción, bendición, universo. Si salen, van DENTRO del vídeo y aterrizados a una escena concreta.
+- **Antes de entregar cualquier pieza, pregunta extra:** ¿lo entendería alguien que nunca ha leído nada de espiritualidad? ¿Habla de algo que le pasa el lunes a las 9?
