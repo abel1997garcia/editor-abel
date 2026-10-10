@@ -78,7 +78,7 @@ Los reels se sacan del **vídeo horizontal ya editado** ([[estilo-videos-largos-
     2. Transcribir con faster-whisper con `word_timestamps` → `tiempos.json` (formato i/w/s/e).
     3. `reels.json` con `"formato": "F5"`. Luego `--texto`, `--fotos 1` + `verificar_audio.py` + `estilo_voz.py --base`, y UN render.
     - **Cómo graba:** dice los 3 hooks seguidos y luego empieza el cuerpo REPITIENDO el hook 1. Para publicar, usar ESA toma seguida (hook + cuerpo sin corte) en vez de pegar el hook del principio: suena natural y no queda repetido.
-    - Si repite una frase (retoma), quedarse con una sola.
+    - Si repite una frase (retoma), quedarse con UNA toma ENTERA de la frase y cortar en el final de la frase anterior (hay respiración). NUNCA empalmar media frase de una toma con el resto de otra («no la tapes ‖ quédate…»): Abel notó «un corte raro» (10/10).
     - Whisper puede adelantar el inicio de una palabra tras una pausa (p. ej. «Cada»): mirarlo en el audio y corregirlo en `tiempos.json`.
     - **Subtítulos:** un bloque NUNCA acaba en una palabra que necesita la siguiente («tus | maestras», «no te | elijan»); ya lo hace el motor.
   - **Trials:** él graba los 3 hooks y el cuerpo una vez. Mejor hook = publicar; los otros dos + el mismo cuerpo = trials.
