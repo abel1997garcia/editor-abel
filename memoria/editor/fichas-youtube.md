@@ -29,3 +29,15 @@ Entrega en un Google Doc para leer en el móvil (cuando se las preparo a mano).
 **Héroe Viaje (energía sexual) apunta a la misma idea que el principal (Abel, 10/10/2026):** se habla desde la retención y la energía sexual, y se baja al negocio. Es decir, esa energía convertida en ambición, constancia, presencia en cámara, facturar más y libertad. Detalle en «Héroe Viaje» de `00-avatar-operativo.md`.
 
 **YOUTUBE ≠ REEL (Abel, 11/10/2026):** en YouTube le tienen que conocer, conectar con él y ver que SABE de lo que habla: sus sistemas, su autenticidad, sus creencias y sus resultados. Las ideas tienen que ser potentes y dar para 10–20 minutos. Un detalle pequeño como «borrar la historia en la que ofreces tus sesiones» es material de reel, no de YouTube: «no tiene ningún sentido, no es potente». Pendiente: Abel pasará los vídeos de YouTube de Labri («contenido que vende») para adaptar su enfoque, y hay que definir su ESLOGAN de marca, que valga para el canal principal, Héroe Viaje e Instagram.
+
+**MODELO: el canal de YouTube de Labri (11/10/2026).** Abel pasó una captura de su canal. Todo cuelga de su eslogan «contenido que vende». Sus tipos de vídeo:
+1. **Revela sus resultados con cifras:** «Desvelo la ventaja competitiva que me genera 230k €/mes (cópiame)», «10k €/mes publicando solo 3 tipos de contenido».
+2. **Confesión o historia propia:** «Por eso perdí 100.000 € haciéndome viral (confesión)», «Así me hice rica dominando mi mente», vlogs («Intenté correr 105 km, pero salió mal»).
+3. **Mentalidad con promesa:** «Dame 16:10 minutos y jamás tendrás miedo a la crítica», «Si quieres ganar cada vez más, mira esto».
+4. **Marcos o conceptos:** «Las 2 únicas maneras de monetizar tus redes», «la psicología del contenido», «el yapping».
+5. **Prueba con clientes:** «Filtro un directo de mentalidad con clientes».
+6. **Contra las mentiras del sector:** «Estoy harta de que os mientan».
+
+**Miniaturas:** su cara más 1–2 palabras crudas («cobardes.», «cópiame.», «así se vende»).
+
+**Para Abel:** misma mezcla adaptada a su nicho y a sus pruebas reales (100K, 17.000 €/mes y perderlo todo, Allan García, Australia). Se generan ideas de este nivel, no detalles de reel.
