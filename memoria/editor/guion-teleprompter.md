@@ -12,7 +12,7 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 
 **1. La referencia la elige él por algo:** muchas visitas, un gancho que le llama la atención y el tema.
 - **Conservar lo que la hizo funcionar:** el gancho, la estructura y el ritmo. No copiarla al 100 %, adaptarla un poco a él.
-- **Adaptarla a lo que vende y a quién** ([[estrategia-contenido-80-15-5]], `00-avatar-operativo.md`): su nicho y su avatar (coaches, terapeutas, guías, reiki, médiums). Si el tema es de mentalidad o emociones, lleva **REMATE PARA EMPRENDEDORES**: una frase final que lo baja a su negocio, su contenido o su agenda.
+- **Adaptarla a lo que vende y a quién** ([[estrategia-contenido-80-15-5]], `00-avatar-operativo.md`): su nicho y su avatar. Si el tema es de mentalidad o emociones, lleva **REMATE PARA EMPRENDEDORES**.
 - **NO hace falta que encaje con una de las 200 descripciones.**
 - Nunca traducir literal: el contenido sale de sus creencias, su lente y su historia real ([[fotos-vida-abel]]). No contradecir sus afirmaciones públicas. Lo invisible, como experiencia vivida.
 
@@ -81,7 +81,7 @@ Los 5 de la hoja ya están así (Drive local `G:/Mi unidad/FÁBRICA DE CONTENIDO
 1. `FÁBRICA DE CONTENIDO/01_MI_MARCA/correcciones.md`, que prevalece sobre todo, incluidas las referencias en inglés;
 2. `creencias-y-frases-de-batalla.md` (C1–C8);
 3. `afirmaciones.md`, lo que ya ha dicho en público;
-4. el mecanismo de `00-avatar-operativo.md`: la emoción va ANTES que el pensamiento y lo genera; viene del niño interior; más dolor = más cabeza; sanar sin anestesiar.
+4. su mecanismo: la emoción va ANTES que el pensamiento y lo genera; viene del niño interior; más dolor = más cabeza; sanar sin anestesiar.
 
 Darle a Abel un semáforo por guion:
 - 🟢 encaja;
@@ -188,5 +188,4 @@ Las versiones que él rechaza se mueven a REELS/_descartados (id `1PFadK1T75WZu5
   - Su explicación, en palabras simples: «primero sientes la emoción y luego tu cabeza se inventa las razones»; la emoción decide antes que la cabeza; viene de pequeño (el niño interior); sentirla en vez de taparla y sanarla; no es un problema de información.
   - **NUNCA hablar de su trabajo ni de la mentoría en los reels** (Abel 09/10, «fundamental»: nada de «eso es justo lo que hago con la gente con la que trabajo»). Eso lo dice él de forma indirecta en YouTube. Como mucho, el cambio que se ve fuera («empezó a pedir lo que vale»).
   - **LO QUE MÁS LE GUSTA:** hablarle a la parte más profunda y sensible de la persona, a **ese niño o esa niña interior**, porque todas las emociones vienen de ahí. BIEN: «vio que era el miedo de ese niño que escuchaba que no llegaba, lo sanó…», «ese miedo a quedarte solo es el de ese niño o esa niña que un día sintió que si no aguantaba lo iban a dejar de querer». En cada solución, aterrizarlo al tema.
-- **Le habla a CUALQUIER PERSONA, no solo al hombre** (Abel 09/10: «todas las personas tienen emociones, ahí está la clave»), aunque los documentos del avatar digan hombre.
 - **Versión vigente (09/10):** «Puedes ganar mucho dinero…» `18UlbBF6RsSVbSExDbqVor3WpENtioKFEDAoPd1QgeQ8` · «Tu siguiente nivel…» `1o8wbpdmPilBAiPzHCqeuVUb6dfCsaYoI7ke6NQOrTA0`. Las anteriores están en _descartados.

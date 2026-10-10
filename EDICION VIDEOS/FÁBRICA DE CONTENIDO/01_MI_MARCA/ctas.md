@@ -1,7 +1,7 @@
 # CTAs VÁLIDOS
 
 ## Qué se vende (10/10/2026)
-**Mentoría 1:1 (997 € · 3 meses)** para quien emprende ayudando a otros: coaches, terapeutas, guías, gente de reiki, médiums… Ver `00-avatar-operativo.md`. No existe ninguna otra oferta: no inventar productos, recursos gratuitos ni lead magnets.
+**Mentoría 1:1 (997 € · 3 meses)** para quien emprende ayudando a otros. Ver `00-avatar-operativo.md`. No existe ninguna otra oferta: no inventar productos, recursos gratuitos ni lead magnets.
 
 El Club Unidad (grupal) llegará cuando no quede hueco para más 1:1. Gran Arcano es contenido de ese club, nunca una oferta aparte.
 

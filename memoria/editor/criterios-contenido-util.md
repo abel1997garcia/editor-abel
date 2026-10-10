@@ -21,7 +21,7 @@ Al **seleccionar clips** de sus vídeos largos, al decidir reels y al planificar
 **How to apply:** cuando proponga reels o clips de un horizontal, descartar los trozos que solo informan. Priorizar los que tienen gancho de verdad incómoda, su experiencia y algo aplicable. Al proponer o revisar títulos y temas de YouTube, comprobar que encajan en una línea coherente. Ver [[estrategia-contenido-80-15-5]] y [[reels-marca-personal]].
 
 ## FILTRO DEL NICHO (10/10/2026)
-Todo pasa además el filtro de `00-avatar-operativo.md`: ¿le habla a quien emprende ayudando a otros, o se le puede rematar hacia su negocio? ¿El dolor es concreto (agenda, clientes, contenido, cobrar)? ¿Lleva su sello (autenticidad, verdad, intención, emociones)?
+Todo pasa además el filtro de `00-avatar-operativo.md`.
 
 ## BÁJALO A TIERRA (Abel 10/10/2026: «es muy necesario»; reel de Rebeca Schimensky, instagram.com/p/DeU8hHGIXcW)
 **La idea del reel:**

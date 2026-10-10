@@ -20,7 +20,7 @@ metadata:
 
 **Hablarle de TÚ** (09/10/2026): «a ti te pasaba con las apuestas…». NUNCA «a Abel le pasaba».
 
-**Fuentes de temas:** métricas (guardados, DMs), DMs, banco B-xxx, `A-QUIEN-LE-VENDO` y el avatar de `00-avatar-operativo.md` (canal principal = nicho de marca personal para coaches y terapeutas, desde 10/10/2026); energía sexual → bloque «Masculinidad, autocontrol y energía sexual» del banco.
+**Fuentes de temas:** métricas (guardados, DMs), DMs, banco B-xxx, `A-QUIEN-LE-VENDO` y el avatar de `00-avatar-operativo.md`; energía sexual → bloque «Masculinidad, autocontrol y energía sexual» del banco.
 
 Entrega en un Google Doc para leer en el móvil (cuando se las preparo a mano).
 

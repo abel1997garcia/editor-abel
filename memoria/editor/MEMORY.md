@@ -8,7 +8,7 @@
 - [Ganchos buenos y malos](ganchos.md) — lista viva con sus veredictos + 10 hooks APROBADOS (10/10) como modelo: leer antes de elegir un gancho
 - [Programar en YouTube](reels-marca-personal.md) — n8n + `herramientas/youtube/programar_youtube.py`: principal 16-18-20-22-00 h, trial 17-19-21 h; con su OK las primeras semanas (desde 09/10)
 - [Fotos y vídeos de su vida](fotos-vida-abel.md) — su línea de tiempo completa (de «Mi Historia») + FOTOS MIAS por época: leer antes de usar una foto o contar su historia, nunca mezclar épocas
-- [Nicho y estrategia](estrategia-contenido-80-15-5.md) — NICHO 10/10: «Si emprendes, te enseño a llenar tu agenda con tu marca personal…» (coaches, terapeutas, reiki, médiums); fuente única 00-avatar-operativo.md; remate para emprendedores; 80/15/5
+- [Nicho y estrategia](estrategia-contenido-80-15-5.md) — NICHO 10/10: «Si emprendes, te enseño a llenar tu agenda con tu marca personal…»; fuente única 00-avatar-operativo.md; remate para emprendedores; 80/15/5
 - [Criterios de contenido útil](criterios-contenido-util.md) — al elegir clips, reels o vídeos de YouTube: que se reconozca (dolor), «la galletita» aplicable, creencia atacada desde su lente; nunca solo educativo
 - [Flujo de reels paso a paso](flujo-reels-paso-a-paso.md) — LEER ANTES DE HACER REELS: publicar primero; trial = mismo reel cambiando solo el gancho; audio verificado antes de UN solo render
 - [Miniaturas: estilo nuevo](miniaturas-estilo.md) — fondo blanco siempre, foto real + escena de pizarra con intriga; herramientas/miniaturas; en prueba desde 09/10
