@@ -25,4 +25,4 @@ Tarea diaria `fichas-youtube-del-dia` a las 8:00. Las reglas y el formato exacto
 
 **Documentación, ejemplo aprobado:** «Mientras construyes para demostrarle algo a alguien, nada de lo que construyes es tuyo».
 
-**Pendiente:** su ESLOGAN de marca, que valga para el principal, Héroe Viaje e Instagram. Lo está pensando (11/10).
+**ESLOGAN (11/10/2026): «Autenticidad que vende»** (en `00-avatar-operativo.md`). Cierra los vídeos del principal. Abel quería que «lo entienda todo el mundo», y le daba igual que se pareciera en la forma a «contenido que vende» de Lavri. Rechazó las abstractas («marca con alma», «con conciencia», «marca que atrae») porque no las entendería todo el mundo o eran demasiado de Lavri en el fondo.

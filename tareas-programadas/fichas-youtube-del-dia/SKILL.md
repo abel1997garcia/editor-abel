@@ -36,7 +36,7 @@ Formato exacto:
      - la verdad, desde su lente y sus creencias;
      - la colleja, lo que le cuesta si sigue así.
    APUNTE DE SU HISTORIA: solo si refuerza un punto; si no, «—».
-   CIERRE: el resumen en una frase de batalla.
+   CIERRE: el resumen en una frase de batalla. En el principal acaba con su eslogan, «autenticidad que vende».
 
 FICHA DEL CANAL DE DOCUMENTACIÓN (estructura libre):
    TEMA: una reflexión o creencia suya, para que la gente conozca cómo piensa (no un hecho de su vida).
