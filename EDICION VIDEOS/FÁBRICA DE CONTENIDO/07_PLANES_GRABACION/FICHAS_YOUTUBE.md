@@ -93,8 +93,8 @@ Cada día, una ficha para el canal principal, otra para el de energía sexual y 
 ## 2026-10-11 · Canal principal (ejemplo dado en el chat)
 **IDEA:** Las 3 razones por las que nadie te escribe aunque publiques todos los días
 **ARRANQUE:** «Si publicas todos los días y nadie te escribe por privado, no te falta constancia ni suerte con el algoritmo: estás cometiendo tres errores, y el tercero es el que casi nadie se atreve a reconocer.»
-**PUNTO 1:** Publicas frases bonitas e inspiradoras en vez de hablar del problema concreto de tu cliente (que no duerme, que explota con su pareja), y por eso te aplauden pero nadie te contrata mientras te come la rabia de ver a otros llenar su agenda.
-**PUNTO 2:** Hablas de tu técnica y tus títulos en vez de contar cómo está tu cliente antes y después de trabajar contigo, porque te aterra mostrarte, y así nadie siente que le entiendes.
-**PUNTO 3:** No dices nunca a quién ayudas ni que tienes hueco por pánico a que te digan que no, y la gente que te necesita ni siquiera sabe que puede trabajar contigo.
-**SOLUCIÓN:** En cada vídeo nombra un problema concreto de tu cliente con sus palabras, cuenta un antes y un después real, y termina diciendo a quién ayudas y que tienes hueco.
+**PUNTO 1:** Publicas frases bonitas en vez de hablar del problema concreto de tu cliente, y por eso te aplauden pero no te contratan.
+**PUNTO 2:** Hablas de tu técnica y tus títulos en vez del antes y el después de tu cliente, y nadie siente que le entiendes.
+**PUNTO 3:** Nunca dices que tienes hueco por miedo al «no», y quien te necesita ni sabe que puede trabajar contigo.
+**SOLUCIÓN:** Nombra el problema de tu cliente, enseña un antes y un después real y di claramente que tienes hueco.
 **APUNTE DE SU HISTORIA:** —
