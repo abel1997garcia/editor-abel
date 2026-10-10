@@ -32,7 +32,7 @@ Formato exacto (Abel 11/10/2026: lo justo para echarle un vistazo, el resto lo d
    PUNTO 1: UNA frase.
    PUNTO 2: UNA frase.
    PUNTO 3: UNA frase.
-     - Cada punto es UNA frase CORTA y resumida (unas 20 palabras como mucho), se entiende a la primera, toca MUY FUERTE el dolor emocional de la persona y tiene connotación negativa.
+     - Cada punto es UNA frase MUY CORTA (unas 10-12 palabras). Si el vídeo es de errores, el error y ya, sin explicarlo (Abel: «te enrollas demasiado»). Además, se entiende a la primera, toca MUY FUERTE el dolor emocional de la persona y tiene connotación negativa.
      - Le señala con claridad qué hace mal y lo que siente o le cuesta (rabia, vergüenza, miedo, sentir que no vale…).
      - SIEMPRE ÚTIL para el cliente de Abel: un error concreto de su negocio o su contenido que pueda reconocer y corregir, nunca solo un diagnóstico emocional.
    SOLUCIÓN: UNA frase corta, natural, concreta y ÚTIL, que pueda aplicar ya en su contenido o su negocio. Si el vídeo es de varios errores, puede ser una por punto.
