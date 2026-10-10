@@ -97,6 +97,19 @@ def clip(cfg, ps, pads, tmp, vf):
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', str(tmp / 'clip.mov'), '-q:v', '3', str(fr / '%05d.jpg')], check=True)
 
 
+def limpiar_voz(tmp, fuerza=40):
+    """Quita ruido y eco de la habitación con DeepFilterNet (herramientas/deepfilter/deep-filter.exe, IA, v0.5.6) y le da
+    un toque de presencia. fuerza = dB máximos de atenuación (40: limpio pero natural; 100 suena robótico).
+    Guarda la original en voz_original.wav. Abel 10/10: «suena mucho eco»."""
+    ori, voz = tmp / 'voz_original.wav', tmp / 'voz.wav'
+    shutil.copy(voz, ori); d = tmp / '_df'; shutil.rmtree(d, ignore_errors=True)
+    subprocess.run([str(AQUI / 'deepfilter' / 'deep-filter.exe'), '-D', '--pf', '-a', str(fuerza), '-o', str(d), str(ori)], check=True, capture_output=True)
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', str(d / 'voz_original.wav'), '-af',
+                    f'highpass=f=70,equalizer=f=300:t=q:w=1.2:g=-2.5,equalizer=f=4500:t=q:w=1:g=2,'
+                    f'acompressor=threshold=-20dB:ratio=2.5:attack=8:release=120:makeup=2,aresample={SR}', '-c:a', 'pcm_s16le', str(voz)], check=True)
+    shutil.rmtree(d, ignore_errors=True); print(f'  voz limpia (DeepFilterNet, -{fuerza} dB)')
+
+
 def colores_texto(tmp, hasta):
     """F4: color del título y de los subtítulos según el fondo real que tienen detrás (Abel: con fondo blanco, el texto blanco
     no se ve). Luminosidad media de la zona en los fotogramas: clara -> texto oscuro con halo claro; oscura -> blanco con sombra."""
@@ -160,6 +173,7 @@ def hacer(cfg, nombre, reel, W, PW, cara, modo):
     firma = json.dumps([vf] + [[a, b, p] for (a, b, _), p in zip(ps, pads)])                    # el clip se rehace si cambian los tramos
     if not (tmp / 'clip.mov').exists() or modo == 'todo' or not (tmp / 'planos.json').exists() or (tmp / 'planos.json').read_text() != firma:
         clip(cfg, ps, pads, tmp, vf); (tmp / 'planos.json').write_text(firma)
+        if reel.get('limpiar_voz', f5): limpiar_voz(tmp, reel.get('limpiar_fuerza', 40))   # F5: siempre (móvil, habitación con eco)
     colores = colores_texto(tmp, reel.get('titulo_hasta', 6)) if f4 else {}
     acento = CENTROS.get(reel.get('acento', 'corona'), reel.get('acento', '#7A3FC4'))
     cx = 540 if f4 else cara[0] * fw / cara[1]

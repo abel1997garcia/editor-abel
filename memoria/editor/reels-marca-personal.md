@@ -68,6 +68,13 @@ Los reels se sacan del **vídeo horizontal ya editado** ([[estilo-videos-largos-
 - **F5 · CASUAL** (creado el 10/10/2026, pendiente de su visto bueno). **Herramienta:** `reel_tablero.py` con `"formato": "F5"` y `"titulo"` (motor `herramientas/tablero/motor_f5.html`). **Prueba:** `MarcaPersonal/formato5/out/prueba_F5.mp4` (config `reels_f5.json`).
   - **Idea (Abel):** son reflexiones casuales, «estoy en el coche, me viene la inspiración y cojo el móvil», con la estructura del guion. Tiene que parecer grabado y editado ahí mismo en el móvil: «muy simple pero cuidado». Si lleva fotos e imágenes, parece preparado.
   - **Edición igual que el F4:** cortes limpios sin silencios ni muletillas, que fluya, zooms suaves 1,00/1,08 en los cortes, 1,10x y música bajita.
+  - **VOZ LIMPIA (Abel 10/10: «suena mucho eco»):** en F5 siempre se pasa la voz por `limpiar_voz()` de `reel_tablero.py`.
+    - Usa DeepFilterNet, IA de código abierto: `herramientas/deepfilter/deep-filter.exe` v0.5.6, de GitHub Rikorose/DeepFilterNet. La librería de Python no instala en Python 3.12.
+    - Opciones: `-D --pf -a 40`, más pasa-altos 70 Hz, −2,5 dB a 300 Hz, +2 dB a 4,5 kHz y compresión suave.
+    - Config: `"limpiar_voz": true/false` y `"limpiar_fuerza"` (dB; 40 por defecto, 100 suena robótico).
+    - La original queda en `voz_original.wav`. En maestras, el fondo bajó de −35 a −42 dB.
+    - El eco pegado a la voz no se quita del todo: lo que más ayuda es grabar en una habitación con cosas blandas o con micro de solapa.
+    - Esto rompe la regla antigua de «voz tal cual» SOLO para F5.
   - **Visual:** él a pantalla completa, SIN imágenes, escenas ni efectos de sonido.
   - **APROBADO por Abel el 10/10/2026 («me gusta el formato»).**
   - **Título arriba TODO el reel:** crudo y polémico, que NO repita el hook obvio sino que lo COMPLEMENTE. Montserrat 800 a 66 px, centrado en y = 315 (bajado el 10/10 para que no lo tape la barra de Instagram).
