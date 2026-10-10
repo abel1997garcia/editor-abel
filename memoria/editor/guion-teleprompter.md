@@ -29,6 +29,12 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 - Yo los transcribo, los analizo con `estilo_voz.py` y el texto, y actualizo `FÁBRICA DE CONTENIDO/01_MI_MARCA/mi-voz/mi-voz.md`.
 - Los guiones se adaptan a ESA forma de hablar.
 
+**FORMATO FINAL DEL DOC (10/10/2026, Abel: «me suena a mí… todo lo demás top»):**
+- `# Título` · `**Idea:**` · `## Hooks` (3) · `## Problema` (viñetas) · `## Solución` (1 viñeta);
+- `## Cómo lo diría yo (referencia, dilo con tus palabras)`: un párrafo con SU voz según `mi-voz.md` ⭐.
+- NUNCA «¿vale?», «¿de acuerdo?» ni «¿Por qué digo esto? Porque…» (son como pedir permiso); se afirma directo.
+- Los 5 de la hoja ya están así.
+
 **ANÁLISIS COMPLETO (10/10, 6 vídeos de YouTube que eligió él + 29 min de los de emociones) en `FÁBRICA DE CONTENIDO/01_MI_MARCA/mi-voz/mi-voz.md`, sección ⭐: LEERLO ANTES DE ESCRIBIR NADA CON SU VOZ.**
 
 **Primer análisis (10/10, 29 min de sus vídeos largos de emociones/energía, 5.780 palabras):**

@@ -57,8 +57,13 @@ Casi NO usa: «mira», «fíjate», «tío», «literalmente».
 
 **Cómo cierra:** «Así que…» más la idea resumida en una frase. En YouTube después viene el CTA y «chao, chao»; en los reels, nada de CTA.
 
+**🚫 NUNCA en lo que escriba con su voz (Abel 10/10/2026):**
+- «¿vale?» y «¿de acuerdo?»: «conectores que no ayudan en nada»;
+- «¿Por qué digo esto? Porque…» y similares: «es como si pidiera permiso para decir lo que realmente sé».
+Él los dice al hablar, pero no los quiere. Se afirma directo. Si salen al grabar, se cortan al editar.
+
 **Para los reels (más cortos y directos que YouTube):**
-- se quedan el arranque rotundo, el «¿por qué digo esto? porque…», un diálogo interno, la exageración concreta, «te aseguro», un «¿vale?» y el cierre «así que…»;
+- se quedan el arranque rotundo, un diálogo interno, la exageración concreta, «te aseguro», «realmente» y el cierre «así que…»;
 - fuera las explicaciones largas con «por tanto», «es decir», «digamos».
 
 ## Principio nº 1: el guion sale del habla, no al revés
