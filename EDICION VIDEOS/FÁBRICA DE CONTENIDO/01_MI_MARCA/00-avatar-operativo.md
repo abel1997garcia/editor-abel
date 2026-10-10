@@ -81,7 +81,16 @@ Agenda llena con clientes que le escriben porque conectan con su mensaje; cobrar
 2. ¿El dolor es concreto (agenda, clientes, contenido, cobrar)?
 3. ¿Lleva su sello (autenticidad, verdad, intención, emociones), y no trucos vacíos?
 
-**Héroe Viaje** (energía sexual) sigue como canal aparte. El puente, cuando encaje: la energía, el enfoque y la disciplina para crear y sostener tu proyecto.
+**Héroe Viaje (energía sexual)** sigue como canal aparte, pero apunta a la MISMA idea (Abel 10/10/2026). Siempre se habla desde la energía sexual y la retención, y se baja al negocio.
+- **El razonamiento:** el hombre que hace retención quiere sentirse mejor y más hombre, pero también, cuando tiene más energía, quiere facturar más para tener más libertad.
+- **Ángulos:**
+  - la energía que retienes, convertida en ambición, enfoque y constancia para tu proyecto;
+  - la disciplina para grabar contenido cada día;
+  - la presencia y la seguridad delante de la cámara y al vender;
+  - la energía que pierdes en el porno y el scroll es la que le falta a tu negocio;
+  - la referencia de Napoleón Hill, aterrizada.
+- **Remate:** si emprendes o quieres vivir de lo tuyo, esa energía es la que te llena la agenda.
+- **Avatar de ese canal:** hombres que practican la retención y quieren más energía, dinero y libertad. Muchos emprenden o quieren emprender.
 
 ## Bio (propuesta)
 1. Si emprendes, te enseño a llenar tu agenda con tu marca personal.

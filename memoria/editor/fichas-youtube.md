@@ -25,3 +25,5 @@ metadata:
 Entrega en un Google Doc para leer en el móvil (cuando se las preparo a mano).
 
 **Tarea diaria:** `fichas-youtube-del-dia`, a las 8:00: 3 fichas; lee y amplía `FÁBRICA DE CONTENIDO/07_PLANES_GRABACION/FICHAS_YOUTUBE.md` para no repetir nunca.
+
+**Héroe Viaje (energía sexual) apunta a la misma idea que el principal (Abel, 10/10/2026):** se habla desde la retención y la energía sexual, y se baja al negocio. Es decir, esa energía convertida en ambición, constancia, presencia en cámara, facturar más y libertad. Detalle en «Héroe Viaje» de `00-avatar-operativo.md`.
