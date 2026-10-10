@@ -31,7 +31,9 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 
 **FORMATO FINAL DEL DOC (10/10/2026, Abel: «me suena a mí… todo lo demás top»):**
 - `# Título` · `**Idea:**` · `## Hooks` (3) · `## Problema` (viñetas) · `## Solución` (1 viñeta);
-- `## Cómo lo diría yo (referencia, dilo con tus palabras)`: un párrafo con SU voz según `mi-voz.md` ⭐.
+- `**Problema:**` en UNA frase corta y `**Solución:**` en UNA frase corta (Abel 10/10): que al verlo diga «hoy estoy inspirado, sé de qué problema hablar y qué solución dar» y lo cuente él con los hooks.
+- `## Cómo lo diría yo (empieza DESPUÉS del hook; dilo con tus palabras)`: un párrafo con SU voz según `mi-voz.md` ⭐.
+- **HOOKS COMPLEMENTARIOS, SIEMPRE** (Abel 10/10): el «cómo lo diría yo» NO repite ningún hook, ni el 1 ni el 2 ni el 3, ni su idea con otras palabras. Empieza justo después del hook y tiene que encajar detrás de CUALQUIERA de los 3. MAL: «Tu ansiedad no es el problema, y te aseguro que cuanto más intentas quitártela, más te come» (salían el hook 1 y el 2 seguidos).
 - NUNCA «¿vale?», «¿de acuerdo?» ni «¿Por qué digo esto? Porque…» (son como pedir permiso); se afirma directo.
 - **ANTES DE ENTREGAR, 2 PRUEBAS POR GUION** (Abel 10/10: «debe entenderse… ¿cumple con la connotación negativa?»):
   1. **¿Se entiende cada frase oída UNA vez, por cualquiera?** MAL: «no puedes tapar solo lo que te duele», «y no es lo mismo» (¿qué?), «te enseña una parte de ti». BIEN: «cuando tapas lo que te duele, no tapas solo eso, tapas también la alegría…».
