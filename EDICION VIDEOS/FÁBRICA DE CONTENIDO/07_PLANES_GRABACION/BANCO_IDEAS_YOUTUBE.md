@@ -5,7 +5,7 @@
 > Las miniaturas llevan su cara y 1-2 palabras crudas.
 
 ## Contra el mercado
-- No necesitas hacerte viral para llenar tu agenda (lo que necesitas es esto).
+- ✅ No necesitas hacerte viral para llenar tu agenda (lo que necesitas es esto).
 - Setter, closer y embudos: por qué a un terapeuta le sobran.
 - Deja de grabar con guiones: así se habla para que te escriban.
 - Publicar todos los días te está vaciando la agenda.
@@ -44,7 +44,7 @@
 
 ## Héroe Viaje (energía sexual, rematado en el negocio)
 - La energía que tiras cada noche es la que le falta a tu negocio.
-- Retener sin dirigir la energía no sirve de nada.
+- ✅ Retener sin dirigir la energía no sirve de nada.
 - Así la retención te da presencia delante de la cámara.
 - Napoleón Hill tenía razón: cómo convertir tu energía sexual en dinero.
 - Por qué recaes justo antes de las semanas importantes de trabajo.

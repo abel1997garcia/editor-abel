@@ -27,6 +27,7 @@ Tarea diaria `fichas-youtube-del-dia` a las 8:00. Las reglas y el formato exacto
   - SOLUCIÓN en una frase, útil y aplicable ya (o una por punto, según el vídeo);
   - APUNTE DE SU HISTORIA (o «—»).
 
+  **VARIAR la estructura como Lavri** (11/10): no siempre «3 razones»; puede ser 2-5 puntos, pasos, una idea fuerte, contra el mercado, mentalidad con promesa o un caso real.
   **CREDENCIAL ELIMINADA PARA SIEMPRE** («no me gusta»). Tampoco van «lo que dice el mercado», el cierre ni la miniatura. Inspirado en Lavri (`Editor vídeos/Referencias/lavri/ANALISIS.md`).
 
 **Documentación, ejemplo aprobado:** «Mientras construyes para demostrarle algo a alguien, nada de lo que construyes es tuyo».

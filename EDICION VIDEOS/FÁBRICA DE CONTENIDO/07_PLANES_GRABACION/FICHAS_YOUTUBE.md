@@ -98,3 +98,26 @@ Cada día, una ficha para el canal principal, otra para el de energía sexual y 
 **PUNTO 3:** Nunca dices que tienes hueco por miedo al «no».
 **SOLUCIÓN:** Nombra su problema, enseña un antes y un después y di que tienes hueco.
 **APUNTE DE SU HISTORIA:** —
+
+## 2026-10-12 · Canal principal
+**IDEA:** Hacerte viral te está vaciando la agenda
+**ARRANQUE:** «Si estás esperando ese vídeo viral para por fin llenar tu agenda, te voy a decir lo que nadie en este mercado se atreve a decirte: ese vídeo te puede dejar sin clientes.»
+**PUNTO 1:** Lo viral te trae seguidores que nunca te van a comprar.
+**PUNTO 2:** Persiguiendo visitas dejas de hablarle a quien te puede contratar.
+**SOLUCIÓN:** Habla para las 50 personas que te necesitan, no para las 50.000 que pasan de largo.
+**APUNTE DE SU HISTORIA:** Tuviste 100.000 suscriptores y aun así lo perdiste todo.
+
+## 2026-10-12 · Canal de energía sexual
+**IDEA:** Retener sin dirigir tu energía no sirve de nada
+**ARRANQUE:** «Llevas 60 días sin eyacular y sigues con el mismo sueldo, el mismo trabajo y el mismo proyecto parado: te vendieron que retener es aguantar, y te mintieron.»
+**PUNTO 1:** Cuentas días como un trofeo y tu vida sigue igual.
+**PUNTO 2:** Esa energía acumulada se te va en ansiedad, mal humor y scroll.
+**PUNTO 3:** Retienes por miedo a recaer, no para construir algo.
+**SOLUCIÓN:** Mete la primera hora de cada mañana, antes del móvil, en tu proyecto: grabar, vender o crear.
+**APUNTE DE SU HISTORIA:** —
+
+## 2026-10-12 · Canal de documentación
+**TEMA:** Lo que no funcionó también te estaba enseñando quién eres
+**ARRANQUE:** «Antes de encontrar lo mío lo probé casi todo, y durante años pensé que eso me hacía un fracasado.»
+**Qué contar:** antes de que algo encajara hiciste páginas web, dropshipping, Facebook Ads, trading, una aplicación propia y dos canales de YouTube que no despegaron.
+**Qué te dejó:** hoy sabes que cada intento te quitó una opción que no eras, hasta que te quedaste con la que sí.

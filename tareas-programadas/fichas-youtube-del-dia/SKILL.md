@@ -37,6 +37,7 @@ Formato exacto (Abel 11/10/2026: lo justo para echarle un vistazo, el resto lo d
      - SIEMPRE ÚTIL para el cliente de Abel: un error concreto de su negocio o su contenido que pueda reconocer y corregir, nunca solo un diagnóstico emocional.
    SOLUCIÓN: UNA frase corta, natural, concreta y ÚTIL, que pueda aplicar ya en su contenido o su negocio. Si el vídeo es de varios errores, puede ser una por punto.
    APUNTE DE SU HISTORIA: una frase si refuerza un punto; si no, «—».
+   VARÍA LA ESTRUCTURA cada día, como Lavri (Abel 11/10: «no tiene por qué ser siempre 3 razones»): 2, 3 o 5 puntos, errores, pasos, una sola idea fuerte con una solución en pasos, contra el mercado, mentalidad con promesa («Dame 10 minutos y…»), un concepto suyo, un caso real… Mira las últimas fichas del registro y no repitas el mismo tipo dos días seguidos.
    NADA MÁS: NUNCA credencial (eliminada para siempre), ni «lo que dice el mercado», ni cierre, ni miniatura.
 
 FICHA DEL CANAL DE DOCUMENTACIÓN (estructura libre):
