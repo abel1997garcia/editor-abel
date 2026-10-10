@@ -43,8 +43,9 @@
 - Cómo conseguir que te escriban por privado sin perseguir a nadie.
 
 ## Héroe Viaje (energía sexual, rematado en el negocio)
+- ✅ Tu energía sexual es lo que te falta delante de la cámara.
 - La energía que tiras cada noche es la que le falta a tu negocio.
-- ✅ Retener sin dirigir la energía no sirve de nada.
+- Retener sin dirigir la energía no sirve de nada (⚠️ conectarlo SIEMPRE con contenido, clientes o agenda).
 - Así la retención te da presencia delante de la cámara.
 - Napoleón Hill tenía razón: cómo convertir tu energía sexual en dinero.
 - Por qué recaes justo antes de las semanas importantes de trabajo.

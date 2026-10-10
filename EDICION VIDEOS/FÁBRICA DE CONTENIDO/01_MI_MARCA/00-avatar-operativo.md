@@ -113,6 +113,7 @@ Agenda llena con clientes que le escriben porque conectan con su mensaje; cobrar
   - la energía que pierdes en el porno y el scroll es la que le falta a tu negocio;
   - la referencia de Napoleón Hill, aterrizada.
 - **Remate:** si emprendes o quieres vivir de lo tuyo, esa energía es la que te llena la agenda.
+- **La conexión con lo que vende tiene que ser EXPLÍCITA** (contenido, cámara, constancia, clientes, agenda), no un genérico «tu proyecto» (11/10).
 - **Avatar de ese canal:** hombres que practican la retención y quieren más energía, dinero y libertad. Muchos emprenden o quieren emprender.
 
 ## Bio (propuesta)

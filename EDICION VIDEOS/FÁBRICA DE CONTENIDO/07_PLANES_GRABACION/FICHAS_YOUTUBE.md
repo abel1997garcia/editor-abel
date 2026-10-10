@@ -108,12 +108,12 @@ Cada día, una ficha para el canal principal, otra para el de energía sexual y 
 **APUNTE DE SU HISTORIA:** Tuviste 100.000 suscriptores y aun así lo perdiste todo.
 
 ## 2026-10-12 · Canal de energía sexual
-**IDEA:** Retener sin dirigir tu energía no sirve de nada
-**ARRANQUE:** «Llevas 60 días sin eyacular y sigues con el mismo sueldo, el mismo trabajo y el mismo proyecto parado: te vendieron que retener es aguantar, y te mintieron.»
-**PUNTO 1:** Cuentas días como un trofeo y tu vida sigue igual.
-**PUNTO 2:** Esa energía acumulada se te va en ansiedad, mal humor y scroll.
-**PUNTO 3:** Retienes por miedo a recaer, no para construir algo.
-**SOLUCIÓN:** Mete la primera hora de cada mañana, antes del móvil, en tu proyecto: grabar, vender o crear.
+**IDEA:** Tu energía sexual es lo que te falta delante de la cámara
+**ARRANQUE:** «Puedes tener el mejor mensaje del mundo, pero si te grabas sin energía nadie te va a escribir, y lo que te está quitando esa energía es justo lo que haces cada noche.»
+**PUNTO 1:** Grabas apagado y la gente lo nota en dos segundos.
+**PUNTO 2:** No eres constante publicando porque tu energía se va en el porno.
+**PUNTO 3:** Persigues clientes porque no transmites la seguridad que hace que te escriban.
+**SOLUCIÓN:** Retén y graba por la mañana, con la energía arriba, y habla de tu servicio sin pedir perdón.
 **APUNTE DE SU HISTORIA:** —
 
 ## 2026-10-12 · Canal de documentación
