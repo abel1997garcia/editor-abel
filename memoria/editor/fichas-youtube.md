@@ -23,8 +23,8 @@ Tarea diaria `fichas-youtube-del-dia` a las 8:00. Las reglas y el formato exacto
 - **Formato aprobado (11/10):**
   - IDEA;
   - ARRANQUE con intriga;
-  - PUNTO 1/2/3, UNA frase cada uno: se entiende a la primera, toca MUY FUERTE el dolor emocional, con connotación negativa, y señala claramente qué hace mal y lo que siente;
-  - SOLUCIÓN en una frase (o una por punto, según el vídeo);
+  - PUNTO 1/2/3, UNA frase cada uno: se entiende a la primera, toca MUY FUERTE el dolor emocional, con connotación negativa, y señala claramente qué hace mal y lo que siente; y SIEMPRE ÚTIL para quien le vende (un error concreto de su negocio o su contenido que pueda corregir; Abel 11/10: «no te olvides de eso»);
+  - SOLUCIÓN en una frase, útil y aplicable ya (o una por punto, según el vídeo);
   - APUNTE DE SU HISTORIA (o «—»).
 
   **CREDENCIAL ELIMINADA PARA SIEMPRE** («no me gusta»). Tampoco van «lo que dice el mercado», el cierre ni la miniatura. Inspirado en Lavri (`Editor vídeos/Referencias/lavri/ANALISIS.md`).
