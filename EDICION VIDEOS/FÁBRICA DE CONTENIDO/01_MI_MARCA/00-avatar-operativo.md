@@ -3,7 +3,7 @@
 > Nicho definitivo de Abel (10/10/2026). **Esta página manda para cada reel, guion, ficha, extracto, bio y CTA.** Los documentos 01-05 de esta carpeta son del enfoque anterior: sirven de detalle sobre su historia, su voz y sus creencias, pero no deciden el avatar.
 
 ## Eslogan (Abel, 11/10/2026)
-**«Autenticidad que vende».** Lavri enseña qué publicar para vender («contenido que vende»); Abel enseña a vender siendo quien eres. Va contra el mercado de guiones copiados, caretas, postureo y vendehúmos. Se repite en bios, miniaturas y en el cierre de cada vídeo.
+**«Autenticidad que vende».** Lavri enseña qué publicar para vender («contenido que vende»); Abel enseña a vender siendo quien eres. Va contra el mercado de guiones copiados, caretas, postureo y vendehúmos. Va en la bio, y Abel lo usa en sus vídeos cuando quiera.
 
 ## El nicho
 **«Si emprendes, te enseño a llenar tu agenda con tu marca personal. Sin perseguir clientes ni perder tu autenticidad.»**

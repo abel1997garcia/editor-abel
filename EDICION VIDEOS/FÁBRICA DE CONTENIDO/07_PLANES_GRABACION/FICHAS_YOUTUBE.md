@@ -89,3 +89,12 @@ Cada día, una ficha para el canal principal, otra para el de energía sexual y 
 **ARRANQUE:** «Siempre he creído que lo que no te cuesta nada tampoco te lo tomas en serio.»
 **Qué contar:** pagaste 900 € por el curso Crecetube de Romuald Fons y, con lo que aprendiste ahí, creaste «Clap», tu canal de Clash Royale, que llegó a 30.000 suscriptores durante la pandemia.
 **Qué te dejó:** hoy, cuando dudas si invertir en ti, ya no te preguntas cuánto cuesta, sino si estás dispuesto a comprometerte con lo que vas a aprender.
+
+## 2026-10-11 · Canal principal (ejemplo dado en el chat)
+**IDEA:** Las 3 razones por las que nadie te escribe aunque publiques todos los días
+**ARRANQUE:** «Si publicas todos los días y nadie te escribe por privado, no te falta constancia ni suerte con el algoritmo: estás cometiendo tres errores, y el tercero es el que casi nadie se atreve a reconocer.»
+**CREDENCIAL:** «Soy Abel, llegué a tener 100.000 seguidores y a facturar 17.000 € al mes, lo perdí todo a los 26 por no estar alineado conmigo, y hoy ayudo a terapeutas, coaches y médiums a llenar su agenda siendo ellos mismos.»
+**PUNTO 1:** Publicas frases bonitas para gustar y no hablas del problema concreto de quien te puede contratar.
+**PUNTO 2:** Hablas de tu método y tu certificación, cuando tu cliente solo quiere saber si le entiendes.
+**PUNTO 3:** Nunca dices a quién ayudas ni que tienes hueco por miedo a parecer desesperado, y eso no es humildad, es miedo.
+**APUNTE DE SU HISTORIA:** —

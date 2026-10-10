@@ -24,7 +24,7 @@
 - «Primero necesito más seguidores»: el error que te tiene parado.
 
 ## Dolores (lo que hace mal)
-- Las 3 razones por las que nadie te escribe aunque publiques todos los días.
+- ✅ Las 3 razones por las que nadie te escribe aunque publiques todos los días.
 - Tu don no te va a llenar la agenda, esto sí.
 - Frases bonitas con un atardecer: por qué tu contenido no vende.
 - Por qué los terapeutas con más talento tienen la agenda vacía.

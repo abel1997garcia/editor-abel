@@ -20,9 +20,8 @@ Tarea diaria `fichas-youtube-del-dia` a las 8:00. Las reglas y el formato exacto
 - **TODO al 100 % en lo que vende HOY y a quién**, igual que Labri con «contenido que vende». La mentalidad también remata ahí.
 - **Su pasado no es tema** (17.000 €/mes, 100K, perderlo todo, Australia): «es pasado y otro contexto».
 - **Contra el mercado:** tabla en `00-avatar-operativo.md`.
-- **Formato aprobado:** modelo Lavri (`Editor vídeos/Referencias/lavri/ANALISIS.md`).
-- **Miniaturas:** su cara y 1–2 palabras crudas.
+- **Formato aprobado (11/10):** IDEA · ARRANQUE (con intriga) · CREDENCIAL (quién es en una frase + a qué se dedica) · PUNTO 1/2/3 (UNA frase cada uno) · APUNTE DE SU HISTORIA (o «—»). Sin «lo que dice el mercado», sin cierre y sin miniatura: eso lo pone él. Inspirado en Lavri (`Editor vídeos/Referencias/lavri/ANALISIS.md`).
 
 **Documentación, ejemplo aprobado:** «Mientras construyes para demostrarle algo a alguien, nada de lo que construyes es tuyo».
 
-**ESLOGAN (11/10/2026): «Autenticidad que vende»** (en `00-avatar-operativo.md`). Cierra los vídeos del principal. Abel quería que «lo entienda todo el mundo», y le daba igual que se pareciera en la forma a «contenido que vende» de Lavri. Rechazó las abstractas («marca con alma», «con conciencia», «marca que atrae») porque no las entendería todo el mundo o eran demasiado de Lavri en el fondo.
+**ESLOGAN (11/10/2026): «Autenticidad que vende»** (en `00-avatar-operativo.md`). Abel quería que «lo entienda todo el mundo», y le daba igual que se pareciera en la forma a «contenido que vende» de Lavri. Rechazó las abstractas («marca con alma», «con conciencia», «marca que atrae») porque no las entendería todo el mundo o eran demasiado de Lavri en el fondo.

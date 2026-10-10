@@ -9,7 +9,7 @@ metadata:
 ---
 
 **NICHO DEFINITIVO (Abel, 10/10/2026, «FINALMENTE»):** «Si emprendes, te enseño a llenar tu agenda con tu marca personal. Sin perseguir clientes ni perder tu autenticidad.»
-- **Eslogan (11/10/2026, CONFIRMADO por Abel: «me gusta, guárdala»):** «Autenticidad que vende». Va en la bio, las miniaturas y el cierre de los vídeos.
+- **Eslogan (11/10/2026, CONFIRMADO por Abel: «me gusta, guárdala»):** «Autenticidad que vende». Va en la bio; en los vídeos lo mete él cuando quiera (las fichas no llevan cierre).
 - **Fuente única:** `FÁBRICA DE CONTENIDO/01_MI_MARCA/00-avatar-operativo.md`. Ahí están el avatar, la oferta, los dolores, la colleja, las objeciones, el FILTRO de contenido, la bio y Héroe Viaje.
 - **Las 200 situaciones** están en `A-QUIEN-LE-VENDO.md/.pdf` (las genera `a_quien_le_vendo.py`).
 - **NO cambia:** la estructura (gancho → colleja → solución), los ganchos, los silencios, los formatos ni la voz.
