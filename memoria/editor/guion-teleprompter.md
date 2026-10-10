@@ -24,6 +24,24 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 
 **UNA IDEA = UN REEL.** Si la referencia es viral pero no cumple algo (no tiene colleja, mezcla ideas, no da solución…), se mira de qué va y se adapta hasta que cumpla la estructura.
 
+**✅ ÚLTIMO PASO OBLIGATORIO: VERIFICAR LA COHERENCIA** (Abel 10/10/2026: «la coherencia es importantísima y vital»). Antes de entregar cualquier guion, comparar cada frase con:
+1. `FÁBRICA DE CONTENIDO/01_MI_MARCA/correcciones.md`, que prevalece sobre todo, incluidas las referencias en inglés;
+2. `creencias-y-frases-de-batalla.md` (C1–C8);
+3. `afirmaciones.md`, lo que ya ha dicho en público;
+4. el mecanismo de `00-avatar-operativo.md`: la emoción va ANTES que el pensamiento y lo genera; viene del niño interior; más dolor = más cabeza; sanar sin anestesiar.
+
+Darle a Abel un semáforo por guion:
+- 🟢 encaja;
+- 🟡 choca o no sé qué piensa él, con la frase exacta y la fuente.
+
+Los 🟡 los decide ÉL y nunca se cambia su postura por mi cuenta. Lo aprobado se apunta en `afirmaciones.md`.
+
+**Trampas típicas de las referencias en inglés:**
+- reencuadre cognitivo («cambia lo que te cuentas»), que contradice que la emoción va primero;
+- «frecuencia/vibración» para público frío;
+- mapas o datos dichos como ciencia;
+- emociones de pareja (celos) leídas al revés.
+
 **🔴 REFERENCIAS EN INGLÉS (la mayoría; Abel 10/10/2026, MANDA SOBRE TODO LO DEMÁS):** son reels ya validados, así que NO se reescriben con colleja + solución. Se TRADUCE el guion del reel y se deja tal cual:
 - adaptado solo un poco para que se lea fácil en español;
 - se QUITA lo que no es info útil: «soy psicóloga y te explico…», «I was today years old», «así se lo enseño a mi hijo», «gracias, te quiero», repeticiones;
