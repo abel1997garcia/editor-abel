@@ -19,6 +19,10 @@ LEE ANTES (rutas en C:\Users\Clap\Desktop\EDICION VIDEOS\FÁBRICA DE CONTENIDO\)
 - **01_MI_MARCA\02-catalogo-momentos-concretos.md:** momentos reales de su vida. No inventes nada de su vida.
 
 FICHAS DEL CANAL PRINCIPAL Y DE ENERGÍA SEXUAL:
+0. **YOUTUBE NO ES UN REEL** (Abel 11/10/2026). El vídeo sirve para que le conozcan, conecten con él y vean que SABE de lo que habla: sus sistemas, su autenticidad, sus creencias y sus resultados (100K y 17.000 €/mes con contenido; lo que hace con Allan García). La idea tiene que ser POTENTE y dar para desarrollarla 10–20 minutos.
+   - MAL (detalle de reel): «borrar la historia en la que ofreces tus sesiones».
+   - BIEN: «Por qué los terapeutas con más talento tienen la agenda vacía», «El sistema que uso para que los clientes te escriban sin perseguirlos», «Cómo hice 100K con contenido y qué haría hoy si empezara de cero».
+   - Sigue siendo UNA sola idea, la que haría clic en YouTube.
 1. UNA COSA CONCRETA y reconocible del día a día, no un tema amplio (como un vídeo entero solo sobre el «yapping»). Las tres partes son caras de ESA MISMA cosa.
    - Principal, ej.: publicar frases bonitas y que nadie te escriba; bajar el precio en cuanto notas una duda.
    - Energía sexual, ej.: la energía que pierdes en el porno es la que le falta a tu negocio; recaer justo antes de una semana importante de trabajo. «Cómo salir» acaba en su proyecto, su contenido o su dinero.

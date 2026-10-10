@@ -69,3 +69,23 @@ Cada día, una ficha para el canal principal, otra para el de energía sexual y 
 **ARRANQUE:** «Durante años creí que entender mis heridas era lo mismo que sanarlas, y no lo era.»
 **Qué contar:** hace poco, después de una conversación profunda, tu madre te dijo «sé que lo sabes, pero ¿cómo lo cambio?», y esa pregunta te hizo ver que llevabas años explicando el problema sin enseñar el camino.
 **Qué te dejó:** hoy ya no te conformas con entender algo, lo pruebas en tu propia vida hasta ver el cambio fuera, y eso es justo lo que quieres enseñar.
+
+## 2026-10-10 · Canal principal
+**TEMA:** Borrar la historia en la que ofreces tus sesiones a los diez minutos de subirla
+**ARRANQUE:** «Si borras la historia en la que ofreces tus sesiones a los diez minutos de subirla, no es humildad: es miedo a que te vean pedir.»
+**Qué es de verdad:** antes de pensar «qué van a decir», ya has sentido la vergüenza en el cuerpo, y es la del niño que aprendió que pedir algo para él era ser una carga.
+**Qué te está costando:** la gente que te habría escrito nunca se entera de que tienes hueco y tú acabas creyendo que vender no es lo tuyo, como cuando retrasaste durante años lanzar tus proyectos porque te daba pánico que te juzgaran.
+**Cómo salir:** la próxima vez que ofrezcas tus sesiones en una historia, déjala las 24 horas y, cuando te entren ganas de borrarla, escribe en un papel qué estás sintiendo, porque solo te puede escribir quien sabe que estás ahí.
+
+## 2026-10-10 · Canal de energía sexual
+**TEMA:** Pasarte media hora viendo chicas en Instagram y decirte que eso no cuenta como recaer
+**ARRANQUE:** «Si te pasas media hora viendo chicas en Instagram y te dices que eso no es recaer, no te estás controlando: te estás engañando.»
+**Qué es de verdad:** no abres Instagram por casualidad, lo abres porque antes has sentido aburrimiento, soledad o ansiedad, y buscas el mismo alivio que te daba el porno sin tener que llamarlo así.
+**Qué te está costando:** la energía se te va igual, te quedas disperso y sin ganas, y cada noche estás un paso más cerca de la recaída de verdad, como cuando te pasabas horas haciendo scroll para no sentir lo que llevabas dentro.
+**Cómo salir:** durante una semana deja el móvil fuera de la habitación por la noche y, cuando te entren ganas de abrir Instagram, pregúntate qué sientes y mete esa energía en entrenar o en tu proyecto, y la tendrás entera para construir lo tuyo.
+
+## 2026-10-10 · Canal de documentación
+**TEMA:** Lo que no te cuesta nada tampoco te lo tomas en serio
+**ARRANQUE:** «Siempre he creído que lo que no te cuesta nada tampoco te lo tomas en serio.»
+**Qué contar:** pagaste 900 € por el curso Crecetube de Romuald Fons y, con lo que aprendiste ahí, creaste «Clap», tu canal de Clash Royale, que llegó a 30.000 suscriptores durante la pandemia.
+**Qué te dejó:** hoy, cuando dudas si invertir en ti, ya no te preguntas cuánto cuesta, sino si estás dispuesto a comprometerte con lo que vas a aprender.
