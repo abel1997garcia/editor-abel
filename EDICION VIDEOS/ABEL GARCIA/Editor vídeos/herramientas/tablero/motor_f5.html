@@ -1,0 +1,46 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+/* F5 · CASUAL (reels de guion grabados con el móvil): él a pantalla completa, como editado en el propio móvil.
+   Solo cortes limpios con zooms suaves, título arriba todo el reel y subtítulos en una línea de 3–4 palabras. Sin imágenes ni efectos.
+   Lo genera reel_tablero.py ("formato": "F5"): datos.js */
+@font-face{font-family:M;src:url(Montserrat-Variable.ttf);font-weight:100 900}
+html,body{margin:0;background:#000}
+#r{position:relative;width:1080px;height:1920px;overflow:hidden;background:#000;font-family:M}
+#tarjeta{position:absolute;left:0;top:0;width:1080px;height:1920px;overflow:hidden}
+#tarjeta img{position:absolute;left:0;top:0;width:1080px;height:1920px;transform-origin:540px 700px}
+.t{position:absolute;left:0;top:0;transform-origin:center;text-align:center;color:#fff;will-change:transform,opacity}
+#tit{font-weight:800;font-size:66px;line-height:1.1;letter-spacing:-.01em;width:960px;text-shadow:0 3px 16px rgba(0,0,0,.6),0 0 3px rgba(0,0,0,.5)}
+#sub{font-weight:700;font-size:62px;line-height:1;white-space:nowrap;text-shadow:0 3px 14px rgba(0,0,0,.65),0 0 3px rgba(0,0,0,.55)}
+</style></head><body><div id="r"><div id="tarjeta"><img id="foto"></div><div id="tit" class="t"></div><div id="sub" class="t"></div></div>
+<script src="datos.js"></script><script>
+const FOTO = document.getElementById('foto'), TIT = document.getElementById('tit'), SUB = document.getElementById('sub');
+const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v)), lerp = (a, b, k) => a + (b - a) * k;
+const P = (t, t0, d) => clamp((t - t0) / Math.max(d, 1e-3)), io = u => u < .5 ? 4 * u ** 3 : 1 - (-2 * u + 2) ** 3 / 2;
+const pon = (e, x, y, s = 1, o = 1) => { e.style.opacity = clamp(o).toFixed(3); e.style.transform = `translate(${x}px,${y}px) translate(-50%,-50%) scale(${s.toFixed(4)})`; };
+const color = (e, c) => { if (c) { e.style.color = c.color; e.style.textShadow = c.sombra; } };
+window.SFX = [];   // F5 no lleva efectos de sonido
+/* zooms suaves en los cortes (esconden el salto, como en CapCut) */
+const zoomEn = t => { let z = 1, zp = 1, t0 = 0, suave = 0;
+  for (const [a, zz, sv] of CORTES) if (t >= a) { zp = z; z = zz; t0 = a; suave = sv; }
+  return suave ? lerp(zp, z, io(P(t, t0, .6))) : z; };
+/* título: arriba, todo el reel */
+TIT.innerHTML = TITULO.join('<br>'); color(TIT, COLORES.tit);
+/* subtítulos: UNA línea de máximo 4 palabras; se corta antes en pausas, signos de puntuación o si la línea se hace larga */
+const BLOQUES = []; { let g = [];
+  const cierra = () => { if (g.length) BLOQUES.push([g.map(p => p[0]).join(' ').replace(/^~/, ''), g[0][1]]); g = []; };
+  PAL.forEach((p, i) => { g.push(p); const sig = PAL[i + 1], txt = g.map(x => x[0]).join(' ');
+    if (!sig || g.length >= 4 || /[.,;:!?…]$/.test(p[0]) || sig[1] - p[2] > .3 || (txt + ' ' + sig[0]).length > 24) cierra(); }); }
+color(SUB, COLORES.sub);
+let _ancho = {};
+function pintarSub(t) {
+  const b = [...BLOQUES].reverse().find(x => x[1] <= t + .03); const txt = b ? b[0] : '';
+  if (SUB.textContent !== txt) { SUB.textContent = txt; SUB.style.fontSize = '62px'; const w = SUB.scrollWidth; if (w > 940) SUB.style.fontSize = (62 * 940 / w).toFixed(1) + 'px'; }
+  pon(SUB, 540, 1300, 1 + .04 * (1 - P(t, b ? b[1] : 0, .12)), b ? 1 : 0);
+}
+window.cargarFoto = i => new Promise(res => { FOTO.onload = res; FOTO.onerror = res; FOTO.src = `frames/${String(i + 1).padStart(5, '0')}.jpg`; });
+window.pintar = t => {
+  FOTO.style.transform = `scale(${zoomEn(t).toFixed(4)})`;
+  pon(TIT, 540, 270, 1, P(t, -.1, .3) * 3);
+  pintarSub(t);
+};
+document.fonts.load('800 20px M').then(() => document.fonts.load('700 20px M')).then(async () => { await window.cargarFoto(0); window.pintar(0); document.title = 'listo'; });
+</script></body></html>

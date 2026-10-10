@@ -1,6 +1,6 @@
 - [Aprender de cada edición](aprender-de-cada-edicion.md) — Abel quiere que guarde errores y feedback tras cada vídeo para mejorar
 - [Registro de edición de Abel](registro-edicion-abel.md) — leer ANTES de editar: silencios con dos criterios (entre frases sí, dentro no), lo aprobado, errores a evitar
-- [Reels de marca personal](reels-marca-personal.md) — F1 yapping 4:3, F2 una imagen abajo, F3 tablero si la FUENTE es horizontal; F4 talking head si la fuente ya es vertical (imágenes solo si complementan); ESTRUCTURA OBLIGATORIA gancho → colleja → solución, sin CTA, 40–50 s; publicar/ y trial/
+- [Reels de marca personal](reels-marca-personal.md) — F1/F2/F3 si la fuente es horizontal; F5 CASUAL para los reels de guion del móvil (sin imágenes, título que completa el hook, subtítulos ≤4 palabras); F4 aparcado; ESTRUCTURA OBLIGATORIA gancho → colleja → solución, sin CTA, 40–50 s; publicar/ y trial/
 - [Estilo vídeos largos](estilo-videos-largos-stickman.md) — producto principal: su estructura intacta + pizarra blanca (stickman, silueta para energía), siempre en movimiento, zona 4:3
 - [Entorno skill animaciones](entorno-skill-animaciones.md) — instalación, fallos de Windows, fuentes y detección de caras
 - [Usar System Change](usar-system-change.md) — cambios permanentes a flujos/skills/reglas pasan antes por la skill system-change

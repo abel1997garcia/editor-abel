@@ -17,6 +17,8 @@ reels.json:
                          "formato": "F2", "imagenes": "imagenes" } } }                  F2 · imagen abajo (motor_f2.html; las fotos en img/)
 F4 · él a pantalla completa en vertical (motor_f4.html): "formato": "F4", "imagenes", "titulo" (en minúsculas normales),
      "titulo_hasta": s, "apartados": [["1. …", "frase", desde], ...]; en escenas: imagen(), collage(), cta() (Referencias/formato4/analisis.md)
+F5 · CASUAL, reels de guion grabados con el móvil (motor_f5.html): "formato": "F5", "titulo" (crudo, completa el hook; todo el reel).
+     Como F4 en cortes y zooms, pero sin imágenes, sin escenas y sin efectos; subtítulos en una línea de ≤ 4 palabras.
 Gancho en el tablero desde el segundo 0; después tablero ↔ él en grande cada 4–6 s, cambiando entre palabras.
 Su voz va tal cual (a 1,10x, como todo el reel); la música 26 dB por debajo desde el estribillo; los efectos que
 declaran las escenas (suena) con la proporción del horizontal.
@@ -133,7 +135,9 @@ def hacer(cfg, nombre, reel, W, PW, cara, modo):
     ps = ajustar_finales(cfg['fuente'], W, ps)                       # también en --texto: los tiempos tienen que ser los del render
     pads = rellenos(W, ps)
     PAL = palabras(W, ps, pads); dur = round((sum(b - a for a, b, _ in ps) + sum(pads)) / VELOCIDAD, 3)
-    f2, f4 = reel.get('formato') == 'F2', reel.get('formato') == 'F4'   # F2 · imagen abajo / F4 · él a pantalla completa: sin alternar
+    f2, f5 = reel.get('formato') == 'F2', reel.get('formato') == 'F5'
+    f4 = reel.get('formato') in ('F4', 'F5')                         # F2 · imagen abajo / F4 y F5 · él a pantalla completa: sin alternar
+    if f5: reel = {**reel, 'titulo_hasta': dur}                       # F5: el título se queda todo el reel
     modos = [[0, 'tablero']] if f2 or f4 else reel.get('modos') or modos_auto(PAL, dur)
     print(f"\n== {nombre}: {dur:.1f} s a {VELOCIDAD}x · {len(ps)} planos · «{reel['titulo'].upper()}»")
     print(' | '.join(' '.join(W[i]['w'] for i in g) for _, _, g in ps))
@@ -171,7 +175,7 @@ def hacer(cfg, nombre, reel, W, PW, cara, modo):
     (tmp / 'datos.js').write_text(
         f"const PAL = {json.dumps(PAL, ensure_ascii=False)};\nconst MODOS = {json.dumps(modos)};\nconst TITULO = {json.dumps(titulo2(reel['titulo'], not f4), ensure_ascii=False)};\n"
         f"const ACENTO = '{acento}', FW = {fw}, FH = {fh}, FX = {cx:.1f}, DUR = {dur};\nconst COLORES = {json.dumps(colores)}, CORTES = {json.dumps(cortes)}, TITULO_HASTA = {reel.get('titulo_hasta', 6)}, APARTADOS = {json.dumps(reel.get('apartados', []), ensure_ascii=False)};\n", encoding='utf-8')
-    shutil.copy(TAB / ('motor_f4.html' if f4 else 'motor_f2.html' if f2 else 'motor.html'), tmp / 'motor.html'); shutil.copy(TAB / 'Montserrat-Variable.ttf', tmp)
+    shutil.copy(TAB / ('motor_f5.html' if f5 else 'motor_f4.html' if f4 else 'motor_f2.html' if f2 else 'motor.html'), tmp / 'motor.html'); shutil.copy(TAB / 'Montserrat-Variable.ttf', tmp)
     if reel.get('imagenes'):                                          # F2: las fotos (rutas relativas al reels.json)
         shutil.copytree(Path(cfg['_base']) / reel['imagenes'], tmp / 'img', dirs_exist_ok=True, ignore=shutil.ignore_patterns('*.mp4', '*.mov', '*.MOV'))
     for nom, (src, a, b) in reel.get('clips', {}).items():           # F3: vídeos de su vida -> clips/<nom>/ (JPG a 30 fps, sin sonido)
