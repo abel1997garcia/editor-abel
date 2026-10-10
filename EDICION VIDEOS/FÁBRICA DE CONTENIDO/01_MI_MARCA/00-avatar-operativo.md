@@ -26,6 +26,22 @@ Coaches, terapeutas (espirituales y no), guías, gente de reiki, médiums, sanad
 **Por qué este nicho** (sus mentores): «ayudar a vender se cobra más fácil que ayudar a sanar». El resultado se mide, el cliente ya tiene negocio, paga más y duda menos.
 **Qué le diferencia de un experto en marketing:** habla su idioma (energía, intención, sensibilidad) y trabaja lo de dentro.
 
+## Su lente y sus creencias, aplicadas al nicho (no cambian, ver `creencias-y-frases-de-batalla.md`, `afirmaciones.md` y `correcciones.md`)
+**Su lente:**
+- la emoción va antes que el pensamiento y lo genera;
+- viene de lo que viviste de pequeño (el niño interior);
+- cuanto más dolor, más cabeza.
+
+Aplicado al nicho: **lo que te vacía la agenda casi nunca es la estrategia, es el miedo que hay debajo.**
+
+**Sus creencias, aplicadas al nicho:**
+- **C4 · Ser complaciente no te hace buena persona:** bajar precios, regalar sesiones, no saber decir tu precio.
+- **C5 · El desarrollo personal como personaje:** copiar a otros y perder la autenticidad en redes.
+- **C3 · El ego espiritual:** vender desde el ego o sentirse por encima del cliente.
+- **C6 · Ser espiritual no te quita la ambición:** lo espiritual y vender sí van juntos, si es desde la intención correcta.
+- **C8 · Quejarse sin querer cambiar:** a quién NO ayudar ni perseguir.
+- **FB-T03 · «Si solo buscas lo barato, tu vida será barata»:** precios y valor.
+
 ## Sus dolores (la frase que se dice a solas, que sirve de gancho)
 1. «Tengo un don y la agenda vacía.»
 2. «Me da vergüenza venderme, no quiero parecer un vendedor.»
