@@ -19,27 +19,24 @@ LEE ANTES (rutas en C:\Users\Clap\Desktop\EDICION VIDEOS\FÁBRICA DE CONTENIDO\)
 - **01_MI_MARCA\_indice-banco.md:** para energía sexual, el bloque «Masculinidad, autocontrol y energía sexual».
 - **01_MI_MARCA\02-catalogo-momentos-concretos.md:** momentos reales de su vida. No inventes nada de su vida.
 
-FICHAS DEL CANAL PRINCIPAL Y DE ENERGÍA SEXUAL:
-0. **YOUTUBE NO ES UN REEL** (Abel 11/10/2026). El vídeo sirve para que le conozcan, conecten con él y vean que SABE de lo que habla: sus sistemas, su autenticidad, sus creencias y sus resultados (100K y 17.000 €/mes con contenido; lo que hace con Allan García). La idea tiene que ser POTENTE y dar para desarrollarla 10–20 minutos.
-   - MAL (detalle de reel): «borrar la historia en la que ofreces tus sesiones».
-   - BIEN: «Por qué los terapeutas con más talento tienen la agenda vacía», «El sistema que uso para que los clientes te escriban sin perseguirlos».
-   - Sigue siendo UNA sola idea, la que haría clic en YouTube.
-   - **TODO enfocado al 100 % en lo que vende HOY y a quién:** clientes y dinero con tu marca personal en Instagram y YouTube, de forma consciente y alineada con tu verdad.
-     - La mentalidad remata ahí.
-     - Su pasado (17.000 €/mes, 100K, perderlo todo, Australia) NO es tema de vídeo, solo un apunte breve si suma.
-     - Nada de cifras de facturación.
-     - MAL: «Cómo hice 100K con contenido».
-     - BIEN: «Lo espiritual sí se vende», «Así consigo clientes para un médium sin perseguir a nadie».
-1. UNA COSA CONCRETA y reconocible del día a día, no un tema amplio (como un vídeo entero solo sobre el «yapping»). Las tres partes son caras de ESA MISMA cosa.
-   - Principal, ej.: publicar frases bonitas y que nadie te escriba; bajar el precio en cuanto notas una duda.
-   - Energía sexual, ej.: la energía que pierdes en el porno es la que le falta a tu negocio; recaer justo antes de una semana importante de trabajo. «Cómo salir» acaba en su proyecto, su contenido o su dinero.
-   - En el principal, si el tema es de mentalidad o emociones, «Cómo salir» acaba bajándolo a su negocio, su contenido o su agenda.
-2. Formato exacto, cada línea UNA sola frase:
-   TEMA: la cosa concreta.
-   ARRANQUE: frase para empezar a grabar, muy pegada al tema, que ataque una creencia con connotación negativa.
-   Qué es de verdad: la creencia que se rompe, desde su lente (lo de dentro: miedos, intención, emociones).
-   Qué te está costando: lo que hace mal la persona y lo que le cuesta, hablándole de TÚ. Si hay un ejemplo de la vida de Abel o de su trabajo con Allan García (médium), contado de TÚ a TÚ. NUNCA «a Abel le pasaba».
-   Cómo salir: una acción concreta y su beneficio.
+FICHAS DEL CANAL PRINCIPAL Y DE ENERGÍA SEXUAL (modelo: Lavri, `Editor vídeos/Referencias/lavri/ANALISIS.md`):
+- **YouTube no es un reel.** UNA idea potente que dé para 10-20 minutos, en la que se vea que Abel sabe de lo que habla.
+- **TODO enfocado al 100 % en lo que vende HOY y a quién:** clientes con tu marca personal en Instagram y YouTube, de forma consciente y desde tu verdad. En Héroe Viaje, la energía sexual bajada al negocio.
+- **Su pasado NO es tema.** Solo puede aparecer como prueba dentro de un punto. Nada de cifras de facturación. No inventes resultados de Allan ni de clientes.
+  - MAL: «Cómo hice 100K con contenido», «borrar la historia en la que ofreces tus sesiones».
+  - BIEN: «Lo espiritual sí se vende», «Así consigo clientes para un médium sin perseguir a nadie».
+
+Formato exacto:
+   IDEA: el título del vídeo, del nivel de BANCO_IDEAS_YOUTUBE.md.
+   ARRANQUE: 1-2 frases para los primeros 10 segundos, de TÚ a TÚ, contra lo que dice el mercado o con una promesa.
+   CREDENCIAL: una frase en presente: a quién ayuda y lo que hace hoy (mentorías; Allan García, médium: redes, marca personal y eventos).
+   LO QUE DICE EL MERCADO: lo que va a desmontar, en una frase.
+   PUNTO 1 / PUNTO 2 / PUNTO 3: cada uno con tres partes:
+     - la creencia del cliente entre comillas («Abel, …»);
+     - la verdad, desde su lente y sus creencias;
+     - la colleja, lo que le cuesta si sigue así.
+   APUNTE DE SU HISTORIA: solo si refuerza un punto; si no, «—».
+   CIERRE: el resumen en una frase de batalla.
 
 FICHA DEL CANAL DE DOCUMENTACIÓN (estructura libre):
    TEMA: una reflexión o creencia suya, para que la gente conozca cómo piensa (no un hecho de su vida).
