@@ -2,6 +2,65 @@
 
 > Sacado de 4 transcripciones mías (`transcripciones/01-04`). Se amplía cada vez que entren más.
 
+## ⭐ ANÁLISIS DE 6 VÍDEOS DE YOUTUBE (10/10/2026): ESTO MANDA PARA SONAR A ABEL
+
+Fuentes: 3 vídeos de Héroe Viaje (retención) y 3 de abelunidad, 97 min y 17.565 palabras (`transcripciones/youtube/`), más 29 min de sus vídeos de emociones.
+
+**Ritmo.**
+- Unas **3 palabras por segundo** contando las pausas: calmado, explica sin prisa.
+- Tramos de unas 10 palabras entre respiraciones.
+- Frases largas encadenadas, no telegráficas.
+
+**Las palabras que más usa (por orden):**
+1. **«tú»** (265): siempre le habla a la persona, a menudo con el «tú» explícito y repetido: «cuando tú», «si tú», «tú te tienes que sentir…».
+2. **«porque»** (211): justifica todo.
+3. **«pero»** (136).
+4. «realmente» (58).
+5. «cuando tú» (48).
+6. «entonces» (44).
+7. «es que» (38).
+8. «sabes» (31).
+9. «tienes que» (30).
+10. «si tú» (28).
+11. «¿vale?» (26).
+12. «o sea» (24).
+13. «por tanto» (24).
+14. «¿de acuerdo?» (22).
+15. «por ejemplo» (20).
+16. «al final» (17).
+17. «ok» (15).
+18. «digamos» (14).
+19. «lo más importante» (13).
+20. «imagínate» (11).
+21. «simplemente» (11).
+
+Casi NO usa: «mira», «fíjate», «tío», «literalmente».
+
+**Cómo arranca:** con una afirmación rotunda dirigida a ti, sin presentarse.
+- «La única forma que tienes para manifestar la vida que tú quieres es a través de la acción. Así que deja de estar mirando vídeos, mirando podcast, escribiendo 850 afirmaciones en tu libreta y ponte a trabajar.»
+- «Te estás resistiendo a aquello que te está pasando en tu vida…»
+- «Un hombre sin propósito está desconectado de su masculinidad por completo.»
+
+**Cómo desarrolla (sus recursos de verdad):**
+1. **Se pregunta y se responde:** «¿Por qué digo esto? Porque…», «¿Por qué quiero hacer este vídeo? Porque…», «¿En quién te tienes que centrar? En quién eres tú.»
+2. **Diálogos internos de la persona, en voz alta:** «ya, pero es que tal persona ha hecho algo…», «ok, esto ha pasado, ¿lo preferiría? Claro que lo preferiría…», «joder, y si atraigo a mujeres, pues mejor que mejor», «sí, sí, pero espabila, que aquí hay que accionar».
+3. **Exageración concreta con humor:** «escribiendo 850 afirmaciones en tu libreta», «hasta las tantas viendo vídeos».
+4. **Anáforas y enumeraciones:**
+   - «quien hace el negocio es la persona, quien tiene ansiedad es la persona, quien tiene miedos es la persona»;
+   - «en modo lucha, en modo sacrificio, en modo supervivencia, en modo estrés».
+5. **Se adelanta a la objeción:** «Yo no digo que el conocimiento no sea necesario, por supuesto…», «aunque parezca muy Mr. Wonderful, te aseguro que…».
+6. **Se corrige al hablar, matizando:** «no es que no sirva, sino que no siente que sirve», «no predicciones, sino tiradas de tarot… no, más profundo».
+7. **Remata con seguridad total:** «te aseguro que», «al 100 %», «absolutamente nada», «todos y cada uno».
+8. **Pide confirmación:** «¿vale?», «¿de acuerdo?», «¿verdad que no?».
+9. **Su prueba, sin adornos:** «es algo que a mí durante mucho tiempo me ha pasado. Yo era una persona muy mental».
+10. **Su vocabulario:** «espabila», «joder», «como Dios manda», «un machete para ir derribando creencias», «si eres sincero y honesto contigo», «lo más importante de todo».
+
+**Cómo cierra:** «Así que…» más la idea resumida en una frase. En YouTube después viene el CTA y «chao, chao»; en los reels, nada de CTA.
+
+**Para los reels (más cortos y directos que YouTube):**
+- se quedan el arranque rotundo, el «¿por qué digo esto? porque…», un diálogo interno, la exageración concreta, «te aseguro», un «¿vale?» y el cierre «así que…»;
+- fuera las explicaciones largas con «por tanto», «es decir», «digamos».
+
 ## Principio nº 1: el guion sale del habla, no al revés
 
 Mis vídeos son **habla convertida en texto**, no texto pensado para leerse. Por eso:

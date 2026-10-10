@@ -29,6 +29,8 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 - Yo los transcribo, los analizo con `estilo_voz.py` y el texto, y actualizo `FÁBRICA DE CONTENIDO/01_MI_MARCA/mi-voz/mi-voz.md`.
 - Los guiones se adaptan a ESA forma de hablar.
 
+**ANÁLISIS COMPLETO (10/10, 6 vídeos de YouTube que eligió él + 29 min de los de emociones) en `FÁBRICA DE CONTENIDO/01_MI_MARCA/mi-voz/mi-voz.md`, sección ⭐: LEERLO ANTES DE ESCRIBIR NADA CON SU VOZ.**
+
 **Primer análisis (10/10, 29 min de sus vídeos largos de emociones/energía, 5.780 palabras):**
 - 3,3 palabras/s contando las pausas.
 - Explica de forma didáctica y encadenada: «porque» ×83 (¡lo usa muchísimo!), «pero» ×46, «realmente» ×19, «cuando tú» ×18, «entonces» ×12, «al final» ×9, «es decir» ×7, «por tanto», «básicamente».
