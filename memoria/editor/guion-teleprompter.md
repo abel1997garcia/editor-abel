@@ -24,6 +24,24 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 
 **UNA IDEA = UN REEL.** Si la referencia es viral pero no cumple algo (no tiene colleja, mezcla ideas, no da solución…), se mira de qué va y se adapta hasta que cumpla la estructura.
 
+**🟣 FORMATO VIGENTE DESDE EL 10/10/2026, MANDA SOBRE TODO LO DE ABAJO: YA NO SE ESCRIBE EL TEXTO, LO EXPLICA ÉL A SU MANERA.**
+Abel: «los guiones no suenan como yo hablaría… si tú los escribes nunca serán míos».
+El doc lleva SOLO:
+- `# Título`;
+- `**Idea:**`;
+- `## Hooks`: 3, que sí se escriben, con todas las reglas de hooks de abajo;
+- `## Problema`: 2–3 viñetas cortas con las collejas, realistas y extremas, más de dónde viene (niño interior o emoción) si encaja;
+- `## Solución`: 1 viñeta natural, sin técnica de IA.
+Si la referencia trae un dato concreto (p. ej. el mapa del cuerpo), va como viñeta «El dato del reel: …».
+Las viñetas son IDEAS, no frases para leer. Él graba frase a frase con sus palabras.
+Siguen valiendo:
+- la verificación de coherencia;
+- una idea por reel;
+- connotación negativa extrema;
+- el gancho original como hook 1.
+Las reglas de «escribir el guion» de abajo (comas, barra de bar, traducir tal cual) quedan solo como referencia.
+Los 5 de la hoja ya están así (Drive local `G:/Mi unidad/FÁBRICA DE CONTENIDO/PARA GRABAR/REELS/`; con Drive para ordenador se pueden borrar o renombrar los .gdoc desde ahí).
+
 **✅ ÚLTIMO PASO OBLIGATORIO: VERIFICAR LA COHERENCIA** (Abel 10/10/2026: «la coherencia es importantísima y vital»). Antes de entregar cualquier guion, comparar cada frase con:
 1. `FÁBRICA DE CONTENIDO/01_MI_MARCA/correcciones.md`, que prevalece sobre todo, incluidas las referencias en inglés;
 2. `creencias-y-frases-de-batalla.md` (C1–C8);

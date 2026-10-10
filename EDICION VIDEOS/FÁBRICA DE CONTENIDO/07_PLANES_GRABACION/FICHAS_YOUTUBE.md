@@ -49,3 +49,23 @@ Cada día, una ficha para el canal principal, otra para el de energía sexual y 
 **ARRANQUE:** «He aprendido que no puedes construir nada tuyo mientras lo estás construyendo para demostrarle algo a alguien.»
 **Qué contar:** llegaste a facturar 15.000 € al mes queriendo demostrarle a tu padre que tú también podías, y después de perderlo todo acabaste fregando platos 7-8 horas al día en Brisbane, a 20 dólares australianos la hora.
 **Qué te dejó:** hoy construyes porque quieres esta vida, no para que nadie te vea, y por eso lo que haces por fin se sostiene por dentro y no solo por fuera.
+
+## 2026-10-10 · Canal principal
+**TEMA:** Guardar reels de desarrollo personal que nunca vuelves a abrir
+**ARRANQUE:** «Cada reel de autoayuda que guardas y no vuelves a abrir no te está haciendo crecer: te está dando permiso para no cambiar nada.»
+**Qué es de verdad:** al darle a guardar sientes un pequeño alivio, como si ya estuvieras avanzando, y ese alivio es lo que buscas para calmar la incomodidad sin tocar la emoción que hay debajo.
+**Qué te está costando:** acumulas cientos de consejos mientras tu vida sigue igual y acabas creyendo que lo tuyo no tiene arreglo, como a ti te pasaba cuando leíste decenas de libros de desarrollo personal durante años sin aplicar nada de verdad.
+**Cómo salir:** abre tus guardados, quédate con un solo vídeo, aplícalo siete días seguidos y borra el resto, y notarás que una cosa hecha de verdad te mueve más que cien que solo has visto.
+
+## 2026-10-10 · Canal de energía sexual
+**TEMA:** Borrar el historial después de ver porno
+**ARRANQUE:** «Borrar el historial después de ver porno no es ser discreto: es la vergüenza convenciéndote de que hay algo malo en ti.»
+**Qué es de verdad:** la vergüenza llega antes que cualquier pensamiento, y la sientes porque el niño que llevas dentro aprendió que lo que le pasaba se tenía que esconder para no ser una carga.
+**Qué te está costando:** cada vez que lo escondes la vergüenza crece y te vuelve a empujar al porno para taparla, como a ti te pasaba cuando lo usabas para calmar la presión, la ansiedad o la soledad sin que nadie supiera lo que llevabas por dentro.
+**Cómo salir:** la próxima vez, antes de borrar nada, quédate un minuto quieto y di en voz alta qué sentías justo antes de abrirlo, y la energía que se te iba en esconderte empezará a quedarse contigo.
+
+## 2026-10-10 · Canal de documentación
+**TEMA:** Entender lo que te pasa no te cambia; te cambia lo que haces con ello
+**ARRANQUE:** «Durante años creí que entender mis heridas era lo mismo que sanarlas, y no lo era.»
+**Qué contar:** hace poco, después de una conversación profunda, tu madre te dijo «sé que lo sabes, pero ¿cómo lo cambio?», y esa pregunta te hizo ver que llevabas años explicando el problema sin enseñar el camino.
+**Qué te dejó:** hoy ya no te conformas con entender algo, lo pruebas en tu propia vida hasta ver el cambio fuera, y eso es justo lo que quieres enseñar.
