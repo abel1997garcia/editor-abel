@@ -49,3 +49,14 @@ Entrega en un Google Doc para leer en el móvil (cuando se las preparo a mano).
 - Nada de cifras de facturación que no pueda respaldar hoy.
 
 **IR CONTRA EL MERCADO (Abel 11/10/2026, «un antes y un después»):** igual que Labri («no necesitas ser viral, ni setter, ni closer, ni guiones»), las ideas atacan lo que dice el mercado de Abel. La tabla está en «CONTRA EL MERCADO» de `00-avatar-operativo.md`, y el banco de ideas en `07_PLANES_GRABACION/BANCO_IDEAS_YOUTUBE.md`. Siempre en ángulos distintos (mercado, objeciones, dolores, mentalidad, prueba con Allan, Héroe Viaje), pero todo hacia QUÉ vende y A QUIÉN.
+
+**Cómo construye Lavri cada vídeo por dentro (8 transcritos el 11/10):** `Editor vídeos/Referencias/lavri/ANALISIS.md`.
+1. Arranque contra el mercado o con una promesa.
+2. Credencial en presente.
+3. Lo que dice el mercado.
+4. 2-3 puntos, cada uno con la creencia del cliente entre comillas, la prueba de un cliente y una colleja.
+5. El pasado solo como prueba.
+6. La oferta, natural.
+7. Cierre con su frase de batalla.
+
+Pendiente: que Abel diga si las fichas del principal y de Héroe Viaje pasan a este formato.
