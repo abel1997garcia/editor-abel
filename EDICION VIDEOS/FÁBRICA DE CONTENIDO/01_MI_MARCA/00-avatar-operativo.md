@@ -42,6 +42,24 @@ Aplicado al nicho: **lo que te vacía la agenda casi nunca es la estrategia, es 
 - **C8 · Quejarse sin querer cambiar:** a quién NO ayudar ni perseguir.
 - **FB-T03 · «Si solo buscas lo barato, tu vida será barata»:** precios y valor.
 
+## CONTRA EL MERCADO (Abel, 11/10/2026: «va a ser un antes y un después»)
+Igual que Labri («no necesitas ser viral, ni setter, ni closer, ni guiones»), Abel va contra lo que dice todo su mercado:
+
+| Lo que dice el mercado | Lo que dice Abel |
+|---|---|
+| Tienes que hacerte viral | Con pocos seguidores que conectan con tu verdad llenas la agenda |
+| Necesitas setter, closer, embudos y lead magnets | Necesitas que te escriban porque se reconocen en lo que dices |
+| Guiones perfectos y tendencias | Habla con tus palabras, desde tu verdad |
+| Publica todos los días | Publica lo que remueve, no relleno |
+| Primero, muchos seguidores | Primero, un mensaje claro |
+| Baja precios y regala sesiones para empezar | Cobra lo que vale tu trabajo, sin culpa |
+| Vende con urgencia y escasez | Vende desde la intención, sin presionar |
+| Otra certificación más y estarás preparado | Ya sabes suficiente, lo que te frena es el miedo |
+| «Lo que tenga que llegar, llegará» / manifiesta clientes | El universo no publica por ti: mensaje más acción |
+| Lo espiritual no se vende / el dinero es sucio | Lo espiritual sí se vende, si es desde tu verdad |
+| Sé profesional y neutral, no muestres tu vida | Tu historia y tu opinión son lo que te hace único |
+| **Héroe Viaje:** retención es aguantar y contar días | Retener sin dirigir la energía no sirve: llévala a tu proyecto |
+
 ## Sus dolores (la frase que se dice a solas, que sirve de gancho)
 1. «Tengo un don y la agenda vacía.»
 2. «Me da vergüenza venderme, no quiero parecer un vendedor.»

@@ -47,3 +47,5 @@ Entrega en un Google Doc para leer en el móvil (cuando se las preparo a mano).
   - MAL: «Desvelo cómo llegué a 17.000 €/mes».
   - BIEN: «Lo espiritual sí se vende (estoy harto de que os mientan)», «Las 3 razones por las que nadie te escribe aunque publiques todos los días», «Así consigo clientes para un médium sin perseguir a nadie» (Allan, presente).
 - Nada de cifras de facturación que no pueda respaldar hoy.
+
+**IR CONTRA EL MERCADO (Abel 11/10/2026, «un antes y un después»):** igual que Labri («no necesitas ser viral, ni setter, ni closer, ni guiones»), las ideas atacan lo que dice el mercado de Abel. La tabla está en «CONTRA EL MERCADO» de `00-avatar-operativo.md`, y el banco de ideas en `07_PLANES_GRABACION/BANCO_IDEAS_YOUTUBE.md`. Siempre en ángulos distintos (mercado, objeciones, dolores, mentalidad, prueba con Allan, Héroe Viaje), pero todo hacia QUÉ vende y A QUIÉN.

@@ -13,6 +13,7 @@ Dale UNA ficha nueva para cada canal. Responde en español de España.
 LEE ANTES (rutas en C:\Users\Clap\Desktop\EDICION VIDEOS\FÁBRICA DE CONTENIDO\):
 - **07_PLANES_GRABACION\FICHAS_YOUTUBE.md:** TODAS las fichas ya dadas. PROHIBIDO repetir un tema, ni con otras palabras ni con el mismo enfoque. En documentación, tampoco un momento de su vida ya contado.
 - **01_MI_MARCA\00-avatar-operativo.md:** nicho, a quién vende, dolores, colleja y filtro. MANDA para el canal principal.
+- **07_PLANES_GRABACION\BANCO_IDEAS_YOUTUBE.md:** ideas del nivel correcto. Es la PRIMERA fuente para el principal y Héroe Viaje. Úsalas o crea otras del mismo nivel desde «CONTRA EL MERCADO», las objeciones y los dolores del avatar, y marca con ✅ la que uses.
 - **01_MI_MARCA\A-QUIEN-LE-VENDO.md:** 200 situaciones del avatar. Es la fuente de temas del principal.
 - **01_MI_MARCA\creencias-y-frases-de-batalla.md y afirmaciones.md:** nada puede contradecirlos.
 - **01_MI_MARCA\_indice-banco.md:** para energía sexual, el bloque «Masculinidad, autocontrol y energía sexual».
