@@ -34,6 +34,15 @@ _Las 8 creencias de `creencias-y-frases-de-batalla.md` son posturas fijas desde 
 |---|---|---|
 | No te corresponde salvar a quien no quiere cambiar | Se refiere a quien dice que necesita ayuda pero solo busca atención y que validen su victimismo. NO a quien pide ayuda de verdad (pedir ayuda es inteligente) | T02 |
 
+### Emociones (guiones de referencias, 10/10/2026)
+| Afirmación | Matiz importante | Guion |
+|---|---|---|
+| La ansiedad no es el problema; el problema es no dejarte sentir | Si tapas lo que duele, tapas también la alegría y las ganas | Ref. Quinlan Walther |
+| Explicarte de más viene de la infancia (nadie te escuchaba / te hicieron responsable de los demás) | Coherente con C4 (complacencia) | Ref. Vassia Sar |
+| No se trata de controlar lo que sientes, sino de dejar de pelearte con ello y sentirlo | La emoción va primero; la cabeza se calma después | Ref. drcoachrees |
+| Los celos no son amor, son miedo a que no te elijan | Cada emoción trae un mensaje; tragártela te aleja de ti | Ref. candasifamabarnes |
+| Tu cuerpo sabe lo que sientes antes que tu cabeza; no notar nada es estar desconectado | Dónde se nota cada emoción, dicho como experiencia («casi siempre»), no como ciencia | Ref. its.jaygomez |
+
 ## Cambios de postura
 | Fecha | Antes decía | Ahora digo | Por qué |
 |---|---|---|---|

@@ -14,6 +14,8 @@ Lista viva de ganchos según Abel (la va completando él; apuntar cada veredicto
 
 **CONDICIÓN OBLIGATORIA (Abel 09/10/2026): el gancho va SIEMPRE DIRECTO A LA PERSONA.** Si es una afirmación directa que la toca («Las adicciones como tal no existen»), vale. Si es solo información sobre un tema («Las dinámicas sociales son…»), NO se pone, ni en publicar ni en trial ni en los guiones. **Siempre que se pueda, de TÚ a TÚ** («Te…», «Tú…», «Eres…», «Cuanto más intentas…»).
 
+**Hooks lo más DIRECTOS posible:** sin sujetos repetidos ni palabras que frenen («Tú no eres educado, tienes miedo…», no «…tú tienes miedo…»).
+
 **Qué hace bueno a un gancho:** frase directa que **rompe una creencia universal** y se entiende sola, sin nada delante. Impacta en la primera frase.
 
 ## ✅ Buenos (08/10/2026)
@@ -25,12 +27,12 @@ Lista viva de ganchos según Abel (la va completando él; apuntar cada veredicto
 Cada uno le da la vuelta a una creencia popular, con la connotación negativa más grande, de tú a tú y sin sonar a IA:
 - «Cuanto más intentas quitarte la ansiedad, más te come.» (creencia: hay que quitarse la ansiedad)
 - «Llevas años tapando lo que sientes y luego te extraña estar apagado.»
-- «Tú no eres educado, tú tienes miedo a que te dejen de querer.» (creencia: explicarse mucho es ser educado)
+- «Tú no eres educado, tienes miedo a que te dejen de querer.» (creencia: explicarse mucho es ser educado). Abel 10/10: sin repetir el sujeto, más directo.
 - «Cada vez que te justificas le estás diciendo a todo el mundo que no vales.»
 - «Intentar controlar lo que sientes es justo lo que te hace perder el control.» (creencia: hay que controlar las emociones)
-- «Los nervios no te hacen cagarla, te la hace cagar lo que piensas de ellos.»
+- «Los nervios no te hacen cagarla, te la hace cagar pelearte con ellos.» (corregido por coherencia: la emoción va primero)
 - «Tragarte la rabia para ser buena persona te está destrozando.» (creencia: la rabia es mala)
-- «Los celos no son tóxicos, te están diciendo lo que te da miedo pedir.»
+- «Los celos no son amor, son miedo a que no te elijan.» (Abel: los celos son miedo)
 - «Si no notas nada en el cuerpo, no estás en paz, estás anestesiado.» (creencia: si no siento nada, estoy bien)
 - «Tu cabeza te miente, tu cuerpo no.»
 
