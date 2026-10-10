@@ -71,6 +71,8 @@ Agenda llena con clientes que le escriben porque conectan con su mensaje; cobrar
 - «Mi caso es diferente.»
 
 ## Contenido: qué entra y cómo se filtra
+**Regla nº 1 (Abel, 11/10/2026):** cada vídeo y cada reel se enfoca al 100 % en lo que vende HOY y a quién: clientes y dinero con tu marca personal (Instagram y YouTube), de forma consciente y alineada con tu verdad. Su pasado no es tema, solo un apunte breve si suma.
+
 **Todo junto, en tres pilares:**
 - marca personal y contenido que vende (lo práctico);
 - mentalidad del que ayuda a otros (miedos, ego, intención, cobrar);

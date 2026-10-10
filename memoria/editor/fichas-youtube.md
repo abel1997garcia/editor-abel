@@ -40,4 +40,10 @@ Entrega en un Google Doc para leer en el móvil (cuando se las preparo a mano).
 
 **Miniaturas:** su cara más 1–2 palabras crudas («cobardes.», «cópiame.», «así se vende»).
 
-**Para Abel:** misma mezcla adaptada a su nicho y a sus pruebas reales (100K, 17.000 €/mes y perderlo todo, Allan García, Australia). Se generan ideas de este nivel, no detalles de reel.
+**🔴 LO FUNDAMENTAL (Abel 11/10/2026, «tienes que entenderlo muy, pero que muy bien»):** TODO vídeo y TODO reel se enfoca al 100 % en lo que vende HOY y a quién se lo vende.
+- **Lo que enseña hoy:** generar dinero y clientes con tu marca personal, en Instagram y en YouTube, de forma consciente, alineada con tu verdad y tu autenticidad.
+- Los vídeos de mentalidad también rematan ahí, como Labri: «Tu falta de perfección te llevará a 10k/mes», «No puedes darle las sobras de tu energía a la idea que quieres que cambie tu vida», «A la mierda la inspiración».
+- **Su pasado NO es tema de vídeo** (17.000 €/mes, 100K, perderlo todo, Australia): «es pasado y otro contexto». Como mucho, un apunte breve dentro de un vídeo de lo que vende hoy.
+  - MAL: «Desvelo cómo llegué a 17.000 €/mes».
+  - BIEN: «Lo espiritual sí se vende (estoy harto de que os mientan)», «Las 3 razones por las que nadie te escribe aunque publiques todos los días», «Así consigo clientes para un médium sin perseguir a nadie» (Allan, presente).
+- Nada de cifras de facturación que no pueda respaldar hoy.
