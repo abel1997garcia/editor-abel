@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 3d4589e7-425f-4ade-ad39-5d4a51f78758
-  modified: 2026-10-09T18:49:31.053Z
+  modified: 2026-10-10T20:21:04.592Z
 ---
 
 Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una referencia de «Referencias reels» ([[referencias-virales]]).
@@ -33,6 +33,10 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 - `# Título` · `**Idea:**` · `## Hooks` (3) · `## Problema` (viñetas) · `## Solución` (1 viñeta);
 - `**Problema:**` en UNA frase corta y `**Solución:**` en UNA frase corta (Abel 10/10): que al verlo diga «hoy estoy inspirado, sé de qué problema hablar y qué solución dar» y lo cuente él con los hooks.
 - `## Cómo lo diría yo (empieza DESPUÉS del hook; dilo con tus palabras)`: un párrafo con SU voz según `mi-voz.md` ⭐.
+  - **✅ APROBADO Y «CLAVADO»** (Abel 10/10: «lo has clavado, lo entiendes, guárdalo en la memoria porque esto es muy importante»).
+  - **Modelo, el de las explicaciones:** «Cuando tú eras pequeño y decías lo que sentías o lo que necesitabas y nadie te escuchaba, aprendiste a callártelo, y ahora cada vez que tienes que pedir algo te pasa esto, “perdona que te moleste, es que no sé si te va bien, pero es que…”, y le das mil vueltas, y te sientes hasta culpable… y así te vas a pasar la vida entera pidiendo permiso hasta para existir. Así que lo que tú necesitas no le hace daño a nadie, y el día que te lo creas de verdad, vas a pedir las cosas sin pedir perdón.»
+  - **Recursos:** escena del día a día; su diálogo interno entre comillas; «te aseguro», «realmente»; la consecuencia extrema; y cierre con «Así que…» y la solución.
+- **HOOKS: pasar SIEMPRE el test de [[ganchos]]:** se entiende solo y dice de qué va, ataca a la persona contra la creencia popular y remueve con fuerza. Vale también para el hook 1 «original», que se reformula si no lo pasa (10/10).
 - **HOOKS COMPLEMENTARIOS, SIEMPRE** (Abel 10/10): el «cómo lo diría yo» NO repite ningún hook, ni el 1 ni el 2 ni el 3, ni su idea con otras palabras. Empieza justo después del hook y tiene que encajar detrás de CUALQUIERA de los 3. MAL: «Tu ansiedad no es el problema, y te aseguro que cuanto más intentas quitártela, más te come» (salían el hook 1 y el 2 seguidos).
 - NUNCA «¿vale?», «¿de acuerdo?» ni «¿Por qué digo esto? Porque…» (son como pedir permiso); se afirma directo.
 - **ANTES DE ENTREGAR, 2 PRUEBAS POR GUION** (Abel 10/10: «debe entenderse… ¿cumple con la connotación negativa?»):

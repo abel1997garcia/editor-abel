@@ -14,6 +14,20 @@ Lista viva de ganchos según Abel (la va completando él; apuntar cada veredicto
 
 **CONDICIÓN OBLIGATORIA (Abel 09/10/2026): el gancho va SIEMPRE DIRECTO A LA PERSONA.** Si es una afirmación directa que la toca («Las adicciones como tal no existen»), vale. Si es solo información sobre un tema («Las dinámicas sociales son…»), NO se pone, ni en publicar ni en trial ni en los guiones. **Siempre que se pueda, de TÚ a TÚ** («Te…», «Tú…», «Eres…», «Cuanto más intentas…»).
 
+**🔴 TEST DE CADA HOOK, LOS 3, TAMBIÉN EL 1 «ORIGINAL» (Abel 10/10/2026: «si no, va a pasar el vídeo y no lo va a ver»):**
+1. **Se entiende solo y dice DE QUÉ VA el reel.**
+   - MAL: «Si no notas nada en el cuerpo, no estás en paz, estás anestesiado» («puede ser perfectamente acupuntura»).
+   - MAL: «Si lo sientes en el pecho, es miedo» (es un dato, no ataca).
+2. **Ataca DIRECTAMENTE a la persona** (tú) y **va contra lo que cree la mayoría.**
+3. **Remueve con fuerza:** connotación negativa grande.
+El gancho original de una referencia se reformula si no pasa el test. BIEN (10/10):
+- «Ese nudo en el pecho no es estrés, es miedo, y llevas años tapándolo.»
+- «Crees que estás bien porque no sientes nada, y lo que estás es desconectado.»
+- «Controlar tus nervios es justo lo que te hace cagarla.»
+- «Quitarte la ansiedad a base de distraerte es justo lo que te tiene apagado.»
+- «Justificarte tanto no es ser educado, es miedo a que te dejen de querer.»
+- «Cada vez que pides perdón por pedir algo, le dices a todos que no vales.»
+
 **Hooks lo más DIRECTOS posible:** sin sujetos repetidos ni palabras que frenen («Tú no eres educado, tienes miedo…», no «…tú tienes miedo…»).
 
 **Qué hace bueno a un gancho:** frase directa que **rompe una creencia universal** y se entiende sola, sin nada delante. Impacta en la primera frase.
@@ -33,7 +47,7 @@ Cada uno le da la vuelta a una creencia popular, con la connotación negativa m�
 - «Los nervios no te hacen cagarla, te la hace cagar pelearte con ellos.» (corregido por coherencia: la emoción va primero)
 - «Tragarte la rabia para ser buena persona te está destrozando.» (creencia: la rabia es mala)
 - «Los celos no son amor, son miedo a que no te elijan.» (Abel: los celos son miedo)
-- «Si no notas nada en el cuerpo, no estás en paz, estás anestesiado.» (creencia: si no siento nada, estoy bien)
+- ~~«Si no notas nada en el cuerpo, no estás en paz, estás anestesiado.»~~ RECHAZADO 10/10: no se entiende de qué va ni remueve.
 - «Tu cabeza te miente, tu cuerpo no.»
 
 ## ❌ Malos (y por qué)
