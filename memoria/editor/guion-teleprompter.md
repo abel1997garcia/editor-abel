@@ -24,6 +24,22 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 
 **UNA IDEA = UN REEL.** Si la referencia es viral pero no cumple algo (no tiene colleja, mezcla ideas, no da solución…), se mira de qué va y se adapta hasta que cumpla la estructura.
 
+**🎙️ APRENDER SU VOZ DE VERDAD (Abel 10/10/2026: «pásame ejemplos de cómo hablaría yo, incluso un audio, transcríbelo y analiza tono y ritmo… si no, no nos vamos a aclarar»).**
+- Él manda audios o vídeos hablando a su manera (a GRABADOS en Drive, G:).
+- Yo los transcribo, los analizo con `estilo_voz.py` y el texto, y actualizo `FÁBRICA DE CONTENIDO/01_MI_MARCA/mi-voz/mi-voz.md`.
+- Los guiones se adaptan a ESA forma de hablar.
+
+**Primer análisis (10/10, 29 min de sus vídeos largos de emociones/energía, 5.780 palabras):**
+- 3,3 palabras/s contando las pausas.
+- Explica de forma didáctica y encadenada: «porque» ×83 (¡lo usa muchísimo!), «pero» ×46, «realmente» ×19, «cuando tú» ×18, «entonces» ×12, «al final» ×9, «es decir» ×7, «por tanto», «básicamente».
+- «tú» ×61. «o sea», «mira» y «fíjate» casi NO los usa en estos vídeos.
+- Frases suyas:
+  - «siempre lo he dicho y siempre lo voy a decir hasta la saciedad»;
+  - «no te vas a morir aunque parezca que te vayas a morir»;
+  - «tu niño interior o tu niña interior»;
+  - «la emoción es lo más importante de todo».
+- Ojo: quitar «porque» y conectores de los guiones escritos fue por petición suya, pero hablando SÍ los usa. Al imitar su voz, cuenta su habla real.
+
 **🟣 FORMATO VIGENTE DESDE EL 10/10/2026, MANDA SOBRE TODO LO DE ABAJO: YA NO SE ESCRIBE EL TEXTO, LO EXPLICA ÉL A SU MANERA.**
 Abel: «los guiones no suenan como yo hablaría… si tú los escribes nunca serán míos».
 El doc lleva SOLO:
