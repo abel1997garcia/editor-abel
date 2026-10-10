@@ -5,7 +5,7 @@
 - [Entorno skill animaciones](entorno-skill-animaciones.md) — instalación, fallos de Windows, fuentes y detección de caras
 - [Usar System Change](usar-system-change.md) — cambios permanentes a flujos/skills/reglas pasan antes por la skill system-change
 - [Marca y Fábrica de contenido](posicionamiento-abel.md) — su marca vive en FÁBRICA DE CONTENIDO (creencias, voz, afirmaciones): leer su plan PG antes de editar y actualizar su TABLERO al terminar
-- [Ganchos buenos y malos](ganchos.md) — lista viva con sus veredictos: leer antes de elegir un gancho
+- [Ganchos buenos y malos](ganchos.md) — lista viva con sus veredictos + 10 hooks APROBADOS (10/10) como modelo: leer antes de elegir un gancho
 - [Programar en YouTube](reels-marca-personal.md) — n8n + `herramientas/youtube/programar_youtube.py`: principal 16-18-20-22-00 h, trial 17-19-21 h; con su OK las primeras semanas (desde 09/10)
 - [Fotos y vídeos de su vida](fotos-vida-abel.md) — su línea de tiempo completa (de «Mi Historia») + FOTOS MIAS por época: leer antes de usar una foto o contar su historia, nunca mezclar épocas
 - [Estrategia 80/15/5 y FRASE CENTRAL](estrategia-contenido-80-15-5.md) — «Te enseño a sanar tus emociones para que dejen de sabotear tu propia vida» (todo apunta ahí); 80 % conexión (vídeos largos), 15 % nicho viral (referencias virales adaptadas), 5 % venta; sus dudas de avatar
@@ -15,5 +15,5 @@
 - [Métricas de Instagram](metricas-instagram.md) — n8n diario → Google Sheet «Métricas Instagram · Abel»; yo enriquezco filas e informe semanal
 - [Copia de seguridad](copia-seguridad.md) — GitHub editor-abel + actualizar_copia.py (--subir, --usb); nunca subir settings.json ni claves
 - [Referencias virales](referencias-virales.md) — la buena es la Sheet «Referencias reels» (él pega SOLO la URL; yo descargo con yt-dlp, transcribo y escribo guion adaptado); NUNCA crear hojas nuevas
-- [Guiones para teleprompter](guion-teleprompter.md) — referencias en INGLÉS: traducir el guion tal cual (sin presentaciones ni relleno), gancho intacto; si no, Idea + 3 hooks + Colleja + Solución; nunca mentoría
+- [Guiones para teleprompter](guion-teleprompter.md) — referencias en INGLÉS: traducir tal cual, barra de bar, solo comas (sin conectores ni muletillas), hooks contra creencia popular; SIN descripción ni hashtags; nunca mentoría
 - [Fichas de YouTube](fichas-youtube.md) — 3 vídeos/día (principal + energía sexual + documentación); UNA cosa concreta por vídeo (como el «yapping»), arranque pegado al tema, cada línea UNA frase

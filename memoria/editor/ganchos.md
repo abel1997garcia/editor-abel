@@ -21,6 +21,19 @@ Lista viva de ganchos según Abel (la va completando él; apuntar cada veredicto
 - «Hay muchas personas que quieren manifestar, pero no se fían ni una mierda de lo que sienten.»
 - «Te aseguro que en la vida no existe ninguna casualidad.»
 
+## ✅ Hooks APROBADOS en guiones de referencia (Abel 10/10/2026: «ahora son muy buenos»; el modelo a seguir)
+Cada uno le da la vuelta a una creencia popular, con la connotación negativa más grande, de tú a tú y sin sonar a IA:
+- «Cuanto más intentas quitarte la ansiedad, más te come.» (creencia: hay que quitarse la ansiedad)
+- «Llevas años tapando lo que sientes y luego te extraña estar apagado.»
+- «Tú no eres educado, tú tienes miedo a que te dejen de querer.» (creencia: explicarse mucho es ser educado)
+- «Cada vez que te justificas le estás diciendo a todo el mundo que no vales.»
+- «Intentar controlar lo que sientes es justo lo que te hace perder el control.» (creencia: hay que controlar las emociones)
+- «Los nervios no te hacen cagarla, te la hace cagar lo que piensas de ellos.»
+- «Tragarte la rabia para ser buena persona te está destrozando.» (creencia: la rabia es mala)
+- «Los celos no son tóxicos, te están diciendo lo que te da miedo pedir.»
+- «Si no notas nada en el cuerpo, no estás en paz, estás anestesiado.» (creencia: si no siento nada, estoy bien)
+- «Tu cabeza te miente, tu cuerpo no.»
+
 ## ❌ Malos (y por qué)
 - «Eres pobre aunque cobres el doble» (10/10/2026): no tiene sentido.
 - «Las dinámicas sociales son un reflejo de cómo tú estás…» (09/10/2026: «una mierda, ni para los trials»): no dice nada, no ataca ninguna creencia limitante y no tiene connotación negativa que remueva.
