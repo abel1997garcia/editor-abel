@@ -1,0 +1,24 @@
+{
+ "fuente": "fuente.mp4",
+ "tiempos": "tiempos.json",
+ "salida": "out",
+ "reels": {
+  "maestras_publicar": {
+   "formato": "F5",
+   "titulo": "Te enseñaron a tragarte lo que sientes",
+   "tramos": [
+    [
+     "tus emociones son tus maestras",
+     "no la tapes",
+     9.5
+    ],
+    [
+     "quédate con ella",
+     "qué te dice",
+     43
+    ]
+   ],
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3"
+  }
+ }
+}

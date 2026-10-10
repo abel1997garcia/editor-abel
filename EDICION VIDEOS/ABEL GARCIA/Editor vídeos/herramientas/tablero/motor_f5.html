@@ -27,8 +27,15 @@ TIT.innerHTML = TITULO.join('<br>');   // F5: siempre blanco con sombreado (Abel
 /* subtítulos: UNA línea de máximo 4 palabras; se corta antes en pausas, signos de puntuación o si la línea se hace larga */
 const BLOQUES = []; { let g = [];
   const cierra = () => { if (g.length) BLOQUES.push([g.map(p => p[0]).join(' ').replace(/^~/, ''), g[0][1]]); g = []; };
+  /* nunca acabar un bloque en una palabra que necesita la siguiente («tus | maestras», «no te | elijan») */
+  const ATA = new Set('a al de del el la las los lo le les un una unos unas tu tus mi mis su sus te me se nos que y o ni no en con por para sin muy tan más cuando como si es son ha has hay'.split(' '));
+  const ata = w => ATA.has(w.toLowerCase().replace(/[^a-záéíóúñü]/g, ''));
   PAL.forEach((p, i) => { g.push(p); const sig = PAL[i + 1], txt = g.map(x => x[0]).join(' ');
-    if (!sig || g.length >= 4 || /[.,;:!?…]$/.test(p[0]) || sig[1] - p[2] > .3 || (txt + ' ' + sig[0]).length > 24) cierra(); }); }
+    const fin = !sig || /[.,;:!?…]$/.test(p[0]) || sig[1] - p[2] > .3;
+    if (fin) return cierra();
+    if (g.length >= 4 || (txt + ' ' + sig[0]).length > 24) {
+      let k = g.length; while (k > 1 && ata(g[k - 1][0])) k--;            // las palabras «atadas» pasan al bloque siguiente
+      const resto = g.slice(k); g = g.slice(0, k); cierra(); g = resto; } }); cierra(); }
 let _ancho = {};
 function pintarSub(t) {
   const b = [...BLOQUES].reverse().find(x => x[1] <= t + .03); const txt = b ? b[0] : '';

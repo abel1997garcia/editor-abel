@@ -73,6 +73,14 @@ Los reels se sacan del **vídeo horizontal ya editado** ([[estilo-videos-largos-
   - **Título arriba TODO el reel:** crudo y polémico, que NO repita el hook obvio sino que lo COMPLEMENTE. Montserrat 800 a 66 px.
   - **Texto SIEMPRE BLANCO con sombreado fuerte** (título y subtítulos), sea cual sea el fondo (Abel: el negro sobre pared clara no; «así acertamos el 100 %»).
   - **Subtítulos:** UNA línea de máximo 3–4 palabras por frase. Se cortan en pausas, en signos o si pasan de unos 24 caracteres. Montserrat 700 a 62 px, en y = 1300, blancos con sombra.
+  - **Cómo trabajar un vídeo F5** (primera prueba: `MarcaPersonal/maestras/`, 10/10/2026):
+    1. Sus grabaciones están en Google Drive para ordenador (unidad **G:**): `G:/Mi unidad/FÁBRICA DE CONTENIDO/GRABADOS (sube aquí tus vídeos)/`. Copiar el vídeo a `MarcaPersonal/<tema>/fuente.mp4`.
+    2. Transcribir con faster-whisper con `word_timestamps` → `tiempos.json` (formato i/w/s/e).
+    3. `reels.json` con `"formato": "F5"`. Luego `--texto`, `--fotos 1` + `verificar_audio.py` + `estilo_voz.py --base`, y UN render.
+    - **Cómo graba:** dice los 3 hooks seguidos y luego empieza el cuerpo REPITIENDO el hook 1. Para publicar, usar ESA toma seguida (hook + cuerpo sin corte) en vez de pegar el hook del principio: suena natural y no queda repetido.
+    - Si repite una frase (retoma), quedarse con una sola.
+    - Whisper puede adelantar el inicio de una palabra tras una pausa (p. ej. «Cada»): mirarlo en el audio y corregirlo en `tiempos.json`.
+    - **Subtítulos:** un bloque NUNCA acaba en una palabra que necesita la siguiente («tus | maestras», «no te | elijan»); ya lo hace el motor.
   - **Trials:** él graba los 3 hooks y el cuerpo una vez. Mejor hook = publicar; los otros dos + el mismo cuerpo = trials.
 
 - **F1 · YAPPING 4:3** (su plantilla 2) — hecho, `herramientas/reel_yapping.py` (config por vídeo; ejemplo `VideosLargos/emociones-v3/reel_prueba.json`). Lienzo blanco 1080×1920; el horizontal recortado a 4:3 a todo el ancho (y 547–1357; en planos de cara centrado en él con acercamiento alterno 1,0/1,10, en animaciones el 4:3 central). Título encima (Montserrat ExtraBold 51 px reales, líneas a 61 px), subtítulos negros debajo (51 px, una línea de ≤ 3 palabras).
