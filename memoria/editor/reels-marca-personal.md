@@ -70,7 +70,8 @@ Los reels se sacan del **vídeo horizontal ya editado** ([[estilo-videos-largos-
   - **Edición igual que el F4:** cortes limpios sin silencios ni muletillas, que fluya, zooms suaves 1,00/1,08 en los cortes, 1,10x y música bajita.
   - **Visual:** él a pantalla completa, SIN imágenes, escenas ni efectos de sonido.
   - **APROBADO por Abel el 10/10/2026 («me gusta el formato»).**
-  - **Título arriba TODO el reel:** crudo y polémico, que NO repita el hook obvio sino que lo COMPLEMENTE. Montserrat 800 a 66 px.
+  - **Título arriba TODO el reel:** crudo y polémico, que NO repita el hook obvio sino que lo COMPLEMENTE. Montserrat 800 a 66 px, centrado en y = 315 (bajado el 10/10 para que no lo tape la barra de Instagram).
+  - **Zoom solo en UNO DE CADA DOS cortes** (10/10): al grabar frase a frase hay muchos cortes y un zoom en cada uno marea; los demás, corte limpio.
   - **Texto SIEMPRE BLANCO con sombreado fuerte** (título y subtítulos), sea cual sea el fondo (Abel: el negro sobre pared clara no; «así acertamos el 100 %»).
   - **Subtítulos:** UNA línea de máximo 3–4 palabras por frase. Se cortan en pausas, en signos o si pasan de unos 24 caracteres. Montserrat 700 a 62 px, en y = 1300, blancos con sombra.
   - **Cómo trabajar un vídeo F5** (primera prueba: `MarcaPersonal/maestras/`, 10/10/2026):
@@ -81,6 +82,9 @@ Los reels se sacan del **vídeo horizontal ya editado** ([[estilo-videos-largos-
     - Si repite una frase (retoma), quedarse con UNA toma ENTERA de la frase y cortar en el final de la frase anterior (hay respiración). NUNCA empalmar media frase de una toma con el resto de otra («no la tapes ‖ quédate…»): Abel notó «un corte raro» (10/10).
     - Whisper puede adelantar el inicio de una palabra tras una pausa (p. ej. «Cada»): mirarlo en el audio y corregirlo en `tiempos.json`.
     - **Subtítulos:** un bloque NUNCA acaba en una palabra que necesita la siguiente («tus | maestras», «no te | elijan»); ya lo hace el motor.
+  - **GRABA FRASE A FRASE** (Abel 10/10/2026, para que no se note que lee): lee una frase, mira a cámara y la dice, y a veces la repite.
+    - **VITAL al editar:** revisar CON QUÉ ENERGÍA dice cada frase y quedarse, en cada una, con la toma de mejor energía. Que transmita y no suene leída, y coherente con el tono del reel: comparar las tomas con `estilo_voz.py` (fuerza, entonación, ritmo) y escuchándolas.
+    - Siempre la frase ENTERA de una toma, cortando en la respiración.
   - **Trials:** él graba los 3 hooks y el cuerpo una vez. Mejor hook = publicar; los otros dos + el mismo cuerpo = trials.
 
 - **F1 · YAPPING 4:3** (su plantilla 2) — hecho, `herramientas/reel_yapping.py` (config por vídeo; ejemplo `VideosLargos/emociones-v3/reel_prueba.json`). Lienzo blanco 1080×1920; el horizontal recortado a 4:3 a todo el ancho (y 547–1357; en planos de cara centrado en él con acercamiento alterno 1,0/1,10, en animaciones el 4:3 central). Título encima (Montserrat ExtraBold 51 px reales, líneas a 61 px), subtítulos negros debajo (51 px, una línea de ≤ 3 palabras).

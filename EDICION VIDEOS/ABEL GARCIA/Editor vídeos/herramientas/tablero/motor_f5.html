@@ -45,7 +45,7 @@ function pintarSub(t) {
 window.cargarFoto = i => new Promise(res => { FOTO.onload = res; FOTO.onerror = res; FOTO.src = `frames/${String(i + 1).padStart(5, '0')}.jpg`; });
 window.pintar = t => {
   FOTO.style.transform = `scale(${zoomEn(t).toFixed(4)})`;
-  pon(TIT, 540, 270, 1, P(t, -.1, .3) * 3);
+  pon(TIT, 540, 315, 1, P(t, -.1, .3) * 3);   // más abajo: que la barra de Instagram nunca lo tape (Abel 10/10)
   pintarSub(t);
 };
 document.fonts.load('800 20px M').then(() => document.fonts.load('700 20px M')).then(async () => { await window.cargarFoto(0); window.pintar(0); document.title = 'listo'; });

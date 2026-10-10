@@ -163,10 +163,12 @@ def hacer(cfg, nombre, reel, W, PW, cara, modo):
     colores = colores_texto(tmp, reel.get('titulo_hasta', 6)) if f4 else {}
     acento = CENTROS.get(reel.get('acento', 'corona'), reel.get('acento', '#7A3FC4'))
     cx = 540 if f4 else cara[0] * fw / cara[1]
-    cortes, T, z = [], 0.0, 1.08                                      # F4: acercamiento alterno 1,00/1,08 en cada salto de contenido
+    cortes, T, z, nc = [], 0.0, 1.08, 0                                      # F4: acercamiento alterno 1,00/1,08 en cada salto de contenido
     for k, ((t0, t1, g), pd) in enumerate(zip(ps, pads)):
         if k == 0 or g[0] != ps[k - 1][2][-1] + 1 or T / VELOCIDAD - cortes[-1][0] >= 3:   # salto de contenido, o corte de silencio tras ≥ 3 s
-            z = 1.0 if z != 1.0 else 1.08; cortes.append([round(T / VELOCIDAD, 3), z, 0])
+            nc += 1
+            if k == 0 or not f5 or nc % 2 == 1:                       # F5: zoom solo en uno de cada dos cortes (Abel 10/10: frase a frase hay muchos cortes)
+                z = 1.0 if z != 1.0 else 1.08; cortes.append([round(T / VELOCIDAD, 3), z, 0])
         for i, j in zip(g, g[1:]):                                    # plano largo: acercamiento suave en una micropausa cada ~4,5 s
             tj = (T + W[j]['s'] - t0) / VELOCIDAD
             if W[j]['s'] - W[i]['e'] > .12 and tj - cortes[-1][0] >= 4.5 and (T + t1 - t0) / VELOCIDAD - tj > 1.5:
