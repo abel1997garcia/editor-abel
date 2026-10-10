@@ -33,6 +33,10 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 - `# Título` · `**Idea:**` · `## Hooks` (3) · `## Problema` (viñetas) · `## Solución` (1 viñeta);
 - `## Cómo lo diría yo (referencia, dilo con tus palabras)`: un párrafo con SU voz según `mi-voz.md` ⭐.
 - NUNCA «¿vale?», «¿de acuerdo?» ni «¿Por qué digo esto? Porque…» (son como pedir permiso); se afirma directo.
+- **ANTES DE ENTREGAR, 2 PRUEBAS POR GUION** (Abel 10/10: «debe entenderse… ¿cumple con la connotación negativa?»):
+  1. **¿Se entiende cada frase oída UNA vez, por cualquiera?** MAL: «no puedes tapar solo lo que te duele», «y no es lo mismo» (¿qué?), «te enseña una parte de ti». BIEN: «cuando tapas lo que te duele, no tapas solo eso, tapas también la alegría…».
+  2. **¿La connotación negativa llega a la CONSECUENCIA extrema y realista?** Qué le pasa si sigue así: «vas a vivir toda tu vida a medio gas», «la vas a cagar justo en los momentos que más te importan», «te lo vas tragando hasta que un día explotas por una tontería con quien menos se lo merece».
+  Entregarle la tabla con ✅/🟡/❌ por guion.
 - Los 5 de la hoja ya están así.
 
 **ANÁLISIS COMPLETO (10/10, 6 vídeos de YouTube que eligió él + 29 min de los de emociones) en `FÁBRICA DE CONTENIDO/01_MI_MARCA/mi-voz/mi-voz.md`, sección ⭐: LEERLO ANTES DE ESCRIBIR NADA CON SU VOZ.**
