@@ -10,7 +10,7 @@ reels.json:
   "salida": "carpeta",
   "reels": { "nombre": { "tramos": [["frase de inicio", "frase final", desde_s], ...],   en el orden en que se oyen
                          "quitar": [["frase", desde_s], ...],                             trocitos dentro de un tramo
-                         "titulo": "EN MAYÚSCULAS (≤ 7 palabras)", "acento": "corona" (centro del tema) o "#hex",
+                         "titulo": "en minúsculas con la primera en mayúscula (≤ 7 palabras)", "acento": "corona" (centro del tema) o "#hex",
                          "musica": "EMOCIONAL/tema.mp3", "desde": null (estribillo del catálogo),
                          "escenas": "c01.js",                                             gráficos del tablero
                          "modos": null | [[t, "tablero"|"grande"], ...],                  por defecto se alternan solos
@@ -28,7 +28,7 @@ from pathlib import Path
 import numpy as np
 AQUI = Path(__file__).resolve().parent
 sys.path[:0] = [str(AQUI), str(AQUI / 'pizarra')]
-from reel_yapping import planos, VELOCIDAD, MUSICA, MUSICA_IN, MUSICA_OUT, AIRE, MUSICA_DB, COLA_FINAL, FUNDIDO, rellenos, ajustar_finales, estribillo, voz_lufs, centro_cara
+from reel_yapping import frase, planos, VELOCIDAD, MUSICA, MUSICA_IN, MUSICA_OUT, AIRE, MUSICA_DB, COLA_FINAL, FUNDIDO, rellenos, ajustar_finales, estribillo, voz_lufs, centro_cara
 from ventanas import buscar
 
 TAB = AQUI / 'tablero'
@@ -72,8 +72,8 @@ def modos_auto(PAL, dur):
     return m
 
 
-def titulo2(titulo, mayus=True):
-    pal = (titulo.upper() if mayus else titulo).split()
+def titulo2(titulo):
+    pal = frase(titulo).split()
     if len(pal) < 4: return [' '.join(pal)]
     k = min(range(1, len(pal)), key=lambda i: abs(len(' '.join(pal[:i])) - len(' '.join(pal[i:]))))
     return [' '.join(pal[:k]), ' '.join(pal[k:])]
@@ -152,7 +152,7 @@ def hacer(cfg, nombre, reel, W, PW, cara, modo):
     f4 = reel.get('formato') in ('F4', 'F5')                         # F2 · imagen abajo / F4 y F5 · él a pantalla completa: sin alternar
     if f5: reel = {**reel, 'titulo_hasta': dur}                       # F5: el título se queda todo el reel
     modos = [[0, 'tablero']] if f2 or f4 else reel.get('modos') or modos_auto(PAL, dur)
-    print(f"\n== {nombre}: {dur:.1f} s a {VELOCIDAD}x · {len(ps)} planos · «{reel['titulo'].upper()}»")
+    print(f"\n== {nombre}: {dur:.1f} s a {VELOCIDAD}x · {len(ps)} planos · «{frase(reel['titulo'])}»")
     print(' | '.join(' '.join(W[i]['w'] for i in g) for _, _, g in ps))
     if dur < 50: print(f'  AVISO: dura {dur:.1f} s (mínimo 50–55 s)')
     sal = Path(cfg['salida']); tmp = sal / f'_{nombre}'; tmp.mkdir(parents=True, exist_ok=True)
@@ -189,7 +189,7 @@ def hacer(cfg, nombre, reel, W, PW, cara, modo):
                 z = 1.0 if z != 1.0 else 1.06; cortes.append([round(tj - .1, 3), z, 1])
         T += t1 - t0 + pd
     (tmp / 'datos.js').write_text(
-        f"const PAL = {json.dumps(PAL, ensure_ascii=False)};\nconst MODOS = {json.dumps(modos)};\nconst TITULO = {json.dumps(titulo2(reel['titulo'], not f4), ensure_ascii=False)};\n"
+        f"const PAL = {json.dumps(PAL, ensure_ascii=False)};\nconst MODOS = {json.dumps(modos)};\nconst TITULO = {json.dumps(titulo2(reel['titulo']), ensure_ascii=False)};\n"
         f"const ACENTO = '{acento}', FW = {fw}, FH = {fh}, FX = {cx:.1f}, DUR = {dur};\nconst COLORES = {json.dumps(colores)}, CORTES = {json.dumps(cortes)}, TITULO_HASTA = {reel.get('titulo_hasta', 6)}, APARTADOS = {json.dumps(reel.get('apartados', []), ensure_ascii=False)};\n", encoding='utf-8')
     shutil.copy(TAB / ('motor_f5.html' if f5 else 'motor_f4.html' if f4 else 'motor_f2.html' if f2 else 'motor.html'), tmp / 'motor.html'); shutil.copy(TAB / 'Montserrat-Variable.ttf', tmp)
     if reel.get('imagenes'):                                          # F2: las fotos (rutas relativas al reels.json)

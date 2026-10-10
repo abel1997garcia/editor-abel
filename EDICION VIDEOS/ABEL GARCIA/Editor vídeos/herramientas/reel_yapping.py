@@ -9,7 +9,7 @@ Se saca del vídeo horizontal YA EDITADO (con sus animaciones), recortado a 4:3:
 config.json:
 { "fuente": "vídeo horizontal editado (1920x1080)", "tiempos": "trabajo/tiempos.json (palabras en el tiempo del vídeo editado)",
   "montaje": "edicion/montaje.json del proyecto horizontal (qué tramos son animación)", "salida": "out",
-  "reels": { "nombre": { "tramos": [[i0, i1], ...], "quitar": [i, ...], "titulo": "EN MAYÚSCULAS",
+  "reels": { "nombre": { "tramos": [[i0, i1], ...], "quitar": [i, ...], "titulo": "en minúsculas, con la primera en mayúscula",
                          "musica": "EMOCIONAL/tema.mp3", "desde": null } } }
 tramos = índices de palabra en el orden en que se oyen; o por partes: "gancho", "cuerpo", "final" (se unen en ese orden).
 Variante: { "de": "reel_1", "gancho": [...], "titulo": "..." } hereda todo de reel_1 y cambia solo lo que trae.
@@ -140,6 +140,14 @@ def tam_ass(px):
     f = TTFont(FUENTE_TTF); o = f['OS/2']; return round(px * (o.usWinAscent + o.usWinDescent) / f['head'].unitsPerEm)
 
 
+def frase(titulo):
+    """Títulos de reel en minúscula con la primera en mayúscula (Abel, 11/10/2026: todos los formatos verticales).
+    Si llega todo en MAYÚSCULAS (configs antiguas) se pasa a minúsculas; si no, se respeta (nombres propios)."""
+    t = titulo.strip()
+    if t == t.upper(): t = t.lower()
+    return t[:1].upper() + t[1:]
+
+
 def ass(titulo, subs, ruta):
     cab = f"""[Script Info]
 ScriptType: v4.00+
@@ -159,7 +167,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     # el título se parte a mano y cada línea va en su sitio: así quedan tan pegadas como en la referencia
     from PIL import ImageFont
     f, lineas = ImageFont.truetype(str(FUENTE_TTF), TITULO_PX), ['']
-    for w in titulo.upper().split():
+    for w in frase(titulo).split():
         prueba = (lineas[-1] + ' ' + w).strip()
         if lineas[-1] and f.getlength(prueba) > TITULO_ANCHO: lineas.append(w)
         else: lineas[-1] = prueba
@@ -344,7 +352,7 @@ if __name__ == '__main__':
     cara = None if solo else centro_cara(cfg['fuente'])
     for nombre, reel in resolver(cfg['reels']).items():
         ps = planos(W, reel)
-        print(f"\n== {nombre}: {sum(b - a for a, b, _ in ps) / VELOCIDAD:.1f} s a {VELOCIDAD}x · {len(ps)} planos · «{reel['titulo'].upper()}»")
+        print(f"\n== {nombre}: {sum(b - a for a, b, _ in ps) / VELOCIDAD:.1f} s a {VELOCIDAD}x · {len(ps)} planos · «{frase(reel['titulo'])}»")
         print(' | '.join(' '.join(W[i]['w'] for i in g) for _, _, g in ps))
         for a in avisos(W, PW, reel): print('  AVISO:', a)
         if not solo: print('  ->', montar(cfg, nombre, reel, W, cara))
