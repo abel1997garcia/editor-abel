@@ -15,7 +15,7 @@ metadata:
 
 **Mi parte:** a partir de la transcripción, analizar (gancho, colleja, solución, por qué funciona) y escribir el GUION ADAPTADO:
 - con su estructura obligatoria y su voz;
-- apuntando a la frase central y a `A-QUIEN-LE-VENDO`;
+- apuntando al nicho y al avatar de `00-avatar-operativo.md` y `A-QUIEN-LE-VENDO`;
 - en un Google Doc enlazado en esa misma hoja.
 La referencia es esqueleto, no contenido.
 

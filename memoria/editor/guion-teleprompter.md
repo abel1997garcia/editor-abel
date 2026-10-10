@@ -12,7 +12,7 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 
 **1. La referencia la elige él por algo:** muchas visitas, un gancho que le llama la atención y el tema.
 - **Conservar lo que la hizo funcionar:** el gancho, la estructura y el ritmo. No copiarla al 100 %, adaptarla un poco a él.
-- **Adaptarla a lo que vende y a quién** ([[estrategia-contenido-80-15-5]], `00-avatar-operativo.md`): su cliente, funcional por fuera y saboteado por dentro, y su frase central.
+- **Adaptarla a lo que vende y a quién** ([[estrategia-contenido-80-15-5]], `00-avatar-operativo.md`): su nicho y su avatar (coaches, terapeutas, guías, reiki, médiums). Si el tema es de mentalidad o emociones, lleva **REMATE PARA EMPRENDEDORES**: una frase final que lo baja a su negocio, su contenido o su agenda.
 - **NO hace falta que encaje con una de las 200 descripciones.**
 - Nunca traducir literal: el contenido sale de sus creencias, su lente y su historia real ([[fotos-vida-abel]]). No contradecir sus afirmaciones públicas. Lo invisible, como experiencia vivida.
 
@@ -31,6 +31,7 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 
 **FORMATO FINAL DEL DOC (10/10/2026, Abel: «me suena a mí… todo lo demás top»):**
 - `# Título` · `**Idea:**` · `## Hooks` (3) · `## Problema` (viñetas) · `## Solución` (1 viñeta);
+- `**Remate para emprendedores:**` UNA frase que baja el tema a su negocio, su contenido o su agenda (nicho del 10/10/2026), y que también cierra el «cómo lo diría yo».
 - `**Problema:**` en UNA frase corta y `**Solución:**` en UNA frase corta (Abel 10/10): que al verlo diga «hoy estoy inspirado, sé de qué problema hablar y qué solución dar» y lo cuente él con los hooks.
 - `## Cómo lo diría yo (empieza DESPUÉS del hook; dilo con tus palabras)`: un párrafo con SU voz según `mi-voz.md` ⭐.
   - **✅ APROBADO Y «CLAVADO»** (Abel 10/10: «lo has clavado, lo entiendes, guárdalo en la memoria porque esto es muy importante»).

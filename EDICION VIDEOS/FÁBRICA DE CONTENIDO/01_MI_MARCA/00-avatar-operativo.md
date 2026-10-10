@@ -1,81 +1,77 @@
 # 00 · Avatar operativo: qué vendo y a quién (una página)
 
-> Síntesis del 09/10/2026 hecha a partir de los documentos 01-05 de esta carpeta, que siguen siendo el detalle. Esta página es la que manda para decidir cada reel, guion y extracto. Pendiente de cerrar con Abel lo marcado con ⚠️.
+> Nicho definitivo de Abel (10/10/2026). **Esta página manda para cada reel, guion, ficha, extracto, bio y CTA.** Los documentos 01-05 de esta carpeta son del enfoque anterior: sirven de detalle sobre su historia, su voz y sus creencias, pero no deciden el avatar.
 
-## La frase
-**«Te enseño a sanar tus emociones para que dejen de sabotear tu propia vida.»**
-- **Enemigo común:** las emociones sin sanar (lo que viviste de pequeño y nunca procesaste) deciden por ti.
-- **Mecanismo, lo que solo explica Abel:**
-  - las emociones van antes que los pensamientos y los generan;
-  - conectan con el niño interior, que es quien manifiesta;
-  - cuanto más dolor, más vives en la cabeza para no sentir, y desde ahí decides mal y te saboteas.
+## El nicho
+**«Si emprendes, te enseño a llenar tu agenda con tu marca personal. Sin perseguir clientes ni perder tu autenticidad.»**
 
-## Qué vendo (Abel, 09/10/2026)
-**MENTORÍA 1:1.** Es lo único que vende ahora. La grupal (Club Unidad) llega cuando ya no le quede tiempo para más 1:1.
-- **Qué compra la persona: la transformación** de la frase.
-  - Sanar las emociones que la sabotean.
-  - Dejar de repetir la misma historia.
-  - Vivir y construir desde sí misma.
-- **Además, dentro de la mentoría:** Abel la ayuda a **crear el servicio o proyecto que quiere**, «para lo que quieran hacer». Su experiencia con YouTube, los negocios y el contenido es parte del valor.
-- **La prueba es el propio Abel.**
-  - Lo tuvo todo (17.000 €/mes, 100K) y estaba roto.
-  - Lo perdió todo a los 26.
-  - Australia.
-  - Sanó y hoy construye desde otro sitio.
-- **Descripciones de a quién se le vende:** `A-QUIEN-LE-VENDO.pdf` (200, por situación). Sirven para elegir el ángulo de cada pieza.
-- **Formato (09/10/2026):** 997 € por 3 meses. Una llamada por semana y soporte claro entre llamadas: Abel está con la persona al 100 % hasta conseguir el resultado.
-- **RESULTADO (cerrado con Abel el 09/10/2026):** «En 3 meses entenderás qué te sabotea y de dónde viene, tendrás tu forma de sanarlo, y lo habrás aplicado en tu vida conmigo al lado hasta ver el cambio fuera, no solo dentro.»
-  1. **Autoconocimiento:** su mapa, con sus 2 o 3 patrones de sabotaje, la emoción que los dispara y de qué parte de su historia viene cada uno. Incluye entender cómo funcionan la energía y las emociones al manifestar.
-  2. **Su método para sanarlo solo:** niño interior, silencio, ayuno… lo que le sirva para no anestesiar la emoción.
-  3. **APLICACIÓN acompañada:** en la 1.ª llamada se elige UN cambio concreto que quiere ver fuera (dejar de recaer en X, dejar de mendigar atención, tomar la decisión aplazada, lanzar su proyecto). Cada semana aplica algo real y se revisa, con soporte cuando cae. «La gente paga por aplicación, no por información»: por eso vale 997 €.
-- **El CÓMO (lo que le diferencia):**
-  - su **nivel de verdad / intuición** para ver lo que hay debajo de lo que la persona cuenta («la transformación depende de los campos de verdad a los que se expone»);
-  - lo ha vivido;
-  - acompañamiento 1:1 al 100 %, con soporte.
-- **Sin garantizar resultados:** se promete acompañar hasta conseguirlo. Es mentoría, no terapia.
-- Abel también ha visto que parte de vender es estar convencido de lo que vale su servicio.
+## A quién (por situación, no por edad ni sexo)
+Coaches, terapeutas (espirituales y no), guías, gente de reiki, médiums, sanadores, profesores de yoga o meditación… Tienen talento y un servicio que ya existe, pero:
+- la agenda medio vacía o dependen del boca a boca;
+- pocos seguidores; les cuestan las redes; no saben hacer vídeos ni qué decir;
+- creencias que les frenan: vergüenza a venderse, culpa por cobrar, impostor, miedo a exponerse, «lo espiritual no se vende»;
+- o al revés: solo miran el dinero y se olvidan de su mensaje, su verdad y su intención (venden desde el ego o la escasez).
 
-## A quién (segmento por SITUACIÓN, no por edad)
-Personas **funcionales por fuera y saboteadas por dentro**:
-- tienen ambición y saben lo que tendrían que hacer, **pero vuelven a caer en lo mismo**;
-- ya han probado **disciplina, cursos, desarrollo personal, terapia o meditación sin llegar a la raíz**.
+## Qué vendo
+**Mentoría 1:1 · 997 € · 3 meses · 1 llamada por semana + soporte.** De momento no se promete un resultado con cifras.
+1. **Su mensaje y su verdad:** qué le hace único y desde qué intención ayuda.
+2. **Contenido que vende:** ganchos, qué grabar, contar su historia, perder el miedo a la cámara, constancia.
+3. **Captar sin perseguir:** que le escriban a él, conversaciones por DM, eventos.
+4. **Lo de dentro:** los miedos y creencias que le sabotean la agenda (vergüenza, culpa, impostor, escasez, ego).
 
-**Le habla a CUALQUIER PERSONA (cerrado con Abel el 09/10/2026):** «todas las personas tienen emociones, ahí está la clave». El «megaavatar» de los documentos es un hombre joven-adulto (su yo del pasado), pero el contenido no excluye a nadie por sexo ni por edad.
+**La prueba:**
+- Abel: 100K seguidores y 17.000 €/mes con contenido; lo perdió todo a los 26 y se reconstruyó desde dentro.
+- **Allan García, médium:** Abel le lleva las redes, la marca personal y le aconseja con los eventos («un completo al 100 %», y está muy contento).
 
-## Sus 5 dolores (con la frase que se dice a solas → gancho)
-1. **Se sabotea aunque sabe lo que tiene que hacer:** «Mañana empiezo». «No me fío de mi propia palabra». (Porno, móvil, comida, fiesta, apuestas.)
-2. **Lo consigue y sigue vacío o con miedo a perderlo:** «Cuando tenga X por fin estaré bien». «¿Y si lo pierdo?».
-3. **Depende de que le elijan:** «Me va a dejar». «Prefiero callarme a que se vaya».
-4. **Se compara y se siente menos:** «Otros pueden; yo no». «Hay gente que tiene algo que yo no tengo».
-5. **Siente que desperdicia su vida:** «Podría ser mucho más, pero no sé qué coño me frena».
+**Por qué este nicho** (sus mentores): «ayudar a vender se cobra más fácil que ayudar a sanar». El resultado se mide, el cliente ya tiene negocio, paga más y duda menos.
+**Qué le diferencia de un experto en marketing:** habla su idioma (energía, intención, sensibilidad) y trabaja lo de dentro.
 
-## Lo que ya ha probado y por qué no le funcionó (→ LA COLLEJA)
-- Fuerza de voluntad, más hábitos, retención, gimnasio, productividad.
-- Cursos y libros de desarrollo personal, terapia «de cabeza».
-- Meditar, manifestar, pensar en positivo.
-- Cambiar de pareja, de trabajo o de ciudad.
+## Sus dolores (la frase que se dice a solas, que sirve de gancho)
+1. «Tengo un don y la agenda vacía.»
+2. «Me da vergüenza venderme, no quiero parecer un vendedor.»
+3. «No sé qué publicar, me bloqueo delante de la cámara.»
+4. «Publico y no me escribe nadie.»
+5. «Me siento mal cobrando por ayudar.»
+6. «Otros con menos talento tienen más clientes que yo.»
 
-**Por qué no:** todo eso trata el **síntoma**. La emoción vieja sigue ahí y vuelve a decidir por él. Por eso repite la misma historia con otra cara.
+## La colleja (lo que hace mal y lo que le cuesta)
+- Publica frases bonitas con un atardecer y nadie le escribe.
+- Persigue clientes por DM, regala sesiones y baja precios.
+- Copia a otros y pierde su autenticidad, o vende desde el ego y la escasez.
+- Hace otro curso más porque «todavía no está preparado».
+- Cree que lo espiritual y vender no van juntos.
 
-## Lo que quiere de verdad (→ el beneficio de la solución)
-**Una vida grande por fuera y sólida por dentro:**
-- dinero sin ansiedad;
-- pareja sin miedo a que se vaya;
-- ambición sin tener que demostrar;
-- decir lo que piensa sin perder a nadie;
-- paz.
-«No tengo que demostrar nada. Estoy construyendo esta vida porque realmente la quiero».
+**Por qué no le funciona:** pone más técnicas y más cursos encima del síntoma, y no mira el miedo que hay debajo ni su mensaje.
 
-## Sus objeciones (→ contenido que las rompe)
-- «A mí no me va a funcionar». «Yo soy así».
-- «Primero tengo que arreglar el dinero / la pareja; mis emociones no son el problema».
-- «No puedo controlar lo que siento».
-- «Lo de la energía me suena a magufo» (pero lleva años notando cosas que no sabe explicar).
-- «Es fácil decirlo cuando ya tienes dinero».
-- «Necesito encontrar el método o el mentor correcto».
+## Lo que quiere
+Agenda llena con clientes que le escriben porque conectan con su mensaje; cobrar lo que vale sin culpa; vivir de su don siendo él mismo en redes.
+
+## Sus objeciones
+- «Las redes no son para mí, soy muy introvertido.»
+- «Lo espiritual no se debería vender.»
+- «No tengo tiempo para hacer contenido.»
+- «Ya lo probé y no funcionó.»
+- «Primero necesito más seguidores.»
+- «Mi caso es diferente.»
+
+## Contenido: qué entra y cómo se filtra
+**Todo junto, en tres pilares:**
+- marca personal y contenido que vende (lo práctico);
+- mentalidad del que ayuda a otros (miedos, ego, intención, cobrar);
+- desarrollo personal y emociones (lo de siempre), **con remate para emprendedores**: una frase final que lo baja a su negocio, su contenido o su agenda.
+
+**Filtro de cada pieza** (además de la estructura de siempre: gancho → colleja → solución, sin CTA, bajado a tierra):
+1. ¿Le habla a quien emprende ayudando a otros, o se puede rematar hacia su negocio?
+2. ¿El dolor es concreto (agenda, clientes, contenido, cobrar)?
+3. ¿Lleva su sello (autenticidad, verdad, intención, emociones), y no trucos vacíos?
+
+**Héroe Viaje** (energía sexual) sigue como canal aparte. El puente, cuando encaje: la energía, el enfoque y la disciplina para crear y sostener tu proyecto.
+
+## Bio (propuesta)
+1. Si emprendes, te enseño a llenar tu agenda con tu marca personal.
+2. Sin perseguir clientes ni perder tu autenticidad.
 
 ## Cómo se le habla
-- **Tono:** presencia + confrontación. «Yo estuve ahí» + «hay algo que todavía no estás viendo».
-- **Estructura de cada reel:** gancho de dolor → colleja al extremo → solución con su ejemplo y beneficio. Sin CTA.
-- **Lo invisible** siempre aterrizado al lunes a las 9 y contado como experiencia vivida, nunca como ciencia.
-- **Qué NO es:** ni gurú que flota, ni antimaterialista, ni años de terapia.
+- Presencia y confrontación, de tú a tú y de la calle (ver `mi-voz/mi-voz.md`).
+- Lo invisible siempre aterrizado.
+- Ni gurú que flota ni marketer frío.

@@ -1,237 +1,237 @@
 # A quién le vendo · Abel García
 
-**Frase central:** Te enseño a sanar tus emociones para que dejen de sabotear tu propia vida.
+**Nicho:** Si emprendes, te enseño a llenar tu agenda con tu marca personal. Sin perseguir clientes ni perder tu autenticidad.
 
-**Qué vendo:** mentoría 1:1. Es la transformación de la frase y, dentro, ayudar a crear el servicio o proyecto que la persona quiere.
+**Qué vendo:** mentoría 1:1 (997 € · 3 meses) para coaches, terapeutas, guías, gente de reiki y médiums: su mensaje, contenido que vende, captar sin perseguir y lo de dentro que les sabotea la agenda.
 
-**Cómo usar este documento:** cada descripción es un ángulo de contenido. El gancho nombra su situación; la colleja, lo que hace mal y lo que le cuesta; la solución, sanar la emoción que hay debajo, con el ejemplo de Abel. Sin CTA.
+**Cómo usar este documento:** cada descripción es un ángulo de contenido. El gancho nombra su situación; la colleja, lo que hace mal y lo que le cuesta; la solución, su mensaje y lo de dentro, con el ejemplo de Abel o de Allan. Sin CTA.
 
-## 1 · Saben lo que tienen que hacer y se sabotean igual
+## 1 · Tienen un don y la agenda medio vacía
 
-1. Personas que se prometen cada domingo que el lunes empiezan, y el miércoles ya han vuelto a lo mismo sin entender por qué.
-2. Personas que llevan meses intentando dejar el porno y recaen justo cuando peor se sienten, y luego se machacan como si fueran débiles.
-3. Personas que cogen el móvil «cinco minutos» antes de dormir y a la una de la mañana siguen haciendo scroll con un vacío que no saben nombrar.
-4. Personas que abren la nevera a las once de la noche sin hambre, porque comer es lo único que les calma algo que no quieren mirar.
-5. Personas que dejan un vicio y a las dos semanas lo han cambiado por otro, porque lo que había debajo sigue intacto.
-6. Personas que apuestan «solo un poco» para sentir algo, y luego esconden lo que han perdido a quien tienen al lado.
-7. Personas que salen de fiesta para desconectar y se pasan el domingo con una resaca que ya no es solo física.
-8. Personas que tienen la lista perfecta de hábitos en el móvil y no cumplen ni la mitad, y cada fallo les confirma que no pueden fiarse de sí mismas.
-9. Personas que confunden disciplina con apretar los dientes, y por eso cada racha buena termina en un atracón de lo que se estaban prohibiendo.
-10. Personas que se pasan el día con una serie de fondo para no quedarse a solas con lo que piensan.
-11. Personas que fuman «porque les relaja» y nunca se han preguntado qué es exactamente lo que necesitan relajar.
-12. Personas que juegan horas a la consola para no pensar, igual que hacían de niños cuando en casa las cosas iban mal.
-13. Personas que llevan años diciendo «yo soy así» para no tener que mirar de dónde viene lo que hacen.
-14. Personas que se esconden cuando pierden el control, y esa vergüenza les pesa más que el propio descontrol.
-15. Personas que creen que su problema es la falta de fuerza de voluntad, cuando es una emoción pidiendo salida por el único canal que le dejan abierto.
-16. Personas que empiezan con todo un proyecto, un gimnasio o una dieta, y lo abandonan en cuanto deja de dar resultados rápidos.
-17. Personas que han dejado de confiar en su propia palabra porque llevan años rompiéndola en silencio.
-18. Personas que se tumban en la cama sin poder levantarse, no por pereza, sino por algo que llevan cargando mucho tiempo.
-19. Personas que se llenan la agenda de cosas para no tener ni un minuto de silencio con ellas mismas.
-20. Personas que se juran «esta es la última vez» tantas veces que ya ni ellas mismas se lo creen.
+1. Terapeutas que cambian la vida de cada persona que pasa por su consulta y aun así tienen huecos en la agenda toda la semana.
+2. Coaches que tienen una certificación detrás de otra y siguen sin un solo cliente que no venga de un amigo.
+3. Gente de reiki que da sesiones increíbles y vive con miedo a final de mes porque nunca sabe cuántas personas vendrán.
+4. Médiums con un don que impresiona a cualquiera, que siguen atendiendo solo a conocidos de conocidos.
+5. Profesores de yoga que llenan una clase en verano y la ven medio vacía en cuanto llega septiembre.
+6. Terapeutas que dependen del boca a boca y se quedan sin clientes en cuanto alguien deja de recomendarlas.
+7. Guías que saben que podrían ayudar a cientos de personas y se conforman con cinco porque no saben llegar a más.
+8. Coaches que compaginan su don con un trabajo que odian porque con sus sesiones no les da para vivir.
+9. Sanadores que dicen «lo que tenga que llegar, llegará» mientras pasan los meses sin que llegue nadie.
+10. Terapeutas que tienen la consulta perfecta, la camilla y la web, y nadie que entre por la puerta.
+11. Profesionales del bienestar que han invertido miles de euros en formarse y no han recuperado ni la mitad.
+12. Personas que dejaron su trabajo para dedicarse a ayudar y ahora se plantean volver porque no llegan a fin de mes.
+13. Terapeutas que hacen un trabajo mejor que la mitad de los que se anuncian y tienen la mitad de clientes.
+14. Gente con un don que lo esconde de lunes a viernes detrás de un trabajo de oficina.
+15. Terapeutas que cada mes empiezan de cero porque no tienen nada que haga que los clientes lleguen solos.
+16. Facilitadores de retiros que ponen fecha, lo preparan todo y cancelan porque se han apuntado tres personas.
+17. Coaches que miran su agenda los domingos por la noche con un nudo en el estómago.
+18. Tarotistas y médiums que cobran por debajo de lo que valen porque piensan que si suben no vendrá nadie.
+19. Personas con un talento real que empiezan a dudar de si sirven para esto solo porque no les llegan clientes.
+20. Coaches que tienen una lista de espera en la cabeza y un calendario real lleno de huecos.
 
-## 2 · Pareja y dependencia emocional
+## 2 · Les da vergüenza venderse (y lo llaman humildad)
 
-21. Personas que revisan el WhatsApp cada cinco minutos para ver si la otra persona está en línea y no les ha contestado.
-22. Personas que acaban siempre con el mismo tipo de pareja, con otra cara, y se preguntan por qué les pasa siempre a ellas.
-23. Personas que se callan lo que piensan en la relación para que la otra persona no se vaya, y poco a poco dejan de saber quiénes son.
-24. Personas que no soportan estar solas un fin de semana y saltan de una relación a otra para no sentir el vacío.
-25. Personas que sienten que valen algo solo cuando alguien las elige.
-26. Personas que se ponen celosas por cualquier cosa y luego se avergüenzan de cómo han reaccionado.
-27. Personas que siguen en una relación que les apaga porque les da más miedo quedarse solas que seguir infelices.
-28. Personas que lo dan todo en pareja, ceden en todo, y luego se sienten utilizadas sin entender por qué.
-29. Personas que vuelven una y otra vez con la misma ex o el mismo ex aunque saben que les hace daño.
-30. Personas que miran el perfil de su ex a escondidas meses después y se hunden cada vez que lo hacen.
-31. Personas que necesitan que su pareja les confirme todo el tiempo que les quiere, y nunca es suficiente.
-32. Personas que confunden intensidad con amor y llaman «química» a lo que en realidad es su herida reconociendo otra herida.
-33. Personas que sienten que el rechazo de alguien habla de lo que valen, y se pasan semanas dándole vueltas.
-34. Personas que eligen parejas que no están disponibles y luego se pasan la relación intentando ganarse su amor.
-35. Personas que se anestesian con relaciones rápidas para no tener que estar con lo que sienten.
-36. Personas que no saben poner un límite a su pareja sin sentirse culpables o malas personas.
-37. Personas que han convertido a su pareja en su única fuente de seguridad, y viven con miedo constante a perderla.
-38. Personas que dicen que quieren una relación sana y siguen eligiendo desde la carencia.
-39. Personas que no han superado una ruptura de hace años y siguen comparando a todo el mundo con esa persona.
-40. Personas que sienten que si se muestran como son de verdad, nadie se quedaría.
+21. Coaches que dicen «no me gusta venderme» y lo llaman humildad, cuando lo que hay es miedo a que les digan que no.
+22. Terapeutas que nunca dicen en sus redes que tienen hueco por miedo a parecer desesperadas.
+23. Gente de reiki que siente que hablar de precio ensucia lo que hace.
+24. Médiums que no ponen en su perfil que dan sesiones porque les da apuro que lo vea su familia.
+25. Guías que, cuando alguien les pregunta a qué se dedican, lo explican tan por encima que nadie se entera.
+26. Terapeutas que hablan de todo en sus redes menos de cómo pueden ayudarte.
+27. Coaches que borran una historia vendiendo su servicio a los diez minutos de subirla.
+28. Personas que esperan a que el cliente les pida trabajar juntos porque ellas no se atreven a ofrecerlo.
+29. Terapeutas que sienten que si venden pierden su espiritualidad.
+30. Profesionales que tienen una conversación preciosa por DM y nunca llegan a decir «¿quieres que trabajemos juntos?».
+31. Coaches que se esconden detrás de un logo porque les da vergüenza que se les vea la cara.
+32. Personas que no hablan de sus resultados porque les parece presumir.
+33. Terapeutas que confunden vender con manipular, y por eso no venden nada.
+34. Sanadores que creen que el universo les mandará clientes sin tener que decir que existen.
+35. Coaches que tienen un testimonio brutal guardado en el móvil y nunca lo enseñan.
+36. Personas que en persona convencen a cualquiera y delante de la cámara no saben ni presentarse.
+37. Terapeutas a las que les tiembla la voz cuando dicen su precio.
+38. Guías espirituales que piensan que quien vende es un interesado y no quieren parecerse a él.
+39. Coaches que hacen un directo al año y lo viven como si saltaran de un avión.
+40. Personas que dicen «ya me encontrarán» y llevan dos años sin que las encuentre nadie.
 
-## 3 · Lo consiguen y siguen vacías (dinero, éxito, estatus)
+## 3 · No saben qué publicar ni cómo grabarse
 
-41. Personas que ganan buen dinero y siguen sintiendo que no es suficiente, y no saben por qué.
-42. Personas que consiguen una meta, lo celebran un fin de semana y el lunes vuelven a sentir el mismo vacío.
-43. Personas que miran sus métricas, su cuenta o sus resultados de forma compulsiva por miedo a perder lo que tienen.
-44. Personas que compran cosas para sentirse mejor y al día siguiente ya no sienten nada.
-45. Personas que usan su éxito para demostrar a su familia o a su padre que valen, y nunca llega el día en que se lo reconocen.
-46. Personas que creen que «cuando tenga X por fin estaré tranquilas», y llevan años moviendo la meta.
-47. Personas que lo tienen todo por fuera, casa, coche, pareja, trabajo, y por dentro se sienten rotas sin saber explicarlo.
-48. Personas que se han convertido en un robot de productividad y ya no saben disfrutar de nada.
-49. Personas que confunden la calma de cobrar a fin de mes con estar en paz.
-50. Personas que tienen éxito profesional y una vida personal que se les cae a trozos.
-51. Personas que han basado toda su identidad en lo que tienen, y les aterra perderlo porque sentirían que no son nadie.
-52. Personas que presumen de resultados en redes para recibir una validación que dura dos horas.
-53. Personas que trabajan sin parar para no tener tiempo de sentir lo que les pasa.
-54. Personas que creen que el dinero les dará la seguridad que no tuvieron de pequeñas.
-55. Personas que se sienten culpables cuando descansan y lo llaman disciplina.
-56. Personas que han perdido dinero, negocio o trabajo y sienten que con eso han perdido también quiénes son.
-57. Personas que llegaron arriba y descubrieron que el vacío había subido con ellas.
-58. Personas que no se permiten disfrutar de lo que tienen porque siempre falta algo más.
-59. Personas que desconfían de todo lo espiritual porque «no paga facturas», y por eso nunca han mirado lo que les vacía.
-60. Personas que eligieron entre ser ambiciosas o estar en paz, y no están consiguiendo ninguna de las dos.
+41. Coaches que abren Instagram, miran la pantalla en blanco y lo cierran sin publicar nada.
+42. Terapeutas que graban un vídeo diez veces y no suben ninguno porque no se gustan.
+43. Gente de reiki que publica una vez al mes cuando le viene la inspiración y desaparece el resto.
+44. Médiums que no saben explicar lo que hacen sin sonar raros.
+45. Guías que publican frases de otros porque no saben qué decir con sus propias palabras.
+46. Coaches que se pasan la tarde viendo tutoriales de edición en vez de grabar.
+47. Terapeutas que creen que necesitan una cámara y una luz profesional para empezar.
+48. Personas que tienen cien ideas en las notas del móvil y ninguna grabada.
+49. Coaches que se bloquean delante de la cámara y hablan como si leyeran un informe.
+50. Terapeutas que hacen vídeos de diez minutos explicando teoría que nadie termina de ver.
+51. Profesores de yoga que solo suben fotos de posturas y no cuentan nada de ellos.
+52. Coaches que copian los bailes y trucos de moda y no les pega nada con lo que hacen.
+53. Terapeutas que empiezan todos sus vídeos con «hola, hoy os quiero hablar de» y pierden a la gente en el primer segundo.
+54. Personas que piensan que no tienen nada interesante que contar.
+55. Guías que publican todos los días sin saber para qué y se queman en un mes.
+56. Coaches que no saben qué decir sin dar los mismos consejos que ya ha dado todo el mundo.
+57. Terapeutas que esperan a tenerlo todo perfecto para empezar, y nunca está perfecto.
+58. Sanadores que dejan las redes porque «no es lo suyo» sin haberlo intentado de verdad.
+59. Coaches que no saben contar su historia sin sentir que dan pena.
+60. Personas que ven a otros grabarse con naturalidad y piensan que ellas nunca podrán.
 
-## 4 · Comparación e insuficiencia
+## 4 · Publican y no les escribe nadie
 
-61. Personas que entran en Instagram y salen sintiéndose peor con su vida, su cuerpo y su dinero.
-62. Personas que se comparan con gente que parece «de otra raza» y esa comparación es justo lo que las mantiene lejos.
-63. Personas que llaman suerte al éxito de otros para no tener que mirar por qué ellas no se mueven.
-64. Personas que en el fondo sienten que no son suficientes, hagan lo que hagan.
-65. Personas que se adaptan tanto para caer bien que ya no saben cómo son cuando no intentan agradar.
-66. Personas que critican a quien tiene éxito porque su éxito les hace sentir menos.
-67. Personas que no se atreven a subir contenido, cantar o emprender por miedo a lo que dirán.
-68. Personas que se sienten un fraude aunque los demás las vean seguras.
-69. Personas que parecen extrovertidas y por dentro viven con miedo a que las descubran.
-70. Personas que siempre sienten que van tarde en la vida respecto a los demás.
-71. Personas que se miran al espejo y solo ven lo que les falta.
-72. Personas que necesitan que alguien les diga que lo están haciendo bien para poder creérselo.
-73. Personas que nunca celebran lo que consiguen porque siempre podría haber sido mejor.
-74. Personas que se exigen tanto que acaban dejando lo que antes amaban, como le pasó a Abel con el fútbol.
-75. Personas que se toman cualquier crítica como un ataque a su valor como persona.
-76. Personas que no piden ayuda porque creen que eso demuestra que no valen.
-77. Personas que viven pendientes de los likes y de cuánta gente las ve.
-78. Personas que creen que si no nacieron con carisma ya no hay nada que hacer.
-79. Personas que se sienten raras o incomprendidas desde pequeñas y han aprendido a esconderlo.
-80. Personas que se tragan lo que sienten para no ser una carga para nadie.
+61. Terapeutas que publican frases bonitas con un atardecer de fondo y luego se preguntan por qué nadie les escribe.
+62. Coaches que tienen mil seguidores y ni un mensaje privado en meses.
+63. Gente de reiki que recibe muchos «qué bonito» en los comentarios y ningún cliente.
+64. Médiums que hacen contenido que entretiene pero que no hace que nadie quiera trabajar con ellos.
+65. Guías que hablan de su método y no del problema que tiene la persona que les ve.
+66. Coaches obsesionados con los seguidores que no se dan cuenta de que lo que necesitan son conversaciones.
+67. Terapeutas que publican para otros terapeutas en vez de para quien las puede contratar.
+68. Personas que hacen contenido educativo impecable en el que nadie siente que le hablan a él.
+69. Coaches que tienen visualizaciones pero nadie que les pregunte cómo trabajar juntos.
+70. Terapeutas que nunca dicen en un vídeo a quién ayudan exactamente.
+71. Profesionales que hablan con palabras técnicas que su cliente no entiende.
+72. Sanadores que hablan de vibración y frecuencia a gente que solo quiere dormir bien.
+73. Coaches que publican lo mismo que otros cien coaches y no hay nada que los diferencie.
+74. Terapeutas que contestan los mensajes tarde y mal porque no saben qué decir cuando les escriben.
+75. Personas que hacen un vídeo viral y no consiguen ni un cliente porque no le hablaba a nadie en concreto.
+76. Guías que no enseñan nunca historias de personas a las que han ayudado.
+77. Coaches que publican en cinco redes a la vez y no destacan en ninguna.
+78. Terapeutas que tienen una bio que no dice ni a qué se dedican.
+79. Personas que culpan al algoritmo de lo que en realidad es un mensaje que no conecta.
+80. Coaches que creen que el problema es cuánto publican cuando el problema es lo que publican.
 
-## 5 · Viven en piloto automático (trabajo, propósito)
+## 5 · Persiguen clientes y regalan su trabajo
 
-81. Personas que odian cinco días de cada siete y lo llaman tener una vida estable.
-82. Personas que viven esperando el viernes, las vacaciones o la jubilación para empezar a vivir.
-83. Personas que se sientan en la oficina, como Abel en su primer trabajo, y sienten un vacío tan grande que no saben qué hacen allí.
-84. Personas que sienten que han venido a hacer algo grande y les aterra estar desperdiciando su vida.
-85. Personas que llevan años diciendo que algún día dejarán ese trabajo y siguen exactamente igual.
-86. Personas que no saben cuál es su propósito y en el fondo temen no tener ninguno.
-87. Personas que eligieron carrera por lo que se esperaba de ellas y no por lo que sentían.
-88. Personas que tienen miedo de dejar lo seguro aunque lo seguro las esté apagando.
-89. Personas que se levantan cansadas todos los días y lo achacan al trabajo, sin mirar qué llevan dentro.
-90. Personas que sienten que su vida es una repetición del mismo día.
-91. Personas que tienen ideas para emprender pero nunca dan el paso porque «no es el momento».
-92. Personas que han estudiado, hecho másteres y cursos, y siguen sin saber qué hacer con su vida.
-93. Personas que sienten que están sobreviviendo, no viviendo.
-94. Personas que se refugian en la rutina para no tener que preguntarse si son felices.
-95. Personas que dejan pasar oportunidades por miedo y luego se arrepienten durante meses.
-96. Personas que sueñan con irse lejos, como hizo Abel a Australia, pero el miedo las paraliza.
-97. Personas que creen que querer más de la vida es de desagradecidos.
-98. Personas que han renunciado a lo que les gustaba de niñas porque «había que ser responsable».
-99. Personas que tienen la sensación constante de estar perdiendo el tiempo.
-100. Personas que no se permiten parar porque si paran tendrían que escucharse.
+81. Coaches que escriben a desconocidos por DM ofreciendo una sesión y sienten que mendigan.
+82. Terapeutas que regalan sesiones «para darse a conocer» y nunca convierten a nadie en cliente.
+83. Gente de reiki que persigue a antiguos clientes para que vuelvan.
+84. Médiums que hacen lecturas gratis en directos y luego nadie paga una.
+85. Guías que se pasan el día comentando en grupos de Facebook para ver si alguien les contrata.
+86. Coaches que mandan audios de cinco minutos a personas que no les han pedido nada.
+87. Terapeutas que hacen descuentos constantes porque sienten que sin descuento no vendrá nadie.
+88. Personas que dan tanto gratis que el cliente ya no necesita pagarles.
+89. Coaches que llaman «seguimiento» a perseguir a alguien que ya les dijo que no.
+90. Terapeutas que aceptan a cualquier cliente aunque no les encaje, por miedo a quedarse sin ninguno.
+91. Facilitadores que llenan sus talleres a base de pedir favores a sus amigos.
+92. Coaches que se agotan haciendo llamadas de descubrimiento que nunca terminan en venta.
+93. Terapeutas que contestan dudas gratis por WhatsApp hasta las once de la noche.
+94. Sanadores que trabajan «por la voluntad» y luego se sienten utilizados.
+95. Personas que van a eventos a repartir tarjetas y vuelven a casa con la misma agenda.
+96. Coaches que bajan el precio en mitad de la llamada en cuanto notan una duda.
+97. Terapeutas que sienten que tienen que convencer a la gente de que las necesita.
+98. Médiums que se pasan horas de más con un cliente sin cobrarlas porque les sabe mal.
+99. Guías que regalan lo mejor que tienen en un PDF y luego no saben qué vender.
+100. Personas que creen que persiguiendo más conseguirán más, cuando cada mensaje las aleja un poco más.
 
-## 6 · Más dolor, más cabeza: ansiedad y pensar sin parar
+## 6 · Culpa por cobrar y precios bajos
 
-101. Personas cuya cabeza no para ni para dormir, y cuanto peor están, más piensan.
-102. Personas que lo analizan todo mil veces antes de decidir y aun así deciden mal.
-103. Personas que llaman «estrés normal» a su ansiedad porque llamarla ansiedad les daría más miedo.
-104. Personas que se despiertan a las tres de la mañana con un nudo en el estómago y no saben de qué es.
-105. Personas que creen que todo se soluciona pensando, y por eso llevan años en el mismo sitio.
-106. Personas que se adelantan a todo lo que puede salir mal y viven el miedo como si ya estuviera pasando.
-107. Personas que no se fían de lo que sienten y deciden siempre con la lógica, aunque algo les diga «por aquí no».
-108. Personas que se meten en la cabeza para no sentir, sin saber que eso es justo lo que las hace equivocarse.
-109. Personas que dicen que su ansiedad es genética para no tener que hacer nada con ella.
-110. Personas que consumen noticias, true crime o películas de miedo cada día y luego se preguntan por qué viven en alerta.
-111. Personas que no saben estar en silencio cinco minutos sin coger el móvil.
-112. Personas que han tenido ataques de ansiedad y viven con miedo a que vuelvan.
-113. Personas que necesitan entenderlo todo con la cabeza antes de probarlo, y hay cosas que funcionan al revés.
-114. Personas que dicen «no tengo energía» todos los días y nunca se han preguntado de qué están hablando.
-115. Personas que se agobian con todo y creen que el problema son las circunstancias, no lo que llevan dentro.
-116. Personas que controlan cada detalle de su vida porque perder el control les aterra.
-117. Personas que buscan en Google sus síntomas para calmarse y acaban más asustadas.
-118. Personas que llevan una coraza de «a mí nada me afecta» y por dentro están agotadas.
-119. Personas que se tragan la rabia todo el día y luego explotan con quien menos lo merece.
-120. Personas que creen que sentir mucho es un defecto que hay que controlar.
+101. Terapeutas que sienten que cobrar por ayudar está mal, y por eso cobran como si les diera vergüenza.
+102. Coaches que llevan tres años con el mismo precio porque les da miedo subirlo.
+103. Gente de reiki que cree que los dones no se cobran y luego no llega a fin de mes.
+104. Médiums que se sienten culpables cuando alguien paga una sesión y no sale como esperaba.
+105. Guías que piensan que si ganan dinero dejarán de ser espirituales.
+106. Coaches que dicen su precio y enseguida añaden «pero si no puedes, lo hablamos».
+107. Terapeutas que trabajan sesenta horas a la semana a precio de saldo y lo llaman vocación.
+108. Personas que crecieron oyendo que el dinero es sucio y hoy lo apartan sin darse cuenta.
+109. Coaches que cobran menos que su peluquero por cambiarle la vida a alguien.
+110. Terapeutas que se queman porque necesitan muchos clientes baratos para llegar a fin de mes.
+111. Sanadores que se sienten en deuda con cada persona que les paga.
+112. Coaches que no se atreven a vender un programa porque «quién soy yo para cobrar eso».
+113. Terapeutas que hacen excepciones de precio con todo el mundo y luego no les salen las cuentas.
+114. Personas que ayudan a todos a vivir con abundancia menos a sí mismas.
+115. Profesores de yoga que cobran lo mismo que el gimnasio de la esquina y sienten que valen más.
+116. Coaches que tienen miedo de que los juzguen por ganar dinero ayudando.
+117. Terapeutas que se ponen nerviosas cada vez que tienen que mandar una factura.
+118. Guías que se comparan con quien cobra más y piensan «ese es un vendehúmos».
+119. Médiums que creen que si cobran bien el don se les irá.
+120. Personas que dicen que el dinero no les importa y viven agobiadas por él.
 
-## 7 · Lo que vivieron de pequeñas sigue decidiendo por ellas
+## 7 · Se comparan, se sienten impostores y esperan a estar preparados
 
-121. Personas que vivieron la separación de sus padres de niñas y todavía hoy sienten que el suelo puede desaparecer en cualquier momento.
-122. Personas que sufrieron bullying y siguen adaptándose a todo el mundo para que no las rechacen.
-123. Personas que de pequeñas decían «todo bien» para no preocupar a nadie y de mayores siguen sin saber pedir ayuda.
-124. Personas que se mudaron muchas veces de niñas y nunca han sentido que pertenecen a ningún sitio.
-125. Personas que perdieron a alguien importante de pequeñas y arrastran una culpa que nunca han mirado.
-126. Personas que crecieron sintiéndose una carga y siguen pidiendo perdón por existir.
-127. Personas que aprendieron que para que las quisieran tenían que portarse bien, y no saben ser ellas mismas.
-128. Personas que llevan toda la vida intentando demostrar a su padre o a su madre que valen.
-129. Personas que creen que su pasado las define para siempre, y esa creencia lo convierte en verdad.
-130. Personas que reaccionan como niñas heridas en discusiones de adultos y luego no entienden por qué.
-131. Personas que nunca vieron una pareja feliz en casa y ahora intentan construir lo que no tuvieron desde el miedo.
-132. Personas que lo que escucharon de niñas sobre el dinero lleva años dirigiendo su vida sin que se den cuenta.
-133. Personas que se refugiaron en los videojuegos, la comida o la soledad de pequeñas y siguen haciendo lo mismo con otros nombres.
-134. Personas que nunca lloraron delante de nadie y ahora no saben llorar ni solas.
-135. Personas que sienten una rabia antigua que no saben de dónde viene.
-136. Personas que tuvieron que hacerse mayores demasiado pronto y ahora no saben disfrutar.
-137. Personas que repiten con sus hijos o su pareja exactamente lo que juraron que nunca harían.
-138. Personas que creen que lo de la infancia ya está superado porque no lo piensan, aunque siga decidiendo por ellas.
-139. Personas que se sienten solas incluso rodeadas de gente, como cuando eran pequeñas.
-140. Personas que nunca se han permitido sentir lo que les pasó, y por eso les sigue pasando.
+121. Coaches que ven a otros con menos formación llenar la agenda y sienten rabia y envidia a la vez.
+122. Terapeutas que hacen otro curso más porque sienten que todavía no saben lo suficiente.
+123. Gente de reiki que piensa que todavía no está preparada para tener clientes de verdad.
+124. Médiums que tienen miedo de que alguien les diga en público que lo suyo es mentira.
+125. Guías que se sienten un fraude cada vez que alguien les da las gracias.
+126. Coaches que no se atreven a hablar de un tema porque «ya lo ha dicho otro mejor».
+127. Terapeutas que se comparan con quien tiene cien mil seguidores y se paralizan.
+128. Personas con veinte certificados colgados en la pared y ninguna seguridad por dentro.
+129. Coaches que esperan a tener su propia vida resuelta para empezar a ayudar a otros.
+130. Terapeutas que piensan que el mercado está saturado y que no hay sitio para ellas.
+131. Sanadores que creen que tienen que ser perfectos para poder ayudar.
+132. Coaches que miran las estadísticas de otros todos los días y se sienten pequeños.
+133. Terapeutas que no se sienten legítimas porque no tienen un título «oficial».
+134. Guías que esconden su pasado porque creen que les quita autoridad, cuando es lo que más conecta.
+135. Personas que dicen «cuando tenga más experiencia» y llevan cinco años diciéndolo.
+136. Coaches que necesitan la aprobación de su mentor para cada paso que dan.
+137. Terapeutas que se paralizan con un comentario negativo entre cien buenos.
+138. Médiums que se callan lo que perciben por miedo a equivocarse en público.
+139. Coaches que se sienten pequeños al lado de un cliente al que le va bien en la vida.
+140. Personas que creen que el éxito es para otros con más suerte, más contactos o más carisma.
 
-## 8 · Espiritualidad y desarrollo personal que no las cambian
+## 8 · Pierden su autenticidad copiando a otros
 
-141. Personas que llevan años manifestando, meditando y pensando en positivo y su vida sigue exactamente igual.
-142. Personas que ven vídeos de desarrollo personal todos los días y no aplican ni uno.
-143. Personas que han leído cincuenta libros de autoayuda y siguen cayendo en lo mismo.
-144. Personas que usan la espiritualidad para no tomar decisiones incómodas.
-145. Personas que dicen «todo pasa por algo» para no responsabilizarse de su vida.
-146. Personas que se sienten superiores por ser «espirituales» y no se dan cuenta de que es otro ego.
-147. Personas que han hecho cursos, retiros y terapias y siguen buscando el método que por fin las arregle.
-148. Personas que creen que la energía es cosa de flipados y luego hablan de «mala vibra» y corazonadas todos los días.
-149. Personas que han vivido algo que no saben explicar y lo han enterrado para que no las tomen por locas.
-150. Personas que han convertido el desarrollo personal en un hobby o una muleta, en vez de conocerse de verdad.
-151. Personas que fueron al psicólogo, no les sirvió y ahora creen que no tienen remedio.
-152. Personas que visualizan la vida que quieren cada mañana y sienten lo contrario el resto del día.
-153. Personas que quieren manifestar dinero o pareja sin haber sanado lo que les hace sentir que no lo merecen.
-154. Personas que meditan media hora y lo arruinan con dos horas de contenido tóxico por la noche.
-155. Personas que descartan todo lo espiritual por los gurús que flotan, y se han quedado sin lo que había dentro.
-156. Personas que creen que hay que elegir entre ser espiritual o ser ambicioso.
-157. Personas que tienen miedo a la muerte y por eso viven como si tuvieran todo el tiempo del mundo.
-158. Personas que buscan señales del universo para no tener que escucharse a sí mismas.
-159. Personas que entienden perfectamente lo que les pasa y aun así no consiguen cambiarlo.
-160. Personas que se preguntan si su intuición es real o se están inventando una película.
+141. Coaches que copian el estilo de su mentor y suenan a una copia barata.
+142. Terapeutas que en redes hablan con una voz que no es la suya, más seria, más técnica y más fría.
+143. Gente de reiki que esconde su lado espiritual porque cree que asusta a la gente.
+144. Médiums que se disfrazan de algo que no son para parecer más creíbles.
+145. Guías que siguen todas las tendencias aunque les dé vergüenza ajena hacerlas.
+146. Coaches que se ponen la máscara de «todo me va genial» y con quienes nadie conecta.
+147. Terapeutas que nunca cuentan lo que vivieron ellas, que es justo lo que las hace únicas.
+148. Personas que hablan como un anuncio y luego no entienden por qué no generan confianza.
+149. Coaches que usan las mismas palabras que todo su sector y se vuelven invisibles.
+150. Terapeutas que quitan su opinión de todo para no molestar a nadie y no conectan con nadie.
+151. Sanadores que publican lo que creen que la gente quiere ver en vez de lo que piensan de verdad.
+152. Coaches que cambian de nicho cada tres meses porque alguien les dijo que ahí está el dinero.
+153. Terapeutas que se avergüenzan de su acento, de su casa o de su forma de hablar delante de la cámara.
+154. Guías que tienen opiniones fuertes y se las callan por miedo a perder seguidores.
+155. Personas que usan plantillas de guiones que no suenan a ellas, y se nota en cada vídeo.
+156. Coaches que imitan a gurús americanos cuando su público es de su barrio.
+157. Terapeutas que enseñan solo sus títulos y nunca a la persona que hay detrás.
+158. Médiums que suavizan tanto lo que hacen que nadie sabe exactamente qué ofrecen.
+159. Coaches que tienen miedo de que su familia vea en redes quiénes son de verdad.
+160. Personas que se pierden intentando gustar a todos y acaban sin gustarle a nadie.
 
-## 9 · Complacencia, límites y decir que sí queriendo decir que no
+## 9 · Solo miran el dinero y se olvidan de su mensaje
 
-161. Personas que dicen que sí a todo para caer bien y luego no tienen tiempo para ellas.
-162. Personas que confunden ser buena persona con no molestar nunca a nadie.
-163. Personas que se tragan lo que les molesta para evitar el conflicto y lo pagan con ansiedad.
-164. Personas que no saben decir que no a sus amigos aunque saben que eso les hace daño, como le pasaba a Abel con la fiesta.
-165. Personas que se conforman con migajas en sus relaciones porque creen que no merecen más.
-166. Personas que dejan que les hablen como ellas nunca le hablarían a nadie.
-167. Personas que sienten culpa cada vez que se eligen a sí mismas.
-168. Personas que siempre están para todo el mundo y nadie está para ellas.
-169. Personas que adornan la verdad para no hacer daño y acaban sin que nadie las conozca de verdad.
-170. Personas que no se atreven a pedir lo que valen en su trabajo.
-171. Personas que cambian de opinión según con quién estén.
-172. Personas que temen que si dicen lo que piensan las dejarán de querer.
-173. Personas que cargan con los problemas de su familia como si fueran suyos.
-174. Personas que se sienten responsables de las emociones de todo el mundo.
-175. Personas que esperan que los demás adivinen lo que necesitan porque no se atreven a decirlo.
-176. Personas que llevan años en un entorno que las apaga y no se van por lealtad.
-177. Personas que se disculpan por todo, incluso por cosas que no han hecho.
-178. Personas que se pasan el día ayudando a otros para no mirar su propia vida.
-179. Personas que no saben recibir un cumplido ni un regalo sin sentirse incómodas.
-180. Personas que creen que poner límites es ser egoísta.
+161. Coaches que solo hablan de facturación y se les ha olvidado por qué empezaron a ayudar.
+162. Terapeutas que venden desde la escasez, y el cliente lo nota en cada mensaje.
+163. Gente de reiki que mete urgencia falsa en cada publicación porque necesita vender este mes.
+164. Médiums que prometen cosas que no pueden cumplir para cerrar una venta.
+165. Guías espirituales que usan la espiritualidad para sentirse por encima de sus clientes.
+166. Coaches que aceptan clientes a los que no pueden ayudar solo porque necesitan el dinero.
+167. Terapeutas que cambian su mensaje cada mes según lo que creen que vende más.
+168. Personas que lanzan programas sin haber escuchado nunca qué necesita su cliente.
+169. Coaches que miden lo que valen por lo que facturan y se hunden cuando un mes va mal.
+170. Terapeutas que hablan de abundancia en redes y viven angustiadas por el alquiler.
+171. Sanadores que ayudan para que les vean, no para ayudar, y la gente lo siente.
+172. Coaches que copian lanzamientos agresivos que no van con ellos y se sienten sucios después.
+173. Terapeutas que quieren salvar a todo el mundo y se olvidan de que no todos quieren que les salven.
+174. Guías que venden el resultado de otros como si fuera suyo.
+175. Coaches que se apuntan a cada moda de negocio online y no construyen nada propio.
+176. Personas que confunden tener éxito con tener muchos seguidores.
+177. Terapeutas que se comparan en cifras con otros y pierden de vista a la persona que tienen delante.
+178. Coaches que, cuando no venden, culpan a la gente de «no estar preparada».
+179. Médiums que han convertido su don en un producto frío y ya no disfrutan.
+180. Personas que tienen una verdad que contar y la cambian por lo que dice el último curso de marketing.
 
-## 10 · Quieren crear su propio servicio o proyecto y se bloquean
+## 10 · Lo de dentro que les sabotea el negocio
 
-181. Personas que quieren vivir de lo que les apasiona y llevan años sin lanzarse por miedo al qué dirán.
-182. Personas que empiezan un canal, una marca o un negocio con ganas y lo abandonan al primer mes sin resultados.
-183. Personas que quieren ayudar a otros con su historia y no se creen con derecho a hacerlo.
-184. Personas que emprenden para demostrar que valen y viven cada mal mes como un fracaso personal.
-185. Personas que tienen un talento claro y lo esconden porque no se sienten suficientes.
-186. Personas que copian lo que hacen otros en vez de construir desde quiénes son.
-187. Personas que tienen miedo de enseñarse en redes porque les da vergüenza que las vea su entorno.
-188. Personas que se pasan meses preparando el proyecto perfecto y nunca lo publican.
-189. Personas que miran las métricas de su contenido de forma compulsiva y su ánimo depende de ellas.
-190. Personas que han invertido miles de euros en cursos y formaciones sin aplicar casi nada.
-191. Personas que tuvieron éxito con un proyecto, lo perdieron y no se atreven a volver a empezar.
-192. Personas que quieren cobrar por lo que saben y sienten que no lo merecen.
-193. Personas que construyen su negocio desde la carencia y por eso nunca les parece suficiente.
-194. Personas que tienen claro qué quieren crear pero se sabotean justo antes de lanzarlo.
-195. Personas que creen que tienen que tener su vida resuelta antes de poder ayudar a nadie.
-196. Personas que quieren hacer algo propio pero siguen en un trabajo que odian «por si acaso».
-197. Personas que se comparan con los grandes de su sector y se paralizan.
-198. Personas que saben que tienen un mensaje pero no saben cómo convertirlo en un servicio.
-199. Personas que confunden estar ocupadas con avanzar en su proyecto.
-200. Personas que quieren libertad económica y geográfica y no se atreven a dar el primer paso.
+181. Terapeutas que ayudan a otros a sanar sus heridas y no han mirado la suya con el dinero.
+182. Coaches que de pequeños aprendieron que destacar era peligroso y hoy no se atreven a enseñarse.
+183. Gente de reiki que tiene tanto miedo a la crítica que prefiere no publicar.
+184. Médiums que siguen sintiendo que tienen que demostrarle algo a su familia.
+185. Guías que se sabotean justo cuando empieza a irles bien.
+186. Coaches que dicen que quieren más clientes y les entra el pánico cuando alguien les escribe.
+187. Terapeutas que crecieron oyendo «no te creas más que nadie» y hoy no saben hablar de lo que valen.
+188. Personas que dejan el contenido para mañana porque grabarse las enfrenta a cómo se ven.
+189. Coaches que viven con ansiedad cada vez que publican algo personal.
+190. Terapeutas que se sienten responsables de las emociones de cada cliente y acaban agotadas.
+191. Sanadores que no ponen límites a sus clientes y luego no tienen energía para nada más.
+192. Coaches que necesitan que cada vídeo funcione para sentir que valen algo.
+193. Terapeutas que tienen miedo de tener éxito porque creen que perderán a su gente.
+194. Guías que repiten con sus clientes la misma complacencia que tienen con su familia.
+195. Personas que se exigen tanto que nada de lo que publican les parece suficiente.
+196. Coaches que se quedan bloqueados cada vez que alguien les deja de seguir.
+197. Terapeutas que no se permiten ganar más que sus padres sin sentir que los traicionan.
+198. Médiums que escuchan lo que perciben de los demás y se callan lo que perciben de sí mismos.
+199. Coaches que esconden su ansiedad detrás de mensajes de «todo es posible».
+200. Personas que saben que el miedo les está frenando la agenda y aun así siguen pensando que les falta estrategia.

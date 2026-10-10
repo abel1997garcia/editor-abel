@@ -20,6 +20,9 @@ Al **seleccionar clips** de sus vídeos largos, al decidir reels y al planificar
 
 **How to apply:** cuando proponga reels o clips de un horizontal, descartar los trozos que solo informan. Priorizar los que tienen gancho de verdad incómoda, su experiencia y algo aplicable. Al proponer o revisar títulos y temas de YouTube, comprobar que encajan en una línea coherente. Ver [[estrategia-contenido-80-15-5]] y [[reels-marca-personal]].
 
+## FILTRO DEL NICHO (10/10/2026)
+Todo pasa además el filtro de `00-avatar-operativo.md`: ¿le habla a quien emprende ayudando a otros, o se le puede rematar hacia su negocio? ¿El dolor es concreto (agenda, clientes, contenido, cobrar)? ¿Lleva su sello (autenticidad, verdad, intención, emociones)?
+
 ## BÁJALO A TIERRA (Abel 10/10/2026: «es muy necesario»; reel de Rebeca Schimensky, instagram.com/p/DeU8hHGIXcW)
 **La idea del reel:**
 - Si vendes espiritualidad, lo estás haciendo al revés: la mayoría no tiene ese nivel de consciencia, y no hay que meterle la espiritualidad a la fuerza.
@@ -28,5 +31,6 @@ Al **seleccionar clips** de sus vídeos largos, al decidir reels y al planificar
 
 **Cómo se aplica en TODO (reels, guiones, hooks, títulos, fichas de YouTube, descripciones):**
 - **Se vende el RESULTADO CONCRETO del día a día, nunca la espiritualidad.** «Dejar de explotar con tu pareja por una tontería», «no cagarla en la reunión», «pedir lo que necesitas sin pedir perdón», «dinero sin ansiedad».
-- **Fuera de hooks y títulos para público frío:** energía, frecuencia, vibración, conciencia, manifestar, ley de atracción, bendición, universo. Si salen, van DENTRO del vídeo y aterrizados a una escena concreta.
+- **Fuera de hooks y títulos para público frío:** frecuencia, vibración, conciencia, manifestar, ley de atracción, bendición, universo. Si salen, van DENTRO del vídeo y aterrizados a una escena concreta.
+- **«ENERGÍA» SÍ VALE en su sentido de la calle** (Abel 10/10: «mucha gente usa la energía, no tengo fuerzas, no tengo energía, estoy alto o bajo de energía»; coincide con `correcciones.md` del 05/10). Ej.: «no tengo energía», «estoy sin fuerzas», «me ha dejado sin energía», «mala energía», «estar alto o bajo de energía». Lo que NO vale es «energía» en sentido metafísico sin aterrizar («tu campo energético», «la energía del universo»).
 - **Antes de entregar cualquier pieza, pregunta extra:** ¿lo entendería alguien que nunca ha leído nada de espiritualidad? ¿Habla de algo que le pasa el lunes a las 9?
