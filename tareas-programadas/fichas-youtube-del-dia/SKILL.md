@@ -22,20 +22,21 @@ LEE ANTES (rutas en C:\Users\Clap\Desktop\EDICION VIDEOS\FÁBRICA DE CONTENIDO\)
 FICHAS DEL CANAL PRINCIPAL Y DE ENERGÍA SEXUAL (modelo: Lavri, `Editor vídeos/Referencias/lavri/ANALISIS.md`):
 - **YouTube no es un reel.** UNA idea potente que dé para 10-20 minutos, en la que se vea que Abel sabe de lo que habla.
 - **TODO enfocado al 100 % en lo que vende HOY y a quién:** clientes con tu marca personal en Instagram y YouTube, de forma consciente y desde tu verdad.
-- **Su pasado NO es tema.** Solo puede aparecer como prueba dentro de un punto. Nada de cifras de facturación salvo las de la credencial. No inventes resultados de Allan ni de clientes.
+- **Su pasado NO es tema.** Solo puede aparecer como prueba dentro de un punto. Nada de cifras de facturación. No inventes resultados de Allan ni de clientes.
   - MAL: «Cómo hice 100K con contenido», «borrar la historia en la que ofreces tus sesiones».
   - BIEN: «Lo espiritual sí se vende», «Así consigo clientes para un médium sin perseguir a nadie».
 
 Formato exacto (Abel 11/10/2026: lo justo para echarle un vistazo, el resto lo dice él a su manera):
    IDEA: el título del vídeo.
    ARRANQUE: 1-2 frases para los primeros 10 segundos, contra lo que dice el mercado o con una promesa, que dejen INTRIGA para quedarse a ver el vídeo.
-   CREDENCIAL: una frase con quién es (toda su historia en una línea) y a qué se dedica hoy. Siempre esta, salvo que él la cambie: «Soy Abel, llegué a tener 100.000 seguidores y a facturar 17.000 € al mes, lo perdí todo a los 26 por no estar alineado conmigo, y hoy ayudo a terapeutas, coaches y médiums a llenar su agenda siendo ellos mismos.» En Héroe Viaje se adapta a quien practica la retención.
    PUNTO 1: UNA frase.
    PUNTO 2: UNA frase.
    PUNTO 3: UNA frase.
-   (Cada punto, un error o una idea de la que tiene que hablar.)
+     - Cada punto se entiende a la primera, toca MUY FUERTE el dolor emocional de la persona y tiene connotación negativa.
+     - Le señala con claridad qué hace mal y lo que siente o le cuesta (rabia, vergüenza, miedo, sentir que no vale…).
+   SOLUCIÓN: UNA frase, natural y concreta. Si el vídeo es de varios errores, puede ser una por punto.
    APUNTE DE SU HISTORIA: una frase si refuerza un punto; si no, «—».
-   NADA MÁS: ni «lo que dice el mercado», ni cierre, ni miniatura.
+   NADA MÁS: NUNCA credencial (eliminada para siempre), ni «lo que dice el mercado», ni cierre, ni miniatura.
 
 FICHA DEL CANAL DE DOCUMENTACIÓN (estructura libre):
    TEMA: una reflexión o creencia suya, para que la gente conozca cómo piensa (no un hecho de su vida).

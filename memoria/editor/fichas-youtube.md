@@ -20,7 +20,14 @@ Tarea diaria `fichas-youtube-del-dia` a las 8:00. Las reglas y el formato exacto
 - **TODO al 100 % en lo que vende HOY y a quién**, igual que Labri con «contenido que vende». La mentalidad también remata ahí.
 - **Su pasado no es tema** (17.000 €/mes, 100K, perderlo todo, Australia): «es pasado y otro contexto».
 - **Contra el mercado:** tabla en `00-avatar-operativo.md`.
-- **Formato aprobado (11/10):** IDEA · ARRANQUE (con intriga) · CREDENCIAL (quién es en una frase + a qué se dedica) · PUNTO 1/2/3 (UNA frase cada uno) · APUNTE DE SU HISTORIA (o «—»). Sin «lo que dice el mercado», sin cierre y sin miniatura: eso lo pone él. Inspirado en Lavri (`Editor vídeos/Referencias/lavri/ANALISIS.md`).
+- **Formato aprobado (11/10):**
+  - IDEA;
+  - ARRANQUE con intriga;
+  - PUNTO 1/2/3, UNA frase cada uno: se entiende a la primera, toca MUY FUERTE el dolor emocional, con connotación negativa, y señala claramente qué hace mal y lo que siente;
+  - SOLUCIÓN en una frase (o una por punto, según el vídeo);
+  - APUNTE DE SU HISTORIA (o «—»).
+
+  **CREDENCIAL ELIMINADA PARA SIEMPRE** («no me gusta»). Tampoco van «lo que dice el mercado», el cierre ni la miniatura. Inspirado en Lavri (`Editor vídeos/Referencias/lavri/ANALISIS.md`).
 
 **Documentación, ejemplo aprobado:** «Mientras construyes para demostrarle algo a alguien, nada de lo que construyes es tuyo».
 
