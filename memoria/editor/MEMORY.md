@@ -17,3 +17,4 @@
 - [Referencias virales](referencias-virales.md) — la buena es la Sheet «Referencias reels» (él pega SOLO la URL; yo descargo con yt-dlp, transcribo y escribo guion adaptado); NUNCA crear hojas nuevas
 - [Guiones para teleprompter](guion-teleprompter.md) — desde 10/10 NO se escribe el texto: doc = Idea + 3 hooks + Problema (viñetas) + Solución (1 viñeta) y él lo explica a su manera; coherencia, nunca mentoría
 - [Fichas de YouTube](fichas-youtube.md) — 3 canales/día; YouTube ≠ reel: idea potente 100 % sobre lo que vende hoy, contra el mercado, formato Lavri (arranque, credencial, mercado, 3 puntos, cierre)
+- [No aceptar nada sin su orden](no-aceptar-sin-orden.md) — avisos, permisos, subidas o copias (Drive, apps): solo si Abel lo dice
