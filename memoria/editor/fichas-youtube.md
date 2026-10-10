@@ -18,20 +18,11 @@ Tarea diaria `fichas-youtube-del-dia` a las 8:00. Las reglas y el formato exacto
 **Principal y Héroe Viaje (Abel, 11/10/2026, «un antes y un después»):**
 - **YouTube ≠ reel.** UNA idea potente de 10–20 minutos donde se vea que sabe. MAL: «borrar la historia en la que ofreces tus sesiones» (eso es un reel).
 - **TODO al 100 % en lo que vende HOY y a quién**, igual que Labri con «contenido que vende». La mentalidad también remata ahí.
-- **Su pasado no es tema** (17.000 €/mes, 100K, perderlo todo, Australia): «es pasado y otro contexto». Solo puede aparecer como prueba dentro de un punto. Nada de cifras de facturación.
+- **Su pasado no es tema** (17.000 €/mes, 100K, perderlo todo, Australia): «es pasado y otro contexto».
 - **Contra el mercado:** tabla en `00-avatar-operativo.md`.
-- **Formato aprobado (modelo Lavri, `Editor vídeos/Referencias/lavri/ANALISIS.md`):**
-  - IDEA;
-  - ARRANQUE;
-  - CREDENCIAL en presente (mentorías, Allan);
-  - LO QUE DICE EL MERCADO;
-  - 3 PUNTOS (creencia del cliente entre comillas → verdad → colleja);
-  - APUNTE DE SU HISTORIA (solo si suma);
-  - CIERRE con frase de batalla.
+- **Formato aprobado:** modelo Lavri (`Editor vídeos/Referencias/lavri/ANALISIS.md`).
 - **Miniaturas:** su cara y 1–2 palabras crudas.
 
-**Documentación:** TEMA = una REFLEXIÓN o creencia suya (no un hecho) · ARRANQUE · qué contar (el momento real, con detalles) · qué te dejó. Una frase cada una. **Ejemplo aprobado:** «Mientras construyes para demostrarle algo a alguien, nada de lo que construyes es tuyo».
-
-**Siempre de TÚ a TÚ** («a ti te pasaba…»), nunca «a Abel le pasaba».
+**Documentación, ejemplo aprobado:** «Mientras construyes para demostrarle algo a alguien, nada de lo que construyes es tuyo».
 
 **Pendiente:** su ESLOGAN de marca, que valga para el principal, Héroe Viaje e Instagram. Lo está pensando (11/10).

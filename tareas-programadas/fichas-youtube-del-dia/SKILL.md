@@ -14,21 +14,21 @@ LEE ANTES (rutas en C:\Users\Clap\Desktop\EDICION VIDEOS\FÁBRICA DE CONTENIDO\)
 - **07_PLANES_GRABACION\FICHAS_YOUTUBE.md:** TODAS las fichas ya dadas. PROHIBIDO repetir un tema, ni con otras palabras ni con el mismo enfoque. En documentación, tampoco un momento de su vida ya contado.
 - **01_MI_MARCA\00-avatar-operativo.md:** nicho, a quién vende, dolores, colleja y filtro. MANDA para el canal principal.
 - **07_PLANES_GRABACION\BANCO_IDEAS_YOUTUBE.md:** ideas del nivel correcto. Es la PRIMERA fuente para el principal y Héroe Viaje. Úsalas o crea otras del mismo nivel desde «CONTRA EL MERCADO», las objeciones y los dolores del avatar, y marca con ✅ la que uses.
-- **01_MI_MARCA\A-QUIEN-LE-VENDO.md:** 200 situaciones del avatar. Es la fuente de temas del principal.
+- **01_MI_MARCA\A-QUIEN-LE-VENDO.md:** 200 situaciones del avatar.
 - **01_MI_MARCA\creencias-y-frases-de-batalla.md y afirmaciones.md:** nada puede contradecirlos.
 - **01_MI_MARCA\_indice-banco.md:** para energía sexual, el bloque «Masculinidad, autocontrol y energía sexual».
 - **01_MI_MARCA\02-catalogo-momentos-concretos.md:** momentos reales de su vida. No inventes nada de su vida.
 
 FICHAS DEL CANAL PRINCIPAL Y DE ENERGÍA SEXUAL (modelo: Lavri, `Editor vídeos/Referencias/lavri/ANALISIS.md`):
 - **YouTube no es un reel.** UNA idea potente que dé para 10-20 minutos, en la que se vea que Abel sabe de lo que habla.
-- **TODO enfocado al 100 % en lo que vende HOY y a quién:** clientes con tu marca personal en Instagram y YouTube, de forma consciente y desde tu verdad. En Héroe Viaje, la energía sexual bajada al negocio.
+- **TODO enfocado al 100 % en lo que vende HOY y a quién:** clientes con tu marca personal en Instagram y YouTube, de forma consciente y desde tu verdad.
 - **Su pasado NO es tema.** Solo puede aparecer como prueba dentro de un punto. Nada de cifras de facturación. No inventes resultados de Allan ni de clientes.
   - MAL: «Cómo hice 100K con contenido», «borrar la historia en la que ofreces tus sesiones».
   - BIEN: «Lo espiritual sí se vende», «Así consigo clientes para un médium sin perseguir a nadie».
 
 Formato exacto:
-   IDEA: el título del vídeo, del nivel de BANCO_IDEAS_YOUTUBE.md.
-   ARRANQUE: 1-2 frases para los primeros 10 segundos, de TÚ a TÚ, contra lo que dice el mercado o con una promesa.
+   IDEA: el título del vídeo.
+   ARRANQUE: 1-2 frases para los primeros 10 segundos, contra lo que dice el mercado o con una promesa.
    CREDENCIAL: una frase en presente: a quién ayuda y lo que hace hoy (mentorías; Allan García, médium: redes, marca personal y eventos).
    LO QUE DICE EL MERCADO: lo que va a desmontar, en una frase.
    PUNTO 1 / PUNTO 2 / PUNTO 3: cada uno con tres partes:
@@ -41,10 +41,11 @@ Formato exacto:
 FICHA DEL CANAL DE DOCUMENTACIÓN (estructura libre):
    TEMA: una reflexión o creencia suya, para que la gente conozca cómo piensa (no un hecho de su vida).
    ARRANQUE: frase para empezar a contarla.
-   Qué contar: el momento real del catálogo que le llevó a pensar así, con sus detalles concretos (edad, lugar, cifra, objeto), en una frase y hablándole de TÚ.
+   Qué contar: el momento real del catálogo que le llevó a pensar así, con sus detalles concretos (edad, lugar, cifra, objeto), en una frase.
    Qué te dejó: cómo vive hoy esa reflexión, en una frase.
 
 PARA TODAS:
+- De TÚ a TÚ.
 - Frases que se entiendan a la primera, de la calle, sin jerga ni expresiones a medias.
 - Bajado a tierra: nada de frecuencia, vibración, manifestar ni universo en el TEMA y el ARRANQUE. «Energía» solo en sentido de la calle.
 - Sin CTA.
