@@ -8,8 +8,8 @@ html,body{margin:0;background:#000}
 #tarjeta{position:absolute;left:0;top:0;width:1080px;height:1920px;overflow:hidden}
 #tarjeta img{position:absolute;left:0;top:0;width:1080px;height:1920px;transform-origin:540px 700px}
 .t{position:absolute;left:0;top:0;transform-origin:center;text-align:center;color:#fff;will-change:transform,opacity}
-#tit{font-weight:800;font-size:66px;line-height:1.1;letter-spacing:-.01em;width:960px;text-shadow:0 3px 16px rgba(0,0,0,.6),0 0 3px rgba(0,0,0,.5)}
-#sub{font-weight:700;font-size:62px;line-height:1;white-space:nowrap;text-shadow:0 3px 14px rgba(0,0,0,.65),0 0 3px rgba(0,0,0,.55)}
+#tit{font-weight:800;font-size:66px;line-height:1.1;letter-spacing:-.01em;width:960px;text-shadow:0 2px 4px rgba(0,0,0,.85),0 4px 22px rgba(0,0,0,.75),0 0 2px rgba(0,0,0,.9)}
+#sub{font-weight:700;font-size:62px;line-height:1;white-space:nowrap;text-shadow:0 2px 4px rgba(0,0,0,.85),0 4px 20px rgba(0,0,0,.75),0 0 2px rgba(0,0,0,.9)}
 </style></head><body><div id="r"><div id="tarjeta"><img id="foto"></div><div id="tit" class="t"></div><div id="sub" class="t"></div></div>
 <script src="datos.js"></script><script>
 const FOTO = document.getElementById('foto'), TIT = document.getElementById('tit'), SUB = document.getElementById('sub');
@@ -23,13 +23,12 @@ const zoomEn = t => { let z = 1, zp = 1, t0 = 0, suave = 0;
   for (const [a, zz, sv] of CORTES) if (t >= a) { zp = z; z = zz; t0 = a; suave = sv; }
   return suave ? lerp(zp, z, io(P(t, t0, .6))) : z; };
 /* título: arriba, todo el reel */
-TIT.innerHTML = TITULO.join('<br>'); color(TIT, COLORES.tit);
+TIT.innerHTML = TITULO.join('<br>');   // F5: siempre blanco con sombreado (Abel 10/10: «así acertamos el 100 %»)
 /* subtítulos: UNA línea de máximo 4 palabras; se corta antes en pausas, signos de puntuación o si la línea se hace larga */
 const BLOQUES = []; { let g = [];
   const cierra = () => { if (g.length) BLOQUES.push([g.map(p => p[0]).join(' ').replace(/^~/, ''), g[0][1]]); g = []; };
   PAL.forEach((p, i) => { g.push(p); const sig = PAL[i + 1], txt = g.map(x => x[0]).join(' ');
     if (!sig || g.length >= 4 || /[.,;:!?…]$/.test(p[0]) || sig[1] - p[2] > .3 || (txt + ' ' + sig[0]).length > 24) cierra(); }); }
-color(SUB, COLORES.sub);
 let _ancho = {};
 function pintarSub(t) {
   const b = [...BLOQUES].reverse().find(x => x[1] <= t + .03); const txt = b ? b[0] : '';

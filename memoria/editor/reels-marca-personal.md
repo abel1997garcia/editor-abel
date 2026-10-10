@@ -36,6 +36,7 @@ Los reels se sacan del **vídeo horizontal ya editado** ([[estilo-videos-largos-
 7. **BANCO DE GANCHOS:** al transcribir un horizontal, apuntar TODAS las frases que serían un gancho buenísimo (ataca una creencia, remueve, buena energía en la voz: `estilo_voz.py` sobre ese trozo). Muchas veces, después de una frase así, él se va a otra idea: entonces no se fuerza el reel, **se guarda el gancho** en `MarcaPersonal/banco_ganchos.md` (vídeo, segundo, frase exacta, creencia que ataca, energía) y se usa cuando aparezca otro contenido, del mismo u otro vídeo, que cumpla la estructura (colleja + solución) sobre ESA idea.
 
 ## Común a todos los formatos
+- **NO REPETIR LO MISMO EN EL REEL (Abel, 10/10/2026, guardarlo):** si dice el hook y luego lo vuelve a decir con otras palabras o lo repite («todo es energía, te lo aseguro, todo es energía…»), se corta la repetición y se deja UNA sola vez. Antes de renderizar, revisar el texto corrido buscando frases o ideas dichas dos veces seguidas, sobre todo justo después del hook.
 - **⚠️ ERROR QUE REPITO (Abel, 08/10/2026, 3.ª vez): el gancho bien, pero la ESTRUCTURA y los CORTES mal.** Antes de renderizar, obligatorio:
   1. **Escribir el guion del reel como texto corrido** (lo que se va a oír, en orden) y leerlo como si fuera un espectador que no ha visto el vídeo: ¿se entiende de principio a fin?, ¿cada frase sigue de la anterior?, ¿el final cierra la idea del gancho? Si una frase necesita lo que va antes en el vídeo largo para entenderse, fuera.
   2. **Orden natural** dentro de la estructura obligatoria (gancho → colleja → solución con ejemplos y beneficio), sin reordenar su discurso. Nada de saltos atrás en el tiempo que confundan (si el gancho es el final de una historia, después se cuenta la historia en orden y se vuelve a cerrar con la idea).
@@ -68,7 +69,9 @@ Los reels se sacan del **vídeo horizontal ya editado** ([[estilo-videos-largos-
   - **Idea (Abel):** son reflexiones casuales, «estoy en el coche, me viene la inspiración y cojo el móvil», con la estructura del guion. Tiene que parecer grabado y editado ahí mismo en el móvil: «muy simple pero cuidado». Si lleva fotos e imágenes, parece preparado.
   - **Edición igual que el F4:** cortes limpios sin silencios ni muletillas, que fluya, zooms suaves 1,00/1,08 en los cortes, 1,10x y música bajita.
   - **Visual:** él a pantalla completa, SIN imágenes, escenas ni efectos de sonido.
-  - **Título arriba TODO el reel:** crudo y polémico, que NO repita el hook obvio sino que lo COMPLEMENTE. Montserrat 800 a 66 px; el color se ajusta solo según el fondo.
+  - **APROBADO por Abel el 10/10/2026 («me gusta el formato»).**
+  - **Título arriba TODO el reel:** crudo y polémico, que NO repita el hook obvio sino que lo COMPLEMENTE. Montserrat 800 a 66 px.
+  - **Texto SIEMPRE BLANCO con sombreado fuerte** (título y subtítulos), sea cual sea el fondo (Abel: el negro sobre pared clara no; «así acertamos el 100 %»).
   - **Subtítulos:** UNA línea de máximo 3–4 palabras por frase. Se cortan en pausas, en signos o si pasan de unos 24 caracteres. Montserrat 700 a 62 px, en y = 1300, blancos con sombra.
   - **Trials:** él graba los 3 hooks y el cuerpo una vez. Mejor hook = publicar; los otros dos + el mismo cuerpo = trials.
 
