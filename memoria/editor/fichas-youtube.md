@@ -20,6 +20,7 @@ Tarea diaria `fichas-youtube-del-dia` a las 8:00. Las reglas y el formato exacto
 - **TODO al 100 % en lo que vende HOY y a quién**, igual que Labri con «contenido que vende». La mentalidad también remata ahí.
 - **Su pasado no es tema** (17.000 €/mes, 100K, perderlo todo, Australia): «es pasado y otro contexto».
 - **Contra el mercado:** tabla en `00-avatar-operativo.md`.
+- **TÍTULOS AMPLIOS (11/10):** le hablan a cualquiera con marca personal, como Lavri y Rebeca. Sin profesiones ni nichos en el título (MAL: «…si fuera terapeuta»), y mejor «marca personal» que «agenda». El avatar sale solo al explicarlo.
 - **Formato aprobado (11/10):**
   - IDEA;
   - ARRANQUE con intriga;

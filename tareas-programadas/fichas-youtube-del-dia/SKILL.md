@@ -29,7 +29,7 @@ FICHAS DEL CANAL PRINCIPAL Y DE ENERGÍA SEXUAL (modelo: Lavri, `Editor vídeos/
   - BIEN: «Lo espiritual sí se vende», «Así consigo clientes para un médium sin perseguir a nadie».
 
 Formato exacto (Abel 11/10/2026: lo justo para echarle un vistazo, el resto lo dice él a su manera):
-   IDEA: el título del vídeo.
+   IDEA: el título del vídeo. AMPLIO, para cualquiera con marca personal, como Lavri y Rebeca: sin nombrar profesiones (terapeuta, médium, coach) y mejor «marca personal» y «clientes» que «agenda». Su avatar sale cuando lo explica.
    ARRANQUE: 1-2 frases para los primeros 10 segundos, contra lo que dice el mercado o con una promesa, que dejen INTRIGA para quedarse a ver el vídeo.
    PUNTO 1: UNA frase.
    PUNTO 2: UNA frase.
