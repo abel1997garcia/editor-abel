@@ -43,15 +43,16 @@
 - «Las redes no son para mí»: por qué los introvertidos venden mejor.
 - «No tengo tiempo para hacer contenido»: así lo hago en una hora a la semana.
 
-## Héroe Viaje (energía sexual: el título habla del hombre que quiere usar su energía para ser mejor; Abel lo baja al negocio al explicarlo)
+## Héroe Viaje (la energía sexual te afecta a ti, y por eso afecta a tu negocio: el título lo dice claro y con intriga)
 - ✅ Tu energía sexual es lo que te falta delante de la cámara.
-- Esto es lo que de verdad haces con tu energía cuando nadie te ve.
-- Napoleón Hill escondió ESTO sobre la energía sexual.
-- 3 hábitos que te roban la energía sin que te des cuenta (el 2 te va a sorprender).
-- Por qué siempre recaes justo cuando mejor te va.
-- La retención no te hace «más hombre» (te hace algo mucho mejor).
-- Lo que cambió en mí después de 90 días de retención (no es lo que crees).
-- El error que comete casi todo hombre que practica la retención.
+- Tu energía sexual está afectando a tu negocio (y no te das cuenta).
+- Lo que haces cada noche se nota en tu negocio al día siguiente.
+- Napoleón Hill escondió ESTO sobre la energía sexual y el dinero.
+- 3 hábitos que le roban la energía a tu negocio (el 2 te va a sorprender).
+- Por qué recaes justo cuando tu negocio empieza a ir bien.
+- Lo que cambió en mi negocio después de 90 días de retención (no es lo que crees).
+- El error de los hombres que practican la retención y no ganan más dinero.
+- La retención no te hace «más hombre» (pero sí cambia tu negocio).
 
 ## Documentación (más personal, pero siempre apuntando a quien emprende con su marca personal)
 - Así perdí todo lo que gané con mi primera marca personal (y lo que aprendí).

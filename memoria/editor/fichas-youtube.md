@@ -10,7 +10,7 @@ metadata:
 
 **3 canales de YouTube al día:**
 - **principal:** el nicho de `00-avatar-operativo.md`;
-- **Héroe Viaje:** energía sexual. El avatar es un hombre que quiere usar su energía para ser mejor en general; los títulos le hablan a él y Abel lo baja al negocio al explicarlo;
+- **Héroe Viaje:** energía sexual. El avatar es un hombre que quiere usar su energía para ser mejor en general; el ángulo es que te afecta a ti y, por eso, a tu negocio. Los títulos lo nombran claro, se entienden y llevan intriga;
 - **documentación:** sus reflexiones y creencias, contadas desde su vida.
 
 Tarea diaria `fichas-youtube-del-dia` a las 8:00. Las reglas y el formato exacto están en su SKILL.md. Lee y amplía `FÁBRICA DE CONTENIDO/07_PLANES_GRABACION/FICHAS_YOUTUBE.md` para no repetir nunca, y usa primero `07_PLANES_GRABACION/BANCO_IDEAS_YOUTUBE.md`.
