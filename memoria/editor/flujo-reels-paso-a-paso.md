@@ -15,7 +15,8 @@ Abel (08/10/2026, «muy importante»): tardé muchísimo con un trial (renderiza
 2. **Trial = iteración del reel de publicar:** se mantiene la estructura y se cambia el gancho (el primer tramo y el título), que tiene que ser distinto de verdad, potente y de dolor. El formato solo cambia si él lo pide. Misma exigencia de calidad: fluido, cortes limpios, coherente a nivel visual y con sentido.
 
 ## Paso a paso (cada reel; nada de render completo hasta el paso 5)
-0. **Al transcribir un horizontal:** mapear sus ganchos (frases que atacan creencias, con buena energía) y sus trozos de colleja y de solución. Los ganchos sin desarrollo detrás van a `MarcaPersonal/banco_ganchos.md` para combinarlos con otro contenido de la misma idea.
+0. **Al transcribir un horizontal: banco de GANCHOS y banco de ESTRUCTURAS** (método 7b de [[reels-marca-personal]]). Los reels se montan combinando un gancho con una estructura de la misma idea.
+0b. (Antes) mapear sus ganchos (frases que atacan creencias, con buena energía) y sus trozos de colleja y de solución. Los ganchos sin desarrollo detrás van a `MarcaPersonal/banco_ganchos.md` para combinarlos con otro contenido de la misma idea.
 1. **Guion antes que herramienta.** Elegir los trozos del horizontal con [[criterios-contenido-util]]:
    - gancho = dolor o verdad incómoda;
    - galletita aplicable;
