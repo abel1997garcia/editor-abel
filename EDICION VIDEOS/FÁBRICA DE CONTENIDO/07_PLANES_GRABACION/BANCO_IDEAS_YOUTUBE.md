@@ -11,7 +11,7 @@
 
 ## Lo práctico (lo que más funciona en Rebeca: ×11 a ×21 su media)
 - ¿Qué publicar en tu marca personal? Estrategia REAL (sin fingir ser otro).
-- Así empezaría mi marca personal desde 0 (CÓPIAME).
+- ✅ Así empezaría mi marca personal desde 0 (CÓPIAME).
 - Mi sistema para que tu marca personal venda sin perseguir a nadie (cópiame).
 - Antes de empezar tu marca personal, mira ESTO.
 - 3 señales de que tu marca personal no se parece a ti.
@@ -45,7 +45,7 @@
 
 ## Héroe Viaje (la energía sexual te afecta a ti, y por eso afecta a tu negocio: el título lo dice claro y con intriga)
 - ✅ Tu energía sexual es lo que te falta delante de la cámara.
-- Tu energía sexual está afectando a tu negocio (y no te das cuenta).
+- ✅ Tu energía sexual está afectando a tu negocio (y no te das cuenta).
 - Lo que haces cada noche se nota en tu negocio al día siguiente.
 - Napoleón Hill escondió ESTO sobre la energía sexual y el dinero.
 - 3 hábitos que le roban la energía a tu negocio (el 2 te va a sorprender).
@@ -56,7 +56,7 @@
 
 ## Documentación (más personal, pero siempre apuntando a quien emprende con su marca personal)
 - Así perdí todo lo que gané con mi primera marca personal (y lo que aprendí).
-- Fregar platos en Australia me enseñó más de vender que 100.000 suscriptores.
+- ✅ Fregar platos en Australia me enseñó más de vender que 100.000 suscriptores.
 - Probé 7 negocios antes de encontrar el mío (lo que nadie te cuenta).
 - El día que dejé de grabar para «demostrar» algo.
 - Volver a empezar desde 0 (lo que haría distinto).

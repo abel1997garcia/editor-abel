@@ -26,15 +26,13 @@ FICHAS DEL CANAL PRINCIPAL Y DE ENERGÍA SEXUAL (modelo: Lavri, `Editor vídeos/
 - **TODO enfocado al 100 % en lo que vende HOY y a quién:** clientes con tu marca personal en Instagram y YouTube, de forma consciente y desde tu verdad.
 - **Su pasado NO es tema.** Solo puede aparecer como prueba dentro de un punto. Nada de cifras de facturación. No inventes resultados de Allan ni de clientes.
   - MAL: «Cómo hice 100K con contenido», «borrar la historia en la que ofreces tus sesiones».
-  - BIEN: «Lo espiritual sí se vende», «Así consigo clientes para un médium sin perseguir a nadie».
+  - BIEN: «Estoy harto de que os mientan sobre la marca personal (lo digo claro)», «Así empezaría mi marca personal desde 0 (CÓPIAME)».
 
 Formato exacto (Abel 11/10/2026: lo justo para echarle un vistazo, el resto lo dice él a su manera):
    TÍTULO: el título del vídeo, con INTRIGA: nunca revela lo que se va a explicar (MAL: «(el 2 es el porno)»; BIEN: «(el 2 te va a sorprender)», «(no es lo que crees)»). AMPLIO, para cualquiera con marca personal, como Lavri y Rebeca: sin nombrar profesiones (terapeuta, médium, coach) y mejor «marca personal» y «clientes» que «agenda». Su avatar sale cuando lo explica. Hazlo atractivo como Lavri y Rebeca: como mucho UNA palabra en MAYÚSCULAS, paréntesis, números y comillas, mezclados y variados.
    IDEA: en una frase, de qué va de verdad el vídeo (lo que el título no revela).
    ARRANQUE: 1-2 frases para los primeros 10 segundos, contra lo que dice el mercado o con una promesa, que dejen INTRIGA para quedarse a ver el vídeo.
-   PUNTO 1: UNA frase.
-   PUNTO 2: UNA frase.
-   PUNTO 3: UNA frase.
+   PUNTO 1 / PUNTO 2 / PUNTO 3: UNA frase cada uno. Se pueden llamar PASO, SEÑAL o ERROR según la estructura del día.
      - Cada punto es UNA frase MUY CORTA (unas 10-12 palabras). Si el vídeo es de errores, el error y ya, sin explicarlo (Abel: «te enrollas demasiado»). Además, se entiende a la primera, toca MUY FUERTE el dolor emocional de la persona y tiene connotación negativa.
      - Le señala con claridad qué hace mal y lo que siente o le cuesta (rabia, vergüenza, miedo, sentir que no vale…).
      - SIEMPRE ÚTIL para el cliente de Abel: un error concreto de su negocio o su contenido que pueda reconocer y corregir, nunca solo un diagnóstico emocional.

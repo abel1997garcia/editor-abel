@@ -121,3 +121,29 @@ Cada día, una ficha para el canal principal, otra para el de energía sexual y 
 **ARRANQUE:** «Antes de encontrar lo mío lo probé casi todo, y durante años pensé que eso me hacía un fracasado.»
 **Qué contar:** antes de que algo encajara hiciste páginas web, dropshipping, Facebook Ads, trading, una aplicación propia y dos canales de YouTube que no despegaron.
 **Qué te dejó:** hoy sabes que cada intento te quitó una opción que no eras, y si emprendes, lo que no te ha funcionado te está enseñando qué marca personal es de verdad la tuya.
+
+## 2026-10-11 · Canal principal (segunda tanda)
+**TÍTULO:** Así empezaría mi marca personal desde 0 (CÓPIAME)
+**IDEA:** Los 3 pasos que darías hoy si empezaras de cero, empezando por dentro y no por el contenido.
+**ARRANQUE:** «Si hoy empezara mi marca personal desde cero, no abriría Canva ni buscaría tendencias: haría tres cosas que casi nadie hace, y la primera no tiene nada que ver con las redes.»
+**PASO 1:** Mirar qué miedo te frena a enseñarte antes de publicar nada.
+**PASO 2:** Hablar de un solo problema de tu cliente, con sus palabras.
+**PASO 3:** Publicar lo que piensas de verdad, aunque incomode.
+**SOLUCIÓN:** Empieza por lo que eres, no por lo que se lleva, y el contenido sale solo.
+**APUNTE DE SU HISTORIA:** —
+
+## 2026-10-11 · Canal de energía sexual (segunda tanda)
+**TÍTULO:** Tu energía sexual está afectando a tu negocio (y no te das cuenta)
+**IDEA:** La energía que pierdes con el porno y la eyaculación se nota en tu constancia, tu presencia y tus ventas.
+**ARRANQUE:** «Hay algo que haces casi cada noche que se nota al día siguiente en tu negocio, y aunque nadie te lo diga, tus clientes lo están notando.»
+**SEÑAL 1:** Empiezas proyectos con fuerza y los abandonas a la semana.
+**SEÑAL 2:** Te grabas o vendes sin energía y nadie te elige.
+**SEÑAL 3:** Te escondes en el móvil justo cuando toca hacer lo importante.
+**SOLUCIÓN:** Retén y mete esa energía, cada mañana, en lo que más te cuesta de tu negocio.
+**APUNTE DE SU HISTORIA:** —
+
+## 2026-10-11 · Canal de documentación (segunda tanda)
+**TEMA:** Fregar platos en Australia me enseñó más de vender que 100.000 suscriptores
+**ARRANQUE:** «Tuve 100.000 suscriptores, y donde de verdad entendí lo que es vender fue fregando platos a 20 dólares la hora.»
+**Qué contar:** en Brisbane fregabas platos 7-8 horas al día por 20 dólares australianos la hora, sin que nadie supiera quién eras ni cuántos seguidores habías tenido.
+**Qué te dejó:** (propuesta, ajústala a lo que viviste) que lo que hace que alguien te elija no son tus números, sino cómo le haces sentir, y en tu marca personal pasa exactamente lo mismo.

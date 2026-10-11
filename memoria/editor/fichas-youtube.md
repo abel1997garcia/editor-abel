@@ -35,3 +35,5 @@ Tarea diaria `fichas-youtube-del-dia` a las 8:00. Las reglas y el formato exacto
 **Documentación, ejemplo aprobado:** «Mientras construyes para demostrarle algo a alguien, nada de lo que construyes es tuyo».
 
 **ESLOGAN (11/10/2026): «Autenticidad que vende»** (en `00-avatar-operativo.md`). Abel quería que «lo entienda todo el mundo», y le daba igual que se pareciera en la forma a «contenido que vende» de Lavri. Rechazó las abstractas («marca con alma», «con conciencia», «marca que atrae») porque no las entendería todo el mundo o eran demasiado de Lavri en el fondo.
+
+**VERSIÓN PARA EL CLAUDE DEL MÓVIL (11/10/2026):** Google Doc «CLAUDE MÓVIL · Ideas de YouTube (instrucciones completas)» en Drive, FÁBRICA DE CONTENIDO/PARA GRABAR (id `13eFJB__3wdjZNpuH8uhGwOu6pVNbiOvUZEOhFzY7NbU`). Es autocontenido: nicho, avatar, contra el mercado, creencias, formato, momentos reales, temas usados y banco. Abel lo pega en un Proyecto de Claude. **Cada vez que cambien las reglas de las fichas o se usen ideas nuevas, hay que rehacer ese doc**, y pasar al registro `FICHAS_YOUTUBE.md` las fichas que él haya generado desde el móvil.
