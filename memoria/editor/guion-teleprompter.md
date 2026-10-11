@@ -24,6 +24,12 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 
 **UNA IDEA = UN REEL.** Si la referencia es viral pero no cumple algo (no tiene colleja, mezcla ideas, no da solución…), se mira de qué va y se adapta hasta que cumpla la estructura.
 
+**🟢 FORMATO DEFINITIVO DEL GUION DE REEL (Abel, 11/10/2026, MANDA SOBRE TODO LO DE ABAJO):**
+- **El doc lleva SOLO:** `# Título` · `**Idea:**` · `## Hooks` (3) · `**Problema:**` en UNA frase · `**Solución:**` en UNA frase.
+- **Él lo graba todo del tirón con sus palabras.** Sin «cómo lo diría yo», sin teleprompter: pasar el guion al teleprompter «es más lento» y suena menos natural.
+- **TODO apunta al avatar y a lo que vende** (coaches, terapeutas, guías…; agenda, clientes, contenido, precio, cámara), aunque sea de forma indirecta. Las referencias de emociones generales se bajan a su negocio. Ej.: «Dar demasiadas explicaciones es una respuesta al trauma» pasa a «Dar tantas explicaciones de tu precio es una respuesta al trauma».
+- Siguen valiendo el test de hooks de [[ganchos]], la coherencia y la connotación negativa.
+
 **🎙️ APRENDER SU VOZ DE VERDAD (Abel 10/10/2026: «pásame ejemplos de cómo hablaría yo, incluso un audio, transcríbelo y analiza tono y ritmo… si no, no nos vamos a aclarar»).**
 - Él manda audios o vídeos hablando a su manera (a GRABADOS en Drive, G:).
 - Yo los transcribo, los analizo con `estilo_voz.py` y el texto, y actualizo `FÁBRICA DE CONTENIDO/01_MI_MARCA/mi-voz/mi-voz.md`.
