@@ -119,7 +119,7 @@ Agenda llena con clientes que le escriben porque conectan con su mensaje; cobrar
   - la referencia de Napoleón Hill, aterrizada.
 - **Remate:** si emprendes o quieres vivir de lo tuyo, esa energía es la que te llena la agenda.
 - **La conexión con lo que vende tiene que ser EXPLÍCITA** (contenido, cámara, constancia, clientes, agenda), no un genérico «tu proyecto» (11/10).
-- **Avatar de ese canal:** hombres que practican la retención y quieren más energía, dinero y libertad. Muchos emprenden o quieren emprender.
+- **Avatar de ese canal:** un hombre que quiere usar su energía para ser MEJOR en general (más presencia, disciplina, dinero y libertad). Los títulos le hablan a él, y Abel lo baja al negocio y la marca personal al explicarlo (11/10).
 
 ## Bio (la que tiene puesta en Instagram y YouTube, 11/10/2026)
 «Si emprendes, te enseño a potenciar tu negocio con tu marca personal, sin perseguir clientes ni perder tu esencia.» Eslogan: «Autenticidad que vende».

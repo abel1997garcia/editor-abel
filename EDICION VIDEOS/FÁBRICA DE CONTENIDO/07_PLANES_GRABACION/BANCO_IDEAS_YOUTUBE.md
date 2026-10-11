@@ -6,6 +6,7 @@
 > - Mejor «marca personal» y «clientes» que «agenda».
 > - Su avatar sale solo cuando lo explica con sus palabras.
 > - **Formato atractivo, como Lavri y Rebeca:** UNA palabra en MAYÚSCULAS como mucho (nunca todo el título), paréntesis («(cópiame)», «(confesión)», «(el 3 es el peor)»), números («3 señales», «desde 0», «12 minutos») y comillas («profesional»). Mezclado y variado, no todo en cada título.
+> - **INTRIGA en TODOS los títulos (Abel 11/10):** que no revelen lo que se va a explicar. MAL: «3 hábitos que te quitan presencia (el 2 es el porno)». BIEN: «(el 2 te va a sorprender)», «(no es lo que crees)», «ESTO».
 > La tarea de fichas diarias las usa y marca con ✅ las ya dadas.
 
 ## Lo práctico (lo que más funciona en Rebeca: ×11 a ×21 su media)
@@ -42,15 +43,15 @@
 - «Las redes no son para mí»: por qué los introvertidos venden mejor.
 - «No tengo tiempo para hacer contenido»: así lo hago en una hora a la semana.
 
-## Héroe Viaje (energía sexual, rematado en la marca personal, mismo estilo de título)
+## Héroe Viaje (energía sexual: el título habla del hombre que quiere usar su energía para ser mejor; Abel lo baja al negocio al explicarlo)
 - ✅ Tu energía sexual es lo que te falta delante de la cámara.
-- Tu energía sexual es lo que le falta a tu marca personal (se nota en 2 segundos).
-- Napoleón Hill tenía razón: cómo convertir tu energía sexual en clientes.
-- Por qué recaes justo antes de grabar (y cómo usarlo a tu favor).
-- 3 hábitos que te quitan presencia en tus vídeos (el 2 es el porno).
-- La retención no te hace «más hombre», te hace más CONSTANTE.
-- La energía que tiras cada noche es la que le falta a tu marca personal.
-- Así la retención me dio presencia delante de la cámara (antes y después).
+- Esto es lo que de verdad haces con tu energía cuando nadie te ve.
+- Napoleón Hill escondió ESTO sobre la energía sexual.
+- 3 hábitos que te roban la energía sin que te des cuenta (el 2 te va a sorprender).
+- Por qué siempre recaes justo cuando mejor te va.
+- La retención no te hace «más hombre» (te hace algo mucho mejor).
+- Lo que cambió en mí después de 90 días de retención (no es lo que crees).
+- El error que comete casi todo hombre que practica la retención.
 
 ## Documentación (más personal, pero siempre apuntando a quien emprende con su marca personal)
 - Así perdí todo lo que gané con mi primera marca personal (y lo que aprendí).

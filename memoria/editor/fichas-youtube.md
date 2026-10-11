@@ -10,7 +10,7 @@ metadata:
 
 **3 canales de YouTube al día:**
 - **principal:** el nicho de `00-avatar-operativo.md`;
-- **Héroe Viaje:** energía sexual bajada al negocio;
+- **Héroe Viaje:** energía sexual. El avatar es un hombre que quiere usar su energía para ser mejor en general; los títulos le hablan a él y Abel lo baja al negocio al explicarlo;
 - **documentación:** sus reflexiones y creencias, contadas desde su vida.
 
 Tarea diaria `fichas-youtube-del-dia` a las 8:00. Las reglas y el formato exacto están en su SKILL.md. Lee y amplía `FÁBRICA DE CONTENIDO/07_PLANES_GRABACION/FICHAS_YOUTUBE.md` para no repetir nunca, y usa primero `07_PLANES_GRABACION/BANCO_IDEAS_YOUTUBE.md`.
@@ -22,7 +22,8 @@ Tarea diaria `fichas-youtube-del-dia` a las 8:00. Las reglas y el formato exacto
 - **Contra el mercado:** tabla en `00-avatar-operativo.md`.
 - **TÍTULOS AMPLIOS (11/10):** le hablan a cualquiera con marca personal, como Lavri y Rebeca. Sin profesiones ni nichos en el título (MAL: «…si fuera terapeuta»), y mejor «marca personal» que «agenda». El avatar sale solo al explicarlo. Para que el título sea atractivo: una palabra en MAYÚSCULAS como mucho, paréntesis («(cópiame)», «(confesión)»), números y comillas, mezclados y variados.
 - **Formato aprobado (11/10):**
-  - IDEA;
+  - TÍTULO con INTRIGA (nunca revela lo que explica);
+  - IDEA (de qué va de verdad, en una frase);
   - ARRANQUE con intriga;
   - PUNTO 1/2/3, UNA frase MUY CORTA cada uno (unas 10-12 palabras; si son errores, el error y ya: «te enrollas demasiado»): se entiende a la primera, toca MUY FUERTE el dolor emocional, con connotación negativa, y señala claramente qué hace mal y lo que siente; y SIEMPRE ÚTIL para quien le vende (un error concreto de su negocio o su contenido que pueda corregir; Abel 11/10: «no te olvides de eso»);
   - SOLUCIÓN en una frase, útil y aplicable ya (o una por punto, según el vídeo);
