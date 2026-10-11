@@ -5,20 +5,22 @@
 > - Sin nombrar profesiones (terapeuta, médium, coach…) ni nichos.
 > - Mejor «marca personal» y «clientes» que «agenda».
 > - Su avatar sale solo cuando lo explica con sus palabras.
+> - **Formato atractivo, como Lavri y Rebeca:** UNA palabra en MAYÚSCULAS como mucho (nunca todo el título), paréntesis («(cópiame)», «(confesión)», «(el 3 es el peor)»), números («3 señales», «desde 0», «12 minutos») y comillas («profesional»). Mezclado y variado, no todo en cada título.
 > La tarea de fichas diarias las usa y marca con ✅ las ya dadas.
 
 ## Lo práctico (lo que más funciona en Rebeca: ×11 a ×21 su media)
-- ¿Qué publicar en tu marca personal? Estrategia real (sin fingir ser otro).
-- Así empezaría mi marca personal desde 0 (cópiame).
+- ¿Qué publicar en tu marca personal? Estrategia REAL (sin fingir ser otro).
+- Así empezaría mi marca personal desde 0 (CÓPIAME).
 - Mi sistema para que tu marca personal venda sin perseguir a nadie (cópiame).
-- Antes de empezar tu marca personal, mira esto.
-- ¿Quieres una marca personal que se sienta como tú? Mira esto.
+- Antes de empezar tu marca personal, mira ESTO.
+- 3 señales de que tu marca personal no se parece a ti.
 - Así atraerás clientes con tu marca personal siendo tú (cópiame).
-- Así está creciendo una marca personal desde cero (caso real, con Allan).
+- Así está creciendo una marca personal desde 0 (caso real, con Allan).
+- 5 errores que hacen que tu marca personal no venda (el 3 es el peor).
 
 ## Contra el mercado
 - ✅ No necesitas hacerte viral para llenar tu agenda (lo que necesitas es esto).
-- Estoy harto de que os mientan sobre la marca personal.
+- Estoy harto de que os mientan sobre la marca personal (lo digo claro).
 - Setter, closer y embudos: por qué a tu marca personal le sobran.
 - Deja de grabar con guiones: así se habla para que te escriban.
 - Publicar todos los días está matando tu marca personal.
@@ -28,14 +30,14 @@
 
 ## Dolores y mentalidad (siempre rematados en la marca personal)
 - ✅ Las 3 razones por las que nadie te escribe aunque publiques todos los días.
-- Por esto cobras barato con tu marca personal.
-- ¿Te da miedo subir tus precios? Haz esto hoy.
-- Lo que tuve que sanar para que mi marca personal funcionara.
+- Por esto cobras barato con tu marca personal (y cómo dejar de hacerlo).
+- ¿Miedo a subir tus precios? Haz esto HOY.
+- Lo que tuve que sanar para que mi marca personal funcionara (confesión).
 - El miedo a que te vean está frenando tu marca personal.
-- Ser tan profesional está matando tu marca personal.
+- Ser tan «profesional» está matando tu marca personal.
 - Dame 12 minutos y dejarás de esconderte en tu marca personal.
 - Por qué te da más miedo que te vaya bien que mal.
-- Cómo hablar en tus vídeos para que te sientan, no para que te aplaudan.
+- Cómo hablar en tus vídeos para que te SIENTAN (no para que te aplaudan).
 - Si copias a tu mentor, tu marca personal nunca va a ser tuya.
 - «Las redes no son para mí»: por qué los introvertidos venden mejor.
 - «No tengo tiempo para hacer contenido»: así lo hago en una hora a la semana.
