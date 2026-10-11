@@ -61,3 +61,5 @@ Cada uno le da la vuelta a una creencia popular, con la connotación negativa m�
 - «Cuando sacas esa emoción…» — «esa» sin referente (08/10).
 
 **How to apply:** antes de fijar un gancho, compararlo con esta lista. Si ninguna frase del tramo rompe una creencia, abrir con su momento más fuerte (historia) y avisarle.
+
+**Al sacar ganchos de un vídeo (Abel 11/10/2026):** hacer un índice LARGO (20 o más) y ordenarlo poniendo primero los que hablan DIRECTAMENTE a la persona («Te pones una máscara para que no te critiquen», «Si tienes 50 gustos…»), que son más fuertes. Los generales o impersonales («Quien mucho abarca, poco aprieta») van para trial.
