@@ -1,0 +1,229 @@
+{
+ "estilo": "franjas_azules",
+ "video": "C:/Users/Clap/Desktop/los objetos se impregnan de energia.mp4",
+ "tiempos": "trabajo/objetos/tiempos.json",
+ "componer": {
+  "fondo": "plantillas/fondo_franjas_azules.png",
+  "y": 588,
+  "alto": 768
+ },
+ "nombre": "objetos_01_cuidado",
+ "titulo": "HAY OBJETOS QUE NUNCA DEBERÍAS TENER EN CASA",
+ "lineas": [
+  [
+   0,
+   3,
+   "Cuidado con los objetos"
+  ],
+  [
+   4,
+   8,
+   "que tienes en tu casa."
+  ],
+  [
+   9,
+   11,
+   "Podría ser peligroso."
+  ],
+  [
+   12,
+   16,
+   "Hay objetos que todos tenemos"
+  ],
+  [
+   17,
+   19,
+   "en nuestros hogares"
+  ],
+  [
+   26,
+   30,
+   "que pertenecen a otras personas,"
+  ],
+  [
+   31,
+   33,
+   "a otros lugares,"
+  ],
+  [
+   34,
+   35,
+   "o incluso"
+  ],
+  [
+   36,
+   39,
+   "coleccionistas que nos gustan"
+  ],
+  [
+   40,
+   42,
+   "los objetos antiguos."
+  ],
+  [
+   84,
+   86,
+   "Cuando ha habido"
+  ],
+  [
+   87,
+   90,
+   "algún hecho trágico fuerte,"
+  ],
+  [
+   91,
+   95,
+   "donde ha habido mucha emoción"
+  ],
+  [
+   96,
+   98,
+   "o mucho sufrimiento,"
+  ],
+  [
+   99,
+   103,
+   "siempre los lugares y los objetos"
+  ],
+  [
+   104,
+   109,
+   "se impregnan de esa energía."
+  ],
+  [
+   116,
+   120,
+   "Esas energías permanecen adheridas"
+  ],
+  [
+   121,
+   128,
+   "a los lugares y a los objetos."
+  ],
+  [
+   129,
+   133,
+   "He conocido personas, yo incluido,"
+  ],
+  [
+   134,
+   136,
+   "que siempre hemos"
+  ],
+  [
+   137,
+   139,
+   "tenido esa pasión"
+  ],
+  [
+   140,
+   143,
+   "por las cosas antiguas,"
+  ],
+  [
+   144,
+   145,
+   "de coleccionista."
+  ],
+  [
+   146,
+   148,
+   "O encontramos algo"
+  ],
+  [
+   149,
+   153,
+   "que nos llama la atención,"
+  ],
+  [
+   154,
+   158,
+   "que creemos que es antiguo,"
+  ],
+  [
+   159,
+   164,
+   "nos lo llevamos a nuestro hogar,"
+  ],
+  [
+   165,
+   168,
+   "lo tenemos con nosotros,"
+  ],
+  [
+   169,
+   173,
+   "lo ponemos en nuestro sitio,"
+  ],
+  [
+   174,
+   176,
+   "donde siempre estamos,"
+  ],
+  [
+   177,
+   180,
+   "donde trabajamos, donde dormimos."
+  ],
+  [
+   181,
+   183,
+   "Y esos objetos,"
+  ],
+  [
+   184,
+   186,
+   "no es que"
+  ],
+  [
+   187,
+   190,
+   "vaya a ocurrir nada,"
+  ],
+  [
+   191,
+   193,
+   "no es que"
+  ],
+  [
+   194,
+   198,
+   "te vaya a pasar nada,"
+  ],
+  [
+   199,
+   204,
+   "pero esos objetos emiten una vibración"
+  ],
+  [
+   205,
+   207,
+   "que tienen impregnada,"
+  ],
+  [
+   208,
+   210,
+   "y esa vibración"
+  ],
+  [
+   211,
+   214,
+   "suele ser de sufrimiento,"
+  ],
+  [
+   215,
+   216,
+   "de batallas,"
+  ],
+  [
+   217,
+   219,
+   "de cosas que"
+  ],
+  [
+   220,
+   223,
+   "han ocurrido muy trágicas."
+  ]
+ ]
+}

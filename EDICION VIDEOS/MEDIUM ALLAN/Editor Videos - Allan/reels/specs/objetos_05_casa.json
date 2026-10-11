@@ -1,0 +1,179 @@
+{
+ "estilo": "franjas_azules",
+ "video": "C:/Users/Clap/Desktop/los objetos se impregnan de energia.mp4",
+ "tiempos": "trabajo/objetos/tiempos.json",
+ "componer": {
+  "fondo": "plantillas/fondo_franjas_azules.png",
+  "y": 588,
+  "alto": 768
+ },
+ "nombre": "objetos_05_casa",
+ "titulo": "TU CASA PUEDE ESTAR ESTANCANDO TU ENERGÍA",
+ "lineas": [
+  [
+   1605,
+   1608,
+   "Al final, la energía,"
+  ],
+  [
+   1609,
+   1612,
+   "si no se mueve,"
+  ],
+  [
+   1613,
+   1614,
+   "se queda"
+  ],
+  [
+   1615,
+   1619,
+   "o se va volviendo oscura."
+  ],
+  [
+   1130,
+   1135,
+   "Algunas veces he entrado en hogares"
+  ],
+  [
+   1136,
+   1141,
+   "en los que siento esa energía,"
+  ],
+  [
+   1142,
+   1144,
+   "porque siento que"
+  ],
+  [
+   1145,
+   1148,
+   "la casa, el hogar,"
+  ],
+  [
+   1149,
+   1153,
+   "está lleno de objetos"
+  ],
+  [
+   1154,
+   1156,
+   "con energía densa."
+  ],
+  [
+   1095,
+   1100,
+   "Y hace que incluso la energía"
+  ],
+  [
+   1101,
+   1105,
+   "en la casa no fluya,"
+  ],
+  [
+   1106,
+   1108,
+   "y son personas"
+  ],
+  [
+   1110,
+   1114,
+   "que quizás luego esas personas"
+  ],
+  [
+   1116,
+   1117,
+   "tengan enfermedades,"
+  ],
+  [
+   1118,
+   1120,
+   "estén siempre enfadados,"
+  ],
+  [
+   1121,
+   1123,
+   "no descansen bien."
+  ],
+  [
+   996,
+   1001,
+   "Los espacios abiertos con pocas cosas,"
+  ],
+  [
+   1002,
+   1007,
+   "muy blancos, con muy poquitos objetos,"
+  ],
+  [
+   1008,
+   1011,
+   "siempre hay una energía"
+  ],
+  [
+   1012,
+   1017,
+   "más fluida, más tranquila, más blanca."
+  ],
+  [
+   1032,
+   1036,
+   "Descansamos mejor, estamos más tranquilos."
+  ],
+  [
+   1706,
+   1711,
+   "Cuando hacemos ese tipo de cosas"
+  ],
+  [
+   1712,
+   1714,
+   "realmente estamos canalizando"
+  ],
+  [
+   1715,
+   1718,
+   "esa energía que había"
+  ],
+  [
+   1719,
+   1723,
+   "y estamos limpiando y renovando"
+  ],
+  [
+   1724,
+   1729,
+   "para que entre una energía nueva."
+  ],
+  [
+   1748,
+   1753,
+   "Y se nota cuando una casa"
+  ],
+  [
+   1754,
+   1759,
+   "se pinta, se cambian los muebles,"
+  ],
+  [
+   1760,
+   1764,
+   "se sacan cosas, se vacía,"
+  ],
+  [
+   1765,
+   1767,
+   "se cambian objetos,"
+  ],
+  [
+   1768,
+   1773,
+   "cómo cambia la energía del hogar."
+  ],
+  [
+   1774,
+   1776,
+   "Se nota muchísimo."
+  ]
+ ]
+}

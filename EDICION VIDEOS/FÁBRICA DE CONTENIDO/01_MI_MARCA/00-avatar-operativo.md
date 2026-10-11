@@ -92,6 +92,11 @@ Agenda llena con clientes que le escriben porque conectan con su mensaje; cobrar
 - «Mi caso es diferente.»
 
 ## Contenido: qué entra y cómo se filtra
+**Regla nº 0 (Abel, 11/10/2026): TODO contenido, largo o corto, de los 3 canales, tiene que poder relacionarse al 100 % con la bio, es decir, con a quién vende y qué vende.**
+- La mentalidad entra porque «tú eres tu marca personal».
+- Un tema personal (adicciones, su historia…) SOLO entra si se usa para argumentar algo de la marca personal: una objeción, una duda, un miedo a venderse. Si no, ese trozo no se saca como reel.
+- **Referencia de mezcla:** `Editor vídeos/Referencias/rebeca/ANALISIS.md`. Aproximadamente 30 % mentalidad del emprendedor, 30 % marca personal práctica, 25 % prueba con clientes y 15 % personal, y TODO rematado en lo que vende.
+
 **Regla nº 1 (Abel, 11/10/2026):** cada vídeo y cada reel se enfoca al 100 % en lo que vende HOY y a quién: clientes y dinero con tu marca personal (Instagram y YouTube), de forma consciente y alineada con tu verdad. Su pasado no es tema, solo un apunte breve si suma.
 
 **Todo junto, en tres pilares:**
@@ -116,10 +121,8 @@ Agenda llena con clientes que le escriben porque conectan con su mensaje; cobrar
 - **La conexión con lo que vende tiene que ser EXPLÍCITA** (contenido, cámara, constancia, clientes, agenda), no un genérico «tu proyecto» (11/10).
 - **Avatar de ese canal:** hombres que practican la retención y quieren más energía, dinero y libertad. Muchos emprenden o quieren emprender.
 
-## Bio (propuesta)
-1. Si emprendes, te enseño a llenar tu agenda con tu marca personal.
-2. Sin perseguir clientes ni perder tu autenticidad.
-3. Autenticidad que vende.
+## Bio (la que tiene puesta en Instagram y YouTube, 11/10/2026)
+«Si emprendes, te enseño a potenciar tu negocio con tu marca personal, sin perseguir clientes ni perder tu esencia.» Eslogan: «Autenticidad que vende».
 
 ## Cómo se le habla
 - Presencia y confrontación, de tú a tú y de la calle (ver `mi-voz/mi-voz.md`).

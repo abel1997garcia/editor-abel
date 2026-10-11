@@ -24,7 +24,9 @@ Si el vídeo vertical original de Allan (médium) trae franjas azules de cielo a
   (cielo reconstruido de los reels anteriores) y el vídeo escalado a 1080x768 en y=588 (spec "componer", x=90 para
   centrar su cara). Entregados 4 reels así el 2026-10-06 (desap_01..04). Feedback: frase larguísima en desap_04 (ya corregido).
   2026-10-07: 4 reels de «Cómo conectar con tus guías espirituales» (guias_01..04, horizontal, x=100), subtítulos <= 6
-  palabras partidos a mano, evitando el banner de «Reserva tu cita».
+  palabras partidos a mano, evitando el banner de «Reserva tu cita». Aprobados tras la 3.ª revisión de cortes.
+  2026-10-11: 5 reels de «los objetos se impregnan de energia.mp4» (Escritorio, horizontal 1920x1080): objetos_01..05,
+  hechos con el método aprobado y el protocolo completo.
 
 **Why:** el usuario lo replica de su plantilla de OpusClip y quiere el mismo resultado siempre. Los tamaños los corrigió
 él (la 1.ª versión tenía título 50 px y subtítulos 66 px: subtítulos demasiado grandes).

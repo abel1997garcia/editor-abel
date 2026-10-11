@@ -4,3 +4,4 @@
 - [Fallos edición reels Allan](fallos-edicion-reels-allan.md) — desincronía audio/vídeo (primordial), microcortes y ráfagas de cortes, tamaños, muletillas coladas; medir siempre
 - [Descripción Instagram de cada reel](descripcion-instagram-reels.md) — .txt junto a cada vídeo: gancho crudo entre comillas 👇, conexión, objeción, pregunta, CTA "INFO" de sesiones
 - [Estilo reel franja negra](estilo-reel-franja-negra.md) — canalizaciones: Allan arriba, persona abajo, franja negra con subtítulos Montserrat Bold MAYÚSCULAS 2–3 palabras; gancho = mensaje + confirmación
+- [Usuario y su marca personal](usuario-marca-personal.md) — Abel vende a emprendedores espirituales «llenar agenda sin perseguir clientes»; competidores Abel Guerra (Hawkins, dejar ir) y Candela del Castillo

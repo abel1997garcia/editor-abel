@@ -90,6 +90,11 @@ El usuario pidió apuntar fallos y correcciones. Edición de historia allan medi
    internos), ajustes medidos escuchando (buscar_inicio/buscar_fin), ini_fijo para muletillas pegadas, anti-ráfagas que
    no deshace cortes manuales, fundido 25 ms, y protocolo de escucha de TODOS los empalmes antes de entregar.
 
+22. (objetos, 2026-10-11) Títulos con palabra débil colgando («HAY OBJETOS QUE NO / DEBERÍAS…», «…EN LA / QUE NO…»):
+   reel_franjas.py ahora avisa («AVISO título»); reformular el título. Si una palabra va PEGADA a la anterior sin
+   silencio («antiguo nos lo llevamos»), no cortar ahí: incluir la frase anterior completa. La pasada por tramos de
+   Whisper a veces «repite» frases al final de un tramo: confirmar con oir.py antes de tocar nada (eran invenciones).
+
 **Why:** son errores que ya le costaron revisiones al usuario.
 **How to apply:** antes de entregar: medir_sync.py (todo 0), comprobar_reel.py, y revisar avisos de ráfaga y la lista
 de cortes. Ver [[estilo-reel-franjas-azules]] y [[proceso-reels-allan]].

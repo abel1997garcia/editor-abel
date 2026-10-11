@@ -602,6 +602,9 @@ def main():
     print(f"== {nombre}  duración {dur:.1f} s  ({len(segs)} trozos, {len(subs)} subtítulos)")
     if tl:
         print("   título: " + " / ".join(tl))
+        for l in tl[:-1]:
+            if debil(l):
+                print(f"   AVISO título: la línea «{l}» acaba en palabra débil -> reformula el título")
     guion = []
     for s in subs:
         guion.append(f"{s['t0']:6.2f}-{s['t1']:6.2f}  {s['txt']}")

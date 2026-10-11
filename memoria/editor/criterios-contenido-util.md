@@ -23,6 +23,10 @@ Al **seleccionar clips** de sus vídeos largos, al decidir reels y al planificar
 ## FILTRO DEL NICHO (10/10/2026)
 Todo pasa además el filtro de `00-avatar-operativo.md`.
 
+**AL SACAR REELS O CORTES DE UN VÍDEO LARGO (Abel 11/10/2026):** cada reel tiene que poder relacionarse al 100 % con su bio: «Si emprendes, te enseño a potenciar tu negocio con tu marca personal, sin perseguir clientes ni perder tu esencia».
+- La mentalidad vale, porque «tú eres tu marca personal».
+- Un tema personal (p. ej. sus adicciones) SOLO vale si en ese tramo lo usa para argumentar algo de la marca personal: una objeción, una duda. Un reel que solo habla de adicciones no se saca, porque no se entiende a quién va.
+
 ## BÁJALO A TIERRA (Abel 10/10/2026: «es muy necesario»; reel de Rebeca Schimensky, instagram.com/p/DeU8hHGIXcW)
 **La idea del reel:**
 - Si vendes espiritualidad, lo estás haciendo al revés: la mayoría no tiene ese nivel de consciencia, y no hay que meterle la espiritualidad a la fuerza.

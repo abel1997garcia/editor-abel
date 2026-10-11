@@ -15,6 +15,13 @@ Flujo aprobado por el usuario (2026-10-05, «has encontrado bien los ganchos y e
    Gancho = la frase más fuerte/intrigante del tramo, adelantada al principio (p. ej. «Una voz me dijo: este no es tu
    lugar», «Oigo voces… creo que me estoy volviendo loco», «Me rindo, hasta aquí ha llegado»), y luego la historia que
    lleva hasta ahí, terminando en una frase de cierre (decisión, revelación o lección).
+2b. EL GANCHO TIENE QUE IMPACTAR EN 2-3 SEGUNDOS (feedback 2026-10-11, objetos_05): nada de frases descriptivas que
+   tardan en arrancar («Hay casas, hay hogares que realmente están llenos de muchas cosas» -> rechazado: «no tiene
+   sentido, no impacta, tarda mucho en empezar»). Sí funcionan: advertencia directa («Cuidado con los objetos que tienes
+   en tu casa. Podría ser peligroso»), experiencia personal fuerte («Yo he tenido casos donde empezaba a tener
+   pesadillas»), algo concreto e inquietante («Conozco personas que coleccionan cosas de la guerra»), o una verdad
+   rotunda y corta («Al final, la energía, si no se mueve, se va volviendo oscura»). Si la mejor frase va pegada a otras,
+   medir su inicio/fin escuchando (buscar_inicio/buscar_fin) y usarla igualmente.
 3. Título = intriga / verdad incómoda / algo personal, ≤ 7 palabras, sin repetir literal el gancho
    (aprobados: «UNA VOZ ME DIJO QUE LO DEJARA TODO», «CREÍ QUE ME ESTABA VOLVIENDO LOCO», «TODO CAMBIÓ EL DÍA QUE ME
    RENDÍ», «PEDÍ UNA SEÑAL A DIOS Y ESE MISMO DÍA LLEGÓ», «LO CONSEGUÍ TODO Y SEGUÍA VACÍO»).
