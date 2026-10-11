@@ -285,6 +285,22 @@ def voz_lufs(fuente):
     return float(re.findall(r'I:\s+(-?[\d.]+) LUFS', err)[-1])
 
 
+def solo_voz(cfg, nombre, reel, W):
+    """--voz: <salida>/_<reel>/voz.wav + planos.json, para verificar_audio.py ANTES del render (flujo de reels, paso 3)"""
+    ps = ajustar_finales(cfg['fuente'], W, planos(W, reel)); pads = rellenos(W, ps)
+    tmp = Path(cfg.get('salida', 'out')).resolve() / f'_{nombre}'; tmp.mkdir(parents=True, exist_ok=True)
+    fil = []
+    for k, (t0, t1, g) in enumerate(ps):
+        d = t1 - t0; fo = FUNDIDO if pads[k] > 0 else .01
+        fil.append(f"[0:a]atrim={t0}:{t1},asetpts=PTS-STARTPTS,aresample=48000,afade=t=in:d=0.01,"
+                   f"afade=t=out:st={d - fo:.3f}:d={fo},apad=pad_dur={pads[k]}[a{k}];")
+    fil.append(''.join(f'[a{k}]' for k in range(len(ps))) + f'concat=n={len(ps)}:v=0:a=1,atempo={VELOCIDAD}[voz]')
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', cfg['fuente'], '-filter_complex', ''.join(fil), '-map', '[voz]',
+                    str(tmp / 'voz.wav')], check=True)
+    (tmp / 'planos.json').write_text(json.dumps([None] + [[t0, t1, p] for (t0, t1, _), p in zip(ps, pads)]))
+    return tmp
+
+
 def montar(cfg, nombre, reel, W, cara):
     ps = ajustar_finales(cfg['fuente'], W, planos(W, reel)); cx, fw, fh = cara; anim = ventanas_anim(cfg.get('montaje')); nuc = nucleos(cfg, W)
     toma = 1 if cfg.get('toma') else None
@@ -348,11 +364,14 @@ if __name__ == '__main__':
     W = json.load(open(cfg['tiempos'], encoding='utf-8'))
     tr = Path(cfg['tiempos']).with_name('transcripcion.json')
     PW = json.load(open(tr, encoding='utf-8'))['palabras'] if tr.exists() else []
-    solo = '--texto' in sys.argv
+    solo = '--texto' in sys.argv or '--voz' in sys.argv
     cara = None if solo else centro_cara(cfg['fuente'])
+    elegidos = sys.argv[sys.argv.index('--solo') + 1].split(',') if '--solo' in sys.argv else None
     for nombre, reel in resolver(cfg['reels']).items():
+        if elegidos and nombre not in elegidos: continue
         ps = planos(W, reel)
         print(f"\n== {nombre}: {sum(b - a for a, b, _ in ps) / VELOCIDAD:.1f} s a {VELOCIDAD}x · {len(ps)} planos · «{frase(reel['titulo'])}»")
         print(' | '.join(' '.join(W[i]['w'] for i in g) for _, _, g in ps))
         for a in avisos(W, PW, reel): print('  AVISO:', a)
-        if not solo: print('  ->', montar(cfg, nombre, reel, W, cara))
+        if '--voz' in sys.argv: print('  ->', solo_voz(cfg, nombre, reel, W))
+        elif not solo: print('  ->', montar(cfg, nombre, reel, W, cara))

@@ -68,22 +68,30 @@ def planos(W, cfg):
 
 def montar(cfg, ps):
     cx, fw, fh = centro_cara(cfg['fuente'])
-    fil, T = [], 0.0
+    fil, T, extra = [], 0.0, []
+    despues = [min([p[0] for p in ps[k + 1:]], default=1e9) for k in range(len(ps))]   # el inicio más temprano que viene detrás
     for k, (t0, t1, g, ez) in enumerate(ps):
         d = t1 - t0
+        # un plano fuera de orden (el gancho del final, delante) va con su propia entrada ya buscada: si no, ffmpeg tiene
+        # que guardar en memoria todo el vídeo hasta llegar a él (se quedaba sin memoria con 18 min de toma)
+        if despues[k] < t0:
+            extra += ['-ss', f'{t0:.3f}', '-t', f'{d + .05:.3f}', '-i', cfg['fuente']]; n_in = len(extra) // 6
+            vsrc, asrc, tr, atr = f'[{n_in}:v]', f'[{n_in}:a]', f'trim=0:{d:.3f}', f'atrim=0:{d:.3f}'
+        else:
+            vsrc, asrc, tr, atr = '[0:v]', '[0:a]', f'trim={t0}:{t1}', f'atrim={t0}:{t1}'
         z = f"({ez}*(1+{EMPUJE}+{EMPUJE}*sin(2*PI*({T:.3f}+in/30)/{EMPUJE_PERIODO})))"
         # recorte con precisión de subpíxel (perspective): escalar a píxeles enteros iba a golpecitos.
         # El énfasis se ancla en su cara (x) y en el tercio superior (y)
         x0, y0, w, h = f"{cx / fw:.3f}*(W-W/{z})", f"0.35*(H-H/{z})", f"W/{z}", f"H/{z}"
-        fil.append(f"[0:v]trim={t0}:{t1},setpts=PTS-STARTPTS,fps=30,perspective="
+        fil.append(f"{vsrc}{tr},setpts=PTS-STARTPTS,fps=30,perspective="
                    f"x0='{x0}':y0='{y0}':x1='{x0}+{w}':y1='{y0}':x2='{x0}':y2='{y0}+{h}':x3='{x0}+{w}':y3='{y0}+{h}'"
                    f":interpolation=cubic:eval=frame,setsar=1[v{k}];")
-        fil.append(f"[0:a]atrim={t0}:{t1},asetpts=PTS-STARTPTS,afade=t=in:d=0.01,afade=t=out:st={d - .01:.3f}:d=0.01[a{k}];")
+        fil.append(f"{asrc}{atr},asetpts=PTS-STARTPTS,afade=t=in:d=0.01,afade=t=out:st={d - .01:.3f}:d=0.01[a{k}];")
         T += d
     n = len(ps)
     fil.append(''.join(f'[v{k}][a{k}]' for k in range(n)) + f'concat=n={n}:v=1:a=1[v][a]')
     filtro = Path(cfg['salida']).with_suffix('.filtro.txt'); filtro.write_text(''.join(fil), encoding='utf-8')   # Windows: orden demasiado larga
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', cfg['fuente'], '-/filter_complex', str(filtro), '-map', '[v]', '-map', '[a]',
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', cfg['fuente'], *extra, '-/filter_complex', str(filtro), '-map', '[v]', '-map', '[a]',
                     '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '14', '-pix_fmt', 'yuv420p', '-c:a', 'pcm_s16le', cfg['salida']], check=True)
 
 

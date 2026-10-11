@@ -1,0 +1,325 @@
+{
+ "fuente": "../../VideosLargos/empezar-desde-0/Así empezaría mi marca personal desde 0 - horizontal.mp4",
+ "tiempos": "../../VideosLargos/empezar-desde-0/anim/trabajo/tiempos.json",
+ "montaje": "../../VideosLargos/empezar-desde-0/anim/edicion/montaje.json",
+ "salida": "out_f1",
+ "reels": {
+  "c01_g1e9_F1": {
+   "gancho": [
+    [
+     3321,
+     3332
+    ]
+   ],
+   "cuerpo": [
+    [
+     2350,
+     2505
+    ]
+   ],
+   "titulo": "Si nadie te critica, algo haces mal",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3"
+  },
+  "c02_g17e3_F1": {
+   "gancho": [
+    [
+     1109,
+     1156
+    ]
+   ],
+   "cuerpo": [
+    [
+     1157,
+     1196
+    ],
+    [
+     1207,
+     1235
+    ],
+    [
+     1072,
+     1104
+    ]
+   ],
+   "titulo": "Hablar de todo te deja sin clientes",
+   "musica": "ÉPICA/ECHO SAX END but it sounds like Øneheart.mp3"
+  },
+  "c03_g9e1_F1": {
+   "gancho": [
+    [
+     595,
+     635
+    ]
+   ],
+   "cuerpo": [
+    [
+     636,
+     650
+    ],
+    [
+     680,
+     800
+    ]
+   ],
+   "titulo": "Ese miedo está frenando tu marca personal",
+   "musica": "EMOCIONAL/Outro - M83 only the best part.mp3"
+  },
+  "c04_g5e2_F1": {
+   "gancho": [
+    [
+     1026,
+     1044
+    ]
+   ],
+   "cuerpo": [
+    [
+     835,
+     1005
+    ]
+   ],
+   "titulo": "Separar tu negocio de ti te agota",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3"
+  },
+  "c05_g16e5_F1": {
+   "gancho": [
+    [
+     444,
+     467
+    ]
+   ],
+   "cuerpo": [
+    [
+     1457,
+     1476
+    ],
+    [
+     1504,
+     1554
+    ],
+    [
+     1618,
+     1672
+    ],
+    [
+     1687,
+     1715
+    ]
+   ],
+   "titulo": "Lo que regalas podría ser tu negocio",
+   "musica": "EMOCIONAL/Outro - M83 only the best part.mp3"
+  },
+  "c06_g12e6_F1": {
+   "gancho": [
+    [
+     1759,
+     1765
+    ]
+   ],
+   "cuerpo": [
+    [
+     3120,
+     3276
+    ],
+    [
+     1766,
+     1783
+    ]
+   ],
+   "titulo": "Leer guiones te hace sonar falso",
+   "musica": "ÉPICA/ECHO SAX END but it sounds like Øneheart.mp3"
+  },
+  "c07_g25e7_F1": {
+   "gancho": [
+    [
+     1842,
+     1858
+    ]
+   ],
+   "cuerpo": [
+    [
+     1787,
+     1841
+    ],
+    [
+     1859,
+     1908
+    ],
+    [
+     1321,
+     1363
+    ],
+    [
+     1386,
+     1448
+    ],
+    [
+     1909,
+     1925
+    ]
+   ],
+   "titulo": "Abrir el abanico te deja sin negocio",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3"
+  },
+  "c08_g22e8_F1": {
+   "gancho": [
+    [
+     2248,
+     2340
+    ]
+   ],
+   "cuerpo": [
+    [
+     2200,
+     2246
+    ],
+    [
+     2517,
+     2559
+    ]
+   ],
+   "titulo": "Así nadie va a confiar en ti",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3"
+  },
+  "c09_g13e10_F1": {
+   "gancho": [
+    [
+     2632,
+     2653
+    ]
+   ],
+   "cuerpo": [
+    [
+     2561,
+     2629
+    ],
+    [
+     2654,
+     2743
+    ]
+   ],
+   "titulo": "Vivir pendiente del qué dirán te frena",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3"
+  },
+  "c10_g18e11_F1": {
+   "gancho": [
+    [
+     2914,
+     2922
+    ]
+   ],
+   "cuerpo": [
+    [
+     2747,
+     2912
+    ]
+   ],
+   "titulo": "Agradar a todos te hace invisible",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3"
+  },
+  "t01_g2e9_F1": {
+   "de": "c01_g1e9_F1",
+   "gancho": [
+    [
+     2495,
+     2505
+    ]
+   ],
+   "cuerpo": [
+    [
+     2350,
+     2493
+    ]
+   ]
+  },
+  "t02_g21e3_F1": {
+   "de": "c02_g17e3_F1",
+   "gancho": [
+    [
+     2093,
+     2107
+    ]
+   ],
+   "cuerpo": [
+    [
+     1072,
+     1196
+    ],
+    [
+     1207,
+     1235
+    ]
+   ]
+  },
+  "t03_g20e1_F1": {
+   "de": "c03_g9e1_F1",
+   "gancho": [
+    [
+     336,
+     366
+    ]
+   ],
+   "cuerpo": [
+    [
+     595,
+     650
+    ],
+    [
+     680,
+     800
+    ]
+   ]
+  },
+  "t04_g3e7_F1": {
+   "de": "c07_g25e7_F1",
+   "gancho": [
+    [
+     1826,
+     1841
+    ]
+   ],
+   "cuerpo": [
+    [
+     1787,
+     1813
+    ],
+    [
+     1842,
+     1908
+    ],
+    [
+     1321,
+     1363
+    ],
+    [
+     1386,
+     1448
+    ],
+    [
+     1909,
+     1925
+    ]
+   ]
+  },
+  "t05_g6e11_F1": {
+   "de": "c10_g18e11_F1",
+   "gancho": [
+    [
+     2884,
+     2899
+    ]
+   ],
+   "cuerpo": [
+    [
+     2747,
+     2883
+    ],
+    [
+     2900,
+     2922
+    ]
+   ]
+  }
+ },
+ "toma": "../../VideosLargos/empezar-desde-0/toma_limpia.mov",
+ "ventanas": "../../VideosLargos/empezar-desde-0/ventanas.json"
+}
