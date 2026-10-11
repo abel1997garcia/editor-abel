@@ -43,7 +43,7 @@ Formato exacto (Abel 11/10/2026: lo justo para echarle un vistazo, el resto lo d
    NADA MÁS: NUNCA credencial (eliminada para siempre), ni «lo que dice el mercado», ni cierre, ni miniatura.
 
 FICHA DEL CANAL DE DOCUMENTACIÓN (estructura libre):
-   TEMA: una reflexión o creencia suya, para que la gente conozca cómo piensa (no un hecho de su vida).
+   TEMA: una reflexión o creencia suya, para que la gente conozca cómo piensa (no un hecho de su vida). Escríbelo con el mismo estilo de título que el principal (números, paréntesis, comillas y como mucho una palabra en MAYÚSCULAS). Es más personal, pero apunta a quien emprende con su marca personal.
    ARRANQUE: frase para empezar a contarla.
    Qué contar: el momento real del catálogo que le llevó a pensar así, con sus detalles concretos (edad, lugar, cifra, objeto), en una frase.
    Qué te dejó: cómo vive hoy esa reflexión, en una frase, y cómo se aplica a quien emprende con su marca personal.

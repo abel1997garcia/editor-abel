@@ -42,9 +42,20 @@
 - «Las redes no son para mí»: por qué los introvertidos venden mejor.
 - «No tengo tiempo para hacer contenido»: así lo hago en una hora a la semana.
 
-## Héroe Viaje (energía sexual, rematado en la marca personal)
+## Héroe Viaje (energía sexual, rematado en la marca personal, mismo estilo de título)
 - ✅ Tu energía sexual es lo que te falta delante de la cámara.
+- Tu energía sexual es lo que le falta a tu marca personal (se nota en 2 segundos).
+- Napoleón Hill tenía razón: cómo convertir tu energía sexual en clientes.
+- Por qué recaes justo antes de grabar (y cómo usarlo a tu favor).
+- 3 hábitos que te quitan presencia en tus vídeos (el 2 es el porno).
+- La retención no te hace «más hombre», te hace más CONSTANTE.
 - La energía que tiras cada noche es la que le falta a tu marca personal.
-- Así la retención te da presencia delante de la cámara.
-- Napoleón Hill tenía razón: cómo convertir tu energía sexual en dinero.
-- Por qué recaes justo antes de las semanas importantes de trabajo.
+- Así la retención me dio presencia delante de la cámara (antes y después).
+
+## Documentación (más personal, pero siempre apuntando a quien emprende con su marca personal)
+- Así perdí todo lo que gané con mi primera marca personal (y lo que aprendí).
+- Fregar platos en Australia me enseñó más de vender que 100.000 suscriptores.
+- Probé 7 negocios antes de encontrar el mío (lo que nadie te cuenta).
+- El día que dejé de grabar para «demostrar» algo.
+- Volver a empezar desde 0 (lo que haría distinto).
+- Mi miedo a enseñarme después de haberlo perdido todo (confesión).
