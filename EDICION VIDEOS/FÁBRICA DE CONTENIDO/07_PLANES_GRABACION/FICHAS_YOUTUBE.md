@@ -120,4 +120,4 @@ Cada día, una ficha para el canal principal, otra para el de energía sexual y 
 **TEMA:** Lo que no funcionó también te estaba enseñando quién eres
 **ARRANQUE:** «Antes de encontrar lo mío lo probé casi todo, y durante años pensé que eso me hacía un fracasado.»
 **Qué contar:** antes de que algo encajara hiciste páginas web, dropshipping, Facebook Ads, trading, una aplicación propia y dos canales de YouTube que no despegaron.
-**Qué te dejó:** hoy sabes que cada intento te quitó una opción que no eras, hasta que te quedaste con la que sí.
+**Qué te dejó:** hoy sabes que cada intento te quitó una opción que no eras, y si emprendes, lo que no te ha funcionado te está enseñando qué marca personal es de verdad la tuya.

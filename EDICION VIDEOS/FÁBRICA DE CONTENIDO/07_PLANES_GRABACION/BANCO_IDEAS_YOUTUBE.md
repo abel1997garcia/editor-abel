@@ -49,3 +49,30 @@
 - Así la retención te da presencia delante de la cámara.
 - Napoleón Hill tenía razón: cómo convertir tu energía sexual en dinero.
 - Por qué recaes justo antes de las semanas importantes de trabajo.
+
+## Títulos adaptados de Rebeca y Lavri (11/10/2026)
+> **Lo que más funciona en el canal de Rebeca** (veces su media): «¿Qué y cómo publicar?» ×21, «¿Quieres una marca personal impactante?» ×20, «Así empezaría desde 0 (cópiame)» ×17, «Mi sistema… que vende por mí (CÓPIAME)» ×11, «Antes de empezar mira esto» ×11. La mentalidad pura rinde menos (×3).
+> **Conclusión:** lo práctico de «empezar, qué publicar, cópiame» atrae más. La mentalidad entra mejor dentro de esos vídeos o rematada en el negocio.
+
+**De Rebeca:**
+- ¿Qué publicar si ayudas a otros? Estrategia real para tu marca personal.
+- Así empezaría mi marca personal desde 0 si fuera terapeuta (cópiame).
+- Mi sistema para que los clientes te escriban sin perseguirlos (cópiame).
+- Antes de enseñar tu don en redes, mira esto.
+- ¿Quieres una marca personal que se sienta como tú? Mira esto.
+- Por esto cobras barato aunque ayudes de verdad.
+- ¿Te da culpa cobrar por ayudar? Haz esto hoy.
+- Lo que tuve que sanar para que mi marca personal funcionara.
+- Tu miedo a que te vean te está vaciando la agenda.
+- Por qué te da más miedo que te vaya bien que mal.
+- Ser tan profesional te está quitando clientes.
+- Cómo hablar en tus vídeos para que te sientan, no para que te aplaudan.
+- El error de llenar tu marca personal de embudos y automatismos.
+- Así está creciendo la marca personal de un médium (caso real).
+
+**De Lavri:**
+- Estoy harto de que os mientan: lo espiritual sí se vende.
+- Dame 12 minutos y dejarás de esconder quién eres en redes.
+- Tuve 100.000 suscriptores y ningún cliente que me eligiera de verdad (confesión).
+- Así atraerás clientes publicando desde tu verdad (cópiame).
+- ¿Cuánta vida te cuesta esconder tu don detrás de un trabajo que odias?
