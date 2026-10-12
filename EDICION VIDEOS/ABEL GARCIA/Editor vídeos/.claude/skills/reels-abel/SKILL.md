@@ -21,7 +21,7 @@ Nada se entrega si no pasa el LISTÓN. «No se trata de subir por subir» (Abel,
   - habla de la persona y de lo que le duele, no de Abel; toca un dolor o rompe una creencia, y pasa el test de la memoria `ganchos`.
 - **Reels personales (12/10/2026):** de cada vídeo, uno o dos pueden ir de sus miedos o su historia para que le conozcan. Llevan la misma estructura (gancho → lo que le pasaba → lo que aprendió) y el mismo listón. El título va en primera persona y con connotación negativa («Me daba pánico enseñarme… y por eso no vendía:»). Siempre acaban en algo que sirva a quien emprende (memoria `criterios-contenido-util`).
 - El cuerpo no repite el gancho.
-- Trial = la misma estructura con otro gancho que cumpla lo mismo.
+- **Cada reel tiene algo ÚNICO (Abel 12/10/2026: «aunque cambiemos el gancho, la mayoría del vídeo es el mismo; el mismo día se nota»).** Lo preferible es que el trial lleve OTRA estructura y OTRO gancho del mismo vídeo; para eso el banco tiene que ser grande (20 o más ganchos y todas las estructuras posibles). Si un reel comparte estructura o gancho con otro, vale, pero `programar_youtube.py` los separa al menos 45 días (código `e<N>-g<N>` en el nombre). Calendario: trial 3 al día como máximo (17, 19 y 21 h); publicar 6 al día (14, 16, 18, 20, 22 y 24 h).
 - 40–60 s.
 
 ## 2. Título (arriba)
@@ -50,6 +50,8 @@ Nada se entrega si no pasa el LISTÓN. «No se trata de subir por subir» (Abel,
 - **Sin horizontal editado:** `fuente` = la grabación original y `tiempos` = su `toma_tiempos.json`. Es lo más fiable, porque los tiempos coinciden con el audio exacto.
 - Los tramos se fijan con frases, no con índices a ojo: `herramientas/anclas.py` → `A(tiempos).T('primera frase', 'última frase')`. Contar índices a mano salía desplazado una o dos palabras.
 
+**Zoom de énfasis (F1, siempre):** 2–4 frases clave por reel en `"enfasis"` (con `anclas.py`): el remate del gancho, la colleja y la solución. Nunca sobre la pantalla blanca; la herramienta ya lo evita.
+
 Luego:
 1. `python herramientas/reel_yapping.py reels_f1.json --texto` → leer el texto corrido de cada reel en voz alta.
 2. `... --voz` → `out/_<reel>/voz.wav`. Los microsilencios (≥ 0,2 s) ya salen a ~0,13 s medidos sobre la voz real (`microcortes`), sin cortar palabras.
@@ -70,7 +72,7 @@ Luego:
   - un título que tape algo.
 
 ## 6. Entrega
-- Copiar a `MarcaPersonal/REELS/«NNN · PUBLICAR|TRIAL · <vídeo> · <título>.mp4»` (una sola carpeta, sin semanas; NNN = el siguiente número libre = orden de subida; al programarse pasan a `REELS/programados/`), con su `.txt` del mismo nombre (título, descripción, hashtags). Un trial nunca va justo después de su reel de publicar.
+- Copiar a `MarcaPersonal/REELS/«NNN · PUBLICAR|TRIAL · <vídeo> · e<N>-g<N> · <título>.mp4»` (una sola carpeta, sin semanas; NNN = el siguiente número libre = orden de subida; al programarse pasan a `REELS/programados/`), con su `.txt` del mismo nombre (título, descripción, hashtags). Un trial nunca va justo después de su reel de publicar.
 - `MarcaPersonal/<tema>/plan.md`.
 - Borrar `out_f1/`.
 - Nada se programa sin su OK.

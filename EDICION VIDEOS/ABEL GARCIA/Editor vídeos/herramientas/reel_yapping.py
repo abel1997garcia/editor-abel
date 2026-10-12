@@ -10,7 +10,8 @@ config.json:
 { "fuente": "vídeo horizontal editado (1920x1080)", "tiempos": "trabajo/tiempos.json (palabras en el tiempo del vídeo editado)",
   "montaje": "edicion/montaje.json del proyecto horizontal (qué tramos son animación)", "salida": "out",
   "reels": { "nombre": { "tramos": [[i0, i1], ...], "quitar": [i, ...], "titulo": "en minúsculas, con la primera en mayúscula",
-                         "musica": "EMOCIONAL/tema.mp3", "desde": null } } }
+                         "musica": "EMOCIONAL/tema.mp3", "desde": null,
+                         "enfasis": [[i0, i1], ...] } } }   frases clave con zoom de énfasis (2–4 por reel; nunca sobre la pantalla blanca)
 tramos = índices de palabra en el orden en que se oyen; o por partes: "gancho", "cuerpo", "final" (se unen en ese orden).
 Variante: { "de": "reel_1", "gancho": [...], "titulo": "..." } hereda todo de reel_1 y cambia solo lo que trae.
  música = ruta dentro de MUSICA; "desde" = segundo de la
@@ -36,9 +37,10 @@ PAUSA_MAX = .45   # pero solo si la pausa que los separa es natural; más larga,
 PAUSA_UNIR = .65  # una palabra suelta («dije», «y») nunca se queda en un plano de medio segundo: se une a su frase si la pausa es ≤ esto
 COLA = .45         # el último plano respira
 ZOOM = 1.10        # acercamiento alterno solo en los cortes de contenido (aprobado en los reels)
+ENFASIS = 1.25     # zoom de énfasis en las frases clave del reel ("enfasis" en el config; Abel 12/10/2026). Nunca sobre la pantalla blanca
 
 # --- música: 26 dB por debajo de la voz (la voz va tal cual), empezando en el estribillo y a su velocidad normal
-MUSICA_DB, MUSICA_IN, MUSICA_OUT = -18, .4, 1.5   # Abel, 07/10/2026: a −26 dB «no hay música»
+MUSICA_DB, MUSICA_IN, MUSICA_OUT = -15, .4, 1.5   # Abel 12/10/2026: 15 dB por debajo de la voz (antes −18; a −26 «no hay música»)
 COLA_FINAL = .5   # el reel acaba con medio segundo de aire tras la última palabra
 FUNDIDO = .04     # fundido de audio en los cortes pegados: nunca un empalme seco (Abel: «se corta muy brusco»)
 
@@ -62,6 +64,7 @@ def resolver(reels):
 
 def planos(W, reel):
     quitar = set(reel.get('quitar', []))
+    enf = {i for a, b in reel.get('enfasis', []) for i in range(a, b + 1)}     # frases clave: su propio plano, con zoom
     grupos = []
     for a, b in reel['tramos']:
         g = []
@@ -69,13 +72,13 @@ def planos(W, reel):
             if i in quitar:
                 if g: grupos.append(g); g = []
                 continue
-            if g and W[i]['s'] - W[g[-1]]['e'] > PAUSA: grupos.append(g); g = []
+            if g and (W[i]['s'] - W[g[-1]]['e'] > PAUSA or (i in enf) != (g[-1] in enf)): grupos.append(g); g = []
             g.append(i)
         if g: grupos.append(g)
     dur = lambda g: W[g[-1]]['e'] - W[g[0]]['s']
     # unir trocitos cortos con su vecino si son palabras seguidas y la pausa es natural (≤ PAUSA_MAX); un silencio más
     # largo se recorta siempre (Abel, 08/10/2026: «no es fluido ni dinámico»: quedaban pausas de hasta 1,4 s dentro de los planos)
-    unible = lambda i, j: j == i + 1 and W[j]['s'] - W[i]['e'] <= PAUSA_UNIR
+    unible = lambda i, j: j == i + 1 and W[j]['s'] - W[i]['e'] <= PAUSA_UNIR and (i in enf) == (j in enf)
     k = 0
     while k < len(grupos):
         g = grupos[k]
@@ -333,6 +336,18 @@ def voz_lufs(fuente):
     return float(re.findall(r'I:\s+(-?[\d.]+) LUFS', err)[-1])
 
 
+def ganancia_musica(mus, desde, dur, l_voz):
+    """dB que hay que aplicar a la música para que el trozo que suena (desde el estribillo, lo que dura el reel) quede
+    exactamente MUSICA_DB por debajo de la voz. Se mide ESE trozo, no la canción entera (Abel 12/10/2026: cada canción suena
+    con una intensidad distinta; el volumen tiene que ser el mismo en todos los reels). Ganancia fija: no bombea"""
+    err = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-ss', str(desde), '-t', f'{dur:.2f}', '-i', str(mus), '-vn', '-af', 'ebur128',
+                          '-f', 'null', '-'], capture_output=True, text=True).stderr
+    l_mus = float(re.findall(r'I:\s+(-?[\d.]+) LUFS', err)[-1])
+    g = max(-30, min(-5, l_voz)) + MUSICA_DB - l_mus
+    print(f'  música: el estribillo suena a {l_mus:.1f} LUFS, la voz a {l_voz:.1f} → {g:+.1f} dB (queda {-MUSICA_DB} dB por debajo)')
+    return g
+
+
 def solo_voz(cfg, nombre, reel, W):
     """--voz: <salida>/_<reel>/voz.wav + planos.json, para verificar_audio.py ANTES del render (flujo de reels, paso 3)"""
     ps = ajustar_finales(cfg['fuente'], W, planos(W, reel)); pads = rellenos(W, ps)
@@ -365,12 +380,13 @@ def montar(cfg, nombre, reel, W, cara):
     shutil.copy(FUENTE_TTF, tmp / 'm.ttf')
     ass(reel['titulo'], [(a / VELOCIDAD, b / VELOCIDAD, t) for a, b, t in subtitulos(W, ps, pads)], tmp / 's.ass')
     fil, z = [], ZOOM
+    enf = {i for a, b in reel.get('enfasis', []) for i in range(a, b + 1)}
     ch0 = fh; cw0 = ch0 * 4 / 3                       # 4:3 a toda la altura del original, centrado en su cara
     for k, (t0, t1, g) in enumerate(ps):
         prev = ps[k - 1][2][-1] if k else None
         if k == 0 or g[0] != prev + 1: z = 1.0 if z != 1.0 else ZOOM
         tz = trozos(t0, t1, g, W, anim, nuc) if toma else [(t0, t1, 0, [(max(a, t0), min(b, t1)) for a, b, _ in anim if a < t1 and b > t0])]
-        zz = 1.0 if any(d for *_, d in tz) else z                          # con animación, sin acercamiento
+        zz = 1.0 if any(d for *_, d in tz) else (ENFASIS if set(g) <= enf else z)   # con animación o pantalla blanca, sin acercamiento
         cw, ch = cw0 / zz, ch0 / zz; xc = f'{min(max(cx - cw / 2, 0), fw - cw):.1f}'; y = (fh - ch) * .35
         for j, (a, b, src, dentro) in enumerate(tz):
             x = xc
@@ -397,7 +413,7 @@ def montar(cfg, nombre, reel, W, cara):
         print(f'  música: {reel["musica"]} desde {desde} s')
         entradas += ['-ss', str(desde), '-i', mus]
         # su voz no se toca (Abel: nunca bajarla); la música se iguala a la voz y queda MUSICA_DB por debajo
-        fil.append(f"[{mi}:a]atrim=0:{dur:.3f},loudnorm=I={max(-30, min(-5, voz_lufs(cfg['fuente']))):.1f}:TP=-2:LRA=11,volume={MUSICA_DB}dB,"
+        fil.append(f"[{mi}:a]atrim=0:{dur:.3f},volume={ganancia_musica(mus, desde, dur, voz_lufs(cfg['fuente'])):.2f}dB,"
                    f"afade=t=in:d={MUSICA_IN},afade=t=out:st={dur - MUSICA_OUT:.3f}:d={MUSICA_OUT}[mu];"
                    f"[voz][mu]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.891:level=0,aresample=48000[a]")
     else:

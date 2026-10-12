@@ -6,10 +6,12 @@
     python programar_youtube.py --subir --solo c01     -> solo los que contengan ese texto
 
 Todo lo listo está en MarcaPersonal/REELS/, numerado en el orden de subida (Abel 12/10/2026: una sola carpeta, sin semanas):
-  «NNN · PUBLICAR · <vídeo> · <título>.mp4» -> canal principal: 5 al día, a las HORAS_PUBLICAR
-  «NNN · TRIAL · <vídeo> · <título>.mp4»    -> canal trial: 3 al día, a las HORAS_TRIAL
+  «NNN · PUBLICAR · <vídeo> · e<N>-g<N> · <título>.mp4» -> canal principal: 6 al día, a las HORAS_PUBLICAR
+  «NNN · TRIAL · <vídeo> · e<N>-g<N> · <título>.mp4»    -> canal trial: 3 al día como máximo, a las HORAS_TRIAL
+e<N>-g<N> = estructura y gancho dentro de ese vídeo. Dos reels del mismo vídeo con la misma estructura o el mismo gancho
+(publicar o trial, da igual) nunca salen a menos de SEPARACION días (Abel 12/10/2026: «el mismo día se nota»).
 Cada vídeo usa el .txt de al lado: 1.ª línea = título (gancho), todo el texto = descripción.
-Rellena los huecos libres en orden de número. Al programarse, el vídeo y su .txt pasan a REELS/programados/ (y a programados.json).
+Rellena los huecos libres mezclando vídeos (nunca dos seguidos del mismo si hay de otros). Al programarse, el vídeo y su .txt pasan a REELS/programados/ (y a programados.json).
 Configuración (URL del webhook y clave): youtube_config.json (no se comparte).
 """
 import json, re, subprocess, sys, tempfile, datetime as dt
@@ -18,15 +20,24 @@ from zoneinfo import ZoneInfo
 
 AQUI = Path(__file__).resolve().parent
 MP = AQUI.parents[1] / 'MarcaPersonal'
-HORAS_PUBLICAR = ['16:00', '18:00', '20:00', '22:00', '24:00']   # Abel 08/10: 5 al día, hora de España (24:00 = medianoche, pensando en Latinoamérica)
-HORAS_TRIAL = ['17:00', '19:00', '21:00']                         # 3 al día
+HORAS_PUBLICAR = ['14:00', '16:00', '18:00', '20:00', '22:00', '24:00']   # Abel 12/10: 5–6 al día, cada ~2 h, hora de España (24:00 = medianoche, Latinoamérica)
+HORAS_TRIAL = ['17:00', '19:00', '21:00']                         # 3 al día COMO MÁXIMO (límite de Instagram para trials)
+SEPARACION = 45                                                    # días entre reels que comparten estructura o gancho
 ZONA = ZoneInfo('Europe/Madrid')
 MAX_MB = 15                                               # límite habitual de subida a un webhook de n8n Cloud: si pesa más, se recomprime
 
 REELS = MP / 'REELS'
 
 def videos(tipo):
-    return sorted(v for v in REELS.glob('*.mp4') if f' · {tipo.upper()} · ' in v.name)
+    """en orden de subida, MEZCLANDO vídeos (Abel 12/10/2026: «si pones todos de empezar, va a ser muy de lo mismo»): uno de cada
+    vídeo por turno, empezando por el que tiene más pendientes; dentro de cada vídeo, por número"""
+    from collections import defaultdict
+    g = defaultdict(list)
+    for v in sorted(v for v in REELS.glob('*.mp4') if f' · {tipo.upper()} · ' in v.name): g[v.name.split(' · ')[2]].append(v)
+    out = []
+    while any(g.values()):
+        for k in sorted((k for k in g if g[k]), key=lambda k: -len(g[k])): out.append(g[k].pop(0))
+    return out
 
 def textos(v):
     t = v.with_suffix('.txt')
@@ -35,6 +46,11 @@ def textos(v):
     titulo = s.split('\n')[0].strip()
     titulo = (titulo[:95] + '…') if len(titulo) > 96 else titulo
     return titulo, s
+
+def familia(nombre):
+    """{'empezar-e9', 'empezar-g2'} a partir de «NNN · TIPO · empezar · e9-g2 · título»"""
+    p = nombre.split(' · ')
+    return {f'{p[2]}-{c}' for c in p[3].split('-')} if len(p) > 4 else set()
 
 def huecos(horas, ocupados, minimo):
     d = minimo.date()
@@ -47,8 +63,9 @@ def huecos(horas, ocupados, minimo):
         d += dt.timedelta(days=1)
 
 def ligero(v):
-    if v.stat().st_size / 1e6 <= MAX_MB: return v
-    tmp = Path(tempfile.gettempdir()) / ('yt_' + v.name)
+    tmp = Path(tempfile.gettempdir()) / f'yt_{v.name[:3]}.mp4'     # nombre ASCII: curl en Windows no abre rutas con «·», «», tildes
+    if v.stat().st_size / 1e6 <= MAX_MB:
+        import shutil; shutil.copy(v, tmp); return tmp
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', str(v), '-c:v', 'libx264', '-crf', '23', '-preset', 'slow', '-maxrate', '3M', '-bufsize', '6M',
                     '-c:a', 'aac', '-b:a', '160k', '-movflags', '+faststart', str(tmp)], check=True)
     return tmp
@@ -70,13 +87,17 @@ def main():
     for carpeta, canal, horas in (('publicar', 'principal', HORAS_PUBLICAR), ('trial', 'trial', HORAS_TRIAL)):
         minimo = dt.datetime.now(ZONA) + dt.timedelta(hours=1 if cfg.get('requiere_ok', True) else 24)   # automático: ≥ 24 h de margen para poder quitarlo
         if cfg.get('desde'): minimo = max(minimo, dt.datetime.fromisoformat(cfg['desde']).replace(tzinfo=ZONA))   # no antes de esta fecha
-        libres = huecos(horas, {o[len(canal):] for o in ocupados if o.startswith(canal)}, minimo)
+        gen = huecos(horas, {o[len(canal):] for o in ocupados if o.startswith(canal)}, minimo)
+        pool = [next(gen) for _ in range(len(horas) * 400)]
+        fechas = [(familia(k), dt.datetime.fromisoformat(x['cuando'])) for k, x in hecho.items()] + [(familia(v.name), t) for v, _, t in plan]
         for v in videos(carpeta):
             clave = v.name
             if clave in hecho: continue
             if cfg.get('requiere_ok', True) and clave not in oks: pendientes.append(clave); continue
             if solo and not any(x in v.name for x in solo): continue
-            plan.append((v, canal, next(libres)))
+            fam = familia(v.name)
+            t = next(t for t in pool if not any(fam & f and abs((t - u).days) < SEPARACION for f, u in fechas))
+            pool.remove(t); fechas.append((fam, t)); plan.append((v, canal, t))
     subir = '--subir' in sys.argv
     for v, canal, t in plan:
         titulo, desc = textos(v)

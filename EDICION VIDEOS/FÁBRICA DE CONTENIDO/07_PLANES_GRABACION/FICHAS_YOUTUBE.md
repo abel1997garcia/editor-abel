@@ -149,7 +149,7 @@ Cada día, una ficha para el canal principal, otra para el de energía sexual y 
 **Qué te dejó:** (propuesta, ajústala a lo que viviste) que lo que hace que alguien te elija no son tus números, sino cómo le haces sentir, y en tu marca personal pasa exactamente lo mismo.
 
 ## 2026-10-12 · Canal principal
-**TÍTULO:** Por ESTO cobras barato con tu marca personal (no es lo que crees)
+**TÍTULO:** 5 señales de que cobras BARATO con tu marca personal (la última duele)
 **IDEA:** No cobras poco por el mercado ni por tener pocos seguidores, sino por la culpa y el miedo al «no», y se te nota en el contenido y en cada conversación.
 **ARRANQUE:** «Te han dicho que bajes precios para empezar y que ya subirás cuando tengas clientes; hoy vas a ver cinco señales de que el problema no es tu precio, y la quinta es la que más duele.»
 **SEÑAL 1:** Haces descuento antes de que nadie te lo pida, por miedo al «no».
@@ -161,7 +161,7 @@ Cada día, una ficha para el canal principal, otra para el de energía sexual y 
 **APUNTE DE SU HISTORIA:** Cuando pagaste 900 € por un curso fue la primera vez que te lo tomaste en serio: a tu cliente le pasa lo mismo.
 
 ## 2026-10-12 · Canal de energía sexual
-**TÍTULO:** Por qué recaes en el porno justo cuando tu negocio empieza a ir bien (no es casualidad)
+**TÍTULO:** ESTO le pasa a tu energía sexual cuando tu negocio empieza a crecer (3 pasos)
 **IDEA:** Cuando empiezan a escribirte clientes aparece el miedo a crecer y a exponerte más, y el porno es la forma de bajar esa energía y volver a lo de siempre.
 **ARRANQUE:** «Llevas semanas grabando, por fin te escribe un cliente y esa misma noche recaes; no es mala suerte, y lo que hay detrás te está frenando el negocio.»
 **LA IDEA FUERTE:** Te da más miedo que te vaya bien que seguir igual, y lo frenas con lo de siempre.
@@ -172,7 +172,8 @@ Cada día, una ficha para el canal principal, otra para el de energía sexual y 
 **APUNTE DE SU HISTORIA:** —
 
 ## 2026-10-12 · Canal de documentación
-**TEMA:** Si finges en tus vídeos, lo acabas pagando por dentro (confesión)
+**TÍTULO:** Nadie sabía lo que me pasaba a las 3:40 de la mañana (CONFESIÓN)
+**TEMA:** Si finges en tus vídeos, lo acabas pagando por dentro.
 **ARRANQUE:** «Durante años subí vídeos motivacionales con la sonrisa puesta, y nadie sabía cómo me despertaba por las noches.»
 **Qué contar:** con 100.000 suscriptores subías vídeos motivacionales entre semana sonriendo a cámara, y te despertabas de madrugada, sobre las 3:40, con el corazón acelerado, y a eso lo llamabas «estar espabilado».
 **Qué te dejó:** hoy solo grabas lo que de verdad piensas y vives, y si emprendes, tu cliente nota la careta aunque no sepa explicarlo: lo que te hace vender sin quemarte es ser en cámara el mismo que eres fuera.

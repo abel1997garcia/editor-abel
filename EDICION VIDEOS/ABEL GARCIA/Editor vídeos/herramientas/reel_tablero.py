@@ -20,7 +20,7 @@ F4 · él a pantalla completa en vertical (motor_f4.html): "formato": "F4", "ima
 F5 · CASUAL, reels de guion grabados con el móvil (motor_f5.html): "formato": "F5", "titulo" (crudo, completa el hook; todo el reel).
      Como F4 en cortes y zooms, pero sin imágenes, sin escenas y sin efectos; subtítulos en una línea de ≤ 4 palabras.
 Gancho en el tablero desde el segundo 0; después tablero ↔ él en grande cada 4–6 s, cambiando entre palabras.
-Su voz va tal cual (a 1,10x, como todo el reel); la música 26 dB por debajo desde el estribillo; los efectos que
+Su voz va tal cual (a 1,10x, como todo el reel); la música 15 dB por debajo (MUSICA_DB) desde el estribillo; los efectos que
 declaran las escenas (suena) con la proporción del horizontal.
 """
 import json, math, os, shutil, subprocess, sys
@@ -28,7 +28,7 @@ from pathlib import Path
 import numpy as np
 AQUI = Path(__file__).resolve().parent
 sys.path[:0] = [str(AQUI), str(AQUI / 'pizarra')]
-from reel_yapping import frase, planos, VELOCIDAD, MUSICA, MUSICA_IN, MUSICA_OUT, AIRE, MUSICA_DB, COLA_FINAL, FUNDIDO, rellenos, ajustar_finales, estribillo, voz_lufs, centro_cara
+from reel_yapping import frase, planos, VELOCIDAD, MUSICA, MUSICA_IN, MUSICA_OUT, AIRE, MUSICA_DB, COLA_FINAL, FUNDIDO, rellenos, ajustar_finales, estribillo, voz_lufs, centro_cara, ganancia_musica
 from ventanas import buscar
 
 TAB = AQUI / 'tablero'
@@ -217,7 +217,7 @@ def hacer(cfg, nombre, reel, W, PW, cara, modo):
         if desde is None: desde = catm.get(reel['musica'], {}).get('estribillo') or estribillo(str(mus), dur)
         print(f"  música: {reel['musica']} desde {desde} s")
         ent += ['-ss', str(desde), '-i', str(mus)]
-        fil += (f"[3:a]atrim=0:{dur:.3f},loudnorm=I={max(-30, min(-5, l_voz)):.1f}:TP=-2:LRA=11,volume={MUSICA_DB}dB,aresample={SR},"
+        fil += (f"[3:a]atrim=0:{dur:.3f},volume={ganancia_musica(mus, desde, dur, l_voz):.2f}dB,aresample={SR},"
                 f"afade=t=in:d={MUSICA_IN},afade=t=out:st={dur - MUSICA_OUT:.3f}:d={MUSICA_OUT}[mu];[vf][mu]amix=inputs=2:duration=first:normalize=0[mx];")
     else:
         fil += '[vf]anull[mx];'

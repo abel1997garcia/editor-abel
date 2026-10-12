@@ -15,7 +15,7 @@ Abel (08/10/2026, «muy importante»): tardé muchísimo con un trial (renderiza
 
 ## Prioridad
 1. **Primero los reels de PUBLICAR**: son los buenos y donde va el esfuerzo.
-2. **Trial = iteración del reel de publicar:** se mantiene la estructura y se cambia el gancho (el primer tramo y el título), que tiene que ser distinto de verdad, potente y de dolor. El formato solo cambia si él lo pide. Misma exigencia de calidad: fluido, cortes limpios, coherente a nivel visual y con sentido.
+2. **Trial:** **Cada reel tiene algo ÚNICO (Abel 12/10/2026: «aunque cambiemos el gancho, la mayoría del vídeo es el mismo; el mismo día se nota»).** Lo preferible es que el trial lleve OTRA estructura y OTRO gancho del mismo vídeo; para eso el banco tiene que ser grande (20 o más ganchos y todas las estructuras posibles). Si un reel comparte estructura o gancho con otro, vale, pero `programar_youtube.py` los separa al menos 45 días (código `e<N>-g<N>` en el nombre). Calendario: trial 3 al día como máximo (17, 19 y 21 h); publicar 6 al día (14, 16, 18, 20, 22 y 24 h).
 
 ## Paso a paso (cada reel; nada de render completo hasta el paso 5)
 0. **Al transcribir un horizontal: banco de GANCHOS y banco de ESTRUCTURAS** (método 7b de [[reels-marca-personal]]). Los reels se montan combinando un gancho con una estructura de la misma idea.

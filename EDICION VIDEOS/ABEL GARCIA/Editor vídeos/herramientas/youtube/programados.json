@@ -13,5 +13,85 @@
   "canal": "trial",
   "cuando": "2026-10-09T19:00:00+02:00",
   "respuesta": "{\"ok\":true}"
+ },
+ "011 · PUBLICAR · empezar · e9-g1 · Si nadie te critica, tu contenido NO vende.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-12T18:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "022 · PUBLICAR · fregar · e1-g1 · Si persigues a tus clientes, jamás te van a comprar.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-12T20:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "027 · PUBLICAR · energia · e1-g1 · Hasta los que más trabajan caen en este error de foco.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-12T22:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "003 · PUBLICAR · travesia · e2-g21 · No les importas tanto como crees.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-13T00:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "013 · PUBLICAR · empezar · e3-g17 · Por esto hablar de 50 temas te deja sin clientes.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-13T14:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "023 · PUBLICAR · fregar · e2-g2 · Por esto tu contenido no transmite confianza.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-13T16:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "029 · PUBLICAR · energia · e2-g3 · No existe la «competencia», existe tu miedo a vender.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-13T18:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "005 · PUBLICAR · travesia · e3-g31 · Quieres cambiar tu vida, pero no te fías de lo que sientes.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-13T20:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "015 · PUBLICAR · empezar · e2-g5 · Separar tu negocio de quién eres te está agotando.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-13T22:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "024 · PUBLICAR · fregar · e3-g3 · Por esto atraes clientes que solo buscan tu dinero.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-14T00:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "030 · PUBLICAR · energia · e3-g5 · Si te cohíbes al publicar, olvídate de vender con tu marca.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-14T14:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "007 · PUBLICAR · travesia · e4-g41 · Todo lo que callas sale algún día.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-14T16:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "025 · PUBLICAR · fregar · e4-g4 · Por esto te sientes vacío aunque te vaya bien.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-14T18:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "032 · PUBLICAR · energia · e4-g6 · Por esto «ver más cursos» no te hace vender más.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-14T20:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "009 · PUBLICAR · travesia · e5-g51 · No existe ninguna casualidad.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-14T22:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "018 · PUBLICAR · empezar · e7-g25 · Si ofreces de todo, jamás vas a llenar tu agenda.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-15T00:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
  }
 }

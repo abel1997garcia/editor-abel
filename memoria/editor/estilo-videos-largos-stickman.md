@@ -13,7 +13,7 @@ Estilo de los vídeos largos de YouTube de Abel. **Es su producto principal**: a
 ## ESTÁNDAR (Abel, 11/10/2026): edición sencilla, SIN animaciones
 Graba 3 horizontales al día (canal principal, energía sexual y documentación). Las animaciones eran ~70-80 % del gasto y del tiempo, así que por defecto ninguno las lleva:
 - Se quitan silencios, errores y repeticiones; acercamiento leve y continuo y **zooms de énfasis** en sus opiniones fuertes, siempre fluidos. Sus planos nunca se reencuadran.
-- **Frases clave como rompepatrón (5–8 por vídeo):** pantalla blanca con la frase en negro (Inter 900), centrada y dentro del 4:3. Su voz sigue debajo y el corte es seco. Van en su historia, en la «galletita» y en sus frases de batalla.
+- **Frases clave como rompepatrón, SIEMPRE (5–8 por vídeo; Abel 12/10/2026: «la única animación por regla» en los horizontales):** pantalla blanca con la frase en negro (Inter 900), centrada y dentro del 4:3. Su voz sigue debajo y el corte es seco. Van en su historia, en la «galletita» y en sus frases de batalla.
 - **Sonido:** su voz tal cual, sin música ni efectos. **El final no se toca**: lo cierra él.
 - **Animaciones de pizarra: solo si Abel lo pide** (p. ej. un vídeo de venta). La receta está guardada abajo; no se borra nada.
 

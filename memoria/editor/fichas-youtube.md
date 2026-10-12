@@ -1,11 +1,11 @@
 ---
 name: fichas-youtube
-description: "Abel's daily YouTube sheets (main + Héroe Viaje + documentation): one potent idea 100% about what he sells today and to whom, against the market, Lavri-style structure (hook, credential, market, 3 points, close)"
+description: "Abel's daily YouTube sheets (main + Héroe Viaje + documentation): one potent idea 100% about what he sells today; título ≤100 car. con número + 1 MAYÚSCULA; rotar bloques de A-QUIEN-LE-VENDO; doc también lleva TÍTULO"
 metadata:
   node_type: memory
   type: feedback
   originSessionId: 3d4589e7-425f-4ade-ad39-5d4a51f78758
-  modified: 2026-10-10T22:44:04.138Z
+  modified: 2026-10-12T13:53:47.422Z
 ---
 
 **3 canales de YouTube al día:**
@@ -20,7 +20,9 @@ Tarea diaria `fichas-youtube-del-dia` a las 8:00. Las reglas y el formato exacto
 - **TODO al 100 % en lo que vende HOY y a quién**, igual que Labri con «contenido que vende». La mentalidad también remata ahí.
 - **Su pasado no es tema** (17.000 €/mes, 100K, perderlo todo, Australia): «es pasado y otro contexto».
 - **Contra el mercado:** tabla en `00-avatar-operativo.md`.
-- **TÍTULOS AMPLIOS (11/10):** le hablan a cualquiera con marca personal, como Lavri y Rebeca. Sin profesiones ni nichos en el título (MAL: «…si fuera terapeuta»), y mejor «marca personal» que «agenda». El avatar sale solo al explicarlo. Para que el título sea atractivo: una palabra en MAYÚSCULAS como mucho, paréntesis («(cópiame)», «(confesión)»), números y comillas, mezclados y variados.
+- **TÍTULOS AMPLIOS (11/10):** le hablan a cualquiera con marca personal, como Lavri y Rebeca. Sin profesiones ni nichos en el título (MAL: «…si fuera terapeuta»), y mejor «marca personal» que «agenda». El avatar sale solo al explicarlo. Títulos optimizados (12/10): ≤ 100 caracteres, UN número, UNA palabra en MAYÚSCULAS selectiva y paréntesis o comillas («(cópiame)», «(confesión)»). La ficha de documentación también lleva TÍTULO, y aún más emocional.
+- **INTRIGA DE VERDAD (12/10, «si en el título lo explico todo, no tiene sentido»):** el título nombra el tema pero NUNCA la respuesta ni el porqué. MAL: «Recaes en la retención JUSTO cuando tu negocio va bien», «Con 100.000 suscriptores sonreía en cámara y a las 3:40 no dormía». BIEN: los tres aprobados por Abel el 12/10 («brutal, así sí»): «5 señales de que cobras BARATO con tu marca personal (la última duele)»; «ESTO le pasa a tu energía sexual cuando tu negocio empieza a crecer (3 pasos)»; «Nadie sabía lo que me pasaba a las 3:40 de la mañana (CONFESIÓN)».
+- **VARIEDAD (12/10, «no quiero que suenen repetitivos»):** leer las fichas de los días anteriores y sacar cada una de un bloque de `A-QUIEN-LE-VENDO.md` u objeción del avatar distinto del de los últimos 3 días.
 - **Formato aprobado (11/10):**
   - TÍTULO con INTRIGA (nunca revela lo que explica);
   - IDEA (de qué va de verdad, en una frase);
