@@ -1,6 +1,6 @@
 ---
 name: reels-abel
-description: Sacar reels de Abel de un vídeo horizontal (F1 sin animaciones, F2 o F3) con el listón de calidad que exige. Úsala siempre que haya que hacer, rehacer o revisar reels de publicar/ o trial/.
+description: Sacar reels de Abel de un vídeo horizontal (F1 sin animaciones, F2 o F3) con el listón de calidad que exige. Úsala siempre que haya que hacer, rehacer o revisar reels (publicar o trial).
 ---
 
 # Reels de Abel desde un horizontal
@@ -19,6 +19,7 @@ Nada se entrega si no pasa el LISTÓN. «No se trata de subir por subir» (Abel,
   - se entiende sola: sin «eso», «esto» o «con eso» sin referente. Si lo lleva, se coge también la frase de antes («Los que más dinero hacen es una cosa específica… Cuando te haces bueno con eso, nunca te va a faltar negocio»);
   - no depende del vídeo del que sale: nada de «esto que te estoy explicando», «este vídeo» o «lo que te he comentado» (el gancho de «sin guiones» falló por eso, 12/10/2026);
   - habla de la persona y de lo que le duele, no de Abel; toca un dolor o rompe una creencia, y pasa el test de la memoria `ganchos`.
+- **Reels personales (12/10/2026):** de cada vídeo, uno o dos pueden ir de sus miedos o su historia para que le conozcan. Llevan la misma estructura (gancho → lo que le pasaba → lo que aprendió) y el mismo listón. El título va en primera persona y con connotación negativa («Me daba pánico enseñarme… y por eso no vendía:»). Siempre acaban en algo que sirva a quien emprende (memoria `criterios-contenido-util`).
 - El cuerpo no repite el gancho.
 - Trial = la misma estructura con otro gancho que cumpla lo mismo.
 - 40–60 s.
@@ -69,7 +70,7 @@ Luego:
   - un título que tape algo.
 
 ## 6. Entrega
-- Copiar a `MarcaPersonal/publicar|trial/semana_<lunes>/<día>_<tema>_<cNN|tNN>_g<N>e<N>_F1.mp4` con su `.txt` (título, descripción, hashtags).
+- Copiar a `MarcaPersonal/REELS/«NNN · PUBLICAR|TRIAL · <vídeo> · <título>.mp4»` (una sola carpeta, sin semanas; NNN = el siguiente número libre = orden de subida; al programarse pasan a `REELS/programados/`), con su `.txt` del mismo nombre (título, descripción, hashtags). Un trial nunca va justo después de su reel de publicar.
 - `MarcaPersonal/<tema>/plan.md`.
 - Borrar `out_f1/`.
 - Nada se programa sin su OK.

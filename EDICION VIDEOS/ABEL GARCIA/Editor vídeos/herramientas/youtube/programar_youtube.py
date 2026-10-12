@@ -5,11 +5,11 @@
     python programar_youtube.py --ok adicciones c02   -> Abel da el OK a esos vídeos (mientras requiere_ok = true)
     python programar_youtube.py --subir --solo c01     -> solo los que contengan ese texto
 
-· MarcaPersonal/publicar/semana_*/  -> canal principal: 5 al día, a las HORAS_PUBLICAR
-· MarcaPersonal/trial/semana_*/     -> canal trial: 3 al día, a las HORAS_TRIAL
+Todo lo listo está en MarcaPersonal/REELS/, numerado en el orden de subida (Abel 12/10/2026: una sola carpeta, sin semanas):
+  «NNN · PUBLICAR · <vídeo> · <título>.mp4» -> canal principal: 5 al día, a las HORAS_PUBLICAR
+  «NNN · TRIAL · <vídeo> · <título>.mp4»    -> canal trial: 3 al día, a las HORAS_TRIAL
 Cada vídeo usa el .txt de al lado: 1.ª línea = título (gancho), todo el texto = descripción.
-Empieza mañana y rellena los huecos libres en orden (por semana y por día del nombre: lun, mar, mié…).
-Lo ya programado queda en programados.json y no se vuelve a subir.
+Rellena los huecos libres en orden de número. Al programarse, el vídeo y su .txt pasan a REELS/programados/ (y a programados.json).
 Configuración (URL del webhook y clave): youtube_config.json (no se comparte).
 """
 import json, re, subprocess, sys, tempfile, datetime as dt
@@ -21,15 +21,12 @@ MP = AQUI.parents[1] / 'MarcaPersonal'
 HORAS_PUBLICAR = ['16:00', '18:00', '20:00', '22:00', '24:00']   # Abel 08/10: 5 al día, hora de España (24:00 = medianoche, pensando en Latinoamérica)
 HORAS_TRIAL = ['17:00', '19:00', '21:00']                         # 3 al día
 ZONA = ZoneInfo('Europe/Madrid')
-DIAS = ['lun', 'mar', 'mie', 'mié', 'jue', 'vie', 'sab', 'sáb', 'dom']
 MAX_MB = 15                                               # límite habitual de subida a un webhook de n8n Cloud: si pesa más, se recomprime
 
-def videos(carpeta):
-    out = []
-    for sem in sorted((MP / carpeta).glob('semana_*')):
-        for v in sorted(sem.glob('*.mp4'), key=lambda p: (p.parent.name, DIAS.index(p.name.split('_')[0]) if p.name.split('_')[0] in DIAS else 9, p.name)):
-            out.append(v)
-    return out
+REELS = MP / 'REELS'
+
+def videos(tipo):
+    return sorted(v for v in REELS.glob('*.mp4') if f' · {tipo.upper()} · ' in v.name)
 
 def textos(v):
     t = v.with_suffix('.txt')
@@ -67,7 +64,7 @@ def main():
         nuevos = sys.argv[sys.argv.index('--ok') + 1:]
         for c in ('publicar', 'trial'):
             for v in videos(c):
-                if any(x in v.name for x in nuevos): oks.add(str(v.relative_to(MP))); print('OK de Abel:', v.name)
+                if any(x in v.name for x in nuevos): oks.add(v.name); print('OK de Abel:', v.name)
         json.dump(sorted(oks), open(ok_p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1); return
     solo = sys.argv[sys.argv.index('--solo') + 1:] if '--solo' in sys.argv else None
     for carpeta, canal, horas in (('publicar', 'principal', HORAS_PUBLICAR), ('trial', 'trial', HORAS_TRIAL)):
@@ -75,7 +72,7 @@ def main():
         if cfg.get('desde'): minimo = max(minimo, dt.datetime.fromisoformat(cfg['desde']).replace(tzinfo=ZONA))   # no antes de esta fecha
         libres = huecos(horas, {o[len(canal):] for o in ocupados if o.startswith(canal)}, minimo)
         for v in videos(carpeta):
-            clave = str(v.relative_to(MP))
+            clave = v.name
             if clave in hecho: continue
             if cfg.get('requiere_ok', True) and clave not in oks: pendientes.append(clave); continue
             if solo and not any(x in v.name for x in solo): continue
@@ -83,7 +80,7 @@ def main():
     subir = '--subir' in sys.argv
     for v, canal, t in plan:
         titulo, desc = textos(v)
-        print(f'{canal:9s} {t:%a %d/%m %H:%M}  {v.parent.name}/{v.name}  «{titulo}»')
+        print(f'{canal:9s} {t:%a %d/%m %H:%M}  {v.name}')
         if not subir: continue
         f = ligero(v)
         r = subprocess.run(['curl', '-s', '-f', '--show-error', '-X', 'POST', cfg['webhook'], '-H', f"{cfg['cabecera']}: {cfg['clave']}",
@@ -91,8 +88,11 @@ def main():
                             '-F', f'descripcion={desc}', '-F', f'publicar_en={t.astimezone(dt.timezone.utc):%Y-%m-%dT%H:%M:%SZ}'],
                            capture_output=True, text=True)
         if r.returncode: print('   ERROR al subir:', r.stderr or r.stdout); break
-        hecho[str(v.relative_to(MP))] = {'canal': canal, 'cuando': t.isoformat(), 'respuesta': r.stdout.strip()}
+        hecho[v.name] = {'canal': canal, 'cuando': t.isoformat(), 'respuesta': r.stdout.strip()}
         json.dump(hecho, open(est_p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+        (REELS / 'programados').mkdir(exist_ok=True)
+        for x in (v, v.with_suffix('.txt')):
+            if x.exists(): x.rename(REELS / 'programados' / x.name)
         print('   programado', r.stdout.strip())
     if pendientes: print('\nEsperando el OK de Abel (' + str(len(pendientes)) + '):', *pendientes, sep='\n  ')
     if not plan: print('Nada listo para programar.')

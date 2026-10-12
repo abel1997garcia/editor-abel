@@ -125,20 +125,20 @@ Cada reel (también los de trial) lleva su propia descripción, escrita como hab
 4. **Cierre corto** que confronte o deje algo que hacer.
 5. **`#abelunidad #autoconocimiento #espiritualidad`** al final, siempre, los 3 (Abel, 08/10/2026; antes solo #abelunidad).
 Ejemplo suyo: «Lo que te da miedo de morir no es la muerte, es darte cuenta de que igual no has vivido tu vida. / Porque en el fondo actúas como si esto fuera infinito. Aguantas un trabajo que odias, sigues con gente con la que ya no quieres estar, no haces eso que llevas años pensando porque "ya habrá tiempo"… y así se te van los años. Yo no creo que cuando mueres simplemente desaparezcas y ya está, para mí la muerte es un cambio de conciencia, no el final. Pero precisamente por eso cada vez entiendo menos vivir con miedo a hacer lo que de verdad quieres hacer aquí. No sé qué hay después ni te voy a vender que lo sé, pero sí sé que algún día este cuerpo se acaba. / Y hay decisiones que llevas demasiado tiempo dejando para luego. / #abelunidad»
-Va en un `.txt` con el mismo nombre que el vídeo, al lado (`publicar|trial/semana_…/`), y en el `plan.md`.
+Va en un `.txt` con el mismo nombre que el vídeo, al lado (en `MarcaPersonal/REELS/`), y en el `plan.md`.
 
 ## Mensajes, variantes y carpetas
 - **Mensajes:** de cada horizontal, tantos como haya buenos, ninguno por poner. Cada uno ataca una creencia u objeción, recoge una frase de batalla o algo que él piensa, o deja algo aplicable; auténtico, con su **punto diferenciador** (lo más importante), claro y que transmita autoridad. Gancho = 90 %; estructura con sentido hasta el final; útil, que deje ganas de más; conecta con el avatar. Duración la que pida el mensaje: mínimo 40 s, lo óptimo en torno a 1 min (hasta ~1:15), medido en el reel final.
 - **Cada reel = gancho (g1, g2…) + estructura (e1, e2…: qué trozos, en qué orden y cómo acaba) + formato (F1–F3).**
-- **`publicar/`** (hasta 3 por mensaje): gancho, estructura y formato distintos (si solo hay un buen gancho, uno).
+- **PUBLICAR** (hasta 3 por mensaje): gancho, estructura y formato distintos (si solo hay un buen gancho, uno).
 - **TRIALS (Abel, 08/10/2026):**
-  - **Lo fundamental son los reels de `publicar/`** (los verticales nuevos): ahí va el esfuerzo y van primero.
+  - **Lo fundamental son los reels de PUBLICAR** (los verticales nuevos): ahí va el esfuerzo y van primero.
   - **Los trials son iteraciones** para sacar más vídeos de un contenido parecido: **se mantiene la estructura del reel de publicar y se cambia el gancho**, que tiene que ser distinto de verdad (no casi idéntico), igual de potente, hablar de un dolor y entenderse solo, sin contexto ([[ganchos]]). El formato solo cambia si él lo dice.
   - **Mismo nivel de calidad que un publicable:** fluido, sin cortes malos, coherente a nivel visual (ningún tablero vacío, nada de escenas de medio segundo, nada repetido en pantalla) y con sentido. Todo verificado con `verificar_audio.py`.
   - Paso a paso en [[flujo-reels-paso-a-paso]].
 - **F1:** siempre con su cara (y, en horizontales estándar, las frases clave en blanco, que se entienden solas). Sin animaciones de pizarra desde el 12/10/2026.
-- **`trial/`** (Instagram los enseña solo a no seguidores): el primer publicable en los otros 2 formatos (prueba de formato) y, si sobran ganchos buenos, misma estructura y formato con el gancho alternativo (prueba de gancho).
-- **Archivos:** `MarcaPersonal/publicar/` y `MarcaPersonal/trial/`, cada una **por semanas** (`semana_<lunes AAAA-MM-DD>/`), con el día delante del nombre: `<día>_<vídeo>_c<NN>_g<N>e<N>_<F1|F2|F3>.mp4` (p. ej. `mie_dopamina_c03_g2e2_F2.mp4`), para mezclar vídeos en el calendario. Y un `MarcaPersonal/<vídeo>/plan.md` con cada reel: mensaje, gancho (frase exacta), estructura, formato, título, música, duración, carpeta, semana y día (los del mismo mensaje, separados).
+- **TRIAL** (Instagram los enseña solo a no seguidores): el primer publicable en los otros 2 formatos (prueba de formato) y, si sobran ganchos buenos, misma estructura y formato con el gancho alternativo (prueba de gancho).
+- **Archivos (Abel 12/10/2026: «tener dos carpetas y por semanas es una liada»):** todo en `MarcaPersonal/REELS/«NNN · PUBLICAR|TRIAL · <vídeo> · <título>.mp4»` (una sola carpeta, sin semanas; NNN = el siguiente número libre = orden de subida; al programarse pasan a `REELS/programados/`). Cada uno con su `.txt` al lado y un `MarcaPersonal/<vídeo>/plan.md` (mensaje, gancho, título, música, duración). `programar_youtube.py` lee esta carpeta.
 
 **How to apply:** antes de entregar, volver a transcribir el MP4 final y leerlo entero.
 

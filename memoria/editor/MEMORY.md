@@ -1,6 +1,6 @@
 - [Aprender de cada edición](aprender-de-cada-edicion.md) — Abel quiere que guarde errores y feedback tras cada vídeo para mejorar
 - [Registro de edición de Abel](registro-edicion-abel.md) — leer ANTES de editar: microsilencios ≥ 0,2 s a ~0,14 s siempre, sin cortar palabras, lo aprobado, errores a evitar
-- [Reels de marca personal](reels-marca-personal.md) — F1/F2/F3 si la fuente es horizontal; F5 CASUAL para los reels de guion del móvil (sin imágenes, título que completa el hook, subtítulos ≤4 palabras); F4 aparcado; ESTRUCTURA OBLIGATORIA gancho → colleja → solución, sin CTA, 40–50 s; publicar/ y trial/
+- [Reels de marca personal](reels-marca-personal.md) — F1/F2/F3 si la fuente es horizontal; F5 CASUAL para los reels de guion del móvil (sin imágenes, título que completa el hook, subtítulos ≤4 palabras); F4 aparcado; ESTRUCTURA OBLIGATORIA gancho → colleja → solución, sin CTA, 40–50 s · todo listo en MarcaPersonal/REELS/ (numerado, PUBLICAR/TRIAL en el nombre)
 - [Estilo vídeos largos](estilo-videos-largos-stickman.md) — 3 canales: ESTÁNDAR sin animaciones (limpieza + zooms + frases clave en pantalla blanca, `limpiar_largo.py`); pizarra solo si Abel lo pide; su gancho grabado NO se toca
 - [Entorno skill animaciones](entorno-skill-animaciones.md) — instalación, fallos de Windows, fuentes y detección de caras
 - [Usar System Change](usar-system-change.md) — cambios permanentes a flujos/skills/reglas pasan antes por la skill system-change
