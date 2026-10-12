@@ -1,0 +1,360 @@
+{
+ "fuente": "../../VideosLargos/cobras-barato/5 señales de que cobras BARATO con tu marca personal - horizontal.mp4",
+ "tiempos": "../../VideosLargos/cobras-barato/5 señales de que cobras BARATO con tu marca personal - horizontal.tiempos.json",
+ "montaje": "../../VideosLargos/cobras-barato/5 señales de que cobras BARATO con tu marca personal - horizontal.montaje.json",
+ "salida": "out_f1",
+ "reels": {
+  "c01_g1e7_F1": {
+   "gancho": [
+    [
+     2000,
+     2039
+    ]
+   ],
+   "cuerpo": [
+    [
+     2040,
+     2075
+    ],
+    [
+     1763,
+     1799
+    ],
+    [
+     1800,
+     1862
+    ]
+   ],
+   "enfasis": [
+    [
+     2014,
+     2018
+    ],
+    [
+     2046,
+     2048
+    ],
+    [
+     1807,
+     1811
+    ]
+   ],
+   "titulo": "No es falta de preparación, es miedo a cobrar lo que vales:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3"
+  },
+  "c02_g2e2_F1": {
+   "gancho": [
+    [
+     462,
+     480
+    ]
+   ],
+   "cuerpo": [
+    [
+     481,
+     516
+    ],
+    [
+     517,
+     580
+    ],
+    [
+     616,
+     639
+    ],
+    [
+     645,
+     683
+    ]
+   ],
+   "enfasis": [
+    [
+     467,
+     468
+    ],
+    [
+     544,
+     547
+    ],
+    [
+     637,
+     639
+    ]
+   ],
+   "titulo": "Porqué tu “low ticket” jamás te dará testimonios:",
+   "musica": "ÉPICA/ECHO SAX END but it sounds like Øneheart.mp3"
+  },
+  "c03_g3e9_F1": {
+   "gancho": [
+    [
+     2810,
+     2833
+    ]
+   ],
+   "cuerpo": [
+    [
+     2836,
+     2913
+    ],
+    [
+     2921,
+     2971
+    ],
+    [
+     2974,
+     3003
+    ]
+   ],
+   "enfasis": [
+    [
+     2868,
+     2870
+    ],
+    [
+     2958,
+     2959
+    ]
+   ],
+   "titulo": "Si necesitas que te compren, tu cliente lo nota:",
+   "musica": "ÉPICA/ECHO SAX END but it sounds like Øneheart.mp3"
+  },
+  "c04_g4e12_F1": {
+   "gancho": [
+    [
+     3595,
+     3605
+    ]
+   ],
+   "cuerpo": [
+    [
+     3606,
+     3735
+    ],
+    [
+     3779,
+     3822
+    ]
+   ],
+   "enfasis": [
+    [
+     3658,
+     3662
+    ],
+    [
+     3731,
+     3734
+    ]
+   ],
+   "titulo": "Regalar tu servicio no compromete a nadie:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3"
+  },
+  "c05_g5e5_F1": {
+   "gancho": [
+    [
+     1052,
+     1097
+    ]
+   ],
+   "cuerpo": [
+    [
+     1099,
+     1169
+    ],
+    [
+     1182,
+     1204
+    ],
+    [
+     1205,
+     1254
+    ]
+   ],
+   "enfasis": [
+    [
+     1110,
+     1112
+    ],
+    [
+     1163,
+     1169
+    ],
+    [
+     1198,
+     1199
+    ]
+   ],
+   "titulo": "Así es como regalar tu trabajo te acaba quemando:",
+   "musica": "EMOCIONAL/Outro - M83 only the best part.mp3"
+  },
+  "c06_g6e13_F1": {
+   "gancho": [
+    [
+     4002,
+     4012
+    ]
+   ],
+   "cuerpo": [
+    [
+     3868,
+     3938
+    ],
+    [
+     4080,
+     4126
+    ],
+    [
+     4214,
+     4248
+    ]
+   ],
+   "enfasis": [
+    [
+     3872,
+     3875
+    ],
+    [
+     4123,
+     4126
+    ],
+    [
+     4219,
+     4221
+    ]
+   ],
+   "titulo": "Justificar tu precio te está haciendo perder clientes:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3"
+  },
+  "c07_g7e1_F1": {
+   "gancho": [
+    [
+     357,
+     366
+    ]
+   ],
+   "cuerpo": [
+    [
+     296,
+     335
+    ],
+    [
+     369,
+     454
+    ],
+    [
+     455,
+     461
+    ]
+   ],
+   "enfasis": [
+    [
+     310,
+     312
+    ],
+    [
+     450,
+     454
+    ]
+   ],
+   "titulo": "Bajar tu precio no te hará vender más:",
+   "musica": "ÉPICA/ECHO SAX END but it sounds like Øneheart.mp3"
+  },
+  "t01_g8e11_F1": {
+   "gancho": [
+    [
+     3150,
+     3171
+    ]
+   ],
+   "cuerpo": [
+    [
+     3246,
+     3323
+    ],
+    [
+     3549,
+     3588
+    ]
+   ],
+   "enfasis": [
+    [
+     3320,
+     3323
+    ],
+    [
+     3552,
+     3555
+    ]
+   ],
+   "titulo": "Me sabía mal cobrar a quien lo pasaba mal… y era un error:",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3"
+  },
+  "t02_g9e6_F1": {
+   "gancho": [
+    [
+     1399,
+     1423
+    ]
+   ],
+   "cuerpo": [
+    [
+     1501,
+     1525
+    ],
+    [
+     1539,
+     1596
+    ],
+    [
+     1607,
+     1644
+    ]
+   ],
+   "enfasis": [
+    [
+     1504,
+     1507
+    ],
+    [
+     1608,
+     1610
+    ],
+    [
+     1641,
+     1644
+    ]
+   ],
+   "titulo": "Un cliente barato te roba más energía de la que paga:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3"
+  },
+  "t03_g10e4_F1": {
+   "gancho": [
+    [
+     801,
+     847
+    ]
+   ],
+   "cuerpo": [
+    [
+     848,
+     918
+    ],
+    [
+     3565,
+     3594
+    ]
+   ],
+   "enfasis": [
+    [
+     835,
+     838
+    ],
+    [
+     895,
+     897
+    ]
+   ],
+   "titulo": "Cobrar poco te llena de clientes que se quejan:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3"
+  }
+ }
+}

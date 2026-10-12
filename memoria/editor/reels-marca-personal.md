@@ -60,6 +60,13 @@ Los reels se sacan del **vídeo horizontal ya editado** ([[estilo-videos-largos-
 - Silencios y microsilencios como dice [[registro-edicion-abel]]. Acaba en una frase completa.
 - **Todo a 1,10x** (vídeo, voz y subtítulos; la música a su velocidad).
 - **Título (TODOS los formatos verticales; modelo: los reels de Abri que pasó Abel el 12/10/2026):** le da al reel el CONTEXTO que el gancho no dice y **SIEMPRE lleva CONNOTACIÓN NEGATIVA: lo que la persona hace mal o lo que le está costando** (Abel 12/10/2026: «casi siempre, siempre»). MAL: «El miedo que no te deja empezar». BIEN: «Por esto sigues sin empezar tu marca personal:». Frase en minúsculas con la primera en mayúscula (`frase()` respeta las mayúsculas sueltas). 6–10 palabras en 2 líneas equilibradas y centradas, y a menudo acaba en dos puntos.
+  - **MODELO APROBADO (Abel 12/10/2026: «los últimos los hiciste genial»), los de «energía y negocio», cada uno con una estructura distinta:**
+    - «Hasta los que más trabajan caen en este error de foco:»
+    - «No existe la “competencia”, existe tu miedo a vender:»
+    - «Si te cohíbes al publicar, olvídate de vender con tu marca:»
+    - «Por esto “ver más cursos” no te hace vender más:»
+    - «Así es como desperdicias tu energía (y tu marca no crece):»
+    No repetir estructura dentro de una tanda, ni copiar estos tal cual en la siguiente.
   - **Variar la estructura (12/10/2026):** como mucho un «Por esto…» por tanda; si todos empiezan igual, «queda demasiado IA». Ver ejemplos en la skill `reels-abel`.
   - **Fórmulas de Abri:** «Por esto… no te hace vender:», «Si no haces esto jamás…:», «Así… sin…:», «No existen X, sino Y:».
   - **Recursos:** números solo si son reales («50 temas», «3 pasos»), comillas en la palabra clave («“copiar contenido”»), UNA palabra en MAYÚSCULAS como mucho.

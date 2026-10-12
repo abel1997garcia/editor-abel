@@ -12,6 +12,8 @@ description: Sacar reels de Abel de un vídeo horizontal (F1 sin animaciones, F2
 
 Nada se entrega si no pasa el LISTÓN. «No se trata de subir por subir» (Abel, 12/10/2026). Modelo de ritmo y títulos: Lavri (`Referencias/lavri/ANALISIS.md`, apartado reels).
 
+**Por norma, de cada vídeo salen unos 10 reels: 6–7 de PUBLICAR y SIEMPRE 3 TRIALS** (Abel 12/10/2026). Los trials llevan estructuras distintas de las de publicar, para poder salir ya.
+
 ## 1. Ganchos y estructuras (antes de tocar ninguna herramienta)
 - Hacer el banco: 20 o más ganchos (primero los que hablan directamente a la persona) y estructuras colleja → solución de una idea, en `VideosLargos/<tema>/reels_banco.md`.
 - Un gancho solo vale si:
