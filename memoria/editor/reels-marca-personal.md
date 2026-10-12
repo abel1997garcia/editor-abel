@@ -140,7 +140,8 @@ Va en un `.txt` con el mismo nombre que el vídeo, al lado (en `MarcaPersonal/RE
 - **F1:** siempre con su cara (y, en horizontales estándar, las frases clave en blanco, que se entienden solas). Sin animaciones de pizarra desde el 12/10/2026.
 - **TRIAL** (Instagram los enseña solo a no seguidores): el primer publicable en los otros 2 formatos (prueba de formato) y, si sobran ganchos buenos, misma estructura y formato con el gancho alternativo (prueba de gancho).
 - **Archivos (Abel 12/10/2026: «tener dos carpetas y por semanas es una liada»):** todo en `MarcaPersonal/REELS/«NNN · PUBLICAR|TRIAL · <vídeo> · e<N>-g<N> · <título>.mp4»` (una sola carpeta, sin semanas; NNN = el siguiente número libre = orden de subida; al programarse pasan a `REELS/programados/`). Cada uno con su `.txt` al lado y un `MarcaPersonal/<vídeo>/plan.md` (mensaje, gancho, título, música, duración). `programar_youtube.py` lee esta carpeta. **Al programar (Abel 12/10/2026, «siempre»):**
-- **VARIEDAD:** se mezclan reels de vídeos distintos; nunca dos seguidos del mismo vídeo si hay de otros. `programar_youtube.py` ya los ordena por turnos entre vídeos.
+- **VARIEDAD:** se mezclan reels de vídeos distintos. Como mucho 2 del mismo vídeo al día, separados al menos 2,5 h. `programar_youtube.py` ya lo hace solo.
+- **Nada se queda colgado:** si sobran reels de publicar, se programan todos; si hace falta, se añade un hueco más al día (ahora hay 7). Los trials pueden ir semanas después.
 - Antes de programar se lee cada `.txt` y se comprueba que la descripción va con el mensaje y con el título.
 - Los reels con un título que no pasa la prueba se dejan fuera hasta corregirlos.
 - Se programa en los huecos libres desde ya, aunque el día esté empezado.

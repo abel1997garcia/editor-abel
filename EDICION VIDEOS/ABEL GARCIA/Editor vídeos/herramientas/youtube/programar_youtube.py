@@ -20,9 +20,10 @@ from zoneinfo import ZoneInfo
 
 AQUI = Path(__file__).resolve().parent
 MP = AQUI.parents[1] / 'MarcaPersonal'
-HORAS_PUBLICAR = ['14:00', '16:00', '18:00', '20:00', '22:00', '24:00']   # Abel 12/10: 5–6 al día, cada ~2 h, hora de España (24:00 = medianoche, Latinoamérica)
+HORAS_PUBLICAR = ['14:00', '16:00', '18:00', '20:00', '22:00', '23:00', '24:00']   # Abel 12/10: 7 al día (cada ~2 h + una a las 23 h), hora de España (24:00 = medianoche, Latinoamérica)
 HORAS_TRIAL = ['17:00', '19:00', '21:00']                         # 3 al día COMO MÁXIMO (límite de Instagram para trials)
 SEPARACION = 45                                                    # días entre reels que comparten estructura o gancho
+POR_DIA_VIDEO = 2                                                  # variedad: como mucho 2 reels del mismo vídeo al día, y nunca en huecos seguidos
 ZONA = ZoneInfo('Europe/Madrid')
 MAX_MB = 15                                               # límite habitual de subida a un webhook de n8n Cloud: si pesa más, se recomprime
 
@@ -90,14 +91,23 @@ def main():
         gen = huecos(horas, {o[len(canal):] for o in ocupados if o.startswith(canal)}, minimo)
         pool = [next(gen) for _ in range(len(horas) * 400)]
         fechas = [(familia(k), dt.datetime.fromisoformat(x['cuando'])) for k, x in hecho.items()] + [(familia(v.name), t) for v, _, t in plan]
+        vid = lambda f: next(iter(f)).rsplit('-', 1)[0] if f else None
+        mismo = [(vid(f), u) for f, u in fechas]
         for v in videos(carpeta):
             clave = v.name
             if clave in hecho: continue
             if cfg.get('requiere_ok', True) and clave not in oks: pendientes.append(clave); continue
             if solo and not any(x in v.name for x in solo): continue
             fam = familia(v.name)
-            t = next(t for t in pool if not any(fam & f and abs((t - u).days) < SEPARACION for f, u in fechas))
-            pool.remove(t); fechas.append((fam, t)); plan.append((v, canal, t))
+            yo = vid(fam)
+            def cabe(t):
+                if any(fam & f and abs((t - u).days) < SEPARACION for f, u in fechas): return False
+                if canal == 'principal' and yo:
+                    hoy = [u for w, u in mismo if w == yo and u.date() == t.date()]
+                    if len(hoy) >= POR_DIA_VIDEO or any(abs((t - u).total_seconds()) < 2.5 * 3600 for w, u in mismo if w == yo): return False
+                return True
+            t = next(t for t in pool if cabe(t))
+            pool.remove(t); fechas.append((fam, t)); mismo.append((yo, t)); plan.append((v, canal, t))
     subir = '--subir' in sys.argv
     for v, canal, t in plan:
         titulo, desc = textos(v)

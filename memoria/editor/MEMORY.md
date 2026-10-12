@@ -6,7 +6,7 @@
 - [Usar System Change](usar-system-change.md) — cambios permanentes a flujos/skills/reglas pasan antes por la skill system-change
 - [Marca y Fábrica de contenido](posicionamiento-abel.md) — su marca vive en FÁBRICA DE CONTENIDO (creencias, voz, afirmaciones): leer su plan PG antes de editar y actualizar su TABLERO al terminar
 - [Ganchos buenos y malos](ganchos.md) — lista viva con sus veredictos + 10 hooks APROBADOS (10/10) como modelo: leer antes de elegir un gancho
-- [Programar en YouTube](reels-marca-personal.md) — n8n + `herramientas/youtube/programar_youtube.py`: principal 6/día (14–24 h), trial máx. 3 (17-19-21 h), mismo gancho/estructura ≥ 45 días; con su OK las primeras semanas (desde 09/10)
+- [Programar en YouTube](reels-marca-personal.md) — n8n + `herramientas/youtube/programar_youtube.py`: principal 7/día (14–24 h, +23 h), trial máx. 3 (17-19-21 h), mismo gancho/estructura ≥ 45 días; con su OK las primeras semanas (desde 09/10)
 - [Fotos y vídeos de su vida](fotos-vida-abel.md) — su línea de tiempo completa (de «Mi Historia») + FOTOS MIAS por época: leer antes de usar una foto o contar su historia, nunca mezclar épocas
 - [Nicho y estrategia](estrategia-contenido-80-15-5.md) — ESLOGAN «Autenticidad que vende» · NICHO 10/10: «Si emprendes, te enseño a llenar tu agenda con tu marca personal…»; fuente única 00-avatar-operativo.md; remate para emprendedores; 80/15/5
 - [Criterios de contenido útil](criterios-contenido-util.md) — al elegir clips, reels o vídeos de YouTube: que se reconozca (dolor), «la galletita» aplicable, creencia atacada desde su lente; nunca solo educativo

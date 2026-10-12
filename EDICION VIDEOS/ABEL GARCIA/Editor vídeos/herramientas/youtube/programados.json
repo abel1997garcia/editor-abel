@@ -93,5 +93,70 @@
   "canal": "principal",
   "cuando": "2026-10-15T00:00:00+02:00",
   "respuesta": "{\"ok\":true}"
+ },
+ "016 · PUBLICAR · empezar · e5-g16 · Lo que haces «como hobby» podría ser tu negocio.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-12T23:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "026 · PUBLICAR · fregar · e5-g5 · Por esto tu contenido parece hecho por una «IA».mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-15T14:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "033 · PUBLICAR · energia · e5-g8 · Así es como desperdicias tu energía (y tu marca no crece).mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-13T23:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "017 · PUBLICAR · empezar · e6-g12 · Por esto usar guiones te hace sonar falso.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-15T16:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "019 · PUBLICAR · empezar · e8-g22 · Por esto nadie confía en tu marca personal.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-16T00:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "020 · PUBLICAR · empezar · e10-g13 · Por esto el «hate» no debería frenarte.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-16T14:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "021 · PUBLICAR · empezar · e11-g18 · Si quieres gustar a todos, nadie te va a comprar.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-17T00:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "002 · TRIAL · empezar · e9-g2 · Si nadie te critica, tu contenido NO vende.mp4": {
+  "canal": "trial",
+  "cuando": "2026-11-26T17:00:00+01:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "031 · TRIAL · energia · e2-g4 · No existe la «competencia», existe tu miedo a vender.mp4": {
+  "canal": "trial",
+  "cuando": "2026-11-27T17:00:00+01:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "004 · TRIAL · empezar · e3-g21 · Por esto hablar de 50 temas te deja sin clientes.mp4": {
+  "canal": "trial",
+  "cuando": "2026-11-27T19:00:00+01:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "006 · TRIAL · empezar · e1-g20 · El miedo que no te deja empezar tu marca personal.mp4": {
+  "canal": "trial",
+  "cuando": "2026-10-12T19:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "008 · TRIAL · empezar · e7-g3 · Si ofreces de todo, jamás vas a llenar tu agenda.mp4": {
+  "canal": "trial",
+  "cuando": "2026-11-29T17:00:00+01:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "010 · TRIAL · empezar · e5-g26 · Lo que haces «como hobby» podría ser tu negocio.mp4": {
+  "canal": "trial",
+  "cuando": "2026-11-27T21:00:00+01:00",
+  "respuesta": "{\"ok\":true}"
  }
 }
