@@ -1,24 +1,46 @@
-"""Toma limpia de un vídeo largo horizontal de Abel (antes de animar).
+"""Vídeo horizontal de Abel ya editado (estándar desde el 11/10/2026: sin animaciones de pizarra).
+Quita silencios, errores y repeticiones, hace zoom de énfasis y pone FRASES CLAVE: pantalla blanca con letras negras, centradas
+en la zona 4:3, mientras su voz sigue (rompen el patrón). Sin "frases" sale la toma limpia para animar (solo si Abel lo pide:
+skill animaciones-horizontal-combinadas + herramientas/pizarra).
 
-    python limpiar_largo.py config.json           -> <salida>  (1920x1080, 30 fps, audio PCM)
-    python limpiar_largo.py config.json --texto   -> texto final, duración y planos
+    python limpiar_largo.py config.json           -> <salida> (1920x1080, 30 fps) + <salida>.tiempos.json (palabras en el tiempo
+                                                     del vídeo final) + <salida>.montaje.json (las frases, para reel_yapping)
+    python limpiar_largo.py config.json --texto   -> texto final, duración, planos y frases
 
 config.json:
-{ "fuente": "vídeo original", "tiempos": "edicion/tiempos.json (alineación de la toma)", "salida": "toma_limpia.mov",
-  "gancho": [i0, i1],                  avance en frío: estas palabras abren el vídeo (y siguen en su sitio)
+{ "fuente": "vídeo original", "tiempos": "edicion/tiempos.json (alineación de la toma)", "salida": "<tema> - horizontal.mp4",
   "quitar": [i, [i0, i1], ...],        muletillas, repeticiones y tropiezos (índices o rangos)
   "zooms":  [[i0, i1], ...],           frases importantes: acercamiento de énfasis hacia él
-  "intacto_desde": i }                 opcional: desde esa palabra no se corta nada (su cierre, con su entonación)
+  "intacto_desde": i,                  opcional: desde esa palabra no se corta nada (su cierre, con su entonación)
+  "frases": [["Tú eres\\NTU NEGOCIO.", i0, i1], ...] }   frase clave mientras dice i0–i1: ≤ 22 caracteres por línea,
+                                       \\N = salto, una parte en MAYÚSCULAS; 5–8 por vídeo
 """
-import json, subprocess, sys
+import json, shutil, subprocess, sys, tempfile
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from reel_yapping import PAUSA, AIRE, MIN_PLANO, COLA, centro_cara
+from reel_yapping import PAUSA, AIRE, MIN_PLANO, COLA, centro_cara, microcortes
 
 EMPUJE_PERIODO, EMPUJE = 40.0, .015   # acercamiento leve y continuo: 1,00 ↔ 1,03 (depende del tiempo del vídeo final)
 ENFASIS = 1.18                        # zoom de énfasis hacia su cara
 SILENCIO = .6                         # pausa mayor = silencio real: se recorta aunque deje un plano corto
 ENTONACION = .7                       # plano más corto = conector suelto: se queda con su pausa
+FUENTE = Path(__file__).resolve().parent / 'fuentes/InterCita.ttf'
+ts_ass = lambda s: f'{int(s // 3600)}:{int(s % 3600 // 60):02d}:{s % 60:05.2f}'
+ASS = """[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Fondo,Inter Cita,10,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: Frase,Inter Cita,140,&H00111111,&H00111111,&H00000000,&H00000000,0,0,0,0,100,100,-2,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+"""
+CAJA = r'{\an7\pos(0,0)\p1}m 0 0 l 1920 0 1920 1080 0 1080{\p0}'
 
 
 def indices(lista):
@@ -29,13 +51,11 @@ def indices(lista):
 
 def planos(W, cfg):
     quitar, zoom = indices(cfg.get('quitar', [])), indices(cfg.get('zooms', []))
-    a, b = cfg.get('gancho', [0, -1])
-    orden = [i for i in [*range(a, b + 1), *range(len(W))] if i not in quitar]
+    orden = [i for i in range(len(W)) if i not in quitar]      # en su orden: su gancho grabado no se toca (Abel, 11/10/2026)
     intacto = cfg.get('intacto_desde', len(W))      # desde esta palabra hasta el final no se corta nada (lo cierra él)
-    fin_gancho = b - a + 1 - len([i for i in range(a, b + 1) if i in quitar])
     grupos, g = [], []
     for k, i in enumerate(orden):
-        corte = g and (i != g[-1] + 1 or (W[i]['s'] - W[g[-1]]['e'] > PAUSA and i < intacto) or k == fin_gancho or (i in zoom) != (g[-1] in zoom))
+        corte = g and (i != g[-1] + 1 or (W[i]['s'] - W[g[-1]]['e'] > PAUSA and i < intacto) or (i in zoom) != (g[-1] in zoom))
         if corte: grupos.append(g); g = []
         g.append(i)
     grupos.append(g)
@@ -58,7 +78,7 @@ def planos(W, cfg):
         i0, i1 = g[0], g[-1]
         t0 = W[i0]['s'] - AIRE
         if i0 > 0: t0 = max(t0, W[i0 - 1]['e'] + .02)
-        cola = COLA if k == len(grupos) - 1 or (i1 == b and k + 1 < len(grupos) and grupos[k + 1][0] != b + 1) else AIRE
+        cola = COLA if k == len(grupos) - 1 else AIRE
         t1 = W[i1]['e'] + cola
         if i1 + 1 < len(W): t1 = min(t1, W[i1 + 1]['s'] - .02)
         if i1 == len(W) - 1: t1 = cfg['fin']           # el final de la toma no se toca
@@ -66,19 +86,31 @@ def planos(W, cfg):
     return res
 
 
-def montar(cfg, ps):
+def tiempos_final(W, ps):
+    """las palabras en el tiempo del vídeo final"""
+    out, T = [], 0.0
+    for t0, t1, g, _ in ps:
+        out += [{'i': len(out) + k, 'w': W[i]['w'], 's': round(T + W[i]['s'] - t0, 3), 'e': round(T + W[i]['e'] - t0, 3), 'orig': i}
+                for k, i in enumerate(g)]
+        T += t1 - t0
+    return out
+
+
+def tarjetas(F, cfg):
+    """[(t0, t1, texto)] en el tiempo final, mientras dice sus palabras: hasta la última + 0,6 s (mín. 2 s)"""
+    res = []
+    for texto, i0, i1 in cfg.get('frases', []):
+        p = next(w for w in F if w['orig'] == i0); q = next(w for w in F[p['i']:] if w['orig'] == i1)
+        t0 = p['s'] - .1; res.append((t0, max(q['e'] + .6, t0 + 2), texto))
+    return res
+
+
+def montar(cfg, ps, cartas):
     cx, fw, fh = centro_cara(cfg['fuente'])
-    fil, T, extra = [], 0.0, []
-    despues = [min([p[0] for p in ps[k + 1:]], default=1e9) for k in range(len(ps))]   # el inicio más temprano que viene detrás
+    fil, T = [], 0.0
     for k, (t0, t1, g, ez) in enumerate(ps):
         d = t1 - t0
-        # un plano fuera de orden (el gancho del final, delante) va con su propia entrada ya buscada: si no, ffmpeg tiene
-        # que guardar en memoria todo el vídeo hasta llegar a él (se quedaba sin memoria con 18 min de toma)
-        if despues[k] < t0:
-            extra += ['-ss', f'{t0:.3f}', '-t', f'{d + .05:.3f}', '-i', cfg['fuente']]; n_in = len(extra) // 6
-            vsrc, asrc, tr, atr = f'[{n_in}:v]', f'[{n_in}:a]', f'trim=0:{d:.3f}', f'atrim=0:{d:.3f}'
-        else:
-            vsrc, asrc, tr, atr = '[0:v]', '[0:a]', f'trim={t0}:{t1}', f'atrim={t0}:{t1}'
+        vsrc, asrc, tr, atr = '[0:v]', '[0:a]', f'trim={t0}:{t1}', f'atrim={t0}:{t1}'
         z = f"({ez}*(1+{EMPUJE}+{EMPUJE}*sin(2*PI*({T:.3f}+in/30)/{EMPUJE_PERIODO})))"
         # recorte con precisión de subpíxel (perspective): escalar a píxeles enteros iba a golpecitos.
         # El énfasis se ancla en su cara (x) y en el tercio superior (y)
@@ -89,10 +121,19 @@ def montar(cfg, ps):
         fil.append(f"{asrc}{atr},asetpts=PTS-STARTPTS,afade=t=in:d=0.01,afade=t=out:st={d - .01:.3f}:d=0.01[a{k}];")
         T += d
     n = len(ps)
-    fil.append(''.join(f'[v{k}][a{k}]' for k in range(n)) + f'concat=n={n}:v=1:a=1[v][a]')
-    filtro = Path(cfg['salida']).with_suffix('.filtro.txt'); filtro.write_text(''.join(fil), encoding='utf-8')   # Windows: orden demasiado larga
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', cfg['fuente'], *extra, '-/filter_complex', str(filtro), '-map', '[v]', '-map', '[a]',
-                    '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '14', '-pix_fmt', 'yuv420p', '-c:a', 'pcm_s16le', cfg['salida']], check=True)
+    tmp = Path(tempfile.mkdtemp())                     # libass y ffmpeg sin acentos en la ruta
+    fil.append(''.join(f'[v{k}][a{k}]' for k in range(n)) + f'concat=n={n}:v=1:a=1[{"vc" if cartas else "v"}][a]')
+    if cartas:                                         # pantalla blanca (capa 0) + frase negra centrada (capa 1), corte seco
+        (tmp / 'f.ass').write_text(ASS + ''.join(f'Dialogue: 0,{ts_ass(a)},{ts_ass(b)},Fondo,,0,0,0,,{CAJA}\n'
+                                                 f'Dialogue: 1,{ts_ass(a)},{ts_ass(b)},Frase,,0,0,0,,{{\\pos(960,540)}}{t}\n'
+                                                 for a, b, t in cartas), encoding='utf-8')
+        shutil.copy(FUENTE, tmp / 'InterCita.ttf')
+        fil.append(';[vc]subtitles=f.ass:fontsdir=.[v]')
+    filtro = tmp / 'filtro.txt'; filtro.write_text(''.join(fil), encoding='utf-8')   # Windows: orden demasiado larga
+    audio = ['-c:a', 'aac', '-b:a', '256k'] if cfg['salida'].lower().endswith('.mp4') else ['-c:a', 'pcm_s16le']
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', cfg['fuente'], '-/filter_complex', str(filtro), '-map', '[v]', '-map', '[a]',
+                    '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '14', '-pix_fmt', 'yuv420p', *audio, cfg['salida']], check=True, cwd=tmp)
+    shutil.rmtree(tmp, ignore_errors=True)
 
 
 if __name__ == '__main__':
@@ -102,11 +143,16 @@ if __name__ == '__main__':
     cfg['fin'] = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', cfg['fuente']],
                                       capture_output=True, text=True).stdout) - .05
     W = json.load(open(cfg['tiempos'], encoding='utf-8'))
-    ps = planos(W, cfg)
-    print(f'{sum(t1 - t0 for t0, t1, _, _ in ps):.1f} s en {len(ps)} planos ({sum(1 for p in ps if p[3] > 1)} con zoom de énfasis)')
+    ps = microcortes(cfg['fuente'], W, planos(W, cfg), cfg.get('intacto_desde')); F = tiempos_final(W, ps); cartas = tarjetas(F, cfg)
+    print(f'{sum(t1 - t0 for t0, t1, _, _ in ps):.1f} s en {len(ps)} planos ({sum(1 for p in ps if p[3] > 1)} con zoom de énfasis), {len(cartas)} frases')
+    for a, b, t in cartas: print(f'  frase {a:7.1f}–{b:7.1f} s  {t}')
     if '--texto' in sys.argv:
         print(' | '.join(('[Z] ' if z > 1 else '') + ' '.join(W[i]['w'] for i in g) for _, _, g, z in ps))
     else:
-        montar(cfg, ps); json.dump([{'t0': a, 't1': b, 'palabras': [g[0], g[-1]], 'zoom': z} for a, b, g, z in ps],
-                                   open(Path(cfg['salida']).with_suffix('.planos.json'), 'w', encoding='utf-8'), indent=1)
+        montar(cfg, ps, cartas); sal = Path(cfg['salida'])
+        json.dump(F, open(sal.with_suffix('.tiempos.json'), 'w', encoding='utf-8'), ensure_ascii=False)
+        json.dump({'fps': 30, 'planos': [{'tipo': 'anim', 'f0': round(a * 30), 'f1': round(b * 30)} for a, b, _ in cartas]},
+                  open(sal.with_suffix('.montaje.json'), 'w', encoding='utf-8'))
+        json.dump([{'t0': a, 't1': b, 'palabras': [g[0], g[-1]], 'zoom': z} for a, b, g, z in ps],
+                  open(sal.with_suffix('.planos.json'), 'w', encoding='utf-8'), indent=1)
         print('->', cfg['salida'])

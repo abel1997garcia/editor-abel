@@ -33,3 +33,15 @@ Canal: youtube.com/@alexlavri · eslogan «contenido que vende». Vídeos transc
 - **Producción:** graba con el móvil y le da igual el eco: «compito por información, no por edición».
 - **Su sistema tiene nombre:** el «ecosistema de contenido», el «triángulo de la venta».
 - **Hasta la mentalidad le habla a su cliente:** gente que publica contenido y tiene miedo a los comentarios.
+
+# Sus reels de Instagram (10 últimos, analizados el 12/10/2026)
+Vídeos en `reels/`, medidas en `reels/analisis.json`, portadas en `reels/portadas.png`. Herramienta: `herramientas/analizar_reels_ref.py`.
+- **Voz:** casi nunca para. Hueco entre palabras con mediana 0 s, el 90 % por debajo de 0,1 s y el máximo en ~0,3 s. Habla a 3,2–4,5 palabras/s (lo normal hablando son ~3). Todos con música debajo.
+- **Gancho:** la primera palabra en el segundo 0. Es una frase completa: un resultado, una historia o una afirmación polémica.
+- **Cortes de imagen:** la mayoría son un solo plano o pocos; el dinamismo lo da el audio sin aire, no el número de cortes. Los de b-roll llevan muchos más (27–79).
+- **Título arriba:**
+  - blanco, en negrita, centrado, 2 líneas de 6–9 palabras, justo encima del vídeo;
+  - acaba en dos puntos y le da al reel el contexto y la connotación negativa;
+  - fórmulas: «Así cierro…», «Por esto…», «Si no haces “yapping” jamás…», «Así fue como un “consejo” casi destroza mi negocio:», «Porqué sin YouTube jamás cerraría 6 cifras/mes:»;
+  - números reales (€230k/mes, 45 días, x10) y la palabra clave entre comillas y en cursiva.
+- **Subtítulos:** una palabra cada vez, pequeña y discreta sobre el vídeo.

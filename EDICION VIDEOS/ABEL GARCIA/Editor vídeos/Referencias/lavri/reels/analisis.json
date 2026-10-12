@@ -1,0 +1,11 @@
+{
+ "DcTrqOftQQt": {
+  "dur": 52.3,
+  "cortes_imagen": 4,
+  "cortes_cada_10s": 0.8,
+  "palabras_por_s": 3.38,
+  "primera_palabra_s": 0.0,
+  "hueco_mediana": 0.0,
+  "hueco_p90": 0.06,
+  "hueco_max": 0.94,
+  "huecos_>0,3": 

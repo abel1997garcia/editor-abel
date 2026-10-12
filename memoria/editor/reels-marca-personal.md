@@ -57,9 +57,12 @@ Los reels se sacan del **vídeo horizontal ya editado** ([[estilo-videos-largos-
 - **Ganchos:** directos, que rompan una creencia universal y se entiendan solos; lista viva en [[ganchos]].
 - **Gancho:** primera frase cruda, en 2ª persona, sin nada delante; temas del avatar: energía, vibración, conciencia, inconsciente, emociones ([[posicionamiento-abel]]). Modelo: reel 3 de «Sin buena intención» ([[registro-edicion-abel]]).
 - **Retención seminal:** en los vídeos que hablen de ella, los reels no la mencionan; se quedan los tramos sobre la energía, cómo te hace sentir y la emoción.
-- Silencios con los dos criterios de [[registro-edicion-abel]]. Acaba en una frase completa.
+- Silencios y microsilencios como dice [[registro-edicion-abel]]. Acaba en una frase completa.
 - **Todo a 1,10x** (vídeo, voz y subtítulos; la música a su velocidad).
-- **Título (TODOS los formatos verticales, Abel 11/10/2026):** en minúsculas con la primera en mayúscula (lo hace solo `frase()` de reel_yapping.py, también con configs antiguas en MAYÚSCULAS) y, siempre que se pueda, con CONNOTACIÓN NEGATIVA. Montserrat, ≤ 7 palabras en 2 líneas equilibradas; afirmación cruda, polémica, algo clickbait, que remueva; nunca «puede ser».
+- **Título (TODOS los formatos verticales; modelo: los reels de Abri que pasó Abel el 12/10/2026):** le da al reel el CONTEXTO que el gancho no dice y lleva la CONNOTACIÓN NEGATIVA. Frase en minúsculas con la primera en mayúscula (`frase()` respeta las mayúsculas sueltas). 6–10 palabras en 2 líneas equilibradas y centradas, y a menudo acaba en dos puntos.
+  - **Fórmulas de Abri:** «Por esto… no te hace vender:», «Si no haces esto jamás…:», «Así… sin…:», «No existen X, sino Y:».
+  - **Recursos:** números solo si son reales («50 temas», «3 pasos»), comillas en la palabra clave («“copiar contenido”»), UNA palabra en MAYÚSCULAS como mucho.
+  - Nunca repite el gancho y nunca dice «puede ser».
 - **Subtítulos** en Montserrat. **Voz tal cual** (sin procesar ni bajar de volumen). **Música** de su carpeta `C:/Users/Clap/Desktop/EDICION VIDEOS/MUSICA/` (`catalogo.json` con duración y estribillo), **18 dB por debajo de la voz** (Abel, 07/10/2026: a 26 dB «no hay música», no se oía en ningún reel), desde el estribillo. **Se elige por el mensaje, nunca al azar** (Abel, 07/10/2026): leer el arco del reel (de qué emoción parte y adónde llega) y escoger con el campo `caracter` de `catalogo.json`; justificarlo en el plan.md. Con mucho texto, mejor instrumentales (Interstellar, Einaudi, M83, Andrea Vanzo, Tony Ann).
 - **Efectos de sonido en F2 y F3** de la biblioteca `herramientas/sonidos/` (los del horizontal aprobado; qué efecto va en cada momento y a qué volumen en `usos.md`). F1 ya los trae del horizontal.
 - Lo importante fuera de la interfaz de Instagram/TikTok: arriba ~220 px, abajo ~320 px (usuario y descripción) y la columna derecha de botones (x > ~930 desde y ≈ 1000).
@@ -67,7 +70,7 @@ Los reels se sacan del **vídeo horizontal ya editado** ([[estilo-videos-largos-
 
 ## Los formatos (nombres fijos)
 **QUÉ FORMATO SEGÚN LA FUENTE (Abel, 09–10/10/2026; manda cómo viene GRABADO el vídeo):**
-- **Fuente HORIZONTAL** (aunque el reel final sea vertical): F1, F2 o F3, con las animaciones y todo lo de cada formato.
+- **Fuente HORIZONTAL** (aunque el reel final sea vertical): F1, F2 o F3, con todo lo de cada formato.
 - **Reels de GUION grabados con el móvil** (los de Drive PARA GRABAR/REELS): **F5 · CASUAL**.
 - **F4 (talking head con imágenes): «déjalo ahí, no lo toques»** (10/10). No se usa para los de guion. Sus imágenes, solo si complementan.
 
@@ -131,7 +134,7 @@ Va en un `.txt` con el mismo nombre que el vídeo, al lado (`publicar|trial/sema
   - **Los trials son iteraciones** para sacar más vídeos de un contenido parecido: **se mantiene la estructura del reel de publicar y se cambia el gancho**, que tiene que ser distinto de verdad (no casi idéntico), igual de potente, hablar de un dolor y entenderse solo, sin contexto ([[ganchos]]). El formato solo cambia si él lo dice.
   - **Mismo nivel de calidad que un publicable:** fluido, sin cortes malos, coherente a nivel visual (ningún tablero vacío, nada de escenas de medio segundo, nada repetido en pantalla) y con sentido. Todo verificado con `verificar_audio.py`.
   - Paso a paso en [[flujo-reels-paso-a-paso]].
-- **F1 (le encanta):** cada animación que se ve tiene que hablar de lo que dice en ese momento. Al recortar, la cola de 0,7 s de una animación del horizontal caía sobre otro mensaje («la energía masculina» mientras hablaba de su mejor versión). `reel_yapping.py` lo resuelve solo si el config trae `"toma"` (toma limpia) y `"ventanas"` (ventanas.json del horizontal): ahí pone su cara. Revisar igualmente que la estructura y el gancho tengan sentido.
+- **F1 (le encanta):** cada animación que se ve tiene que hablar de lo que dice en ese momento. Al recortar, la cola de 0,7 s de una animación del horizontal caía sobre otro mensaje («la energía masculina» mientras hablaba de su mejor versión). `reel_yapping.py` lo resuelve solo si el config trae `"toma"` (toma limpia) y `"ventanas"` (ventanas.json del horizontal): ahí pone su cara. **Horizontal estándar (sin animaciones, desde 11/10):** config con `"fuente"` (el horizontal), `"tiempos"` (`<horizontal>.tiempos.json`) y `"montaje"` (`<horizontal>.montaje.json`: las frases clave, que salen enteras en el 4:3 central); sin toma ni ventanas. Revisar igualmente que la estructura y el gancho tengan sentido.
 - **`trial/`** (Instagram los enseña solo a no seguidores): el primer publicable en los otros 2 formatos (prueba de formato) y, si sobran ganchos buenos, misma estructura y formato con el gancho alternativo (prueba de gancho).
 - **Archivos:** `MarcaPersonal/publicar/` y `MarcaPersonal/trial/`, cada una **por semanas** (`semana_<lunes AAAA-MM-DD>/`), con el día delante del nombre: `<día>_<vídeo>_c<NN>_g<N>e<N>_<F1|F2|F3>.mp4` (p. ej. `mie_dopamina_c03_g2e2_F2.mp4`), para mezclar vídeos en el calendario. Y un `MarcaPersonal/<vídeo>/plan.md` con cada reel: mensaje, gancho (frase exacta), estructura, formato, título, música, duración, carpeta, semana y día (los del mismo mensaje, separados).
 

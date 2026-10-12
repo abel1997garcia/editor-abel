@@ -29,8 +29,8 @@ TITULO_PX, TITULO_Y, TITULO_PASO, TITULO_ANCHO = 51, 473, 61, 940   # MAYÚSCULA
 SUB_PX, SUB_Y, SUB_MAX = 51, 1411, 3          # justo bajo el vídeo, una línea, máx. 3 palabras (ref.: 1393–1428)
 
 # --- cortes fluidos (regla de Abel): se limpian silencios largos, pero no se trocea el habla natural
-PAUSA = .45        # pausa por encima de la cual se corta (Abel 08/10/2026: cortar cada pausa de 0,3 s dejaba 25 cortes en 53 s, «nada fluido»)
-AIRE = .12         # al cortar un silencio largo quedan ~0,25 s (0,12 a cada lado), nunca cero: que respire
+PAUSA = .45        # corte grueso por los tiempos de Whisper; los microsilencios (≥ 0,2 s) los quita microcortes() midiendo el audio
+AIRE = .07         # en cada unión quedan ~0,14 s (0,07 a cada lado), nunca cero (Lavri 12/10: la voz casi no para)
 MIN_PLANO = 1.5    # un plano más corto se une al de al lado: dentro de una frase no hay cortecitos
 PAUSA_MAX = .45   # pero solo si la pausa que los separa es natural; más larga, se corta (vídeo dinámico)
 PAUSA_UNIR = .65  # una palabra suelta («dije», «y») nunca se queda en un plano de medio segundo: se une a su frase si la pausa es ≤ esto
@@ -148,6 +148,9 @@ def frase(titulo):
     return t[:1].upper() + t[1:]
 
 
+cursiva = lambda l: re.sub(r'(“[^”]+”)', r'{\\i1}\1{\\i0}', l)   # la palabra clave entre comillas, en cursiva (como Lavri)
+
+
 def ass(titulo, subs, ruta):
     cab = f"""[Script Info]
 ScriptType: v4.00+
@@ -175,7 +178,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         pal = ' '.join(lineas).split()
         k = min(range(1, len(pal)), key=lambda i: abs(f.getlength(' '.join(pal[:i])) - f.getlength(' '.join(pal[i:]))))
         lineas = [' '.join(pal[:k]), ' '.join(pal[k:])]
-    ev = [f"Dialogue: 0,{tc(0)},{tc(subs[-1][1] + 5)},Titulo,,0,0,0,,{{\\pos(540,{TITULO_Y + (i - (len(lineas) - 1) / 2) * TITULO_PASO:.0f})}}{l}"
+    ev = [f"Dialogue: 0,{tc(0)},{tc(subs[-1][1] + 5)},Titulo,,0,0,0,,{{\\pos(540,{TITULO_Y + (i - (len(lineas) - 1) / 2) * TITULO_PASO:.0f})}}{cursiva(l)}"
           for i, l in enumerate(lineas)]
     ev += [f"Dialogue: 0,{tc(a)},{tc(b)},Sub,,0,0,0,,{{\\pos(540,{SUB_Y})}}{t}" for a, b, t in subs]
     Path(ruta).write_text(cab + '\n'.join(ev) + '\n', encoding='utf-8')
@@ -223,6 +226,44 @@ def ajustar_finales(fuente, W, ps):
             u2 += .01
         if corte_: out.append((round(t0, 3), round(corte_ + .1, 3), g)); continue
         out.append((round(t0, 3), round(t1n, 3), g))
+    return microcortes(fuente, W, out)
+
+
+MICRO, MICRO_FIN, MICRO_INICIO, MICRO_PLANO = .2, .05, .08, .5   # quedan ~0,13 s de aire medidos desde la voz real (Lavri: ~0, máx. 0,3)
+
+
+def microcortes(fuente, W, ps, desde=None):
+    """Abel 12/10/2026 («sí o sí, siempre»): todo silencio REAL de ≥ 0,2 s entre dos palabras se deja en ~0,13 s (0,05 tras la cola + 0,08 antes del arranque, medidos con umbral suave)
+   , también dentro de la frase, para más dinamismo. Se mide en el audio, así nunca se corta una palabra; no se corta si
+    deja un plano < 1 s ni desde la palabra `desde` (el cierre que no se toca). ps = [(t0, t1, g, *resto)]"""
+    import numpy as np
+    raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', fuente, '-vn', '-ac', '1', '-ar', '16000', '-f', 's16le', '-'], capture_output=True).stdout
+    x = np.frombuffer(raw, np.int16).astype(float) / 32768; x = x[:len(x) // 160 * 160]
+    E = 20 * np.log10(np.sqrt((x.reshape(-1, 160) ** 2).mean(1)) + 1e-9)                    # envolvente cada 10 ms
+    out = []
+    for t0, t1, g, *resto in ps:
+        if desde is not None and g[-1] >= desde: out.append((t0, t1, g, *resto)); continue
+        env = list(E[max(0, int(round(t0 * 100))):int(round(t1 * 100))])
+        umbral = max(-42, max(env, default=-42) - 30)   # a −24 se comía arranques suaves («habrá»)
+        partes, a, ga = [], t0, list(g)
+        k = 0
+        while k < len(env):
+            if env[k] >= umbral: k += 1; continue
+            j = k
+            while j < len(env) and env[j] < umbral: j += 1
+            s0, s1 = t0 + k * .01, t0 + j * .01
+            antes = [i for i in ga if W[i]['s'] < (s0 + s1) / 2]; despues = [i for i in ga if W[i]['s'] >= (s0 + s1) / 2]
+            dentro = any(W[i]['s'] + .4 * (W[i]['e'] - W[i]['s']) < s1 and W[i]['e'] - .4 * (W[i]['e'] - W[i]['s']) > s0 for i in ga)   # el centro de una palabra nunca es silencio (Whisper alarga los bordes)
+            # bordes finos con un umbral mucho más bajo: la cola y el arranque suaves («v» de «voy», «te») son voz, no silencio
+            suave, k2, j2 = max(-58, umbral - 15), k, j
+            while k2 < j and env[k2] > suave: k2 += 1
+            while j2 > k2 and env[j2 - 1] > suave: j2 -= 1
+            c0, c1 = t0 + k2 * .01 + MICRO_FIN, t0 + j2 * .01 - MICRO_INICIO
+            if s1 - s0 >= MICRO and c1 - c0 >= .06 and not dentro and j < len(env) and antes and despues and c0 - a >= MICRO_PLANO and t1 - c1 >= MICRO_PLANO:
+                partes.append((round(a, 3), round(c0, 3), antes)); a, ga = c1, despues
+            k = j
+        partes.append((round(a, 3), t1, ga))
+        out += [(p0, p1, pg, *resto) for p0, p1, pg in partes]
     return out
 
 
@@ -298,6 +339,13 @@ def solo_voz(cfg, nombre, reel, W):
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', cfg['fuente'], '-filter_complex', ''.join(fil), '-map', '[voz]',
                     str(tmp / 'voz.wav')], check=True)
     (tmp / 'planos.json').write_text(json.dumps([None] + [[t0, t1, p] for (t0, t1, _), p in zip(ps, pads)]))
+    # listón (Lavri, 12/10/2026): ningún hueco de voz > 0,25 s salvo al final, y ≥ 3,3 palabras/s
+    err = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', str(tmp / 'voz.wav'), '-af', 'silencedetect=noise=-38dB:d=0.25',
+                          '-f', 'null', '-'], capture_output=True, text=True).stderr
+    dur = sum(b - a + p for (a, b, _), p in zip(ps, pads)) / VELOCIDAD
+    largos = [f'{float(e) - float(d):.1f}s ({float(d):.2f})' for e, d in re.findall(r'silence_end: ([\d.]+) \| silence_duration: ([\d.]+)', err)
+              if float(e) < dur - .3]
+    print(f"  listón: {sum(len(g) for *_, g in ps) / dur:.2f} palabras/s · huecos > 0,25 s: {largos or 'ninguno'}")
     return tmp
 
 

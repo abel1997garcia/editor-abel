@@ -15,7 +15,7 @@ Lista viva de ganchos según Abel (la va completando él; apuntar cada veredicto
 **CONDICIÓN OBLIGATORIA (Abel 09/10/2026): el gancho va SIEMPRE DIRECTO A LA PERSONA.** Si es una afirmación directa que la toca («Las adicciones como tal no existen»), vale. Si es solo información sobre un tema («Las dinámicas sociales son…»), NO se pone, ni en publicar ni en trial ni en los guiones. **Siempre que se pueda, de TÚ a TÚ** («Te…», «Tú…», «Eres…», «Cuanto más intentas…»).
 
 **🔴 TEST DE CADA HOOK, LOS 3, TAMBIÉN EL 1 «ORIGINAL» (Abel 10/10/2026: «si no, va a pasar el vídeo y no lo va a ver»):**
-1. **Se entiende solo y dice DE QUÉ VA el reel.**
+1. **Se entiende solo y dice DE QUÉ VA el reel.** Nada de «eso», «esto», «esa» o «con eso» sin referente, y por su entonación tiene que ser una frase COMPLETA que arranca (Abel 12/10/2026: «el contexto al poner el gancho es fundamental»).
    - MAL: «Si no notas nada en el cuerpo, no estás en paz, estás anestesiado» («puede ser perfectamente acupuntura»).
    - MAL: «Si lo sientes en el pecho, es miedo» (es un dato, no ataca).
 2. **Ataca DIRECTAMENTE a la persona** (tú) y **va contra lo que cree la mayoría.**
@@ -51,6 +51,9 @@ Cada uno le da la vuelta a una creencia popular, con la connotación negativa m�
 - «Tu cabeza te miente, tu cuerpo no.»
 
 ## ❌ Malos (y por qué)
+- «Cuando tú te haces bueno con eso, nunca te va a faltar negocio» (12/10/2026): «con eso, ¿el qué?».
+- «No ser suficientemente listo o suficientemente válido…» (12/10): es la mitad de una enumeración; por la entonación no puede abrir.
+- «Los que más dinero hacen es una cosa específica…» (12/10): trozo cogido a media frase.
 - «Eres pobre aunque cobres el doble» (10/10/2026): no tiene sentido.
 - «Las dinámicas sociales son un reflejo de cómo tú estás…» (09/10/2026: «una mierda, ni para los trials»): no dice nada, no ataca ninguna creencia limitante y no tiene connotación negativa que remueva.
 - «Vas a comer puta mierda…» (trial c01 travesía) — sin contexto, no se sabe de qué habla (08/10).

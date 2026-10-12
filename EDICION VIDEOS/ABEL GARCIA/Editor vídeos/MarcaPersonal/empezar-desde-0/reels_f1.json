@@ -17,7 +17,7 @@
      2505
     ]
    ],
-   "titulo": "Si nadie te critica, algo haces mal",
+   "titulo": "Si nadie te critica, tu contenido NO vende:",
    "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3"
   },
   "c02_g17e3_F1": {
@@ -41,19 +41,19 @@
      1104
     ]
    ],
-   "titulo": "Hablar de todo te deja sin clientes",
+   "titulo": "Por esto hablar de 50 temas te deja sin clientes:",
    "musica": "ÉPICA/ECHO SAX END but it sounds like Øneheart.mp3"
   },
   "c03_g9e1_F1": {
    "gancho": [
     [
-     595,
-     635
+     336,
+     366
     ]
    ],
    "cuerpo": [
     [
-     636,
+     595,
      650
     ],
     [
@@ -61,7 +61,7 @@
      800
     ]
    ],
-   "titulo": "Ese miedo está frenando tu marca personal",
+   "titulo": "El miedo que no te deja empezar tu marca personal:",
    "musica": "EMOCIONAL/Outro - M83 only the best part.mp3"
   },
   "c04_g5e2_F1": {
@@ -77,7 +77,7 @@
      1005
     ]
    ],
-   "titulo": "Separar tu negocio de ti te agota",
+   "titulo": "Separar tu negocio de quién eres te está agotando:",
    "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3"
   },
   "c05_g16e5_F1": {
@@ -105,19 +105,19 @@
      1715
     ]
    ],
-   "titulo": "Lo que regalas podría ser tu negocio",
+   "titulo": "Lo que haces “como hobby” podría ser tu negocio:",
    "musica": "EMOCIONAL/Outro - M83 only the best part.mp3"
   },
   "c06_g12e6_F1": {
    "gancho": [
     [
-     1759,
-     1765
+     3120,
+     3136
     ]
    ],
    "cuerpo": [
     [
-     3120,
+     3137,
      3276
     ],
     [
@@ -125,23 +125,23 @@
      1783
     ]
    ],
-   "titulo": "Leer guiones te hace sonar falso",
+   "titulo": "Por esto usar guiones te hace sonar falso:",
    "musica": "ÉPICA/ECHO SAX END but it sounds like Øneheart.mp3"
   },
   "c07_g25e7_F1": {
    "gancho": [
     [
-     1842,
+     1826,
      1858
     ]
    ],
    "cuerpo": [
     [
      1787,
-     1841
+     1813
     ],
     [
-     1859,
+     1881,
      1908
     ],
     [
@@ -157,7 +157,7 @@
      1925
     ]
    ],
-   "titulo": "Abrir el abanico te deja sin negocio",
+   "titulo": "Si ofreces de todo, jamás vas a llenar tu agenda:",
    "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3"
   },
   "c08_g22e8_F1": {
@@ -177,43 +177,39 @@
      2559
     ]
    ],
-   "titulo": "Así nadie va a confiar en ti",
+   "titulo": "Por esto nadie confía en tu marca personal:",
    "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3"
   },
   "c09_g13e10_F1": {
    "gancho": [
     [
-     2632,
-     2653
+     2592,
+     2614
     ]
    ],
    "cuerpo": [
     [
-     2561,
-     2629
-    ],
-    [
-     2654,
+     2615,
      2743
     ]
    ],
-   "titulo": "Vivir pendiente del qué dirán te frena",
+   "titulo": "Por esto el “hate” no debería frenarte:",
    "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3"
   },
   "c10_g18e11_F1": {
    "gancho": [
     [
-     2914,
-     2922
+     2884,
+     2912
     ]
    ],
    "cuerpo": [
     [
      2747,
-     2912
+     2883
     ]
    ],
-   "titulo": "Agradar a todos te hace invisible",
+   "titulo": "Si quieres gustar a todos, nadie te va a comprar:",
    "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3"
   },
   "t01_g2e9_F1": {
@@ -254,13 +250,13 @@
    "de": "c03_g9e1_F1",
    "gancho": [
     [
-     336,
-     366
+     558,
+     576
     ]
    ],
    "cuerpo": [
     [
-     595,
+     593,
      650
     ],
     [
@@ -273,8 +269,8 @@
    "de": "c07_g25e7_F1",
    "gancho": [
     [
-     1826,
-     1841
+     1881,
+     1908
     ]
    ],
    "cuerpo": [
@@ -283,8 +279,8 @@
      1813
     ],
     [
-     1842,
-     1908
+     1826,
+     1858
     ],
     [
      1321,
@@ -300,22 +296,26 @@
     ]
    ]
   },
-  "t05_g6e11_F1": {
-   "de": "c10_g18e11_F1",
+  "t05_g26e5_F1": {
+   "de": "c05_g16e5_F1",
    "gancho": [
     [
-     2884,
-     2899
+     1457,
+     1482
     ]
    ],
    "cuerpo": [
     [
-     2747,
-     2883
+     1504,
+     1554
     ],
     [
-     2900,
-     2922
+     1618,
+     1672
+    ],
+    [
+     1687,
+     1715
     ]
    ]
   }

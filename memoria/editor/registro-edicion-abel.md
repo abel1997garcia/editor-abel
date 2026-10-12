@@ -10,17 +10,19 @@ metadata:
 
 Leer antes de cada edición; ampliar después (ver [[aprender-de-cada-edicion]]).
 
-## REGLA GENERAL · Silencios: dos criterios (Abel, 05/10/2026: «muy importante»)
-Vale para todo: vídeos largos y reels. Se limpia con la transcripción: silencios, muletillas («¿de acuerdo?», «o sea»…), equivocaciones, arranques repetidos y repeticiones.
-1. **Entre frases se cortan los silencios** para dar dinamismo: toda pausa > 0,3 s queda en ~0,2 s (nunca a cero).
-2. **Dentro de una frase no hay cortecitos** que rompan la fluidez: nunca planos de < 1,5 s; si sale uno, se une al vecino conservando su pausa natural (≤ 0,6 s). Un silencio real (> 0,6 s) se recorta siempre, salvo que deje un conector suelto («pero… si no cambias», «así que… aplica ya»): esa pausa es de entonación y se respeta.
-Valores en `herramientas/reel_yapping.py` (PAUSA, AIRE, MIN_PLANO) y `herramientas/limpiar_largo.py` (SILENCIO, ENTONACION). Antes de entregar, revisar que las uniones suenan de un tirón.
+## REGLA GENERAL · Silencios y microsilencios (Abel 12/10/2026: «sí o sí, siempre», sustituye a la de 05/10)
+Vale para todo: vídeos largos y reels. Se limpian con la transcripción las muletillas («¿de acuerdo?», «o sea»…), las equivocaciones, los arranques repetidos y las repeticiones. Además, **todo silencio real de ≥ 0,2 s entre dos palabras (respiraciones incluidas) queda en ~0,14 s**, también dentro de la frase, para dar dinamismo, **pero sin cortar nunca una palabra**.
+- Se mide en el AUDIO, no en los tiempos de Whisper: `microcortes()` de `reel_yapping.py`, que ya llaman `ajustar_finales` (reels F1/F3) y `limpiar_largo.py` (horizontales).
+- No corta si deja un plano < 1 s, ni en el cierre (`intacto_desde`).
+- El arranque de una palabra suave («habrá») lleva 0,09 s de margen. A −24 dB se comía esos arranques; ahora el umbral es pico − 30.
+- Medir antes de renderizar: `silencedetect` en la voz no debe dar pausas > 0,25 s salvo el final.
+- Si el verificador dice que falta una palabra en una unión, se comprueba transcribiendo ese trozo suelto. En «empezar desde 0» varias eran falsos avisos de Whisper («habrá», «coño»).
 
 ## REGLA GENERAL · El horizontal se hace pensando ya en los reels (Abel, 08/10/2026: «muy, muy importante»)
-Todo lo de las animaciones del horizontal (textos, dibujos, personajes, emojis, flechas, frases destacadas) va **dentro del 4:3** (x 280–1640 con margen, contando la deriva de cámara: nada a x < 350), y cada animación se entiende sola con su frase. **Por qué:** así el reel F1 sale del horizontal con solo recortar y pulir (animaciones, audio y efectos ya hechos); si algo se sale, hay que volver a programar y reajustar para el vertical, que cuesta mucho más tiempo y recursos. `herramientas/pizarra/revisar.mjs` tiene que dar «todo bien» (vigila el 4:3) antes de montar, y en las hojas de revisión se mira el 4:3 central, no la pantalla entera.
+Todo lo que se pone en el horizontal (frases clave y, si las hay, animaciones: textos, dibujos, personajes, emojis, flechas) va **dentro del 4:3** (x 280–1640 con margen, contando la deriva de cámara: nada a x < 350), y cada animación se entiende sola con su frase. **Por qué:** así el reel F1 sale del horizontal con solo recortar y pulir (animaciones, audio y efectos ya hechos); si algo se sale, hay que volver a programar y reajustar para el vertical, que cuesta mucho más tiempo y recursos. `herramientas/pizarra/revisar.mjs` tiene que dar «todo bien» (vigila el 4:3) antes de montar, y en las hojas de revisión se mira el 4:3 central, no la pantalla entera.
 
 ## REGLA GENERAL · Limpiar al terminar (Abel, 06/10/2026)
-Con un vídeo hecho y verificado, se borra lo usado y solo quedan: su grabación original, los entregables finales, las configuraciones pequeñas (los .json y escenas.js) y, **hasta entregar sus reels**, lo que estos necesitan (toma_limpia.mov, trabajo/tiempos.json, edicion/montaje.json, index.html). Fuera: versiones anteriores, renders intermedios (`out/`), audios y pistas de trabajo, proxies, fotogramas de revisión, ficheros auxiliares y vídeos de referencia ya analizados. Al acabar los reels, también lo que solo servía para ellos.
+Con un vídeo hecho y verificado, se borra lo usado y solo quedan: su grabación original, los entregables finales, las configuraciones pequeñas (los .json y escenas.js) y, **hasta entregar sus reels**, lo que estos necesitan (estándar: `<horizontal>.tiempos.json` y `.montaje.json`; con animaciones: toma_limpia.mov, trabajo/tiempos.json, edicion/montaje.json, index.html). Fuera: versiones anteriores, renders intermedios (`out/`), audios y pistas de trabajo, proxies, fotogramas de revisión, ficheros auxiliares y vídeos de referencia ya analizados. Al acabar los reels, también lo que solo servía para ellos.
 
 ## Lo que Abel ha aprobado
 - 05/10/2026 · Reel 3 de «Sin buena intención…» («Si la intención es ganar dinero, sé honesto»): «está genial, aprende de eso». **ES EL MODELO DE REEL DE MARCA PERSONAL.** Por qué funcionó:
@@ -28,9 +30,6 @@ Con un vídeo hecho y verificado, se borra lo usado y solo quedan: su grabación
   - Pocos tramos y largos (4 bloques), cada uno una idea completa, con un hilo claro: gancho → por qué (ego espiritual) → qué hacer (preguntas correctas) → cierre.
   - Habla de corrido en esos bloques: casi sin trocitos sueltos ni muletillas que quitar.
   - Termina en una frase completa con pausa natural detrás («…durante muchos años.»).
-
-## REGLA GENERAL · Ritmo de los reels: dinámico pero con sentido (Abel, 08/10/2026: «no es fluido, tampoco es dinámico»)
-El equilibrio: entre frases ~0,2 s; **dentro de una frase, como mucho 0,45 s** (pausa natural); un silencio más largo se recorta siempre, aunque deje un plano corto (con fundido, nunca seco). Antes la regla de no hacer cortecitos pegaba los planos cortos con su silencio entero y quedaban 5–7 s de silencio por reel (pausas de hasta 1,4 s). Ya está en `reel_yapping.py` (`PAUSA_MAX`, sirve para F1 y F3). Medir antes de renderizar: pausa máxima dentro de plano y segundos de silencio por reel. Quitar también muletillas sueltas que queden como trocito aislado («realmente»).
 
 ## REGLA GENERAL · ESCUCHAR antes de entregar (Abel, 08/10/2026: trial 550.000 € «muy, pero que muy mal cortado… ¿realmente lo has revisado?»)
 - Mirar fotogramas y texto NO basta. Antes de dar por bueno cualquier reel (y los horizontales), pasar **`herramientas/verificar_audio.py <out/_reel> <tiempos.json>`**. Se lanza con `--fotos 1` (genera solo el audio) antes del render completo. Hace esto:
@@ -41,7 +40,7 @@ El equilibrio: entre frases ~0,2 s; **dentro de una frase, como mucho 0,45 s** (
 - Tiene que salir ✓. Además, **leer en voz alta cada unión ‖**: si no suena a una sola frase natural, se cambia.
 - **No reordenar su discurso.** Montar «gancho del final + contexto de antes» dejó frases sin sentido («me dieron la placa | me di cuenta de que siendo…»). Su orden, casi de corrido; el contexto se da con imágenes.
 - **No repetir en pantalla lo que ya dice él y ya sale en el subtítulo.** El «550.000» salía tres veces a la vez: título + texto grande + subtítulo.
-- **Las pausas naturales (≤ 0,45 s) no se cortan.** Una palabra suelta («dije», «y») se une a su frase. Antes se cortaba toda pausa de más de 0,3 s: 25 cortes en 53 s, «nada fluido». Ahora salen unos 3 cortes cada 10 s.
+- Una palabra suelta («dije», «y») se une a su frase. (08/10: cortar por los tiempos de Whisper dejaba 25 cortes en 53 s, «nada fluido»; ahora los microcortes se miden en el audio y quedan unos 3–4 cada 10 s.)
 
 ## REGLA GENERAL · Ganchos (Abel, 08/10/2026)
 Directos, sin relleno delante («Tú cuando tenías…» → «Con 20 años tenías miedo a que te criticasen… y no les importabas una puta mierda»: fuera «tú cuando», «y», «realmente»). Si la frase del avatar de esa parte no engancha («Vas sacando un montón de emoción que has reprimido» no tiene ningún sentido como gancho), se abre con el momento más fuerte de esa parte aunque sea su historia («Estuve 15-20 minutos llorando sin parar, pensando que me había vuelto loco…») y la idea va después. Aprobados como buenos: «Las adicciones como tal no existen», «Te aseguro que en la vida no existe ninguna casualidad».
