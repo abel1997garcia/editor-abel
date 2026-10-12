@@ -147,3 +147,32 @@ Cada día, una ficha para el canal principal, otra para el de energía sexual y 
 **ARRANQUE:** «Tuve 100.000 suscriptores, y donde de verdad entendí lo que es vender fue fregando platos a 20 dólares la hora.»
 **Qué contar:** en Brisbane fregabas platos 7-8 horas al día por 20 dólares australianos la hora, sin que nadie supiera quién eras ni cuántos seguidores habías tenido.
 **Qué te dejó:** (propuesta, ajústala a lo que viviste) que lo que hace que alguien te elija no son tus números, sino cómo le haces sentir, y en tu marca personal pasa exactamente lo mismo.
+
+## 2026-10-12 · Canal principal
+**TÍTULO:** Por ESTO cobras barato con tu marca personal (no es lo que crees)
+**IDEA:** No cobras poco por el mercado ni por tener pocos seguidores, sino por la culpa y el miedo al «no», y se te nota en el contenido y en cada conversación.
+**ARRANQUE:** «Te han dicho que bajes precios para empezar y que ya subirás cuando tengas clientes; hoy vas a ver cinco señales de que el problema no es tu precio, y la quinta es la que más duele.»
+**SEÑAL 1:** Haces descuento antes de que nadie te lo pida, por miedo al «no».
+**SEÑAL 2:** Regalas sesiones para darte a conocer y te da rabia que nadie pague.
+**SEÑAL 3:** Te tiembla la voz al decir tu precio y te sientes un fraude.
+**SEÑAL 4:** Nunca hablas de tu precio en tu contenido por vergüenza a parecer interesado.
+**SEÑAL 5:** Te sientes culpable cobrando a quien lo está pasando mal.
+**SOLUCIÓN:** Pon el precio que de verdad crees que vale tu trabajo, dilo sin justificarte y aguanta el silencio después.
+**APUNTE DE SU HISTORIA:** Cuando pagaste 900 € por un curso fue la primera vez que te lo tomaste en serio: a tu cliente le pasa lo mismo.
+
+## 2026-10-12 · Canal de energía sexual
+**TÍTULO:** Por qué recaes en el porno justo cuando tu negocio empieza a ir bien (no es casualidad)
+**IDEA:** Cuando empiezan a escribirte clientes aparece el miedo a crecer y a exponerte más, y el porno es la forma de bajar esa energía y volver a lo de siempre.
+**ARRANQUE:** «Llevas semanas grabando, por fin te escribe un cliente y esa misma noche recaes; no es mala suerte, y lo que hay detrás te está frenando el negocio.»
+**LA IDEA FUERTE:** Te da más miedo que te vaya bien que seguir igual, y lo frenas con lo de siempre.
+**PASO 1:** Apunta cada recaída y qué había pasado ese día en tu negocio.
+**PASO 2:** El día que te escriba un cliente, graba otro vídeo en vez de celebrarlo con el móvil.
+**PASO 3:** Decide antes qué harás esa noche: entrenar, grabar o caminar sin móvil.
+**SOLUCIÓN:** Cuanto mejor va tu negocio, más tienes que proteger tu energía, porque es la que te hace grabar, publicar y que te sigan escribiendo.
+**APUNTE DE SU HISTORIA:** —
+
+## 2026-10-12 · Canal de documentación
+**TEMA:** Si finges en tus vídeos, lo acabas pagando por dentro (confesión)
+**ARRANQUE:** «Durante años subí vídeos motivacionales con la sonrisa puesta, y nadie sabía cómo me despertaba por las noches.»
+**Qué contar:** con 100.000 suscriptores subías vídeos motivacionales entre semana sonriendo a cámara, y te despertabas de madrugada, sobre las 3:40, con el corazón acelerado, y a eso lo llamabas «estar espabilado».
+**Qué te dejó:** hoy solo grabas lo que de verdad piensas y vives, y si emprendes, tu cliente nota la careta aunque no sepa explicarlo: lo que te hace vender sin quemarte es ser en cámara el mismo que eres fuera.

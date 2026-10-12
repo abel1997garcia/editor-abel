@@ -143,7 +143,11 @@ if __name__ == '__main__':
     cfg['fin'] = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', cfg['fuente']],
                                       capture_output=True, text=True).stdout) - .05
     W = json.load(open(cfg['tiempos'], encoding='utf-8'))
-    ps = microcortes(cfg['fuente'], W, planos(W, cfg), cfg.get('intacto_desde')); F = tiempos_final(W, ps); cartas = tarjetas(F, cfg)
+    ps = microcortes(cfg['fuente'], W, planos(W, cfg), cfg.get('intacto_desde'))
+    # cada corte cuadrado a fotogramas (30 fps): si no, el vídeo redondea cada trozo y, con cientos de microcortes, la voz se
+    # desviaba hasta 1,8 s de .tiempos.json (12/10/2026) y los reels se cortaban mal
+    ps = [(round(t0 * 30) / 30, round(t1 * 30) / 30, g, z) for t0, t1, g, z in ps if round(t1 * 30) > round(t0 * 30)]
+    F = tiempos_final(W, ps); cartas = tarjetas(F, cfg)
     print(f'{sum(t1 - t0 for t0, t1, _, _ in ps):.1f} s en {len(ps)} planos ({sum(1 for p in ps if p[3] > 1)} con zoom de énfasis), {len(cartas)} frases')
     for a, b, t in cartas: print(f'  frase {a:7.1f}–{b:7.1f} s  {t}')
     if '--texto' in sys.argv:

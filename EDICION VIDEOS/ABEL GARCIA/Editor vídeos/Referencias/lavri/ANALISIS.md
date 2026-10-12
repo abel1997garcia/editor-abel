@@ -45,3 +45,45 @@ Vídeos en `reels/`, medidas en `reels/analisis.json`, portadas en `reels/portad
   - fórmulas: «Así cierro…», «Por esto…», «Si no haces “yapping” jamás…», «Así fue como un “consejo” casi destroza mi negocio:», «Porqué sin YouTube jamás cerraría 6 cifras/mes:»;
   - números reales (€230k/mes, 45 días, x10) y la palabra clave entre comillas y en cursiva.
 - **Subtítulos:** una palabra cada vez, pequeña y discreta sobre el vídeo.
+
+# Banco de títulos de referencia (Rebeca y Lavri, 12/10/2026)
+Abel: «los que tengan franja negra, siempre mejor». Se usan para copiar la ESTRUCTURA, nunca el título; siempre adaptados a su mensaje y con connotación negativa.
+- **Rebeca (franja negra):**
+  - «No vendas espiritualidad con tu Marca Personal:»
+  - «Si no sabes en qué eres bueno, olvídate de crear Marca Personal auténtica:»
+  - «El contenido de conexión es el que MÁS vende (mentoría con clienta):»
+  - «Una buena comunicación en tu contenido: Atrae, Conecta y vende»
+  - «Qué importante es tener gente en tu entorno que ha visto todas tus versiones y siguen ahí:»
+  - «Un poquito de mí:»
+- **Rebeca (otros):**
+  - «NO me compres sin ver antes todo mi contenido:»
+  - «Esto hará un x10 en la entrega de tu servicio:»
+  - «El secreto de un buen contenido para tu Marca Personal:»
+  - «Hasta ciertos millonarios tienen este miedo inconsciente:»
+  - «Este es mi motivo real:»
+- **Lavri (franja negra):**
+  - «$70.000 en 45 días con menos de 10k seguidores:»
+  - «Así “trato” a mis clientas cuando vienen a grabar conmigo:»
+  - «Porqué sin YouTube jamás cerraría 6 cifras/mes:»
+  - «Porqué publicar a Volumen hará un x10 en tus ventas:»
+  - «Si no haces “yapping” jamás crearás contenido real:»
+  - «Así fue como un “consejo” casi destroza mi negocio:»
+  - «La mentalidad que me ha llevado a €230k/mes»
+  - «Una venta interrumpe el Onboarding con Clienta (épico):»
+  - «Así cierro ventas de €20k sin llamadas de venta:»
+  - «Por esto escalé a €150k/mes sin Setters ni Closers:»
+  - «No existen países “caros” sino poder adquisitivo bajo:»
+  - «Por esto “copiar contenido” no te hace vender más:»
+  - «Así crecería 10.000 seguidores en 30 días (desde cero):»
+  - «Si no haces esto jamás crecerás a 100.000 seguidores:»
+- **Estructuras que salen:**
+  - «No [hagas] X con tu marca:»
+  - «Si no X, olvídate de Y:»
+  - «Hasta [quien menos piensas] tiene este [error/miedo]:»
+  - «No existe X, sino Y:»
+  - «Así fue como X casi destroza Y:»
+  - «Por esto “X” no te hace Y:»
+  - «Esto hará/te quita…:»
+  - «El secreto de…:»
+  - cifra + contexto
+  - (paréntesis al final)

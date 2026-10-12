@@ -24,7 +24,14 @@ Todo lo que se pone en el horizontal (frases clave y, si las hay, animaciones: t
 ## REGLA GENERAL · Limpiar al terminar (Abel, 06/10/2026)
 Con un vídeo hecho y verificado, se borra lo usado y solo quedan: su grabación original, los entregables finales, las configuraciones pequeñas (los .json y escenas.js) y, **hasta entregar sus reels**, lo que estos necesitan (estándar: `<horizontal>.tiempos.json` y `.montaje.json`; con animaciones: toma_limpia.mov, trabajo/tiempos.json, edicion/montaje.json, index.html). Fuera: versiones anteriores, renders intermedios (`out/`), audios y pistas de trabajo, proxies, fotogramas de revisión, ficheros auxiliares y vídeos de referencia ya analizados. Al acabar los reels, también lo que solo servía para ellos.
 
+## Error · c03 de «empezar desde 0» (12/10/2026: «los cortes no son limpios del todo»)
+El verificador decía que faltaba «tú imagínate» y se oía «realmente que cuando salgan…». Lo di por falso aviso y era un corte que dejaba un trozo de palabra. **Si falta una palabra que SÍ está en la toma original (comprobarlo transcribiendo la fuente), es un corte malo:** se mueve el tramo o se corta antes o después de esa frase, nunca se acepta.
+
+## Error · horizontal con cientos de microcortes (12/10/2026, «energía y negocio»)
+Cada trozo se redondeaba a fotogramas y la voz acabó 1,8 s desviada de `.tiempos.json`, así que los reels F1 salían con huecos de 0,6 s. Ya lo corrige `limpiar_largo.py`, que cuadra cada corte a 30 fps. **Comprobar siempre** que la suma de `.planos.json` coincide con la duración real del vídeo (± 0,1 s).
+
 ## Lo que Abel ha aprobado
+- 12/10/2026 · Los 15 reels rehechos de «empezar desde 0» con la skill `reels-abel`: «la edición está mucho mejor, los títulos mucho mejor, los cortes, los silencios y la fluidez, todo mucho mejor». Es el nivel de referencia (microcortes medidos en la voz, títulos tipo Lavri). Solo falló el gancho de «sin guiones» (ver [[ganchos]]).
 - 05/10/2026 · Reel 3 de «Sin buena intención…» («Si la intención es ganar dinero, sé honesto»): «está genial, aprende de eso». **ES EL MODELO DE REEL DE MARCA PERSONAL.** Por qué funcionó:
   - El gancho es una frase literal suya, en 2ª persona, que suena en el segundo 0.
   - Pocos tramos y largos (4 bloques), cada uno una idea completa, con un hilo claro: gancho → por qué (ego espiritual) → qué hacer (preguntas correctas) → cierre.

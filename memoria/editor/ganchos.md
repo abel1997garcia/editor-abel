@@ -51,6 +51,11 @@ Cada uno le da la vuelta a una creencia popular, con la connotación negativa m�
 - «Tu cabeza te miente, tu cuerpo no.»
 
 ## ❌ Malos (y por qué)
+- «Yo esto que te estoy explicando no me lo he preparado, ni he hecho un guion ni nada» (reel «sin guiones», 12/10/2026: «no es nada bueno»).
+  - Habla de él, no le toca un dolor a quien lo ve.
+  - «Esto que te estoy explicando» remite al vídeo largo, y en un reel no hay nada explicado.
+  - No rompe ninguna creencia.
+  - Lección: un gancho sacado de un horizontal no puede depender del vídeo del que sale («este vídeo», «lo que te he comentado», «esto que te explico»). Para ese reel tenía que atacar lo que cree la persona, p. ej. «Si escribes cada palabra de tus vídeos, se nota que no eres tú».
 - «Cuando tú te haces bueno con eso, nunca te va a faltar negocio» (12/10/2026): «con eso, ¿el qué?».
 - «No ser suficientemente listo o suficientemente válido…» (12/10): es la mitad de una enumeración; por la entonación no puede abrir.
 - «Los que más dinero hacen es una cosa específica…» (12/10): trozo cogido a media frase.

@@ -1,0 +1,152 @@
+{
+ "fuente": "C:/Users/Clap/Desktop/Fregar platos en Australia me enseñó más de vender.mp4",
+ "tiempos": "../../VideosLargos/fregar-platos/toma_tiempos.json",
+ "salida": "out_f1",
+ "reels": {
+  "c01_g1e1_F1": {
+   "gancho": [
+    [
+     1372,
+     1399
+    ]
+   ],
+   "cuerpo": [
+    [
+     1400,
+     1561
+    ]
+   ],
+   "titulo": "Si persigues a tus clientes, jamás te van a comprar:",
+   "musica": "ÉPICA/ECHO SAX END but it sounds like Øneheart.mp3",
+   "quitar": [
+    1430,
+    1431,
+    1432,
+    1433,
+    1434,
+    1435,
+    1436,
+    1444,
+    1445,
+    1446,
+    1447,
+    1448,
+    1449,
+    1450,
+    1456,
+    1457,
+    1458,
+    1459,
+    1460,
+    1461,
+    1462
+   ]
+  },
+  "c02_g2e2_F1": {
+   "gancho": [
+    [
+     758,
+     816
+    ]
+   ],
+   "cuerpo": [
+    [
+     822,
+     856
+    ],
+    [
+     337,
+     377
+    ]
+   ],
+   "titulo": "Por esto tu contenido no transmite confianza:",
+   "musica": "ÉPICA/Ogryzek - AURA.mp3",
+   "quitar": [
+    857,
+    858,
+    859,
+    860,
+    861
+   ]
+  },
+  "c03_g3e3_F1": {
+   "gancho": [
+    [
+     1049,
+     1069
+    ]
+   ],
+   "cuerpo": [
+    [
+     1085,
+     1098
+    ],
+    [
+     1170,
+     1276
+    ],
+    [
+     1277,
+     1343
+    ]
+   ],
+   "titulo": "Por esto atraes clientes que solo buscan tu dinero:",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3",
+   "quitar": [
+    1095,
+    1184
+   ]
+  },
+  "c04_g4e4_F1": {
+   "gancho": [
+    [
+     626,
+     653
+    ]
+   ],
+   "cuerpo": [
+    [
+     656,
+     751
+    ],
+    [
+     1004,
+     1025
+    ],
+    [
+     1026,
+     1043
+    ]
+   ],
+   "titulo": "Por esto te sientes vacío aunque te vaya bien:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "quitar": [
+    722
+   ]
+  },
+  "c05_g5e5_F1": {
+   "gancho": [
+    [
+     2310,
+     2345
+    ]
+   ],
+   "cuerpo": [
+    [
+     1693,
+     1752
+    ],
+    [
+     2174,
+     2222
+    ],
+    [
+     2260,
+     2270
+    ]
+   ],
+   "titulo": "Por esto tu contenido parece hecho por una “IA”:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3"
+  }
+ }
+}

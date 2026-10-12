@@ -229,7 +229,7 @@ def ajustar_finales(fuente, W, ps):
     return microcortes(fuente, W, out)
 
 
-MICRO, MICRO_FIN, MICRO_INICIO, MICRO_PLANO = .2, .05, .08, .5   # quedan ~0,13 s de aire medidos desde la voz real (Lavri: ~0, máx. 0,3)
+MICRO, MICRO_FIN, MICRO_INICIO, MICRO_PLANO = .2, .09, .08, .3   # quedan ~0,17 s de aire medidos desde la voz real (Lavri: ~0, máx. 0,3); la cola lleva 0,09: las «s» finales son flojas («platos» salía «plato»)
 
 
 def microcortes(fuente, W, ps, desde=None):
@@ -245,6 +245,13 @@ def microcortes(fuente, W, ps, desde=None):
         if desde is not None and g[-1] >= desde: out.append((t0, t1, g, *resto)); continue
         env = list(E[max(0, int(round(t0 * 100))):int(round(t1 * 100))])
         umbral = max(-42, max(env, default=-42) - 30)   # a −24 se comía arranques suaves («habrá»)
+        # bordes del plano: fuera el silencio de delante y de detrás (en las uniones quedaban huecos de 0,4–0,6 s); la cola final se respeta
+        voz = [k for k, e in enumerate(env) if e > max(-58, umbral - 15)]
+        if voz:
+            n0 = t0 + max(0, voz[0] * .01 - MICRO_INICIO); n1 = t0 + (voz[-1] + 1) * .01 + MICRO_FIN
+            ultimo = (t0, t1, g) == tuple(ps[-1][:3])
+            if n0 > t0 + .02: env = env[int(round((n0 - t0) * 100)):]; t0 = round(n0, 3)
+            if not ultimo and n1 < t1 - .02: env = env[:int(round((n1 - t0) * 100))]; t1 = round(n1, 3)
         partes, a, ga = [], t0, list(g)
         k = 0
         while k < len(env):
@@ -253,9 +260,9 @@ def microcortes(fuente, W, ps, desde=None):
             while j < len(env) and env[j] < umbral: j += 1
             s0, s1 = t0 + k * .01, t0 + j * .01
             antes = [i for i in ga if W[i]['s'] < (s0 + s1) / 2]; despues = [i for i in ga if W[i]['s'] >= (s0 + s1) / 2]
-            dentro = any(W[i]['s'] + .4 * (W[i]['e'] - W[i]['s']) < s1 and W[i]['e'] - .4 * (W[i]['e'] - W[i]['s']) > s0 for i in ga)   # el centro de una palabra nunca es silencio (Whisper alarga los bordes)
+            dentro = False   # (12/10) sin guarda por tiempos de Whisper: estira palabras sobre los silencios; los bordes se miden en el audio con umbral suave
             # bordes finos con un umbral mucho más bajo: la cola y el arranque suaves («v» de «voy», «te») son voz, no silencio
-            suave, k2, j2 = max(-58, umbral - 15), k, j
+            suave, k2, j2 = max(-58, umbral - 12), k, j
             while k2 < j and env[k2] > suave: k2 += 1
             while j2 > k2 and env[j2 - 1] > suave: j2 -= 1
             c0, c1 = t0 + k2 * .01 + MICRO_FIN, t0 + j2 * .01 - MICRO_INICIO

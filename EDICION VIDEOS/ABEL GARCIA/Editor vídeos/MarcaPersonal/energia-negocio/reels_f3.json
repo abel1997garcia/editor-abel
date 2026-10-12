@@ -1,0 +1,226 @@
+{
+ "fuente": "../../VideosLargos/energia-negocio/Tu energía sexual afecta a tu negocio (sin saberlo) - horizontal.mp4",
+ "tiempos": "../../VideosLargos/energia-negocio/Tu energía sexual afecta a tu negocio (sin saberlo) - horizontal.tiempos.json",
+ "salida": "out_f3",
+ "reels": {
+  "c01_g1e1_F3": {
+   "escenas": "c01.js",
+   "titulo": "Hasta los que más trabajan caen en este error de foco:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "tramos": [
+    [
+     "si quieres conseguir éxito",
+     "va a conseguir éxito",
+     331.7
+    ],
+    [
+     "y la gente al principio",
+     "al principio siempre",
+     324.0
+    ],
+    [
+     "pero realmente cuando sabes",
+     "a 80 cosas",
+     340.5
+    ],
+    [
+     "ese estrés muchas veces viene",
+     "alrededor de su vida",
+     301.6
+    ]
+   ],
+   "acento": "plexo"
+  },
+  "c02_g3e2_F3": {
+   "escenas": "c02.js",
+   "titulo": "No existe la “competencia”, existe tu miedo a vender:",
+   "musica": "ÉPICA/ECHO SAX END but it sounds like Øneheart.mp3",
+   "tramos": [
+    [
+     "esas creencias limitantes que tú puedas",
+     "marca personal eres tú",
+     513.1
+    ],
+    [
+     "y tú has pasado",
+     "como abundancia",
+     521.7
+    ]
+   ],
+   "acento": "garganta"
+  },
+  "c03_g5e3_F3": {
+   "escenas": "c03.js",
+   "titulo": "Si te cohíbes al publicar, olvídate de vender con tu marca:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3",
+   "tramos": [
+    [
+     "el miedo siempre es del ego",
+     "luego te lo crees",
+     703.7
+    ],
+    [
+     "hay una parte de ti",
+     "lo que vale es lo que tú sientes",
+     605.3
+    ],
+    [
+     "primero debe revisar",
+     "va a bajar muchísimo",
+     682.7
+    ]
+   ],
+   "acento": "raiz"
+  },
+  "c04_g6e4_F3": {
+   "escenas": "c04.js",
+   "titulo": "Por esto “ver más cursos” no te hace vender más:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3",
+   "tramos": [
+    [
+     "no hay falta de información",
+     "falta de aplicación",
+     806.8
+    ],
+    [
+     "quieres lograr algo",
+     "quien tiene que hacerlo tú",
+     753.6
+    ],
+    [
+     "y te aseguro",
+     "y te aseguro",
+     777.5
+    ],
+    [
+     "puedes ver 50 vídeos de estos",
+     "puedes ver 50 vídeos de estos",
+     778.7
+    ],
+    [
+     "pero básicamente todos",
+     "manos a la obra",
+     783.8
+    ]
+   ],
+   "acento": "sacro"
+  },
+  "c05_g8e5_F3": {
+   "escenas": "c05.js",
+   "titulo": "Así es como desperdicias tu energía (y tu marca no crece):",
+   "musica": "EMOCIONAL/Outro - M83 only the best part.mp3",
+   "tramos": [
+    [
+     "si no encuentras nada",
+     "va a llegar un punto",
+     233.8
+    ],
+    [
+     "y sobre todo cuando vaya",
+     "potenciar mi marca personal",
+     239.9
+    ],
+    [
+     "es muy importante que tú entiendas cuál",
+     "poder de la marca personal",
+     150.9
+    ],
+    [
+     "si tienes alguna duda",
+     "lo que vale la marca personal",
+     162.2
+    ]
+   ],
+   "acento": "corazon"
+  },
+  "t01_g2e1_F3": {
+   "escenas": "t01.js",
+   "titulo": "Hasta los que más trabajan caen en este error de foco:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "tramos": [
+    [
+     "cuando tú te sientes estresado",
+     "mil vueltas a la cabeza",
+     346.8
+    ],
+    [
+     "y la gente al principio",
+     "al principio siempre",
+     324.0
+    ],
+    [
+     "si quieres conseguir éxito",
+     "energía extra en eso",
+     331.7
+    ],
+    [
+     "ese estrés muchas veces viene",
+     "alrededor de su vida",
+     301.6
+    ]
+   ],
+   "acento": "plexo"
+  },
+  "t02_g4e2_F3": {
+   "escenas": "t02.js",
+   "titulo": "No existe la “competencia”, existe tu miedo a vender:",
+   "musica": "ÉPICA/ECHO SAX END but it sounds like Øneheart.mp3",
+   "tramos": [
+    [
+     "cinco personas diferentes venden lo mismo",
+     "es una mentira tío",
+     536.4
+    ],
+    [
+     "esas creencias limitantes que tú puedas",
+     "eso es la abundancia",
+     513.1
+    ],
+    [
+     "porque tú puedes invertir",
+     "como abundancia",
+     546.6
+    ]
+   ],
+   "acento": "garganta"
+  },
+  "t03_g7e4_F3": {
+   "escenas": "t03.js",
+   "titulo": "Por esto “ver más cursos” no te hace vender más:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3",
+   "tramos": [
+    [
+     "quieres al 100% que te cojan",
+     "lo que tienes que hacer",
+     767.1
+    ],
+    [
+     "quieres lograr algo",
+     "que tengo que hacer exactamente",
+     753.6
+    ],
+    [
+     "y por supuesto yo te puedo",
+     "quien tiene que hacerlo tú",
+     773.1
+    ],
+    [
+     "y te aseguro",
+     "y te aseguro",
+     777.5
+    ],
+    [
+     "puedes ver 50 vídeos de estos",
+     "puedes ver 50 vídeos de estos",
+     778.7
+    ],
+    [
+     "pero básicamente todos",
+     "falta de aplicación",
+     783.8
+    ]
+   ],
+   "acento": "sacro"
+  }
+ }
+}

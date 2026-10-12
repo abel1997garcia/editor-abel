@@ -31,7 +31,7 @@
 
 ## Dolores y mentalidad (siempre rematados en la marca personal)
 - ✅ Las 3 razones por las que nadie te escribe aunque publiques todos los días.
-- Por esto cobras barato con tu marca personal (y cómo dejar de hacerlo).
+- ✅ Por esto cobras barato con tu marca personal (y cómo dejar de hacerlo).
 - ¿Miedo a subir tus precios? Haz esto HOY.
 - Lo que tuve que sanar para que mi marca personal funcionara (confesión).
 - El miedo a que te vean está frenando tu marca personal.
@@ -49,7 +49,7 @@
 - Lo que haces cada noche se nota en tu negocio al día siguiente.
 - Napoleón Hill escondió ESTO sobre la energía sexual y el dinero.
 - 3 hábitos que le roban la energía a tu negocio (el 2 te va a sorprender).
-- Por qué recaes justo cuando tu negocio empieza a ir bien.
+- ✅ Por qué recaes justo cuando tu negocio empieza a ir bien.
 - Lo que cambió en mi negocio después de 90 días de retención (no es lo que crees).
 - El error de los hombres que practican la retención y no ganan más dinero.
 - La retención no te hace «más hombre» (pero sí cambia tu negocio).
