@@ -1,0 +1,377 @@
+{
+ "fuente": "C:/Users/Clap/Desktop/Nadie sabía lo que me pasaba a las 340 de la maña.mp4",
+ "tiempos": "../../VideosLargos/las-340/toma_tiempos.json",
+ "salida": "out_f1",
+ "reels": {
+  "c01_g1e1_F1": {
+   "gancho": [
+    [
+     0,
+     25
+    ]
+   ],
+   "cuerpo": [
+    [
+     26,
+     81
+    ],
+    [
+     157,
+     217
+    ]
+   ],
+   "enfasis": [
+    [
+     23,
+     25
+    ],
+    [
+     79,
+     81
+    ],
+    [
+     186,
+     188
+    ]
+   ],
+   "quitar": [],
+   "titulo": "Vendía motivación mientras por dentro estaba hundido:",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3"
+  },
+  "c02_g2e3_F1": {
+   "gancho": [
+    [
+     455,
+     483
+    ]
+   ],
+   "cuerpo": [
+    [
+     485,
+     504
+    ],
+    [
+     583,
+     673
+    ]
+   ],
+   "enfasis": [
+    [
+     615,
+     617
+    ],
+    [
+     633,
+     634
+    ],
+    [
+     669,
+     670
+    ]
+   ],
+   "quitar": [
+    591,
+    592,
+    593,
+    594,
+    595,
+    596,
+    597,
+    598,
+    599
+   ],
+   "titulo": "Ganar más no arregla lo que llevas dentro:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3"
+  },
+  "c03_g3e2_F1": {
+   "gancho": [
+    [
+     348,
+     396
+    ]
+   ],
+   "cuerpo": [
+    [
+     397,
+     447
+    ],
+    [
+     271,
+     330
+    ]
+   ],
+   "enfasis": [
+    [
+     418,
+     420
+    ],
+    [
+     297,
+     303
+    ]
+   ],
+   "quitar": [],
+   "titulo": "Si tu marca ya no es tuya, eres su esclavo:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3"
+  },
+  "c04_g4e5_F1": {
+   "gancho": [
+    [
+     1033,
+     1061
+    ]
+   ],
+   "cuerpo": [
+    [
+     1062,
+     1149
+    ],
+    [
+     1151,
+     1186
+    ]
+   ],
+   "enfasis": [
+    [
+     1042,
+     1044
+    ],
+    [
+     1099,
+     1104
+    ],
+    [
+     1166,
+     1170
+    ]
+   ],
+   "quitar": [],
+   "titulo": "Fingir que eres auténtico se nota (aunque no lo creas):",
+   "musica": "ÉPICA/ECHO SAX END but it sounds like Øneheart.mp3"
+  },
+  "c05_g5e6_F1": {
+   "gancho": [
+    [
+     1250,
+     1278
+    ]
+   ],
+   "cuerpo": [
+    [
+     1279,
+     1309
+    ],
+    [
+     1310,
+     1372
+    ],
+    [
+     1416,
+     1489
+    ],
+    [
+     1523,
+     1559
+    ]
+   ],
+   "enfasis": [
+    [
+     1288,
+     1291
+    ],
+    [
+     1422,
+     1423
+    ],
+    [
+     1487,
+     1489
+    ]
+   ],
+   "quitar": [],
+   "titulo": "Elegir entre 4 opciones no es pensar por ti mismo:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3"
+  },
+  "c06_g6e8_F1": {
+   "gancho": [
+    [
+     1855,
+     1865
+    ]
+   ],
+   "cuerpo": [
+    [
+     1866,
+     1919
+    ],
+    [
+     1230,
+     1249
+    ],
+    [
+     1812,
+     1847
+    ],
+    [
+     2739,
+     2765
+    ]
+   ],
+   "enfasis": [
+    [
+     1871,
+     1874
+    ],
+    [
+     1900,
+     1902
+    ],
+    [
+     2762,
+     2765
+    ]
+   ],
+   "quitar": [],
+   "titulo": "Por esto te comparan por precio (y no te eligen):",
+   "musica": "ÉPICA/ECHO SAX END but it sounds like Øneheart.mp3"
+  },
+  "c07_g7e10_F1": {
+   "gancho": [
+    [
+     2386,
+     2422
+    ]
+   ],
+   "cuerpo": [
+    [
+     2423,
+     2471
+    ],
+    [
+     2479,
+     2553
+    ]
+   ],
+   "enfasis": [
+    [
+     2450,
+     2451
+    ],
+    [
+     2551,
+     2553
+    ]
+   ],
+   "quitar": [
+    2449
+   ],
+   "titulo": "Lo que mejor se te da es justo lo que infravaloras:",
+   "musica": "EMOCIONAL/Outro - M83 only the best part.mp3"
+  },
+  "t01_g8e4_F1": {
+   "gancho": [
+    [
+     841,
+     856
+    ]
+   ],
+   "cuerpo": [
+    [
+     778,
+     836
+    ],
+    [
+     860,
+     893
+    ],
+    [
+     911,
+     948
+    ]
+   ],
+   "enfasis": [
+    [
+     795,
+     797
+    ],
+    [
+     867,
+     868
+    ]
+   ],
+   "quitar": [],
+   "titulo": "Hasta tus seguidores te obligan a llevar una careta:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3"
+  },
+  "t02_g9e7_F1": {
+   "gancho": [
+    [
+     1611,
+     1632
+    ]
+   ],
+   "cuerpo": [
+    [
+     1564,
+     1609
+    ],
+    [
+     1633,
+     1666
+    ],
+    [
+     1728,
+     1783
+    ]
+   ],
+   "enfasis": [
+    [
+     1575,
+     1577
+    ],
+    [
+     1663,
+     1666
+    ],
+    [
+     1749,
+     1752
+    ]
+   ],
+   "quitar": [],
+   "titulo": "Quien te critica te está mirando en un espejo:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3"
+  },
+  "t03_g10e9_F1": {
+   "gancho": [
+    [
+     2061,
+     2102
+    ]
+   ],
+   "cuerpo": [
+    [
+     2104,
+     2157
+    ],
+    [
+     2269,
+     2328
+    ]
+   ],
+   "enfasis": [
+    [
+     2136,
+     2138
+    ],
+    [
+     2304,
+     2308
+    ]
+   ],
+   "quitar": [],
+   "titulo": "Le das vueltas a qué vender y lo tienes delante:",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3"
+  }
+ }
+}

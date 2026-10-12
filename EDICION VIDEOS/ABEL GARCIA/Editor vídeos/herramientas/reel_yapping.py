@@ -31,7 +31,7 @@ SUB_PX, SUB_Y, SUB_MAX = 51, 1411, 3          # justo bajo el vídeo, una línea
 
 # --- cortes fluidos (regla de Abel): se limpian silencios largos, pero no se trocea el habla natural
 PAUSA = .45        # corte grueso por los tiempos de Whisper; los microsilencios (≥ 0,2 s) los quita microcortes() midiendo el audio
-AIRE = .07         # en cada unión quedan ~0,14 s (0,07 a cada lado), nunca cero (Lavri 12/10: la voz casi no para)
+AIRE = .05         # en cada unión quedan ~0,14 s (0,07 a cada lado), nunca cero (Lavri 12/10: la voz casi no para)
 MIN_PLANO = 1.5    # un plano más corto se une al de al lado: dentro de una frase no hay cortecitos
 PAUSA_MAX = .45   # pero solo si la pausa que los separa es natural; más larga, se corta (vídeo dinámico)
 PAUSA_UNIR = .65  # una palabra suelta («dije», «y») nunca se queda en un plano de medio segundo: se une a su frase si la pausa es ≤ esto
@@ -232,7 +232,7 @@ def ajustar_finales(fuente, W, ps):
     return microcortes(fuente, W, out)
 
 
-MICRO, MICRO_FIN, MICRO_INICIO, MICRO_PLANO = .2, .09, .08, .3   # quedan ~0,17 s de aire medidos desde la voz real (Lavri: ~0, máx. 0,3); la cola lleva 0,09: las «s» finales son flojas («platos» salía «plato»)
+MICRO, MICRO_FIN, MICRO_INICIO, MICRO_PLANO = .14, .05, .06, .3   # Abel 12/10/2026: ninguna pausa > 0,15 s; quedan ~0,13 s medidos desde la voz real (bordes con umbral suave)
 
 
 def microcortes(fuente, W, ps, desde=None):
@@ -249,7 +249,17 @@ def microcortes(fuente, W, ps, desde=None):
         env = list(E[max(0, int(round(t0 * 100))):int(round(t1 * 100))])
         umbral = max(-42, max(env, default=-42) - 30)   # a −24 se comía arranques suaves («habrá»)
         # bordes del plano: fuera el silencio de delante y de detrás (en las uniones quedaban huecos de 0,4–0,6 s); la cola final se respeta
-        voz = [k for k, e in enumerate(env) if e > max(-58, umbral - 15)]
+        voz = [k for k, e in enumerate(env) if e > max(-58, umbral - 8)]
+        # un pico de ≤ 0,06 s pegado al borde tras ≥ 0,08 s de silencio es el arranque de la palabra siguiente (o la cola de la
+        # anterior), no voz de este plano: fuera, si no dejaba ese silencio dentro (Abel 12/10/2026: pausas ≤ 0,15 s)
+        if voz and voz[-1] >= len(env) - 3:                          # final: el último tramo de voz, ¿es un pico suelto?
+            k = len(voz) - 1
+            while k > 0 and voz[k] - voz[k - 1] <= 1: k -= 1
+            if 0 < k and len(voz) - k <= 6 and voz[k] - voz[k - 1] > 8: voz = voz[:k]
+        if voz and voz[0] <= 2:                                      # principio: igual con el primer tramo
+            k = 0
+            while k + 1 < len(voz) and voz[k + 1] - voz[k] <= 1: k += 1
+            if k + 1 < len(voz) and k + 1 <= 6 and voz[k + 1] - voz[k] > 8: voz = voz[k + 1:]
         if voz:
             n0 = t0 + max(0, voz[0] * .01 - MICRO_INICIO); n1 = t0 + (voz[-1] + 1) * .01 + MICRO_FIN
             ultimo = (t0, t1, g) == tuple(ps[-1][:3])
@@ -265,11 +275,11 @@ def microcortes(fuente, W, ps, desde=None):
             antes = [i for i in ga if W[i]['s'] < (s0 + s1) / 2]; despues = [i for i in ga if W[i]['s'] >= (s0 + s1) / 2]
             dentro = False   # (12/10) sin guarda por tiempos de Whisper: estira palabras sobre los silencios; los bordes se miden en el audio con umbral suave
             # bordes finos con un umbral mucho más bajo: la cola y el arranque suaves («v» de «voy», «te») son voz, no silencio
-            suave, k2, j2 = max(-58, umbral - 12), k, j
+            suave, k2, j2 = max(-58, umbral - 8), k, j
             while k2 < j and env[k2] > suave: k2 += 1
             while j2 > k2 and env[j2 - 1] > suave: j2 -= 1
             c0, c1 = t0 + k2 * .01 + MICRO_FIN, t0 + j2 * .01 - MICRO_INICIO
-            if s1 - s0 >= MICRO and c1 - c0 >= .06 and not dentro and j < len(env) and antes and despues and c0 - a >= MICRO_PLANO and t1 - c1 >= MICRO_PLANO:
+            if s1 - s0 >= MICRO and c1 - c0 >= .02 and not dentro and j < len(env) and antes and despues and c0 - a >= MICRO_PLANO and t1 - c1 >= MICRO_PLANO:
                 partes.append((round(a, 3), round(c0, 3), antes)); a, ga = c1, despues
             k = j
         partes.append((round(a, 3), t1, ga))
@@ -361,13 +371,13 @@ def solo_voz(cfg, nombre, reel, W):
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', cfg['fuente'], '-filter_complex', ''.join(fil), '-map', '[voz]',
                     str(tmp / 'voz.wav')], check=True)
     (tmp / 'planos.json').write_text(json.dumps([None] + [[t0, t1, p] for (t0, t1, _), p in zip(ps, pads)]))
-    # listón (Lavri, 12/10/2026): ningún hueco de voz > 0,25 s salvo al final, y ≥ 3,3 palabras/s
-    err = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', str(tmp / 'voz.wav'), '-af', 'silencedetect=noise=-38dB:d=0.25',
+    # listón (Abel 12/10/2026): ningún hueco de voz > 0,15 s salvo al final, y ≥ 3,3 palabras/s
+    err = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', str(tmp / 'voz.wav'), '-af', 'silencedetect=noise=-38dB:d=0.15',
                           '-f', 'null', '-'], capture_output=True, text=True).stderr
     dur = sum(b - a + p for (a, b, _), p in zip(ps, pads)) / VELOCIDAD
     largos = [f'{float(e) - float(d):.1f}s ({float(d):.2f})' for e, d in re.findall(r'silence_end: ([\d.]+) \| silence_duration: ([\d.]+)', err)
               if float(e) < dur - .3]
-    print(f"  listón: {sum(len(g) for *_, g in ps) / dur:.2f} palabras/s · huecos > 0,25 s: {largos or 'ninguno'}")
+    print(f"  listón: {sum(len(g) for *_, g in ps) / dur:.2f} palabras/s · huecos > 0,15 s: {largos or 'ninguno'}")
     return tmp
 
 

@@ -130,7 +130,7 @@ Cada reel (también los de trial) lleva su propia descripción, escrita como hab
 2. **El porqué** con situaciones concretas del día a día del avatar.
 3. **Su creencia como experiencia propia** («para mí…», «yo no creo que…»), con autoridad, sin vender certezas que no tiene ni inventarle historias.
 4. **Cierre corto** que confronte o deje algo que hacer.
-5. **`#abelunidad #autoconocimiento #espiritualidad`** al final, siempre, los 3 (Abel, 08/10/2026; antes solo #abelunidad).
+5. **`#abelunidad #marcapersonal #negocios (Abel 12/10/2026)`** al final, siempre, los 3 (Abel, 08/10/2026; antes solo #abelunidad).
 Ejemplo suyo: «Lo que te da miedo de morir no es la muerte, es darte cuenta de que igual no has vivido tu vida. / Porque en el fondo actúas como si esto fuera infinito. Aguantas un trabajo que odias, sigues con gente con la que ya no quieres estar, no haces eso que llevas años pensando porque "ya habrá tiempo"… y así se te van los años. Yo no creo que cuando mueres simplemente desaparezcas y ya está, para mí la muerte es un cambio de conciencia, no el final. Pero precisamente por eso cada vez entiendo menos vivir con miedo a hacer lo que de verdad quieres hacer aquí. No sé qué hay después ni te voy a vender que lo sé, pero sí sé que algún día este cuerpo se acaba. / Y hay decisiones que llevas demasiado tiempo dejando para luego. / #abelunidad»
 Va en un `.txt` con el mismo nombre que el vídeo, al lado (en `MarcaPersonal/REELS/`), y en el `plan.md`.
 

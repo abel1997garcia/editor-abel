@@ -136,7 +136,7 @@ NADA MÁS: ni cuerpo, ni «De qué hablar», ni datos extra. Las reglas de abajo
 - `## Cuerpo`: UN párrafo seguido que encaja detrás de cualquiera de los 3. EMPIEZA DIRECTO con la escena («Tú te levantas, visualizas…»), NO con «Porque…»;
   - OBLIGATORIO, la COLLEJA de verdad («no veo ni una connotación negativa, no cumple»): lo que hace mal, que se está engañando, cómo repite el error y qué le va a pasar si sigue así, llevado al extremo («y así vas a seguir, ganes lo que ganes, toda tu vida», «vas a seguir en el mismo sitio dentro de diez años»);
   - después, su prueba y la solución con una acción.
-- `## Descripción del post`: sin CTA, con #abelunidad #autoconocimiento #espiritualidad.
+- `## Descripción del post`: sin CTA, con #abelunidad #marcapersonal #negocios (Abel 12/10/2026).
 - **NADA MÁS:** ni «guion para teleprompter», ni título de pantalla, ni nota.
 
 **Estilo del cuerpo (muy hablado, ver `mi-voz/mi-voz.md` y G-001):**

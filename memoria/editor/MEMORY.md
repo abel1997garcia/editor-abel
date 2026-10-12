@@ -1,5 +1,5 @@
 - [Aprender de cada edición](aprender-de-cada-edicion.md) — Abel quiere que guarde errores y feedback tras cada vídeo para mejorar
-- [Registro de edición de Abel](registro-edicion-abel.md) — leer ANTES de editar: microsilencios ≥ 0,2 s a ~0,14 s siempre, sin cortar palabras, lo aprobado, errores a evitar
+- [Registro de edición de Abel](registro-edicion-abel.md) — leer ANTES de editar: pausas máx. 0,15 s en reels (microsilencios a ~0,13 s), sin cortar palabras, lo aprobado, errores a evitar
 - [Reels de marca personal](reels-marca-personal.md) — F1/F2/F3 si la fuente es horizontal; F5 CASUAL para los reels de guion del móvil (sin imágenes, título que completa el hook, subtítulos ≤4 palabras); F4 aparcado; ESTRUCTURA OBLIGATORIA gancho → colleja → solución, sin CTA, 40–50 s · todo listo en MarcaPersonal/REELS/ (numerado, PUBLICAR/TRIAL en el nombre)
 - [Estilo vídeos largos](estilo-videos-largos-stickman.md) — 3 canales: ESTÁNDAR sin animaciones (limpieza + zooms + frases clave en pantalla blanca, `limpiar_largo.py`); pizarra solo si Abel lo pide; su gancho grabado NO se toca
 - [Entorno skill animaciones](entorno-skill-animaciones.md) — instalación, fallos de Windows, fuentes y detección de caras
@@ -10,7 +10,7 @@
 - [Fotos y vídeos de su vida](fotos-vida-abel.md) — su línea de tiempo completa (de «Mi Historia») + FOTOS MIAS por época: leer antes de usar una foto o contar su historia, nunca mezclar épocas
 - [Nicho y estrategia](estrategia-contenido-80-15-5.md) — ESLOGAN «Autenticidad que vende» · NICHO 10/10: «Si emprendes, te enseño a llenar tu agenda con tu marca personal…»; fuente única 00-avatar-operativo.md; remate para emprendedores; 80/15/5
 - [Criterios de contenido útil](criterios-contenido-util.md) — al elegir clips, reels o vídeos de YouTube: que se reconozca (dolor), «la galletita» aplicable, creencia atacada desde su lente; nunca solo educativo
-- [Flujo de reels paso a paso](flujo-reels-paso-a-paso.md) — LEER ANTES DE HACER REELS: skill `reels-abel` con el LISTÓN (≥ 3,3 palabras/s, huecos ≤ 0,35 s, cada ✗ re-escuchado, ganchos completos con contexto, títulos tipo Lavri)
+- [Flujo de reels paso a paso](flujo-reels-paso-a-paso.md) — LEER ANTES DE HACER REELS: skill `reels-abel` con el LISTÓN (≥ 3,3 palabras/s, huecos ≤ 0,15 s, cada ✗ re-escuchado, ganchos completos con contexto, títulos tipo Lavri)
 - [Miniaturas: estilo nuevo](miniaturas-estilo.md) — fondo blanco siempre, foto real + escena de pizarra con intriga; herramientas/miniaturas; en prueba desde 09/10
 - [Métricas de Instagram](metricas-instagram.md) — n8n diario → Google Sheet «Métricas Instagram · Abel»; yo enriquezco filas e informe semanal
 - [Copia de seguridad](copia-seguridad.md) — GitHub editor-abel + actualizar_copia.py (--subir, --usb); nunca subir settings.json ni claves

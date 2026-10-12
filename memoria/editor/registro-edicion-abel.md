@@ -11,11 +11,11 @@ metadata:
 Leer antes de cada edición; ampliar después (ver [[aprender-de-cada-edicion]]).
 
 ## REGLA GENERAL · Silencios y microsilencios (Abel 12/10/2026: «sí o sí, siempre», sustituye a la de 05/10)
-Vale para todo: vídeos largos y reels. Se limpian con la transcripción las muletillas («¿de acuerdo?», «o sea»…), las equivocaciones, los arranques repetidos y las repeticiones. Además, **todo silencio real de ≥ 0,2 s entre dos palabras (respiraciones incluidas) queda en ~0,14 s**, también dentro de la frase, para dar dinamismo, **pero sin cortar nunca una palabra**.
+Vale para todo: vídeos largos y reels. Se limpian con la transcripción las muletillas («¿de acuerdo?», «o sea»…), las equivocaciones, los arranques repetidos y las repeticiones. Además, **todo silencio real de ≥ 0,15 s entre dos palabras (respiraciones incluidas) queda en ~0,13 s; en un reel NINGUNA pausa pasa de 0,15 s (Abel 12/10/2026)**, también dentro de la frase, para dar dinamismo, **pero sin cortar nunca una palabra**.
 - Se mide en el AUDIO, no en los tiempos de Whisper: `microcortes()` de `reel_yapping.py`, que ya llaman `ajustar_finales` (reels F1/F3) y `limpiar_largo.py` (horizontales).
 - No corta si deja un plano < 1 s, ni en el cierre (`intacto_desde`).
 - El arranque de una palabra suave («habrá») lleva 0,09 s de margen. A −24 dB se comía esos arranques; ahora el umbral es pico − 30.
-- Medir antes de renderizar: `silencedetect` en la voz no debe dar pausas > 0,25 s salvo el final.
+- Medir antes de renderizar: `silencedetect` en la voz no debe dar pausas > 0,15 s salvo el final (la línea `listón` de `--voz`).
 - Si el verificador dice que falta una palabra en una unión, se comprueba transcribiendo ese trozo suelto. En «empezar desde 0» varias eran falsos avisos de Whisper («habrá», «coño»).
 
 ## REGLA GENERAL · El horizontal se hace pensando ya en los reels (Abel, 08/10/2026: «muy, muy importante»)

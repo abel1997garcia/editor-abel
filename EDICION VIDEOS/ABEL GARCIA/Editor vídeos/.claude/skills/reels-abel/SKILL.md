@@ -13,6 +13,7 @@ description: Sacar reels de Abel de un vídeo horizontal (F1 sin animaciones, F2
 Nada se entrega si no pasa el LISTÓN. «No se trata de subir por subir» (Abel, 12/10/2026). Modelo de ritmo y títulos: Lavri (`Referencias/lavri/ANALISIS.md`, apartado reels).
 
 **Por norma, de cada vídeo salen unos 10 reels: 6–7 de PUBLICAR y SIEMPRE 3 TRIALS** (Abel 12/10/2026). Los trials llevan estructuras distintas de las de publicar, para poder salir ya.
+**Los TRIALS tienen el MISMO nivel que los de publicar** (Abel 12/10/2026: «bajada de calidad importante, los ganchos de los trials son todos una mierda»): se eligen con los mejores trozos que queden y con un gancho que hable DIRECTAMENTE a la persona («Te sabe mal cobrar a…», «Te han hecho creer que…»). Nunca un gancho en tercera persona ni que empiece hablando de Abel. El gancho del propio vídeo, si no lo usa un reel de publicar, es un gran gancho de trial.
 
 ## 1. Ganchos y estructuras (antes de tocar ninguna herramienta)
 - Hacer el banco: 20 o más ganchos (primero los que hablan directamente a la persona) y estructuras colleja → solución de una idea, en `VideosLargos/<tema>/reels_banco.md`.
@@ -59,7 +60,7 @@ Luego:
 2. `... --voz` → `out/_<reel>/voz.wav`. Los microsilencios (≥ 0,2 s) ya salen a ~0,13 s medidos sobre la voz real (`microcortes`), sin cortar palabras.
 
 ## 4. LISTÓN de audio (todo, en cada reel)
-1. La línea `listón` de `--voz`: **≥ 3,3 palabras/s** y **ningún hueco > 0,35 s** salvo el final (Lavri: máx. ~0,3).
+1. La línea `listón` de `--voz`: **≥ 3,3 palabras/s** y **ningún hueco > 0,15 s** salvo el final (Abel 12/10/2026: «no pueden tener pausas de más de 0,15 s»).
 2. `python herramientas/verificar_audio.py out/_<reel> <tiempos>` para todos (`> verif.log`).
 3. `python herramientas/oir_uniones.py verif.log out` vuelve a escuchar cada ✗ con 4 s de contexto:
    - si suena igual que la toma original (transcribir también la FUENTE en ese punto), es un falso aviso de Whisper. Si en la fuente está la palabra y en el reel no, el corte es MALO (c03: «tú imagínate» perdido);
@@ -74,7 +75,7 @@ Luego:
   - un título que tape algo.
 
 ## 6. Entrega
-- Copiar a `MarcaPersonal/REELS/«NNN · PUBLICAR|TRIAL · <vídeo> · e<N>-g<N> · <título>.mp4»` (una sola carpeta, sin semanas; NNN = el siguiente número libre = orden de subida; al programarse pasan a `REELS/programados/`), con su `.txt` del mismo nombre (título, descripción, hashtags). Un trial nunca va justo después de su reel de publicar.
+- Copiar a `MarcaPersonal/REELS/«NNN · PUBLICAR|TRIAL · <vídeo> · e<N>-g<N> · <título>.mp4»` (una sola carpeta, sin semanas; NNN = el siguiente número libre = orden de subida; al programarse pasan a `REELS/programados/`), con su `.txt` del mismo nombre (título, descripción y los hashtags `#abelunidad #marcapersonal #negocios`). Un trial nunca va justo después de su reel de publicar.
 - `MarcaPersonal/<tema>/plan.md`.
 - Borrar `out_f1/`.
 - Nada se programa sin su OK.
