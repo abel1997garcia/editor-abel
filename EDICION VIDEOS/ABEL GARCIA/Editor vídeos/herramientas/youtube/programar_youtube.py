@@ -10,7 +10,7 @@ Todo lo listo está en MarcaPersonal/REELS/, numerado en el orden de subida (Abe
   «NNN · TRIAL · <vídeo> · e<N>-g<N> · <título>.mp4»    -> canal trial: 3 al día como máximo, a las HORAS_TRIAL
 e<N>-g<N> = estructura y gancho dentro de ese vídeo. Dos reels del mismo vídeo con la misma estructura o el mismo gancho
 (publicar o trial, da igual) nunca salen a menos de SEPARACION días (Abel 12/10/2026: «el mismo día se nota»).
-Cada vídeo usa el .txt de al lado: 1.ª línea = título (gancho), todo el texto = descripción.
+Cada vídeo usa el .txt de al lado: 1.ª línea = título; el resto = descripción (sin repetir el título).
 Rellena los huecos libres mezclando vídeos (nunca dos seguidos del mismo si hay de otros). Al programarse, el vídeo y su .txt pasan a REELS/programados/ (y a programados.json).
 Configuración (URL del webhook y clave): youtube_config.json (no se comparte).
 """
@@ -46,7 +46,8 @@ def textos(v):
     s = t.read_text(encoding='utf-8').strip()
     titulo = s.split('\n')[0].strip()
     titulo = (titulo[:95] + '…') if len(titulo) > 96 else titulo
-    return titulo, s
+    # la descripción es el resto del .txt, SIN el título (Abel 12/10/2026: «que sea un complemento, no la misma frase»)
+    return titulo, s.split('\n', 1)[1].strip() if '\n' in s else ''
 
 def familia(nombre):
     """{'empezar-e9', 'empezar-g2'} a partir de «NNN · TIPO · empezar · e9-g2 · título»"""

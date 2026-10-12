@@ -75,7 +75,7 @@ Luego:
   - un título que tape algo.
 
 ## 6. Entrega
-- Copiar a `MarcaPersonal/REELS/«NNN · PUBLICAR|TRIAL · <vídeo> · e<N>-g<N> · <título>.mp4»` (una sola carpeta, sin semanas; NNN = el siguiente número libre = orden de subida; al programarse pasan a `REELS/programados/`), con su `.txt` del mismo nombre (título, descripción y los hashtags `#abelunidad #marcapersonal #negocios`). Un trial nunca va justo después de su reel de publicar.
+- Copiar a `MarcaPersonal/REELS/«NNN · PUBLICAR|TRIAL · <vídeo> · e<N>-g<N> · <título>.mp4»` (una sola carpeta, sin semanas; NNN = el siguiente número libre = orden de subida; al programarse pasan a `REELS/programados/`), con su `.txt` del mismo nombre (1.ª línea = título de YouTube/Instagram, DISTINTO y complementario del título de pantalla; debajo la descripción, que complementa los dos sin repetirlos; al final `#abelunidad #marcapersonal #negocios`). Un trial nunca va justo después de su reel de publicar.
 - `MarcaPersonal/<tema>/plan.md`.
 - Borrar `out_f1/`.
 - Nada se programa sin su OK.

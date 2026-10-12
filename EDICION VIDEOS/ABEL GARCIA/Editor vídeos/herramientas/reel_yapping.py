@@ -225,14 +225,25 @@ def ajustar_finales(fuente, W, ps):
         # final real: si dentro de la última palabra hay un silencio de ≥ 0,25 s (la alineación la estiró), se corta ahí
         u2, corte_ = W[i1]['s'] + .12, None
         while u2 < t1n - .25:
-            if all(db(u2 + k * .01) < max(-42, pico - 24) for k in range(25)): corte_ = u2; break
+            if all(db(u2 + k * .01) < max(-42, pico - 24) for k in range(25)):
+                # solo si después ya no vuelve la voz: si la palabra sigue tras la pausa («emocional… mente»), NO se corta
+                # (12/10/2026: se perdía el final de «emocionalmente»); esa pausa ya la recorta microcortes
+                if not any(db(u2 + .25 + k * .01) > max(-42, pico - 24) for k in range(int((t1n - u2 - .25) / .01))): corte_ = u2
+                break
             u2 += .01
         if corte_: out.append((round(t0, 3), round(corte_ + .1, 3), g)); continue
         out.append((round(t0, 3), round(t1n, 3), g))
+    # dos planos seguidos de la misma toma nunca se solapan: si el final de uno pasa del inicio del siguiente, el audio se
+    # repetía («y son ‖ y son», 12/10/2026). Se cortan en el punto más silencioso entre los dos
+    for k in range(1, len(out)):
+        (a0, b0, g0), (a1, b1, g1) = out[k - 1], out[k]
+        if a1 < b0 and a1 > a0:
+            ts = [a1 + j * .01 for j in range(int((b0 - a1) / .01) + 1)]; m = round(min(ts, key=db), 3)
+            out[k - 1], out[k] = (a0, m, g0), (m, b1, g1)
     return microcortes(fuente, W, out)
 
 
-MICRO, MICRO_FIN, MICRO_INICIO, MICRO_PLANO = .14, .05, .06, .3   # Abel 12/10/2026: ninguna pausa > 0,15 s; quedan ~0,13 s medidos desde la voz real (bordes con umbral suave)
+MICRO, MICRO_FIN, MICRO_INICIO, MICRO_PLANO = .14, .05, .06, .12   # Abel 12/10/2026: ninguna pausa > 0,15 s; quedan ~0,13 s medidos desde la voz real (bordes con umbral suave)
 
 
 def microcortes(fuente, W, ps, desde=None):

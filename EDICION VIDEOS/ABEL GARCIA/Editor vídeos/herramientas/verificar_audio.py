@@ -7,7 +7,7 @@ Usa planos.json ([vf, [ini, fin, relleno], ...] en segundos de la toma) y voz.wa
   1. TEXTO: vuelve a transcribir todo con Whisper y lo compara con lo que debería decir (palabras que faltan, sobran o se repiten).
   2. CADA CORTE, en el punto exacto (muestra a muestra):
      - CORTE SOBRE LA VOZ: hay sonido de voz justo en el corte (se ha partido una palabra o una respiración);
-     - PEGADO / HUECO: el silencio que queda es < 0,08 s (no respira) o > 0,55 s (hueco muerto);
+     - PEGADO / HUECO: el silencio que queda es < 0,03 s (pegado de verdad; Abel 12/10/2026: las pausas van a ~0,11 s) o > 0,55 s (hueco muerto);
      - SE OYE DISTINTO: se vuelve a transcribir solo ese trozo (±2 s) y no coincide con lo esperado;
      - tipo «pausa» (solo se quitó silencio) o «salto» (se quitó texto o se reordenó). En los saltos: LEER LA UNIÓN EN VOZ
        ALTA («…antes ‖ después…»): si no suena a una sola frase natural, el corte está mal aunque no salte ningún aviso.
@@ -98,7 +98,7 @@ def main(tmp, tiempos):
         despues = ' '.join(x[0] for x in oido if t - .1 <= x[1] < t + 2.2)
         pr = []
         if voz_en_corte: pr.append('CORTE SOBRE LA VOZ (parte una palabra o una respiración)')
-        if hueco < .08: pr.append(f'PEGADO: solo {hueco:.2f} s de silencio, no respira')
+        if hueco < .03: pr.append(f'PEGADO: solo {hueco:.2f} s de silencio, no respira')
         if hueco > .55: pr.append(f'HUECO de {hueco:.2f} s')
         if malo and len(esp) > 2: pr.append('SE OYE DISTINTO: ' + '; '.join(f'«{" ".join(e)}» → «{" ".join(g)}»' for e, g in malo))
         graves += bool(pr)

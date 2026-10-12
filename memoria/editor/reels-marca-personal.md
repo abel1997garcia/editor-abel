@@ -150,6 +150,11 @@ Va en un `.txt` con el mismo nombre que el vídeo, al lado (en `MarcaPersonal/RE
 - **VARIEDAD:** se mezclan reels de vídeos distintos. Como mucho 2 del mismo vídeo al día, separados al menos 2,5 h. `programar_youtube.py` ya lo hace solo.
 - **Nada se queda colgado:** si sobran reels de publicar, se programan todos; si hace falta, se añade un hueco más al día (ahora hay 7). Los trials pueden ir semanas después.
 - Antes de programar se lee cada `.txt` y se comprueba que la descripción va con el mensaje y con el título.
+- **DOS títulos distintos y complementarios** (Abel 12/10/2026: «son dos títulos diferentes pero complementarios»):
+  - el título de PANTALLA, que va quemado arriba en el reel;
+  - el título de YOUTUBE/Instagram, que es la 1.ª línea del `.txt`.
+  - El de YouTube nunca es la misma frase que el de pantalla: lo completa desde otro ángulo (la situación concreta, el dolor o el dato), y también lleva connotación negativa. P. ej.: pantalla «No es falta de preparación, es miedo a cobrar lo que vales» → YouTube «Te tiemblan las piernas al decir tu precio (y tu cliente lo nota)». **Aprobado por Abel (12/10/2026: «así, eso es»)** con los 20 de «cobras barato» y «las 3:40».
+- **La descripción** (debajo de la 1.ª línea) complementa los dos y no los repite. `programar_youtube.py` sube como descripción solo ese texto.
 - Los reels con un título que no pasa la prueba se dejan fuera hasta corregirlos.
 - Se programa en los huecos libres desde ya, aunque el día esté empezado.
 - Lo programado pasa solo a `REELS/programados/`.
