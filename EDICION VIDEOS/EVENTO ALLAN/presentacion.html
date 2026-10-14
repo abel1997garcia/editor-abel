@@ -19,7 +19,9 @@
 <audio id="voz" src="voz_allan.mp3" preload="auto"></audio>
 <audio id="music" src="musica.mp3" preload="auto"></audio>
 <script>
-// ---------- utilidades ----------
+// =====================================================================
+//  utilidades
+// =====================================================================
 const W = 1920, H = 1080;
 const cv = document.getElementById('c'), ctx = cv.getContext('2d');
 const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
@@ -28,251 +30,551 @@ const ease = k => k < .5 ? 4 * k * k * k : 1 - Math.pow(-2 * k + 2, 3) / 2;
 const easeOut = k => 1 - Math.pow(1 - k, 3);
 const ramp = (t, a, b) => clamp((t - a) / (b - a));
 function rng(seed) { return () => (seed = (seed * 16807) % 2147483647) / 2147483647; }
+const words = s => s.replace(/\(.*?\)/g, '').split(/\s+/).filter(Boolean);
 
-// ---------- paleta ----------
-const IVORY = '#F5EEDF', GOLD = '#E2C58B', GOLD_D = '#B8955A', MUTED = '#A9A39A';
+const IVORY = '#F5EEDF', GOLD = '#E2C58B', GOLD_D = '#B8955A', MUTED = '#A9A39A', SOFT = '#CFC6B6';
 const MOODS = {
   frio:   { c: [40, 60, 120],  i: .55 },
   sombra: { c: [70, 40, 90],   i: .45 },
-  oscuro: { c: [90, 30, 50],   i: .38 },
+  oscuro: { c: [90, 30, 50],   i: .36 },
   calido: { c: [200, 160, 90], i: .85 },
   luz:    { c: [200, 165, 105], i: 1 },
 };
 
-// ---------- GUION ----------
-// Allan habla en primera persona, de tú a tú.
-// voz: lo que dice Allan (marca la duración de la escena).
-// lines: lo que se lee en pantalla (frase clave, no todo el texto).
-// media: hueco para FOTO o VÍDEO. Si no hay src se pinta el hueco (maqueta).
-const L = (text, f = 'serif', s = 84, c = IVORY, gap = 0) => ({ text, f, s, c, gap });
+// =====================================================================
+//  GUION · Allan habla en primera persona, de tú a tú.
+//  voz   = lo que dice Allan (marca el tiempo de la escena)
+//  lines = lo que se lee en pantalla. `k` = palabra de la voz en la que aparece
+//  layout = tipo de motion graphic
+//  hito  = punto activo de la línea de vida (acto 2)
+// =====================================================================
+const L = (text, f = 'serif', s = 84, c = IVORY, extra = {}) => ({ text, f, s, c, ...extra });
 const SCENES = [
-  { id: 'intro', mood: 'frio',
-    voz: 'Si estás aquí, es probable que hayas perdido a alguien que querías.',
-    lines: [L('Si estás aquí…', 'serif', 100), L('es probable que hayas perdido a alguien que querías.', 'italic', 66, GOLD, 10)] },
-  { id: 'algo-por-decir', mood: 'frio',
-    voz: 'Y quizá te quedaste con algo por decirle.',
-    lines: [L('Y quizá te quedaste', 'serif', 90), L('con algo por decirle.', 'italic', 104, GOLD)] },
-  { id: 'mi-historia', mood: 'frio',
-    voz: 'Yo también me sentí perdido durante mucho tiempo. Déjame contarte mi historia.',
-    lines: [L('DÉJAME CONTARTE MI HISTORIA', 'sans', 40, IVORY), L('Allan', 'serif', 210, IVORY, 18)] },
-  { id: 'antes', mood: 'frio',
-    voz: 'Yo tenía un trabajo estable. Un buen sueldo. Desde fuera, mi vida parecía perfecta.',
-    media: { tipo: 'foto', etiqueta: 'Allan en su vida de antes (trabajo, etapa "perfecta")' },
-    lines: [L('Tenía un trabajo estable. Un buen sueldo.', 'serif', 78), L('Desde fuera, mi vida parecía perfecta.', 'italic', 88, GOLD)] },
-  { id: 'cuerpo', mood: 'sombra',
-    voz: 'Pero por dentro algo no encajaba. Y mi cuerpo empezó a avisarme de que ese no era mi camino.',
-    lines: [L('Pero por dentro algo no encajaba.', 'serif', 84), L('Mi cuerpo me avisaba: ese no era mi camino.', 'italic', 84, GOLD)] },
-  { id: 'infierno', mood: 'oscuro',
-    voz: 'No te voy a mentir: he estado en el infierno durante muchos años.',
-    lines: [L('«He estado en el infierno', 'italic', 104), L('durante muchos años.»', 'italic', 104)] },
-  { id: 'sueno', mood: 'sombra',
+  // ---------- ACTO 1 · Lo que sientes ahora mismo ----------
+  { id: 'corazon', act: 1, mood: 'frio', layout: 'centro',
+    voz: 'Puede que ahora mismo tengas el corazón un poco acelerado.',
+    lines: [L('Puede que ahora mismo', 'serif', 84), L('tengas el corazón un poco acelerado.', 'italic', 96, GOLD, { k: 'tengas' })] },
+  { id: 'balanza', act: 1, mood: 'frio', layout: 'balanza',
+    voz: 'Quizá una parte de ti tiene ganas… y otra parte tiene miedo.',
+    lines: [L('Una parte de ti tiene ganas…', 'serif', 72), L('y otra parte tiene miedo.', 'italic', 80, GOLD, { k: 'y otra' })] },
+  { id: 'dudas', act: 1, mood: 'sombra', layout: 'dudas',
+    voz: 'Y quizá te preguntas: ¿y si no funciona? ¿Y si no viene nadie? ¿Y si todo esto es mentira?',
+    lines: [L('¿Y si no funciona?', 'italic', 96, IVORY, { k: '¿y si no funciona', x: 560, y: 330 }),
+            L('¿Y si no viene nadie?', 'italic', 96, IVORY, { k: '¿Y si no viene', x: 1330, y: 520 }),
+            L('¿Y si todo esto es mentira?', 'italic', 96, GOLD, { k: '¿Y si todo', x: 820, y: 760 })] },
+  { id: 'normal', act: 1, mood: 'sombra', layout: 'centro',
+    voz: 'Es normal. Yo también he tenido miedo.',
+    lines: [L('Es normal.', 'serif', 120), L('Yo también he tenido miedo.', 'italic', 96, GOLD, { k: 'Yo también' })] },
+
+  // ---------- ACTO 2 · Cómo llegué hasta aquí (línea de vida) ----------
+  { id: 'nino', act: 2, hito: 0, mood: 'frio', layout: 'split',
+    voz: 'Desde niño, algunos lugares me hacían sentir cosas que no sabía explicar.',
+    media: { tipo: 'foto', etiqueta: 'Allan de niño', opcional: true },
+    lines: [L('Desde niño, algunos lugares', 'serif', 72), L('me hacían sentir cosas', 'serif', 72), L('que no sabía explicar.', 'italic', 84, GOLD, { k: 'que no sabía' })] },
+  { id: 'iglesia', act: 2, hito: 0, mood: 'oscuro', layout: 'vitral',
+    voz: 'En una iglesia sentí algo tan real… que pasé muchísimo miedo. Así que lo guardé.',
+    lines: [L('En una iglesia sentí algo tan real…', 'serif', 72), L('que pasé muchísimo miedo.', 'italic', 88, GOLD, { k: 'que pasé' }),
+            L('Así que lo guardé.', 'serif', 58, SOFT, { k: 'Así que', gap: 34 })] },
+  { id: 'estable', act: 2, hito: 1, mood: 'frio', layout: 'split',
+    voz: 'Tuve un trabajo estable. Un buen sueldo. Desde fuera, todo estaba bien.',
+    media: { tipo: 'foto', etiqueta: 'Allan en su etapa del trabajo estable' },
+    lines: [L('Un trabajo estable.', 'serif', 76), L('Un buen sueldo.', 'serif', 76, IVORY, { k: 'Un buen' }), L('Desde fuera, todo estaba bien.', 'italic', 80, GOLD, { k: 'Desde fuera' })] },
+  { id: 'cuerpo', act: 2, hito: 1, mood: 'sombra', layout: 'centro',
+    voz: 'Pero por dentro, no. Mi cuerpo me decía que ese no era mi camino.',
+    lines: [L('Pero por dentro, no.', 'serif', 96), L('Mi cuerpo me decía', 'serif', 70, SOFT, { k: 'Mi cuerpo', gap: 24 }), L('que ese no era mi camino.', 'italic', 92, GOLD, { k: 'que ese' })] },
+  { id: 'infierno', act: 2, hito: 2, mood: 'oscuro', layout: 'centro',
+    voz: 'He estado en el infierno durante muchos años. Por eso, si hoy lo estás pasando mal… te entiendo.',
+    lines: [L('«He estado en el infierno', 'italic', 96), L('durante muchos años.»', 'italic', 96),
+            L('Por eso te entiendo.', 'serif', 66, GOLD, { k: 'Por eso', gap: 40 })] },
+  { id: 'sueno', act: 2, hito: 3, mood: 'sombra', layout: 'polaroid',
     voz: 'Hasta que una noche… soñé con mi abuela.',
-    media: { tipo: 'foto', etiqueta: 'Su abuela (la foto más importante del vídeo)' },
-    lines: [L('Hasta que una noche…', 'serif', 90), L('soñé con mi abuela.', 'italic', 112, GOLD)] },
-  { id: 'te-ayudare', mood: 'calido', fx: 'destello',
-    voz: 'Me miró y me dijo: «Te voy a ayudar».',
-    lines: [L('ME MIRÓ Y ME DIJO:', 'sans', 40, IVORY), L('«Te voy a ayudar.»', 'italic', 156, IVORY, 18)] },
-  { id: 'el-don', mood: 'luz',
-    voz: 'Desde ese día, poco a poco, entendí que el don siempre había estado ahí. Solo me faltaba atreverme a escucharlo.',
-    media: { tipo: 'foto', etiqueta: 'Allan en sus inicios o en su santuario (Arcángel San Miguel)', opcional: true },
-    lines: [L('Poco a poco entendí', 'serif', 80), L('que el don siempre había estado ahí.', 'italic', 100, GOLD)] },
-  { id: 'decision', mood: 'luz',
-    voz: 'Así que dejé la seguridad… y elegí escuchar a mi alma.',
-    lines: [L('Dejé la seguridad.', 'serif', 96), L('Elegí escuchar a mi alma.', 'italic', 106, GOLD)] },
-  { id: 'desde-entonces', mood: 'luz',
-    voz: 'Y desde entonces he vivido momentos que todavía hoy me emocionan.',
-    lines: [L('Desde entonces he vivido momentos', 'serif', 80), L('que todavía hoy me emocionan.', 'italic', 100, GOLD)] },
-  { id: 'prueba', mood: 'luz', dur: 22,
-    voz: '(Audio original de las sesiones: Allan da un dato concreto y la persona lo confirma. 3 momentos de 6-7 s.)',
-    media: { tipo: 'video', etiqueta: 'Recopilatorio de sesiones: 3 momentos «dato → la persona lo confirma»' },
-    lines: [], caption: 'SESIONES REALES' },
-  { id: 'cifra', mood: 'luz', fx: 'contador',
-    voz: 'Más de mil doscientas sesiones.', lines: [] },
-  { id: 'madres', mood: 'luz',
-    voz: 'He visto a madres volver a escuchar a sus hijos.',
-    media: { tipo: 'video', etiqueta: 'Cara de una madre emocionada (del recopilatorio)', opcional: true },
-    lines: [L('He visto a madres volver a escuchar', 'serif', 80), L('a sus hijos.', 'italic', 104, GOLD)] },
-  { id: 'hijos', mood: 'luz',
-    voz: 'A hijos despedirse por fin de sus padres.',
-    lines: [L('A hijos despedirse por fin', 'serif', 84), L('de sus padres.', 'italic', 104, GOLD)] },
-  { id: 'nietos', mood: 'luz',
-    voz: 'A nietos sentir otra vez el cariño de sus abuelos.',
-    lines: [L('A nietos sentir otra vez', 'serif', 84), L('el cariño de sus abuelos.', 'italic', 104, GOLD)] },
-  { id: 'amor', mood: 'luz',
-    voz: 'Porque el amor no muere. Solo cambia de lugar.',
-    lines: [L('Porque el amor no muere.', 'serif', 104), L('Solo cambia de lugar.', 'italic', 112, GOLD)] },
-  { id: 'tu', mood: 'calido',
-    voz: 'Y si hoy estás aquí, quizá alguien al otro lado también quiere que le escuches.',
-    lines: [L('Quizá alguien al otro lado', 'serif', 90), L('también quiere que le escuches.', 'italic', 100, GOLD)] },
-  { id: 'mision', mood: 'calido',
-    voz: 'Mi misión es que te llegue su abrazo desde el otro lado.',
-    lines: [L('Mi misión es que te llegue su abrazo', 'serif', 80), L('desde el otro lado.', 'italic', 112, GOLD)] },
-  { id: 'logo', mood: 'calido', fx: 'logo', dur: 7,
-    voz: '(Silencio. Solo música.)', lines: [] },
+    media: { tipo: 'foto', etiqueta: 'Su abuela' },
+    lines: [L('Hasta que una noche…', 'serif', 80), L('soñé con mi abuela.', 'italic', 100, GOLD, { k: 'soñé' })] },
+  { id: 'te-ayudare', act: 2, hito: 3, mood: 'calido', layout: 'centro', fx: 'destello',
+    voz: 'Y me dijo: «Te voy a ayudar».',
+    lines: [L('Y ME DIJO:', 'sans', 40, IVORY), L('«Te voy a ayudar.»', 'italic', 156, IVORY, { k: '«Te', gap: 18 })] },
+  { id: 'el-don', act: 2, hito: 4, mood: 'luz', layout: 'centro',
+    voz: 'Poco a poco dejé de huir de lo que sentía. Y entendí que el don siempre había estado ahí… desde aquel niño que tenía miedo.',
+    lines: [L('Dejé de huir de lo que sentía.', 'serif', 76), L('El don siempre había estado ahí…', 'italic', 92, GOLD, { k: 'Y entendí' }),
+            L('desde aquel niño que tenía miedo.', 'italic', 70, SOFT, { k: 'desde aquel' })] },
+
+  // ---------- ACTO 3 · Lo que vas a vivir hoy (tranquilizar) ----------
+  { id: 'temer', act: 3, mood: 'luz', layout: 'escudo',
+    voz: 'Y quiero que sepas algo: aquí no hay nada que temer. Las energías no molestan. No atacan. Nunca te harán daño.',
+    lines: [L('No hay nada que temer.', 'italic', 84, IVORY, { k: 'aquí no hay' }),
+            L('No molestan', 'sans', 30, GOLD, { k: 'no molestan', orbit: 0 }),
+            L('No atacan', 'sans', 30, GOLD, { k: 'No atacan', orbit: 1 }),
+            L('Nunca hacen daño', 'sans', 30, GOLD, { k: 'Nunca te', orbit: 2 })] },
+  { id: 'velo', act: 3, mood: 'luz', layout: 'velo',
+    voz: 'Lo que llega del otro lado es amor. Allí no existe el miedo, ni el rencor. Todo se perdona.',
+    lines: [L('Amor', 'italic', 130, GOLD, { k: 'es amor' }),
+            L('Sin miedo. Sin rencor.', 'serif', 64, IVORY, { k: 'Allí no' }),
+            L('Todo se perdona.', 'italic', 76, GOLD, { k: 'Todo se' })] },
+  { id: 'pasos', act: 3, mood: 'luz', layout: 'pasos',
+    voz: 'Yo siento lo que sentía esa persona. Veo imágenes. Te lo cuento. Y eres tú quien lo confirma.',
+    lines: [L('SIENTO', 'sans', 30, IVORY, { k: 'siento', icon: 'corazon' }),
+            L('VEO', 'sans', 30, IVORY, { k: 'Veo', icon: 'ojo' }),
+            L('TE LO CUENTO', 'sans', 30, IVORY, { k: 'Te lo', icon: 'voz' }),
+            L('TÚ CONFIRMAS', 'sans', 30, GOLD, { k: 'Y eres', icon: 'check' })] },
+  { id: 'compruebes', act: 3, mood: 'luz', layout: 'centro',
+    voz: 'No te pido que me creas. Te pido que escuches… y que lo compruebes tú.',
+    lines: [L('No te pido que me creas.', 'serif', 90), L('Te pido que escuches…', 'italic', 96, GOLD, { k: 'Te pido' }),
+            L('y que lo compruebes tú.', 'italic', 96, GOLD, { k: 'y que lo' })] },
+  { id: 'prueba', act: 3, mood: 'luz', layout: 'video', dur: 21,
+    voz: '(Audio original: Allan da un dato concreto y la persona lo confirma. 3 momentos de unos 7 s.)',
+    media: { tipo: 'video', etiqueta: 'Recopilatorio de sesiones', clips: 3 }, lines: [] },
+  { id: 'muro', act: 3, mood: 'luz', layout: 'muro',
+    voz: 'Más de mil doscientas sesiones. Y cada una me sigue emocionando como la primera.',
+    media: { tipo: 'video', etiqueta: 'Clips cortos de sesiones (sin sonido)', clips: 9 },
+    lines: [L('SESIONES', 'sans', 40, IVORY, { k: 'sesiones' }), L('Y cada una me sigue emocionando como la primera.', 'italic', 62, GOLD, { k: 'Y cada' })] },
+  { id: 'necesitan', act: 3, mood: 'calido', layout: 'centro',
+    voz: 'Tus seres queridos también necesitan decirte cosas.',
+    lines: [L('Tus seres queridos también', 'serif', 80), L('necesitan decirte cosas.', 'italic', 100, GOLD, { k: 'necesitan decirte' })] },
+  { id: 'amor', act: 3, mood: 'calido', layout: 'centro',
+    voz: 'El amor no muere. Solo cambia de lugar.',
+    lines: [L('El amor no muere.', 'serif', 110), L('Solo cambia de lugar.', 'italic', 116, GOLD, { k: 'Solo' })] },
+  { id: 'respira', act: 3, mood: 'calido', layout: 'respira',
+    voz: 'Así que respira. Estás en el lugar correcto.',
+    lines: [L('Respira.', 'italic', 130, IVORY, { k: 'respira' }), L('Estás en el lugar correcto.', 'serif', 64, GOLD, { k: 'Estás' })] },
+  { id: 'ponerle-voz', act: 3, mood: 'calido', layout: 'centro',
+    voz: 'Quizá hoy alguien tiene algo que decirte. Y yo estaré aquí para ponerle voz.',
+    lines: [L('Quizá hoy alguien', 'serif', 84), L('tiene algo que decirte.', 'italic', 100, GOLD, { k: 'tiene' }),
+            L('Y yo estaré aquí para ponerle voz.', 'serif', 60, SOFT, { k: 'Y yo', gap: 36 })] },
+  { id: 'logo', act: 3, mood: 'calido', layout: 'logo', dur: 6, voz: '(Silencio. Solo música.)', lines: [] },
 ];
 
-// ---------- TIEMPOS ----------
-// Ahora: estimados por la velocidad de habla (≈2,4 palabras/s + respiración).
-// Cuando llegue el audio de Allan: rellenar TIEMPOS_REALES { id: [inicio, fin] } con su voz.
+// =====================================================================
+//  TIEMPOS
+//  Ahora: estimación por palabras (≈2,5 palabras/s + respiración).
+//  Con el audio real: TIEMPOS_REALES[id] = { t0, t1, palabras: [t de cada palabra] }
+// =====================================================================
 const TIEMPOS_REALES = {};
-const PAL_SEG = 2.4, RESPIRO = 1.1, INICIO = 1.2;
-(function calcularTiempos() {
+const PAL_SEG = 2.5, RESPIRO = 1.0, INICIO = 1.2;
+(function () {
   let t = INICIO;
   for (const sc of SCENES) {
-    const palabras = sc.voz.replace(/\(.*?\)/g, '').split(/\s+/).filter(Boolean).length;
-    const dur = sc.dur ?? Math.max(3.6, palabras / PAL_SEG + RESPIRO);
+    const n = words(sc.voz).length;
+    const dur = sc.dur ?? Math.max(3.6, n / PAL_SEG + RESPIRO);
     const real = TIEMPOS_REALES[sc.id];
-    sc.t0 = real ? real[0] : t;
-    sc.t1 = real ? real[1] : t + dur;
+    sc.t0 = real ? real.t0 : t;
+    sc.t1 = real ? real.t1 : t + dur;
+    sc.speak = Math.max(0.5, sc.t1 - sc.t0 - RESPIRO);
+    sc.n = n;
+    // momento en que aparece cada línea = cuando Allan dice la palabra `k`
+    sc.lines.forEach((l, i) => {
+      let wi = 0;
+      if (l.k) {
+        const idx = sc.voz.toLowerCase().indexOf(l.k.toLowerCase());
+        wi = idx >= 0 ? words(sc.voz.slice(0, idx)).length : 0;
+      }
+      l.wi = wi;
+      l.tIn = real?.palabras ? real.palabras[wi] : sc.t0 + (n ? wi / n : 0) * sc.speak + (l.k ? 0 : i * 0.15);
+    });
     t = sc.t1;
   }
 })();
 const DUR = SCENES[SCENES.length - 1].t1 + 0.6;
-const sceneById = Object.fromEntries(SCENES.map(s => [s.id, s]));
-// las escenas se solapan un poco para que el texto saliente y el entrante crucen
+const byId = Object.fromEntries(SCENES.map(s => [s.id, s]));
 const OVER = 0.35;
+const MEDIA = {}; window.MEDIA = MEDIA;   // id -> imagen / vídeo (o array de vídeos)
 
-// ---------- media (fotos / vídeo) ----------
-const MEDIA = {};   // id -> HTMLImageElement | HTMLVideoElement (en la versión final)
-window.MEDIA = MEDIA;
-
+// =====================================================================
+//  texto
+// =====================================================================
 function fontOf(l) {
   if (l.f === 'italic') return `italic 400 ${l.s}px CormI`;
-  if (l.f === 'sans') return `400 ${l.s}px Mont`;
+  if (l.f === 'sans') return `500 ${l.s}px Mont`;
   return `400 ${l.s}px Corm`;
 }
-function spacingOf(l) { return l.f === 'sans' ? l.s * 0.42 : 0; }
-
-// Línea con revelado palabra a palabra (blur + subida)
-function drawLine(l, cx, cy, tIn, tOut, t) {
+const spacingOf = l => l.f === 'sans' ? l.s * 0.38 : 0;
+function measure(l) {
+  ctx.font = fontOf(l); const sp = spacingOf(l);
+  return l.text.split(' ').reduce((a, w) => a + ctx.measureText(w).width + sp * w.length, 0) + ctx.measureText(' ').width * (l.text.split(' ').length - 1);
+}
+// align: 'center' | 'left'
+function drawLine(l, x, cy, tIn, tOut, t, align = 'center') {
   ctx.font = fontOf(l);
   const sp = spacingOf(l);
-  const words = l.text.split(' ');
+  const ws = l.text.split(' ');
   const spaceW = ctx.measureText(' ').width;
-  const wW = words.map(w => ctx.measureText(w).width + sp * w.length);
-  const total = wW.reduce((a, b) => a + b, 0) + spaceW * (words.length - 1);
-  let x = cx - total / 2;
+  const wW = ws.map(w => ctx.measureText(w).width + sp * w.length);
+  const total = wW.reduce((a, b) => a + b, 0) + spaceW * (ws.length - 1);
+  let xx0 = align === 'center' ? x - total / 2 : x;
   const out = ramp(t, tOut - 0.7, tOut + OVER);
-  words.forEach((w, i) => {
-    const k = easeOut(ramp(t, tIn + i * 0.09, tIn + i * 0.09 + 0.9));
+  ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
+  ws.forEach((w, i) => {
+    const k = easeOut(ramp(t, tIn + i * 0.08, tIn + i * 0.08 + 0.9));
     const a = k * (1 - out);
     if (a > 0.003) {
       ctx.save();
-      ctx.globalAlpha = a;
+      ctx.globalAlpha *= a;
       const blur = (1 - k) * 14 + out * 10;
       if (blur > 0.3) ctx.filter = `blur(${blur.toFixed(1)}px)`;
       ctx.fillStyle = l.c;
-      ctx.shadowColor = l.c === GOLD ? 'rgba(226,197,139,.55)' : 'rgba(0,0,0,.6)';
-      ctx.shadowBlur = 28;
+      ctx.shadowColor = l.c === GOLD ? 'rgba(226,197,139,.5)' : 'rgba(0,0,0,.7)';
+      ctx.shadowBlur = 26;
       const y = cy + (1 - k) * 22 - out * 14;
-      if (sp) { let xx = x; for (const ch of w) { ctx.fillText(ch, xx, y); xx += ctx.measureText(ch).width + sp; } }
-      else ctx.fillText(w, x, y);
+      if (sp) { let xx = xx0; for (const ch of w) { ctx.fillText(ch, xx, y); xx += ctx.measureText(ch).width + sp; } }
+      else ctx.fillText(w, xx0, y);
       ctx.restore();
     }
-    x += wW[i] + spaceW;
+    xx0 += wW[i] + spaceW;
   });
 }
-
-function sceneAlpha(sc, t) { return ramp(t, sc.t0 - .2, sc.t0 + .8) * (1 - ramp(t, sc.t1 - .4, sc.t1 + OVER + .4)); }
-
-// Foto/vídeo a pantalla completa con Ken Burns, o el hueco si aún no hay material
-function drawMedia(sc, t) {
-  const m = sc.media; if (!m) return;
-  const a = sceneAlpha(sc, t); if (a <= 0) return;
-  const k = ramp(t, sc.t0, sc.t1);
-  const el = MEDIA[sc.id];
-  ctx.save(); ctx.globalAlpha = a;
-  if (el && (el.naturalWidth || el.videoWidth)) {
-    const iw = el.naturalWidth || el.videoWidth, ih = el.naturalHeight || el.videoHeight;
-    const z = m.tipo === 'foto' ? lerp(1.02, 1.10, k) : 1;
-    const s = Math.max(W / iw, H / ih) * z;
-    ctx.filter = m.tipo === 'foto' ? 'sepia(.25) brightness(.62) contrast(1.05)' : 'brightness(.9)';
-    ctx.drawImage(el, W / 2 - iw * s / 2 + lerp(-20, 20, k), H / 2 - ih * s / 2, iw * s, ih * s);
-    ctx.filter = 'none';
-  } else {
-    // HUECO (maqueta)
-    const pad = 70;
-    ctx.fillStyle = 'rgba(30,24,18,.55)'; ctx.fillRect(pad, pad, W - pad * 2, H - pad * 2);
-    ctx.setLineDash([14, 10]); ctx.lineWidth = 2; ctx.strokeStyle = 'rgba(226,197,139,.75)';
-    ctx.strokeRect(pad, pad, W - pad * 2, H - pad * 2); ctx.setLineDash([]);
-    ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-    ctx.font = '500 34px Mont'; ctx.fillStyle = GOLD;
-    ctx.fillText((m.tipo === 'foto' ? 'FOTO' : 'VÍDEO') + (m.opcional ? ' (OPCIONAL)' : ''), W / 2, 180);
-    ctx.font = 'italic 400 46px CormI'; ctx.fillStyle = IVORY;
-    ctx.fillText(m.etiqueta, W / 2, 240);
-  }
-  ctx.restore();
-  // degradado inferior para que el texto respire encima de la imagen
-  const g = ctx.createLinearGradient(0, H * .35, 0, H);
-  g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(1, `rgba(0,0,0,${.75 * a})`);
-  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+function drawBlock(sc, t, x, cy, align = 'center', lines = sc.lines) {
+  const hs = lines.map(l => l.s * 1.2 + (l.gap || 0));
+  let y = cy - hs.reduce((a, b) => a + b, 0) / 2;
+  lines.forEach(l => { y += l.gap || 0; drawLine(l, x, y + l.s * .6, l.tIn, sc.t1, t, align); y += l.s * 1.2; });
 }
+const sceneAlpha = (sc, t) => ramp(t, sc.t0 - .2, sc.t0 + .8) * (1 - ramp(t, sc.t1 - .4, sc.t1 + OVER + .4));
 
-function drawScene(sc, t) {
-  if (t < sc.t0 - 0.3 || t > sc.t1 + OVER + 0.5) return;
-  if (sc.fx === 'contador') return drawCounter(sc, t);
-  if (sc.fx === 'logo') return finale(sc, t);
-  if (sc.caption) {
-    ctx.save(); ctx.globalAlpha = sceneAlpha(sc, t);
-    drawLine(L(sc.caption, 'sans', 30, IVORY), W / 2, H - 110, sc.t0 + .3, sc.t1, t);
-    ctx.restore();
-  }
-  const heights = sc.lines.map(l => l.s * 1.18 + l.gap);
-  const total = heights.reduce((a, b) => a + b, 0);
-  // con foto/vídeo el texto baja al tercio inferior
-  const cy = sc.media ? H * 0.74 : H / 2;
-  let y = cy - total / 2;
-  ctx.textBaseline = 'middle';
-  sc.lines.forEach((l, i) => {
-    y += l.gap;
-    drawLine(l, W / 2, y + l.s * 0.59, sc.t0 + i * 0.6, sc.t1, t);
-    y += l.s * 1.18;
-  });
-}
-
-function drawCounter(sc, t) {
-  const k = easeOut(ramp(t, sc.t0 + 0.1, sc.t0 + 2.2));
-  const a = ramp(t, sc.t0 - .2, sc.t0 + 0.6) * (1 - ramp(t, sc.t1 - 0.5, sc.t1 + OVER));
-  const n = Math.round(1200 * k);
-  const txt = '+' + (n >= 1000 ? Math.floor(n / 1000) + '.' + String(n % 1000).padStart(3, '0') : n);
+// =====================================================================
+//  media: imagen real o hueco de maqueta
+// =====================================================================
+function placeholder(x, y, w, h, title, sub) {
   ctx.save();
-  ctx.globalAlpha = a; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-  ctx.font = '300 230px Corm';
-  ctx.fillStyle = GOLD; ctx.shadowColor = 'rgba(226,197,139,.6)'; ctx.shadowBlur = 40;
-  ctx.fillText(txt, W / 2, H / 2 - 60);
-  ctx.shadowBlur = 0;
-  const lw = 520 * easeOut(ramp(t, sc.t0 + 0.4, sc.t0 + 1.8));
-  ctx.fillStyle = GOLD_D; ctx.fillRect(W / 2 - lw / 2, H / 2 + 70, lw, 1.5);
+  ctx.fillStyle = 'rgba(32,26,20,.72)'; ctx.fillRect(x, y, w, h);
+  ctx.setLineDash([12, 9]); ctx.lineWidth = 2; ctx.strokeStyle = 'rgba(226,197,139,.8)'; ctx.strokeRect(x, y, w, h); ctx.setLineDash([]);
+  ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  ctx.font = `500 ${Math.max(16, Math.min(30, w / 18))}px Mont`; ctx.fillStyle = GOLD;
+  ctx.fillText(title, x + w / 2, y + h / 2 - (sub ? 22 : 0));
+  if (sub) { ctx.font = `italic 400 ${Math.max(18, Math.min(38, w / 16))}px CormI`; ctx.fillStyle = IVORY; ctx.fillText(sub, x + w / 2, y + h / 2 + 24); }
   ctx.restore();
-  ctx.textBaseline = 'middle';
-  drawLine(L('SESIONES', 'sans', 42, IVORY), W / 2, H / 2 + 130, sc.t0 + 0.7, sc.t1, t);
-  drawLine(L('con seres queridos y guías espirituales.', 'italic', 54, MUTED), W / 2, H / 2 + 210, sc.t0 + 1.2, sc.t1, t);
+}
+function drawCover(el, x, y, w, h, z = 1, dx = 0, filter = 'none') {
+  const iw = el.naturalWidth || el.videoWidth, ih = el.naturalHeight || el.videoHeight;
+  const s = Math.max(w / iw, h / ih) * z;
+  ctx.save(); ctx.beginPath(); ctx.rect(x, y, w, h); ctx.clip();
+  ctx.filter = filter;
+  ctx.drawImage(el, x + w / 2 - iw * s / 2 + dx, y + h / 2 - ih * s / 2, iw * s, ih * s);
+  ctx.restore();
+}
+const ready = el => el && (el.naturalWidth || el.videoWidth);
+
+// =====================================================================
+//  LAYOUTS
+// =====================================================================
+const LAYOUT = {
+  centro(sc, t) { drawBlock(sc, t, W / 2, H / 2); },
+
+  // foto que entra de lado con máscara + texto alineado a la izquierda
+  split(sc, t) {
+    const a = sceneAlpha(sc, t), k = easeOut(ramp(t, sc.t0, sc.t0 + 1.4)), p = ramp(t, sc.t0, sc.t1 + 1);
+    const cw = 640, ch = 800, cx = 1130 + (1 - k) * 90, cy = 140;
+    ctx.save(); ctx.globalAlpha = a;
+    // halo
+    const g = ctx.createRadialGradient(cx + cw / 2, cy + ch / 2, 50, cx + cw / 2, cy + ch / 2, 620);
+    g.addColorStop(0, 'rgba(226,197,139,.16)'); g.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+    // máscara que se abre de abajo a arriba
+    ctx.beginPath(); ctx.rect(cx, cy + ch * (1 - k), cw, ch * k); ctx.clip();
+    const el = MEDIA[sc.id];
+    if (ready(el)) drawCover(el, cx, cy, cw, ch, lerp(1.12, 1.02, p), 0, 'sepia(.2) brightness(.85)');
+    else placeholder(cx, cy, cw, ch, 'FOTO' + (sc.media.opcional ? ' · OPCIONAL' : ''), sc.media.etiqueta);
+    ctx.restore();
+    ctx.save(); ctx.globalAlpha = a * k; ctx.strokeStyle = 'rgba(226,197,139,.55)'; ctx.lineWidth = 1.5;
+    ctx.strokeRect(cx + 18, cy + 18, cw, ch); ctx.restore();
+    drawBlock(sc, t, 170, H / 2, 'left');
+  },
+
+  // la foto de la abuela como polaroid, con luz cálida detrás
+  polaroid(sc, t) {
+    const a = sceneAlpha(sc, t), k = easeOut(ramp(t, sc.t0, sc.t0 + 1.8)), p = ramp(t, sc.t0, sc.t1 + 1);
+    ctx.save(); ctx.globalAlpha = a;
+    ctx.translate(620, 540 + (1 - k) * 60); ctx.rotate(lerp(-0.09, -0.035, k));
+    const g = ctx.createRadialGradient(0, 0, 40, 0, 0, 560);
+    g.addColorStop(0, `rgba(255,220,160,${.28 * k})`); g.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = g; ctx.fillRect(-700, -700, 1400, 1400);
+    ctx.shadowColor = 'rgba(0,0,0,.6)'; ctx.shadowBlur = 50;
+    ctx.fillStyle = '#efe6d6'; ctx.fillRect(-270, -330, 540, 640);
+    ctx.shadowBlur = 0;
+    const el = MEDIA[sc.id];
+    if (ready(el)) drawCover(el, -240, -300, 480, 500, lerp(1.08, 1.0, p), 0, 'sepia(.35) brightness(.95)');
+    else placeholder(-240, -300, 480, 500, 'FOTO', sc.media.etiqueta);
+    ctx.restore();
+    drawBlock(sc, t, 1060, H / 2, 'left');
+  },
+
+  // dos fuerzas en equilibrio: ganas / miedo
+  balanza(sc, t) {
+    const a = sceneAlpha(sc, t), k = easeOut(ramp(t, sc.t0, sc.t0 + 1.2));
+    const l2 = sc.lines[1].tIn;
+    const tilt = Math.sin(t * 1.1) * 0.035 + (ramp(t, l2, l2 + 1.5) - .5) * 0.05;
+    ctx.save(); ctx.globalAlpha = a; ctx.translate(W / 2, 640);
+    ctx.strokeStyle = 'rgba(226,197,139,.75)'; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.moveTo(0, -60); ctx.lineTo(0, 170); ctx.stroke();
+    ctx.beginPath(); ctx.arc(0, -66, 7, 0, 7); ctx.fillStyle = GOLD; ctx.fill();
+    ctx.rotate(tilt);
+    const half = 420 * k;
+    ctx.beginPath(); ctx.moveTo(-half, -60); ctx.lineTo(half, -60); ctx.stroke();
+    [[-1, 'GANAS', sc.lines[0].tIn], [1, 'MIEDO', l2]].forEach(([s, txt, ti]) => {
+      const kk = easeOut(ramp(t, ti, ti + 1));
+      ctx.save(); ctx.translate(s * half, -60); ctx.rotate(-tilt);
+      ctx.globalAlpha = a * kk;
+      ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(0, 90); ctx.stroke();
+      const r = 70 + 6 * Math.sin(t * 2 + s);
+      const g = ctx.createRadialGradient(0, 160, 0, 0, 160, r * 1.6);
+      g.addColorStop(0, s < 0 ? 'rgba(255,220,150,.45)' : 'rgba(140,150,200,.35)'); g.addColorStop(1, 'rgba(0,0,0,0)');
+      ctx.fillStyle = g; ctx.fillRect(-200, 0, 400, 340);
+      ctx.beginPath(); ctx.arc(0, 160, r, 0, 7); ctx.stroke();
+      ctx.font = '500 30px Mont'; ctx.fillStyle = s < 0 ? GOLD : SOFT; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      ctx.letterSpacing = '10px'; ctx.fillText(txt, 5, 160); ctx.letterSpacing = '0px';
+      ctx.restore();
+    });
+    ctx.restore();
+    drawBlock(sc, t, W / 2, 270);
+  },
+
+  // las dudas flotan a distintas profundidades y luego se disuelven
+  dudas(sc, t) {
+    sc.lines.forEach((l, i) => {
+      const drift = Math.sin(t * .4 + i * 2) * 14;
+      ctx.save();
+      const depth = [1, .9, 1.05][i];
+      ctx.translate(l.x, l.y + drift); ctx.scale(depth, depth); ctx.translate(-l.x, -l.y - drift);
+      drawLine(l, l.x, l.y + drift, l.tIn, sc.t1, t);
+      ctx.restore();
+    });
+  },
+
+  // vitral de iglesia muy tenue (recuerdo de infancia)
+  vitral(sc, t) {
+    const a = sceneAlpha(sc, t) * .9;
+    ctx.save(); ctx.globalAlpha = a; ctx.translate(W / 2, 470);
+    const g = ctx.createLinearGradient(0, -380, 0, 380);
+    g.addColorStop(0, 'rgba(160,120,200,.10)'); g.addColorStop(1, 'rgba(120,40,60,.04)');
+    ctx.fillStyle = g; ctx.strokeStyle = 'rgba(226,197,139,.22)'; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.moveTo(-230, 380); ctx.lineTo(-230, -150); ctx.arc(0, -150, 230, Math.PI, 0); ctx.lineTo(230, 380); ctx.closePath(); ctx.fill(); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(0, -380); ctx.lineTo(0, 380); ctx.moveTo(-230, 60); ctx.lineTo(230, 60); ctx.stroke();
+    ctx.beginPath(); ctx.arc(0, -150, 110, 0, 7); ctx.stroke();
+    ctx.restore();
+    // rayo de luz entrando por el vitral
+    ctx.save(); ctx.globalAlpha = a * .5 * (.7 + .3 * Math.sin(t * .8));
+    const lg = ctx.createLinearGradient(W / 2, 200, W / 2 + 300, 1080);
+    lg.addColorStop(0, 'rgba(255,220,180,.18)'); lg.addColorStop(1, 'rgba(255,220,180,0)');
+    ctx.fillStyle = lg; ctx.beginPath(); ctx.moveTo(W / 2 - 120, 200); ctx.lineTo(W / 2 + 120, 200); ctx.lineTo(W / 2 + 520, 1080); ctx.lineTo(W / 2 + 40, 1080); ctx.fill();
+    ctx.restore();
+    drawBlock(sc, t, W / 2, H / 2 + 40);
+  },
+
+  // círculo protector que se dibuja + 3 afirmaciones alrededor
+  escudo(sc, t) {
+    const a = sceneAlpha(sc, t), k = easeOut(ramp(t, sc.t0, sc.t0 + 2.2));
+    ctx.save(); ctx.globalAlpha = a; ctx.translate(W / 2, H / 2);
+    const R = 300 + 8 * Math.sin(t * 1.2);
+    const g = ctx.createRadialGradient(0, 0, 0, 0, 0, R * 1.3);
+    g.addColorStop(0, `rgba(255,230,190,${.13 * k})`); g.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = g; ctx.fillRect(-W, -H, W * 2, H * 2);
+    ctx.strokeStyle = 'rgba(226,197,139,.8)'; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.arc(0, 0, R, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * k); ctx.stroke();
+    ctx.globalAlpha = a * .35; ctx.beginPath(); ctx.arc(0, 0, R + 26, 0, 7); ctx.stroke();
+    ctx.restore();
+    drawLine(sc.lines[0], W / 2, H / 2, sc.lines[0].tIn, sc.t1, t);
+    sc.lines.slice(1).forEach(l => {
+      const ang = -Math.PI / 2 + (l.orbit - 1) * 0.95 + Math.PI;  // abajo-izq, abajo, abajo-der
+      const pos = [[W / 2 - 470, H / 2 + 260], [W / 2, H / 2 + 400], [W / 2 + 470, H / 2 + 260]][l.orbit];
+      const kk = easeOut(ramp(t, l.tIn, l.tIn + .8));
+      ctx.save(); ctx.globalAlpha = sceneAlpha(sc, t) * kk;
+      ctx.beginPath(); ctx.arc(pos[0], pos[1] - 52, 6, 0, 7); ctx.fillStyle = GOLD; ctx.fill(); ctx.restore();
+      drawLine(l, pos[0], pos[1], l.tIn, sc.t1, t);
+    });
+  },
+
+  // velo: aquí | el otro lado, un hilo de luz que cruza hacia nosotros
+  velo(sc, t) {
+    const a = sceneAlpha(sc, t), k = easeOut(ramp(t, sc.t0, sc.t0 + 1.5));
+    const vx = 700;
+    ctx.save(); ctx.globalAlpha = a;
+    const vg = ctx.createLinearGradient(vx - 60, 0, vx + 60, 0);
+    vg.addColorStop(0, 'rgba(255,230,190,0)'); vg.addColorStop(.5, 'rgba(255,230,190,.18)'); vg.addColorStop(1, 'rgba(255,230,190,0)');
+    ctx.fillStyle = vg; ctx.fillRect(vx - 60, H / 2 - 420 * k, 120, 840 * k);
+    ctx.fillStyle = 'rgba(255,235,200,.75)'; ctx.fillRect(vx - 1, H / 2 - 420 * k, 2, 840 * k);
+    ctx.font = '500 26px Mont'; ctx.textAlign = 'center'; ctx.letterSpacing = '9px';
+    ctx.fillStyle = MUTED; ctx.fillText('AQUÍ', vx - 330, 190);
+    ctx.fillStyle = GOLD; ctx.fillText('EL OTRO LADO', vx + 560, 190); ctx.letterSpacing = '0px';
+    // partículas que cruzan de derecha a izquierda (el mensaje llega)
+    for (let i = 0; i < 18; i++) {
+      const ph = (t * .22 + i / 18) % 1;
+      const x = lerp(vx + 760, vx - 420, ph), y = H / 2 + 40 + Math.sin(ph * 9 + i) * 120 * (1 - Math.abs(ph - .5));
+      const al = Math.sin(ph * Math.PI) * .8;
+      const pg = ctx.createRadialGradient(x, y, 0, x, y, 10);
+      pg.addColorStop(0, `rgba(255,230,180,${al})`); pg.addColorStop(1, 'rgba(255,230,180,0)');
+      ctx.fillStyle = pg; ctx.fillRect(x - 10, y - 10, 20, 20);
+    }
+    ctx.restore();
+    drawBlock(sc, t, vx + 560, H / 2 + 40);
+  },
+
+  // diagrama de cómo es una sesión, 4 pasos con icono
+  pasos(sc, t) {
+    const a = sceneAlpha(sc, t);
+    const xs = [330, 750, 1170, 1590], y = 520;
+    ctx.save(); ctx.globalAlpha = a;
+    ctx.font = '500 26px Mont'; ctx.fillStyle = MUTED; ctx.textAlign = 'center'; ctx.letterSpacing = '9px';
+    ctx.fillText('ASÍ ES UNA SESIÓN', W / 2, 250); ctx.letterSpacing = '0px';
+    // línea que avanza con la voz
+    const last = sc.lines[sc.lines.length - 1].tIn;
+    const prog = ramp(t, sc.lines[0].tIn, last + .6);
+    ctx.strokeStyle = 'rgba(226,197,139,.25)'; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.moveTo(xs[0], y); ctx.lineTo(xs[3], y); ctx.stroke();
+    ctx.strokeStyle = 'rgba(226,197,139,.9)';
+    ctx.beginPath(); ctx.moveTo(xs[0], y); ctx.lineTo(lerp(xs[0], xs[3], prog), y); ctx.stroke();
+    ctx.restore();
+    sc.lines.forEach((l, i) => {
+      const kk = easeOut(ramp(t, l.tIn, l.tIn + .8));
+      const x = xs[i];
+      ctx.save(); ctx.globalAlpha = a * kk; ctx.translate(x, y);
+      const g = ctx.createRadialGradient(0, 0, 0, 0, 0, 150);
+      g.addColorStop(0, 'rgba(255,225,170,.22)'); g.addColorStop(1, 'rgba(0,0,0,0)');
+      ctx.fillStyle = g; ctx.fillRect(-150, -150, 300, 300);
+      ctx.fillStyle = '#100d0b'; ctx.strokeStyle = i === 3 ? GOLD : 'rgba(226,197,139,.85)'; ctx.lineWidth = 2.5;
+      ctx.beginPath(); ctx.arc(0, 0, 82 * (.8 + .2 * kk), 0, 7); ctx.fill(); ctx.stroke();
+      drawIcon(l.icon, t);
+      ctx.restore();
+      drawLine(l, x, y + 150, l.tIn, sc.t1, t);
+    });
+  },
+
+  // 3 momentos reales de sesión, en ventana horizontal 16:9
+  video(sc, t) {
+    const n = sc.media.clips, seg = (sc.t1 - sc.t0) / n;
+    for (let i = 0; i < n; i++) {
+      const s0 = sc.t0 + i * seg, s1 = s0 + seg;
+      if (t < s0 - .6 || t > s1 + .6) continue;
+      const kin = easeOut(ramp(t, s0 - .5, s0 + .7)), kout = ramp(t, s1 - .4, s1 + .5);
+      const al = kin * (1 - kout) * sceneAlpha(sc, t);
+      const w = 1440, h = 810, x = W / 2 - w / 2 + (1 - kin) * 60 - kout * 60, y = 120;
+      ctx.save(); ctx.globalAlpha = al;
+      ctx.shadowColor = 'rgba(0,0,0,.7)'; ctx.shadowBlur = 60; ctx.fillStyle = '#000'; ctx.fillRect(x, y, w, h); ctx.shadowBlur = 0;
+      const el = (MEDIA[sc.id] || [])[i];
+      if (ready(el)) drawCover(el, x, y, w, h);
+      else placeholder(x, y, w, h, `VÍDEO HORIZONTAL · MOMENTO ${i + 1} DE ${n}`, 'Allan da un dato concreto → la persona lo confirma');
+      ctx.strokeStyle = 'rgba(226,197,139,.6)'; ctx.lineWidth = 1.5; ctx.strokeRect(x, y, w, h);
+      // rótulo inferior
+      ctx.font = '500 24px Mont'; ctx.textAlign = 'left'; ctx.letterSpacing = '8px'; ctx.fillStyle = GOLD;
+      ctx.fillText(`SESIÓN REAL · ${i + 1}/${n}`, x, y + h + 56); ctx.letterSpacing = '0px';
+      ctx.restore();
+    }
+  },
+
+  // muro de clips horizontales que deriva + contador
+  muro(sc, t) {
+    const a = sceneAlpha(sc, t), p = ramp(t, sc.t0 - 1, sc.t1 + 1);
+    const cw = 520, ch = 292, gap = 26, cols = 4, rows = 4;
+    const ox = -160 - p * 120, oy = -120 + p * 40;
+    const vids = MEDIA[sc.id] || [];
+    ctx.save();
+    for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) {
+      const i = r * cols + c;
+      const kk = easeOut(ramp(t, sc.t0 + (i % 7) * .12, sc.t0 + (i % 7) * .12 + 1));
+      const x = ox + c * (cw + gap) + (r % 2) * 180, y = oy + r * (ch + gap);
+      ctx.globalAlpha = a * kk * .8;
+      const el = vids[i % Math.max(1, vids.length)];
+      if (ready(el)) drawCover(el, x, y, cw, ch, 1, 0, 'brightness(.7) saturate(.8)');
+      else { ctx.fillStyle = 'rgba(40,33,26,.9)'; ctx.fillRect(x, y, cw, ch); ctx.strokeStyle = 'rgba(226,197,139,.35)'; ctx.setLineDash([8, 7]); ctx.strokeRect(x, y, cw, ch); ctx.setLineDash([]);
+        ctx.font = '500 18px Mont'; ctx.fillStyle = 'rgba(226,197,139,.7)'; ctx.textAlign = 'center'; ctx.fillText('CLIP DE SESIÓN', x + cw / 2, y + ch / 2); }
+    }
+    ctx.restore();
+    // velo oscuro central para leer el contador
+    const g = ctx.createRadialGradient(W / 2, H / 2, 100, W / 2, H / 2, 900);
+    g.addColorStop(0, `rgba(5,4,8,${.82 * a})`); g.addColorStop(.55, `rgba(5,4,8,${.45 * a})`); g.addColorStop(1, `rgba(5,4,8,${.15 * a})`);
+    ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+    const k = easeOut(ramp(t, sc.t0 + .1, sc.t0 + 2.2));
+    const n = Math.round(1200 * k);
+    const txt = '+' + (n >= 1000 ? Math.floor(n / 1000) + '.' + String(n % 1000).padStart(3, '0') : n);
+    ctx.save(); ctx.globalAlpha = a; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.font = '300 230px Corm'; ctx.fillStyle = GOLD; ctx.shadowColor = 'rgba(226,197,139,.6)'; ctx.shadowBlur = 40;
+    ctx.fillText(txt, W / 2, H / 2 - 90); ctx.restore();
+    drawLine(sc.lines[0], W / 2, H / 2 + 70, sc.lines[0].tIn, sc.t1, t);
+    drawLine(sc.lines[1], W / 2, H / 2 + 175, sc.lines[1].tIn, sc.t1, t);
+  },
+
+  // círculo que respira (4 s inspirar / 4 s soltar) para calmar a la sala
+  respira(sc, t) {
+    const a = sceneAlpha(sc, t);
+    const br = .5 - .5 * Math.cos((t - sc.t0) * Math.PI * 2 / 8);
+    const R = lerp(180, 330, br);
+    ctx.save(); ctx.globalAlpha = a;
+    const g = ctx.createRadialGradient(W / 2, H / 2, 0, W / 2, H / 2, R * 1.5);
+    g.addColorStop(0, 'rgba(255,225,175,.22)'); g.addColorStop(.6, 'rgba(255,225,175,.08)'); g.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+    ctx.strokeStyle = 'rgba(226,197,139,.7)'; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.arc(W / 2, H / 2, R, 0, 7); ctx.stroke();
+    ctx.globalAlpha = a * .3; ctx.beginPath(); ctx.arc(W / 2, H / 2, R * 1.18, 0, 7); ctx.stroke();
+    ctx.restore();
+    drawLine(sc.lines[0], W / 2, H / 2 - 20, sc.lines[0].tIn, sc.t1, t);
+    drawLine(sc.lines[1], W / 2, H / 2 + 420, sc.lines[1].tIn, sc.t1, t);
+  },
+
+  logo(sc, t) { finale(sc, t); },
+};
+
+function drawIcon(name, t) {
+  ctx.save(); ctx.strokeStyle = IVORY; ctx.lineWidth = 3; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+  ctx.beginPath();
+  if (name === 'corazon') {
+    ctx.moveTo(0, 26); ctx.bezierCurveTo(-46, -6, -30, -42, 0, -18); ctx.bezierCurveTo(30, -42, 46, -6, 0, 26);
+  } else if (name === 'ojo') {
+    ctx.moveTo(-40, 0); ctx.quadraticCurveTo(0, -38, 40, 0); ctx.quadraticCurveTo(0, 38, -40, 0);
+    ctx.moveTo(13, 0); ctx.arc(0, 0, 13, 0, 7);
+  } else if (name === 'voz') {
+    for (let i = 0; i < 3; i++) { const r = 14 + i * 13; ctx.moveTo(-18 + r * Math.cos(-.7), r * Math.sin(-.7)); ctx.arc(-18, 0, r, -.7, .7); }
+    ctx.moveTo(-30, -8); ctx.lineTo(-30, 8);
+  } else if (name === 'check') {
+    ctx.moveTo(-24, 2); ctx.lineTo(-6, 20); ctx.lineTo(28, -18);
+  }
+  ctx.stroke(); ctx.restore();
 }
 
-// ---------- fondo / motion ----------
+// línea de vida del acto 2
+const HITOS = ['Infancia', 'Una vida estable', 'Años difíciles', 'El sueño', 'El don'];
+function timeline(t) {
+  const act2 = SCENES.filter(s => s.act === 2);
+  const t0 = act2[0].t0, t1 = act2[act2.length - 1].t1;
+  const a = ramp(t, t0 - .3, t0 + 1) * (1 - ramp(t, t1 - .2, t1 + 1));
+  if (a <= 0) return;
+  let cur = act2[0]; for (const s of act2) if (t >= s.t0 - .2) cur = s;
+  const x0 = 360, x1 = 1560, y = 1000;
+  const xs = HITOS.map((_, i) => lerp(x0, x1, i / (HITOS.length - 1)));
+  const prev = act2.filter(s => s.t0 < cur.t0).pop();
+  const from = prev ? xs[prev.hito] : xs[0];
+  const px = lerp(from, xs[cur.hito], easeOut(ramp(t, cur.t0 - .2, cur.t0 + 1.2)));
+  ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = 'rgba(226,197,139,.22)'; ctx.lineWidth = 1.5;
+  ctx.beginPath(); ctx.moveTo(x0, y); ctx.lineTo(x1, y); ctx.stroke();
+  ctx.strokeStyle = 'rgba(226,197,139,.85)'; ctx.beginPath(); ctx.moveTo(x0, y); ctx.lineTo(px, y); ctx.stroke();
+  ctx.textAlign = 'center'; ctx.font = '500 21px Mont'; ctx.letterSpacing = '4px';
+  HITOS.forEach((h, i) => {
+    const on = xs[i] <= px + 1, act = i === cur.hito;
+    ctx.beginPath(); ctx.arc(xs[i], y, act ? 7 : 4.5, 0, 7);
+    ctx.fillStyle = on ? GOLD : 'rgba(226,197,139,.3)'; ctx.fill();
+    if (act) { ctx.globalAlpha = a * (.4 + .3 * Math.sin(t * 3)); ctx.beginPath(); ctx.arc(xs[i], y, 16, 0, 7); ctx.strokeStyle = GOLD; ctx.stroke(); ctx.globalAlpha = a; }
+    ctx.fillStyle = act ? IVORY : on ? 'rgba(226,197,139,.8)' : 'rgba(169,163,154,.45)';
+    ctx.fillText(h.toUpperCase(), xs[i], y - 30);
+  });
+  ctx.letterSpacing = '0px';
+  ctx.restore();
+}
+
+// =====================================================================
+//  fondo / atmósfera
+// =====================================================================
 const R = rng(7);
-const PARTS = Array.from({ length: 260 }, () => ({
-  x: R() * W, y: R() * H, z: 0.3 + R() * 1.4, ph: R() * 6.28, sp: 6 + R() * 22, tw: 0.5 + R() * 2,
-}));
+const PARTS = Array.from({ length: 240 }, () => ({ x: R() * W, y: R() * H, z: 0.3 + R() * 1.4, ph: R() * 6.28, sp: 6 + R() * 22, tw: 0.5 + R() * 2 }));
 const NEB = [{ x: .30, y: .35, r: .55, ph: 0 }, { x: .72, y: .62, r: .6, ph: 2 }, { x: .5, y: .5, r: .45, ph: 4 }];
 const grain = document.createElement('canvas'); grain.width = grain.height = 512;
 { const g = grain.getContext('2d'), im = g.createImageData(512, 512), r = rng(3);
   for (let i = 0; i < im.data.length; i += 4) { const v = r() * 255; im.data[i] = im.data[i + 1] = im.data[i + 2] = v; im.data[i + 3] = 255; }
   g.putImageData(im, 0, 0); }
-
-// atmósfera: interpola el "mood" de cada escena
 function mood(t) {
   let i = 0; while (i < SCENES.length - 1 && t > SCENES[i + 1].t0) i++;
   const a = MOODS[SCENES[i].mood], nx = SCENES[i + 1];
   if (!nx) return a;
-  const b = MOODS[nx.mood];
-  const k = ease(ramp(t, nx.t0 - 1.5, nx.t0 + .5));
+  const b = MOODS[nx.mood], k = ease(ramp(t, nx.t0 - 1.5, nx.t0 + .5));
   return { c: a.c.map((v, j) => Math.round(lerp(v, b.c[j], k))), i: lerp(a.i, b.i, k) };
 }
-
-const T_DESTELLO = () => sceneById['te-ayudare'].t0 + 0.5;
-const T_LUZ = () => sceneById['el-don'].t0 - 0.5;
-
+const T_DESTELLO = () => byId['te-ayudare'].t0 + 0.6;
+const T_LUZ = () => byId['el-don'].t0 - 0.5;
 function background(t) {
   const m = mood(t);
   const g = ctx.createLinearGradient(0, 0, 0, H);
@@ -282,50 +584,37 @@ function background(t) {
   NEB.forEach((n, i) => {
     const x = (n.x + Math.sin(t * .05 + n.ph) * .06) * W, y = (n.y + Math.cos(t * .04 + n.ph) * .05) * H;
     const r = n.r * W * (1 + .05 * Math.sin(t * .2 + i));
-    const rg = ctx.createRadialGradient(x, y, 0, x, y, r);
-    const [cr, cg, cb] = m.c;
+    const rg = ctx.createRadialGradient(x, y, 0, x, y, r), [cr, cg, cb] = m.c;
     rg.addColorStop(0, `rgba(${cr},${cg},${cb},${.22 * m.i})`);
     rg.addColorStop(.5, `rgba(${cr * .6 | 0},${cg * .6 | 0},${cb * .7 | 0},${.08 * m.i})`);
     rg.addColorStop(1, 'rgba(0,0,0,0)');
     ctx.fillStyle = rg; ctx.fillRect(0, 0, W, H);
   });
   const tl = T_LUZ(), td = T_DESTELLO();
-  const rays = ramp(t, tl, tl + 5) * (1 - ramp(t, DUR - 6, DUR));
+  // los rayos acompañan el despertar y se retiran durante los vídeos
+  const vid = Math.max(...['prueba', 'muro'].map(id => sceneAlpha(byId[id], t)));
+  const rays = ramp(t, tl, tl + 5) * (1 - ramp(t, DUR - 6, DUR)) * (1 - vid * .85);
   if (rays > 0) {
     ctx.save(); ctx.translate(W / 2, -200);
     for (let i = 0; i < 9; i++) {
-      const ang = -0.55 + i * 0.137 + Math.sin(t * .15 + i) * .03;
-      ctx.save(); ctx.rotate(ang);
+      ctx.save(); ctx.rotate(-0.55 + i * 0.137 + Math.sin(t * .15 + i) * .03);
       const lg = ctx.createLinearGradient(0, 0, 0, 1500);
-      lg.addColorStop(0, `rgba(255,225,170,${.10 * rays})`); lg.addColorStop(1, 'rgba(255,225,170,0)');
+      lg.addColorStop(0, `rgba(255,225,170,${.08 * rays})`); lg.addColorStop(1, 'rgba(255,225,170,0)');
       ctx.fillStyle = lg; ctx.beginPath(); ctx.moveTo(-8, 0); ctx.lineTo(8, 0); ctx.lineTo(90 + i * 6, 1500); ctx.lineTo(-90 - i * 6, 1500); ctx.fill();
       ctx.restore();
     }
     ctx.restore();
   }
-  const ts = sceneById['sueno'].t0;
+  const ts = byId['sueno'].t0;
   const orb = (.25 + .35 * ramp(t, ts, td) + .4 * ramp(t, td - .5, td + 1)) * (1 - .5 * ramp(t, DUR - 5, DUR));
   const or = 380 + 260 * ramp(t, ts, td + 2);
   const og = ctx.createRadialGradient(W / 2, H / 2, 0, W / 2, H / 2, or);
-  og.addColorStop(0, `rgba(255,232,190,${.13 * orb})`); og.addColorStop(1, 'rgba(0,0,0,0)');
+  og.addColorStop(0, `rgba(255,232,190,${.12 * orb})`); og.addColorStop(1, 'rgba(0,0,0,0)');
   ctx.fillStyle = og; ctx.fillRect(0, 0, W, H);
-  const rg2 = ramp(t, tl, tl + 6) * (1 - ramp(t, DUR - 8, DUR - 5));
-  if (rg2 > 0) {
-    ctx.save(); ctx.translate(W / 2, H / 2); ctx.strokeStyle = `rgba(226,197,139,${.07 * rg2})`; ctx.lineWidth = 1.2;
-    for (let i = 0; i < 6; i++) {
-      const a = t * .03 + i * Math.PI / 3;
-      ctx.beginPath(); ctx.arc(Math.cos(a) * 170, Math.sin(a) * 170, 170, 0, Math.PI * 2); ctx.stroke();
-    }
-    ctx.beginPath(); ctx.arc(0, 0, 340, 0, Math.PI * 2); ctx.stroke();
-    ctx.beginPath(); ctx.arc(0, 0, 470 + Math.sin(t * .3) * 6, 0, Math.PI * 2); ctx.stroke();
-    ctx.restore();
-  }
-  const energy = .55 + .25 * ramp(t, ts, td) + .5 * ramp(t, td, td + 4);
+  const energy = .55 + .25 * ramp(t, ts, td) + .45 * ramp(t, td, td + 4);
   PARTS.forEach(p => {
-    const y = ((p.y - t * p.sp * p.z * energy) % H + H) % H;
-    const x = p.x + Math.sin(t * .3 + p.ph) * 30 * p.z;
-    const tw = .45 + .55 * Math.sin(t * p.tw + p.ph);
-    const a = clamp(tw * .7 * p.z * energy * m.i, 0, 1);
+    const y = ((p.y - t * p.sp * p.z * energy) % H + H) % H, x = p.x + Math.sin(t * .3 + p.ph) * 30 * p.z;
+    const a = clamp((.45 + .55 * Math.sin(t * p.tw + p.ph)) * .7 * p.z * energy * m.i, 0, 1);
     const r = 1.1 * p.z + (p.z > 1.3 ? 1.2 : 0);
     const pg = ctx.createRadialGradient(x, y, 0, x, y, r * 5);
     pg.addColorStop(0, `rgba(255,236,200,${a})`); pg.addColorStop(1, 'rgba(255,236,200,0)');
@@ -333,12 +622,11 @@ function background(t) {
   });
   ctx.globalCompositeOperation = 'source-over';
 }
-
 function overlays(t) {
   const flash = Math.exp(-Math.pow((t - T_DESTELLO()) / 0.45, 2)) * .5;
   if (flash > .01) { ctx.fillStyle = `rgba(255,240,215,${flash})`; ctx.fillRect(0, 0, W, H); }
-  const v = ctx.createRadialGradient(W / 2, H / 2, H * .35, W / 2, H / 2, H * 1.05);
-  v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, 'rgba(0,0,0,.78)');
+  const v = ctx.createRadialGradient(W / 2, H / 2, H * .38, W / 2, H / 2, H * 1.05);
+  v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, 'rgba(0,0,0,.75)');
   ctx.fillStyle = v; ctx.fillRect(0, 0, W, H);
   ctx.save(); ctx.globalAlpha = .045; ctx.globalCompositeOperation = 'overlay';
   ctx.translate(-((t * 977) % 512), -((t * 613) % 512));
@@ -347,23 +635,18 @@ function overlays(t) {
   const fade = 1 - ramp(t, 0, 1.2) * (1 - ramp(t, DUR - 1.4, DUR));
   if (fade > 0) { ctx.fillStyle = `rgba(0,0,0,${fade})`; ctx.fillRect(0, 0, W, H); }
 }
-
 function finale(sc, t) {
-  const t0 = sc.t0;
-  const a = 1 - ramp(t, DUR - 1.6, DUR - .2);
+  const t0 = sc.t0, a = 1 - ramp(t, DUR - 1.6, DUR - .2);
   ctx.save(); ctx.globalAlpha = a; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-  const k = easeOut(ramp(t, t0, t0 + 2.6));
-  const name = 'ALLAN GARCÍA';
+  const k = easeOut(ramp(t, t0, t0 + 2.6)), name = 'ALLAN GARCÍA';
   ctx.font = '400 128px Corm';
-  const sp = lerp(70, 26, k);
-  const ws = [...name].map(c => ctx.measureText(c).width);
+  const sp = lerp(70, 26, k), ws = [...name].map(c => ctx.measureText(c).width);
   const tw = ws.reduce((x, y) => x + y, 0) + sp * (name.length - 1);
   let x = W / 2 - tw / 2;
   const gg = ctx.createLinearGradient(W / 2 - tw / 2, 0, W / 2 + tw / 2, 0);
   gg.addColorStop(0, GOLD_D); gg.addColorStop(.5, '#FFF1D2'); gg.addColorStop(1, GOLD_D);
   ctx.filter = `blur(${((1 - k) * 12).toFixed(1)}px)`;
-  ctx.fillStyle = gg; ctx.shadowColor = 'rgba(226,197,139,.6)'; ctx.shadowBlur = 36;
-  ctx.globalAlpha = a * k;
+  ctx.fillStyle = gg; ctx.shadowColor = 'rgba(226,197,139,.6)'; ctx.shadowBlur = 36; ctx.globalAlpha = a * k;
   [...name].forEach((c, i) => { ctx.fillText(c, x + ws[i] / 2, H / 2 - 40); x += ws[i] + sp; });
   ctx.filter = 'none'; ctx.shadowBlur = 0;
   const lw = 260 * easeOut(ramp(t, t0 + 1.2, t0 + 2.8));
@@ -371,39 +654,33 @@ function finale(sc, t) {
   ctx.fillRect(W / 2 - 40 - lw - 150, H / 2 + 62, lw, 1.5); ctx.fillRect(W / 2 + 190, H / 2 + 62, lw, 1.5);
   ctx.restore();
   ctx.save(); ctx.globalAlpha = a;
-  drawLine(L('MÉDIUM', 'sans', 40, IVORY), W / 2, H / 2 + 62, t0 + 1.4, 999, t);
+  drawLine(L('MÉDIUM', 'sans', 38, IVORY), W / 2, H / 2 + 62, t0 + 1.4, 999, t);
   drawLine(L('Bienvenidos.', 'italic', 64, GOLD), W / 2, H / 2 + 190, t0 + 3.0, 999, t);
   ctx.restore();
 }
 
 function renderFrame(t) {
   ctx.save();
-  ctx.textAlign = 'left';
   background(t);
-  SCENES.forEach(sc => drawMedia(sc, t));
-  const z = 1 + .012 * Math.sin(t * .25);
+  const z = 1 + .01 * Math.sin(t * .25);
   ctx.translate(W / 2, H / 2); ctx.scale(z, z); ctx.translate(-W / 2, -H / 2);
-  SCENES.forEach(sc => drawScene(sc, t));
+  for (const sc of SCENES) if (t > sc.t0 - .6 && t < sc.t1 + OVER + .6) LAYOUT[sc.layout](sc, t);
   ctx.restore();
+  timeline(t);
   overlays(t);
 }
-window.renderFrame = renderFrame;
-window.DUR = DUR;
-window.SCENES = SCENES;
+window.renderFrame = renderFrame; window.DUR = DUR; window.SCENES = SCENES;
 
-// ---------- reproducción en directo ----------
+// =====================================================================
+//  reproducción en directo
+// =====================================================================
 const voz = document.getElementById('voz'), music = document.getElementById('music');
-let t0 = null;
-function loop() {
-  const t = (performance.now() - t0) / 1000;
-  renderFrame(Math.min(t, DUR));
-  if (t < DUR) requestAnimationFrame(loop);
-}
+let tStart = null;
+function loop() { const t = (performance.now() - tStart) / 1000; renderFrame(Math.min(t, DUR)); if (t < DUR) requestAnimationFrame(loop); }
 document.getElementById('start').onclick = async () => {
   document.getElementById('start').remove();
   try { await document.documentElement.requestFullscreen(); } catch (e) {}
-  t0 = performance.now();
-  music.volume = 0.35;
+  tStart = performance.now(); music.volume = 0.3;
   voz.play().catch(() => {}); music.play().catch(() => {});
   loop();
 };
