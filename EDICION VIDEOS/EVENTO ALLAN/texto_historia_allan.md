@@ -3,7 +3,7 @@
 **Quién habla:** Allan, en primera persona, de tú a tú.
 **A quién le habla:** a quien viene a un evento suyo, quizá por primera vez. Puede que haya visto sus vídeos, pero estar ahí es distinto: quiere saber y a la vez no quiere ilusionarse. Tiene dudas: qué hace él ahí, si vendrá alguien por él, si se emocionará delante de todos, si será mentira. Ha perdido a alguien.
 **Qué tiene que conseguir:** que se sienta entendido y tranquilo, que respire y que entre en la sesión abierto y en calma, sin sentir que le venden nada.
-**Duración:** unos 3:06 en total, con 18 s de vídeo de sesiones y unos 24 s de respiración guiada.
+**Duración:** unos 3:08 en total, con 18 s de vídeo de sesiones (con su audio original) y unos 26 s de respiración guiada. La voz de Allan cubre todo lo demás, sin silencios.
 **Música:** de fondo, la que elijas tú (estilo Gladiator, calmada y emocional), siempre por debajo de la voz.
 
 ## Cómo grabarlo (para que la sincronización salga perfecta)
@@ -57,7 +57,7 @@
 
 **[14]** Lo que llega del otro lado es amor. Allí no existe el rencor. Todo se perdona.
 
-**[15]** Yo siento lo que sentía esa persona. Veo imágenes. Te lo cuento. Y eres tú quien lo confirma.
+**[15]** Yo siento lo que sentía esa persona. Veo imágenes. Te lo cuento. Y eres tú quien lo confirma. Míralo.
 
 > **[16] VÍDEO DE SESIONES REALES (~18 s).** Allan no habla aquí. Audio original de los directos: Allan da un dato concreto y la persona lo confirma. 3 momentos de unos 6 s, en vertical.
 
@@ -65,8 +65,8 @@
 
 **[18]** Porque el amor no muere. Solo cambia de lugar.
 
-**[19]** Ahora, respira conmigo. Coge aire… despacio… y suéltalo. Otra vez. Coge aire… y suelta. Una vez más. Coge aire… y suéltalo todo.
-   *(Respiración: deja unos 3 segundos de silencio después de cada «Coge aire…» y de cada «suelta». Respira tú también; la sala te copiará.)*
+**[19]** Ahora, respira conmigo. Coge aire por la nariz… despacio… llenando el pecho… y suéltalo por la boca. Otra vez. Coge aire… siente cómo tu cuerpo se relaja… y suelta. Una vez más. Coge aire… con todo lo que traías hoy… y suéltalo todo.
+   *(Respiración: dilo muy despacio, respirando tú de verdad mientras hablas; la sala te copiará. Sin silencios largos: la voz acompaña cada respiración.)*
 
 **[20]** Estás en el lugar correcto.
 
