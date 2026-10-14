@@ -52,40 +52,41 @@ const L = (text, f = 'serif', s = 84, c = IVORY, extra = {}) => ({ text, f, s, c
 const SCENES = [
   // ---------- ACTO 1 · Lo que pasa por tu cabeza ahora mismo ----------
   { id: 'primera-vez', act: 1, mood: 'frio', layout: 'centro',
-    voz: 'Puede que esta sea la primera vez que vienes a algo así.',
+    voz: 'Puede que esta sea la primera vez que vienes a algo así. Y que hayas llegado hasta aquí sin saber muy bien qué te vas a encontrar.',
     lines: [L('Puede que esta sea la primera vez', 'serif', 92), L('que vienes a algo así.', 'italic', 108, GOLD, { k: 'que vienes' })] },
   { id: 'diferente', act: 1, mood: 'frio', layout: 'centro',
-    voz: 'Quizá has visto vídeos, has leído cosas… pero estar aquí es diferente.',
+    voz: 'Quizá has visto vídeos, has leído cosas… pero estar aquí, en persona, es diferente.',
     lines: [L('Has visto vídeos, has leído cosas…', 'serif', 88), L('pero estar aquí es diferente.', 'italic', 108, GOLD, { k: 'pero estar' })] },
   { id: 'balanza', act: 1, mood: 'frio', layout: 'balanza',
-    voz: 'Una parte de ti quiere saber… y otra no quiere ilusionarse demasiado.',
-    lines: [L('Una parte de ti quiere saber…', 'serif', 84), L('y otra no quiere ilusionarse demasiado.', 'italic', 84, GOLD, { k: 'y otra' })] },
+    voz: 'Una parte de ti necesita saber. Y otra parte no quiere ilusionarse demasiado… por si acaso.',
+    lines: [L('Una parte de ti necesita saber…', 'serif', 84), L('y otra no quiere ilusionarse demasiado.', 'italic', 84, GOLD, { k: 'Y otra parte' })] },
   { id: 'pensamientos', act: 1, mood: 'sombra', layout: 'dudas',
-    voz: 'Y por dentro, a lo mejor estás pensando: ¿qué hago yo aquí? ¿Y si no viene nadie por mí? ¿Y si me emociono delante de todos? ¿Y si todo esto es mentira?',
-    lines: [L('¿Qué hago yo aquí?', 'italic', 90, IVORY, { k: '¿qué hago', x: 560, y: 250 }),
-            L('¿Y si no viene nadie por mí?', 'italic', 90, IVORY, { k: '¿Y si no viene', x: 1260, y: 440 }),
-            L('¿Y si me emociono delante de todos?', 'italic', 90, IVORY, { k: '¿Y si me', x: 820, y: 640 }),
-            L('¿Y si todo esto es mentira?', 'italic', 96, GOLD, { k: '¿Y si todo', x: 1160, y: 840 })] },
+    voz: 'Y por dentro, a lo mejor estás pensando: ¿qué hago yo aquí? ¿Y si no viene nadie por mí? ¿Y si viene… y no estoy preparado? ¿Y si me emociono delante de todos? ¿Y si todo esto es mentira?',
+    lines: [L('¿Qué hago yo aquí?', 'italic', 86, IVORY, { k: '¿qué hago', x: 540, y: 190 }),
+            L('¿Y si no viene nadie por mí?', 'italic', 86, IVORY, { k: '¿Y si no viene', x: 1280, y: 360 }),
+            L('¿Y si viene… y no estoy preparado?', 'italic', 86, IVORY, { k: '¿Y si viene…', x: 640, y: 540 }),
+            L('¿Y si me emociono delante de todos?', 'italic', 86, IVORY, { k: '¿Y si me', x: 1220, y: 720 }),
+            L('¿Y si todo esto es mentira?', 'italic', 96, GOLD, { k: '¿Y si todo', x: 800, y: 900 })] },
   { id: 'normal', act: 1, mood: 'sombra', layout: 'centro',
-    voz: 'Es normal. Es la primera vez que abres esta puerta. Yo también tuve esas dudas.',
+    voz: 'Es normal. Todo eso que estás sintiendo es normal. Es la primera vez que abres esta puerta. Y yo también tuve esas dudas. Muchas.',
     lines: [L('Es normal.', 'serif', 124), L('Es la primera vez que abres esta puerta.', 'serif', 72, SOFT, { k: 'Es la primera' }),
-            L('Yo también tuve esas dudas.', 'italic', 100, GOLD, { k: 'Yo también', gap: 20 })] },
+            L('Yo también tuve esas dudas.', 'italic', 100, GOLD, { k: 'Y yo también', gap: 20 })] },
 
   // ---------- ACTO 2 · Cómo llegué hasta aquí (línea de vida) ----------
   { id: 'nino', act: 2, hito: 0, mood: 'frio', layout: 'split',
-    voz: 'Desde niño, algunos lugares me hacían sentir cosas que no sabía explicar.',
+    voz: 'Desde niño, algunos lugares me hacían sentir cosas que no sabía explicar. Era pequeño… y no tenía palabras para eso.',
     media: { tipo: 'foto', etiqueta: 'Allan de niño', opcional: true },
     lines: [L('Desde niño,', 'serif', 84), L('algunos lugares', 'serif', 84), L('me hacían sentir cosas', 'serif', 84, IVORY, { k: 'me hacían' }), L('que no sabía explicar.', 'italic', 92, GOLD, { k: 'que no sabía' })] },
   { id: 'iglesia', act: 2, hito: 0, mood: 'oscuro', layout: 'vitral',
-    voz: 'En una iglesia sentí algo tan real… que me asusté muchísimo. Así que lo guardé.',
+    voz: 'Recuerdo una iglesia. Sentí algo tan real… que me asusté muchísimo. Así que hice lo que hacemos casi todos: lo guardé.',
     lines: [L('En una iglesia sentí algo tan real…', 'serif', 84), L('que me asusté muchísimo.', 'italic', 100, GOLD, { k: 'que me' }),
-            L('Así que lo guardé.', 'serif', 72, SOFT, { k: 'Así que', gap: 30 })] },
+            L('Así que lo guardé.', 'serif', 72, SOFT, { k: 'lo guardé', gap: 30 })] },
   { id: 'estable', act: 2, hito: 1, mood: 'frio', layout: 'split',
     voz: 'Tuve un trabajo estable. Un buen sueldo. Desde fuera, todo estaba bien.',
     media: { tipo: 'foto', etiqueta: 'Allan en su etapa del trabajo estable' },
-    lines: [L('Un trabajo estable.', 'serif', 88), L('Un buen sueldo.', 'serif', 88, IVORY, { k: 'Un buen' }), L('Desde fuera,', 'italic', 92, GOLD, { k: 'Desde fuera' }), L('todo estaba bien.', 'italic', 92, GOLD, { k: 'todo estaba' })] },
+    lines: [L('Un trabajo estable.', 'serif', 88, IVORY, { k: 'Tuve' }), L('Un buen sueldo.', 'serif', 88, IVORY, { k: 'Un buen' }), L('Desde fuera,', 'italic', 92, GOLD, { k: 'Desde fuera' }), L('todo estaba bien.', 'italic', 92, GOLD, { k: 'todo estaba' })] },
   { id: 'infierno', act: 2, hito: 2, mood: 'oscuro', layout: 'centro',
-    voz: 'Pero por dentro, no. He estado en el infierno durante muchos años. Por eso, si hoy lo estás pasando mal… te entiendo.',
+    voz: 'Pero por dentro, no. Y no te voy a mentir: he estado en el infierno durante muchos años. Por eso, si hoy lo estás pasando mal… si sientes que te falta alguien… te entiendo. De verdad.',
     lines: [L('Pero por dentro, no.', 'serif', 84, SOFT), L('«He estado en el infierno', 'italic', 104, IVORY, { k: 'He estado', gap: 20 }), L('durante muchos años.»', 'italic', 104, IVORY, { k: 'He estado' }),
             L('Por eso te entiendo.', 'serif', 84, GOLD, { k: 'Por eso', gap: 36 })] },
   { id: 'sueno', act: 2, hito: 3, mood: 'sombra', layout: 'polaroid',
@@ -96,24 +97,24 @@ const SCENES = [
     voz: 'Y me dijo: «Te voy a ayudar».',
     lines: [L('Y ME DIJO:', 'sans', 46, IVORY), L('«Te voy a ayudar.»', 'italic', 164, IVORY, { k: '«Te', gap: 18 })] },
   { id: 'el-don', act: 2, hito: 4, mood: 'luz', layout: 'centro',
-    voz: 'Poco a poco dejé de huir de lo que sentía. Y entendí que el don siempre había estado ahí… desde aquel niño de la iglesia.',
-    lines: [L('Dejé de huir de lo que sentía.', 'serif', 84), L('El don siempre había estado ahí…', 'italic', 100, GOLD, { k: 'Y entendí' }),
+    voz: 'A partir de ahí, poco a poco, dejé de huir de lo que sentía. Y entendí que el don siempre había estado ahí… desde aquel niño de la iglesia. Y que no era mío: era para dárselo a otros.',
+    lines: [L('Dejé de huir de lo que sentía.', 'serif', 84, IVORY, { k: 'dejé de huir' }), L('El don siempre había estado ahí…', 'italic', 100, GOLD, { k: 'Y entendí' }),
             L('desde aquel niño de la iglesia.', 'italic', 84, SOFT, { k: 'desde aquel' })] },
 
   // ---------- ACTO 3 · Lo que vas a vivir hoy ----------
   { id: 'temer', act: 3, mood: 'luz', layout: 'escudo',
-    voz: 'Y quiero que sepas algo: aquí no hay nada que temer. Las energías no molestan. No atacan. Nunca te harán daño.',
+    voz: 'Por eso, antes de empezar, quiero que sepas algo: aquí no hay nada que temer. Las energías no molestan. No atacan. Nunca te harán daño. Jamás.',
     lines: [L('Aquí no hay', 'italic', 96, IVORY, { k: 'aquí no hay' }), L('nada que temer.', 'italic', 96, IVORY, { k: 'aquí no hay' }),
             L('No molestan.', 'serif', 74, GOLD, { k: 'no molestan', orbit: 0 }),
             L('No atacan.', 'serif', 74, GOLD, { k: 'No atacan', orbit: 1 }),
             L('Nunca te harán daño.', 'serif', 74, GOLD, { k: 'Nunca te', orbit: 2 })] },
   { id: 'velo', act: 3, mood: 'luz', layout: 'velo',
-    voz: 'Lo que llega del otro lado es amor. Allí no existe el rencor. Todo se perdona.',
+    voz: 'Lo que llega del otro lado es amor. Allí no existe el ego, ni el rencor. Todo se perdona. Y quienes se fueron… están en paz.',
     lines: [L('Amor.', 'italic', 150, GOLD, { k: 'es amor' }),
             L('Allí no existe el rencor.', 'serif', 76, IVORY, { k: 'Allí no' }),
             L('Todo se perdona.', 'italic', 92, GOLD, { k: 'Todo se' })] },
   { id: 'pasos', act: 3, mood: 'luz', layout: 'pasos',
-    voz: 'Yo siento lo que sentía esa persona. Veo imágenes. Te lo cuento. Y eres tú quien lo confirma. Míralo.',
+    voz: 'En una sesión, yo siento lo que sentía esa persona. Veo imágenes. Te lo cuento. Y eres tú quien lo confirma. Míralo.',
     lines: [L('SIENTO', 'sans', 38, IVORY, { k: 'siento', icon: 'corazon', sp: 3 }),
             L('VEO', 'sans', 38, IVORY, { k: 'Veo', icon: 'ojo', sp: 3 }),
             L('TE LO CUENTO', 'sans', 38, IVORY, { k: 'Te lo', icon: 'voz', sp: 3 }),
@@ -122,11 +123,11 @@ const SCENES = [
     voz: '(Audio original de los directos: Allan da un dato concreto y la persona lo confirma. 3 momentos de unos 6 s, en vertical.)',
     media: { tipo: 'video', etiqueta: 'Directos de Instagram (verticales)', clips: 3 }, lines: [] },
   { id: 'muro', act: 3, mood: 'luz', layout: 'muro',
-    voz: 'Más de mil doscientas sesiones. Y cada una me sigue emocionando como la primera.',
+    voz: 'Más de mil doscientas sesiones. Y cada una me sigue emocionando como la primera. Porque detrás de cada una hay una familia… y un amor que sigue ahí.',
     media: { tipo: 'video', etiqueta: 'Trocitos mudos de directos (verticales)', clips: 12 },
     lines: [L('SESIONES', 'sans', 48, IVORY, { k: 'sesiones' }), L('Y cada una me sigue emocionando', 'italic', 76, GOLD, { k: 'Y cada' }), L('como la primera.', 'italic', 76, GOLD, { k: 'como la' })] },
   { id: 'amor', act: 3, mood: 'calido', layout: 'centro',
-    voz: 'Porque el amor no muere. Solo cambia de lugar.',
+    voz: 'El amor no muere. Solo cambia de lugar.',
     lines: [L('El amor no muere.', 'serif', 116), L('Solo cambia de lugar.', 'italic', 124, GOLD, { k: 'Solo' })] },
   { id: 'respira', act: 3, mood: 'calido', layout: 'respira', dur: 26,
     voz: 'Ahora, respira conmigo. Coge aire por la nariz… despacio… llenando el pecho… y suéltalo por la boca. Otra vez. Coge aire… siente cómo tu cuerpo se relaja… y suelta. Una vez más. Coge aire… con todo lo que traías hoy… y suéltalo todo.',
@@ -141,7 +142,7 @@ const SCENES = [
     voz: 'Estás en el lugar correcto.',
     lines: [L('Estás en el lugar correcto.', 'italic', 116, GOLD)] },
   { id: 'ponerle-voz', act: 3, mood: 'calido', layout: 'centro',
-    voz: 'Quizá hoy alguien tiene algo que decirte. Y yo estaré aquí para ponerle voz.',
+    voz: 'Quizá hoy alguien tiene algo que decirte. Algo que se quedó pendiente. Y yo estaré aquí para ponerle voz.',
     lines: [L('Quizá hoy alguien', 'serif', 92), L('tiene algo que decirte.', 'italic', 108, GOLD, { k: 'tiene' }),
             L('Y yo estaré aquí para ponerle voz.', 'serif', 76, SOFT, { k: 'Y yo', gap: 30 })] },
   { id: 'dejate', act: 3, mood: 'calido', layout: 'centro',
@@ -156,12 +157,12 @@ const SCENES = [
 //  Con el audio real: TIEMPOS_REALES[id] = { t0, t1, palabras: [t de cada palabra] }
 // =====================================================================
 const TIEMPOS_REALES = {};
-const PAL_SEG = 2.5, RESPIRO = 1.0, INICIO = 1.2;
+const PAL_SEG = 2.8, RESPIRO = 0.5, INICIO = 1.2;  // 2,8 pal/s ya incluye sus pausas naturales (medido en sus vídeos)
 (function () {
   let t = INICIO;
   for (const sc of SCENES) {
     const n = words(sc.voz).length;
-    const dur = sc.dur ?? Math.max(3.6, n / PAL_SEG + RESPIRO);
+    const dur = sc.dur ?? Math.max(3.2, n / PAL_SEG + RESPIRO);
     const real = TIEMPOS_REALES[sc.id];
     sc.t0 = real ? real.t0 : t;
     sc.t1 = real ? real.t1 : t + dur;
