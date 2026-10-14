@@ -1,9 +1,9 @@
 # Guion para que Allan lo grabe · "Mi historia"
 
 **Quién habla:** Allan, en primera persona, de tú a tú.
-**A quién le habla:** a quien está en la sala con el corazón acelerado. No sabe qué va a pasar, quizá tiene miedo, quizá duda de si funciona o de si es mentira. Ha perdido a alguien y se quedó con algo por decir.
-**Qué tiene que conseguir:** que esa persona se sienta entendida y tranquila, y que entre en la sesión con el corazón abierto, sin sentir que le están vendiendo nada.
-**Duración:** unos 2:15 de voz, más unos 21 s de vídeo de sesiones reales. En total, unos 2:45.
+**A quién le habla:** a quien viene a un evento suyo, quizá por primera vez. Puede que haya visto sus vídeos, pero estar ahí es distinto: quiere saber y a la vez no quiere ilusionarse. Tiene dudas: qué hace él ahí, si vendrá alguien por él, si se emocionará delante de todos, si será mentira. Ha perdido a alguien.
+**Qué tiene que conseguir:** que se sienta entendido y tranquilo, que respire y que entre en la sesión abierto y en calma, sin sentir que le venden nada.
+**Duración:** unos 3:06 en total, con 18 s de vídeo de sesiones y unos 24 s de respiración guiada.
 **Música:** de fondo, la que elijas tú (estilo Gladiator, calmada y emocional), siempre por debajo de la voz.
 
 ## Cómo grabarlo (para que la sincronización salga perfecta)
@@ -11,80 +11,82 @@
 - Despacio, como si se lo contara a una sola persona que tiene delante.
 - **Una pausa de 1 segundo entre cada bloque numerado.**
 - Si se equivoca, que repita la frase entera y siga. Los fallos los quito yo.
-- Puede cambiar alguna palabra para que le suene suya, pero **cada frase en pantalla aparece cuando dice una palabra concreta.** Si cambia mucho una frase, avísame y ajusto el texto de pantalla para que siga igual que su voz.
+- **Cada frase en pantalla aparece cuando dice una palabra concreta.** Si cambia mucho una frase, avísame y ajusto el texto de pantalla para que siga igual que su voz.
 
 ---
 
 ## GUION
 
-### ACTO 1 · Lo que sientes ahora mismo
-*Muy cercano y suave. Le hablas a una persona nerviosa: despacio, con calma, como quien coge la mano a alguien.*
+### ACTO 1 · Lo que pasa por tu cabeza
+*Cercano y tranquilo, como quien se sienta al lado de alguien que está algo nervioso. Las preguntas se dicen como pensamientos, sin dramatizar.*
 
-**[01]** Puede que ahora mismo tengas el corazón un poco acelerado.
+**[01]** Puede que esta sea la primera vez que vienes a algo así.
 
-**[02]** Quizá una parte de ti tiene ganas… y otra parte tiene miedo.
+**[02]** Quizá has visto vídeos, has leído cosas… pero estar aquí es diferente.
 
-**[03]** Y quizá te preguntas: ¿y si no funciona? ¿Y si no viene nadie? ¿Y si todo esto es mentira?
+**[03]** Una parte de ti quiere saber… y otra no quiere ilusionarse demasiado.
 
-**[04]** Es normal. Yo también he tenido miedo.
+**[04]** Y por dentro, a lo mejor estás pensando: ¿qué hago yo aquí? ¿Y si no viene nadie por mí? ¿Y si me emociono delante de todos? ¿Y si todo esto es mentira?
+   *(Cada pregunta como un pensamiento que se le escapa a alguien, con una pequeña pausa entre una y otra.)*
+
+**[05]** Es normal. Es la primera vez que abres esta puerta. Yo también tuve esas dudas.
 
 
 ### ACTO 2 · Cómo llegué hasta aquí
 *Íntimo y sincero. Lo duro se dice bajito y con pausas; desde «Te voy a ayudar» la voz se abre y se llena de luz.*
 
-**[05]** Desde niño, algunos lugares me hacían sentir cosas que no sabía explicar.
+**[06]** Desde niño, algunos lugares me hacían sentir cosas que no sabía explicar.
 
-**[06]** En una iglesia sentí algo tan real… que pasé muchísimo miedo. Así que lo guardé.
+**[07]** En una iglesia sentí algo tan real… que me asusté muchísimo. Así que lo guardé.
 
-**[07]** Tuve un trabajo estable. Un buen sueldo. Desde fuera, todo estaba bien.
+**[08]** Tuve un trabajo estable. Un buen sueldo. Desde fuera, todo estaba bien.
 
-**[08]** Pero por dentro, no. Mi cuerpo me decía que ese no era mi camino.
-
-**[09]** He estado en el infierno durante muchos años. Por eso, si hoy lo estás pasando mal… te entiendo.
+**[09]** Pero por dentro, no. He estado en el infierno durante muchos años. Por eso, si hoy lo estás pasando mal… te entiendo.
 
 **[10]** Hasta que una noche… soñé con mi abuela.
 
 **[11]** Y me dijo: «Te voy a ayudar».
 
-**[12]** Poco a poco dejé de huir de lo que sentía. Y entendí que el don siempre había estado ahí… desde aquel niño que tenía miedo.
+**[12]** Poco a poco dejé de huir de lo que sentía. Y entendí que el don siempre había estado ahí… desde aquel niño de la iglesia.
 
 
 ### ACTO 3 · Lo que vas a vivir hoy
-*Firme y tranquilizador. Muy despacio al final: «Respira» se dice respirando de verdad.*
+*Firme y sereno. En la respiración, respira de verdad mientras lo dices: las pausas son parte del guion.*
 
 **[13]** Y quiero que sepas algo: aquí no hay nada que temer. Las energías no molestan. No atacan. Nunca te harán daño.
 
-**[14]** Lo que llega del otro lado es amor. Allí no existe el miedo, ni el rencor. Todo se perdona.
+**[14]** Lo que llega del otro lado es amor. Allí no existe el rencor. Todo se perdona.
 
 **[15]** Yo siento lo que sentía esa persona. Veo imágenes. Te lo cuento. Y eres tú quien lo confirma.
 
-**[16]** No te pido que me creas. Te pido que escuches… y que lo compruebes tú.
+> **[16] VÍDEO DE SESIONES REALES (~18 s).** Allan no habla aquí. Audio original de los directos: Allan da un dato concreto y la persona lo confirma. 3 momentos de unos 6 s, en vertical.
 
-> **[17] VÍDEO DE SESIONES REALES (~21 s).** Audio original: Allan da un dato concreto y la persona lo confirma. 3 momentos de unos 7 s.
+**[17]** Más de mil doscientas sesiones. Y cada una me sigue emocionando como la primera.
 
-**[18]** Más de mil doscientas sesiones. Y cada una me sigue emocionando como la primera.
+**[18]** Porque el amor no muere. Solo cambia de lugar.
 
-**[19]** Tus seres queridos también necesitan decirte cosas.
+**[19]** Ahora, respira conmigo. Coge aire… despacio… y suéltalo. Otra vez. Coge aire… y suelta. Una vez más. Coge aire… y suéltalo todo.
+   *(Respiración: deja unos 3 segundos de silencio después de cada «Coge aire…» y de cada «suelta». Respira tú también; la sala te copiará.)*
 
-**[20]** El amor no muere. Solo cambia de lugar.
+**[20]** Estás en el lugar correcto.
 
-**[21]** Así que respira. Estás en el lugar correcto.
+**[21]** Quizá hoy alguien tiene algo que decirte. Y yo estaré aquí para ponerle voz.
 
-**[22]** Quizá hoy alguien tiene algo que decirte. Y yo estaré aquí para ponerle voz.
+**[22]** Así que siéntate, ponte cómodo… y déjate llevar.
 
-> **[23] CIERRE.** Silencio. Solo música.
+**[23]** Empezamos.
 
 ---
 
-## De dónde sale cada idea (todo es suyo, no me lo he inventado)
-- **Desde niño los lugares le daban sensaciones; en una iglesia sintió algo tan real que pasó mucho miedo.** Vídeo «Cómo funcionan las sincronicidades en los lugares».
+## De dónde sale cada idea de su historia (no me he inventado nada sobre él)
+- **Desde niño los lugares le daban sensaciones; en una iglesia sintió algo tan real que se asustó mucho.** Vídeo «Cómo funcionan las sincronicidades en los lugares».
 - **«Las energías no te molestan, no te atacan, nunca te van a hacer nada, jamás».** El mismo vídeo.
 - **Siente físicamente lo que sentía la persona y ve imágenes.** El mismo vídeo.
 - **Él también tiene momentos de duda.** Vídeo «Las sincronicidades NO son casualidad».
-- **«He estado en el infierno durante muchos años». «En el otro lado no existe el miedo… todo se perdona».** Vídeo «Tu mayor poder: la fe y la certeza».
-- **«Vuestros seres queridos necesitan decir cosas»** y la idea de «darle voz». Vídeos de sincronicidades.
-- **Que se puedan dar datos que se corroboren.** Lo promete en sus vídeos, y es lo que enseña el recopilatorio.
-- **El trabajo estable y el aviso del cuerpo, el sueño con su abuela («te voy a ayudar»), el don que siempre estuvo ahí y las +1.200 sesiones.** Web oficial (mediumallan.com).
+- **«He estado en el infierno durante muchos años». «En el otro lado no existe el ego, el miedo… todo se perdona».** Vídeo «Tu mayor poder: la fe y la certeza».
+- **Darle voz a quien está en el otro lado.** Vídeos de sincronicidades.
+- **El trabajo estable, el sueño con su abuela («te voy a ayudar»), el don que siempre estuvo ahí y las +1.200 sesiones.** Web oficial (mediumallan.com).
+- Las dudas del público y la respiración son mías: es la parte de guion para conectar con la sala.
 
 ## A confirmar con Allan
 - **La cifra de +1.200 sesiones.** Si ahora son más, se cambia.

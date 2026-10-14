@@ -32,7 +32,7 @@ const ramp = (t, a, b) => clamp((t - a) / (b - a));
 function rng(seed) { return () => (seed = (seed * 16807) % 2147483647) / 2147483647; }
 const words = s => s.replace(/\(.*?\)/g, '').split(/\s+/).filter(Boolean);
 
-const IVORY = '#F5EEDF', GOLD = '#E2C58B', GOLD_D = '#B8955A', MUTED = '#A9A39A', SOFT = '#CFC6B6';
+const IVORY = '#FFF8EC', GOLD = '#F4D79C', GOLD_D = '#C9A465', MUTED = '#C9C1B4', SOFT = '#ECE3D3';
 const MOODS = {
   frio:   { c: [40, 60, 120],  i: .55 },
   sombra: { c: [70, 40, 90],   i: .45 },
@@ -50,97 +50,104 @@ const MOODS = {
 // =====================================================================
 const L = (text, f = 'serif', s = 84, c = IVORY, extra = {}) => ({ text, f, s, c, ...extra });
 const SCENES = [
-  // ---------- ACTO 1 · Lo que sientes ahora mismo ----------
-  { id: 'corazon', act: 1, mood: 'frio', layout: 'centro',
-    voz: 'Puede que ahora mismo tengas el corazón un poco acelerado.',
-    lines: [L('Puede que ahora mismo', 'serif', 84), L('tengas el corazón un poco acelerado.', 'italic', 96, GOLD, { k: 'tengas' })] },
+  // ---------- ACTO 1 · Lo que pasa por tu cabeza ahora mismo ----------
+  { id: 'primera-vez', act: 1, mood: 'frio', layout: 'centro',
+    voz: 'Puede que esta sea la primera vez que vienes a algo así.',
+    lines: [L('Puede que esta sea la primera vez', 'serif', 92), L('que vienes a algo así.', 'italic', 108, GOLD, { k: 'que vienes' })] },
+  { id: 'diferente', act: 1, mood: 'frio', layout: 'centro',
+    voz: 'Quizá has visto vídeos, has leído cosas… pero estar aquí es diferente.',
+    lines: [L('Has visto vídeos, has leído cosas…', 'serif', 88), L('pero estar aquí es diferente.', 'italic', 108, GOLD, { k: 'pero estar' })] },
   { id: 'balanza', act: 1, mood: 'frio', layout: 'balanza',
-    voz: 'Quizá una parte de ti tiene ganas… y otra parte tiene miedo.',
-    lines: [L('Una parte de ti tiene ganas…', 'serif', 72), L('y otra parte tiene miedo.', 'italic', 80, GOLD, { k: 'y otra' })] },
-  { id: 'dudas', act: 1, mood: 'sombra', layout: 'dudas',
-    voz: 'Y quizá te preguntas: ¿y si no funciona? ¿Y si no viene nadie? ¿Y si todo esto es mentira?',
-    lines: [L('¿Y si no funciona?', 'italic', 96, IVORY, { k: '¿y si no funciona', x: 560, y: 330 }),
-            L('¿Y si no viene nadie?', 'italic', 96, IVORY, { k: '¿Y si no viene', x: 1330, y: 520 }),
-            L('¿Y si todo esto es mentira?', 'italic', 96, GOLD, { k: '¿Y si todo', x: 820, y: 760 })] },
+    voz: 'Una parte de ti quiere saber… y otra no quiere ilusionarse demasiado.',
+    lines: [L('Una parte de ti quiere saber…', 'serif', 84), L('y otra no quiere ilusionarse demasiado.', 'italic', 84, GOLD, { k: 'y otra' })] },
+  { id: 'pensamientos', act: 1, mood: 'sombra', layout: 'dudas',
+    voz: 'Y por dentro, a lo mejor estás pensando: ¿qué hago yo aquí? ¿Y si no viene nadie por mí? ¿Y si me emociono delante de todos? ¿Y si todo esto es mentira?',
+    lines: [L('¿Qué hago yo aquí?', 'italic', 90, IVORY, { k: '¿qué hago', x: 560, y: 250 }),
+            L('¿Y si no viene nadie por mí?', 'italic', 90, IVORY, { k: '¿Y si no viene', x: 1260, y: 440 }),
+            L('¿Y si me emociono delante de todos?', 'italic', 90, IVORY, { k: '¿Y si me', x: 820, y: 640 }),
+            L('¿Y si todo esto es mentira?', 'italic', 96, GOLD, { k: '¿Y si todo', x: 1160, y: 840 })] },
   { id: 'normal', act: 1, mood: 'sombra', layout: 'centro',
-    voz: 'Es normal. Yo también he tenido miedo.',
-    lines: [L('Es normal.', 'serif', 120), L('Yo también he tenido miedo.', 'italic', 96, GOLD, { k: 'Yo también' })] },
+    voz: 'Es normal. Es la primera vez que abres esta puerta. Yo también tuve esas dudas.',
+    lines: [L('Es normal.', 'serif', 124), L('Es la primera vez que abres esta puerta.', 'serif', 72, SOFT, { k: 'Es la primera' }),
+            L('Yo también tuve esas dudas.', 'italic', 100, GOLD, { k: 'Yo también', gap: 20 })] },
 
   // ---------- ACTO 2 · Cómo llegué hasta aquí (línea de vida) ----------
   { id: 'nino', act: 2, hito: 0, mood: 'frio', layout: 'split',
     voz: 'Desde niño, algunos lugares me hacían sentir cosas que no sabía explicar.',
     media: { tipo: 'foto', etiqueta: 'Allan de niño', opcional: true },
-    lines: [L('Desde niño, algunos lugares', 'serif', 72), L('me hacían sentir cosas', 'serif', 72), L('que no sabía explicar.', 'italic', 84, GOLD, { k: 'que no sabía' })] },
+    lines: [L('Desde niño,', 'serif', 84), L('algunos lugares', 'serif', 84), L('me hacían sentir cosas', 'serif', 84, IVORY, { k: 'me hacían' }), L('que no sabía explicar.', 'italic', 92, GOLD, { k: 'que no sabía' })] },
   { id: 'iglesia', act: 2, hito: 0, mood: 'oscuro', layout: 'vitral',
-    voz: 'En una iglesia sentí algo tan real… que pasé muchísimo miedo. Así que lo guardé.',
-    lines: [L('En una iglesia sentí algo tan real…', 'serif', 72), L('que pasé muchísimo miedo.', 'italic', 88, GOLD, { k: 'que pasé' }),
-            L('Así que lo guardé.', 'serif', 58, SOFT, { k: 'Así que', gap: 34 })] },
+    voz: 'En una iglesia sentí algo tan real… que me asusté muchísimo. Así que lo guardé.',
+    lines: [L('En una iglesia sentí algo tan real…', 'serif', 84), L('que me asusté muchísimo.', 'italic', 100, GOLD, { k: 'que me' }),
+            L('Así que lo guardé.', 'serif', 72, SOFT, { k: 'Así que', gap: 30 })] },
   { id: 'estable', act: 2, hito: 1, mood: 'frio', layout: 'split',
     voz: 'Tuve un trabajo estable. Un buen sueldo. Desde fuera, todo estaba bien.',
     media: { tipo: 'foto', etiqueta: 'Allan en su etapa del trabajo estable' },
-    lines: [L('Un trabajo estable.', 'serif', 76), L('Un buen sueldo.', 'serif', 76, IVORY, { k: 'Un buen' }), L('Desde fuera, todo estaba bien.', 'italic', 80, GOLD, { k: 'Desde fuera' })] },
-  { id: 'cuerpo', act: 2, hito: 1, mood: 'sombra', layout: 'centro',
-    voz: 'Pero por dentro, no. Mi cuerpo me decía que ese no era mi camino.',
-    lines: [L('Pero por dentro, no.', 'serif', 96), L('Mi cuerpo me decía', 'serif', 70, SOFT, { k: 'Mi cuerpo', gap: 24 }), L('que ese no era mi camino.', 'italic', 92, GOLD, { k: 'que ese' })] },
+    lines: [L('Un trabajo estable.', 'serif', 88), L('Un buen sueldo.', 'serif', 88, IVORY, { k: 'Un buen' }), L('Desde fuera,', 'italic', 92, GOLD, { k: 'Desde fuera' }), L('todo estaba bien.', 'italic', 92, GOLD, { k: 'todo estaba' })] },
   { id: 'infierno', act: 2, hito: 2, mood: 'oscuro', layout: 'centro',
-    voz: 'He estado en el infierno durante muchos años. Por eso, si hoy lo estás pasando mal… te entiendo.',
-    lines: [L('«He estado en el infierno', 'italic', 96), L('durante muchos años.»', 'italic', 96),
-            L('Por eso te entiendo.', 'serif', 66, GOLD, { k: 'Por eso', gap: 40 })] },
+    voz: 'Pero por dentro, no. He estado en el infierno durante muchos años. Por eso, si hoy lo estás pasando mal… te entiendo.',
+    lines: [L('Pero por dentro, no.', 'serif', 84, SOFT), L('«He estado en el infierno', 'italic', 104, IVORY, { k: 'He estado', gap: 20 }), L('durante muchos años.»', 'italic', 104, IVORY, { k: 'He estado' }),
+            L('Por eso te entiendo.', 'serif', 84, GOLD, { k: 'Por eso', gap: 36 })] },
   { id: 'sueno', act: 2, hito: 3, mood: 'sombra', layout: 'polaroid',
     voz: 'Hasta que una noche… soñé con mi abuela.',
     media: { tipo: 'foto', etiqueta: 'Su abuela' },
-    lines: [L('Hasta que una noche…', 'serif', 80), L('soñé con mi abuela.', 'italic', 100, GOLD, { k: 'soñé' })] },
+    lines: [L('Hasta que una noche…', 'serif', 92), L('soñé con', 'italic', 116, GOLD, { k: 'soñé' }), L('mi abuela.', 'italic', 116, GOLD, { k: 'soñé' })] },
   { id: 'te-ayudare', act: 2, hito: 3, mood: 'calido', layout: 'centro', fx: 'destello',
     voz: 'Y me dijo: «Te voy a ayudar».',
-    lines: [L('Y ME DIJO:', 'sans', 40, IVORY), L('«Te voy a ayudar.»', 'italic', 156, IVORY, { k: '«Te', gap: 18 })] },
+    lines: [L('Y ME DIJO:', 'sans', 46, IVORY), L('«Te voy a ayudar.»', 'italic', 164, IVORY, { k: '«Te', gap: 18 })] },
   { id: 'el-don', act: 2, hito: 4, mood: 'luz', layout: 'centro',
-    voz: 'Poco a poco dejé de huir de lo que sentía. Y entendí que el don siempre había estado ahí… desde aquel niño que tenía miedo.',
-    lines: [L('Dejé de huir de lo que sentía.', 'serif', 76), L('El don siempre había estado ahí…', 'italic', 92, GOLD, { k: 'Y entendí' }),
-            L('desde aquel niño que tenía miedo.', 'italic', 70, SOFT, { k: 'desde aquel' })] },
+    voz: 'Poco a poco dejé de huir de lo que sentía. Y entendí que el don siempre había estado ahí… desde aquel niño de la iglesia.',
+    lines: [L('Dejé de huir de lo que sentía.', 'serif', 84), L('El don siempre había estado ahí…', 'italic', 100, GOLD, { k: 'Y entendí' }),
+            L('desde aquel niño de la iglesia.', 'italic', 84, SOFT, { k: 'desde aquel' })] },
 
-  // ---------- ACTO 3 · Lo que vas a vivir hoy (tranquilizar) ----------
+  // ---------- ACTO 3 · Lo que vas a vivir hoy ----------
   { id: 'temer', act: 3, mood: 'luz', layout: 'escudo',
     voz: 'Y quiero que sepas algo: aquí no hay nada que temer. Las energías no molestan. No atacan. Nunca te harán daño.',
-    lines: [L('No hay nada que temer.', 'italic', 84, IVORY, { k: 'aquí no hay' }),
-            L('No molestan', 'sans', 30, GOLD, { k: 'no molestan', orbit: 0 }),
-            L('No atacan', 'sans', 30, GOLD, { k: 'No atacan', orbit: 1 }),
-            L('Nunca hacen daño', 'sans', 30, GOLD, { k: 'Nunca te', orbit: 2 })] },
+    lines: [L('Aquí no hay', 'italic', 96, IVORY, { k: 'aquí no hay' }), L('nada que temer.', 'italic', 96, IVORY, { k: 'aquí no hay' }),
+            L('No molestan.', 'serif', 74, GOLD, { k: 'no molestan', orbit: 0 }),
+            L('No atacan.', 'serif', 74, GOLD, { k: 'No atacan', orbit: 1 }),
+            L('Nunca te harán daño.', 'serif', 74, GOLD, { k: 'Nunca te', orbit: 2 })] },
   { id: 'velo', act: 3, mood: 'luz', layout: 'velo',
-    voz: 'Lo que llega del otro lado es amor. Allí no existe el miedo, ni el rencor. Todo se perdona.',
-    lines: [L('Amor', 'italic', 130, GOLD, { k: 'es amor' }),
-            L('Sin miedo. Sin rencor.', 'serif', 64, IVORY, { k: 'Allí no' }),
-            L('Todo se perdona.', 'italic', 76, GOLD, { k: 'Todo se' })] },
+    voz: 'Lo que llega del otro lado es amor. Allí no existe el rencor. Todo se perdona.',
+    lines: [L('Amor.', 'italic', 150, GOLD, { k: 'es amor' }),
+            L('Allí no existe el rencor.', 'serif', 76, IVORY, { k: 'Allí no' }),
+            L('Todo se perdona.', 'italic', 92, GOLD, { k: 'Todo se' })] },
   { id: 'pasos', act: 3, mood: 'luz', layout: 'pasos',
     voz: 'Yo siento lo que sentía esa persona. Veo imágenes. Te lo cuento. Y eres tú quien lo confirma.',
-    lines: [L('SIENTO', 'sans', 30, IVORY, { k: 'siento', icon: 'corazon' }),
-            L('VEO', 'sans', 30, IVORY, { k: 'Veo', icon: 'ojo' }),
-            L('TE LO CUENTO', 'sans', 30, IVORY, { k: 'Te lo', icon: 'voz' }),
-            L('TÚ CONFIRMAS', 'sans', 30, GOLD, { k: 'Y eres', icon: 'check' })] },
-  { id: 'compruebes', act: 3, mood: 'luz', layout: 'centro',
-    voz: 'No te pido que me creas. Te pido que escuches… y que lo compruebes tú.',
-    lines: [L('No te pido que me creas.', 'serif', 90), L('Te pido que escuches…', 'italic', 96, GOLD, { k: 'Te pido' }),
-            L('y que lo compruebes tú.', 'italic', 96, GOLD, { k: 'y que lo' })] },
-  { id: 'prueba', act: 3, mood: 'luz', layout: 'video', dur: 21,
-    voz: '(Audio original: Allan da un dato concreto y la persona lo confirma. 3 momentos de unos 7 s.)',
-    media: { tipo: 'video', etiqueta: 'Recopilatorio de sesiones', clips: 3 }, lines: [] },
+    lines: [L('SIENTO', 'sans', 38, IVORY, { k: 'siento', icon: 'corazon', sp: 3 }),
+            L('VEO', 'sans', 38, IVORY, { k: 'Veo', icon: 'ojo', sp: 3 }),
+            L('TE LO CUENTO', 'sans', 38, IVORY, { k: 'Te lo', icon: 'voz', sp: 3 }),
+            L('TÚ CONFIRMAS', 'sans', 38, GOLD, { k: 'Y eres', icon: 'check', sp: 3 })] },
+  { id: 'prueba', act: 3, mood: 'luz', layout: 'video', dur: 18,
+    voz: '(Audio original de los directos: Allan da un dato concreto y la persona lo confirma. 3 momentos de unos 6 s, en vertical.)',
+    media: { tipo: 'video', etiqueta: 'Directos de Instagram (verticales)', clips: 3 }, lines: [] },
   { id: 'muro', act: 3, mood: 'luz', layout: 'muro',
     voz: 'Más de mil doscientas sesiones. Y cada una me sigue emocionando como la primera.',
-    media: { tipo: 'video', etiqueta: 'Clips cortos de sesiones (sin sonido)', clips: 9 },
-    lines: [L('SESIONES', 'sans', 40, IVORY, { k: 'sesiones' }), L('Y cada una me sigue emocionando como la primera.', 'italic', 62, GOLD, { k: 'Y cada' })] },
-  { id: 'necesitan', act: 3, mood: 'calido', layout: 'centro',
-    voz: 'Tus seres queridos también necesitan decirte cosas.',
-    lines: [L('Tus seres queridos también', 'serif', 80), L('necesitan decirte cosas.', 'italic', 100, GOLD, { k: 'necesitan decirte' })] },
+    media: { tipo: 'video', etiqueta: 'Trocitos mudos de directos (verticales)', clips: 12 },
+    lines: [L('SESIONES', 'sans', 48, IVORY, { k: 'sesiones' }), L('Y cada una me sigue emocionando', 'italic', 76, GOLD, { k: 'Y cada' }), L('como la primera.', 'italic', 76, GOLD, { k: 'como la' })] },
   { id: 'amor', act: 3, mood: 'calido', layout: 'centro',
-    voz: 'El amor no muere. Solo cambia de lugar.',
-    lines: [L('El amor no muere.', 'serif', 110), L('Solo cambia de lugar.', 'italic', 116, GOLD, { k: 'Solo' })] },
-  { id: 'respira', act: 3, mood: 'calido', layout: 'respira',
-    voz: 'Así que respira. Estás en el lugar correcto.',
-    lines: [L('Respira.', 'italic', 130, IVORY, { k: 'respira' }), L('Estás en el lugar correcto.', 'serif', 64, GOLD, { k: 'Estás' })] },
+    voz: 'Porque el amor no muere. Solo cambia de lugar.',
+    lines: [L('El amor no muere.', 'serif', 116), L('Solo cambia de lugar.', 'italic', 124, GOLD, { k: 'Solo' })] },
+  { id: 'respira', act: 3, mood: 'calido', layout: 'respira', dur: 24,
+    voz: 'Ahora, respira conmigo. Coge aire… despacio… y suéltalo. Otra vez. Coge aire… y suelta. Una vez más. Coge aire… y suéltalo todo.',
+    lines: [L('Respira conmigo.', 'italic', 110, IVORY, { k: 'respira', at: 0.3 }),
+            L('Coge aire…', 'italic', 120, IVORY, { k: 'Coge aire… despacio', at: 2.6, breath: 'in' }),
+            L('Suelta.', 'italic', 120, GOLD, { k: 'y suéltalo. Otra', at: 6.8, breath: 'out' }),
+            L('Coge aire…', 'italic', 120, IVORY, { k: 'Coge aire… y suelta.', at: 10.4, breath: 'in' }),
+            L('Suelta.', 'italic', 120, GOLD, { k: 'y suelta. Una', at: 14.0, breath: 'out' }),
+            L('Coge aire…', 'italic', 120, IVORY, { k: 'Coge aire… y suéltalo todo', at: 17.4, breath: 'in' }),
+            L('Suéltalo todo.', 'italic', 120, GOLD, { k: 'y suéltalo todo', at: 20.6, breath: 'out' })] },
+  { id: 'lugar', act: 3, mood: 'calido', layout: 'centro',
+    voz: 'Estás en el lugar correcto.',
+    lines: [L('Estás en el lugar correcto.', 'italic', 116, GOLD)] },
   { id: 'ponerle-voz', act: 3, mood: 'calido', layout: 'centro',
     voz: 'Quizá hoy alguien tiene algo que decirte. Y yo estaré aquí para ponerle voz.',
-    lines: [L('Quizá hoy alguien', 'serif', 84), L('tiene algo que decirte.', 'italic', 100, GOLD, { k: 'tiene' }),
-            L('Y yo estaré aquí para ponerle voz.', 'serif', 60, SOFT, { k: 'Y yo', gap: 36 })] },
-  { id: 'logo', act: 3, mood: 'calido', layout: 'logo', dur: 6, voz: '(Silencio. Solo música.)', lines: [] },
+    lines: [L('Quizá hoy alguien', 'serif', 92), L('tiene algo que decirte.', 'italic', 108, GOLD, { k: 'tiene' }),
+            L('Y yo estaré aquí para ponerle voz.', 'serif', 76, SOFT, { k: 'Y yo', gap: 30 })] },
+  { id: 'dejate', act: 3, mood: 'calido', layout: 'centro',
+    voz: 'Así que siéntate, ponte cómodo… y déjate llevar.',
+    lines: [L('Siéntate. Ponte cómodo.', 'serif', 104, IVORY, { k: 'siéntate' }), L('Y déjate llevar.', 'italic', 124, GOLD, { k: 'y déjate' })] },
+  { id: 'logo', act: 3, mood: 'calido', layout: 'logo', dur: 6, voz: 'Empezamos.', lines: [] },
 ];
 
 // =====================================================================
@@ -168,7 +175,7 @@ const PAL_SEG = 2.5, RESPIRO = 1.0, INICIO = 1.2;
         wi = idx >= 0 ? words(sc.voz.slice(0, idx)).length : 0;
       }
       l.wi = wi;
-      l.tIn = real?.palabras ? real.palabras[wi] : sc.t0 + (n ? wi / n : 0) * sc.speak + (l.k ? 0 : i * 0.15);
+      l.tIn = real?.palabras ? real.palabras[wi] : (l.at != null ? sc.t0 + l.at : sc.t0 + (n ? wi / n : 0) * sc.speak + (l.k ? 0 : i * 0.15));
     });
     t = sc.t1;
   }
@@ -186,7 +193,7 @@ function fontOf(l) {
   if (l.f === 'sans') return `500 ${l.s}px Mont`;
   return `400 ${l.s}px Corm`;
 }
-const spacingOf = l => l.f === 'sans' ? l.s * 0.38 : 0;
+const spacingOf = l => l.sp ?? (l.f === 'sans' ? l.s * 0.3 : 0);
 function measure(l) {
   ctx.font = fontOf(l); const sp = spacingOf(l);
   return l.text.split(' ').reduce((a, w) => a + ctx.measureText(w).width + sp * w.length, 0) + ctx.measureText(' ').width * (l.text.split(' ').length - 1);
@@ -211,8 +218,7 @@ function drawLine(l, x, cy, tIn, tOut, t, align = 'center') {
       const blur = (1 - k) * 14 + out * 10;
       if (blur > 0.3) ctx.filter = `blur(${blur.toFixed(1)}px)`;
       ctx.fillStyle = l.c;
-      ctx.shadowColor = l.c === GOLD ? 'rgba(226,197,139,.5)' : 'rgba(0,0,0,.7)';
-      ctx.shadowBlur = 26;
+      ctx.shadowColor = 'rgba(0,0,0,.95)'; ctx.shadowBlur = 22; ctx.shadowOffsetY = 3;
       const y = cy + (1 - k) * 22 - out * 14;
       if (sp) { let xx = xx0; for (const ch of w) { ctx.fillText(ch, xx, y); xx += ctx.measureText(ch).width + sp; } }
       else ctx.fillText(w, xx0, y);
@@ -221,8 +227,18 @@ function drawLine(l, x, cy, tIn, tOut, t, align = 'center') {
     xx0 += wW[i] + spaceW;
   });
 }
+function scrim(x, cy, w, h, a, align = 'center') {
+  if (a <= 0) return;
+  const cx = align === 'center' ? x : x + w / 2;
+  ctx.save(); ctx.translate(cx, cy); ctx.scale(1, h / w);
+  const g = ctx.createRadialGradient(0, 0, 0, 0, 0, w * .62);
+  g.addColorStop(0, `rgba(4,3,6,${.62 * a})`); g.addColorStop(.6, `rgba(4,3,6,${.38 * a})`); g.addColorStop(1, 'rgba(4,3,6,0)');
+  ctx.fillStyle = g; ctx.fillRect(-w, -w, w * 2, w * 2); ctx.restore();
+}
 function drawBlock(sc, t, x, cy, align = 'center', lines = sc.lines) {
   const hs = lines.map(l => l.s * 1.2 + (l.gap || 0));
+  const bw = Math.max(...lines.map(measure)) + 160, bh = hs.reduce((a, b) => a + b, 0) + 140;
+  scrim(x, cy, bw, bh, sceneAlpha(sc, t), align);
   let y = cy - hs.reduce((a, b) => a + b, 0) / 2;
   lines.forEach(l => { y += l.gap || 0; drawLine(l, x, y + l.s * .6, l.tIn, sc.t1, t, align); y += l.s * 1.2; });
 }
@@ -250,6 +266,11 @@ function drawCover(el, x, y, w, h, z = 1, dx = 0, filter = 'none') {
   ctx.restore();
 }
 const ready = el => el && (el.naturalWidth || el.videoWidth);
+function wrapText(txt, x, y, maxW, lh) {
+  const ws = txt.split(' '); let line = '';
+  for (const w of ws) { const test = line ? line + ' ' + w : w; if (ctx.measureText(test).width > maxW && line) { ctx.fillText(line, x, y); y += lh; line = w; } else line = test; }
+  if (line) ctx.fillText(line, x, y);
+}
 
 // =====================================================================
 //  LAYOUTS
@@ -281,7 +302,7 @@ const LAYOUT = {
   polaroid(sc, t) {
     const a = sceneAlpha(sc, t), k = easeOut(ramp(t, sc.t0, sc.t0 + 1.8)), p = ramp(t, sc.t0, sc.t1 + 1);
     ctx.save(); ctx.globalAlpha = a;
-    ctx.translate(620, 540 + (1 - k) * 60); ctx.rotate(lerp(-0.09, -0.035, k));
+    ctx.translate(520, 540 + (1 - k) * 60); ctx.rotate(lerp(-0.09, -0.035, k));
     const g = ctx.createRadialGradient(0, 0, 40, 0, 0, 560);
     g.addColorStop(0, `rgba(255,220,160,${.28 * k})`); g.addColorStop(1, 'rgba(0,0,0,0)');
     ctx.fillStyle = g; ctx.fillRect(-700, -700, 1400, 1400);
@@ -292,7 +313,7 @@ const LAYOUT = {
     if (ready(el)) drawCover(el, -240, -300, 480, 500, lerp(1.08, 1.0, p), 0, 'sepia(.35) brightness(.95)');
     else placeholder(-240, -300, 480, 500, 'FOTO', sc.media.etiqueta);
     ctx.restore();
-    drawBlock(sc, t, 1060, H / 2, 'left');
+    drawBlock(sc, t, 920, H / 2, 'left');
   },
 
   // dos fuerzas en equilibrio: ganas / miedo
@@ -300,14 +321,14 @@ const LAYOUT = {
     const a = sceneAlpha(sc, t), k = easeOut(ramp(t, sc.t0, sc.t0 + 1.2));
     const l2 = sc.lines[1].tIn;
     const tilt = Math.sin(t * 1.1) * 0.035 + (ramp(t, l2, l2 + 1.5) - .5) * 0.05;
-    ctx.save(); ctx.globalAlpha = a; ctx.translate(W / 2, 640);
+    ctx.save(); ctx.globalAlpha = a; ctx.translate(W / 2, 560);
     ctx.strokeStyle = 'rgba(226,197,139,.75)'; ctx.lineWidth = 2;
     ctx.beginPath(); ctx.moveTo(0, -60); ctx.lineTo(0, 170); ctx.stroke();
     ctx.beginPath(); ctx.arc(0, -66, 7, 0, 7); ctx.fillStyle = GOLD; ctx.fill();
     ctx.rotate(tilt);
     const half = 420 * k;
     ctx.beginPath(); ctx.moveTo(-half, -60); ctx.lineTo(half, -60); ctx.stroke();
-    [[-1, 'GANAS', sc.lines[0].tIn], [1, 'MIEDO', l2]].forEach(([s, txt, ti]) => {
+    [[-1, 'QUIERO SABER', sc.lines[0].tIn], [1, 'NO ILUSIONARME', l2]].forEach(([s, txt, ti]) => {
       const kk = easeOut(ramp(t, ti, ti + 1));
       ctx.save(); ctx.translate(s * half, -60); ctx.rotate(-tilt);
       ctx.globalAlpha = a * kk;
@@ -317,12 +338,12 @@ const LAYOUT = {
       g.addColorStop(0, s < 0 ? 'rgba(255,220,150,.45)' : 'rgba(140,150,200,.35)'); g.addColorStop(1, 'rgba(0,0,0,0)');
       ctx.fillStyle = g; ctx.fillRect(-200, 0, 400, 340);
       ctx.beginPath(); ctx.arc(0, 160, r, 0, 7); ctx.stroke();
-      ctx.font = '500 30px Mont'; ctx.fillStyle = s < 0 ? GOLD : SOFT; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-      ctx.letterSpacing = '10px'; ctx.fillText(txt, 5, 160); ctx.letterSpacing = '0px';
+      ctx.font = '500 38px Mont'; ctx.fillStyle = s < 0 ? GOLD : SOFT; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      ctx.shadowColor = 'rgba(0,0,0,.9)'; ctx.shadowBlur = 12; ctx.letterSpacing = '4px'; ctx.fillText(txt, 0, 160 + r + 50); ctx.letterSpacing = '0px';
       ctx.restore();
     });
     ctx.restore();
-    drawBlock(sc, t, W / 2, 270);
+    drawBlock(sc, t, W / 2, 230);
   },
 
   // las dudas flotan a distintas profundidades y luego se disuelven
@@ -332,6 +353,7 @@ const LAYOUT = {
       ctx.save();
       const depth = [1, .9, 1.05][i];
       ctx.translate(l.x, l.y + drift); ctx.scale(depth, depth); ctx.translate(-l.x, -l.y - drift);
+      scrim(l.x, l.y + drift, measure(l) + 120, l.s * 2.2, sceneAlpha(sc, t) * ramp(t, l.tIn, l.tIn + .6));
       drawLine(l, l.x, l.y + drift, l.tIn, sc.t1, t);
       ctx.restore();
     });
@@ -360,23 +382,25 @@ const LAYOUT = {
   // círculo protector que se dibuja + 3 afirmaciones alrededor
   escudo(sc, t) {
     const a = sceneAlpha(sc, t), k = easeOut(ramp(t, sc.t0, sc.t0 + 2.2));
-    ctx.save(); ctx.globalAlpha = a; ctx.translate(W / 2, H / 2);
-    const R = 300 + 8 * Math.sin(t * 1.2);
+    const cy = 420;
+    ctx.save(); ctx.globalAlpha = a; ctx.translate(W / 2, cy);
+    const R = 330 + 6 * Math.sin(t * 1.2);
     const g = ctx.createRadialGradient(0, 0, 0, 0, 0, R * 1.3);
-    g.addColorStop(0, `rgba(255,230,190,${.13 * k})`); g.addColorStop(1, 'rgba(0,0,0,0)');
+    g.addColorStop(0, `rgba(255,230,190,${.10 * k})`); g.addColorStop(1, 'rgba(0,0,0,0)');
     ctx.fillStyle = g; ctx.fillRect(-W, -H, W * 2, H * 2);
-    ctx.strokeStyle = 'rgba(226,197,139,.8)'; ctx.lineWidth = 2;
+    ctx.strokeStyle = 'rgba(244,215,156,.85)'; ctx.lineWidth = 3;
     ctx.beginPath(); ctx.arc(0, 0, R, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * k); ctx.stroke();
-    ctx.globalAlpha = a * .35; ctx.beginPath(); ctx.arc(0, 0, R + 26, 0, 7); ctx.stroke();
+    ctx.globalAlpha = a * .35; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(0, 0, R + 26, 0, 7); ctx.stroke();
     ctx.restore();
-    drawLine(sc.lines[0], W / 2, H / 2, sc.lines[0].tIn, sc.t1, t);
-    sc.lines.slice(1).forEach(l => {
-      const ang = -Math.PI / 2 + (l.orbit - 1) * 0.95 + Math.PI;  // abajo-izq, abajo, abajo-der
-      const pos = [[W / 2 - 470, H / 2 + 260], [W / 2, H / 2 + 400], [W / 2 + 470, H / 2 + 260]][l.orbit];
+    drawBlock(sc, t, W / 2, cy, 'center', sc.lines.slice(0, 2));
+    // las tres afirmaciones, en fila debajo del círculo, grandes
+    const xs = [W / 2 - 560, W / 2, W / 2 + 560], y = 850;
+    scrim(W / 2, y, 1800, 220, a);
+    sc.lines.slice(2).forEach((l, i) => {
       const kk = easeOut(ramp(t, l.tIn, l.tIn + .8));
-      ctx.save(); ctx.globalAlpha = sceneAlpha(sc, t) * kk;
-      ctx.beginPath(); ctx.arc(pos[0], pos[1] - 52, 6, 0, 7); ctx.fillStyle = GOLD; ctx.fill(); ctx.restore();
-      drawLine(l, pos[0], pos[1], l.tIn, sc.t1, t);
+      ctx.save(); ctx.globalAlpha = a * kk;
+      ctx.beginPath(); ctx.arc(xs[i], y - 70, 7, 0, 7); ctx.fillStyle = GOLD; ctx.fill(); ctx.restore();
+      drawLine(l, xs[i], y, l.tIn, sc.t1, t);
     });
   },
 
@@ -408,10 +432,10 @@ const LAYOUT = {
   // diagrama de cómo es una sesión, 4 pasos con icono
   pasos(sc, t) {
     const a = sceneAlpha(sc, t);
-    const xs = [330, 750, 1170, 1590], y = 520;
+    const xs = [300, 740, 1180, 1620], y = 480;
     ctx.save(); ctx.globalAlpha = a;
-    ctx.font = '500 26px Mont'; ctx.fillStyle = MUTED; ctx.textAlign = 'center'; ctx.letterSpacing = '9px';
-    ctx.fillText('ASÍ ES UNA SESIÓN', W / 2, 250); ctx.letterSpacing = '0px';
+    ctx.font = '500 40px Mont'; ctx.fillStyle = IVORY; ctx.textAlign = 'center'; ctx.letterSpacing = '8px'; ctx.shadowColor = 'rgba(0,0,0,.9)'; ctx.shadowBlur = 14;
+    ctx.fillText('ASÍ ES UNA SESIÓN', W / 2, 200); ctx.shadowBlur = 0; ctx.letterSpacing = '0px';
     // línea que avanza con la voz
     const last = sc.lines[sc.lines.length - 1].tIn;
     const prog = ramp(t, sc.lines[0].tIn, last + .6);
@@ -428,14 +452,16 @@ const LAYOUT = {
       g.addColorStop(0, 'rgba(255,225,170,.22)'); g.addColorStop(1, 'rgba(0,0,0,0)');
       ctx.fillStyle = g; ctx.fillRect(-150, -150, 300, 300);
       ctx.fillStyle = '#100d0b'; ctx.strokeStyle = i === 3 ? GOLD : 'rgba(226,197,139,.85)'; ctx.lineWidth = 2.5;
-      ctx.beginPath(); ctx.arc(0, 0, 82 * (.8 + .2 * kk), 0, 7); ctx.fill(); ctx.stroke();
+      ctx.beginPath(); ctx.arc(0, 0, 96 * (.8 + .2 * kk), 0, 7); ctx.fill(); ctx.stroke();
       drawIcon(l.icon, t);
       ctx.restore();
-      drawLine(l, x, y + 150, l.tIn, sc.t1, t);
+      drawLine(l, x, y + 170, l.tIn, sc.t1, t);
     });
   },
 
-  // 3 momentos reales de sesión, en ventana horizontal 16:9
+  // 3 momentos reales de los directos (VERTICALES 9:16).
+  // Fondo: el mismo clip ampliado y desenfocado. Delante: marco vertical tipo móvil.
+  // A la derecha: subtítulos grandes de lo que se dice (dato → confirmación).
   video(sc, t) {
     const n = sc.media.clips, seg = (sc.t1 - sc.t0) / n;
     for (let i = 0; i < n; i++) {
@@ -443,74 +469,102 @@ const LAYOUT = {
       if (t < s0 - .6 || t > s1 + .6) continue;
       const kin = easeOut(ramp(t, s0 - .5, s0 + .7)), kout = ramp(t, s1 - .4, s1 + .5);
       const al = kin * (1 - kout) * sceneAlpha(sc, t);
-      const w = 1440, h = 810, x = W / 2 - w / 2 + (1 - kin) * 60 - kout * 60, y = 120;
+      const el = (MEDIA[sc.id] || [])[i], sub = (sc.media.subs || [])[i];
+      const fh = 940, fw = Math.round(fh * 9 / 16), fx = 250 + (1 - kin) * -40 + kout * 40, fy = (H - fh) / 2;
       ctx.save(); ctx.globalAlpha = al;
-      ctx.shadowColor = 'rgba(0,0,0,.7)'; ctx.shadowBlur = 60; ctx.fillStyle = '#000'; ctx.fillRect(x, y, w, h); ctx.shadowBlur = 0;
-      const el = (MEDIA[sc.id] || [])[i];
-      if (ready(el)) drawCover(el, x, y, w, h);
-      else placeholder(x, y, w, h, `VÍDEO HORIZONTAL · MOMENTO ${i + 1} DE ${n}`, 'Allan da un dato concreto → la persona lo confirma');
-      ctx.strokeStyle = 'rgba(226,197,139,.6)'; ctx.lineWidth = 1.5; ctx.strokeRect(x, y, w, h);
-      // rótulo inferior
-      ctx.font = '500 24px Mont'; ctx.textAlign = 'left'; ctx.letterSpacing = '8px'; ctx.fillStyle = GOLD;
-      ctx.fillText(`SESIÓN REAL · ${i + 1}/${n}`, x, y + h + 56); ctx.letterSpacing = '0px';
+      if (ready(el)) drawCover(el, 0, 0, W, H, 1.1, 0, 'blur(30px) brightness(.35)');
+      ctx.shadowColor = 'rgba(0,0,0,.8)'; ctx.shadowBlur = 60; ctx.fillStyle = '#000'; ctx.fillRect(fx, fy, fw, fh); ctx.shadowBlur = 0;
+      if (ready(el)) drawCover(el, fx, fy, fw, fh);   // recorte centrado 9:16 (quita las barras si viene de YouTube)
+      else placeholder(fx, fy, fw, fh, `VERTICAL · ${i + 1}/${n}`, 'Directo de Instagram');
+      ctx.strokeStyle = 'rgba(244,215,156,.7)'; ctx.lineWidth = 2; ctx.strokeRect(fx, fy, fw, fh);
+      ctx.restore();
+      // columna derecha
+      const tx = fx + fw + 120;
+      ctx.save(); ctx.globalAlpha = al; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
+      ctx.font = '500 40px Mont'; ctx.letterSpacing = '6px'; ctx.fillStyle = GOLD;
+      ctx.shadowColor = 'rgba(0,0,0,.9)'; ctx.shadowBlur = 14;
+      ctx.fillText(`SESIÓN REAL · ${i + 1}/${n}`, tx, 250); ctx.letterSpacing = '0px';
+      ctx.fillStyle = 'rgba(244,215,156,.6)'; ctx.fillRect(tx, 300, 160, 2);
+      const rows = sub || [['ALLAN:', 'el dato concreto que da'], ['LA PERSONA:', '«¡Sí! Es verdad.»']];
+      rows.forEach(([who, txt], j) => {
+        const y = 420 + j * 230;
+        ctx.font = '500 34px Mont'; ctx.fillStyle = MUTED; ctx.letterSpacing = '4px'; ctx.fillText(who, tx, y); ctx.letterSpacing = '0px';
+        ctx.font = 'italic 400 76px CormI'; ctx.fillStyle = j ? GOLD : IVORY;
+        wrapText(txt, tx, y + 80, W - tx - 120, 84);
+      });
       ctx.restore();
     }
   },
 
-  // muro de clips horizontales que deriva + contador
+  // muro de directos VERTICALES que deriva + contador
   muro(sc, t) {
     const a = sceneAlpha(sc, t), p = ramp(t, sc.t0 - 1, sc.t1 + 1);
-    const cw = 520, ch = 292, gap = 26, cols = 4, rows = 4;
-    const ox = -160 - p * 120, oy = -120 + p * 40;
+    const cw = 300, ch = Math.round(cw * 16 / 9), gap = 26, cols = 8, rows = 2;
     const vids = MEDIA[sc.id] || [];
     ctx.save();
     for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) {
       const i = r * cols + c;
       const kk = easeOut(ramp(t, sc.t0 + (i % 7) * .12, sc.t0 + (i % 7) * .12 + 1));
-      const x = ox + c * (cw + gap) + (r % 2) * 180, y = oy + r * (ch + gap);
-      ctx.globalAlpha = a * kk * .8;
+      const dir = r % 2 ? 1 : -1;
+      const x = -200 + c * (cw + gap) + dir * p * 160 + (r % 2) * 150, y = 10 + r * (ch + gap) - 30;
+      ctx.globalAlpha = a * kk * .85;
       const el = vids[i % Math.max(1, vids.length)];
-      if (ready(el)) drawCover(el, x, y, cw, ch, 1, 0, 'brightness(.7) saturate(.8)');
-      else { ctx.fillStyle = 'rgba(40,33,26,.9)'; ctx.fillRect(x, y, cw, ch); ctx.strokeStyle = 'rgba(226,197,139,.35)'; ctx.setLineDash([8, 7]); ctx.strokeRect(x, y, cw, ch); ctx.setLineDash([]);
-        ctx.font = '500 18px Mont'; ctx.fillStyle = 'rgba(226,197,139,.7)'; ctx.textAlign = 'center'; ctx.fillText('CLIP DE SESIÓN', x + cw / 2, y + ch / 2); }
+      if (ready(el)) drawCover(el, x, y, cw, ch, 1, 0, 'brightness(.75) saturate(.85)');
+      else { ctx.fillStyle = 'rgba(40,33,26,.95)'; ctx.fillRect(x, y, cw, ch); ctx.strokeStyle = 'rgba(244,215,156,.35)'; ctx.setLineDash([8, 7]); ctx.strokeRect(x, y, cw, ch); ctx.setLineDash([]);
+        ctx.font = '500 20px Mont'; ctx.fillStyle = 'rgba(244,215,156,.7)'; ctx.textAlign = 'center'; ctx.fillText('DIRECTO 9:16', x + cw / 2, y + ch / 2); }
     }
     ctx.restore();
-    // velo oscuro central para leer el contador
-    const g = ctx.createRadialGradient(W / 2, H / 2, 100, W / 2, H / 2, 900);
-    g.addColorStop(0, `rgba(5,4,8,${.82 * a})`); g.addColorStop(.55, `rgba(5,4,8,${.45 * a})`); g.addColorStop(1, `rgba(5,4,8,${.15 * a})`);
+    const g = ctx.createRadialGradient(W / 2, H / 2, 100, W / 2, H / 2, 950);
+    g.addColorStop(0, `rgba(4,3,6,${.88 * a})`); g.addColorStop(.55, `rgba(4,3,6,${.55 * a})`); g.addColorStop(1, `rgba(4,3,6,${.2 * a})`);
     ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
     const k = easeOut(ramp(t, sc.t0 + .1, sc.t0 + 2.2));
     const n = Math.round(1200 * k);
     const txt = '+' + (n >= 1000 ? Math.floor(n / 1000) + '.' + String(n % 1000).padStart(3, '0') : n);
     ctx.save(); ctx.globalAlpha = a; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-    ctx.font = '300 230px Corm'; ctx.fillStyle = GOLD; ctx.shadowColor = 'rgba(226,197,139,.6)'; ctx.shadowBlur = 40;
-    ctx.fillText(txt, W / 2, H / 2 - 90); ctx.restore();
-    drawLine(sc.lines[0], W / 2, H / 2 + 70, sc.lines[0].tIn, sc.t1, t);
-    drawLine(sc.lines[1], W / 2, H / 2 + 175, sc.lines[1].tIn, sc.t1, t);
+    ctx.font = '400 250px Corm'; ctx.fillStyle = GOLD; ctx.shadowColor = 'rgba(0,0,0,.9)'; ctx.shadowBlur = 30;
+    ctx.fillText(txt, W / 2, H / 2 - 150); ctx.restore();
+    drawLine(sc.lines[0], W / 2, H / 2 + 20, sc.lines[0].tIn, sc.t1, t);
+    drawLine(sc.lines[1], W / 2, H / 2 + 140, sc.lines[1].tIn, sc.t1, t);
+    drawLine(sc.lines[2], W / 2, H / 2 + 235, sc.lines[2].tIn, sc.t1, t);
   },
 
-  // círculo que respira (4 s inspirar / 4 s soltar) para calmar a la sala
+  // respiración guiada: el círculo crece al coger aire y se encoge al soltar
   respira(sc, t) {
     const a = sceneAlpha(sc, t);
-    const br = .5 - .5 * Math.cos((t - sc.t0) * Math.PI * 2 / 8);
-    const R = lerp(180, 330, br);
+    const br = sc.lines.filter(l => l.breath);
+    let r = 0;  // 0 = vacío, 1 = pulmones llenos
+    br.forEach((l, i) => {
+      if (t < l.tIn) return;
+      const nx = br[i + 1] ? br[i + 1].tIn : sc.t1;
+      const k = ease(ramp(t, l.tIn, Math.min(nx, l.tIn + 4)));
+      r = l.breath === 'in' ? k : 1 - k;
+    });
+    const R = lerp(170, 360, r);
     ctx.save(); ctx.globalAlpha = a;
     const g = ctx.createRadialGradient(W / 2, H / 2, 0, W / 2, H / 2, R * 1.5);
-    g.addColorStop(0, 'rgba(255,225,175,.22)'); g.addColorStop(.6, 'rgba(255,225,175,.08)'); g.addColorStop(1, 'rgba(0,0,0,0)');
+    g.addColorStop(0, `rgba(255,225,175,${.12 + .14 * r})`); g.addColorStop(.6, 'rgba(255,225,175,.06)'); g.addColorStop(1, 'rgba(0,0,0,0)');
     ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
-    ctx.strokeStyle = 'rgba(226,197,139,.7)'; ctx.lineWidth = 2;
+    ctx.strokeStyle = 'rgba(244,215,156,.8)'; ctx.lineWidth = 3;
     ctx.beginPath(); ctx.arc(W / 2, H / 2, R, 0, 7); ctx.stroke();
-    ctx.globalAlpha = a * .3; ctx.beginPath(); ctx.arc(W / 2, H / 2, R * 1.18, 0, 7); ctx.stroke();
+    ctx.globalAlpha = a * .3; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(W / 2, H / 2, R * 1.16, 0, 7); ctx.stroke();
     ctx.restore();
-    drawLine(sc.lines[0], W / 2, H / 2 - 20, sc.lines[0].tIn, sc.t1, t);
-    drawLine(sc.lines[1], W / 2, H / 2 + 420, sc.lines[1].tIn, sc.t1, t);
+    // el título y después solo la indicación actual, en grande
+    const shown = sc.lines.filter(l => t >= l.tIn - .1);
+    const cur = shown[shown.length - 1] || sc.lines[0];
+    sc.lines.forEach((l, i) => {
+      const nx = sc.lines[i + 1];
+      const tOut = nx ? nx.tIn : sc.t1;
+      if (t < l.tIn - .2 || t > tOut + OVER + .2) return;
+      scrim(W / 2, H / 2, measure(l) + 140, l.s * 2.4, a * ramp(t, l.tIn, l.tIn + .5));
+      drawLine(l, W / 2, H / 2, l.tIn, tOut, t);
+    });
   },
 
   logo(sc, t) { finale(sc, t); },
 };
 
 function drawIcon(name, t) {
-  ctx.save(); ctx.strokeStyle = IVORY; ctx.lineWidth = 3; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+  ctx.save(); ctx.scale(1.25, 1.25); ctx.strokeStyle = IVORY; ctx.lineWidth = 3; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
   ctx.beginPath();
   if (name === 'corazon') {
     ctx.moveTo(0, 26); ctx.bezierCurveTo(-46, -6, -30, -42, 0, -18); ctx.bezierCurveTo(30, -42, 46, -6, 0, 26);
@@ -534,7 +588,7 @@ function timeline(t) {
   const a = ramp(t, t0 - .3, t0 + 1) * (1 - ramp(t, t1 - .2, t1 + 1));
   if (a <= 0) return;
   let cur = act2[0]; for (const s of act2) if (t >= s.t0 - .2) cur = s;
-  const x0 = 360, x1 = 1560, y = 1000;
+  const x0 = 300, x1 = 1620, y = 1010;
   const xs = HITOS.map((_, i) => lerp(x0, x1, i / (HITOS.length - 1)));
   const prev = act2.filter(s => s.t0 < cur.t0).pop();
   const from = prev ? xs[prev.hito] : xs[0];
@@ -543,14 +597,14 @@ function timeline(t) {
   ctx.strokeStyle = 'rgba(226,197,139,.22)'; ctx.lineWidth = 1.5;
   ctx.beginPath(); ctx.moveTo(x0, y); ctx.lineTo(x1, y); ctx.stroke();
   ctx.strokeStyle = 'rgba(226,197,139,.85)'; ctx.beginPath(); ctx.moveTo(x0, y); ctx.lineTo(px, y); ctx.stroke();
-  ctx.textAlign = 'center'; ctx.font = '500 21px Mont'; ctx.letterSpacing = '4px';
+  ctx.textAlign = 'center'; ctx.font = '500 27px Mont'; ctx.letterSpacing = '3px';
   HITOS.forEach((h, i) => {
     const on = xs[i] <= px + 1, act = i === cur.hito;
     ctx.beginPath(); ctx.arc(xs[i], y, act ? 7 : 4.5, 0, 7);
     ctx.fillStyle = on ? GOLD : 'rgba(226,197,139,.3)'; ctx.fill();
     if (act) { ctx.globalAlpha = a * (.4 + .3 * Math.sin(t * 3)); ctx.beginPath(); ctx.arc(xs[i], y, 16, 0, 7); ctx.strokeStyle = GOLD; ctx.stroke(); ctx.globalAlpha = a; }
-    ctx.fillStyle = act ? IVORY : on ? 'rgba(226,197,139,.8)' : 'rgba(169,163,154,.45)';
-    ctx.fillText(h.toUpperCase(), xs[i], y - 30);
+    ctx.fillStyle = act ? IVORY : on ? GOLD : 'rgba(201,193,180,.55)';
+    ctx.shadowColor = 'rgba(0,0,0,.9)'; ctx.shadowBlur = 10; ctx.fillText(h.toUpperCase(), xs[i], y - 32); ctx.shadowBlur = 0;
   });
   ctx.letterSpacing = '0px';
   ctx.restore();
@@ -599,7 +653,7 @@ function background(t) {
     for (let i = 0; i < 9; i++) {
       ctx.save(); ctx.rotate(-0.55 + i * 0.137 + Math.sin(t * .15 + i) * .03);
       const lg = ctx.createLinearGradient(0, 0, 0, 1500);
-      lg.addColorStop(0, `rgba(255,225,170,${.08 * rays})`); lg.addColorStop(1, 'rgba(255,225,170,0)');
+      lg.addColorStop(0, `rgba(255,225,170,${.05 * rays})`); lg.addColorStop(1, 'rgba(255,225,170,0)');
       ctx.fillStyle = lg; ctx.beginPath(); ctx.moveTo(-8, 0); ctx.lineTo(8, 0); ctx.lineTo(90 + i * 6, 1500); ctx.lineTo(-90 - i * 6, 1500); ctx.fill();
       ctx.restore();
     }
@@ -654,8 +708,8 @@ function finale(sc, t) {
   ctx.fillRect(W / 2 - 40 - lw - 150, H / 2 + 62, lw, 1.5); ctx.fillRect(W / 2 + 190, H / 2 + 62, lw, 1.5);
   ctx.restore();
   ctx.save(); ctx.globalAlpha = a;
-  drawLine(L('MÉDIUM', 'sans', 38, IVORY), W / 2, H / 2 + 62, t0 + 1.4, 999, t);
-  drawLine(L('Bienvenidos.', 'italic', 64, GOLD), W / 2, H / 2 + 190, t0 + 3.0, 999, t);
+  drawLine(L('MÉDIUM', 'sans', 42, IVORY), W / 2, H / 2 + 62, t0 + 1.4, 999, t);
+  drawLine(L('Empezamos.', 'italic', 96, GOLD), W / 2, H / 2 + 210, t0 + 0.4, 999, t);
   ctx.restore();
 }
 
