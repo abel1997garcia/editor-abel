@@ -14,7 +14,12 @@ Abre Claude Code en la carpeta `EDICION VIDEOS/EVENTO ALLAN` y escribe:
    npm install
    npx playwright install chromium
    ```
-3. **(Opcional) Música:** copia tu pista, estilo Gladiator, como `audio\musica.mp3`. Se mezcla sola debajo de la voz: baja cuando Allan habla, entra con un fundido y sale con otro al final. Si dura menos que el vídeo, se repite.
+3. **Música de fondo.** Descarga una pista libre de derechos (por ejemplo, de Pixabay Music, que se puede usar sin citar al autor) y adáptala:
+   ```
+   node render/preparar_musica.mjs "C:\ruta\a\la\pista.mp3"
+   ```
+   La deja un 10 % más lenta (sin cambiar el tono), más cálida y con reverb, y la guarda como `audio\musica.mp3`. Para ajustarla: `--lento=0.85` (más lenta) o `--eco=0.5` (más espacio).
+   Al renderizar se mezcla sola: baja cuando habla Allan y entra y sale con fundido. Mejor si la pista dura más de 4 minutos; si es más corta, se repite.
 4. Renderiza:
    ```
    npm run render                 (versión CON los 3 momentos de sesión real, ~4:15)

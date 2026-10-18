@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "render": "node render/render_local.mjs",
-    "render:sin-prueba": "node render/render_local.mjs --prueba=0"
+    "render:sin-prueba": "node render/render_local.mjs --prueba=0",
+    "musica": "node render/preparar_musica.mjs"
   },
   "dependencies": {
     "ffmpeg-static": "5.2.0",
