@@ -1,3 +1,4 @@
-musica.mp3
-voz_allan.mp3
-*.mp4
+audio/musica.mp3
+salida/
+node_modules/
+package-lock.json
