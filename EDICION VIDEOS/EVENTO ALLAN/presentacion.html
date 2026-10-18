@@ -75,9 +75,8 @@ const SCENES = [
             L('Yo también tuve', 'italic', 96, GOLD, { k: 'Y yo también', gap: 24 }), L('esas dudas.', 'italic', 96, GOLD, { k: 'Y yo también' })] },
 
   // ---------- ACTO 2 · Cómo llegué hasta aquí (línea de vida) ----------
-  { id: 'nino', act: 2, hito: 0, mood: 'frio', layout: 'split',
+  { id: 'nino', act: 2, hito: 0, mood: 'frio', layout: 'puerta',
     voz: 'Desde niño, algunos lugares me hacían sentir cosas que no sabía explicar. Era pequeño… y no tenía palabras para eso.',
-    media: { tipo: 'foto', etiqueta: 'Allan de niño', opcional: true },
     lines: [L('Desde niño,', 'serif', 84), L('algunos lugares', 'serif', 84), L('me hacían sentir cosas', 'serif', 84, IVORY, { k: 'me hacían' }), L('que no sabía explicar.', 'italic', 92, GOLD, { k: 'que no sabía' })] },
   { id: 'iglesia', act: 2, hito: 0, mood: 'oscuro', layout: 'vitral',
     voz: 'Recuerdo una iglesia. Sentí algo tan real… que me asusté muchísimo. Así que hice lo que hacemos casi todos: lo guardé.',
@@ -126,9 +125,12 @@ const SCENES = [
     media: { tipo: 'video', etiqueta: 'Directos de Instagram (verticales)', clips: 3,
       srcs: ['clips/m1_cocina.webm', 'clips/m2_peluche.webm', 'clips/m3_athletic.webm'],
       durs: [4.45, 9.95, 11.3],
-      subs: [[['ALLAN', '«¿Qué pasa con cocinas, Montse?»', 0], ['LA FAMILIA', '«Yo trabajo en un hospital… en cocina.»', 1.6]],
-             [['ALLAN', '«Me muestra un muñequito, un peluche…»', 0], ['LA FAMILIA', '«¡Lo tengo aquí! Es un corazón con un perrito.»', 5.5]],
-             [['ALLAN', '«Era del Athletic, ¿no?»', 0], ['LA FAMILIA', '«¡Ha dicho el Athletic! Me ha dado un susto…»', 3.0]]] }, lines: [] },
+      // Literal. Tiempo = inicio real de la frase en la forma de onda (s desde el inicio de cada clip).
+      // Dos frases seguidas de la misma persona: la segunda sustituye a la primera en el mismo sitio.
+      // Texto contrastado con el audio y con los rótulos del reel original que llevan los clips.
+      subs: [[['ALLAN', '«¿Qué pasa con cocinar, Montse?»', 0.1], ['MONTSE', '«Mira, yo trabajo en un hospital, en el 12 de Octubre, en cocina.»', 1.33]],
+             [['ALLAN', '«Me muestra un muñequito, un peluche…»', 0.09], ['ELLA', '«Además… es que lo tengo aquí, ¡es que es increíble!»', 5.35], ['ELLA', '«Es un corazón con un perrito.»', 8.25]],
+             [['ALLAN', '«Él era del Athletic, ¿no?»', 0.12], ['ELLA', '«Es que hemos tenido una comida hace una semana del Athletic…»', 5.15], ['ELLA', '«…de la peña.»', 7.85]]] }, lines: [] },
   { id: 'muro', act: 3, mood: 'luz', layout: 'muro',
     voz: 'Más de mil doscientas sesiones. Y cada una me sigue emocionando como la primera. Porque detrás de cada una hay una familia, una historia… y un amor que sigue ahí.',
     media: { tipo: 'video', etiqueta: 'Caras de 11 familias distintas (mudo)', clips: 22, srcs: Array.from({ length: 22 }, (_, i) => `clips/muro_p${i >> 1}_${i & 1}.webm`), durs: Array(22).fill(3) },
@@ -222,12 +224,13 @@ function drawLine(l, x, cy, tIn, tOut, t, align = 'center') {
   const out = ramp(t, tOut - 0.7, tOut + OVER);
   ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
   ws.forEach((w, i) => {
-    const k = easeOut(ramp(t, tIn + i * 0.08, tIn + i * 0.08 + 0.9));
+    // entrada rápida (0,35 s, 80 ms antes de la palabra) para que el texto esté leído justo cuando Allan lo dice
+    const k = easeOut(ramp(t, tIn - 0.08 + i * 0.04, tIn - 0.08 + i * 0.04 + 0.35));
     const a = k * (1 - out);
     if (a > 0.003) {
       ctx.save();
       ctx.globalAlpha *= a;
-      const blur = (1 - k) * 14 + out * 10;
+      const blur = (1 - k) * 8 + out * 10;
       if (blur > 0.3) ctx.filter = `blur(${blur.toFixed(1)}px)`;
       ctx.fillStyle = l.c;
       ctx.shadowColor = 'rgba(0,0,0,.95)'; ctx.shadowBlur = 22; ctx.shadowOffsetY = 3;
@@ -289,6 +292,104 @@ function wrapText(txt, x, y, maxW, lh) {
   for (const w of ws) { const test = line ? line + ' ' + w : w; if (ctx.measureText(test).width > maxW && line) { ctx.fillText(line, x, y); y += lh; line = w; } else line = test; }
   if (line) ctx.fillText(line, x, y);
   return Math.round((y - y0) / lh) + 1;
+}
+
+// ---------- ilustraciones de la infancia (no hay fotos de Allan niño) ----------
+const azar = i => { const x = Math.sin(i * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); };
+// niño de espaldas en silueta, iluminado por detrás. (x, y) = pies; s = altura en px
+// Se dibuja en un lienzo aparte (pieza a pieza) y se pega con el halo, para que el contraluz solo salga por el borde.
+const NINO = document.createElement('canvas');
+function nino(x, y, s, alpha, luz = 1) {
+  if (alpha <= 0) return;
+  const u = Math.round(s), c = NINO.getContext('2d');
+  NINO.width = Math.ceil(u * .5); NINO.height = Math.ceil(u * 1.08);
+  const ox = NINO.width / 2, oy = NINO.height - 1;
+  const X = v => ox + v * u, Y = v => oy - v * u;
+  c.fillStyle = '#0a0809';
+  const pieza = f => { c.beginPath(); f(); c.fill(); };
+  for (const d of [-1, 1]) {
+    // piernas: más finas abajo, con los pies un poco abiertos
+    pieza(() => {
+      c.moveTo(X(d * .012), Y(.40)); c.lineTo(X(d * .085), Y(.40));
+      c.quadraticCurveTo(X(d * .08), Y(.2), X(d * .07), Y(.035));
+      c.quadraticCurveTo(X(d * .095), Y(0), X(d * .06), Y(0)); c.lineTo(X(d * .02), Y(0));
+      c.quadraticCurveTo(X(d * .028), Y(.2), X(d * .012), Y(.40)); c.closePath();
+    });
+    // brazos algo separados del cuerpo, con la mano
+    pieza(() => {
+      c.moveTo(X(d * .105), Y(.75));
+      c.quadraticCurveTo(X(d * .17), Y(.72), X(d * .175), Y(.58));
+      c.quadraticCurveTo(X(d * .185), Y(.46), X(d * .175), Y(.42));
+      c.lineTo(X(d * .135), Y(.43));
+      c.quadraticCurveTo(X(d * .14), Y(.55), X(d * .11), Y(.66)); c.closePath();
+    });
+    pieza(() => c.arc(X(d * .157), Y(.405), .028 * u, 0, Math.PI * 2));
+    pieza(() => c.ellipse(X(d * .108), Y(.885), .022 * u, .032 * u, 0, 0, Math.PI * 2));   // orejas
+  }
+  // pantalón corto + camiseta: hombros caídos y redondos, cintura algo más estrecha
+  pieza(() => {
+    c.moveTo(X(-.105), Y(.34)); c.lineTo(X(-.11), Y(.45));
+    c.quadraticCurveTo(X(-.105), Y(.6), X(-.125), Y(.70));
+    c.quadraticCurveTo(X(-.13), Y(.765), X(-.05), Y(.775)); c.lineTo(X(.05), Y(.775));
+    c.quadraticCurveTo(X(.13), Y(.765), X(.125), Y(.70));
+    c.quadraticCurveTo(X(.105), Y(.6), X(.11), Y(.45)); c.lineTo(X(.105), Y(.34));
+    c.lineTo(X(.012), Y(.34)); c.lineTo(X(0), Y(.39)); c.lineTo(X(-.012), Y(.34)); c.closePath();   // perneras
+  });
+  // cuello y cabeza grande (de niño) con el pelo revuelto
+  pieza(() => c.rect(X(-.035), Y(.82), .07 * u, .06 * u));
+  pieza(() => c.ellipse(X(.003), Y(.9), .108 * u, .115 * u, 0, 0, Math.PI * 2));
+  // pelo corto con un par de mechones de punta
+  pieza(() => { c.moveTo(X(-.08), Y(.97)); c.quadraticCurveTo(X(-.05), Y(1.03), X(-.015), Y(1.0));
+                c.quadraticCurveTo(X(.02), Y(1.03), X(.04), Y(1.0)); c.quadraticCurveTo(X(.07), Y(1.01), X(.08), Y(.96)); c.closePath(); });
+  ctx.save(); ctx.globalAlpha *= alpha;
+  ctx.shadowColor = `rgba(255,214,150,${.85 * luz})`; ctx.shadowBlur = .07 * u;   // contraluz
+  ctx.drawImage(NINO, x - ox, y - oy); ctx.drawImage(NINO, x - ox, y - oy);
+  ctx.restore();
+}
+// polvo flotando en la luz
+function motas(cx, cy, w, h, t, n, alpha) {
+  if (alpha <= 0) return;
+  ctx.save();
+  for (let i = 0; i < n; i++) {
+    const x = cx + (azar(i) - .5) * w + 18 * Math.sin(t * .3 + i);
+    const y = cy + (((azar(i + 50) - t * .015 * (.5 + azar(i + 9))) % 1 + 1) % 1 - .5) * h;
+    const tw = .5 + .5 * Math.sin(t * (1 + azar(i + 3)) + i);
+    ctx.globalAlpha = alpha * (.25 + .55 * tw);
+    ctx.fillStyle = '#FFE9C2'; ctx.beginPath(); ctx.arc(x, y, 1.2 + 1.8 * azar(i + 7), 0, 7); ctx.fill();
+  }
+  ctx.restore();
+}
+// rosetón gótico de vidriera: 12 pétalos de colores, anillo de óculos y centro dorado
+function roseton(cx, cy, R, t, luz, k) {
+  const VID = ['#2E56B8', '#A8213F', '#D9A63F', '#1F8263', '#6A3F9E', '#C2542E'];
+  const br = Math.min(1.25, .35 + .75 * luz);
+  ctx.save(); ctx.translate(cx, cy); ctx.rotate(.02 * Math.sin(t * .2));
+  // halo
+  const g = ctx.createRadialGradient(0, 0, R * .2, 0, 0, R * 2.3);
+  g.addColorStop(0, `rgba(255,220,170,${.30 * luz})`); g.addColorStop(1, 'rgba(0,0,0,0)');
+  ctx.fillStyle = g; ctx.fillRect(-R * 2.5, -R * 2.5, R * 5, R * 5);
+  ctx.filter = `brightness(${br.toFixed(2)}) saturate(1.15)`;
+  ctx.fillStyle = '#120d10'; ctx.beginPath(); ctx.arc(0, 0, R, 0, 7); ctx.fill();
+  for (let i = 0; i < 12; i++) {          // pétalos (lancetas)
+    ctx.save(); ctx.rotate(i * Math.PI / 6);
+    ctx.beginPath(); ctx.moveTo(0, -R * .3);
+    ctx.quadraticCurveTo(R * .19, -R * .55, 0, -R * .9); ctx.quadraticCurveTo(-R * .19, -R * .55, 0, -R * .3);
+    ctx.fillStyle = VID[i % 6]; ctx.fill();
+    ctx.lineWidth = 5; ctx.strokeStyle = '#0c0809'; ctx.stroke();
+    ctx.beginPath(); ctx.arc(0, -R * .94 + R * .0, R * .06, 0, 7);           // óculo exterior
+    ctx.fillStyle = VID[(i + 3) % 6]; ctx.fill(); ctx.stroke();
+    ctx.restore();
+  }
+  ctx.beginPath(); ctx.arc(0, 0, R * .3, 0, 7); ctx.fillStyle = VID[2]; ctx.fill();
+  ctx.lineWidth = 6; ctx.strokeStyle = '#0c0809'; ctx.stroke();
+  for (let i = 0; i < 6; i++) {           // cruz/estrella central
+    ctx.save(); ctx.rotate(i * Math.PI / 3); ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(0, -R * .3); ctx.lineWidth = 4; ctx.stroke(); ctx.restore();
+  }
+  ctx.beginPath(); ctx.arc(0, 0, R * .1, 0, 7); ctx.fillStyle = '#F4D79C'; ctx.fill(); ctx.stroke();
+  ctx.filter = 'none';
+  ctx.lineWidth = 7; ctx.strokeStyle = `rgba(201,164,101,${.85 * k})`; ctx.beginPath(); ctx.arc(0, 0, R + 4, 0, 7); ctx.stroke();
+  ctx.lineWidth = 2; ctx.strokeStyle = `rgba(244,215,156,${.5 * k})`; ctx.beginPath(); ctx.arc(0, 0, R + 18, 0, 7); ctx.stroke();
+  ctx.restore();
 }
 
 // =====================================================================
@@ -372,30 +473,74 @@ const LAYOUT = {
       ctx.save();
       const depth = [1, .9, 1.05][i];
       ctx.translate(l.x, l.y + drift); ctx.scale(depth, depth); ctx.translate(-l.x, -l.y - drift);
-      scrim(l.x, l.y + drift, measure(l) + 120, l.s * 2.2, sceneAlpha(sc, t) * ramp(t, l.tIn, l.tIn + .6));
+      scrim(l.x, l.y + drift, measure(l) + 120, l.s * 2.2, sceneAlpha(sc, t) * ramp(t, l.tIn - .08, l.tIn + .35));
       drawLine(l, l.x, l.y + drift, l.tIn, sc.t1, t);
       ctx.restore();
     });
   },
 
-  // vitral de iglesia muy tenue (recuerdo de infancia)
+  // Infancia (no hay foto de Allan niño): un niño de espaldas, en silueta, ante una puerta en arco
+  // de la que sale luz. «Algunos lugares me hacían sentir cosas».
+  puerta(sc, t) {
+    const a = sceneAlpha(sc, t), k = easeOut(ramp(t, sc.t0, sc.t0 + 1.8)), p = ramp(t, sc.t0, sc.t1 + 1);
+    const cx = 1400, by = 905, dw = 360, dh = 640, z = lerp(1, 1.06, p);   // acercamiento lento
+    const luz = k * (.85 + .15 * Math.sin(t * 1.3) * Math.sin(t * .7));
+    ctx.save(); ctx.globalAlpha = a;
+    ctx.translate(cx, by); ctx.scale(z, z); ctx.translate(-cx, -by);
+    // resplandor general detrás de la puerta
+    let g = ctx.createRadialGradient(cx, by - dh * .55, 20, cx, by - dh * .55, 900);
+    g.addColorStop(0, `rgba(255,214,150,${.22 * luz})`); g.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+    // hueco de la puerta, lleno de luz cálida
+    const arco = () => { ctx.beginPath(); ctx.moveTo(cx - dw / 2, by); ctx.lineTo(cx - dw / 2, by - dh + dw / 2); ctx.arc(cx, by - dh + dw / 2, dw / 2, Math.PI, 0); ctx.lineTo(cx + dw / 2, by); ctx.closePath(); };
+    g = ctx.createLinearGradient(0, by - dh, 0, by);
+    g.addColorStop(0, `rgba(255,236,200,${.95 * luz})`); g.addColorStop(.6, `rgba(255,205,140,${.8 * luz})`); g.addColorStop(1, `rgba(230,160,90,${.7 * luz})`);
+    arco(); ctx.fillStyle = g; ctx.shadowColor = 'rgba(255,210,150,.9)'; ctx.shadowBlur = 80 * luz; ctx.fill(); ctx.shadowBlur = 0;
+    ctx.strokeStyle = `rgba(244,215,156,${.6 * k})`; ctx.lineWidth = 3; arco(); ctx.stroke();
+    // la luz se derrama por el suelo, hacia nosotros
+    g = ctx.createLinearGradient(0, by, 0, by + 110);
+    g.addColorStop(0, `rgba(255,205,140,${.35 * luz})`); g.addColorStop(1, 'rgba(255,205,140,0)');
+    ctx.fillStyle = g; ctx.beginPath(); ctx.moveTo(cx - dw / 2, by); ctx.lineTo(cx + dw / 2, by); ctx.lineTo(cx + dw * .85, by + 110); ctx.lineTo(cx - dw * .85, by + 110); ctx.fill();
+    motas(cx, by - dh / 2, dw * .9, dh, t, 26, a * luz);
+    nino(cx, by + 2, 300, a * k, luz);
+    ctx.restore();
+    drawBlock(sc, t, 170, H / 2, 'left');
+  },
+
+  // La iglesia: rosetón de vidriera con haces de luz de colores que caen sobre el niño.
+  // «que me asusté muchísimo» → la luz da un golpe; «lo guardé» → la luz se apaga.
   vitral(sc, t) {
-    const a = sceneAlpha(sc, t) * .9;
-    ctx.save(); ctx.globalAlpha = a; ctx.translate(W / 2, 470);
-    const g = ctx.createLinearGradient(0, -380, 0, 380);
-    g.addColorStop(0, 'rgba(160,120,200,.10)'); g.addColorStop(1, 'rgba(120,40,60,.04)');
-    ctx.fillStyle = g; ctx.strokeStyle = 'rgba(226,197,139,.22)'; ctx.lineWidth = 2;
-    ctx.beginPath(); ctx.moveTo(-230, 380); ctx.lineTo(-230, -150); ctx.arc(0, -150, 230, Math.PI, 0); ctx.lineTo(230, 380); ctx.closePath(); ctx.fill(); ctx.stroke();
-    ctx.beginPath(); ctx.moveTo(0, -380); ctx.lineTo(0, 380); ctx.moveTo(-230, 60); ctx.lineTo(230, 60); ctx.stroke();
-    ctx.beginPath(); ctx.arc(0, -150, 110, 0, 7); ctx.stroke();
+    const a = sceneAlpha(sc, t), k = easeOut(ramp(t, sc.t0, sc.t0 + 2));
+    const tSusto = sc.lines[1].tIn, tGuardo = sc.lines[2].tIn;
+    const golpe = Math.exp(-Math.pow((t - tSusto - .25) / .45, 2));       // pulso de luz
+    const apaga = 1 - .85 * ease(ramp(t, tGuardo - .2, tGuardo + 2.2));    // se va cerrando
+    const luz = k * apaga * (.75 + .1 * Math.sin(t * 1.1) + 1.1 * golpe);
+    const cx = W / 2, cy = 255, R = 190 * lerp(.92, 1, k), suelo = 925;
+    ctx.save(); ctx.globalAlpha = a;
+    // haces de luz: del rosetón al suelo, donde está el niño
+    ctx.globalCompositeOperation = 'lighter';
+    const COL = ['255,120,140', '120,160,255', '255,215,140', '140,230,190', '200,150,255'];
+    for (let i = 0; i < 5; i++) {
+      const off = (i - 2) * 60, sway = 12 * Math.sin(t * .4 + i);
+      const g = ctx.createLinearGradient(0, cy, 0, suelo + 40);
+      g.addColorStop(0, `rgba(${COL[i]},${.34 * luz})`); g.addColorStop(1, `rgba(${COL[i]},0)`);
+      ctx.fillStyle = g; ctx.beginPath();
+      ctx.moveTo(cx + off - 40, cy + 60); ctx.lineTo(cx + off + 40, cy + 60);
+      ctx.lineTo(cx + off * 2.6 + 150 + sway, suelo + 40); ctx.lineTo(cx + off * 2.6 - 150 + sway, suelo + 40); ctx.fill();
+    }
+    // charco de luz en el suelo
+    const pg = ctx.createRadialGradient(cx, suelo, 10, cx, suelo, 420);
+    pg.addColorStop(0, `rgba(255,220,170,${.28 * luz})`); pg.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = pg; ctx.save(); ctx.translate(cx, suelo); ctx.scale(1, .18); ctx.translate(-cx, -suelo); ctx.fillRect(cx - 450, suelo - 450, 900, 900); ctx.restore();
+    // destello de luz en «me asusté»
+    ctx.fillStyle = `rgba(255,228,190,${.16 * golpe * k})`; ctx.fillRect(0, 0, W, H);
+    ctx.globalCompositeOperation = 'source-over';
+    motas(cx, (cy + suelo) / 2, 520, suelo - cy, t, 40, a * Math.min(1, luz));
+    // el rosetón
+    roseton(cx, cy, R, t, luz, k);
+    nino(cx, suelo, 125, a * k, Math.max(.25, luz));
     ctx.restore();
-    // rayo de luz entrando por el vitral
-    ctx.save(); ctx.globalAlpha = a * .5 * (.7 + .3 * Math.sin(t * .8));
-    const lg = ctx.createLinearGradient(W / 2, 200, W / 2 + 300, 1080);
-    lg.addColorStop(0, 'rgba(255,220,180,.18)'); lg.addColorStop(1, 'rgba(255,220,180,0)');
-    ctx.fillStyle = lg; ctx.beginPath(); ctx.moveTo(W / 2 - 120, 200); ctx.lineTo(W / 2 + 120, 200); ctx.lineTo(W / 2 + 520, 1080); ctx.lineTo(W / 2 + 40, 1080); ctx.fill();
-    ctx.restore();
-    drawBlock(sc, t, W / 2, H / 2 + 40);
+    drawBlock(sc, t, W / 2, 625);
   },
 
   // círculo protector que se dibuja + 3 afirmaciones alrededor
@@ -416,7 +561,7 @@ const LAYOUT = {
     const xs = [W / 2 - 560, W / 2, W / 2 + 560], y = 850;
     scrim(W / 2, y, 1800, 220, a);
     sc.lines.slice(2).forEach((l, i) => {
-      const kk = easeOut(ramp(t, l.tIn, l.tIn + .8));
+      const kk = easeOut(ramp(t, l.tIn - .08, l.tIn + .35));
       ctx.save(); ctx.globalAlpha = a * kk;
       ctx.beginPath(); ctx.arc(xs[i], y - 70, 7, 0, 7); ctx.fillStyle = GOLD; ctx.fill(); ctx.restore();
       drawLine(l, xs[i], y, l.tIn, sc.t1, t);
@@ -464,7 +609,7 @@ const LAYOUT = {
     ctx.beginPath(); ctx.moveTo(xs[0], y); ctx.lineTo(lerp(xs[0], xs[3], prog), y); ctx.stroke();
     ctx.restore();
     sc.lines.forEach((l, i) => {
-      const kk = easeOut(ramp(t, l.tIn, l.tIn + .8));
+      const kk = easeOut(ramp(t, l.tIn - .08, l.tIn + .35));
       const x = xs[i];
       ctx.save(); ctx.globalAlpha = a * kk; ctx.translate(x, y);
       const g = ctx.createRadialGradient(0, 0, 0, 0, 0, 150);
@@ -505,14 +650,22 @@ const LAYOUT = {
       ctx.fillText(`SESIÓN REAL · ${i + 1}/${n}`, tx, 230); ctx.letterSpacing = '0px';
       ctx.fillStyle = 'rgba(244,215,156,.6)'; ctx.fillRect(tx, 280, 160, 2);
       let y = 380;
-      (sub || []).forEach(([who, txt, tr]) => {
-        const k = easeOut(ramp(t, s0 + tr, s0 + tr + .5));
-        ctx.save(); ctx.globalAlpha = al * k; ctx.translate(0, (1 - k) * 18);
-        ctx.font = '500 34px Mont'; ctx.fillStyle = MUTED; ctx.letterSpacing = '4px'; ctx.fillText(who, tx, y); ctx.letterSpacing = '0px';
+      const S = sub || [];
+      S.forEach(([who, txt, tr], j) => {
+        const sigue = j > 0 && S[j - 1][0] === who;          // misma persona que la frase anterior
+        const nx = S[j + 1] && S[j + 1][0] === who ? S[j + 1][2] : null;
+        const k = easeOut(ramp(t, s0 + tr - .08, s0 + tr + .27));   // visible justo cuando suena
+        const kout = nx == null ? 0 : ramp(t, s0 + nx - .3, s0 + nx);
+        if (!sigue) {
+          ctx.save(); ctx.globalAlpha = al * k; ctx.translate(0, (1 - k) * 18);
+          ctx.font = '500 34px Mont'; ctx.fillStyle = MUTED; ctx.letterSpacing = '4px'; ctx.fillText(who, tx, y); ctx.letterSpacing = '0px';
+          ctx.restore();
+        }
+        ctx.save(); ctx.globalAlpha = al * k * (1 - kout); ctx.translate(0, (1 - k) * 18);
         ctx.font = 'italic 400 74px CormI'; ctx.fillStyle = who === 'ALLAN' ? IVORY : GOLD;
         const nl = wrapText(txt, tx, y + 80, W - tx - 100, 84);
         ctx.restore();
-        y += 80 + nl * 84 + 70;
+        if (nx == null) y += 80 + nl * 84 + 70;
       });
       ctx.restore();
     }
@@ -580,7 +733,7 @@ const LAYOUT = {
       const nx = sc.lines[i + 1];
       const tOut = nx ? nx.tIn : sc.t1;
       if (t < l.tIn - .2 || t > tOut + OVER + .2) return;
-      scrim(W / 2, H / 2, measure(l) + 140, l.s * 2.4, a * ramp(t, l.tIn, l.tIn + .5));
+      scrim(W / 2, H / 2, measure(l) + 140, l.s * 2.4, a * ramp(t, l.tIn - .08, l.tIn + .35));
       drawLine(l, W / 2, H / 2, l.tIn, tOut, t);
     });
   },
