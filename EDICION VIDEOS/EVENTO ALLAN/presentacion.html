@@ -67,10 +67,11 @@ const SCENES = [
             L('¿Y si viene… y no estoy preparado?', 'italic', 86, IVORY, { k: '¿Y si viene…', x: 640, y: 540 }),
             L('¿Y si me emociono delante de todos?', 'italic', 86, IVORY, { k: '¿Y si me', x: 1220, y: 720 }),
             L('¿Y si todo esto es mentira?', 'italic', 96, GOLD, { k: '¿Y si todo', x: 800, y: 900 })] },
-  { id: 'normal', act: 1, mood: 'sombra', layout: 'centro',
+  { id: 'normal', act: 1, mood: 'sombra', layout: 'split',
+    media: { tipo: 'foto', etiqueta: 'Allan', src: 'fotos/allan_retrato.jpg', fy: .25 },
     voz: 'Es normal. Todo eso que estás sintiendo es normal. Es la primera vez que abres esta puerta. Y yo también tuve esas dudas. Muchas.',
-    lines: [L('Es normal.', 'serif', 124), L('Es la primera vez que abres esta puerta.', 'serif', 72, SOFT, { k: 'Es la primera' }),
-            L('Yo también tuve esas dudas.', 'italic', 100, GOLD, { k: 'Y yo también', gap: 20 })] },
+    lines: [L('Es normal.', 'serif', 124), L('Es la primera vez', 'serif', 74, SOFT, { k: 'Es la primera' }), L('que abres esta puerta.', 'serif', 74, SOFT, { k: 'Es la primera' }),
+            L('Yo también tuve', 'italic', 96, GOLD, { k: 'Y yo también', gap: 24 }), L('esas dudas.', 'italic', 96, GOLD, { k: 'Y yo también' })] },
 
   // ---------- ACTO 2 · Cómo llegué hasta aquí (línea de vida) ----------
   { id: 'nino', act: 2, hito: 0, mood: 'frio', layout: 'split',
@@ -83,7 +84,7 @@ const SCENES = [
             L('Así que lo guardé.', 'serif', 72, SOFT, { k: 'lo guardé', gap: 30 })] },
   { id: 'estable', act: 2, hito: 1, mood: 'frio', layout: 'split',
     voz: 'Tuve un trabajo estable. Un buen sueldo. Desde fuera, todo estaba bien.',
-    media: { tipo: 'foto', etiqueta: 'Allan en su etapa del trabajo estable' },
+    media: { tipo: 'foto', etiqueta: 'Allan en su etapa del trabajo estable', src: 'fotos/evento_amazon.jpg', fx: .45 },
     lines: [L('Un trabajo estable.', 'serif', 88, IVORY, { k: 'Tuve' }), L('Un buen sueldo.', 'serif', 88, IVORY, { k: 'Un buen' }), L('Desde fuera,', 'italic', 92, GOLD, { k: 'Desde fuera' }), L('todo estaba bien.', 'italic', 92, GOLD, { k: 'todo estaba' })] },
   { id: 'infierno', act: 2, hito: 2, mood: 'oscuro', layout: 'centro',
     voz: 'Pero por dentro, no. Y no te voy a mentir: he estado en el infierno durante muchos años. Por eso, si hoy lo estás pasando mal… si sientes que te falta alguien… te entiendo. De verdad.',
@@ -91,12 +92,12 @@ const SCENES = [
             L('Por eso te entiendo.', 'serif', 84, GOLD, { k: 'Por eso', gap: 36 })] },
   { id: 'sueno', act: 2, hito: 3, mood: 'sombra', layout: 'polaroid',
     voz: 'Hasta que una noche… soñé con mi abuela.',
-    media: { tipo: 'foto', etiqueta: 'Su abuela' },
+    media: { tipo: 'foto', etiqueta: 'Su abuela', src: 'fotos/abuela.jpg', fy: .3 },
     lines: [L('Hasta que una noche…', 'serif', 92), L('soñé con', 'italic', 116, GOLD, { k: 'soñé' }), L('mi abuela.', 'italic', 116, GOLD, { k: 'soñé' })] },
-  { id: 'te-ayudare', act: 2, hito: 3, mood: 'calido', layout: 'centro', fx: 'destello',
+  { id: 'te-ayudare', act: 2, hito: 3, mood: 'calido', layout: 'centro', fx: 'destello', bg: { src: 'fotos/pluma.jpg', fy: .4, dim: .4 },
     voz: 'Y me dijo: «Te voy a ayudar».',
     lines: [L('Y ME DIJO:', 'sans', 46, IVORY), L('«Te voy a ayudar.»', 'italic', 164, IVORY, { k: '«Te', gap: 18 })] },
-  { id: 'el-don', act: 2, hito: 4, mood: 'luz', layout: 'centro',
+  { id: 'el-don', act: 2, hito: 4, mood: 'luz', layout: 'centro', bg: { src: 'fotos/allan_cielo.jpg', fy: .5, dim: .42 },
     voz: 'A partir de ahí, poco a poco, dejé de huir de lo que sentía. Y entendí que el don siempre había estado ahí… desde aquel niño de la iglesia. Y que no era mío: era para dárselo a otros.',
     lines: [L('Dejé de huir de lo que sentía.', 'serif', 84, IVORY, { k: 'dejé de huir' }), L('El don siempre había estado ahí…', 'italic', 100, GOLD, { k: 'Y entendí' }),
             L('desde aquel niño de la iglesia.', 'italic', 84, SOFT, { k: 'desde aquel' })] },
@@ -258,12 +259,12 @@ function placeholder(x, y, w, h, title, sub) {
   if (sub) { ctx.font = `italic 400 ${Math.max(18, Math.min(38, w / 16))}px CormI`; ctx.fillStyle = IVORY; ctx.fillText(sub, x + w / 2, y + h / 2 + 24); }
   ctx.restore();
 }
-function drawCover(el, x, y, w, h, z = 1, dx = 0, filter = 'none') {
+function drawCover(el, x, y, w, h, z = 1, dx = 0, filter = 'none', fy = .5, fx = .5) {
   const iw = el.naturalWidth || el.videoWidth, ih = el.naturalHeight || el.videoHeight;
   const s = Math.max(w / iw, h / ih) * z;
   ctx.save(); ctx.beginPath(); ctx.rect(x, y, w, h); ctx.clip();
   ctx.filter = filter;
-  ctx.drawImage(el, x + w / 2 - iw * s / 2 + dx, y + h / 2 - ih * s / 2, iw * s, ih * s);
+  ctx.drawImage(el, x + (w - iw * s) * fx + dx, y + (h - ih * s) * fy, iw * s, ih * s);
   ctx.restore();
 }
 const ready = el => el && (el.naturalWidth || el.videoWidth);
@@ -291,7 +292,7 @@ const LAYOUT = {
     // máscara que se abre de abajo a arriba
     ctx.beginPath(); ctx.rect(cx, cy + ch * (1 - k), cw, ch * k); ctx.clip();
     const el = MEDIA[sc.id];
-    if (ready(el)) drawCover(el, cx, cy, cw, ch, lerp(1.12, 1.02, p), 0, 'sepia(.2) brightness(.85)');
+    if (ready(el)) drawCover(el, cx, cy, cw, ch, lerp(1.12, 1.02, p), 0, 'brightness(.9)', sc.media.fy ?? .5, sc.media.fx ?? .5);
     else placeholder(cx, cy, cw, ch, 'FOTO' + (sc.media.opcional ? ' · OPCIONAL' : ''), sc.media.etiqueta);
     ctx.restore();
     ctx.save(); ctx.globalAlpha = a * k; ctx.strokeStyle = 'rgba(226,197,139,.55)'; ctx.lineWidth = 1.5;
@@ -311,7 +312,7 @@ const LAYOUT = {
     ctx.fillStyle = '#efe6d6'; ctx.fillRect(-270, -330, 540, 640);
     ctx.shadowBlur = 0;
     const el = MEDIA[sc.id];
-    if (ready(el)) drawCover(el, -240, -300, 480, 500, lerp(1.08, 1.0, p), 0, 'sepia(.35) brightness(.95)');
+    if (ready(el)) drawCover(el, -240, -300, 480, 500, lerp(1.08, 1.0, p), 0, 'sepia(.15) brightness(.98)', sc.media.fy ?? .5);
     else placeholder(-240, -300, 480, 500, 'FOTO', sc.media.etiqueta);
     ctx.restore();
     drawBlock(sc, t, 920, H / 2, 'left');
@@ -714,9 +715,28 @@ function finale(sc, t) {
   ctx.restore();
 }
 
+// foto de fondo a pantalla completa (Ken Burns lento, oscurecida para que el texto se lea)
+const BG = {};
+function drawBg(sc, t) {
+  const el = BG[sc.id]; if (!ready(el)) return;
+  const a = sceneAlpha(sc, t); if (a <= 0) return;
+  const k = ramp(t, sc.t0 - .5, sc.t1 + 1);
+  ctx.save(); ctx.globalAlpha = a;
+  drawCover(el, 0, 0, W, H, lerp(1.04, 1.12, k), 0, `brightness(${sc.bg.dim ?? .4}) saturate(.9)`, sc.bg.fy ?? .5, sc.bg.fx ?? .5);
+  ctx.restore();
+}
+window.mediaReady = Promise.all(SCENES.flatMap(sc => {
+  const jobs = [];
+  const load = (src, store) => new Promise(res => { const im = new Image(); im.onload = im.onerror = () => res(); im.src = src; store[sc.id] = im; });
+  if (sc.media?.src && sc.media.tipo === 'foto') jobs.push(load(sc.media.src, MEDIA));
+  if (sc.bg?.src) jobs.push(load(sc.bg.src, BG));
+  return jobs;
+}));
+
 function renderFrame(t) {
   ctx.save();
   background(t);
+  for (const sc of SCENES) if (sc.bg && t > sc.t0 - .6 && t < sc.t1 + OVER + .6) drawBg(sc, t);
   const z = 1 + .01 * Math.sin(t * .25);
   ctx.translate(W / 2, H / 2); ctx.scale(z, z); ctx.translate(-W / 2, -H / 2);
   for (const sc of SCENES) if (t > sc.t0 - .6 && t < sc.t1 + OVER + .6) LAYOUT[sc.layout](sc, t);
@@ -740,6 +760,7 @@ document.getElementById('start').onclick = async () => {
   loop();
 };
 window.fontsReady = Promise.all(['400 40px Corm', '300 40px Corm', 'italic 400 40px CormI', '400 40px Mont', '500 40px Mont'].map(f => document.fonts.load(f))).then(() => document.fonts.ready);
+window.fontsReady = window.fontsReady.then(() => window.mediaReady);
 window.fontsReady.then(() => renderFrame(0));
 </script>
 </body>
