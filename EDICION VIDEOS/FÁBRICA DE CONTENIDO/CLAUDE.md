@@ -1,6 +1,6 @@
 # FÁBRICA DE CONTENIDO — Abel
 
-Sistema para producir reels de marca personal (energía, vibración, inconsciente, emociones, niño interior) a partir de referencias en inglés, con mi voz y mi avatar como memoria fija.
+Sistema para producir reels de desarrollo personal (Especialista en Autoestima: energía, vibración, inconsciente, emociones, niño interior) a partir de referencias en inglés, con mi voz y mi avatar como memoria fija.
 
 ## Regla nº 1 — Leer el cerebro antes de escribir NADA
 
@@ -8,8 +8,7 @@ Antes de generar ideas, guiones o variaciones, lee `01_MI_MARCA/`:
 
 | Archivo | Qué contiene |
 |---|---|
-| `A-QUIEN-LE-VENDO.pdf/.md` | **200 descripciones de a quién le vende**, por situación, en 10 bloques. Cada una es un ángulo de reel: gancho (su situación) → colleja (lo que hace mal) → solución |
-| `00-avatar-operativo.md` | **Una página: qué vendo y a quién** (nicho del 10/10/2026, a quién, oferta, dolores, colleja, objeciones, filtro de contenido y bio). **Manda para decidir cada pieza** |
+| `00-avatar-operativo.md` | **FUENTE ÚNICA (18/10/2026): a quién le hablo y desde dónde** (Especialista en Autoestima: lo que siente, se dice, duda y quiere la persona; mi lente; creencias; contra el mercado; mi historia enfocada; bio). **Manda para decidir cada pieza.** Lo de marca personal está en `_ARCHIVO_MARCA_PERSONAL/` y no se usa |
 | `01-avatar-megaestudio.md` | El avatar (mi yo del pasado): dolores, miedos, deseos, diálogo interno, cómo hablarle, tono PRESENCIA + CONFRONTACIÓN |
 | `02-catalogo-momentos-concretos.md` | Mis momentos de vida reales con detalle (cifras, lugares, edades) |
 | `03-aspiraciones-estilo-vida.md` | La vida que el avatar quiere. No reducirlo a dolor |

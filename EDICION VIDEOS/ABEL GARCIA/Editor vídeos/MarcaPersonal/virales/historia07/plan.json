@@ -1,0 +1,168 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  0,
+  1,
+  2,
+  4,
+  8,
+  9,
+  10,
+  11,
+  12,
+  15,
+  30,
+  33,
+  34
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Te pasas el día pensando en lo que NO quieres y luego te extraña que llegue:",
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3",
+   "gancho": [
+    0
+   ],
+   "cuerpo": [
+    1,
+    2,
+    4,
+    8,
+    9,
+    10,
+    11,
+    12,
+    15,
+    30,
+    33,
+    34
+   ]
+  },
+  "r2": {
+   "titulo": "Tu miedo a que te dejen es justo lo que hace que te DEJEN:",
+   "musica": "EMOCIONAL/Andrea Vanzo - Soulmate x Amélie x Interstellar x Passacaglia.mp3",
+   "gancho": [
+    8
+   ],
+   "cuerpo": [
+    0,
+    1,
+    2,
+    4,
+    9,
+    10,
+    11,
+    12,
+    15,
+    30,
+    33,
+    34
+   ],
+   "diapos": [
+    {
+     "frase": "Cuando piensas en no quiero",
+     "titulo": "Piensas en lo que **temes**",
+     "dibujo": "escenas/historia07/2_piensa_en_lo_que_teme_rojo"
+    },
+    {
+     "frase": "No pienses en",
+     "titulo": "No pienses en un **elefante**",
+     "dibujo": "escenas/historia07/1_no_pienses_elefante_rojo"
+    },
+    {
+     "frase": "Para no pensar en",
+     "titulo": "Tu cabeza **primero** lo piensa",
+     "dibujo": "escenas/historia07/1b_tu_cabeza_lo_piensa_rojo"
+    },
+    {
+     "frase": "Y lo que sientes",
+     "titulo": "Y lo que sientes va al **miedo**",
+     "dibujo": "escenas/historia07/3_lo_que_sientes_va_al_miedo_rojo"
+    },
+    {
+     "frase": "En vez de pensar en",
+     "titulo": "**Fiarte** de alguien",
+     "dibujo": "escenas/historia07/4_fiarte_de_alguien_azul"
+    },
+    {
+     "frase": "En vez de pensar no quiero estar",
+     "titulo": "Disfruta de **tu** compañía",
+     "dibujo": "escenas/historia07/5_disfruta_tu_compania_azul"
+    },
+    {
+     "frase": "y que cuando tú realmente",
+     "titulo": "Y llega **sin forzar**",
+     "dibujo": "escenas/historia01/7_llegan_solos_azul"
+    },
+    {
+     "frase": "En vez de decir",
+     "titulo": "Piensa en lo que **construyes**",
+     "dibujo": "escenas/historia07/6_lo_que_construyes_azul"
+    },
+    {
+     "frase": "Al principio es como aprender",
+     "titulo": "Como aprender un **idioma**",
+     "dibujo": "escenas/historia05/8_un_mes_entero_azul"
+    },
+    {
+     "frase": "acaso no quieres",
+     "titulo": "Que tu vida te haga **sentir bien**",
+     "dibujo": "escenas/historia04/6_el_espejo_le_sonrie_azul"
+    }
+   ]
+  }
+ },
+ "estilo": "historia",
+ "diapos": [
+  {
+   "frase": "No pienses en",
+   "titulo": "No pienses en un **elefante**",
+   "dibujo": "escenas/historia07/1_no_pienses_elefante_rojo"
+  },
+  {
+   "frase": "Para no pensar en",
+   "titulo": "Tu cabeza **primero** lo piensa",
+   "dibujo": "escenas/historia07/1b_tu_cabeza_lo_piensa_rojo"
+  },
+  {
+   "frase": "Cuando piensas en no quiero",
+   "titulo": "Piensas en lo que **temes**",
+   "dibujo": "escenas/historia07/2_piensa_en_lo_que_teme_rojo"
+  },
+  {
+   "frase": "Y lo que sientes",
+   "titulo": "Y lo que sientes va al **miedo**",
+   "dibujo": "escenas/historia07/3_lo_que_sientes_va_al_miedo_rojo"
+  },
+  {
+   "frase": "En vez de pensar en",
+   "titulo": "**Fiarte** de alguien",
+   "dibujo": "escenas/historia07/4_fiarte_de_alguien_azul"
+  },
+  {
+   "frase": "En vez de pensar no quiero estar",
+   "titulo": "Disfruta de **tu** compañía",
+   "dibujo": "escenas/historia07/5_disfruta_tu_compania_azul"
+  },
+  {
+   "frase": "y que cuando tú realmente",
+   "titulo": "Y llega **sin forzar**",
+   "dibujo": "escenas/historia01/7_llegan_solos_azul"
+  },
+  {
+   "frase": "En vez de decir",
+   "titulo": "Piensa en lo que **construyes**",
+   "dibujo": "escenas/historia07/6_lo_que_construyes_azul"
+  },
+  {
+   "frase": "Al principio es como aprender",
+   "titulo": "Como aprender un **idioma**",
+   "dibujo": "escenas/historia05/8_un_mes_entero_azul"
+  },
+  {
+   "frase": "acaso no quieres",
+   "titulo": "Que tu vida te haga **sentir bien**",
+   "dibujo": "escenas/historia04/6_el_espejo_le_sonrie_azul"
+  }
+ ],
+ "corrige": []
+}

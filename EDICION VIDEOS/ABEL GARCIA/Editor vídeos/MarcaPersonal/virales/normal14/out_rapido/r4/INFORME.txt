@@ -1,0 +1,4 @@
+##### r4 · 34.0 s · 16 trozos
+huecos > 0,10 s (onda): ninguno ✓
+· reel entero replace: esperado «Informa» · se oye «y forma»
+· reel entero replace: esperado «hablando de» · se oye «hablándote»

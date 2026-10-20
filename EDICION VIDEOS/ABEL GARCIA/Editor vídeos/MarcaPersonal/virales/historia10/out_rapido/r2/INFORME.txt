@@ -1,0 +1,3 @@
+##### r2 · 63.7 s · 20 trozos
+huecos > 0,10 s (onda): [(15.46, 15.57)]
+· reel entero delete: esperado «él» · se oye «»

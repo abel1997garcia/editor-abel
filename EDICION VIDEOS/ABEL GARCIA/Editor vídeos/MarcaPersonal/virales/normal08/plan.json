@@ -1,0 +1,72 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  [
+   20,
+   "empiezas a poner límites",
+   null
+  ],
+  [
+   27,
+   null,
+   "solo,"
+  ],
+  29,
+  32,
+  33,
+  [
+   34,
+   "así que cuando",
+   null
+  ],
+  37
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Elegirte a ti no es para débiles, por eso casi nadie se ATREVE:",
+   "musica": "ÉPICA/Caleb Bryant - Imperius (instrumental) [ slowed ].mp3",
+   "gancho": [
+    0
+   ]
+  },
+  "r2": {
+   "titulo": "Cuando empieces a poner límites se va a ir media gente, y está BIEN:",
+   "musica": "ÉPICA/Ogryzek - AURA.mp3",
+   "gancho": [
+    2
+   ]
+  },
+  "r3": {
+   "titulo": "Si alguien se va porque le dices que no, solo estaba por INTERÉS:",
+   "musica": "EMOCIONAL/Outro - M83 only the best part.mp3",
+   "gancho": [
+    3
+   ]
+  },
+  "r4": {
+   "titulo": "Que alguien te deje de hablar cuando pones límites es INFORMACIÓN:",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3",
+   "gancho": [
+    9
+   ]
+  },
+  "r5": {
+   "titulo": "Cuando te pongas como prioridad se va a quedar mucha menos gente de la que CREES:",
+   "musica": "ÉPICA/Gustavo Bravetti - Babel.mp3",
+   "gancho": [
+    13,
+    14
+   ]
+  }
+ },
+ "corrige": [
+  [
+   "empiezas a poner límites y durante",
+   "Empiezas a poner límites y durante"
+  ],
+  [
+   "así que cuando venga",
+   "Así que cuando venga"
+  ]
+ ]
+}

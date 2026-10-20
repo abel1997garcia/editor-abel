@@ -1,0 +1,146 @@
+APUNTES: NEUROQUÍMICA DEL ÁNIMO, MICROBIOTA, ALIMENTACIÓN (TIM SPECTOR) Y AYUNO
+Cómo la química del cerebro y del intestino, la comida y el ayuno afectan a la energía, el ánimo, los pensamientos y la claridad mental, y qué prácticas se derivan.
+Apuntes propios, escritos a partir de la investigación publicada (citada en cada apartado) y de la divulgación de Tim Spector (ZOE), Anna Lembke y Andrew Huberman. Cuando una afirmación es divulgativa y no está bien demostrada, se indica.
+
+======================================================================
+PARTE 1. LA QUÍMICA DEL ESTADO DE ÁNIMO (explicada para la persona)
+======================================================================
+Un aviso de partida: el cerebro no funciona con "una molécula para cada emoción". Son sistemas que interactúan. Pero conocer los principales ayuda a entender POR QUÉ funcionan las prácticas.
+
+1.1 DOPAMINA: la molécula del "quiero más" (motivación, búsqueda, anticipación)
+- No es la molécula del placer, sino la de la MOTIVACIÓN y la ANTICIPACIÓN de la recompensa. Sube más cuando esperamos algo que cuando lo conseguimos.
+- **El equilibrio placer-dolor** (Anna Lembke, *Generación dopamina*, Stanford): el cerebro funciona como una balanza. Cada pico de placer fácil (azúcar, redes sociales, pornografía, compras, alcohol, juego, series sin fin) va seguido de una caída por debajo del nivel de partida. Si se repite, el cerebro se adapta: hace falta cada vez más para sentir lo mismo, y el estado de base se vuelve apático, ansioso o irritable.
+- La vía contraria: el "dolor" voluntario (ejercicio, frío, esfuerzo, abstinencia temporal) va seguido de un rebote de bienestar más duradero.
+- Prácticas:
+  · **Ayuno de dopamina bien entendido** (Lembke): 30 días sin la conducta compulsiva concreta (no "sin dopamina", que no existe). Las semanas 1–2 suelen ser peores (abstinencia); hacia la semana 3–4 mejoran el ánimo y la motivación.
+  · Dopamina "sana": terminar tareas, metas pequeñas cumplidas (Hill: el plan por pasos), ejercicio, frío, aprender, música y luz solar por la mañana.
+  · Disfrutar del ESFUERZO en sí, no solo del resultado: celebrar el proceso mantiene la motivación.
+- Puentes: el nivel del deseo (125) en Hawkins, con su "esclavitud" (aquí está la química de esa esclavitud); la adicción a las emociones de Dispenza; las formas de "anestesiar" el dolor de Zani; la energía sexual dispersa.
+
+1.2 SEROTONINA: estabilidad, calma, "estoy bien así" (el ánimo de fondo, el sueño, el apetito, la saciedad)
+- Entre el 90% y el 95% de la serotonina del cuerpo se fabrica en el INTESTINO (en las células enterocromafines, no en las bacterias, aunque las bacterias la estimulan). **Pero esa serotonina no atraviesa la barrera hematoencefálica**: no es la serotonina del cerebro. El intestino influye en el cerebro por otras vías: el nervio vago, la inflamación y los metabolitos bacterianos. Es un matiz importante, porque se repite mal en mucha divulgación.
+- La serotonina del cerebro se fabrica a partir del triptófano (presente en huevos, pescado, lácteos, legumbres, semillas, avena y plátano).
+- Lo que la favorece: la **luz solar** (sobre todo por la mañana), el **ejercicio** rítmico, el contacto social, recordar momentos buenos, la dieta mediterránea y dormir bien.
+- Los antidepresivos ISRS actúan sobre ella (ver "Apuntes - Seguimiento, plazos y efecto placebo", parte 5.5: nunca se dejan sin médico).
+
+1.3 OXITOCINA: vínculo, confianza, seguridad con otros
+- Se libera con el contacto físico (abrazos de más de 20 segundos, caricias, masaje), el sexo, la lactancia, la mirada cariñosa, el contacto con mascotas, cantar en grupo y la generosidad.
+- Calma el miedo y la amígdala y favorece la co-regulación (polivagal).
+- Puentes: la herida de abandono, la "ruptura del vínculo con la madre" (Wolynn), el chakra del corazón y Fuego en la MTC.
+
+1.4 ENDORFINAS: el analgésico natural
+- Se liberan con el ejercicio intenso o prolongado, la risa, el llanto, el picante, el chocolate negro, el sexo y la música que emociona. Son las mismas que se activan en el efecto placebo.
+
+1.5 CORTISOL Y ADRENALINA: alerta y estrés
+- El cortisol tiene un pico natural al despertar (que da energía para empezar el día) y debe bajar por la noche. El estrés crónico lo mantiene alto: insomnio, ansiedad, grasa abdominal, defensas bajas y memoria peor.
+- Lo regulan: la luz natural por la mañana, el horario regular, la respiración lenta, la naturaleza, el contacto, el ejercicio sin excesos y el sueño.
+- Puente: la simpaticotonía de Hamer y el estado simpático polivagal.
+
+1.6 GABA: el freno del sistema nervioso
+- Se asocia a la calma. Un estudio (Streeter y col., 2010) encontró que el GABA cerebral subía más con yoga que con caminar. Lo apoyan la respiración lenta, la meditación y el sueño. El alcohol lo imita, y por eso genera dependencia.
+
+1.7 BDNF: el "fertilizante" de las neuronas (neuroplasticidad)
+- Es la base biológica del "cambiar el cerebro" de Lipton y Dispenza. Sube con el **ejercicio aeróbico** (lo más demostrado), el aprendizaje, el sueño y quizá el ayuno. El estudio del retiro de Dispenza (2025) encontró subidas de BDNF (con 20 personas y sin grupo de control).
+
+TABLA RÁPIDA PARA LA LLAMADA ("¿qué química necesito?")
+- Sin motivación o apatía → dopamina: una meta pequeña cumplida, frío, ejercicio, luz, y quitar los placeres fáciles.
+- Ánimo bajo de fondo o mal sueño → serotonina: sol por la mañana, caminar, ritmo, triptófano y dieta mediterránea.
+- Soledad o miedo en las relaciones → oxitocina: abrazos, contacto, conexión y mascotas.
+- Dolor o tensión → endorfinas: ejercicio, risa, llanto, música.
+- Ansiedad o estrés → bajar el cortisol y subir el GABA: respiración lenta, yoga, naturaleza, sueño.
+- Bloqueo, "no puedo cambiar" → BDNF: ejercicio aeróbico más aprendizaje y práctica (neuroplasticidad).
+
+======================================================================
+PARTE 2. MICROBIOTA Y EJE INTESTINO-CEREBRO
+======================================================================
+2.1 QUÉ SABEMOS
+- En el intestino viven billones de bacterias (la microbiota), que se comunican con el cerebro a través de:
+  · El **nervio vago**: la autopista directa intestino-cerebro. (Es el mismo nervio de la teoría polivagal.)
+  · La **inflamación**: una microbiota pobre aumenta la inflamación, y la inflamación se asocia a depresión y fatiga.
+  · Los **metabolitos**, como los ácidos grasos de cadena corta (butirato), que producen las bacterias al fermentar la fibra y que protegen la barrera intestinal y modulan la inmunidad y el cerebro.
+  · La serotonina intestinal y otras señales, que afectan al cerebro de forma indirecta.
+- Las personas con depresión tienen, de media, una microbiota distinta y menos diversa (metaanálisis de Sanada y col., 2020). La relación causa-efecto en humanos aún no está clara: la depresión también cambia la forma de comer.
+
+2.2 LO QUE ESTÁ MEJOR DEMOSTRADO
+- **Ensayo SMILES** (Jacka y col., 2017, *BMC Medicine*): adultos con depresión moderada o grave. Durante 12 semanas, un grupo siguió una dieta de tipo mediterráneo (verduras, legumbres, cereales integrales, pescado, aceite de oliva, frutos secos, fermentados) y el otro recibió apoyo social. **Alrededor de un tercio del grupo de dieta remitió, frente a un 8% del grupo de control.**
+- **Fermentados** (Wastyk y col., 2021, *Cell*, Stanford): durante 10 semanas con unas 6 raciones al día de fermentados (yogur, kéfir, chucrut, kimchi, kombucha, encurtidos), la **diversidad de la microbiota aumentó y bajaron 19 marcadores de inflamación** (entre ellos la IL-6). La dieta alta en fibra sola no logró eso en ese plazo. Fue un estudio pequeño, con 36 personas.
+- **Diversidad de plantas** (American Gut Project, McDonald y col., 2018, *mSystems*, unas 11.000 personas): quienes comían **más de 30 plantas distintas por semana** tenían una microbiota más diversa y con más bacterias productoras de butirato que quienes comían 10 o menos. Es un estudio de asociación, no demuestra causa.
+- **Probióticos para el ánimo** ("psicobióticos"): los metaanálisis encuentran efectos pequeños y variables. Son más prometedores como complemento que como tratamiento principal. La comida real con fibra y fermentados tiene una base más sólida que las cápsulas.
+
+2.3 PUENTES CON LA BIBLIOTECA
+- En la MTC, Tierra (Bazo y Estómago) se relaciona con la preocupación y la rumiación; el Intestino grueso (Metal), con soltar.
+- Hamer: el intestino es endodermo, el "bocado" (lo que no puedo digerir). *Problemas digestivos* y *Sobrepeso* están en la biblioteca.
+- Simbolismos: "el alimento es amor, el amor es la madre".
+- El "segundo cerebro" (el sistema nervioso entérico) da una base física a la idea de "sentirlo en las tripas".
+
+======================================================================
+PARTE 3. QUÉ COMER Y EN QUÉ ORDEN (Tim Spector y ZOE, con su evidencia)
+======================================================================
+Tim Spector es catedrático de epidemiología genética en el King's College de Londres, cofundador de ZOE y autor de *Spoon-Fed* y *Food for Life*. Sus mensajes principales y lo que los respalda:
+
+3.1 LOS 5 PRINCIPIOS PRÁCTICOS
+1. **30 plantas distintas a la semana**: verduras, frutas, legumbres, cereales integrales, frutos secos, semillas, hierbas y especias. Cada una cuenta como 1, y hierbas y especias como ¼. (Respaldo: el American Gut Project, en asociación.)
+   - Truco: mezclas de semillas, de frutos secos y de legumbres, hierbas frescas y especias. Un "puñado de 5 semillas" ya suma unos 5 puntos.
+2. **Fermentados a diario**: 2–3 "pequeñas dosis" al día (yogur natural, kéfir, chucrut sin pasteurizar, kimchi, kombucha, queso curado, miso). (Respaldo: Wastyk, 2021.)
+3. **Comer el arcoíris**: plantas de colores intensos, ricas en polifenoles (frutos rojos, cacao puro, café, té verde, aceite de oliva virgen extra, verduras de colores). Los polifenoles alimentan a las bacterias "buenas".
+4. **Reducir los ultraprocesados** (productos con muchos ingredientes industriales, emulsionantes, edulcorantes, aceites refinados). Se asocian a más depresión, obesidad y mortalidad en grandes estudios observacionales. Un ensayo controlado (Hall y col., 2019, NIH) mostró que con una dieta ultraprocesada se comen unas **500 kcal más al día** sin darse cuenta.
+5. **Cada persona responde distinto**: el estudio PREDICT de ZOE encontró que personas distintas, e incluso gemelos, responden de forma muy diferente a una misma comida en glucosa y grasa. No hay una dieta perfecta universal: hay que observar cómo responde cada uno.
+
+3.2 EL ORDEN DE LOS ALIMENTOS EN EL PLATO (secuenciación)
+**Primero verduras o fibra, después proteína y grasa, y los carbohidratos (pan, pasta, arroz, patata, dulce) al final.**
+- Evidencia: Shukla y col. (Weill Cornell, *Diabetes Care*, 2015): con la misma comida, comer primero verdura y proteína redujo la glucosa entre un 29% y un 37% a los 30–60 minutos, en comparación con empezar por los carbohidratos. Lo confirmaron en estudios de 2017 (más de un 50% de reducción del pico) y de 2019 (en prediabetes, más de un 40%). Los estudios se hicieron sobre todo en personas con diabetes o prediabetes. En personas sanas el efecto también aparece, aunque es menor.
+- Por qué: la fibra y la proteína ralentizan el vaciado del estómago y la absorción de la glucosa.
+- Otros trucos con evidencia moderada (divulgados también por Jessie Inchauspé, "Glucose Goddess"):
+  · Una cucharada de vinagre en un vaso de agua antes de una comida rica en carbohidratos reduce algo el pico de glucosa.
+  · **Caminar 10–15 minutos después de comer** reduce el pico de glucosa (metaanálisis de Buffey y col., 2022).
+  · Desayuno salado (proteína, grasa y verdura) en lugar de dulce.
+  · El dulce como "postre", después de comer, no solo en ayunas ni a media tarde.
+
+3.3 GLUCOSA, ENERGÍA Y ÁNIMO (la parte que la persona nota)
+- Los picos grandes de glucosa van seguidos de bajadas, y en las bajadas aparecen cansancio, hambre, irritabilidad, antojos de dulce y peor concentración. Estudios del PREDICT asociaron las "caídas" de glucosa a más hambre y a comer más en las horas siguientes.
+- La persona puede probarlo ella misma: 2 semanas comiendo en orden, con un desayuno salado y un paseo después de comer, y apuntar la energía de las 11 h y de las 17 h (de 0 a 10) y los antojos. Es un experimento personal y medible.
+- Es divulgación con base parcial: la relación directa entre los picos de glucosa y el ánimo en personas sanas está menos demostrada que el efecto sobre la glucosa.
+
+3.4 PLATO BASE "MICROBIOTA Y ÁNIMO" (combina SMILES, Spector y el orden)
+- La mitad del plato con verduras variadas y de colores (se come primero).
+- Un cuarto con proteína (legumbres, pescado, huevos, pollo, tofu).
+- Un cuarto con carbohidrato integral (al final).
+- Aceite de oliva virgen extra, un puñado de semillas o frutos secos y una ración de fermentado.
+- Agua. Alcohol mínimo (altera el sueño, el ánimo y la microbiota).
+
+======================================================================
+PARTE 4. EL AYUNO Y SU EFECTO EN LA ENERGÍA, LOS PENSAMIENTOS Y LA CLARIDAD MENTAL
+======================================================================
+4.1 TIPOS
+- Alimentación con horario restringido (TRE): comer dentro de una ventana diaria (12:12, 14:10, 16:8), por ejemplo de 10 a 18 h.
+- Ayuno intermitente: días alternos, el 5:2 (2 días por semana con unas 500–600 kcal).
+- Ayunos largos de más de 24–72 h: solo con supervisión.
+
+4.2 QUÉ DICE LA EVIDENCIA (con honestidad)
+- **Peso y metabolismo**: el ayuno intermitente funciona más o menos igual que reducir calorías de forma continua. Una revisión de revisiones (Sun y col., 2024, *eClinicalMedicine*) confirma beneficios modestos en peso y en marcadores metabólicos. Gran parte del efecto viene de comer menos, y comer de día y temprano encaja mejor con el ritmo circadiano.
+- **Claridad mental y cognición**: mucha gente dice que tiene más claridad y foco en ayunas, y hay explicaciones posibles (subida de noradrenalina, cetonas como combustible, menos "modorra" después de comer). **Pero un gran metaanálisis** (*Psychological Bulletin*, 63 estudios) **no encontró diferencias en el rendimiento cognitivo entre ayunas y después de comer**. Las revisiones en personas mayores ven un posible beneficio, pero con pocos ensayos, y parte puede deberse a la pérdida de peso. En resumen: algunas personas se sienten más claras y otras peor (irritables, con dolor de cabeza o con la cabeza en la comida). **Es individual: hay que probarlo y medirlo.**
+- **Ánimo**: los resultados son mixtos. En algunos estudios mejora algo el ánimo o hay "subidón" en los primeros días. En otros aumentan la irritabilidad y el hambre. Puede empeorar la ansiedad y la relación con la comida en personas vulnerables.
+- **BDNF y autofagia** (la "limpieza celular"): se han demostrado sobre todo en animales. En humanos, la evidencia es limitada.
+
+4.3 PROTOCOLO PROGRESIVO PARA PROBARLO (experimento personal de 4 semanas)
+- Semana 1: 12 horas de ayuno nocturno (por ejemplo, cenar a las 20 h y desayunar a las 8 h). Sin picoteo por la noche.
+- Semana 2: 13–14 horas (retrasar el desayuno o adelantar la cena). **Mejor adelantar la cena** (cenar temprano) que saltarse el desayuno, por el ritmo circadiano.
+- Semanas 3–4 (opcional): 14–16 horas, 3–5 días por semana.
+- Durante el ayuno: agua, infusiones, café o té solos.
+- Romper el ayuno con proteína y verdura, no con dulce, siguiendo el orden de la parte 3.2.
+- MEDIR cada día: la energía de 0 a 10 (mañana y tarde), la claridad o foco de 0 a 10, la irritabilidad de 0 a 10, el sueño y los antojos. Comparar la semana 1 con la 4. Si empeoran el ánimo, el sueño, la ansiedad o la obsesión con la comida, **dejarlo**: a esa persona no le va bien.
+
+⚠️ NO HACER AYUNO sin supervisión médica en caso de embarazo o lactancia; antecedentes de trastornos de la conducta alimentaria (anorexia, bulimia, atracones); diabetes con medicación (riesgo de hipoglucemia); bajo peso; menores de 18 años; personas mayores frágiles; o medicación que deba tomarse con comida.
+Puente con la biblioteca: el ayuno se puede vivir como "soltar" (Metal) y como disciplina o transmutación (Hill). Pero si la persona tiene la herida de humillación o un conflicto con "el alimento es la madre", el ayuno puede volverse castigo: vigílalo.
+
+======================================================================
+PARTE 5. PLAN DE 4 SEMANAS "CUERPO Y ÁNIMO" (para proponer en una llamada)
+======================================================================
+Elige 3–4 cambios, no todos a la vez:
+- Semana 1: luz solar 10 minutos al despertar, comer en orden (primero la verdura) y caminar 10 minutos después de la comida principal. Empezar a contar plantas.
+- Semana 2: añadir 1–2 fermentados al día, un desayuno salado y 30 segundos de ducha fría al final.
+- Semana 3: 20 o más plantas por semana, la cena 2–3 horas antes de dormir (12–13 horas de ayuno nocturno) y 30 minutos de ejercicio 3 veces por semana.
+- Semana 4: 30 plantas, un ultraprocesado menos al día, un ayuno de 14 horas si a la persona le sienta bien y 1–2 minutos de frío.
+MEDIR: el WHO-5 al empezar y en la semana 4; la energía de las 11 h y de las 17 h, los antojos y el sueño, a diario (1 minuto); el número de plantas a la semana.
+QUÉ ESPERAR: en 1–2 semanas, energía más estable y menos antojos (si la glucosa era el problema). En 3–6 semanas, mejor tránsito y digestión y quizá mejor ánimo. En 8–12 semanas, cambios medibles en el ánimo, que es el plazo del ensayo SMILES.
+⚠️ Las personas con enfermedades digestivas (colon irritable, enfermedad inflamatoria intestinal, SIBO) pueden empeorar con mucha fibra o con fermentados. Deben ir despacio y con un profesional.

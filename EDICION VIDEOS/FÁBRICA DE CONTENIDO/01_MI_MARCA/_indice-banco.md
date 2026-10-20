@@ -101,7 +101,7 @@
 | B-097 | 4 | Nivel 3-4 — Ampliación cruda (posicionamiento llevado a nivel personal) | Necesitas demostrarle algo a tu padre o a tu entorno, y mientras lo necesites, nada de lo que construyas va a ser tuyo. |
 | B-098 | 5 | Nivel 5 — Ganchos y títulos para Reels/YouTube | Por qué odiar al que triunfa dice más de ti que de él. (gancho: tú mismo lo sentiste con hombres que veías “más hechos” que tú.) |
 | B-099 | 5 | Nivel 5 — Ganchos y títulos para Reels/YouTube | La razón real por la que llevas años posponiendo. Y no es pereza. |
-| B-100 | 5 | Nivel 5 — Ganchos y títulos para Reels/YouTube | Puedes facturar 15.000€ al mes y no dormir por las noches. Esto es por qué. (gancho: te pasó.) |
+| B-100 | 5 | Nivel 5 — Ganchos y títulos para Reels/YouTube | Puedes facturar 17.000€ al mes y no dormir por las noches. Esto es por qué. (gancho: te pasó.) |
 | B-101 | 5 | Nivel 5 — Ganchos y títulos para Reels/YouTube | Por qué necesitas que te elijan para sentirte suficiente. |
 | B-102 | 5 | Nivel 5 — Ganchos y títulos para Reels/YouTube | Lo que te está haciendo tragártelo todo en silencio. (gancho: “lo mío me lo trago solo”, la regla que aprendiste de niño.) |
 | B-103 | 5 | Nivel 5 — Ganchos y títulos para Reels/YouTube | La creencia que te mantiene pobre y no es sobre el dinero. |

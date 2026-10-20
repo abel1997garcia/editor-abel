@@ -1,0 +1,73 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Montserrat Medium,64,&H00FFFFFF,&H00FFFFFF,&H70000000,&H80000000,0,0,0,0,100,100,0,0,1,3,2,5,0,0,0,1
+Style: B,Montserrat ExtraBold,80,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.38,B,,0,0,0,,{\pos(540,1415)}Una chica ganó 112 millones
+Dialogue: 0,0:00:01.38,0:00:02.71,B,,0,0,0,,{\pos(540,1415)}y dice que fue
+Dialogue: 0,0:00:02.71,0:00:03.30,B,,0,0,0,,{\pos(540,1415)}por esto
+Dialogue: 0,0:00:03.30,0:00:04.36,B,,0,0,0,,{\pos(540,1415)}Cynthia stafford ganó 112
+Dialogue: 0,0:00:04.36,0:00:05.15,B,,0,0,0,,{\pos(540,1415)}millones de dólares
+Dialogue: 0,0:00:05.15,0:00:06.46,B,,0,0,0,,{\pos(540,1415)}y te aseguro que fue
+Dialogue: 0,0:00:06.46,0:00:07.56,B,,0,0,0,,{\pos(540,1415)}porque hacía cada día estas
+Dialogue: 0,0:00:07.56,0:00:08.52,B,,0,0,0,,{\pos(540,1415)}cuatro cosas
+Dialogue: 0,0:00:08.52,0:00:09.07,B,,0,0,0,,{\pos(540,1415)}Punto 1
+Dialogue: 0,0:00:09.07,0:00:10.16,B,,0,0,0,,{\pos(540,1415)}Cuando le venía un pensamiento
+Dialogue: 0,0:00:10.16,0:00:10.76,B,,0,0,0,,{\pos(540,1415)}negativo
+Dialogue: 0,0:00:10.76,0:00:12.01,B,,0,0,0,,{\pos(540,1415)}no se enganchaba y no
+Dialogue: 0,0:00:12.01,0:00:13.11,B,,0,0,0,,{\pos(540,1415)}se dejaba llevar por ese
+Dialogue: 0,0:00:13.11,0:00:13.76,B,,0,0,0,,{\pos(540,1415)}pensamiento
+Dialogue: 0,0:00:13.76,0:00:15.08,B,,0,0,0,,{\pos(540,1415)}Ella había tenido una infancia
+Dialogue: 0,0:00:15.08,0:00:16.46,B,,0,0,0,,{\pos(540,1415)}muy dura de pérdidas
+Dialogue: 0,0:00:16.46,0:00:17.18,B,,0,0,0,,{\pos(540,1415)}de golpes
+Dialogue: 0,0:00:17.18,0:00:18.08,B,,0,0,0,,{\pos(540,1415)}pero no dejaba
+Dialogue: 0,0:00:18.08,0:00:19.33,B,,0,0,0,,{\pos(540,1415)}que se enganchara con esas
+Dialogue: 0,0:00:19.33,0:00:20.00,B,,0,0,0,,{\pos(540,1415)}experiencias
+Dialogue: 0,0:00:20.00,0:00:20.65,B,,0,0,0,,{\pos(540,1415)}Punto 2
+Dialogue: 0,0:00:20.65,0:00:21.47,B,,0,0,0,,{\pos(540,1415)}la autoestima
+Dialogue: 0,0:00:21.47,0:00:22.81,B,,0,0,0,,{\pos(540,1415)}Ella cada mañana se decía
+Dialogue: 0,0:00:22.81,0:00:23.48,B,,0,0,0,,{\pos(540,1415)}que era la persona
+Dialogue: 0,0:00:23.48,0:00:24.64,B,,0,0,0,,{\pos(540,1415)}con más suerte del mundo
+Dialogue: 0,0:00:24.64,0:00:25.21,B,,0,0,0,,{\pos(540,1415)}Y no solamente
+Dialogue: 0,0:00:25.21,0:00:25.75,B,,0,0,0,,{\pos(540,1415)}se lo decía
+Dialogue: 0,0:00:25.75,0:00:26.74,B,,0,0,0,,{\pos(540,1415)}sino que también
+Dialogue: 0,0:00:26.74,0:00:27.74,B,,0,0,0,,{\pos(540,1415)}y lo más importante
+Dialogue: 0,0:00:27.74,0:00:28.42,B,,0,0,0,,{\pos(540,1415)}se lo creía
+Dialogue: 0,0:00:28.42,0:00:28.88,B,,0,0,0,,{\pos(540,1415)}Punto 3
+Dialogue: 0,0:00:28.88,0:00:29.42,B,,0,0,0,,{\pos(540,1415)}la confianza
+Dialogue: 0,0:00:29.42,0:00:30.43,B,,0,0,0,,{\pos(540,1415)}y aquí es donde falla
+Dialogue: 0,0:00:30.43,0:00:31.06,B,,0,0,0,,{\pos(540,1415)}todo el mundo
+Dialogue: 0,0:00:31.06,0:00:32.83,B,,0,0,0,,{\pos(540,1415)}No estaba esperando algo
+Dialogue: 0,0:00:32.83,0:00:33.78,B,,0,0,0,,{\pos(540,1415)}impacientemente
+Dialogue: 0,0:00:33.78,0:00:35.32,B,,0,0,0,,{\pos(540,1415)}sino que tenía tanta seguridad
+Dialogue: 0,0:00:35.32,0:00:35.96,B,,0,0,0,,{\pos(540,1415)}en que eso iba
+Dialogue: 0,0:00:35.96,0:00:36.35,B,,0,0,0,,{\pos(540,1415)}a ocurrir
+Dialogue: 0,0:00:36.35,0:00:37.31,B,,0,0,0,,{\pos(540,1415)}Que era cuestión de tiempo
+Dialogue: 0,0:00:37.31,0:00:37.85,B,,0,0,0,,{\pos(540,1415)}Punto 4
+Dialogue: 0,0:00:37.85,0:00:38.77,B,,0,0,0,,{\pos(540,1415)}lo imaginaba
+Dialogue: 0,0:00:38.77,0:00:40.33,B,,0,0,0,,{\pos(540,1415)}ponía cifras por todas partes
+Dialogue: 0,0:00:40.33,0:00:41.83,B,,0,0,0,,{\pos(540,1415)}incluso ya tenía la idea
+Dialogue: 0,0:00:41.83,0:00:43.06,B,,0,0,0,,{\pos(540,1415)}de en qué se lo iba
+Dialogue: 0,0:00:43.06,0:00:43.57,B,,0,0,0,,{\pos(540,1415)}a gastar
+Dialogue: 0,0:00:43.57,0:00:44.98,B,,0,0,0,,{\pos(540,1415)}Tú haces justo lo contrario
+Dialogue: 0,0:00:44.98,0:00:45.88,B,,0,0,0,,{\pos(540,1415)}te llega un pensamiento
+Dialogue: 0,0:00:45.88,0:00:46.44,B,,0,0,0,,{\pos(540,1415)}negativo
+Dialogue: 0,0:00:46.44,0:00:47.34,B,,0,0,0,,{\pos(540,1415)}te enganchas
+Dialogue: 0,0:00:47.34,0:00:48.46,B,,0,0,0,,{\pos(540,1415)}empiezas a dudar de todo
+Dialogue: 0,0:00:48.46,0:00:49.72,B,,0,0,0,,{\pos(540,1415)}y eso mismo te desanima
+Dialogue: 0,0:00:49.72,0:00:50.35,B,,0,0,0,,{\pos(540,1415)}Y no hace falta
+Dialogue: 0,0:00:50.35,0:00:51.08,B,,0,0,0,,{\pos(540,1415)}que te toque nada
+Dialogue: 0,0:00:51.08,0:00:52.46,B,,0,0,0,,{\pos(540,1415)}Empieza por el punto 2
+Dialogue: 0,0:00:52.46,0:00:53.03,B,,0,0,0,,{\pos(540,1415)}empieza a trabajar
+Dialogue: 0,0:00:53.03,0:00:54.22,B,,0,0,0,,{\pos(540,1415)}tu autoestima y te aseguro
+Dialogue: 0,0:00:54.22,0:00:55.24,B,,0,0,0,,{\pos(540,1415)}de que con el tiempo
+Dialogue: 0,0:00:55.24,0:00:56.43,B,,0,0,0,,{\pos(540,1415)}vas a creerte merecedor
+Dialogue: 0,0:00:56.43,0:00:57.16,B,,0,0,0,,{\pos(540,1415)}de mucho más

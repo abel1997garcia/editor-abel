@@ -1,0 +1,72 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Montserrat Medium,64,&H00FFFFFF,&H00FFFFFF,&H70000000,&H80000000,0,0,0,0,100,100,0,0,1,3,2,5,0,0,0,1
+Style: B,Montserrat ExtraBold,80,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.01,0:00:00.88,B,,0,0,0,,{\pos(540,1415)}¿Por qué nadie te elige
+Dialogue: 0,0:00:00.88,0:00:01.44,B,,0,0,0,,{\pos(540,1415)}aunque lo des todo?
+Dialogue: 0,0:00:01.44,0:00:02.00,B,,0,0,0,,{\pos(540,1415)}A lo mejor eres
+Dialogue: 0,0:00:02.00,0:00:03.01,B,,0,0,0,,{\pos(540,1415)}la persona que más da
+Dialogue: 0,0:00:03.01,0:00:03.69,B,,0,0,0,,{\pos(540,1415)}la que siempre está
+Dialogue: 0,0:00:03.69,0:00:04.99,B,,0,0,0,,{\pos(540,1415)}la que nunca se queja
+Dialogue: 0,0:00:04.99,0:00:05.57,B,,0,0,0,,{\pos(540,1415)}la que siempre dice
+Dialogue: 0,0:00:05.57,0:00:06.53,B,,0,0,0,,{\pos(540,1415)}que sí cuando quiere decir
+Dialogue: 0,0:00:06.53,0:00:06.88,B,,0,0,0,,{\pos(540,1415)}que no
+Dialogue: 0,0:00:06.88,0:00:07.61,B,,0,0,0,,{\pos(540,1415)}Y nada de eso hace
+Dialogue: 0,0:00:07.61,0:00:07.96,B,,0,0,0,,{\pos(540,1415)}que te elijan
+Dialogue: 0,0:00:07.96,0:00:08.71,B,,0,0,0,,{\pos(540,1415)}y que te respeten
+Dialogue: 0,0:00:08.71,0:00:09.42,B,,0,0,0,,{\pos(540,1415)}porque se nota
+Dialogue: 0,0:00:09.42,0:00:10.11,B,,0,0,0,,{\pos(540,1415)}que lo estás haciendo
+Dialogue: 0,0:00:10.11,0:00:10.85,B,,0,0,0,,{\pos(540,1415)}para que te quieran
+Dialogue: 0,0:00:10.85,0:00:11.59,B,,0,0,0,,{\pos(540,1415)}Y por eso la persona
+Dialogue: 0,0:00:11.59,0:00:12.73,B,,0,0,0,,{\pos(540,1415)}que menos da a veces
+Dialogue: 0,0:00:12.73,0:00:13.45,B,,0,0,0,,{\pos(540,1415)}es la más valorada
+Dialogue: 0,0:00:13.45,0:00:14.00,B,,0,0,0,,{\pos(540,1415)}Y tú que lo das
+Dialogue: 0,0:00:14.00,0:00:14.32,B,,0,0,0,,{\pos(540,1415)}todo
+Dialogue: 0,0:00:14.32,0:00:15.38,B,,0,0,0,,{\pos(540,1415)}acabas sintiendo que nunca
+Dialogue: 0,0:00:15.38,0:00:16.19,B,,0,0,0,,{\pos(540,1415)}es suficiente
+Dialogue: 0,0:00:16.19,0:00:16.50,B,,0,0,0,,{\pos(540,1415)}Entonces
+Dialogue: 0,0:00:16.50,0:00:17.01,B,,0,0,0,,{\pos(540,1415)}¿qué cambia?
+Dialogue: 0,0:00:17.01,0:00:17.73,B,,0,0,0,,{\pos(540,1415)}Dos cosas
+Dialogue: 0,0:00:17.73,0:00:18.51,B,,0,0,0,,{\pos(540,1415)}La primera es que cuando
+Dialogue: 0,0:00:18.51,0:00:19.67,B,,0,0,0,,{\pos(540,1415)}dices que sí queriendo decir
+Dialogue: 0,0:00:19.67,0:00:19.99,B,,0,0,0,,{\pos(540,1415)}que no
+Dialogue: 0,0:00:19.99,0:00:21.16,B,,0,0,0,,{\pos(540,1415)}te estás traicionando y eso
+Dialogue: 0,0:00:21.16,0:00:22.60,B,,0,0,0,,{\pos(540,1415)}te hace bajar tu energía
+Dialogue: 0,0:00:22.60,0:00:23.00,B,,0,0,0,,{\pos(540,1415)}y por tanto
+Dialogue: 0,0:00:23.00,0:00:23.56,B,,0,0,0,,{\pos(540,1415)}tu autoestima
+Dialogue: 0,0:00:23.56,0:00:24.50,B,,0,0,0,,{\pos(540,1415)}Y la gente lo nota
+Dialogue: 0,0:00:24.50,0:00:25.58,B,,0,0,0,,{\pos(540,1415)}aunque no sepa explicarlo
+Dialogue: 0,0:00:25.58,0:00:26.19,B,,0,0,0,,{\pos(540,1415)}Y la segunda
+Dialogue: 0,0:00:26.19,0:00:27.22,B,,0,0,0,,{\pos(540,1415)}es que no te eliges
+Dialogue: 0,0:00:27.22,0:00:27.70,B,,0,0,0,,{\pos(540,1415)}tú primero
+Dialogue: 0,0:00:27.70,0:00:28.59,B,,0,0,0,,{\pos(540,1415)}Y no desde el orgullo
+Dialogue: 0,0:00:28.59,0:00:29.37,B,,0,0,0,,{\pos(540,1415)}sino el respeto
+Dialogue: 0,0:00:29.37,0:00:30.16,B,,0,0,0,,{\pos(540,1415)}y piénsalo bien
+Dialogue: 0,0:00:30.16,0:00:30.74,B,,0,0,0,,{\pos(540,1415)}nadie se va a quedar
+Dialogue: 0,0:00:30.74,0:00:31.43,B,,0,0,0,,{\pos(540,1415)}al lado ni va
+Dialogue: 0,0:00:31.43,0:00:32.12,B,,0,0,0,,{\pos(540,1415)}a respetar a nadie
+Dialogue: 0,0:00:32.12,0:00:32.93,B,,0,0,0,,{\pos(540,1415)}que no se respeta
+Dialogue: 0,0:00:32.93,0:00:33.98,B,,0,0,0,,{\pos(540,1415)}Yo llegué a ganar 17.000
+Dialogue: 0,0:00:33.98,0:00:34.66,B,,0,0,0,,{\pos(540,1415)}euros en un mes
+Dialogue: 0,0:00:34.66,0:00:34.92,B,,0,0,0,,{\pos(540,1415)}y aún
+Dialogue: 0,0:00:34.92,0:00:35.72,B,,0,0,0,,{\pos(540,1415)}así me sentía vacío
+Dialogue: 0,0:00:35.72,0:00:36.59,B,,0,0,0,,{\pos(540,1415)}porque estaba buscando
+Dialogue: 0,0:00:36.59,0:00:37.96,B,,0,0,0,,{\pos(540,1415)}que todo mi valor proveniera
+Dialogue: 0,0:00:37.96,0:00:38.74,B,,0,0,0,,{\pos(540,1415)}de lo externo
+Dialogue: 0,0:00:38.74,0:00:39.62,B,,0,0,0,,{\pos(540,1415)}Así que deja de darlo
+Dialogue: 0,0:00:39.62,0:00:40.65,B,,0,0,0,,{\pos(540,1415)}todo para que te quieran
+Dialogue: 0,0:00:40.65,0:00:41.72,B,,0,0,0,,{\pos(540,1415)}y empieza a dártelo tú
+Dialogue: 0,0:00:41.72,0:00:42.37,B,,0,0,0,,{\pos(540,1415)}Porque cuando elevas
+Dialogue: 0,0:00:42.37,0:00:43.21,B,,0,0,0,,{\pos(540,1415)}tu energía y mejoras
+Dialogue: 0,0:00:43.21,0:00:43.86,B,,0,0,0,,{\pos(540,1415)}tu autoestima
+Dialogue: 0,0:00:43.86,0:00:44.69,B,,0,0,0,,{\pos(540,1415)}la gente que te quiere
+Dialogue: 0,0:00:44.69,0:00:45.76,B,,0,0,0,,{\pos(540,1415)}y te valora llega sola

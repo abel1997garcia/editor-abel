@@ -1,0 +1,109 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  10,
+  19,
+  32,
+  33,
+  34,
+  38,
+  39,
+  40,
+  41,
+  48,
+  52,
+  56,
+  57,
+  58
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Contesta estas cinco preguntas y vas a entender por qué tu vida sigue IGUAL:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "gancho": [
+    0
+   ]
+  },
+  "r2": {
+   "titulo": "La versión de ti que se quiere jamás viviría como estás viviendo TÚ ahora:",
+   "musica": "EMOCIONAL/Andrea Vanzo - Soulmate x Amélie x Interstellar x Passacaglia.mp3",
+   "gancho": [
+    1
+   ]
+  },
+  "r3": {
+   "titulo": "Quieres otra vida pero sigues viviendo como la persona que NO quieres ser:",
+   "musica": "ÉPICA/Caleb Bryant - Imperius (instrumental) [ slowed ].mp3",
+   "gancho": [
+    5
+   ]
+  },
+  "r4": {
+   "titulo": "Vives cada día como la versión de ti que no se QUIERE, y ni lo ves:",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3",
+   "gancho": [
+    6
+   ]
+  },
+  "r5": {
+   "titulo": "Si no sabes cómo vive la persona que quieres ser, NUNCA vas a llegar:",
+   "musica": "ÉPICA/Don't tell your dreams - LOVIXX, STOSLIV.mp3",
+   "gancho": [
+    8
+   ]
+  }
+ },
+ "estilo": "historia",
+ "diapos": [
+  {
+   "frase": "Imagínate que tienes",
+   "titulo": "Tu versión que ya se **quiere**",
+   "dibujo": "escenas/historia05/1_tu_version_que_se_quiere_azul"
+  },
+  {
+   "frase": "cuánto gana",
+   "titulo": "¿Cuánto **gana** al año?",
+   "dibujo": "escenas/historia05/2_cuanto_gana_azul"
+  },
+  {
+   "frase": "cómo se viste",
+   "titulo": "¿Cómo **viste** y se mueve?",
+   "dibujo": "escenas/historia05/3_como_viste_azul"
+  },
+  {
+   "frase": "dónde vive",
+   "titulo": "¿Dónde **vive**?",
+   "dibujo": "escenas/historia05/4_donde_vive_azul"
+  },
+  {
+   "frase": "de qué habla",
+   "titulo": "¿De qué **habla**?",
+   "dibujo": "escenas/historia05/5_de_que_habla_azul"
+  },
+  {
+   "frase": "cómo reacciona",
+   "titulo": "¿Cómo **reacciona** si sale mal?",
+   "dibujo": "escenas/historia05/6_como_reacciona_azul"
+  },
+  {
+   "frase": "ahora lo más importante",
+   "titulo": "Vive como si ya fuera **verdad**",
+   "dibujo": "escenas/historia05/7_vive_como_si_ya_azul"
+  },
+  {
+   "frase": "durante un mes",
+   "titulo": "Hazlo un **mes** entero",
+   "dibujo": "escenas/historia05/8_un_mes_entero_azul"
+  }
+ ],
+ "corrige": [
+  [
+   "Me duda de los huevos",
+   "Me suda los huevos"
+  ],
+  [
+   "Aldo",
+   "Hazlo"
+  ]
+ ]
+}

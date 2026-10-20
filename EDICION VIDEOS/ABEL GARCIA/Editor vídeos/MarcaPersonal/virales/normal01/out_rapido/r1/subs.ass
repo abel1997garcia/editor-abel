@@ -1,0 +1,132 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Montserrat Black,64,&H00FFFFFF,&H00FFFFFF,&H50000000,&H60000000,0,0,0,0,100,100,0,0,1,4,3,5,0,0,0,1
+Style: B,Montserrat ExtraBold,80,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.01,0:00:00.24,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}La ley
+Dialogue: 0,0:00:00.24,0:00:00.87,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}de\Natracción
+Dialogue: 0,0:00:00.87,0:00:01.36,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}explicada
+Dialogue: 0,0:00:01.36,0:00:02.01,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}fácilmente
+Dialogue: 0,0:00:02.01,0:00:02.28,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}Atraes
+Dialogue: 0,0:00:02.28,0:00:02.82,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}lo que eres
+Dialogue: 0,0:00:02.82,0:00:03.38,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}y lo que\Neres
+Dialogue: 0,0:00:03.38,0:00:04.19,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}es lo que\Npiensas
+Dialogue: 0,0:00:04.19,0:00:04.34,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}de ti
+Dialogue: 0,0:00:04.34,0:00:05.02,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}lo que\Npiensas
+Dialogue: 0,0:00:05.02,0:00:05.65,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}que\Nmereces
+Dialogue: 0,0:00:05.65,0:00:05.83,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}y lo que\Nhas
+Dialogue: 0,0:00:05.83,0:00:06.35,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}vivido
+Dialogue: 0,0:00:06.35,0:00:06.96,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}Te\Npresento
+Dialogue: 0,0:00:06.96,0:00:07.55,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}a Fulano
+Dialogue: 0,0:00:07.55,0:00:08.17,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}y a\NMengano
+Dialogue: 0,0:00:08.17,0:00:08.81,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}Fulano lo\Npasó
+Dialogue: 0,0:00:08.81,0:00:09.51,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}mal de\Npequeño
+Dialogue: 0,0:00:09.51,0:00:10.20,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}y aprendió
+Dialogue: 0,0:00:10.20,0:00:10.54,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}que para
+Dialogue: 0,0:00:10.54,0:00:11.15,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}que le\Nquieran
+Dialogue: 0,0:00:11.15,0:00:11.73,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}tenía que\Ndar
+Dialogue: 0,0:00:11.73,0:00:12.32,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}un montón
+Dialogue: 0,0:00:12.32,0:00:12.75,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}Que su\Nvalor
+Dialogue: 0,0:00:12.75,0:00:13.03,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}está
+Dialogue: 0,0:00:13.03,0:00:13.39,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}en lo que\Nhace
+Dialogue: 0,0:00:13.39,0:00:13.91,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}por otros
+Dialogue: 0,0:00:13.91,0:00:14.25,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}que tenía
+Dialogue: 0,0:00:14.25,0:00:14.89,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}que\Nesforzarse
+Dialogue: 0,0:00:14.89,0:00:15.29,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}el doble
+Dialogue: 0,0:00:15.29,0:00:15.92,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}que los\Ndemás
+Dialogue: 0,0:00:15.92,0:00:16.72,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}y que lo\Nbueno
+Dialogue: 0,0:00:16.72,0:00:17.41,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}siempre\Nera
+Dialogue: 0,0:00:17.41,0:00:18.05,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}para otros
+Dialogue: 0,0:00:18.05,0:00:18.50,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}Se lo creyó
+Dialogue: 0,0:00:18.50,0:00:18.91,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}tanto
+Dialogue: 0,0:00:18.91,0:00:19.47,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}que es lo\Núnico
+Dialogue: 0,0:00:19.47,0:00:19.75,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}en lo
+Dialogue: 0,0:00:19.75,0:00:20.41,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}que se fija
+Dialogue: 0,0:00:20.41,0:00:20.98,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}Y la vida
+Dialogue: 0,0:00:20.98,0:00:21.78,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}le trae\Njusto
+Dialogue: 0,0:00:21.78,0:00:22.35,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}eso gente\Nque no
+Dialogue: 0,0:00:22.35,0:00:23.15,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}le valora
+Dialogue: 0,0:00:23.15,0:00:23.77,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}parejas\Nque no
+Dialogue: 0,0:00:23.77,0:00:24.36,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}le eligen
+Dialogue: 0,0:00:24.36,0:00:24.81,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}entorno
+Dialogue: 0,0:00:24.81,0:00:25.08,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}que se ríe
+Dialogue: 0,0:00:25.08,0:00:25.56,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}de él
+Dialogue: 0,0:00:25.56,0:00:26.02,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}Y esas\Nideas
+Dialogue: 0,0:00:26.02,0:00:26.91,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}suyas que\Nnunca
+Dialogue: 0,0:00:26.91,0:00:27.38,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}se ha\Natrevido
+Dialogue: 0,0:00:27.38,0:00:28.06,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}a enseñar
+Dialogue: 0,0:00:28.06,0:00:28.83,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}por esa\Ncreencia
+Dialogue: 0,0:00:28.83,0:00:29.60,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}interna de\Nquién
+Dialogue: 0,0:00:29.60,0:00:30.08,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}soy yo
+Dialogue: 0,0:00:30.08,0:00:30.51,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}para decir
+Dialogue: 0,0:00:30.51,0:00:31.37,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}o enseñar\Nesto
+Dialogue: 0,0:00:31.37,0:00:31.93,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}Mengano\Nvivió
+Dialogue: 0,0:00:31.93,0:00:32.39,S,,0,0,0,,{\pos(840,953)\fs77\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}exactamente
+Dialogue: 0,0:00:32.39,0:00:33.00,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}lo mismo\Nhasta
+Dialogue: 0,0:00:33.00,0:00:33.38,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}que se dio
+Dialogue: 0,0:00:33.38,0:00:33.72,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}cuenta
+Dialogue: 0,0:00:33.72,0:00:34.27,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}de que él\Nno
+Dialogue: 0,0:00:34.27,0:00:35.05,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}tenía que\Nganarse
+Dialogue: 0,0:00:35.05,0:00:35.37,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}nada
+Dialogue: 0,0:00:35.37,0:00:36.05,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}y que le\Npodían
+Dialogue: 0,0:00:36.05,0:00:36.43,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}querer
+Dialogue: 0,0:00:36.43,0:00:36.88,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}Tal y como
+Dialogue: 0,0:00:36.88,0:00:37.32,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}era él
+Dialogue: 0,0:00:37.32,0:00:37.60,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}Y empezó
+Dialogue: 0,0:00:37.60,0:00:38.10,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}a creérselo\Npoco
+Dialogue: 0,0:00:38.10,0:00:38.52,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}a poco
+Dialogue: 0,0:00:38.52,0:00:39.37,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}empezó a\Ntratarse
+Dialogue: 0,0:00:39.37,0:00:39.82,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}como\Nalguien
+Dialogue: 0,0:00:39.82,0:00:40.27,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}que\Nrealmente
+Dialogue: 0,0:00:40.27,0:00:40.96,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}se quiere
+Dialogue: 0,0:00:40.96,0:00:41.66,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}empezó a\Nenseñar
+Dialogue: 0,0:00:41.66,0:00:42.09,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}cosas
+Dialogue: 0,0:00:42.09,0:00:42.60,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}que\Nrealmente
+Dialogue: 0,0:00:42.60,0:00:43.33,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}le gustan
+Dialogue: 0,0:00:43.33,0:00:43.62,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}Y la vida
+Dialogue: 0,0:00:43.62,0:00:44.25,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}le empezó
+Dialogue: 0,0:00:44.25,0:00:44.56,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}a traer
+Dialogue: 0,0:00:44.56,0:00:45.19,S,,0,0,0,,{\pos(840,953)\fs77\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}exactamente
+Dialogue: 0,0:00:45.19,0:00:45.63,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}lo mismo
+Dialogue: 0,0:00:45.63,0:00:45.99,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}personas
+Dialogue: 0,0:00:45.99,0:00:46.75,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}que le\Nrespetan
+Dialogue: 0,0:00:46.75,0:00:47.37,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}que le\Nquieren
+Dialogue: 0,0:00:47.37,0:00:48.18,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}que le\Nvaloran
+Dialogue: 0,0:00:48.18,0:00:48.85,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}y que\Npagan
+Dialogue: 0,0:00:48.85,0:00:49.39,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}por aquello
+Dialogue: 0,0:00:49.39,0:00:49.97,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}que él sabe
+Dialogue: 0,0:00:49.97,0:00:50.50,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}Los dos\Natraen
+Dialogue: 0,0:00:50.50,0:00:51.11,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}igual de\Nbien
+Dialogue: 0,0:00:51.11,0:00:51.79,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}la\Ndiferencia
+Dialogue: 0,0:00:51.79,0:00:52.27,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}entre uno
+Dialogue: 0,0:00:52.27,0:00:52.51,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}y otro
+Dialogue: 0,0:00:52.51,0:00:53.48,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}es lo que\Nsienten
+Dialogue: 0,0:00:53.48,0:00:54.05,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}en su\Ncorazón
+Dialogue: 0,0:00:54.05,0:00:54.57,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}que\Nmerecen
+Dialogue: 0,0:00:54.57,0:00:55.11,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}Y lo que\Ncada
+Dialogue: 0,0:00:55.11,0:00:55.61,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}uno cree
+Dialogue: 0,0:00:55.61,0:00:56.26,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}de sí\Nmismo
+Dialogue: 0,0:00:56.26,0:00:56.87,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}cuando\Nestá solo
+Dialogue: 0,0:00:56.87,0:00:57.30,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}Así que no
+Dialogue: 0,0:00:57.30,0:00:57.58,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}cambies
+Dialogue: 0,0:00:57.58,0:00:58.24,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}lo que\Npides
+Dialogue: 0,0:00:58.24,0:00:58.57,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}cambia
+Dialogue: 0,0:00:58.57,0:00:59.23,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}lo que\Ncrees
+Dialogue: 0,0:00:59.23,0:00:59.87,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}en el fondo
+Dialogue: 0,0:00:59.87,0:01:00.51,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}que\Nmereces
+Dialogue: 0,0:01:00.51,0:01:01.00,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}Y empieza\Nhoy
+Dialogue: 0,0:01:01.00,0:01:01.57,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}tratándote\Ncomo
+Dialogue: 0,0:01:01.57,0:01:02.31,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}alguien\Nque ya
+Dialogue: 0,0:01:02.31,0:01:03.06,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}es\Nsuficiente
+Dialogue: 0,0:01:03.06,0:01:03.38,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}Tenga
+Dialogue: 0,0:01:03.38,0:01:03.83,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}lo que\Ntenga
+Dialogue: 0,0:01:03.83,0:01:04.23,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}o haga
+Dialogue: 0,0:01:04.23,0:01:04.67,S,,0,0,0,,{\pos(840,953)\fs89\blur4\fscx88\fscy88\t(0,120,\fscx100\fscy100)}lo que\Nhaga

@@ -1,0 +1,4 @@
+##### r1 · 51.8 s · 18 trozos
+huecos > 0,10 s (onda): ninguno ✓
+✗  23.21s se oye de más: ['educada']  ·  «una persona mal educada. Y cada»
+· reel entero replace: esperado «Maleducada.» · se oye «mal educada.»

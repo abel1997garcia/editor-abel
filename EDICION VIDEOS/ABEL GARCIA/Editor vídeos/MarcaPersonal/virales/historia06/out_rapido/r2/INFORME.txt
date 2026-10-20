@@ -1,0 +1,6 @@
+##### r2 · 54.6 s · 16 trozos
+huecos > 0,10 s (onda): [(37.83, 37.97)]
+✗  17.53s unión con 0.10 s de silencio (islas 19→19)
+· reel entero insert: esperado «» · se oye «euros»
+· reel entero replace: esperado «fuera,» · se oye «afuera,»
+· reel entero delete: esperado «o» · se oye «»

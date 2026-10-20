@@ -1,0 +1,62 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  10,
+  11,
+  12,
+  13,
+  17,
+  22,
+  23,
+  [
+   29,
+   "el único aplauso",
+   null
+  ],
+  32
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Nadie te aplaude cuando empiezas a cambiar, pero te están MIRANDO:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "gancho": [
+    0
+   ]
+  },
+  "r2": {
+   "titulo": "Cuando empieces a quererte casi nadie te va a APLAUDIR, y está bien:",
+   "musica": "EMOCIONAL/Skott - Overcome (528Hz).mp3",
+   "gancho": [
+    3,
+    4
+   ]
+  },
+  "r3": {
+   "titulo": "Nadie te aplaude por cambiar porque les recuerdas que ellos siguen IGUAL:",
+   "musica": "ÉPICA/Caleb Bryant - Imperius (instrumental) [ slowed ].mp3",
+   "gancho": [
+    6
+   ]
+  },
+  "r4": {
+   "titulo": "Si necesitas que te aplaudan para cambiar, no lo estás haciendo por TI:",
+   "musica": "EMOCIONAL/Outro - M83 only the best part.mp3",
+   "gancho": [
+    7
+   ]
+  },
+  "r5": {
+   "titulo": "Que nadie te diga nada cuando cambias también es INFORMACIÓN:",
+   "musica": "ÉPICA/Gustavo Bravetti - Babel.mp3",
+   "gancho": [
+    9
+   ]
+  }
+ },
+ "corrige": [
+  [
+   "el único aplauso y la única validación",
+   "El único aplauso y la única validación"
+  ]
+ ]
+}

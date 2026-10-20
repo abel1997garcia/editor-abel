@@ -1,0 +1,78 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Montserrat Medium,64,&H00FFFFFF,&H00FFFFFF,&H70000000,&H80000000,0,0,0,0,100,100,0,0,1,3,2,5,0,0,0,1
+Style: B,Montserrat ExtraBold,80,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.47,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}Te {\fnMontserrat Black}hablas{\fnMontserrat Medium}\Npeor
+Dialogue: 0,0:00:00.47,0:00:00.98,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}que a tu\Npeor
+Dialogue: 0,0:00:00.98,0:00:01.60,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}{\fnMontserrat Black}enemigo{\fnMontserrat Medium} y\Naún
+Dialogue: 0,0:00:01.60,0:00:02.44,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}así te\N{\fnMontserrat Black}extrañas{\fnMontserrat Medium}
+Dialogue: 0,0:00:02.44,0:00:02.87,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}de que no
+Dialogue: 0,0:00:02.87,0:00:03.28,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}te {\fnMontserrat Black}quieras{\fnMontserrat Medium}
+Dialogue: 0,0:00:03.28,0:00:03.71,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}La {\fnMontserrat Black}persona{\fnMontserrat Medium}
+Dialogue: 0,0:00:03.71,0:00:04.24,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}que más\N{\fnMontserrat Black}hablas{\fnMontserrat Medium}
+Dialogue: 0,0:00:04.24,0:00:04.79,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}{\fnMontserrat Black}durante{\fnMontserrat Medium}\Ntodo
+Dialogue: 0,0:00:04.79,0:00:05.24,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}tu día
+Dialogue: 0,0:00:05.24,0:00:06.21,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}es {\fnMontserrat Black}contigo{\fnMontserrat Medium}\Nmismo
+Dialogue: 0,0:00:06.21,0:00:06.70,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}Y te {\fnMontserrat Black}dices{\fnMontserrat Medium}
+Dialogue: 0,0:00:06.70,0:00:07.21,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}{\fnMontserrat Black}cosas{\fnMontserrat Medium} como
+Dialogue: 0,0:00:07.21,0:00:07.87,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}que no {\fnMontserrat Black}sirvo{\fnMontserrat Medium}
+Dialogue: 0,0:00:07.87,0:00:08.26,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}que no soy
+Dialogue: 0,0:00:08.26,0:00:08.73,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}{\fnMontserrat Black}capaz{\fnMontserrat Medium}
+Dialogue: 0,0:00:08.73,0:00:09.63,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}Que {\fnMontserrat Black}ojalá{\fnMontserrat Medium}\Nvenga
+Dialogue: 0,0:00:09.63,0:00:09.98,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}una {\fnMontserrat Black}racha{\fnMontserrat Medium}
+Dialogue: 0,0:00:09.98,0:00:10.76,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}de buena\N{\fnMontserrat Black}suerte{\fnMontserrat Medium}
+Dialogue: 0,0:00:10.76,0:00:11.24,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}y eso no
+Dialogue: 0,0:00:11.24,0:00:11.96,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}se lo {\fnMontserrat Black}dirías{\fnMontserrat Medium}
+Dialogue: 0,0:00:11.96,0:00:12.66,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}ni a tu peor
+Dialogue: 0,0:00:12.66,0:00:13.03,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}{\fnMontserrat Black}enemigo{\fnMontserrat Medium}
+Dialogue: 0,0:00:13.03,0:00:13.72,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}Y es que\N{\fnMontserrat Black}encima{\fnMontserrat Medium}
+Dialogue: 0,0:00:13.72,0:00:14.60,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}llegas a\N{\fnMontserrat Black}creerte{\fnMontserrat Medium}
+Dialogue: 0,0:00:14.60,0:00:14.79,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}todo
+Dialogue: 0,0:00:14.79,0:00:15.54,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}lo que te\N{\fnMontserrat Black}dices{\fnMontserrat Medium}
+Dialogue: 0,0:00:15.54,0:00:16.12,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}Esa voz\N{\fnMontserrat Black}muchas{\fnMontserrat Medium}
+Dialogue: 0,0:00:16.12,0:00:16.66,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}{\fnMontserrat Black}veces{\fnMontserrat Medium} viene
+Dialogue: 0,0:00:16.66,0:00:16.81,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}de lo
+Dialogue: 0,0:00:16.81,0:00:17.74,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs72\blur3}que\N{\fnMontserrat Black}interpretaste{\fnMontserrat Medium}
+Dialogue: 0,0:00:17.74,0:00:18.23,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}de {\fnMontserrat Black}pequeño{\fnMontserrat Medium}
+Dialogue: 0,0:00:18.23,0:00:18.97,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}y todo eso
+Dialogue: 0,0:00:18.97,0:00:19.27,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}se te {\fnMontserrat Black}queda{\fnMontserrat Medium}
+Dialogue: 0,0:00:19.27,0:00:19.67,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}{\fnMontserrat Black}dentro{\fnMontserrat Medium}
+Dialogue: 0,0:00:19.67,0:00:20.33,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}Y {\fnMontserrat Black}forma{\fnMontserrat Medium}
+Dialogue: 0,0:00:20.33,0:00:21.13,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}lo que {\fnMontserrat Black}crees{\fnMontserrat Medium}\Nsobre ti
+Dialogue: 0,0:00:21.13,0:00:21.75,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}Así que la\N{\fnMontserrat Black}próxima{\fnMontserrat Medium}
+Dialogue: 0,0:00:21.75,0:00:22.24,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}vez que te\N{\fnMontserrat Black}pilles{\fnMontserrat Medium}
+Dialogue: 0,0:00:22.24,0:00:23.05,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}{\fnMontserrat Black}hablándote{\fnMontserrat Medium}\Nmal
+Dialogue: 0,0:00:23.05,0:00:23.60,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}{\fnMontserrat Black}párate{\fnMontserrat Medium}
+Dialogue: 0,0:00:23.60,0:00:23.96,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}{\fnMontserrat Black}fíjate{\fnMontserrat Medium}
+Dialogue: 0,0:00:23.96,0:00:24.39,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}en lo que\N{\fnMontserrat Black}estás{\fnMontserrat Medium}
+Dialogue: 0,0:00:24.39,0:00:25.11,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}{\fnMontserrat Black}sintiendo{\fnMontserrat Medium}
+Dialogue: 0,0:00:25.11,0:00:26.04,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}Y {\fnMontserrat Black}reformula{\fnMontserrat Medium}\Ncomo
+Dialogue: 0,0:00:26.04,0:00:26.83,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}si se lo\N{\fnMontserrat Black}dijeras{\fnMontserrat Medium}
+Dialogue: 0,0:00:26.83,0:00:27.20,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}a tu {\fnMontserrat Black}mejor{\fnMontserrat Medium}
+Dialogue: 0,0:00:27.20,0:00:27.48,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}{\fnMontserrat Black}amigo{\fnMontserrat Medium}
+Dialogue: 0,0:00:27.48,0:00:27.96,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}Al {\fnMontserrat Black}principio{\fnMontserrat Medium}
+Dialogue: 0,0:00:27.96,0:00:28.15,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}te va
+Dialogue: 0,0:00:28.15,0:00:28.54,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}a {\fnMontserrat Black}costar{\fnMontserrat Medium}
+Dialogue: 0,0:00:28.54,0:00:28.73,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}pero
+Dialogue: 0,0:00:28.73,0:00:29.39,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}con la\N{\fnMontserrat Black}práctica{\fnMontserrat Medium}
+Dialogue: 0,0:00:29.39,0:00:29.57,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}te va
+Dialogue: 0,0:00:29.57,0:00:30.15,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}a {\fnMontserrat Black}salir{\fnMontserrat Medium} solo
+Dialogue: 0,0:00:30.15,0:00:30.67,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}te lo\N{\fnMontserrat Black}aseguro{\fnMontserrat Medium}
+Dialogue: 0,0:00:30.67,0:00:31.08,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}{\fnMontserrat Black}Porque{\fnMontserrat Medium}\Ncómo
+Dialogue: 0,0:00:31.08,0:00:31.42,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}te {\fnMontserrat Black}hablas{\fnMontserrat Medium}
+Dialogue: 0,0:00:31.42,0:00:31.96,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}es la\N{\fnMontserrat Black}energía{\fnMontserrat Medium}
+Dialogue: 0,0:00:31.96,0:00:32.52,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}con la que\N{\fnMontserrat Black}vives{\fnMontserrat Medium}
+Dialogue: 0,0:00:32.52,0:00:33.05,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}cada día
+Dialogue: 0,0:00:33.05,0:00:33.98,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}y que\N{\fnMontserrat Black}determina{\fnMontserrat Medium}
+Dialogue: 0,0:00:33.98,0:00:34.63,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}si {\fnMontserrat Black}tienes{\fnMontserrat Medium}\Nmás
+Dialogue: 0,0:00:34.63,0:00:35.05,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}o {\fnMontserrat Black}menos{\fnMontserrat Medium}
+Dialogue: 0,0:00:35.05,0:00:35.52,S,,0,0,0,,{\move(800,969,800,953,0,200)\fad(160,0)\fs79\blur3}{\fnMontserrat Black}autoestima{\fnMontserrat Medium}

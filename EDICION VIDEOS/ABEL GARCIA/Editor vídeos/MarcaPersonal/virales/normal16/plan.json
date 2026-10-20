@@ -1,0 +1,73 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  15,
+  18,
+  21,
+  [
+   25,
+   null,
+   "sientes,"
+  ],
+  30,
+  [
+   42,
+   null,
+   "agotaron"
+  ],
+  44,
+  46,
+  48,
+  51,
+  54,
+  55
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Tu vida perfecta en redes ya no le importa a NADIE:",
+   "musica": "ÉPICA/Ogryzek - AURA.mp3",
+   "gancho": [
+    0
+   ]
+  },
+  "r2": {
+   "titulo": "Fingir que estás bien no te protege, te deja cada vez más SOLO:",
+   "musica": "EMOCIONAL/Tony Ann - ICARUS _ EPIC Orchestral Version.mp3",
+   "gancho": [
+    1,
+    2
+   ]
+  },
+  "r3": {
+   "titulo": "Si nadie sabe que lo estás pasando mal, el problema no lo tienen ELLOS:",
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3",
+   "gancho": [
+    4
+   ]
+  },
+  "r4": {
+   "titulo": "Nadie conecta con tu vida perfecta, conectan con lo que te ha COSTADO:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "gancho": [
+    5
+   ]
+  },
+  "r5": {
+   "titulo": "Si siempre contestas lo que quieren oír, nadie te va a conocer de VERDAD:",
+   "musica": "EMOCIONAL/Outro - M83 only the best part.mp3",
+   "gancho": [
+    7
+   ]
+  }
+ },
+ "corrige": [
+  [
+   "el rubio",
+   "el Rubius"
+  ],
+  [
+   "Rubio",
+   "Rubius"
+  ]
+ ]
+}

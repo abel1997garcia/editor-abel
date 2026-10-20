@@ -1,0 +1,65 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  25,
+  38,
+  39,
+  41,
+  42,
+  [
+   43,
+   null,
+   "lugar,"
+  ],
+  44
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Llevas años buscando tu sitio fuera y el único sitio que te falta eres TÚ:",
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3",
+   "gancho": [
+    0
+   ]
+  },
+  "r2": {
+   "titulo": "Cambiarte de ciudad no te va a quitar el vacío, porque te lo LLEVAS:",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3",
+   "gancho": [
+    13,
+    14
+   ]
+  },
+  "r3": {
+   "titulo": "Si crees que en otro sitio estarías mejor, el problema no es el SITIO:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "gancho": [
+    15
+   ]
+  },
+  "r4": {
+   "titulo": "Si buscas una pareja que te dé tu sitio, no buscas pareja, buscas un SALVAVIDAS:",
+   "musica": "EMOCIONAL/Tony Ann - ICARUS _ EPIC Orchestral Version.mp3",
+   "gancho": [
+    16
+   ]
+  },
+  "r5": {
+   "titulo": "Casi nadie encuentra su sitio cambiando de ciudad, y tú lo sigues INTENTANDO:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3",
+   "gancho": [
+    18,
+    19
+   ]
+  }
+ },
+ "corrige": [
+  [
+   "lugar, Es",
+   "lugar es"
+  ],
+  [
+   "Es tu hogar.",
+   "es tu hogar."
+  ]
+ ]
+}

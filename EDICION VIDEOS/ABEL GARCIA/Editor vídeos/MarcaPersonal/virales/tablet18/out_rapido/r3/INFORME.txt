@@ -1,0 +1,7 @@
+##### r3 · 78.1 s · 26 trozos
+huecos > 0,10 s (onda): [(24.990000000000002, 25.12), (73.48, 73.60000000000001)]
+✗  51.15s unión con 0.10 s de silencio (islas 54→55)
+✗  73.59s unión con 0.12 s de silencio (islas 73→80)
+· reel entero replace: esperado «Diez.» · se oye «10.»
+· reel entero insert: esperado «» · se oye «más.»
+· reel entero replace: esperado «2.» · se oye «dos.»

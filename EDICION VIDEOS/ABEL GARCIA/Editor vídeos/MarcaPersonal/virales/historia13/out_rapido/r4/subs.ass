@@ -1,0 +1,63 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Montserrat Medium,64,&H00FFFFFF,&H00FFFFFF,&H70000000,&H80000000,0,0,0,0,100,100,0,0,1,3,2,5,0,0,0,1
+Style: B,Montserrat ExtraBold,80,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.01,0:00:01.31,B,,0,0,0,,{\pos(540,1415)}Tus frases bonitas siempre
+Dialogue: 0,0:00:01.31,0:00:02.59,B,,0,0,0,,{\pos(540,1415)}pierden contra tu mala hostia
+Dialogue: 0,0:00:02.59,0:00:03.33,B,,0,0,0,,{\pos(540,1415)}La ley de atracción no
+Dialogue: 0,0:00:03.33,0:00:03.84,B,,0,0,0,,{\pos(540,1415)}funciona
+Dialogue: 0,0:00:03.84,0:00:04.74,B,,0,0,0,,{\pos(540,1415)}pienso en positivo y no
+Dialogue: 0,0:00:04.74,0:00:05.34,B,,0,0,0,,{\pos(540,1415)}cambia nada
+Dialogue: 0,0:00:05.34,0:00:06.41,B,,0,0,0,,{\pos(540,1415)}No atraes lo que piensas
+Dialogue: 0,0:00:06.41,0:00:06.74,B,,0,0,0,,{\pos(540,1415)}si no
+Dialogue: 0,0:00:06.74,0:00:07.83,B,,0,0,0,,{\pos(540,1415)}pensarías en un dragón
+Dialogue: 0,0:00:07.83,0:00:09.26,B,,0,0,0,,{\pos(540,1415)}y ese dragón automáticamente
+Dialogue: 0,0:00:09.26,0:00:10.46,B,,0,0,0,,{\pos(540,1415)}aparecería en el sofá
+Dialogue: 0,0:00:10.46,0:00:10.79,B,,0,0,0,,{\pos(540,1415)}de tu casa
+Dialogue: 0,0:00:10.79,0:00:11.66,B,,0,0,0,,{\pos(540,1415)}Atraes lo que eres
+Dialogue: 0,0:00:11.66,0:00:12.58,B,,0,0,0,,{\pos(540,1415)}y eso lo llevas durante
+Dialogue: 0,0:00:12.58,0:00:13.91,B,,0,0,0,,{\pos(540,1415)}tanto tiempo que se queda
+Dialogue: 0,0:00:13.91,0:00:14.66,B,,0,0,0,,{\pos(540,1415)}dentro de ti como
+Dialogue: 0,0:00:14.66,0:00:15.54,B,,0,0,0,,{\pos(540,1415)}una verdad absoluta
+Dialogue: 0,0:00:15.54,0:00:16.49,B,,0,0,0,,{\pos(540,1415)}Si durante 5 minutos
+Dialogue: 0,0:00:16.49,0:00:17.17,B,,0,0,0,,{\pos(540,1415)}al día te dices
+Dialogue: 0,0:00:17.17,0:00:18.04,B,,0,0,0,,{\pos(540,1415)}que vales mucho
+Dialogue: 0,0:00:18.04,0:00:18.89,B,,0,0,0,,{\pos(540,1415)}y que te quieres mucho
+Dialogue: 0,0:00:18.89,0:00:20.08,B,,0,0,0,,{\pos(540,1415)}pero durante todo tu día
+Dialogue: 0,0:00:20.08,0:00:21.00,B,,0,0,0,,{\pos(540,1415)}estás pensando que esto
+Dialogue: 0,0:00:21.00,0:00:21.65,B,,0,0,0,,{\pos(540,1415)}es una mierda
+Dialogue: 0,0:00:21.65,0:00:22.73,B,,0,0,0,,{\pos(540,1415)}quejándote etc
+Dialogue: 0,0:00:22.73,0:00:23.83,B,,0,0,0,,{\pos(540,1415)}Siempre gana tu cabeza
+Dialogue: 0,0:00:23.83,0:00:25.28,B,,0,0,0,,{\pos(540,1415)}Te repites tus frases bonitas
+Dialogue: 0,0:00:25.28,0:00:25.95,B,,0,0,0,,{\pos(540,1415)}por la mañana
+Dialogue: 0,0:00:25.95,0:00:26.71,B,,0,0,0,,{\pos(540,1415)}Y luego viene alguien
+Dialogue: 0,0:00:26.71,0:00:27.30,B,,0,0,0,,{\pos(540,1415)}por la tarde
+Dialogue: 0,0:00:27.30,0:00:28.32,B,,0,0,0,,{\pos(540,1415)}que te contesta mal
+Dialogue: 0,0:00:28.32,0:00:29.22,B,,0,0,0,,{\pos(540,1415)}te enfadas
+Dialogue: 0,0:00:29.22,0:00:30.55,B,,0,0,0,,{\pos(540,1415)}saltas y te hundes
+Dialogue: 0,0:00:30.55,0:00:31.91,B,,0,0,0,,{\pos(540,1415)}Esa reacción automática
+Dialogue: 0,0:00:31.91,0:00:32.91,B,,0,0,0,,{\pos(540,1415)}te dice quién eres
+Dialogue: 0,0:00:32.91,0:00:33.42,B,,0,0,0,,{\pos(540,1415)}tú de verdad
+Dialogue: 0,0:00:33.42,0:00:34.74,B,,0,0,0,,{\pos(540,1415)}No puedes pensar lo mismo
+Dialogue: 0,0:00:34.74,0:00:36.40,B,,0,0,0,,{\pos(540,1415)}sentir lo mismo y esperar
+Dialogue: 0,0:00:36.40,0:00:37.31,B,,0,0,0,,{\pos(540,1415)}resultados diferentes
+Dialogue: 0,0:00:37.31,0:00:37.93,B,,0,0,0,,{\pos(540,1415)}solamente
+Dialogue: 0,0:00:37.93,0:00:39.31,B,,0,0,0,,{\pos(540,1415)}porque esta vez tienes ganas
+Dialogue: 0,0:00:39.31,0:00:40.19,B,,0,0,0,,{\pos(540,1415)}La pregunta no es si
+Dialogue: 0,0:00:40.19,0:00:40.75,B,,0,0,0,,{\pos(540,1415)}funciona
+Dialogue: 0,0:00:40.75,0:00:42.02,B,,0,0,0,,{\pos(540,1415)}la pregunta es qué versión
+Dialogue: 0,0:00:42.02,0:00:43.45,B,,0,0,0,,{\pos(540,1415)}de ti mismo estás alimentando
+Dialogue: 0,0:00:43.45,0:00:43.98,B,,0,0,0,,{\pos(540,1415)}cada día
+Dialogue: 0,0:00:43.98,0:00:44.86,B,,0,0,0,,{\pos(540,1415)}Y eso se cambia cada
+Dialogue: 0,0:00:44.86,0:00:46.21,B,,0,0,0,,{\pos(540,1415)}vez que eliges reaccionar
+Dialogue: 0,0:00:46.21,0:00:47.86,B,,0,0,0,,{\pos(540,1415)}distinto a como reaccionabas
+Dialogue: 0,0:00:47.86,0:00:48.23,B,,0,0,0,,{\pos(540,1415)}antes

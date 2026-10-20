@@ -1,0 +1,200 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  2,
+  12,
+  19,
+  26,
+  27,
+  [
+   31,
+   null,
+   "mañana"
+  ],
+  36,
+  37,
+  39,
+  44,
+  50
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "\"La ley de la atracción no funciona\", y no es por la ley, es por TI:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3",
+   "gancho": [
+    2
+   ],
+   "cuerpo": [
+    12,
+    19,
+    26,
+    27,
+    [
+     31,
+     null,
+     "mañana"
+    ],
+    36,
+    37,
+    39,
+    44,
+    50
+   ]
+  },
+  "r2": {
+   "titulo": "Pensar en positivo cinco minutos al día no va a cambiar tu VIDA:",
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3",
+   "gancho": [
+    3
+   ]
+  },
+  "r3": {
+   "titulo": "Si atrajeras lo que piensas ya tendrías un DRAGÓN en el salón:",
+   "musica": "ÉPICA/Gustavo Bravetti - Babel.mp3",
+   "gancho": [
+    5
+   ],
+   "cuerpo": [
+    2,
+    19,
+    26,
+    27,
+    [
+     31,
+     null,
+     "mañana"
+    ],
+    36,
+    37,
+    39,
+    44,
+    50
+   ],
+   "diapos": [
+    {
+     "frase": "No atraes lo que piensas",
+     "titulo": "Si no, tendrías un **dragón**",
+     "dibujo": "escenas/historia13/2_dragon_en_el_salon_rojo"
+    },
+    {
+     "frase": "La ley de atracción no",
+     "titulo": "«Pienso en positivo y **nada**»",
+     "dibujo": "escenas/historia13/1_positivo_y_nada_rojo"
+    },
+    {
+     "frase": "Atraes lo que eres",
+     "titulo": "Atraes lo que **eres**",
+     "dibujo": "escenas/historia02/1_atraes_lo_que_eres_azul"
+    },
+    {
+     "frase": "Si durante 5 minutos",
+     "titulo": "5 minutos contra **todo el día**",
+     "dibujo": "escenas/historia13/3_cinco_minutos_contra_el_dia_rojo"
+    },
+    {
+     "frase": "Siempre gana tu cabeza.",
+     "titulo": "Y siempre gana tu **cabeza**",
+     "dibujo": "escenas/historia07/1b_tu_cabeza_lo_piensa_rojo"
+    },
+    {
+     "frase": "Te repites tus frases",
+     "titulo": "Y por la tarde **saltas**",
+     "dibujo": "escenas/historia13/4_saltas_rojo"
+    },
+    {
+     "frase": "Esa reacción automática",
+     "titulo": "Eso dice **quién eres**",
+     "dibujo": "escenas/historia04/2_la_vida_es_un_espejo_rojo"
+    },
+    {
+     "frase": "No puedes pensar lo mismo",
+     "titulo": "Lo mismo da **lo mismo**",
+     "dibujo": "escenas/historia06/2_choca_con_lo_que_ve_rojo"
+    },
+    {
+     "frase": "La pregunta no es si",
+     "titulo": "¿A qué versión **alimentas**?",
+     "dibujo": "escenas/historia02/2_fulano_y_mengano_ambos"
+    },
+    {
+     "frase": "Y eso se cambia",
+     "titulo": "Reacciona **distinto**",
+     "dibujo": "escenas/historia04/7_queja_por_gratitud_azul"
+    }
+   ]
+  },
+  "r4": {
+   "titulo": "Tus frases bonitas siempre pierden contra tu mala HOSTIA:",
+   "musica": "ÉPICA/Ogryzek - AURA.mp3",
+   "gancho": [
+    9
+   ]
+  },
+  "r5": {
+   "titulo": "Lo que eres de verdad se ve cuando todo te sale MAL:",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3",
+   "gancho": [
+    10
+   ]
+  }
+ },
+ "estilo": "historia",
+ "diapos": [
+  {
+   "frase": "La ley de atracción no",
+   "titulo": "«Pienso en positivo y **nada**»",
+   "dibujo": "escenas/historia13/1_positivo_y_nada_rojo"
+  },
+  {
+   "frase": "No atraes lo que piensas, si no, pensarías",
+   "titulo": "Si no, tendrías un **dragón**",
+   "dibujo": "escenas/historia13/2_dragon_en_el_salon_rojo"
+  },
+  {
+   "frase": "Atraes lo que eres",
+   "titulo": "Atraes lo que **eres**",
+   "dibujo": "escenas/historia02/1_atraes_lo_que_eres_azul"
+  },
+  {
+   "frase": "Si durante 5 minutos",
+   "titulo": "5 minutos contra **todo el día**",
+   "dibujo": "escenas/historia13/3_cinco_minutos_contra_el_dia_rojo"
+  },
+  {
+   "frase": "Siempre gana tu cabeza.",
+   "titulo": "Y siempre gana tu **cabeza**",
+   "dibujo": "escenas/historia07/1b_tu_cabeza_lo_piensa_rojo"
+  },
+  {
+   "frase": "Te repites tus frases",
+   "titulo": "Y por la tarde **saltas**",
+   "dibujo": "escenas/historia13/4_saltas_rojo"
+  },
+  {
+   "frase": "Esa reacción automática",
+   "titulo": "Eso dice **quién eres**",
+   "dibujo": "escenas/historia04/2_la_vida_es_un_espejo_rojo"
+  },
+  {
+   "frase": "No puedes pensar lo mismo",
+   "titulo": "Lo mismo da **lo mismo**",
+   "dibujo": "escenas/historia06/2_choca_con_lo_que_ve_rojo"
+  },
+  {
+   "frase": "La pregunta no es si",
+   "titulo": "¿A qué versión **alimentas**?",
+   "dibujo": "escenas/historia02/2_fulano_y_mengano_ambos"
+  },
+  {
+   "frase": "Y eso se cambia",
+   "titulo": "Reacciona **distinto**",
+   "dibujo": "escenas/historia04/7_queja_por_gratitud_azul"
+  }
+ ],
+ "corrige": [
+  [
+   "Atrás lo que eres",
+   "Atraes lo que eres"
+  ]
+ ]
+}

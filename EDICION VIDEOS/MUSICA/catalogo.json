@@ -5,7 +5,8 @@
   "lufs": -15.7,
   "estribillo": 8.5,
   "caracter": "cósmico y reflexivo, crece con órgano; universo, frecuencia, perspectiva, lo invisible",
-  "intensidad": 1
+  "intensidad": 1,
+  "voz": false
  },
  "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3": {
   "tipo": "emocional",
@@ -13,7 +14,8 @@
   "lufs": -13.2,
   "estribillo": 65.0,
   "caracter": "cósmico y reflexivo, crece con órgano; universo, frecuencia, perspectiva, lo invisible",
-  "intensidad": 2
+  "intensidad": 2,
+  "voz": false
  },
  "EMOCIONAL/Lord Huron - The Night We Met (Sub. Español + Lyrics).mp3": {
   "tipo": "emocional",
@@ -21,7 +23,8 @@
   "lufs": -10.9,
   "estribillo": 88.0,
   "caracter": "nostalgia y amor perdido (con letra en inglés); relaciones que no vuelven",
-  "intensidad": 1
+  "intensidad": 1,
+  "voz": true
  },
  "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3": {
   "tipo": "emocional",
@@ -29,7 +32,8 @@
   "lufs": -12.8,
   "estribillo": 255.0,
   "caracter": "introspectivo que crece hacia la esperanza; sentir, mirar dentro, transformarse",
-  "intensidad": 1
+  "intensidad": 1,
+  "voz": false
  },
  "EMOCIONAL/Outro - M83 only the best part.mp3": {
   "tipo": "emocional",
@@ -37,7 +41,8 @@
   "lufs": -14.2,
   "estribillo": 60.0,
   "caracter": "épico esperanzador y soñador; sueños, libertad, futuro",
-  "intensidad": 2
+  "intensidad": 2,
+  "voz": false
  },
  "EMOCIONAL/Phil Wickham - Reason I Sing [Sub- Español] _ VIDEO.mp3": {
   "tipo": "emocional",
@@ -45,7 +50,8 @@
   "lufs": -13.9,
   "estribillo": 192.5,
   "caracter": "gratitud y fe (con letra); conexión con algo superior",
-  "intensidad": 2
+  "intensidad": 2,
+  "voz": true
  },
  "EMOCIONAL/Skott - Overcome (528Hz).mp3": {
   "tipo": "emocional",
@@ -53,7 +59,8 @@
   "lufs": -11.3,
   "estribillo": 105.5,
   "caracter": "superación y sanación (con voz); salir de un momento duro",
-  "intensidad": 1
+  "intensidad": 1,
+  "voz": true
  },
  "EMOCIONAL/The Irrepressibles - In This Shirt (Letra en Español).mp3": {
   "tipo": "emocional",
@@ -61,7 +68,8 @@
   "lufs": -18.5,
   "estribillo": 212.0,
   "caracter": "melancólico y vulnerable; pérdida, herida, soledad",
-  "intensidad": 1
+  "intensidad": 1,
+  "voz": true
  },
  "EMOCIONAL/Tom Odell - Another Love [Sub. Español + Lyrics] (Video Oficial) HD.mp3": {
   "tipo": "emocional",
@@ -69,7 +77,8 @@
   "lufs": -11.1,
   "estribillo": 175.5,
   "caracter": "desamor y herida (con letra); dolor en pareja",
-  "intensidad": 2
+  "intensidad": 2,
+  "voz": true
  },
  "EMOCIONAL/Tony Ann - ICARUS _ EPIC Orchestral Version.mp3": {
   "tipo": "emocional",
@@ -77,7 +86,8 @@
   "lufs": -13.2,
   "estribillo": 165.0,
   "caracter": "orquestal épico de determinación; valor propio, levantarse, firmeza",
-  "intensidad": 3
+  "intensidad": 3,
+  "voz": false
  },
  "ÉPICA/Caleb Bryant - Imperius (instrumental) [ slowed ].mp3": {
   "tipo": "épica",
@@ -85,7 +95,8 @@
   "lufs": -11.2,
   "estribillo": 19.5,
   "caracter": "oscuro y potente; disciplina, poder, sombra",
-  "intensidad": 3
+  "intensidad": 3,
+  "voz": false
  },
  "ÉPICA/Don't tell your dreams - LOVIXX, STOSLIV.mp3": {
   "tipo": "épica",
@@ -93,7 +104,8 @@
   "lufs": -15.3,
   "estribillo": 28.0,
   "caracter": "motivación callada; trabajar en silencio, constancia",
-  "intensidad": 3
+  "intensidad": 3,
+  "voz": true
  },
  "ÉPICA/ECHO SAX END but it sounds like Øneheart.mp3": {
   "tipo": "épica",
@@ -101,7 +113,8 @@
   "lufs": -10.2,
   "estribillo": 53.5,
   "caracter": "fresco y seguro; confianza, actitud",
-  "intensidad": 2
+  "intensidad": 2,
+  "voz": false
  },
  "ÉPICA/Gustavo Bravetti - Babel.mp3": {
   "tipo": "épica",
@@ -109,7 +122,8 @@
   "lufs": -7.9,
   "estribillo": 30.5,
   "caracter": "tensión e intensidad; caos, presión, crisis",
-  "intensidad": 3
+  "intensidad": 3,
+  "voz": false
  },
  "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3": {
   "tipo": "épica",
@@ -117,7 +131,8 @@
   "lufs": -10.2,
   "estribillo": 190.5,
   "caracter": "épico emocional y trascendente; tiempo, vida, muerte, sentido",
-  "intensidad": 2
+  "intensidad": 2,
+  "voz": false
  },
  "ÉPICA/Kanye West - Runaway (Instrumental).mp3": {
   "tipo": "épica",
@@ -125,7 +140,8 @@
   "lufs": -11.5,
   "estribillo": 297.0,
   "caracter": "honestidad dura; ego, autocrítica, verdades incómodas",
-  "intensidad": 2
+  "intensidad": 2,
+  "voz": false
  },
  "ÉPICA/Ogryzek - AURA.mp3": {
   "tipo": "épica",
@@ -133,6 +149,7 @@
   "lufs": -7.5,
   "estribillo": 45.5,
   "caracter": "confianza y presencia (phonk); magnetismo, aura, seguridad",
-  "intensidad": 3
+  "intensidad": 3,
+  "voz": false
  }
 }

@@ -1,0 +1,140 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  2,
+  16,
+  20,
+  21,
+  30,
+  39,
+  45,
+  46,
+  47,
+  51,
+  54,
+  56,
+  57,
+  58
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Lo que quieres para tu vida ya está pedido, y tú no paras de CANCELARLO:",
+   "musica": "EMOCIONAL/Andrea Vanzo - Soulmate x Amélie x Interstellar x Passacaglia.mp3",
+   "gancho": [
+    2
+   ],
+   "cuerpo": [
+    16,
+    20,
+    21,
+    30,
+    39,
+    45,
+    46,
+    47,
+    51,
+    54,
+    56,
+    57,
+    58
+   ]
+  },
+  "r2": {
+   "titulo": "No te llega nada porque cada día dudas de que lo MERECES:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "gancho": [
+    3
+   ]
+  },
+  "r3": {
+   "titulo": "Llevas meses cambiando de idea y luego dices que no te llega NADA:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3",
+   "gancho": [
+    4
+   ]
+  },
+  "r4": {
+   "titulo": "Cada vez que dudas de ti le dices al repartidor que se VUELVA:",
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3",
+   "gancho": [
+    10
+   ]
+  },
+  "r5": {
+   "titulo": "\"¿Y si no funciona?\", esa pregunta es justo lo que te tiene ATASCADO:",
+   "musica": "ÉPICA/Gustavo Bravetti - Babel.mp3",
+   "gancho": [
+    12,
+    13
+   ]
+  }
+ },
+ "estilo": "historia",
+ "diapos": [
+  {
+   "frase": "Lo que quieres para tu vida",
+   "titulo": "Como un pedido **online**",
+   "dibujo": "escenas/historia11/1_pedido_online_azul"
+  },
+  {
+   "frase": "Lo has pagado",
+   "titulo": "Sabes que está en **camino**",
+   "dibujo": "escenas/historia11/2_en_camino_azul"
+  },
+  {
+   "frase": "No te pasas el día",
+   "titulo": "¿Te pasas el día en la **ventana**?",
+   "dibujo": "escenas/historia11/3_en_la_ventana_rojo"
+  },
+  {
+   "frase": "Haces el pedido",
+   "titulo": "Y sigues con tu **vida**",
+   "dibujo": "escenas/historia03/5_mengano_suficiente_azul"
+  },
+  {
+   "frase": "Con lo que quieres pasa",
+   "titulo": "Decides quererte y **empezar**",
+   "dibujo": "escenas/historia07/6_lo_que_construyes_azul"
+  },
+  {
+   "frase": "Y sigues con tu vida tranquilo",
+   "titulo": "Sabiendo que **viene**",
+   "dibujo": "escenas/historia09/2_no_lo_esperaba_lo_sabia_azul"
+  },
+  {
+   "frase": "Ahora imagínate tú",
+   "titulo": "Tus dudas al **repartidor**",
+   "dibujo": "escenas/historia11/4_dudas_al_repartidor_rojo"
+  },
+  {
+   "frase": "No, bueno, es que",
+   "titulo": "«No, que no lo **merezco**»",
+   "dibujo": "escenas/historia03/1_foco_en_lo_que_falta_rojo"
+  },
+  {
+   "frase": "El repartidor siempre",
+   "titulo": "Y nunca te **llega**",
+   "dibujo": "escenas/historia11/5_nunca_llega_rojo"
+  },
+  {
+   "frase": "Así que decide",
+   "titulo": "**Decide** y deja de dudar",
+   "dibujo": "escenas/historia03/8_suelta_el_movil_azul"
+  },
+  {
+   "frase": "Porque cuando estás completamente",
+   "titulo": "Y cuando lo sabes, **llega**",
+   "dibujo": "escenas/historia11/2_en_camino_azul"
+  }
+ ],
+ "corrige": [
+  [
+   "Diego.",
+   "llega."
+  ],
+  [
+   "llegar... llega.",
+   "llegar, llega."
+  ]
+ ]
+}

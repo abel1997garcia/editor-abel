@@ -1,0 +1,148 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  [
+   20,
+   null,
+   "ti,"
+  ],
+  [
+   20,
+   "lo que piensas que",
+   null
+  ],
+  23,
+  24,
+  [
+   28,
+   null,
+   "por otros"
+  ],
+  [
+   31,
+   null,
+   "demás"
+  ],
+  [
+   31,
+   "y que lo",
+   "bueno"
+  ],
+  [
+   31,
+   "siempre",
+   null
+  ],
+  35,
+  36,
+  41,
+  49,
+  50,
+  57,
+  59,
+  62,
+  64,
+  68,
+  70,
+  71
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Le pides al universo y no te llega porque en el fondo crees que NO lo mereces:",
+   "musica": "EMOCIONAL/Outro - M83 only the best part.mp3",
+   "gancho": [
+    0
+   ]
+  },
+  "r2": {
+   "titulo": "No atraes lo que quieres, atraes lo que en el fondo crees que MERECES:",
+   "musica": "EMOCIONAL/Andrea Vanzo - Soulmate x Amélie x Interstellar x Passacaglia.mp3",
+   "gancho": [
+    2
+   ]
+  },
+  "r3": {
+   "titulo": "Te rodeas de gente que no te valora porque ni tú mismo te VALORAS:",
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3",
+   "gancho": [
+    5
+   ]
+  },
+  "r4": {
+   "titulo": "Visualizar y pedirle al universo no sirve de nada si no te crees SUFICIENTE:",
+   "musica": "EMOCIONAL/Tony Ann - ICARUS _ EPIC Orchestral Version.mp3",
+   "gancho": [
+    8
+   ]
+  },
+  "r5": {
+   "titulo": "No es mala suerte que siempre te pase lo mismo, lo estás ATRAYENDO tú:",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3",
+   "gancho": [
+    10
+   ]
+  }
+ },
+ "estilo": "historia",
+ "diapos": [
+  {
+   "frase": "Atraes lo que eres",
+   "titulo": "Atraes lo que **eres**",
+   "dibujo": "escenas/historia02/1_atraes_lo_que_eres_azul"
+  },
+  {
+   "frase": "Te presento a",
+   "titulo": "**Fulano** y **Mengano**",
+   "dibujo": "escenas/historia02/2_fulano_y_mengano_ambos"
+  },
+  {
+   "frase": "Fulano lo pasó",
+   "titulo": "Aprendió a **ganárselo**",
+   "dibujo": "escenas/historia02/3_fulano_ganarselo_rojo"
+  },
+  {
+   "frase": "Se lo creyó",
+   "titulo": "Y la vida le trae **eso**",
+   "dibujo": "escenas/historia02/4_fulano_le_trae_eso_rojo"
+  },
+  {
+   "frase": "Mengano vivió",
+   "titulo": "No tenía que **ganarse** nada",
+   "dibujo": "escenas/historia02/5_mengano_se_da_cuenta_azul"
+  },
+  {
+   "frase": "Y empezó a",
+   "titulo": "Empezó a **creérselo**",
+   "dibujo": "escenas/historia02/6_mengano_se_trata_bien_azul"
+  },
+  {
+   "frase": "Y la vida le empezó",
+   "titulo": "Y la vida le **devuelve** eso",
+   "dibujo": "escenas/historia01/7_llegan_solos_azul"
+  },
+  {
+   "frase": "Los dos atraen",
+   "titulo": "La diferencia es lo que **crees**",
+   "dibujo": "escenas/historia02/7_la_diferencia_es_lo_que_crees_ambos"
+  },
+  {
+   "frase": "Así que no cambies",
+   "titulo": "Cambia lo que crees que **mereces**",
+   "dibujo": "escenas/historia02/1_atraes_lo_que_eres_azul"
+  }
+ ],
+ "corrige": [
+  [
+   "fulano",
+   "Fulano"
+  ],
+  [
+   "mengano",
+   "Mengano"
+  ],
+  [
+   "Atrás",
+   "Atraes"
+  ]
+ ]
+}

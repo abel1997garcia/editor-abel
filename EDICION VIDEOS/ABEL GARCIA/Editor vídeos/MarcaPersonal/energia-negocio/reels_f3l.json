@@ -1,0 +1,35 @@
+{
+ "fuente": "../../VideosLargos/energia-negocio/Tu energía sexual afecta a tu negocio (sin saberlo) - horizontal.mp4",
+ "tiempos": "../../VideosLargos/energia-negocio/Tu energía sexual afecta a tu negocio (sin saberlo) - horizontal.tiempos.json",
+ "salida": "out_f3l",
+ "reels": {
+  "c01_F3L": {
+   "escenas": "auto",
+   "titulo": "Hasta los que más trabajan caen en este error de foco:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "tramos": [
+    [
+     "si quieres conseguir éxito",
+     "va a conseguir éxito",
+     331.7
+    ],
+    [
+     "y la gente al principio",
+     "al principio siempre",
+     324.0
+    ],
+    [
+     "pero realmente cuando sabes",
+     "a 80 cosas",
+     340.5
+    ],
+    [
+     "ese estrés muchas veces viene",
+     "alrededor de su vida",
+     301.6
+    ]
+   ],
+   "acento": "plexo"
+  }
+ }
+}

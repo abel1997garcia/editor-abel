@@ -1,0 +1,4 @@
+##### r5 · 64.3 s · 21 trozos
+huecos > 0,10 s (onda): [(16.080000000000002, 16.19)]
+✗  46.93s se oye de más: ['por']  ·  «cien por cien.»
+· reel entero delete: esperado «él» · se oye «»

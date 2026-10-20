@@ -1,0 +1,5 @@
+##### r5 · 48.7 s · 13 trozos
+huecos > 0,10 s (onda): ninguno ✓
+✗  14.10s unión con 0.10 s de silencio (islas 19→19)
+· reel entero replace: esperado «5» · se oye «cinco»
+· reel entero replace: esperado «reaccionabas» · se oye «reaccionaba»

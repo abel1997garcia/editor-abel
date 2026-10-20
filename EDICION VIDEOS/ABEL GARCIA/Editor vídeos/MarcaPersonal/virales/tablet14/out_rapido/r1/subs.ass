@@ -1,0 +1,58 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Montserrat Medium,64,&H00FFFFFF,&H00FFFFFF,&H70000000,&H80000000,0,0,0,0,100,100,0,0,1,3,2,5,0,0,0,1
+Style: B,Montserrat ExtraBold,80,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.53,B,,0,0,0,,{\pos(540,1415)}Diez razones
+Dialogue: 0,0:00:00.53,0:00:00.96,B,,0,0,0,,{\pos(540,1415)}por las que no
+Dialogue: 0,0:00:00.96,0:00:01.88,B,,0,0,0,,{\pos(540,1415)}te sientes suficiente
+Dialogue: 0,0:00:01.88,0:00:02.60,B,,0,0,0,,{\pos(540,1415)}Dices que sí a todo
+Dialogue: 0,0:00:02.60,0:00:03.60,B,,0,0,0,,{\pos(540,1415)}para que nadie se enfade
+Dialogue: 0,0:00:03.60,0:00:04.03,B,,0,0,0,,{\pos(540,1415)}contigo
+Dialogue: 0,0:00:04.03,0:00:04.92,B,,0,0,0,,{\pos(540,1415)}Te comparas con la vida
+Dialogue: 0,0:00:04.92,0:00:05.82,B,,0,0,0,,{\pos(540,1415)}que los demás enseñan
+Dialogue: 0,0:00:05.82,0:00:06.83,B,,0,0,0,,{\pos(540,1415)}por redes y que sabes
+Dialogue: 0,0:00:06.83,0:00:07.33,B,,0,0,0,,{\pos(540,1415)}que es falsa
+Dialogue: 0,0:00:07.33,0:00:08.47,B,,0,0,0,,{\pos(540,1415)}Te prometes cosas que luego
+Dialogue: 0,0:00:08.47,0:00:09.16,B,,0,0,0,,{\pos(540,1415)}no cumples
+Dialogue: 0,0:00:09.16,0:00:09.99,B,,0,0,0,,{\pos(540,1415)}Necesitas que alguien
+Dialogue: 0,0:00:09.99,0:00:10.90,B,,0,0,0,,{\pos(540,1415)}te valide para sentir
+Dialogue: 0,0:00:10.90,0:00:11.47,B,,0,0,0,,{\pos(540,1415)}que vales
+Dialogue: 0,0:00:11.47,0:00:12.12,B,,0,0,0,,{\pos(540,1415)}Tapas lo que sientes
+Dialogue: 0,0:00:12.12,0:00:12.71,B,,0,0,0,,{\pos(540,1415)}con el móvil
+Dialogue: 0,0:00:12.71,0:00:13.37,B,,0,0,0,,{\pos(540,1415)}con la fiesta
+Dialogue: 0,0:00:13.37,0:00:14.27,B,,0,0,0,,{\pos(540,1415)}con los videojuegos
+Dialogue: 0,0:00:14.27,0:00:14.86,B,,0,0,0,,{\pos(540,1415)}o con el alcohol
+Dialogue: 0,0:00:14.86,0:00:16.18,B,,0,0,0,,{\pos(540,1415)}Consumes cada día justo
+Dialogue: 0,0:00:16.18,0:00:16.67,B,,0,0,0,,{\pos(540,1415)}lo que te baja
+Dialogue: 0,0:00:16.67,0:00:17.18,B,,0,0,0,,{\pos(540,1415)}la energía
+Dialogue: 0,0:00:17.18,0:00:18.33,B,,0,0,0,,{\pos(540,1415)}Hablas desde la queja todo
+Dialogue: 0,0:00:18.33,0:00:19.06,B,,0,0,0,,{\pos(540,1415)}el puto día
+Dialogue: 0,0:00:19.06,0:00:19.71,B,,0,0,0,,{\pos(540,1415)}Te rodeas de gente
+Dialogue: 0,0:00:19.71,0:00:20.35,B,,0,0,0,,{\pos(540,1415)}que te resta
+Dialogue: 0,0:00:20.35,0:00:21.14,B,,0,0,0,,{\pos(540,1415)}y que no tiene ambición
+Dialogue: 0,0:00:21.14,0:00:21.95,B,,0,0,0,,{\pos(540,1415)}Nunca te paras a estar
+Dialogue: 0,0:00:21.95,0:00:22.80,B,,0,0,0,,{\pos(540,1415)}en silencio y a escuchar
+Dialogue: 0,0:00:22.80,0:00:23.66,B,,0,0,0,,{\pos(540,1415)}lo que sientes
+Dialogue: 0,0:00:23.66,0:00:24.53,B,,0,0,0,,{\pos(540,1415)}Y vives en tu cabeza
+Dialogue: 0,0:00:24.53,0:00:25.80,B,,0,0,0,,{\pos(540,1415)}pensando sin parar y nunca
+Dialogue: 0,0:00:25.80,0:00:26.68,B,,0,0,0,,{\pos(540,1415)}te has parado a mirar
+Dialogue: 0,0:00:26.68,0:00:27.75,B,,0,0,0,,{\pos(540,1415)}de dónde viene todo eso
+Dialogue: 0,0:00:27.75,0:00:28.67,B,,0,0,0,,{\pos(540,1415)}que es de lo que viviste
+Dialogue: 0,0:00:28.67,0:00:29.05,B,,0,0,0,,{\pos(540,1415)}de pequeño
+Dialogue: 0,0:00:29.05,0:00:29.64,B,,0,0,0,,{\pos(540,1415)}Así que no te hace
+Dialogue: 0,0:00:29.64,0:00:30.30,B,,0,0,0,,{\pos(540,1415)}falta quererte
+Dialogue: 0,0:00:30.30,0:00:30.73,B,,0,0,0,,{\pos(540,1415)}te sobra todo
+Dialogue: 0,0:00:30.73,0:00:31.90,B,,0,0,0,,{\pos(540,1415)}lo que te quita energía
+Dialogue: 0,0:00:31.90,0:00:32.61,B,,0,0,0,,{\pos(540,1415)}Empieza por una
+Dialogue: 0,0:00:32.61,0:00:33.12,B,,0,0,0,,{\pos(540,1415)}la que más te ha
+Dialogue: 0,0:00:33.12,0:00:34.11,B,,0,0,0,,{\pos(540,1415)}dolido escucharla
+Dialogue: 0,0:00:34.11,0:00:35.17,B,,0,0,0,,{\pos(540,1415)}y verás cómo cambia todo

@@ -45,10 +45,12 @@ Abel (08/10/2026, «muy importante»): tardé muchísimo con un trial (renderiza
 4b. **F1: cada imagen tiene que dar contexto** (12/10/2026: «la imagen que aparece no hace que se entienda el contexto»). Una animación del horizontal solo sale en el reel si sale ENTERA y con la frase que la explica dentro del reel. Si el tramo pilla media animación, o una cuyo contexto se ha quedado fuera, ese trozo va con su cara (`"toma"` + `"ventanas"`). En la hoja de fotogramas no puede haber tableros a medio dibujar ni palabras sueltas.
 5. **Un solo render.** Después, verificador otra vez (rápido) y una hoja de fotogramas. Si todo está bien, se entrega.
 6. **Trial:** copiar la entrada de publicar en `reels_trial.json`, cambiar solo el gancho (y el título) → paso 3 (audio) → render.
-7. `.txt` al lado (1.ª línea = título; hashtags #abelunidad #marcapersonal #negocios (Abel 12/10/2026)) → programar ([[reels-marca-personal]]).
+7. `.txt` al lado (1.ª línea = título; hashtags #abelunidad #autoestima #crecimientopersonal) → programar ([[reels-marca-personal]]).
 
 ## No hacer
 - Renderizar para «ver qué tal» antes de verificar el audio.
 - Rehacer un reel entero cuando falla una sola cosa: arreglar esa cosa.
 - Transcribir de nuevo lo ya transcrito.
 - Abrir debates o reestructurar trials.
+
+**🔴 SIN RELLENO, PERO FLUIDO (Abel 18/10/2026):** «conector» = todo lo que NO añade información vital y útil (repetir lo ya dicho, «sí, sí y sí», «y te lo digo claro», «así que», muletillas). Eso fuera, siempre. Pero el texto tiene que FLUIR y CONECTAR como se habla: las palabras que unen las ideas con sentido («y», «que», «mientras», «porque») se quedan. Trocear frases quitando «y» y «que» a hachazos es peor («qué mierda de guion es este… ni es fluido ni conecta»). Ver [[sin-conectores]].

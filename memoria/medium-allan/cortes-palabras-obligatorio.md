@@ -9,6 +9,14 @@ El usuario se ha quejado TRES veces de cortes mal hechos (2026-10-07: «existent
 «cort», cortes bruscos y nada fluidos en «creer para ver»; «es la segunda vez que te lo digo y sigue igual»).
 Que una palabra se corte o que asome una muletilla en un empalme es INACEPTABLE.
 
+4.ª queja (2026-10-17, sigue_01 s. 38): «siempre» cortado. Yo había puesto fin_max 66.92 creyendo que Allan repetía
+«siempre», pero era UNO alargado («siem» + silencio de la «p» + «preeee»): el fin_max caía en el silencio de la
+oclusiva. Y al quitarlo, el corte se iba al valle de energía tras el final alineado (que en palabras alargadas llega
+antes de tiempo). Corrección: nuevo ajuste `fin_fijo` (final medido por energía, se respeta tal cual) y aviso
+«¡¡AVISO PALABRA CORTADA!!» si un trozo acaba antes del final alineado de su palabra. Para vocales alargadas
+(«mismaaa») dejar que la vocal se APAGUE (fin_fijo donde cae a ~−38 dB), nunca cortarla en seco. Antes de poner un
+fin_max por «repetición», comprobar en la energía que hay DOS palabras (dos ataques) y no una con un silencio interno.
+
 Causas reales encontradas (todas corregidas en herramientas/reel_franjas.py):
 1. Las oclusivas (t, p, c, d, q) hacen 50-90 ms de silencio DENTRO de la palabra («cort|o», «exis|te», «por|qué»).
    Regla dura: un final de trozo nunca cae antes del final alineado de su palabra; el inicio nunca después del

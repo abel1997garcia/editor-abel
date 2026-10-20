@@ -1,0 +1,7 @@
+##### r4 · 53.6 s · 17 trozos
+huecos > 0,10 s (onda): ninguno ✓
+✗  31.63s unión con 0.10 s de silencio (islas 39→40)
+✗  38.12s unión con 0.10 s de silencio (islas 41→48)
+· reel entero replace: esperado «cinco» · se oye «5»
+· reel entero replace: esperado «duda» · se oye «suda»
+· reel entero replace: esperado «Aldo» · se oye «Hazlo»

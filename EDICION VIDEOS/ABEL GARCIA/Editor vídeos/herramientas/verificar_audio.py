@@ -20,6 +20,7 @@ import numpy as np
 sys.stdout.reconfigure(encoding='utf-8')
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from reel_yapping import VELOCIDAD
+if len(sys.argv) > 1 and (Path(sys.argv[1]) / 'velocidad.txt').exists(): VELOCIDAD = float((Path(sys.argv[1]) / 'velocidad.txt').read_text())
 
 SR = 16000
 

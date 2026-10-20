@@ -1,0 +1,58 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Montserrat Medium,64,&H00FFFFFF,&H00FFFFFF,&H70000000,&H80000000,0,0,0,0,100,100,0,0,1,3,2,5,0,0,0,1
+Style: B,Montserrat ExtraBold,80,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.09,0:00:00.96,B,,0,0,0,,{\pos(540,1415)}Sube tanto de nivel
+Dialogue: 0,0:00:00.96,0:00:01.83,B,,0,0,0,,{\pos(540,1415)}que tengan que volver
+Dialogue: 0,0:00:01.83,0:00:02.41,B,,0,0,0,,{\pos(540,1415)}a conocerte
+Dialogue: 0,0:00:02.41,0:00:02.63,B,,0,0,0,,{\pos(540,1415)}Y no
+Dialogue: 0,0:00:02.63,0:00:03.42,B,,0,0,0,,{\pos(540,1415)}por lo que tengas
+Dialogue: 0,0:00:03.42,0:00:04.70,B,,0,0,0,,{\pos(540,1415)}sino por cómo te comportas
+Dialogue: 0,0:00:04.70,0:00:05.12,B,,0,0,0,,{\pos(540,1415)}contigo
+Dialogue: 0,0:00:05.12,0:00:05.87,B,,0,0,0,,{\pos(540,1415)}Deja de compararte
+Dialogue: 0,0:00:05.87,0:00:06.77,B,,0,0,0,,{\pos(540,1415)}con la vida que enseñan
+Dialogue: 0,0:00:06.77,0:00:07.75,B,,0,0,0,,{\pos(540,1415)}los demás y empieza
+Dialogue: 0,0:00:07.75,0:00:08.48,B,,0,0,0,,{\pos(540,1415)}a valorar la tuya
+Dialogue: 0,0:00:08.48,0:00:09.43,B,,0,0,0,,{\pos(540,1415)}Cumple con tu palabra aunque
+Dialogue: 0,0:00:09.43,0:00:10.85,B,,0,0,0,,{\pos(540,1415)}sea pequeño y durante 90
+Dialogue: 0,0:00:10.85,0:00:11.95,B,,0,0,0,,{\pos(540,1415)}días verás cómo tu vida
+Dialogue: 0,0:00:11.95,0:00:12.35,B,,0,0,0,,{\pos(540,1415)}cambia
+Dialogue: 0,0:00:12.35,0:00:12.77,B,,0,0,0,,{\pos(540,1415)}Deja de tapar
+Dialogue: 0,0:00:12.77,0:00:13.33,B,,0,0,0,,{\pos(540,1415)}lo que sientes
+Dialogue: 0,0:00:13.33,0:00:14.21,B,,0,0,0,,{\pos(540,1415)}con las redes sociales
+Dialogue: 0,0:00:14.21,0:00:14.73,B,,0,0,0,,{\pos(540,1415)}la fiesta
+Dialogue: 0,0:00:14.73,0:00:15.31,B,,0,0,0,,{\pos(540,1415)}el alcohol
+Dialogue: 0,0:00:15.31,0:00:16.02,B,,0,0,0,,{\pos(540,1415)}las parejas
+Dialogue: 0,0:00:16.02,0:00:17.37,B,,0,0,0,,{\pos(540,1415)}Y párate a sentir realmente
+Dialogue: 0,0:00:17.37,0:00:18.11,B,,0,0,0,,{\pos(540,1415)}lo que quiere decirte
+Dialogue: 0,0:00:18.11,0:00:19.01,B,,0,0,0,,{\pos(540,1415)}Deja de callarte para no
+Dialogue: 0,0:00:19.01,0:00:19.76,B,,0,0,0,,{\pos(540,1415)}molestar y di
+Dialogue: 0,0:00:19.76,0:00:20.72,B,,0,0,0,,{\pos(540,1415)}lo que piensas de verdad
+Dialogue: 0,0:00:20.72,0:00:21.39,B,,0,0,0,,{\pos(540,1415)}Aprende a decir que no
+Dialogue: 0,0:00:21.39,0:00:22.46,B,,0,0,0,,{\pos(540,1415)}sin tener que dar mil
+Dialogue: 0,0:00:22.46,0:00:23.30,B,,0,0,0,,{\pos(540,1415)}explicaciones
+Dialogue: 0,0:00:23.30,0:00:24.55,B,,0,0,0,,{\pos(540,1415)}Cuida mucho tu energía
+Dialogue: 0,0:00:24.55,0:00:25.32,B,,0,0,0,,{\pos(540,1415)}de lo que hablas
+Dialogue: 0,0:00:25.32,0:00:26.00,B,,0,0,0,,{\pos(540,1415)}dónde te fijas
+Dialogue: 0,0:00:26.00,0:00:27.14,B,,0,0,0,,{\pos(540,1415)}y de quién te rodeas
+Dialogue: 0,0:00:27.14,0:00:27.81,B,,0,0,0,,{\pos(540,1415)}Y deja de darle
+Dialogue: 0,0:00:27.81,0:00:28.93,B,,0,0,0,,{\pos(540,1415)}tu energía a quien no
+Dialogue: 0,0:00:28.93,0:00:29.54,B,,0,0,0,,{\pos(540,1415)}la valora
+Dialogue: 0,0:00:29.54,0:00:30.68,B,,0,0,0,,{\pos(540,1415)}Así que conviértete en alguien
+Dialogue: 0,0:00:30.68,0:00:31.94,B,,0,0,0,,{\pos(540,1415)}tan en paz consigo mismo
+Dialogue: 0,0:00:31.94,0:00:33.12,B,,0,0,0,,{\pos(540,1415)}que jamás te puedan hacer
+Dialogue: 0,0:00:33.12,0:00:34.00,B,,0,0,0,,{\pos(540,1415)}el daño que te hicieron
+Dialogue: 0,0:00:34.00,0:00:34.54,B,,0,0,0,,{\pos(540,1415)}en el pasado
+Dialogue: 0,0:00:34.54,0:00:35.21,B,,0,0,0,,{\pos(540,1415)}Porque el primero que va
+Dialogue: 0,0:00:35.21,0:00:35.96,B,,0,0,0,,{\pos(540,1415)}a notar el cambio no
+Dialogue: 0,0:00:35.96,0:00:36.57,B,,0,0,0,,{\pos(540,1415)}son ellos
+Dialogue: 0,0:00:36.57,0:00:37.91,B,,0,0,0,,{\pos(540,1415)}Eres tú desde dentro

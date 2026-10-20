@@ -1,0 +1,5 @@
+##### r3 · 70.0 s · 24 trozos
+huecos > 0,10 s (onda): ninguno ✓
+✗ ISLA REPETIDA: [20, 31]
+✗  40.54s se oye de más: ['a']  ·  «y como él a él. Y empezó a creérselo poco a»
+· reel entero replace: esperado «era» · se oye «él a»

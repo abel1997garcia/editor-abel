@@ -1,0 +1,5 @@
+##### r1 · 48.0 s · 15 trozos
+huecos > 0,10 s (onda): [(2.25, 2.41), (14.41, 14.52), (22.080000000000002, 22.2), (35.71, 35.83)]
+✗   2.40s unión con 0.16 s de silencio (islas 2→16)
+✗  17.72s unión con 0.10 s de silencio (islas 21→30)
+· reel entero replace: esperado «Diego.» · se oye «llega.»

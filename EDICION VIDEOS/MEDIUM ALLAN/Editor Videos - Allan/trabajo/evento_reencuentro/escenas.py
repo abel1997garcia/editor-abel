@@ -1,0 +1,73 @@
+"""Escenas del vídeo «El Reencuentro»: una por frase. Cada escena empieza en la palabra `ancla` del audio.
+tipo: texto | foto (tarjeta) | full (foto a pantalla completa) | collage | respira | logo
+"""
+F = r'C:\Users\Clap\Desktop\EDICION VIDEOS\MEDIUM ALLAN\FOTOS ALLAN' + '\\'
+CIELO = F + 'WhatsApp Image 2026-10-14 at 7.00.16 PM(1).jpeg'
+AMAZON = F + 'WhatsApp Image 2026-10-14 at 6.35.09 PM(1).jpeg'
+ABUELA = F + 'WhatsApp Image 2026-10-14 at 6.57.03 PM.jpeg'
+PLUMA = F + 'WhatsApp Image 2026-10-14 at 7.06.28 PM(1).jpeg'
+TAZA = F + 'WhatsApp Image 2026-10-14 at 7.24.58 PM(1).jpeg'
+RETRATO = F + 'allan_retrato_camisa_blanca.webp'
+
+ESCENAS = [
+    dict(ancla=None, tipo='logo'),
+    dict(ancla='Puede que esta', tipo='texto', g='Puede que sea la primera vez', p='que vienes a algo así.'),
+    dict(ancla='y que hayas', tipo='texto', g='Sin saber muy bien', p='qué te vas a encontrar.'),
+    dict(ancla='Quizás has visto', tipo='texto', g='Quizá has visto vídeos.', p='Has leído cosas.'),
+    dict(ancla='pero estar aquí', tipo='texto', g='Pero estar aquí, en persona,', p='es diferente.'),
+    dict(ancla='Una parte de', tipo='texto', g='Una parte de ti', p='necesita saber.'),
+    dict(ancla='y otra parte', tipo='texto', g='Y otra no quiere', p='ilusionarse demasiado.'),
+    dict(ancla='Y por dentro', tipo='texto', g='¿Qué hago yo aquí?'),
+    dict(ancla='¿Y si no viene', tipo='texto', g='¿Y si no viene', p='nadie por mí?'),
+    dict(ancla='¿Y si viene', tipo='texto', g='¿Y si viene…', p='y no estoy preparado?'),
+    dict(ancla='¿Y si me emociono', tipo='texto', g='¿Y si me emociono', p='delante de todos?'),
+    dict(ancla='¿Y si todo', tipo='texto', g='¿Y si todo esto', p='es mentira?'),
+    dict(ancla='Todo esto que', tipo='texto', g='Todo lo que sientes', p='es normal.'),
+    dict(ancla='Es la primera vez que abres', tipo='texto', g='Es la primera vez', p='que abres esta puerta.'),
+    dict(ancla='Y yo también', tipo='foto', foto=RETRATO, g='Yo también tuve', p='esas dudas. Muchas.'),
+    dict(ancla='Desde niño', tipo='texto', g='Desde niño,', p='algunos lugares me hacían sentir cosas.'),
+    dict(ancla='Era pequeño', tipo='texto', g='Era pequeño…', p='y no tenía palabras para eso.'),
+    dict(ancla='Recuerdo una iglesia', tipo='texto', g='Recuerdo una iglesia.'),
+    dict(ancla='Sentía algo tan', tipo='texto', g='Sentí algo tan real…', p='que me asusté muchísimo.'),
+    dict(ancla='Así que hice', tipo='texto', g='Así que hice lo que', p='hacemos casi todos.'),
+    dict(ancla='Lo guardé', tipo='texto', g='Lo guardé.'),
+    dict(ancla='Tuve un trabajo', tipo='foto', foto=AMAZON, g='Tuve un trabajo estable.', p='Un buen sueldo.', lado='izq'),
+    dict(ancla='Desde fuera', tipo='foto', foto=AMAZON, g='Desde fuera,', p='todo estaba bien.', lado='izq'),
+    dict(ancla='Pero por dentro', tipo='full', foto=TAZA, g='Pero por dentro, no.'),
+    dict(ancla='Y no te voy', tipo='full', foto=TAZA, g='He estado en el infierno', p='durante muchos años.'),
+    dict(ancla='Por eso si hoy', tipo='texto', g='Si hoy lo estás pasando mal…', p='si sientes que te falta alguien…'),
+    dict(ancla='yo te entiendo', tipo='texto', g='Te entiendo.', p='De verdad.'),
+    dict(ancla='Hasta que una noche', tipo='foto', foto=ABUELA, g='Hasta que una noche…', p='soñé con ella.', glow=True),
+    dict(ancla='Ahí cambió', tipo='foto', foto=ABUELA, g='«Te voy a ayudar».', glow=True),
+    dict(ancla='A partir de ahí', tipo='foto', foto=CIELO, g='Dejé de huir', p='de lo que sentía.'),
+    dict(ancla='Y entendí que', tipo='foto', foto=PLUMA, g='El don siempre', p='había estado ahí.'),
+    dict(ancla='Desde aquel niño', tipo='foto', foto=PLUMA, g='Desde aquel niño', p='de la iglesia.'),
+    dict(ancla='Y que no era', tipo='texto', g='No era mío.', p='Era para dárselo a otros.'),
+    dict(ancla='Por eso, antes', tipo='texto', g='Antes de empezar,', p='quiero que sepas algo.'),
+    dict(ancla='Aquí no hay', tipo='texto', g='Aquí no hay nada que temer.'),
+    dict(ancla='Las energías no', tipo='texto', g='Las energías no molestan.', p='No atacan.'),
+    dict(ancla='Nunca te harán', tipo='texto', g='Nunca te harán daño.', p='Jamás.'),
+    dict(ancla='Lo que llega', tipo='texto', g='Lo que llega del otro lado', p='es amor.'),
+    dict(ancla='Allí no existe', tipo='texto', g='Allí no existe el ego.', p='Ni el rencor.'),
+    dict(ancla='Todo se perdona', tipo='texto', g='Todo se perdona.'),
+    dict(ancla='Y quienes se', tipo='texto', g='Y quienes se fueron…', p='están en paz.'),
+    dict(ancla='En una sesión', tipo='sesiones', g='En una sesión, siento', p='lo que sentía esa persona.'),
+    dict(ancla='Veo imágenes', tipo='sesiones', g='Veo imágenes. Te lo cuento.', p='Y eres tú quien lo confirma.'),
+    dict(ancla='Más de 1', tipo='sesiones', g='+1.200', p='sesiones', grande=True),
+    dict(ancla='Porque detrás', tipo='sesiones', g='Detrás de cada una hay una familia,', p='una historia y un amor que sigue ahí.'),
+    dict(ancla='El amor no muere', tipo='texto', g='El amor no muere.'),
+    dict(ancla='El amor solo', tipo='texto', g='Solo cambia de lugar.'),
+    dict(ancla='Ahora, respira', tipo='texto', g='Ahora, respira conmigo.'),
+    dict(ancla='Coge aire por', tipo='respira', g='Coge aire', modo='in'),
+    dict(ancla='Y suéltalo por', tipo='respira', g='Suéltalo', modo='out'),
+    dict(ancla='Coge aire Siente', tipo='respira', g='Coge aire', modo='in'),
+    dict(ancla='Y suelta', tipo='respira', g='Suelta', modo='out'),
+    dict(ancla='Una vez más', tipo='respira', g='Coge aire', p='con todo lo que traías hoy', modo='in'),
+    dict(ancla='Y suéltalo todo', tipo='respira', g='Y suéltalo todo', modo='out'),
+    dict(ancla='Estás en el', tipo='texto', g='Estás en el lugar correcto.'),
+    dict(ancla='Quizá hoy alguien', tipo='texto', g='Quizá hoy alguien', p='tiene algo que decirte.'),
+    dict(ancla='Algo que se', tipo='texto', g='Algo que se quedó pendiente.'),
+    dict(ancla='Y yo estaré', tipo='foto', foto=RETRATO, g='Y yo estaré aquí', p='para ponerle voz.'),
+    dict(ancla='Así que siéntate', tipo='texto', g='Siéntate. Ponte cómodo.', p='Y déjate llevar.'),
+    dict(ancla='Empezamos', tipo='logo', g='Empezamos.'),
+]

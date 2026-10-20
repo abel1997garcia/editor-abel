@@ -1,0 +1,287 @@
+APUNTES: PRÁCTICAS PARA SANAR Y LIBERAR EMOCIONES
+Qué hacer, paso a paso; por qué funciona; cuánta evidencia tiene; qué esperar y cuándo.
+Apuntes propios, escritos a partir de la investigación publicada (citada en cada práctica) y de los métodos de cada autor. Revisado en octubre de 2026.
+
+======================================================================
+0. CÓMO LEER ESTE DOCUMENTO
+======================================================================
+
+NIVEL DE EVIDENCIA (sé siempre honesto con la persona sobre esto):
+- [A] ALTA: muchos ensayos controlados y metaanálisis independientes. Lo recomiendan guías clínicas (OMS, NICE).
+- [B] MODERADA: varios ensayos controlados con resultados positivos, aunque con limitaciones (muestras pequeñas, autores implicados, pocos estudios independientes).
+- [C] PRELIMINAR: estudios pequeños, piloto o sin grupo de control, o con conflictos de interés. Prometedor, pero no demostrado.
+- [D] SIN ESTUDIOS CONTROLADOS: solo hay experiencia clínica y testimonios. Puede usarse, pero midiendo los resultados de cerca.
+
+AUTOAPLICABLE frente a CON PROFESIONAL:
+- (Auto): la persona puede hacerla sola.
+- (Prof): necesita un terapeuta formado, sobre todo para traumas fuertes.
+
+VERDAD IMPORTANTE QUE HAY QUE DECIR A LA PERSONA:
+Ningún método funciona al 100% para todo el mundo. Ni siquiera los de nivel A: en los mejores ensayos, una parte importante de las personas mejora mucho, otra parte mejora poco y otra no mejora. Por eso **medir** es tan importante (ver "Apuntes - Seguimiento, plazos y efecto placebo"): para saber si TU camino está funcionando o si toca cambiar de método.
+
+ORDEN GENERAL DEL PROCESO (cada fase prepara la siguiente):
+1. REGULAR: sentirse a salvo en el cuerpo (sección 1).
+2. SENTIR Y LIBERAR la emoción (sección 2).
+3. CUESTIONAR la creencia o el resentir (sección 3).
+4. PROCESAR el recuerdo o el trauma (sección 4).
+5. TOMAR, DEVOLVER Y CERRAR con el clan (sección 5).
+6. CREAR el nuevo yo y CONVERTIRLO EN HÁBITO (sección 6).
+7. CUIDAR EL CUERPO, la base de todo (sección 7).
+
+======================================================================
+1. REGULACIÓN DEL SISTEMA NERVIOSO (primero siempre)
+======================================================================
+Detalle completo en "Apuntes - Regulación del sistema nervioso (polivagal y trauma)".
+
+1.1 RESPIRACIÓN DE RESONANCIA (unas 6 respiraciones por minuto) [A/B] (Auto)
+- Qué es: respirar a unas 6 respiraciones por minuto (inhalar 5 segundos y exhalar 5, o inhalar 4 y exhalar 6). Así se maximiza la variabilidad de la frecuencia cardiaca (VFC), que es un marcador de regulación del nervio vago.
+- Evidencia: el metaanálisis de biofeedback de VFC (Lehrer y col., 2020; Goessl y col., 2017, en ansiedad y estrés) muestra efectos moderados sobre el estrés y la ansiedad.
+- Cómo: sentado, espalda recta. Inhalar por la nariz llevando el aire al vientre (4–5 segundos) y exhalar despacio por la nariz o con los labios fruncidos (5–6 segundos). Puedes ayudarte con un temporizador o una app de respiración.
+- Dosis: 10–20 minutos al día (dos sesiones de 10 está bien), más 1–3 minutos en momentos de estrés.
+- Qué esperar: en el momento, más calma en 2–5 minutos. Con práctica diaria, en 4–8 semanas se nota más estabilidad, mejor sueño y menos reactividad.
+- Puente: la coherencia corazón-cerebro de Dispenza (que también se apoya en la VFC, con el HeartMath Institute) y el Metal (Pulmón) en la MTC.
+
+1.2 SUSPIRO FISIOLÓGICO [B] (Auto)
+- Cómo: dos inhalaciones por la nariz, la segunda más corta "para acabar de llenar", y una exhalación larga por la boca. Repetirlo de 1 a 5 veces.
+- Evidencia: un ensayo aleatorizado de Stanford (Balban y col., 2023, en *Cell Reports Medicine*) comparó 5 minutos diarios de "exhalación cíclica" con meditación: mejoró más el estado de ánimo y bajó más la frecuencia respiratoria en reposo.
+- Qué esperar: alivio inmediato en el momento de ansiedad.
+
+1.3 ETIQUETAR LA EMOCIÓN ("nómbralo para domarlo") [B] (Auto)
+- Qué es: poner nombre exacto a lo que se siente ("siento rabia", "esto es miedo", "noto vergüenza en el pecho").
+- Evidencia: estudios de neuroimagen (Lieberman y col., 2007, *Psychological Science*) muestran que nombrar una emoción reduce la activación de la amígdala, el centro de alarma, y aumenta la de la corteza prefrontal.
+- Cómo: parar, notar el cuerpo y decir o escribir "Ahora siento ___ en ___ (parte del cuerpo), con una intensidad de __/10".
+- Puente: las emociones primarias ("2. Lectura de Apoyo Emociones") y el mapa de la conciencia de Hawkins (¿en qué nivel estoy ahora?).
+
+1.4 ORIENTACIÓN, ANCLAJE Y AUTOCONTACTO [B, como parte de terapias del trauma] (Auto)
+- Cómo: la técnica 5-4-3-2-1 (5 cosas que ves, 4 que oyes, 3 que tocas, 2 que hueles, 1 que saboreas), sentir los pies en el suelo, y una mano en el corazón y la otra en el vientre durante 2 minutos.
+- Para qué: salir de una crisis de ansiedad o de una desconexión (dorsal).
+
+======================================================================
+2. SENTIR Y LIBERAR LA EMOCIÓN
+======================================================================
+
+2.1 EL MÉTODO DE "DEJAR IR" (Hawkins) [D como método propio / B por su mecanismo de aceptación] (Auto)
+- Fuente: el texto completo está en la biblioteca, "Dejar ir. El camino a la liberación". Lee el método directamente en el libro antes de enseñarlo.
+- Evidencia: no hay ensayos del método de Hawkins en concreto. Pero su mecanismo, aceptar la emoción sin luchar contra ella ni contarse historias, es el núcleo de la Terapia de Aceptación y Compromiso (ACT) y del mindfulness, que tienen muchos ensayos con efectos moderados. Sí está demostrado que suprimir emociones aumenta la activación fisiológica (Gross, investigación sobre regulación emocional).
+- Paso a paso:
+  1. Notar la sensación en el cuerpo: dónde está, cómo es (presión, calor, nudo).
+  2. Dejarla estar, sin resistirla, sin juzgarla, sin querer cambiarla y sin la historia ("es por culpa de…").
+  3. Si aparece una resistencia ("no quiero sentir esto"), soltar primero esa resistencia.
+  4. Quedarse con la energía de la sensación hasta que pierda fuerza por sí sola. Suelen bastar unos minutos.
+  5. Comprobar si queda algo. Muchas veces aparece otra emoción debajo (debajo de la ira, la pena; debajo de la pena, el miedo). Repetir con ella.
+- Dosis: cada vez que aparezca la emoción, y una sesión diaria de 10–15 minutos con el tema que se está trabajando.
+- Qué esperar: en la misma sesión, la intensidad baja (por ejemplo, de 8/10 a 3/10). Con unas semanas de práctica, la emoción vuelve con menos fuerza y dura menos.
+- Señal de que funciona: la persona dice "ya no me engancha igual" o "lo noto, pero pasa".
+
+2.2 ESCRITURA EXPRESIVA (James Pennebaker) [A/B] (Auto)
+- Evidencia: hay cientos de estudios. Los metaanálisis (Frattaroli, 2006) muestran un efecto pequeño pero consistente sobre la salud física y psicológica: menos visitas al médico, mejor estado de ánimo a medio plazo y mejoras en el sistema inmunitario en algunos estudios.
+- Cómo: durante 4 días seguidos, 15–20 minutos al día, escribir sin parar sobre lo más doloroso o traumático, incluyendo **qué pasó, qué sentiste y qué significa para ti y para tu vida**. No importan la gramática ni el orden. Es privado: se puede destruir después.
+- Qué esperar (es importante avisar): **justo después de escribir, es normal sentirse peor durante unas horas o un día**. Los beneficios aparecen a las 2–8 semanas.
+- Señal de alarma: si escribir desborda a la persona, se para y se regula (sección 1). En traumas graves, mejor con un profesional.
+- Puente: la carta no enviada al progenitor o al ancestro (constelaciones, psicomagia) y la revisión de Neville.
+
+2.3 EFT, TÉCNICA DE LIBERACIÓN EMOCIONAL O "TAPPING" (Gary Craig) [B] (Auto, o Prof si hay trauma)
+- Qué es: dar golpecitos suaves con los dedos en puntos de acupuntura mientras se nombra el problema y la emoción. Combina la exposición (pensar en el tema) con un estímulo físico calmante y la aceptación de uno mismo.
+- Evidencia: metaanálisis de ansiedad (Clond, 2016: 14 estudios, 658 personas, con un efecto grande antes y después y mayor que en los grupos de control), de depresión (Nelms y Castel, 2016) y de estrés postraumático (Sebastian y Nelms, 2017: 7 ensayos aleatorizados, efecto moderado o grande frente a la atención habitual). **Limitación**: buena parte de los estudios son de investigadores vinculados a la EFT, y no está claro si los puntos concretos importan o si funciona por la exposición y la aceptación.
+- Paso a paso (protocolo básico):
+  1. Elegir un problema concreto ("el nudo en el estómago cuando pienso en la discusión con mi padre") y puntuar su intensidad de 0 a 10.
+  2. Frase de preparación, mientras se golpea el canto de la mano: "Aunque tengo este ___, me acepto profunda y completamente." Decirla 3 veces.
+  3. Ronda: dar unos 7 golpecitos en cada punto diciendo una frase recordatoria ("este nudo", "esta rabia con mi padre"). Los puntos son: inicio de la ceja, lado del ojo, debajo del ojo, debajo de la nariz, barbilla, clavícula, debajo del brazo y coronilla.
+  4. Respirar y volver a puntuar de 0 a 10.
+  5. Repetir hasta llegar a 0–2. Si cambia el aspecto ("ahora es tristeza"), trabajar ese aspecto.
+- Qué esperar: bajada de intensidad dentro de la misma sesión. Para un recuerdo concreto, pueden hacer falta de 1 a 5 sesiones. Para ansiedad general, varias semanas de práctica diaria.
+- Puente: los puntos están sobre meridianos de la MTC y la frase "me acepto" equivale a la aceptación de Hawkins.
+
+2.4 LA TÉCNICA DE LA SILLA VACÍA (Gestalt y terapia focalizada en la emoción de Greenberg) [B] (Auto con cuidado, o Prof)
+- Qué es: hablar en voz alta a una persona imaginada, sentada en una silla vacía (padre, madre, expareja, ancestro, uno mismo de niño), decirle lo que nunca se dijo y, después, cambiar de silla y responder desde ella.
+- Evidencia: la terapia focalizada en la emoción (Greenberg, Paivio) tiene ensayos controlados en depresión y en "asuntos pendientes" con figuras significativas. Paivio y Greenberg (1995) mostraron que el diálogo con la silla vacía resolvía mejor los resentimientos hacia personas significativas que un grupo psicoeducativo. Hay revisiones de 2020 sobre trabajo con sillas con resultados positivos.
+- Paso a paso:
+  1. Colocar dos sillas, una frente a otra. Imaginar a la persona sentada en la otra: cómo está sentada, qué expresión tiene.
+  2. Decirle lo que se siente, en primera persona y en presente: "Papá, cuando ___, yo sentí ___. Necesitaba ___."
+  3. Expresar la emoción completa, la rabia y también la pena, y lo que se necesitaba.
+  4. Cambiar de silla, "ser" esa persona y responder desde ella. Observar qué aparece.
+  5. Volver a la silla propia y cerrar: qué entiendes ahora y qué te llevas.
+- Qué esperar: es intenso. Suele dar una liberación emocional fuerte y, a menudo, comprensión del otro. Para un "asunto pendiente" pueden hacer falta varias sesiones.
+- Puente: las frases de solución de Hellinger y la "ruptura del vínculo" de Wolynn. Encaja muy bien con las constelaciones.
+
+2.5 AUTOCOMPASIÓN (Kristin Neff y Christopher Germer) [A/B] (Auto)
+- Evidencia: el programa Mindful Self-Compassion tiene un ensayo aleatorizado (Neff y Germer, 2013) y varios metaanálisis (por ejemplo, Ferrari y col., 2019) con efectos moderados sobre la autocrítica, la depresión, la ansiedad y el estrés.
+- La "pausa de autocompasión", en tres pasos, ante el dolor:
+  1. "Esto es un momento de sufrimiento" (conciencia).
+  2. "El sufrimiento es parte de la vida; no estoy solo en esto" (humanidad compartida).
+  3. Con una mano en el corazón: "Que pueda ser amable conmigo. Que pueda darme lo que necesito" (amabilidad).
+- Indicada sobre todo para las heridas de humillación, injusticia y rechazo (Bourbeau), la culpa (30) y la vergüenza (20) en Hawkins, y el hijo "no deseado".
+- Qué esperar: alivio inmediato. La autocrítica empieza a bajar en 4–8 semanas.
+
+======================================================================
+3. CUESTIONAR LA CREENCIA O EL RESENTIR
+======================================================================
+
+3.1 EL TRABAJO (Byron Katie) [C/B] (Auto)
+- Detalle completo en "Apuntes - Las 5 heridas (Bourbeau) y El Trabajo (Byron Katie)".
+- Evidencia: ensayos aleatorizados pequeños con el formato IBSR (Inquiry-Based Stress Reduction, la versión clínica del método, en Israel: personas que tartamudean en 2021, portadoras de BRCA, profesionales sanitarios) y un estudio piloto con 197 personas (Smernoff y col., 2015) con mejoras en depresión, ansiedad y calidad de vida que se mantenían a los 6 meses. Son estudios prometedores, pero pequeños.
+- Cómo: tomar el resentir literal (por ejemplo, el del diccionario o el que salió en la consulta) y pasarlo por las 4 preguntas y las 3 inversiones.
+- Dosis: una hoja de trabajo por situación. Unos 20–40 minutos.
+- Qué esperar: alivio o "clic" en la misma sesión cuando una inversión resuena. La creencia pierde fuerza tras trabajarla varias veces y con distintas situaciones.
+
+3.2 REESTRUCTURACIÓN COGNITIVA (la base de la terapia cognitivo-conductual, TCC) [A] (Auto, o Prof)
+- Evidencia: la TCC es la terapia con más evidencia del mundo para la ansiedad y la depresión.
+- Cómo, con un registro de pensamientos en 5 columnas:
+  1. La situación.
+  2. El pensamiento automático.
+  3. La emoción y su intensidad de 0 a 10.
+  4. Las pruebas a favor y en contra del pensamiento.
+  5. Un pensamiento alternativo más equilibrado, y cómo cambia la emoción.
+- Puente: es lo que Lipton llama "hacer visible el programa subconsciente".
+
+3.3 MEDIR LA FUERZA DE LA CREENCIA (idea tomada de la escala VOC del EMDR) (Auto)
+- Antes y después de trabajar una creencia, puntuar de 1 a 7 cuánto se SIENTE verdadera la creencia nueva. Por ejemplo: "Tengo derecho a existir: 2/7 antes y 5/7 después." Es un indicador directo de progreso.
+
+======================================================================
+4. PROCESAR EL RECUERDO O EL TRAUMA
+======================================================================
+
+4.1 EMDR (Desensibilización y Reprocesamiento por Movimientos Oculares, Francine Shapiro) [A] (Prof)
+- Qué es: se recuerda el episodio traumático (con su imagen, la creencia negativa, la emoción y la sensación corporal) mientras se sigue una estimulación bilateral: movimientos oculares, sonidos o toques alternos. El recuerdo se "reprocesa" y pierde su carga.
+- Evidencia: **la OMS (2013) y la guía británica NICE lo recomiendan** para el estrés postraumático. Tiene decenas de ensayos aleatorizados y una eficacia comparable a la TCC centrada en el trauma.
+- Formato: con un terapeuta acreditado. Habitualmente, 6–12 sesiones para un trauma único y más para traumas complejos o de la infancia.
+- Qué esperar: la escala de malestar (SUDS) del recuerdo baja dentro de la sesión, con frecuencia de 8–9 a 0–2. Después puede haber unos días de sueños vívidos o de recuerdos que aparecen solos. En 1–3 meses se nota menos reactividad en la vida diaria.
+- Versión autoaplicable para regularse, no para procesar traumas: el abrazo de mariposa (brazos cruzados y golpecitos alternos) mientras se piensa en algo agradable o en un recurso.
+- Puente: los "conflictos programantes" de Hamer y los "traumas core" de Wolynn son exactamente los recuerdos que se trabajan en EMDR.
+
+4.2 EXPERIENCIA SOMÁTICA (Peter Levine) [B] (Prof)
+- Evidencia: un ensayo aleatorizado con 63 personas con estrés postraumático (Brom y col., 2017, *Journal of Traumatic Stress*) mostró mejoras grandes frente a lista de espera, que se mantenían en el seguimiento.
+- Cómo: con un profesional. Titulación, pendulación y descarga (ver los apuntes de regulación).
+- Para quién: personas que "no pueden hablar" del trauma, con mucha disociación o síntomas sobre todo corporales.
+
+4.3 SISTEMAS DE FAMILIA INTERNA (IFS, Richard Schwartz) [C/B] (Prof, o Auto en su forma básica)
+- Qué es: la mente está formada por "partes": protectores (el controlador, el crítico, el que se distrae) y exiliados (el niño herido). Desde el "Self" (calma, curiosidad, compasión), se dialoga con cada parte, se escucha su función y se "descarga" lo que lleva.
+- Evidencia: un ensayo aleatorizado en artritis reumatoide (Shadick y col., 2013), con mejoras en dolor y depresión, y estudios piloto en estrés postraumático (2021). Está en el registro de prácticas basadas en la evidencia de EE. UU.
+- Versión básica autoaplicable:
+  1. Notar una parte, por ejemplo "la que siempre se exige".
+  2. Preguntarle: "¿Qué temes que pasaría si dejaras de hacer esto?"
+  3. Agradecerle su función protectora.
+  4. Preguntarle a quién protege: normalmente, al niño herido.
+- Puente: las 5 heridas y sus máscaras (cada máscara es una "parte protectora"), y los tipos de hijo del proyecto sentido.
+
+4.4 HIPNOSIS CLÍNICA E HIPNOTERAPIA [A en dolor y colon irritable; B en ansiedad] (Prof, o Auto con audios)
+- Evidencia: metaanálisis sólidos en dolor y en colon irritable (la hipnoterapia dirigida al intestino tiene muchos ensayos y la recomiendan guías de gastroenterología), y efectos moderados en ansiedad.
+- Para qué: accede al estado theta y de somnolencia, donde Lipton, Neville y Dispenza sitúan la reprogramación del subconsciente. Es la versión clínica de esa misma idea.
+- Puente: los problemas digestivos (*Descodificación biológica de los problemas digestivos*, Hamer, endodermo).
+
+======================================================================
+5. TOMAR, DEVOLVER Y CERRAR CON EL CLAN
+======================================================================
+
+5.1 CONSTELACIONES FAMILIARES (Hellinger) [B] (Prof, en taller o individual)
+- Evidencia: un ensayo aleatorizado de buena calidad (Weinhold, Hunger y col., Universidad de Heidelberg, 2013, *Journal of Counseling Psychology*, 208 participantes de población general) encontró una mejora moderada del funcionamiento psicológico (d = 0,45) a las 2 semanas y a los 4 meses. El seguimiento (Hunger y col., 2015) muestra que **se mantiene a los 8 y a los 12 meses** (d de alrededor de 0,40), sin efectos adversos. Limitaciones: grupo de control en lista de espera y población no clínica. Se considera más útil como complemento de otras terapias.
+- Formato: un taller de 1–3 días, o una sesión individual con muñecos o con anclas en el suelo.
+- Versión autoaplicable (las frases de solución): visualizar a los padres o al ancestro de pie delante, inclinar la cabeza y decir las frases en voz alta (ver la sección 6 de "marcos.md" y "Bert Hellinger - Ordenes del Amor"). Notar qué cambia en el cuerpo.
+- Qué esperar: una sensación de alivio o de "orden" inmediata. Los cambios en las relaciones suelen notarse en semanas o meses.
+
+5.2 EL EJERCICIO DE DEVOLVER (Mark Wolynn) [D/C] (Auto)
+- Fuente: está en la biblioteca, "ESTE DOLOR NO ES MIO" (busca `sentencia core` y las secciones de ejercicios).
+- Cómo: identificar la frase core, encontrar al ancestro a quien pertenece y, visualizándolo, decirle que lo ves, que respetas su destino y que le devuelves lo suyo con amor. Pedirle su bendición para vivir. Respirar hasta que el cuerpo se calme (según el propio libro, varios minutos).
+- Evidencia: no hay ensayos del método. Se apoya en la investigación sobre la transmisión epigenética del trauma (Yehuda y otros), que estudia el mecanismo, no esta intervención.
+
+5.3 ACTOS SIMBÓLICOS O RITUALES (psicomagia) [C, por la investigación sobre rituales] (Auto)
+- Detalle completo y plantillas en "Apuntes - Psicomagia y metagenealogía (Jodorowsky)".
+- Evidencia indirecta: estudios experimentales de Harvard (Norton y Gino, 2014) muestran que realizar un ritual después de una pérdida reduce el duelo y aumenta la sensación de control, **incluso en personas que no creen en los rituales**. Otros estudios (Brooks y col., 2016) muestran que un ritual previo reduce la ansiedad ante una tarea. No hay ensayos de la psicomagia en concreto.
+- Qué esperar: una sensación de cierre inmediata. Los cambios de conducta conviene vigilarlos durante semanas.
+
+5.4 EL GENOGRAMA (Auto)
+- Sirve para tomar conciencia, no es terapia por sí solo. Sigue "Mat 5 Mod. 4" y los apuntes de metagenealogía. Suele tardarse de 1 a 4 semanas en reunir los datos preguntando en la familia.
+
+======================================================================
+6. CREAR EL NUEVO YO Y CONVERTIRLO EN HÁBITO
+======================================================================
+
+6.1 ⚠️ DATO CLAVE: VISUALIZAR EL FINAL NO BASTA, Y A VECES FRENA
+- La investigación de Gabriele Oettingen (Nueva York) muestra que **fantasear solo con el resultado deseado puede REDUCIR la energía y el esfuerzo**: el cerebro "se relaja" como si ya lo hubiera conseguido. Funciona mejor combinar el deseo con el obstáculo y con un plan.
+- **Esto matiza a Neville, Dispenza y Hill.** La suposición, la escena del final o la emoción elevada son útiles para el ESTADO interior, pero deben ir acompañadas de un plan concreto (algo que Hill sí exige con sus 6 pasos). Este es el puente para que la manifestación funcione en la práctica.
+
+6.2 WOOP: CONTRASTE MENTAL E INTENCIONES DE IMPLEMENTACIÓN (Oettingen y Gollwitzer) [A] (Auto)
+- Evidencia: el metaanálisis de Gollwitzer y Sheeran (2006, 94 estudios) encontró un efecto moderado o grande (d = 0,65) de las intenciones de implementación ("si ocurre X, entonces haré Y") sobre el logro de objetivos. El contraste mental tiene numerosos ensayos en salud, estudio y relaciones.
+- Los 4 pasos, unos 5–10 minutos:
+  1. **W (Wish, deseo)**: ¿qué deseo importante y alcanzable tienes para las próximas semanas?
+  2. **O (Outcome, resultado)**: imagina el mejor resultado y siéntelo. Aquí entran Neville, la emoción elevada de Dispenza y la gratitud por adelantado.
+  3. **O (Obstacle, obstáculo)**: ¿cuál es el obstáculo INTERNO principal (una emoción, una creencia, un hábito) que te lo impide? Aquí entra todo lo que ha salido en la consulta.
+  4. **P (Plan)**: "Si aparece [el obstáculo], entonces haré [una acción concreta]." Por ejemplo: "Si siento que no merezco cobrar más, entonces haré 3 respiraciones, me diré 'tengo derecho' y enviaré igualmente el presupuesto."
+- Dosis: a diario, o antes de cada situación importante.
+
+6.3 ENSAYO MENTAL (Dispenza, visualización deportiva) [B para el rendimiento motor; C para lo que promete Dispenza] (Auto)
+- Evidencia: el ensayo mental mejora el rendimiento motor y deportivo (metaanálisis de práctica mental). Que la imaginación activa redes parecidas a la acción real está bien establecido.
+- Sobre Dispenza en concreto: el estudio de su retiro (UC San Diego, *Communications Biology*, 2025) encontró cambios cerebrales y en la sangre (más plasticidad neuronal, BDNF y vías de opioides endógenos), pero **con solo 20 personas, sin grupo de control y con él como coautor**. Es interesante, no concluyente. Muchos de esos cambios se parecen a los que produce cualquier retiro intenso de meditación y a los del placebo abierto (ver los apuntes de placebo).
+- Cómo (método de Dispenza, según los apuntes):
+  1. Calmarse con 5–10 minutos de respiración y atención al corazón.
+  2. Soltar la identidad de siempre.
+  3. Ensayar con detalle cómo piensa, siente y actúa el nuevo yo en situaciones concretas del día siguiente.
+  4. Generar la emoción elevada (gratitud, alegría) como si ya fuera.
+  5. Levantarse y vivir el día como ese yo.
+- Dosis: 20–60 minutos al día.
+
+6.4 LA REVISIÓN (Neville Goddard) [D por sí misma; C/B porque se parece a la reescritura de imágenes] (Auto)
+- Fuente: está en la biblioteca, en `Neville-Goddard/1954_awakened_imagination_text.txt` y `1961_the_law_and_the_promise.txt` (busca `revision`).
+- Evidencia: la técnica clínica más parecida, la **reescritura de imágenes (imagery rescripting)**, tiene ensayos controlados con buenos resultados en estrés postraumático, ansiedad social y pesadillas. La revisión de Neville es una versión cotidiana de esa técnica.
+- Cómo: cada noche, antes de dormir, recordar una escena del día (o de la infancia) que dolió y volver a imaginarla, en primera persona, como te habría gustado que ocurriera, con los sentidos y con la emoción, hasta que se sienta natural. Dormirse en esa sensación.
+- Qué esperar: la escena revisada pierde carga emocional en días o semanas. Para escenas de la infancia o de trauma, mejor con un profesional (reescritura de imágenes, EMDR).
+
+6.5 FORMACIÓN DE HÁBITOS (Hill: persistencia y autosugestión; Lipton: reprogramar por repetición) [A] (Auto)
+- Evidencia: el estudio de Lally y col. (2010, University College London) encontró que un hábito nuevo tarda una media de **66 días** en volverse automático, con un rango muy amplio, **de 18 a 254 días**. Saltarse un día no arruina el proceso.
+- Cómo:
+  1. Elegir una sola práctica nueva.
+  2. Unirla a algo que ya se hace ("después del café, 10 minutos de respiración").
+  3. Empezar muy pequeño (2–5 minutos).
+  4. Marcar cada día cumplido en un calendario.
+- La autosugestión de Hill, leer el objetivo en voz alta al acostarse y al levantarse sintiéndolo, encaja en el mismo esquema.
+
+6.6 TÉCNICAS DE TONY ROBBINS [C] (Auto)
+- Evidencia: los estudios con Stanford (sobre *Unleash the Power Within* en 2021 y *Date with Destiny* en 2022) dieron resultados llamativos en depresión, pero con muestras pequeñas y conflictos de interés señalados por la prensa (*San Francisco Chronicle*). Una idea suya, "las posturas de poder cambian las hormonas", no se replicó; solo se mantiene un pequeño efecto en cómo se siente uno.
+- Prácticas útiles (por su mecanismo, no por los estudios de Robbins):
+  · **Cambio de estado por el cuerpo** ("el movimiento crea emoción"): para salir de la apatía o del colapso dorsal, moverse fuerte, erguirse y respirar con energía. Encaja con la regulación polivagal (pasar del dorsal al simpático y de ahí al ventral).
+  · **Priming** (unos 10 minutos por la mañana): respiración energizante, 3 minutos de gratitud sintiendo 3 cosas concretas, enviar buenos deseos a otros y visualizar 3 objetivos como conseguidos. Es una combinación de respiración, gratitud (que tiene evidencia moderada) y visualización (que conviene combinar con WOOP).
+  · **Proceso Dickens**: visualizar con intensidad el coste de NO cambiar una creencia en 1, 5 y 10 años, y después los beneficios de cambiarla. Aprovecha la motivación por evitar el dolor.
+
+6.7 GRATITUD [B] (Auto)
+- Evidencia: los metaanálisis muestran efectos pequeños o moderados sobre el bienestar y algo menores sobre la depresión. Funciona mejor si es concreta y se siente (no una lista mecánica), y bastan 1–3 veces por semana.
+- Cómo: escribir 3 cosas concretas y POR QUÉ ocurrieron, sintiéndolas. Puente con la emoción elevada de Dispenza y con el "ya lo he recibido".
+
+======================================================================
+7. EL CUERPO, LA BASE DE TODO
+======================================================================
+
+7.1 EJERCICIO FÍSICO [A] (Auto)
+- Evidencia: un metaanálisis en *BMJ* (Noetel y col., 2024, más de 200 ensayos) concluyó que caminar o correr, el yoga y el entrenamiento de fuerza reducen la depresión con efectos moderados, comparables a la psicoterapia, y mayores cuanto más intensos.
+- Dosis: 3–5 veces por semana, 30–45 minutos. Cualquier movimiento sirve más que ninguno.
+- Puente: la descarga de la energía de lucha o huida (Levine) y la energía de los chakras.
+
+7.2 YOGA SENSIBLE AL TRAUMA [B] (Auto o en grupo)
+- Evidencia: un ensayo aleatorizado de van der Kolk y col. (2014) con mujeres con estrés postraumático crónico: un 52% dejó de cumplir los criterios de estrés postraumático, frente a un 21% en el grupo de control.
+- Clave: sentir el cuerpo (interocepción) y elegir los propios movimientos, sin forzar.
+
+7.3 SUEÑO
+- Dormir poco amplifica la reactividad de la amígdala (Walker y otros). Sin sueño suficiente, todo lo demás funciona peor. Revísalo siempre en la consulta.
+
+7.4 MINDFULNESS Y MEDITACIÓN (programas de 8 semanas: MBSR y MBCT) [A] (Auto o en grupo)
+- Evidencia: un metaanálisis en *JAMA Internal Medicine* (Goyal y col., 2014) encontró efectos moderados sobre la ansiedad, la depresión y el dolor. La terapia cognitiva basada en mindfulness (MBCT) reduce las recaídas en depresión recurrente, y la recomienda la guía NICE.
+- Formato: 8 semanas, 1 sesión semanal en grupo y unos 30–45 minutos de práctica diaria.
+- Puente: el "dejar ir" de Hawkins, la meditación de Dispenza y los niveles de neutralidad (250) y aceptación (350) del mapa de la conciencia.
+
+7.5 REIKI Y TERAPIAS ENERGÉTICAS [C/D] (Auto o Prof)
+- Evidencia: algunos ensayos pequeños sugieren reducción del dolor y la ansiedad a corto plazo, pero las revisiones sistemáticas concluyen que la evidencia es insuficiente y que es difícil separar el efecto de la atención, la relajación y el contacto del de la "energía". Se puede usar como práctica de relajación y autocuidado, sin prometer nada más.
+
+======================================================================
+8. CÓMO ELEGIR LAS PRÁCTICAS PARA CADA PERSONA (para el consultor)
+======================================================================
+Según lo que haya salido en la consulta:
+- **Ansiedad, miedo, pánico**: primero respiración de resonancia y suspiro fisiológico; después dejar ir o EFT; ejercicio físico. Si hay un trauma detrás, EMDR con un profesional.
+- **Rabia, resentimiento hacia un progenitor o una expareja**: silla vacía, El Trabajo, carta no enviada y frases de Hellinger.
+- **Tristeza, duelo, pérdida**: escritura expresiva, un ritual de despedida (psicomagia), dar lugar al excluido (Hellinger) y autocompasión.
+- **Culpa, vergüenza, sentirse indigno**: autocompasión, El Trabajo con la creencia, IFS (la parte que critica) y la celebración del nacimiento (plantilla B de psicomagia) si fue un hijo no deseado.
+- **Patrón heredado o repetición en el clan**: genograma, el ejercicio de devolver de Wolynn y una constelación (taller o individual). Después, WOOP para el nuevo patrón.
+- **Trauma con desconexión o síntomas corporales**: regulación, Experiencia Somática o EMDR con un profesional, y yoga sensible al trauma.
+- **Síntoma físico con lectura emocional**: trabajar la emoción y el resentir del síntoma con dejar ir, EFT o El Trabajo, y llevar un diario del síntoma (frecuencia, intensidad y su relación con la emoción). Siempre a la par con su tratamiento.
+- **Dinero, propósito, autosabotaje**: primero la lealtad invisible (Hellinger, Wolynn), después WOOP más los 6 pasos de Hill y el hábito de 66 días.
+- **Energía sexual dispersa o bloqueada**: ver "Apuntes - Reiki y energía sexual". Respiración y suelo pélvico, El Trabajo con las creencias sobre el sexo y el genograma de los secretos sexuales.
+
+Para cada persona, propone **un plan sencillo**: 1 práctica de regulación diaria, 1 práctica del tema principal y, si hace falta, 1 recomendación con un profesional. No más de 2–3 prácticas a la vez: con 10 nadie hace ninguna.

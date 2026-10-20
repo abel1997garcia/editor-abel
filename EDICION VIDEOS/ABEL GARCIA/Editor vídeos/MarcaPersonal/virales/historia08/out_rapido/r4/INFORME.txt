@@ -1,0 +1,4 @@
+##### r4 · 56.0 s · 17 trozos
+huecos > 0,10 s (onda): [(2.92, 3.04)]
+✗   3.00s unión con 0.12 s de silencio (islas 6→12)
+· reel entero replace: esperado «haceso.» · se oye «acceso»

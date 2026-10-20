@@ -1,0 +1,56 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  10,
+  16,
+  17,
+  18,
+  20,
+  26,
+  29,
+  30,
+  32,
+  35,
+  40,
+  43,
+  46
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Te tratan exactamente como te tratas TÚ, y aún no lo has visto:",
+   "musica": "ÉPICA/Ogryzek - AURA.mp3",
+   "gancho": [
+    0
+   ]
+  },
+  "r2": {
+   "titulo": "Cómo te tratan los demás es solo un reflejo de cómo te tratas TÚ:",
+   "musica": "EMOCIONAL/Skott - Overcome (528Hz).mp3",
+   "gancho": [
+    1
+   ]
+  },
+  "r3": {
+   "titulo": "Nadie te va a valorar mientras tú seas el primero que no lo HACE:",
+   "musica": "ÉPICA/Caleb Bryant - Imperius (instrumental) [ slowed ].mp3",
+   "gancho": [
+    4
+   ]
+  },
+  "r4": {
+   "titulo": "Quien se queja de que no le valoran nunca se ha valorado a sí MISMO:",
+   "musica": "EMOCIONAL/Tony Ann - ICARUS _ EPIC Orchestral Version.mp3",
+   "gancho": [
+    5
+   ]
+  },
+  "r5": {
+   "titulo": "\"Es que la gente me trata fatal\", y no ves cómo te tratas TÚ:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "gancho": [
+    7
+   ]
+  }
+ },
+ "corrige": []
+}

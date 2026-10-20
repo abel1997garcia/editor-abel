@@ -30,7 +30,7 @@ def parecida(x, y):
 malos_total = 0
 for nombre in sys.argv[1:]:
     M = json.load(open(RAIZ / 'trabajo/reels' / nombre / 'montaje.json', encoding='utf-8'))
-    spec = json.load(open(RAIZ / 'reels/specs' / f'{nombre}.json', encoding='utf-8'))
+    spec = json.load(open(RAIZ / 'trabajo/specs' / f'{nombre}.json', encoding='utf-8'))
     W = json.load(open(RAIZ / spec['tiempos'], encoding='utf-8'))
     audio = RAIZ / Path(spec['tiempos']).parent / 'audio16k.wav'
     print(f'== {nombre}')

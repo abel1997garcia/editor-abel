@@ -1,0 +1,2 @@
+##### r2 · 57.2 s · 14 trozos
+huecos > 0,10 s (onda): ninguno ✓

@@ -17,6 +17,7 @@ Variante: { "de": "reel_1", "gancho": [...], "titulo": "..." } hereda todo de re
  música = ruta dentro de MUSICA; "desde" = segundo de la
 canción (null: el estribillo de MUSICA/catalogo.json, o lo busca por energía).
 """
+from mejora_imagen import filtro                      # nitidez + luz compensada, igual en TODOS los reels (Abel 16/10/2026)
 import json, os, re, shutil, subprocess, sys, tempfile
 from pathlib import Path
 
@@ -26,26 +27,27 @@ MUSICA = Path('C:/Users/Clap/Desktop/EDICION VIDEOS/MUSICA')   # EMOCIONAL/, ÉP
 
 # --- plantilla (1080x1920), medida sobre la captura de referencia de Abel (OpusClip)
 VID_W, VID_H, VID_Y = 1080, 810, 547          # vídeo 4:3 con él centrado (en la referencia: y 556–1349)
-TITULO_PX, TITULO_Y, TITULO_PASO, TITULO_ANCHO = 51, 473, 61, 940   # MAYÚSCULAS, ≤ 7 palabras; líneas a 61 px (ref.: 425–522)
+TITULO_PX, TITULO_Y, TITULO_PASO, TITULO_ANCHO = 51, 473, 61, 820   # 820 = 130 px de margen a cada lado (Instagram recorta los lados; Abel 20/10/2026)
 SUB_PX, SUB_Y, SUB_MAX = 51, 1411, 3          # justo bajo el vídeo, una línea, máx. 3 palabras (ref.: 1393–1428)
 
 # --- cortes fluidos (regla de Abel): se limpian silencios largos, pero no se trocea el habla natural
 PAUSA = .45        # corte grueso por los tiempos de Whisper; los microsilencios (≥ 0,2 s) los quita microcortes() midiendo el audio
-AIRE = .05         # en cada unión quedan ~0,14 s (0,07 a cada lado), nunca cero (Lavri 12/10: la voz casi no para)
+AIRE = .02         # Abel 14/10/2026, ritmo de Lavri: en cada unión quedan ~0,08 s (antes 0,05 → ~0,14 s), nunca cero
 MIN_PLANO = 1.5    # un plano más corto se une al de al lado: dentro de una frase no hay cortecitos
 PAUSA_MAX = .45   # pero solo si la pausa que los separa es natural; más larga, se corta (vídeo dinámico)
 PAUSA_UNIR = .65  # una palabra suelta («dije», «y») nunca se queda en un plano de medio segundo: se une a su frase si la pausa es ≤ esto
 COLA = .45         # el último plano respira
-ZOOM = 1.10        # acercamiento alterno solo en los cortes de contenido (aprobado en los reels)
+CERCA = 1.30       # plano base MÁS CERCA de su cara (Abel 19/10/2026: en los horizontales sale lejos y la franja queda sosa; Rebeca/Lavri/Luigi ocupan media franja con la cara)
+ZOOM = 1.12        # y encima, acercamiento alterno en uno de cada dos cortes de contenido («aplicar el zoom a veces»)
 ENFASIS = 1.25     # zoom de énfasis en las frases clave del reel ("enfasis" en el config; Abel 12/10/2026). Nunca sobre la pantalla blanca
 
 # --- música: 26 dB por debajo de la voz (la voz va tal cual), empezando en el estribillo y a su velocidad normal
-MUSICA_DB, MUSICA_IN, MUSICA_OUT = -15, .4, 1.5   # Abel 12/10/2026: 15 dB por debajo de la voz (antes −18; a −26 «no hay música»)
-COLA_FINAL = .5   # el reel acaba con medio segundo de aire tras la última palabra
+MUSICA_DB, MUSICA_IN, MUSICA_OUT = -11.5, .4, 1.5   # dB por debajo de la voz. Abel 14/10/2026 a −13,5: «casi ni se escucha» → −11,5 (13/10 había pedido bajarla desde −11,5; a −26 «no hay música»)
+COLA_FINAL = .1   # Abel 13/10/2026: el reel acaba 0,1 s tras la última palabra (con 0,5 s «salgo yo ahí sin decir nada»)
 FUNDIDO = .04     # fundido de audio en los cortes pegados: nunca un empalme seco (Abel: «se corta muy brusco»)
 
 # --- todo el reel (vídeo, voz, subtítulos) a 1,10x (1,15 era demasiado rápido; 1,07 también le vale); la música no
-VELOCIDAD = 1.10
+VELOCIDAD = 1.0                                      # Abel 19/10/2026: velocidad NORMAL en todos los reels («la clave no está en aumentar la velocidad, sino en reducir los silencios»); antes 1,10x
 
 
 def resolver(reels):
@@ -144,8 +146,8 @@ def tam_ass(px):
 
 
 def frase(titulo):
-    """Títulos de reel en minúscula con la primera en mayúscula (Abel, 11/10/2026: todos los formatos verticales).
-    Si llega todo en MAYÚSCULAS (configs antiguas) se pasa a minúsculas; si no, se respeta (nombres propios)."""
+    """Títulos de reel con la primera en mayúscula y el resto en minúscula, como en el F1, en todos los formatos (Abel 13/10/2026,
+    tras probar las mayúsculas). Si llega todo en MAYÚSCULAS (configs antiguas) se pasa a minúsculas; si no, se respetan los nombres propios."""
     t = titulo.strip()
     if t == t.upper(): t = t.lower()
     return t[:1].upper() + t[1:]
@@ -177,11 +179,13 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         prueba = (lineas[-1] + ' ' + w).strip()
         if lineas[-1] and f.getlength(prueba) > TITULO_ANCHO: lineas.append(w)
         else: lineas[-1] = prueba
-    if len(lineas) == 2 or (len(lineas) == 1 and f.getlength(lineas[0]) > TITULO_ANCHO * .75):   # dos líneas equilibradas
+    if len(lineas) >= 2 or (len(lineas) == 1 and f.getlength(lineas[0]) > TITULO_ANCHO * .75):   # SIEMPRE dos líneas equilibradas
         pal = ' '.join(lineas).split()
         k = min(range(1, len(pal)), key=lambda i: abs(f.getlength(' '.join(pal[:i])) - f.getlength(' '.join(pal[i:]))))
         lineas = [' '.join(pal[:k]), ' '.join(pal[k:])]
-    ev = [f"Dialogue: 0,{tc(0)},{tc(subs[-1][1] + 5)},Titulo,,0,0,0,,{{\\pos(540,{TITULO_Y + (i - (len(lineas) - 1) / 2) * TITULO_PASO:.0f})}}{cursiva(l)}"
+    px = TITULO_PX                                                  # título largo: mismo largo, letra un poco más pequeña hasta caber (Abel 20/10/2026)
+    while px > 34 and max(ImageFont.truetype(str(FUENTE_TTF), px).getlength(l) for l in lineas) > TITULO_ANCHO: px -= 1
+    ev = [f"Dialogue: 0,{tc(0)},{tc(subs[-1][1] + 5)},Titulo,,0,0,0,,{{\\pos(540,{TITULO_Y + (i - (len(lineas) - 1) / 2) * TITULO_PASO * px / TITULO_PX:.0f})\\fs{tam_ass(px)}}}{cursiva(l)}"
           for i, l in enumerate(lineas)]
     ev += [f"Dialogue: 0,{tc(a)},{tc(b)},Sub,,0,0,0,,{{\\pos(540,{SUB_Y})}}{t}" for a, b, t in subs]
     Path(ruta).write_text(cab + '\n'.join(ev) + '\n', encoding='utf-8')
@@ -243,7 +247,7 @@ def ajustar_finales(fuente, W, ps):
     return microcortes(fuente, W, out)
 
 
-MICRO, MICRO_FIN, MICRO_INICIO, MICRO_PLANO = .14, .05, .06, .12   # Abel 12/10/2026: ninguna pausa > 0,15 s; quedan ~0,13 s medidos desde la voz real (bordes con umbral suave)
+MICRO, MICRO_FIN, MICRO_INICIO, MICRO_PLANO = .10, .03, .04, .12   # Abel 13/10/2026, ritmo de Lavri (reel DeNRktgtcyT: pausas de 0,03–0,08 s): todo silencio ≥ 0,10 s queda en ~0,07 s (antes ~0,13)
 
 
 def microcortes(fuente, W, ps, desde=None):
@@ -259,7 +263,7 @@ def microcortes(fuente, W, ps, desde=None):
         if desde is not None and g[-1] >= desde: out.append((t0, t1, g, *resto)); continue
         env = list(E[max(0, int(round(t0 * 100))):int(round(t1 * 100))])
         umbral = max(-42, max(env, default=-42) - 30)   # a −24 se comía arranques suaves («habrá»)
-        # bordes del plano: fuera el silencio de delante y de detrás (en las uniones quedaban huecos de 0,4–0,6 s); la cola final se respeta
+        # bordes del plano: fuera el silencio de delante y de detrás (en las uniones quedaban huecos de 0,4–0,6 s), también en el último plano
         voz = [k for k, e in enumerate(env) if e > max(-58, umbral - 8)]
         # un pico de ≤ 0,06 s pegado al borde tras ≥ 0,08 s de silencio es el arranque de la palabra siguiente (o la cola de la
         # anterior), no voz de este plano: fuera, si no dejaba ese silencio dentro (Abel 12/10/2026: pausas ≤ 0,15 s)
@@ -275,7 +279,8 @@ def microcortes(fuente, W, ps, desde=None):
             n0 = t0 + max(0, voz[0] * .01 - MICRO_INICIO); n1 = t0 + (voz[-1] + 1) * .01 + MICRO_FIN
             ultimo = (t0, t1, g) == tuple(ps[-1][:3])
             if n0 > t0 + .02: env = env[int(round((n0 - t0) * 100)):]; t0 = round(n0, 3)
-            if not ultimo and n1 < t1 - .02: env = env[:int(round((n1 - t0) * 100))]; t1 = round(n1, 3)
+            fin = n1 + (.05 if ultimo else 0)              # Abel 13/10/2026: el reel acaba 0,1 s tras la última palabra (antes quedaban ~0,4 s callado)
+            if fin < t1 - .02: env = env[:int(round((fin - t0) * 100))]; t1 = round(fin, 3)
         partes, a, ga = [], t0, list(g)
         k = 0
         while k < len(env):
@@ -382,13 +387,8 @@ def solo_voz(cfg, nombre, reel, W):
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', cfg['fuente'], '-filter_complex', ''.join(fil), '-map', '[voz]',
                     str(tmp / 'voz.wav')], check=True)
     (tmp / 'planos.json').write_text(json.dumps([None] + [[t0, t1, p] for (t0, t1, _), p in zip(ps, pads)]))
-    # listón (Abel 12/10/2026): ningún hueco de voz > 0,15 s salvo al final, y ≥ 3,3 palabras/s
-    err = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', str(tmp / 'voz.wav'), '-af', 'silencedetect=noise=-38dB:d=0.15',
-                          '-f', 'null', '-'], capture_output=True, text=True).stderr
-    dur = sum(b - a + p for (a, b, _), p in zip(ps, pads)) / VELOCIDAD
-    largos = [f'{float(e) - float(d):.1f}s ({float(d):.2f})' for e, d in re.findall(r'silence_end: ([\d.]+) \| silence_duration: ([\d.]+)', err)
-              if float(e) < dur - .3]
-    print(f"  listón: {sum(len(g) for *_, g in ps) / dur:.2f} palabras/s · huecos > 0,15 s: {largos or 'ninguno'}")
+    dur = sum(b - a + p for (a, b, _), p in zip(ps, pads)) / VELOCIDAD   # listón: ≥ 3,3 palabras/s y la ONDA sin rojos (onda.py)
+    print(f"  listón: {sum(len(g) for *_, g in ps) / dur:.2f} palabras/s"); import onda; onda.revisar(tmp / 'voz.wav')
     return tmp
 
 
@@ -407,7 +407,7 @@ def montar(cfg, nombre, reel, W, cara):
         prev = ps[k - 1][2][-1] if k else None
         if k == 0 or g[0] != prev + 1: z = 1.0 if z != 1.0 else ZOOM
         tz = trozos(t0, t1, g, W, anim, nuc) if toma else [(t0, t1, 0, [(max(a, t0), min(b, t1)) for a, b, _ in anim if a < t1 and b > t0])]
-        zz = 1.0 if any(d for *_, d in tz) else (ENFASIS if set(g) <= enf else z)   # con animación o pantalla blanca, sin acercamiento
+        zz = 1.0 if any(d for *_, d in tz) else CERCA * (ENFASIS / ZOOM if set(g) <= enf else z)   # con animación o pantalla blanca, sin acercamiento
         cw, ch = cw0 / zz, ch0 / zz; xc = f'{min(max(cx - cw / 2, 0), fw - cw):.1f}'; y = (fh - ch) * .35
         for j, (a, b, src, dentro) in enumerate(tz):
             x = xc
@@ -415,7 +415,7 @@ def montar(cfg, nombre, reel, W, cara):
                 cond = '+'.join(f'between(t,{p - a:.3f},{q - a:.3f})' for p, q in dentro)   # entre comillas: comas sin escapar
                 x = f"'if({cond},{(fw - cw) / 2:.1f},{xc})'"
             fil.append(f"[{src}:v]trim={a}:{b},setpts=PTS-STARTPTS,crop={cw:.1f}:{ch:.1f}:{x}:{y:.1f},"
-                       f"scale={VID_W}:{VID_H}:flags=lanczos,setsar=1,fps=30[v{k}_{j}];"
+                       f"scale={VID_W}:{VID_H}:flags=lanczos,setsar=1,fps=30,{filtro(cfg['fuente'], horizontal=True)}[v{k}_{j}];"
                        f"[{src}:a]atrim={a}:{b},asetpts=PTS-STARTPTS,aresample=48000,aformat=channel_layouts=stereo[a{k}_{j}];")
         d = t1 - t0; fo = FUNDIDO if pads[k] > 0 else .01
         fil.append(''.join(f'[v{k}_{j}][a{k}_{j}]' for j in range(len(tz))) + f'concat=n={len(tz)}:v=1:a=1[vk{k}][ak{k}];'
@@ -442,7 +442,7 @@ def montar(cfg, nombre, reel, W, cara):
     salida = Path(cfg.get('salida', 'out')).resolve(); salida.mkdir(parents=True, exist_ok=True)
     final = salida / f'{nombre}.mp4'
     subprocess.run(['ffmpeg', '-v', 'error', '-y', *entradas, '-filter_complex', ''.join(fil), '-map', '[v]', '-map', '[a]',
-                    '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart',
+                    '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart',
                     str(final)], check=True, cwd=tmp)
     shutil.rmtree(tmp, ignore_errors=True)
     return final

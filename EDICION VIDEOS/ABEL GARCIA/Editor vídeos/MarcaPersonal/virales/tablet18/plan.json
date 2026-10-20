@@ -1,0 +1,141 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  16,
+  17,
+  19,
+  20,
+  22,
+  27,
+  28,
+  32,
+  34,
+  36,
+  38,
+  39,
+  43,
+  44,
+  45,
+  [
+   50,
+   null,
+   "también."
+  ],
+  54,
+  55,
+  57,
+  59,
+  66,
+  67,
+  70,
+  73,
+  80
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Llevas años haciendo cosas para quererte que no te sirven absolutamente para NADA:",
+   "musica": "EMOCIONAL/Andrea Vanzo - Soulmate x Amélie x Interstellar x Passacaglia.mp3",
+   "gancho": [
+    2
+   ]
+  },
+  "r2": {
+   "titulo": "Tu autoestima no sube porque gastas tu energía en lo que MENOS importa:",
+   "musica": "ÉPICA/Ogryzek - AURA.mp3",
+   "gancho": [
+    [
+     5,
+     "De lo que menos a lo que más",
+     null
+    ]
+   ]
+  },
+  "r3": {
+   "titulo": "Lo que más haces cada día para quererte es justo lo que MENOS te sirve:",
+   "musica": "ÉPICA/Caleb Bryant - Imperius (instrumental) [ slowed ].mp3",
+   "gancho": [
+    6
+   ]
+  },
+  "r4": {
+   "titulo": "Lo que de verdad te haría quererte es justo lo que más EVITAS sentir:",
+   "musica": "EMOCIONAL/Skott - Overcome (528Hz).mp3",
+   "gancho": [
+    7
+   ]
+  },
+  "r5": {
+   "titulo": "Si necesitas que te digan que vales, el día que se vayan te QUEDAS sin nada:",
+   "musica": "ÉPICA/Gustavo Bravetti - Babel.mp3",
+   "gancho": [
+    14
+   ]
+  }
+ },
+ "estilo": "tablet",
+ "tablet": {
+  "forma": "ranking",
+  "args": [
+   [
+    [
+     "10",
+     "Afirmaciones"
+    ],
+    [
+     "9",
+     "Que te lo digan"
+    ],
+    [
+     "8",
+     "Otro libro"
+    ],
+    [
+     "7",
+     "Tu físico"
+    ],
+    [
+     "6",
+     "Silencio"
+    ],
+    [
+     "5",
+     "Lo que consumes"
+    ],
+    [
+     "4",
+     "Moverte"
+    ],
+    [
+     "3",
+     "Límites"
+    ],
+    [
+     "2",
+     "Tu palabra"
+    ],
+    [
+     "1",
+     "Siente"
+    ]
+   ]
+  ],
+  "momentos": [
+   "Repetirte afirmaciones",
+   "Que tu pareja",
+   "Leer otro libro",
+   "Cambiar tu físico",
+   "Estar en silencio",
+   "Lo que consumes",
+   "Mover tu cuerpo",
+   "Poner límites",
+   "Cumplir tu palabra",
+   "Escuchar lo que sientes"
+  ]
+ },
+ "corrige": [
+  [
+   "Perdes",
+   "Pierdes"
+  ]
+ ]
+}

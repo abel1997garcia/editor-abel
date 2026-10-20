@@ -1,0 +1,123 @@
+{
+ "_nota": "Muletillas pegadas (vídeo «aunque todo se repita, sigue»), medidas escuchando + energía.",
+ "657": {
+  "ini_fijo": 279.36,
+  "por": "«que» pegado delante de «tengo una familia»"
+ },
+ "910": {
+  "ini_fijo": 372.8,
+  "por": "«eh» 371.22-371.66 dentro de «esas» estirada; «esas» arranca en 372.90"
+ },
+ "936": {
+  "ini_fijo": 386.44,
+  "por": "«eh» 384.62-384.98 dentro de «eso» estirada; «eso» arranca en 386.54"
+ },
+ "743": {
+  "fin_fijo": 307.06,
+  "por": "«imaginaos» acaba limpia en 307.02; «¿no?» 307.16-307.28 fuera (el fin_max 307.10 daba falso aviso de palabra cortada)"
+ },
+ "1021": {
+  "fin_fijo": 421.99,
+  "por": "«alma» acaba en 421.94; luego murmullo y «¿no?» 422.17-422.26"
+ },
+ "1537": {
+  "ini_fijo": 663.18,
+  "por": "«eh» justo antes de «siempre estamos pensando» (la alineación lo daba en 663.30)"
+ },
+ "920": {
+  "ini_fijo": 378.53,
+  "por": "«por ejemplo»: «ejem» + silencio de la «p» 378.41-378.44 + «lo» 378.45-378.52 pegado a «cuando»; arrancando antes de 378.50 se oye «lo/pero cuando»"
+ },
+ "649": {
+  "fin_max": 276.03,
+  "por": "tras «soledad» arranca una risa (276.06-276.22) que sonaba a «sí»"
+ },
+ "24": {
+  "ini_fijo": 9.6,
+  "por": "«eh» 8.96-9.59 delante de «El despertar» (energía: silencio 9.60-9.66, «El» 9.67)"
+ },
+ "83": {
+  "ini_fijo": 31.6,
+  "por": "«siempre, eh, sucede»: «eh» 31.17-31.6; la «s» de «sucede» entra en 31.65 (agudos)"
+ },
+ "169": {
+  "fin_fijo": 69.04,
+  "por": "«misma» con la «a» alargada: se deja apagar (68.98 -28 dB -> 69.04 -38 dB); cortarla en 68.92 sonaba cortada"
+ },
+ "170": {
+  "ini_fijo": 69.31,
+  "por": "«energía» entra en 69.36 tras el «aah» y silencio 69.20-69.35"
+ },
+ "32": {
+  "ini_fijo": 12.87,
+  "por": "«eh» flojo 12.58-12.88 delante de «no es solo» («no» entra en 12.93)"
+ },
+ "45": {
+  "ini_fijo": 18.1,
+  "por": "«eh» flojo 17.85-18.08 delante de «es un proceso» (silencio 18.09-18.15)"
+ },
+ "166": {
+  "fin_fijo": 67.6,
+  "por": "«siempre» ALARGADO (no repetido): «siem» 66.60-66.89, silencio de la «p» 66.91-66.96, «preee» hasta 67.58. NO cortar en 66.92 ni en el valle 67.27 (cortaban la palabra)"
+ },
+ "167": {
+  "ini_fijo": 68.1,
+  "por": "«es» entra en 68.17 tras aire flojo; si no, el corte buscaba el silencio de la «p» de «siempre» y repetía «pre»"
+ },
+ "1590": {
+  "fin_fijo": 683.72,
+  "por": "«y me quedooo… me quedo impresionado»: se queda solo «y» (683.55-683.71) y se salta el primer «me quedo»"
+ },
+ "1591": {
+  "ini_fijo": 685.36,
+  "por": "segundo «me quedo impresionado» entra en 685.43 (el primero, 683.76-684.3, fuera)"
+ },
+ "1553": {
+  "ini_fijo": 669.67,
+  "por": "«eh» 669.00-669.67 pegado a «dentro» (669.73); solo hay un valle de 30 ms"
+ },
+ "1596": {
+  "fin_fijo": 688.47,
+  "por": "«la» alargada («laaa» hasta 688.44): se deja apagar; el corte en 688.17 caía en mitad de la vocal"
+ },
+ "943": {
+  "fin_fijo": 388.49,
+  "por": "«batallas» (con su «s» 388.42-388.46) y luego «¿no?» 388.53-388.65"
+ },
+ "944": {
+  "ini_fijo": 388.7,
+  "por": "«le» entra en 388.79 tras el «¿no?»"
+ },
+ "825": {
+  "fin_fijo": 338.32,
+  "por": "«esto» acaba en 338.27; luego tartamudeo «Pa…» 338.37-338.47 antes de «¿para qué ha sucedido?»"
+ },
+ "826": {
+  "ini_fijo": 339.14,
+  "por": "Allan dice «¿para qué es así? ¿para qué ha sucedido?»: se salta la primera (redundante); silencio 339.10-339.20, el 2.º «para» entra en 339.21"
+ },
+ "858": {
+  "fin_fijo": 353.48,
+  "por": "«algo» se apaga hasta 353.47; «¿no?» 353.57-353.67"
+ },
+ "859": {
+  "ini_fijo": 353.69,
+  "por": "«hay» entra en 353.75 tras el «¿no?» y silencio 353.69-353.74"
+ },
+ "1008": {
+  "fin_fijo": 416.49,
+  "por": "«tenga» y valle en 416.48-416.51; «¿no?» 416.52-416.62 pegado a «algo que sea tuyo» (sin silencio: esa frase se quita)"
+ },
+ "923": {
+  "fin_fijo": 379.46,
+  "por": "«león» acaba en 379.44; después «¿no?» flojo 379.47-379.66"
+ },
+ "977": {
+  "fin_fijo": 403.62,
+  "por": "«aunque» 403.43-403.60; después autocorrección «parezcan muy…» 403.65-404.36 (Whisper no la escribió)"
+ },
+ "978": {
+  "ini_fijo": 404.38,
+  "por": "«sean muy parecidas» entra en 404.48 tras silencio 404.37-404.47"
+ }
+}

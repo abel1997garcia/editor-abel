@@ -1,0 +1,4 @@
+##### r3 · 53.9 s · 16 trozos
+huecos > 0,10 s (onda): [(2.0300000000000002, 2.16), (47.08, 47.2)]
+✗  42.88s unión con 0.10 s de silencio (islas 37→40)
+· reel entero replace: esperado «vive» · se oye «vives»

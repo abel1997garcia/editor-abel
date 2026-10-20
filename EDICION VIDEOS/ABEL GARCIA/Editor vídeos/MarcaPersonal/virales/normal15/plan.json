@@ -1,0 +1,63 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  18,
+  19,
+  20,
+  21,
+  22,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Cuanto más actúas para gustar, menos te quieren de VERDAD:",
+   "musica": "ÉPICA/Caleb Bryant - Imperius (instrumental) [ slowed ].mp3",
+   "gancho": [
+    0
+   ]
+  },
+  "r2": {
+   "titulo": "Si quieres que te quieran por actuar, no quieres amigos, quieres PÚBLICO:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3",
+   "gancho": [
+    1,
+    2,
+    3
+   ]
+  },
+  "r3": {
+   "titulo": "Te quejas de que nadie te conoce y nunca has dejado de ACTUAR:",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3",
+   "gancho": [
+    7
+   ]
+  },
+  "r4": {
+   "titulo": "Si dejaras de actuar se quedaría muy poca gente, y es lo MEJOR:",
+   "musica": "EMOCIONAL/Skott - Overcome (528Hz).mp3",
+   "gancho": [
+    11,
+    12,
+    13
+   ]
+  },
+  "r5": {
+   "titulo": "Gustarle a todo el mundo es jodidamente AGOTADOR y nadie lo dice:",
+   "musica": "ÉPICA/Don't tell your dreams - LOVIXX, STOSLIV.mp3",
+   "gancho": [
+    15
+   ]
+  }
+ },
+ "corrige": [
+  [
+   "actuar... ¿Tú no quieres amigos? ¿Quieres público?",
+   "actuar, tú no quieres amigos, quieres público."
+  ]
+ ]
+}

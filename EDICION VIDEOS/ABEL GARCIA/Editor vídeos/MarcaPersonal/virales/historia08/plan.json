@@ -1,0 +1,126 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  12,
+  13,
+  15,
+  17,
+  20,
+  21,
+  23,
+  28,
+  29,
+  33,
+  34,
+  38,
+  39
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Nunca vas a conseguir lo que en el fondo crees que es IMPOSIBLE para ti:",
+   "musica": "ÉPICA/Caleb Bryant - Imperius (instrumental) [ slowed ].mp3",
+   "gancho": [
+    0
+   ]
+  },
+  "r2": {
+   "titulo": "Cada vez que piensas \"ojalá algún día\" lo estás alejando un poco MÁS:",
+   "musica": "EMOCIONAL/Skott - Overcome (528Hz).mp3",
+   "gancho": [
+    1,
+    2
+   ]
+  },
+  "r3": {
+   "titulo": "Lo que pones en un pedestal nunca te llega, y si llega no te LLENA:",
+   "musica": "ÉPICA/Gustavo Bravetti - Babel.mp3",
+   "gancho": [
+    4
+   ]
+  },
+  "r4": {
+   "titulo": "\"Eso no es para alguien como yo\", y justo por pensarlo NUNCA te llega:",
+   "musica": "EMOCIONAL/Outro - M83 only the best part.mp3",
+   "gancho": [
+    5,
+    6
+   ]
+  },
+  "r5": {
+   "titulo": "Te pasas la vida diciendo \"ojalá\" y así te alejas de todo lo que QUIERES:",
+   "musica": "ÉPICA/Don't tell your dreams - LOVIXX, STOSLIV.mp3",
+   "gancho": [
+    9,
+    10
+   ]
+  }
+ },
+ "estilo": "historia",
+ "diapos": [
+  {
+   "frase": "Quieres una pareja",
+   "titulo": "Pareja, negocio, **libertad**",
+   "dibujo": "escenas/historia08/1_lo_que_quieres_rojo"
+  },
+  {
+   "frase": "Hay una parte de",
+   "titulo": "«Ojalá algún **día**»",
+   "dibujo": "escenas/historia08/2_ojala_algun_dia_rojo"
+  },
+  {
+   "frase": "Ahí ya lo estás",
+   "titulo": "Crees que es para **otros**",
+   "dibujo": "escenas/historia03/1_foco_en_lo_que_falta_rojo"
+  },
+  {
+   "frase": "Si tu cabeza pone",
+   "titulo": "En un **pedestal** que no alcanzas",
+   "dibujo": "escenas/historia08/3_pedestal_rojo"
+  },
+  {
+   "frase": "Porque no atraes",
+   "titulo": "Atraes lo que crees que **mereces**",
+   "dibujo": "escenas/historia02/1_atraes_lo_que_eres_azul"
+  },
+  {
+   "frase": "Y tienes que hacerlo",
+   "titulo": "Tan normal como pedir un **café**",
+   "dibujo": "escenas/historia08/4_pedir_un_cafe_azul"
+  },
+  {
+   "frase": "Y esto se entrena",
+   "titulo": "Llega la **factura**",
+   "dibujo": "escenas/historia08/5_factura_panico_rojo"
+  },
+  {
+   "frase": "Joder, ya me han",
+   "titulo": "«Otra vez me quitan **dinero**»",
+   "dibujo": "escenas/historia06/1_cien_euros_rojo"
+  },
+  {
+   "frase": "La persona que tiene",
+   "titulo": "La paga y **sigue** con su día",
+   "dibujo": "escenas/historia08/6_paga_y_sigue_azul"
+  },
+  {
+   "frase": "Esa es la persona",
+   "titulo": "Empieza a **ser** esa persona",
+   "dibujo": "escenas/historia05/7_vive_como_si_ya_azul"
+  },
+  {
+   "frase": "La próxima vez que algo",
+   "titulo": "¿Cómo **reaccionaría**?",
+   "dibujo": "escenas/historia05/6_como_reacciona_azul"
+  }
+ ],
+ "corrige": [
+  [
+   "Y haceso.",
+   "Y haz eso."
+  ],
+  [
+   "haceso.",
+   "haz eso."
+  ]
+ ]
+}

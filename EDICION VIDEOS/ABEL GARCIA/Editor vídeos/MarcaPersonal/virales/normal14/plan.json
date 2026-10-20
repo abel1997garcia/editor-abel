@@ -1,0 +1,67 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  12,
+  13,
+  14,
+  [
+   15,
+   "Y es que encima llegas",
+   null
+  ],
+  30,
+  31,
+  40,
+  41,
+  42,
+  44
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Si le hablaras a tu mejor amigo como te hablas a ti, no tendrías AMIGOS:",
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3",
+   "gancho": [
+    2
+   ]
+  },
+  "r2": {
+   "titulo": "Esa voz que te llama inútil no es tuya, la aprendiste de PEQUEÑO:",
+   "musica": "EMOCIONAL/Andrea Vanzo - Soulmate x Amélie x Interstellar x Passacaglia.mp3",
+   "gancho": [
+    3
+   ]
+  },
+  "r3": {
+   "titulo": "Te hablas peor que a tu peor enemigo y luego te extraña no QUERERTE:",
+   "musica": "ÉPICA/Ogryzek - AURA.mp3",
+   "gancho": [
+    8
+   ]
+  },
+  "r4": {
+   "titulo": "\"Es que soy tonto\", y te lo llevas diciendo tantos años que te lo CREES:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "gancho": [
+    9,
+    10
+   ]
+  },
+  "r5": {
+   "titulo": "Hablarte mal no te hace más exigente, te hace más PEQUEÑO:",
+   "musica": "ÉPICA/Gustavo Bravetti - Babel.mp3",
+   "gancho": [
+    11
+   ]
+  }
+ },
+ "corrige": [
+  [
+   "Informa lo que crees",
+   "Y forma lo que crees"
+  ],
+  [
+   "hablando de mal",
+   "hablándote mal"
+  ]
+ ]
+}

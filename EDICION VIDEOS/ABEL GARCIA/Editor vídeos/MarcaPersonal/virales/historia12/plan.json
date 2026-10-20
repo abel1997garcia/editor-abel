@@ -1,0 +1,146 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  1,
+  12,
+  14,
+  [
+   16,
+   null,
+   "crees"
+  ],
+  17,
+  20,
+  21,
+  24,
+  28,
+  30,
+  36,
+  37,
+  40,
+  41,
+  45
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Llevas años intentando subir tu autoestima con lo que MENOS funciona:",
+   "musica": "ÉPICA/Ogryzek - AURA.mp3",
+   "gancho": [
+    1
+   ],
+   "cuerpo": [
+    12,
+    14,
+    [
+     16,
+     null,
+     "crees"
+    ],
+    17,
+    20,
+    21,
+    24,
+    28,
+    30,
+    36,
+    37,
+    40,
+    41,
+    45
+   ]
+  },
+  "r2": {
+   "titulo": "Lo que más haces cada día para quererte es justo lo que MENOS te sirve:",
+   "musica": "EMOCIONAL/Tony Ann - ICARUS _ EPIC Orchestral Version.mp3",
+   "gancho": [
+    2
+   ]
+  },
+  "r3": {
+   "titulo": "Repetirte \"me quiero\" frente al espejo te está HUNDIENDO todavía más:",
+   "musica": "ÉPICA/Caleb Bryant - Imperius (instrumental) [ slowed ].mp3",
+   "gancho": [
+    3
+   ]
+  },
+  "r4": {
+   "titulo": "Solo hay UNA cosa que de verdad te sube la autoestima, y no la haces:",
+   "musica": "EMOCIONAL/Outro - M83 only the best part.mp3",
+   "gancho": [
+    4
+   ]
+  },
+  "r5": {
+   "titulo": "\"Ya lo he probado todo\", todo menos lo único que de verdad FUNCIONA:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "gancho": [
+    9,
+    10
+   ]
+  }
+ },
+ "estilo": "historia",
+ "diapos": [
+  {
+   "frase": "Las peores y las mejores",
+   "titulo": "De **peor** a mejor",
+   "dibujo": "escenas/historia02/2_fulano_y_mengano_ambos"
+  },
+  {
+   "frase": "En el último puesto",
+   "titulo": "Último: las **afirmaciones**",
+   "dibujo": "escenas/historia12/1_afirmaciones_robot_rojo"
+  },
+  {
+   "frase": "Y encima es peor",
+   "titulo": "Y encima te **hunde**",
+   "dibujo": "escenas/historia04/4_el_espejo_devuelve_lo_mismo_rojo"
+  },
+  {
+   "frase": "En el penúltimo lugar",
+   "titulo": "Penúltimo: libros y **tableros**",
+   "dibujo": "escenas/historia12/2_libros_y_tableros_rojo"
+  },
+  {
+   "frase": "Porque te inspiran",
+   "titulo": "No hacen el **trabajo** por ti",
+   "dibujo": "escenas/historia07/6_lo_que_construyes_azul"
+  },
+  {
+   "frase": "En el segundo lugar",
+   "titulo": "Segundo: el **silencio**",
+   "dibujo": "escenas/historia12/3_el_silencio_azul"
+  },
+  {
+   "frase": "Porque ahí es cuando",
+   "titulo": "Ahí empieza el **cambio**",
+   "dibujo": "escenas/historia04/6_el_espejo_le_sonrie_azul"
+  },
+  {
+   "frase": "Y en el primero",
+   "titulo": "Primero: compórtate como **ella**",
+   "dibujo": "escenas/historia05/7_vive_como_si_ya_azul"
+  },
+  {
+   "frase": "Pensar, sentir y decidir",
+   "titulo": "Piensa y decide como **ella**",
+   "dibujo": "escenas/historia05/1_tu_version_que_se_quiere_azul"
+  },
+  {
+   "frase": "Porque lo que vive",
+   "titulo": "Tu cuerpo no lo **distingue**",
+   "dibujo": "escenas/historia06/3_se_crea_dentro_azul"
+  },
+  {
+   "frase": "Así que empieza hoy",
+   "titulo": "Di que **no** como alguien que se quiere",
+   "dibujo": "escenas/historia12/4_di_que_no_azul"
+  }
+ ],
+ "corrige": [
+  [
+   "El Silencio",
+   "el silencio"
+  ]
+ ]
+}

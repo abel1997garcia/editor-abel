@@ -1,0 +1,69 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Montserrat Medium,64,&H00FFFFFF,&H00FFFFFF,&H70000000,&H80000000,0,0,0,0,100,100,0,0,1,3,2,5,0,0,0,1
+Style: B,Montserrat ExtraBold,80,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.02,0:00:01.08,B,,0,0,0,,{\pos(540,1415)}Haces de todo por quererte
+Dialogue: 0,0:00:01.08,0:00:01.85,B,,0,0,0,,{\pos(540,1415)}y no consigues nada
+Dialogue: 0,0:00:01.85,0:00:02.41,B,,0,0,0,,{\pos(540,1415)}Tu autoestima es como
+Dialogue: 0,0:00:02.41,0:00:03.44,B,,0,0,0,,{\pos(540,1415)}una batería y depende
+Dialogue: 0,0:00:03.44,0:00:04.27,B,,0,0,0,,{\pos(540,1415)}de lo que cargas
+Dialogue: 0,0:00:04.27,0:00:05.39,B,,0,0,0,,{\pos(540,1415)}y de lo que descargas
+Dialogue: 0,0:00:05.39,0:00:05.88,B,,0,0,0,,{\pos(540,1415)}Lo que la carga
+Dialogue: 0,0:00:05.88,0:00:07.03,B,,0,0,0,,{\pos(540,1415)}es escuchar lo que sientes
+Dialogue: 0,0:00:07.03,0:00:08.33,B,,0,0,0,,{\pos(540,1415)}moverte y hacer ejercicio
+Dialogue: 0,0:00:08.33,0:00:09.42,B,,0,0,0,,{\pos(540,1415)}momentos de silencio
+Dialogue: 0,0:00:09.42,0:00:10.39,B,,0,0,0,,{\pos(540,1415)}Cumplir con tu palabra
+Dialogue: 0,0:00:10.39,0:00:11.20,B,,0,0,0,,{\pos(540,1415)}y lo que te prometes
+Dialogue: 0,0:00:11.20,0:00:12.05,B,,0,0,0,,{\pos(540,1415)}y rodearte con gente
+Dialogue: 0,0:00:12.05,0:00:12.92,B,,0,0,0,,{\pos(540,1415)}que tenga ambición
+Dialogue: 0,0:00:12.92,0:00:13.29,B,,0,0,0,,{\pos(540,1415)}y que te sume
+Dialogue: 0,0:00:13.29,0:00:13.97,B,,0,0,0,,{\pos(540,1415)}Y lo que te descarga
+Dialogue: 0,0:00:13.97,0:00:15.24,B,,0,0,0,,{\pos(540,1415)}es tapar lo que sientes
+Dialogue: 0,0:00:15.24,0:00:16.41,B,,0,0,0,,{\pos(540,1415)}fingir que dices que sí
+Dialogue: 0,0:00:16.41,0:00:17.55,B,,0,0,0,,{\pos(540,1415)}cuando realmente quieres decir
+Dialogue: 0,0:00:17.55,0:00:17.90,B,,0,0,0,,{\pos(540,1415)}que no
+Dialogue: 0,0:00:17.90,0:00:19.19,B,,0,0,0,,{\pos(540,1415)}complacer depender siempre
+Dialogue: 0,0:00:19.19,0:00:19.92,B,,0,0,0,,{\pos(540,1415)}de que te elijan
+Dialogue: 0,0:00:19.92,0:00:20.56,B,,0,0,0,,{\pos(540,1415)}de que te den likes
+Dialogue: 0,0:00:20.56,0:00:21.36,B,,0,0,0,,{\pos(540,1415)}de que te validen
+Dialogue: 0,0:00:21.36,0:00:22.59,B,,0,0,0,,{\pos(540,1415)}Compararte con los demás
+Dialogue: 0,0:00:22.59,0:00:23.53,B,,0,0,0,,{\pos(540,1415)}Y todo lo que consumes
+Dialogue: 0,0:00:23.53,0:00:24.74,B,,0,0,0,,{\pos(540,1415)}que modifica tu pensamiento
+Dialogue: 0,0:00:24.74,0:00:25.19,B,,0,0,0,,{\pos(540,1415)}y tu energía
+Dialogue: 0,0:00:25.19,0:00:26.03,B,,0,0,0,,{\pos(540,1415)}sin que te des cuenta
+Dialogue: 0,0:00:26.03,0:00:27.14,B,,0,0,0,,{\pos(540,1415)}Haces mil cosas para ganar
+Dialogue: 0,0:00:27.14,0:00:27.54,B,,0,0,0,,{\pos(540,1415)}energía
+Dialogue: 0,0:00:27.54,0:00:28.53,B,,0,0,0,,{\pos(540,1415)}como hacer ejercicio
+Dialogue: 0,0:00:28.53,0:00:29.10,B,,0,0,0,,{\pos(540,1415)}meditar
+Dialogue: 0,0:00:29.10,0:00:29.93,B,,0,0,0,,{\pos(540,1415)}leer libros
+Dialogue: 0,0:00:29.93,0:00:31.15,B,,0,0,0,,{\pos(540,1415)}pero no tapas las fugas
+Dialogue: 0,0:00:31.15,0:00:31.83,B,,0,0,0,,{\pos(540,1415)}que te hacen perder esa
+Dialogue: 0,0:00:31.83,0:00:32.26,B,,0,0,0,,{\pos(540,1415)}energía
+Dialogue: 0,0:00:32.26,0:00:33.07,B,,0,0,0,,{\pos(540,1415)}Y por mucho que eleves
+Dialogue: 0,0:00:33.07,0:00:33.65,B,,0,0,0,,{\pos(540,1415)}tu energía
+Dialogue: 0,0:00:33.65,0:00:35.13,B,,0,0,0,,{\pos(540,1415)}al final siempre acabas vacío
+Dialogue: 0,0:00:35.13,0:00:35.72,B,,0,0,0,,{\pos(540,1415)}Te lo digo como alguien
+Dialogue: 0,0:00:35.72,0:00:36.34,B,,0,0,0,,{\pos(540,1415)}que lo perdió todo
+Dialogue: 0,0:00:36.34,0:00:37.37,B,,0,0,0,,{\pos(540,1415)}a los 26 años
+Dialogue: 0,0:00:37.37,0:00:38.93,B,,0,0,0,,{\pos(540,1415)}así que necesitas dos cosas
+Dialogue: 0,0:00:38.93,0:00:39.77,B,,0,0,0,,{\pos(540,1415)}Hacer cosas que te eleven
+Dialogue: 0,0:00:39.77,0:00:40.34,B,,0,0,0,,{\pos(540,1415)}la energía
+Dialogue: 0,0:00:40.34,0:00:41.06,B,,0,0,0,,{\pos(540,1415)}pero sobre todo y más
+Dialogue: 0,0:00:41.06,0:00:41.74,B,,0,0,0,,{\pos(540,1415)}importante
+Dialogue: 0,0:00:41.74,0:00:42.89,B,,0,0,0,,{\pos(540,1415)}tapar todas las fugas
+Dialogue: 0,0:00:42.89,0:00:43.72,B,,0,0,0,,{\pos(540,1415)}que te quitan esa misma
+Dialogue: 0,0:00:43.72,0:00:44.15,B,,0,0,0,,{\pos(540,1415)}Y no hace falta
+Dialogue: 0,0:00:44.15,0:00:44.91,B,,0,0,0,,{\pos(540,1415)}que cambies toda tu vida
+Dialogue: 0,0:00:44.91,0:00:45.16,B,,0,0,0,,{\pos(540,1415)}de golpe
+Dialogue: 0,0:00:45.16,0:00:46.47,B,,0,0,0,,{\pos(540,1415)}simplemente ir tapando
+Dialogue: 0,0:00:46.47,0:00:47.59,B,,0,0,0,,{\pos(540,1415)}Una a una las fugas
+Dialogue: 0,0:00:47.59,0:00:48.45,B,,0,0,0,,{\pos(540,1415)}que más te cuestan

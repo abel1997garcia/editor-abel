@@ -22,11 +22,16 @@ Flujo aprobado por el usuario (2026-10-05, «has encontrado bien los ganchos y e
    pesadillas»), algo concreto e inquietante («Conozco personas que coleccionan cosas de la guerra»), o una verdad
    rotunda y corta («Al final, la energía, si no se mueve, se va volviendo oscura»). Si la mejor frase va pegada a otras,
    medir su inicio/fin escuchando (buscar_inicio/buscar_fin) y usarla igualmente.
+2c. DE TÚ A TÚ y UNA IDEA = UN REEL (Abel 17/10/2026): tramos donde Allan habla a una persona («tú»), no «os/
+   vosotros»; un solo tema por reel, sin mezclar ideas. El mensaje apunta al avatar: quien quiere una sesión con un
+   médium o acompañamiento espiritual.
 3. Título = intriga / verdad incómoda / algo personal, ≤ 7 palabras, sin repetir literal el gancho
    (aprobados: «UNA VOZ ME DIJO QUE LO DEJARA TODO», «CREÍ QUE ME ESTABA VOLVIENDO LOCO», «TODO CAMBIÓ EL DÍA QUE ME
    RENDÍ», «PEDÍ UNA SEÑAL A DIOS Y ESE MISMO DÍA LLEGÓ», «LO CONSEGUÍ TODO Y SEGUÍA VACÍO»).
-4. Guion de cortes = lista [palabra_ini, palabra_fin, "subtítulo"] en orden del reel (reels/specs/*.py → json);
+4. Guion de cortes = lista [palabra_ini, palabra_fin, "subtítulo"] en orden del reel (trabajo/specs/*.py → json);
    herramientas/reel_franjas.py monta; medir_sync.py + comprobar_reel.py + oir.py verifican.
+4a. AUDIO PRIMERO ([[audio-primero]]): `--voz` -> espectro_cortes + oir_empalmes --voz + onda sobre voz.wav,
+   corregir en el original, y solo con la voz limpia renderizar el vídeo.
 4b. Leer cada guion de corrido como lo oirá alguien sin contexto (congruencia, sin redundancias, conectores) y
    pasar el protocolo de [[cortes-palabras-obligatorio]] (método aprobado el 2026-10-07).
 5. Escribir la descripción de Instagram de cada reel (reels/<nombre>.txt, ver [[descripcion-instagram-reels]]).

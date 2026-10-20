@@ -1,0 +1,64 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Montserrat Medium,64,&H00FFFFFF,&H00FFFFFF,&H70000000,&H80000000,0,0,0,0,100,100,0,0,1,3,2,5,0,0,0,1
+Style: B,Montserrat ExtraBold,80,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.01,0:00:01.02,B,,0,0,0,,{\pos(540,1415)}Cuando piensas en no quiero
+Dialogue: 0,0:00:01.02,0:00:01.70,B,,0,0,0,,{\pos(540,1415)}que me dejen
+Dialogue: 0,0:00:01.70,0:00:02.39,B,,0,0,0,,{\pos(540,1415)}no quiero estar solo
+Dialogue: 0,0:00:02.39,0:00:03.37,B,,0,0,0,,{\pos(540,1415)}y no quiero fracasar
+Dialogue: 0,0:00:03.37,0:00:03.92,B,,0,0,0,,{\pos(540,1415)}estás pensando
+Dialogue: 0,0:00:03.92,0:00:04.59,B,,0,0,0,,{\pos(540,1415)}en que te van
+Dialogue: 0,0:00:04.59,0:00:05.11,B,,0,0,0,,{\pos(540,1415)}a dejar
+Dialogue: 0,0:00:05.11,0:00:05.50,B,,0,0,0,,{\pos(540,1415)}en que vas a estar
+Dialogue: 0,0:00:05.50,0:00:06.35,B,,0,0,0,,{\pos(540,1415)}solo y que vas
+Dialogue: 0,0:00:06.35,0:00:06.77,B,,0,0,0,,{\pos(540,1415)}a fracasar
+Dialogue: 0,0:00:06.77,0:00:07.99,B,,0,0,0,,{\pos(540,1415)}No pienses en un elefante
+Dialogue: 0,0:00:07.99,0:00:08.95,B,,0,0,0,,{\pos(540,1415)}ni en sus orejas
+Dialogue: 0,0:00:08.95,0:00:09.83,B,,0,0,0,,{\pos(540,1415)}ni en que es gris
+Dialogue: 0,0:00:09.83,0:00:11.08,B,,0,0,0,,{\pos(540,1415)}Adivina en qué has pensado
+Dialogue: 0,0:00:11.08,0:00:11.78,B,,0,0,0,,{\pos(540,1415)}En un elefante
+Dialogue: 0,0:00:11.78,0:00:12.73,B,,0,0,0,,{\pos(540,1415)}Para no pensar en algo
+Dialogue: 0,0:00:12.73,0:00:13.83,B,,0,0,0,,{\pos(540,1415)}tu cabeza primero tiene
+Dialogue: 0,0:00:13.83,0:00:14.72,B,,0,0,0,,{\pos(540,1415)}que pensar que tiene
+Dialogue: 0,0:00:14.72,0:00:15.64,B,,0,0,0,,{\pos(540,1415)}que dejar de pensar
+Dialogue: 0,0:00:15.64,0:00:16.82,B,,0,0,0,,{\pos(540,1415)}Y lo que sientes siempre
+Dialogue: 0,0:00:16.82,0:00:17.52,B,,0,0,0,,{\pos(540,1415)}se va ahí
+Dialogue: 0,0:00:17.52,0:00:18.26,B,,0,0,0,,{\pos(540,1415)}al miedo
+Dialogue: 0,0:00:18.26,0:00:19.22,B,,0,0,0,,{\pos(540,1415)}En vez de pensar en
+Dialogue: 0,0:00:19.22,0:00:20.35,B,,0,0,0,,{\pos(540,1415)}no quiero que me engañen
+Dialogue: 0,0:00:20.35,0:00:21.49,B,,0,0,0,,{\pos(540,1415)}Piensa en lo bonito
+Dialogue: 0,0:00:21.49,0:00:22.69,B,,0,0,0,,{\pos(540,1415)}que es confiar plenamente
+Dialogue: 0,0:00:22.69,0:00:23.11,B,,0,0,0,,{\pos(540,1415)}en alguien
+Dialogue: 0,0:00:23.11,0:00:23.92,B,,0,0,0,,{\pos(540,1415)}En vez de pensar no
+Dialogue: 0,0:00:23.92,0:00:24.66,B,,0,0,0,,{\pos(540,1415)}quiero estar solo
+Dialogue: 0,0:00:24.66,0:00:25.47,B,,0,0,0,,{\pos(540,1415)}piensa en lo bonito
+Dialogue: 0,0:00:25.47,0:00:26.43,B,,0,0,0,,{\pos(540,1415)}que es tu compañía
+Dialogue: 0,0:00:26.43,0:00:27.50,B,,0,0,0,,{\pos(540,1415)}y que cuando tú realmente
+Dialogue: 0,0:00:27.50,0:00:28.55,B,,0,0,0,,{\pos(540,1415)}estés a gusto con quien
+Dialogue: 0,0:00:28.55,0:00:28.87,B,,0,0,0,,{\pos(540,1415)}eres
+Dialogue: 0,0:00:28.87,0:00:30.21,B,,0,0,0,,{\pos(540,1415)}la persona que te complemente
+Dialogue: 0,0:00:30.21,0:00:30.67,B,,0,0,0,,{\pos(540,1415)}va a llegar
+Dialogue: 0,0:00:30.67,0:00:31.54,B,,0,0,0,,{\pos(540,1415)}a tu vida sin forzar
+Dialogue: 0,0:00:31.54,0:00:32.21,B,,0,0,0,,{\pos(540,1415)}En vez de decir
+Dialogue: 0,0:00:32.21,0:00:33.24,B,,0,0,0,,{\pos(540,1415)}no quiero fracasar
+Dialogue: 0,0:00:33.24,0:00:34.43,B,,0,0,0,,{\pos(540,1415)}céntrate en lo que podrías
+Dialogue: 0,0:00:34.43,0:00:36.01,B,,0,0,0,,{\pos(540,1415)}estar construyendo hoy mismo
+Dialogue: 0,0:00:36.01,0:00:36.42,B,,0,0,0,,{\pos(540,1415)}para ti
+Dialogue: 0,0:00:36.42,0:00:37.54,B,,0,0,0,,{\pos(540,1415)}Al principio es como aprender
+Dialogue: 0,0:00:37.54,0:00:38.20,B,,0,0,0,,{\pos(540,1415)}un nuevo idioma
+Dialogue: 0,0:00:38.20,0:00:38.95,B,,0,0,0,,{\pos(540,1415)}con el tiempo te vas
+Dialogue: 0,0:00:38.95,0:00:40.82,B,,0,0,0,,{\pos(540,1415)}adaptando y tu vida acaba
+Dialogue: 0,0:00:40.82,0:00:41.34,B,,0,0,0,,{\pos(540,1415)}siendo así
+Dialogue: 0,0:00:41.34,0:00:42.07,B,,0,0,0,,{\pos(540,1415)}¿Y acaso no quieres
+Dialogue: 0,0:00:42.07,0:00:42.69,B,,0,0,0,,{\pos(540,1415)}que tu vida te haga
+Dialogue: 0,0:00:42.69,0:00:43.34,B,,0,0,0,,{\pos(540,1415)}sentir bien?
+Dialogue: 0,0:00:43.34,0:00:44.11,B,,0,0,0,,{\pos(540,1415)}Pues ya sabes qué hacer

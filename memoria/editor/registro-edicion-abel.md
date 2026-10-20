@@ -11,11 +11,11 @@ metadata:
 Leer antes de cada edición; ampliar después (ver [[aprender-de-cada-edicion]]).
 
 ## REGLA GENERAL · Silencios y microsilencios (Abel 12/10/2026: «sí o sí, siempre», sustituye a la de 05/10)
-Vale para todo: vídeos largos y reels. Se limpian con la transcripción las muletillas («¿de acuerdo?», «o sea»…), las equivocaciones, los arranques repetidos y las repeticiones. Además, **todo silencio real de ≥ 0,15 s entre dos palabras (respiraciones incluidas) queda en ~0,13 s; en un reel NINGUNA pausa pasa de 0,15 s (Abel 12/10/2026)**, también dentro de la frase, para dar dinamismo, **pero sin cortar nunca una palabra**.
+Vale para todo: vídeos largos y reels. Se limpian con la transcripción las muletillas («¿de acuerdo?», «o sea»…), las equivocaciones, los arranques repetidos y las repeticiones. Además, **todo silencio entre dos palabras (respiraciones incluidas) queda en ~0,05–0,07 s, como Lavri; en un reel NINGUNA pausa pasa de 0,07 s y > 0,10 s ya es error (Abel 13/10/2026; antes 0,15)**, también dentro de la frase, para dar dinamismo, **pero sin cortar nunca una palabra**.
 - Se mide en el AUDIO, no en los tiempos de Whisper: `microcortes()` de `reel_yapping.py`, que ya llaman `ajustar_finales` (reels F1/F3) y `limpiar_largo.py` (horizontales).
 - No corta si deja un plano < 1 s, ni en el cierre (`intacto_desde`).
 - El arranque de una palabra suave («habrá») lleva 0,09 s de margen. A −24 dB se comía esos arranques; ahora el umbral es pico − 30.
-- Medir antes de renderizar: `silencedetect` en la voz no debe dar pausas > 0,15 s salvo el final (la línea `listón` de `--voz`).
+- Medir antes de renderizar: `silencedetect` en la voz no debe dar pausas > 0,10 s salvo el final (la línea `listón` de `--voz`).
 - Si el verificador dice que falta una palabra en una unión, se comprueba transcribiendo ese trozo suelto. En «empezar desde 0» varias eran falsos avisos de Whisper («habrá», «coño»).
 
 ## REGLA GENERAL · El horizontal se hace pensando ya en los reels (Abel, 08/10/2026: «muy, muy importante»)
@@ -33,7 +33,7 @@ Cada trozo se redondeaba a fotogramas y la voz acabó 1,8 s desviada de `.tiempo
 
 ## Lo que Abel ha aprobado
 - 12/10/2026 · Los 15 reels rehechos de «empezar desde 0» con la skill `reels-abel`: «la edición está mucho mejor, los títulos mucho mejor, los cortes, los silencios y la fluidez, todo mucho mejor». Es el nivel de referencia (microcortes medidos en la voz, títulos tipo Lavri). Solo falló el gancho de «sin guiones» (ver [[ganchos]]).
-- 05/10/2026 · Reel 3 de «Sin buena intención…» («Si la intención es ganar dinero, sé honesto»): «está genial, aprende de eso». **ES EL MODELO DE REEL DE MARCA PERSONAL.** Por qué funcionó:
+- 05/10/2026 · Reel 3 de «Sin buena intención…» («Si la intención es ganar dinero, sé honesto»): «está genial, aprende de eso». **ES EL MODELO DE REEL.** Por qué funcionó:
   - El gancho es una frase literal suya, en 2ª persona, que suena en el segundo 0.
   - Pocos tramos y largos (4 bloques), cada uno una idea completa, con un hilo claro: gancho → por qué (ego espiritual) → qué hacer (preguntas correctas) → cierre.
   - Habla de corrido en esos bloques: casi sin trocitos sueltos ni muletillas que quitar.
@@ -59,7 +59,7 @@ Ningún corte puede comerse el final de una palabra ni empalmar en seco: si la p
 - 08/10/2026 · «La intención y energía masculina»: horizontal + 3 reels F3 (tras corregir cortes, música y final): «lo has hecho muy bien». Receta en [[estilo-videos-largos-stickman]] y [[reels-marca-personal]]; ejemplo completo en `VideosLargos/intencion-masculina/` y `MarcaPersonal/intencion-masculina/`.
 
 ## Mis errores ya corregidos (no repetir)
-### Reels de marca personal (feedback 05/10/2026)
+### Reels (feedback 05/10/2026)
 - **Tramo o reel cortado a mitad de frase** (reel 2, s. 33–34: «ni a qué vengo» sin «aquí»; el reel 1 acababa en «…mucho más acertada»). La última palabra de cada tramo va seguida de una pausa ≥ 0,3 s en la toma; si no, alarga el tramo. El reel acaba en una frase completa y rotunda con 0,4 s de cola.
 - **Dejar equivocaciones**: dos arranques seguidos («puedes hacer eso y puedes empezar…»), titubeos («quiero es es que»), autocorrecciones («de corazón… razón»), dobles muletillas («realmente, y digo realmente»). Antes de montar, buscar en la alineación: palabras repetidas cerca, palabras con puntuación < 0,6 y arranques que se reformulan, y quedarse solo con la versión limpia.
 - **Trocitos sueltos de < 0,5 s** («minúsculas | que | ayuden») al quitar una palabra en medio de una frase fluida: suenan entrecortados. Mejor quitar o conservar la frase entera, o cortar en una pausa natural.
@@ -92,3 +92,25 @@ Ningún corte puede comerse el final de una palabra ni empalmar en seco: si la p
 ## Preferencias de Abel (ir ampliando)
 - Quiere el vídeo terminado; las preguntas de estilo, en una sola tanda al principio.
 - Agradece el feedback detallado por segundo («en el segundo 33–34»): usar la línea de tiempo del reel para localizarlo.
+
+- **Español de España en TODO lo que escribo para él** (títulos, descripciones, guiones; Abel 13/10/2026): «visitas», no «vistas»; «me gusta», no «like»; nunca «cagazo».
+- **Whisper puede «tragarse» una repetición dentro de una palabra larguísima** (13/10/2026, casual «tú eres el producto»: «Australia» de 52,1 a 56,0 s escondía «…desde cero» dicho dos veces).
+  - Antes de montar, revisar en `tiempos.json` las palabras de más de ~1 s.
+  - Pasar SIEMPRE `verificar_audio.py`, que vuelve a escuchar y detecta la repetición.
+  - Corregir los tiempos de esas palabras para que la repetición quede fuera.
+  - Ojo también con lo que Whisper se inventa («tú eres tú. Es tu propio» era «tú eres tu propio»).
+- **Recortes pequeños (los de las 3 versiones de un casual):** quitar frases con PAUSA delante y detrás («que si no sé qué», «porque de esos hay miles», «tus valores»). Si no, la unión queda pegada y se come palabras («Yo | enseño» sonaba «lo enseño»).
+
+## 13/10/2026 · Reels de «cobrar barato» (tanda 2)
+- **TODOS los reels de sus vídeos largos van a PUBLICAR.** TRIAL = solo los guiones virales de otras marcas personales.
+- **Nada se dice dos veces, aunque lo repita a propósito** («la información, la gran mayoría de la información», «no es nada de eso, no es absolutamente nada de eso»). Se corta y se queda una versión.
+- **Velocidad:** NORMAL 1,0x (19/10/2026; antes 1,10x y 1,15x): el ritmo lo dan los silencios recortados.
+- **Música:** 13,5 dB por debajo de la voz (antes 11,5): «baja un poquito el volumen».
+- **Queja recurrente:** «por lo general no lo haces limpio». El mensaje tiene que quedar entero, dinámico, fluido y profesional. Leer el `--texto` buscando repeticiones y frases a medias ANTES de la voz, no solo fiarse del listón.
+- **Cortar como un editor humano (Abel 13/10/2026):** al final de cada reel quedaban unos 0,4 s callado (`COLA_FINAL` = 0,5). Ahora es 0,1 s, y `herramientas/onda.py` dibuja la pista de audio del reel terminado y marca cualquier hueco de más de 0,10 s (principio, medio o final). Se mira SIEMPRE antes de entregar.
+- **RITMO DE LAVRI (Abel 13/10/2026: «si no hay silencios, nosotros tenemos que hacer la edición así»).** Medido en su reel `DeNRktgtcyT`:
+  - 4,47 palabras/s;
+  - pausas reales de 0,01–0,05 s (máx. 0,10);
+  - 0,16 s tras la última palabra.
+  - Nuevo estándar: los microcortes dejan ~0,07 s (antes ~0,13).
+  - Tras el ajuste, los reels 064-066 quedan en p90 0,06–0,07 s.

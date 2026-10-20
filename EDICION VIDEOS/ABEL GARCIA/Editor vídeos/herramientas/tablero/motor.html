@@ -128,7 +128,8 @@ function pintarTarjeta(t) {
   return { k, r };
 }
 /* ---------- título (pastilla negra arriba, todo el reel) ---------- */
-const TIT = el('pill', TITULO.join('<br>'));
+/* Abel 13/10/2026: título en texto negro fijo, sin pastilla, como en el F1 (Montserrat ExtraBold): coherencia entre formatos */
+const TIT = el('big', TITULO.join('<br>')); Object.assign(TIT.style, { fontSize: '51px', lineHeight: '61px', textAlign: 'center', letterSpacing: '-.015em' });   // como el F1: 51 px, líneas a 61
 /* ---------- subtítulos: 1–2 palabras; negro sobre el tablero, blanco sobre él ---------- */
 const SUB = el('', ''); SUB.id = 'sub';
 const BLOQUES = []; for (let i = 0; i < PAL.length;) { const w = PAL[i][0], n = PAL[i + 1]; const dos = n && (norm(w).length <= 3 || norm(n[0]).length <= 2) && n[1] - PAL[i][2] < .25;
@@ -138,14 +139,15 @@ function pintarSub(t, k) {
   const enT = k > .5, s = 1 + .07 * (1 - P(t, b ? b[1] : 0, .12));
   SUB.style.fontSize = (enT ? 92 : 84) + 'px'; SUB.style.color = enT ? NEGRO : '#fff';
   SUB.style.textShadow = enT ? 'none' : '0 4px 18px rgba(0,0,0,.65), 0 0 3px rgba(0,0,0,.8)';
-  pon(SUB, 540, enT ? 1010 : 1420, s, b ? 1 : 0);
+  pon(SUB, 540, enT ? 1010 : 1420, s, b && !(enT && typeof LIGERO !== 'undefined') ? 1 : 0);   // F3 ligero: en el tablero ya va su frase en grande
 }
 /* ---------- el gráfico de cada reel (escenas.js) pinta solo con el tablero a la vista ---------- */
 let ESC = () => {};
 window.cargarFoto = i => new Promise(res => { FOTO.onload = res; FOTO.onerror = res; FOTO.src = `frames/${String(i + 1).padStart(5, '0')}.jpg`; });
 window.pintar = t => {
   const { k } = pintarTarjeta(t);
-  pon(TIT, 540, 300, 1, 1);
+  if (!TIT._ok) { TIT._ok = 1; let f = 51; while (TIT.offsetWidth > 1000 && f > 40) TIT.style.fontSize = (f -= 2) + 'px'; }   // en mayúsculas: que quepa
+  pon(TIT, 540, 345, 1, 1);   // dentro de la vista previa 3:4 de la cuadrícula de Instagram (se ve y ≈ 240–1680)
   S.style.opacity = k.toFixed(3); KT = k;
   for (const q of BLQ) { const v = t >= q.a - .1 && t <= q.b + .45; q.g.style.display = q.d.style.display = v ? '' : 'none'; if (v) q.fn(t); }
   ESC(t, k);

@@ -1,0 +1,80 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Montserrat Medium,64,&H00FFFFFF,&H00FFFFFF,&H70000000,&H80000000,0,0,0,0,100,100,0,0,1,3,2,5,0,0,0,1
+Style: B,Montserrat ExtraBold,80,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.02,0:00:00.76,B,,0,0,0,,{\pos(540,1415)}Le echaron del trabajo
+Dialogue: 0,0:00:00.76,0:00:01.89,B,,0,0,0,,{\pos(540,1415)}y en un mes estaba
+Dialogue: 0,0:00:01.89,0:00:03.04,B,,0,0,0,,{\pos(540,1415)}viviendo exactamente
+Dialogue: 0,0:00:03.04,0:00:03.58,B,,0,0,0,,{\pos(540,1415)}de lo que quería
+Dialogue: 0,0:00:03.58,0:00:04.44,B,,0,0,0,,{\pos(540,1415)}A Mengano le echaron
+Dialogue: 0,0:00:04.44,0:00:05.86,B,,0,0,0,,{\pos(540,1415)}de un trabajo que odiaba
+Dialogue: 0,0:00:05.86,0:00:06.70,B,,0,0,0,,{\pos(540,1415)}de un día para otro
+Dialogue: 0,0:00:06.70,0:00:07.41,B,,0,0,0,,{\pos(540,1415)}y sin avisar
+Dialogue: 0,0:00:07.41,0:00:08.06,B,,0,0,0,,{\pos(540,1415)}A la semana vio
+Dialogue: 0,0:00:08.06,0:00:09.03,B,,0,0,0,,{\pos(540,1415)}la formación que llevaba
+Dialogue: 0,0:00:09.03,0:00:10.50,B,,0,0,0,,{\pos(540,1415)}muchísimo tiempo con ganas
+Dialogue: 0,0:00:10.50,0:00:11.19,B,,0,0,0,,{\pos(540,1415)}de querer hacer
+Dialogue: 0,0:00:11.19,0:00:12.24,B,,0,0,0,,{\pos(540,1415)}pero que no tenía
+Dialogue: 0,0:00:12.24,0:00:13.03,B,,0,0,0,,{\pos(540,1415)}el dinero suficiente
+Dialogue: 0,0:00:13.03,0:00:13.63,B,,0,0,0,,{\pos(540,1415)}para pagarla
+Dialogue: 0,0:00:13.63,0:00:14.41,B,,0,0,0,,{\pos(540,1415)}Pero lo sabía
+Dialogue: 0,0:00:14.41,0:00:14.86,B,,0,0,0,,{\pos(540,1415)}Algo dentro
+Dialogue: 0,0:00:14.86,0:00:15.72,B,,0,0,0,,{\pos(540,1415)}de él le decía
+Dialogue: 0,0:00:15.72,0:00:16.68,B,,0,0,0,,{\pos(540,1415)}que tenía que hacerlo
+Dialogue: 0,0:00:16.68,0:00:17.72,B,,0,0,0,,{\pos(540,1415)}pero él no sabía cómo
+Dialogue: 0,0:00:17.72,0:00:18.99,B,,0,0,0,,{\pos(540,1415)}Se imaginaba yendo a clase
+Dialogue: 0,0:00:18.99,0:00:20.32,B,,0,0,0,,{\pos(540,1415)}la ropa que llevaría
+Dialogue: 0,0:00:20.32,0:00:21.25,B,,0,0,0,,{\pos(540,1415)}qué haría con el dinero
+Dialogue: 0,0:00:21.25,0:00:22.52,B,,0,0,0,,{\pos(540,1415)}de los primeros clientes
+Dialogue: 0,0:00:22.52,0:00:23.77,B,,0,0,0,,{\pos(540,1415)}y cómo él se comportaría
+Dialogue: 0,0:00:23.77,0:00:24.32,B,,0,0,0,,{\pos(540,1415)}No lo esperaba
+Dialogue: 0,0:00:24.32,0:00:25.36,B,,0,0,0,,{\pos(540,1415)}lo daba por hecho
+Dialogue: 0,0:00:25.36,0:00:27.00,B,,0,0,0,,{\pos(540,1415)}y esa misma energía era
+Dialogue: 0,0:00:27.00,0:00:27.67,B,,0,0,0,,{\pos(540,1415)}lo que provocaba
+Dialogue: 0,0:00:27.67,0:00:28.49,B,,0,0,0,,{\pos(540,1415)}que se moviera
+Dialogue: 0,0:00:28.49,0:00:30.14,B,,0,0,0,,{\pos(540,1415)}que preguntara y que viera
+Dialogue: 0,0:00:30.14,0:00:30.97,B,,0,0,0,,{\pos(540,1415)}un plan de acción
+Dialogue: 0,0:00:30.97,0:00:31.70,B,,0,0,0,,{\pos(540,1415)}A los pocos días
+Dialogue: 0,0:00:31.70,0:00:32.48,B,,0,0,0,,{\pos(540,1415)}un amigo le llamó
+Dialogue: 0,0:00:32.48,0:00:33.60,B,,0,0,0,,{\pos(540,1415)}y le propuso un trabajo
+Dialogue: 0,0:00:33.60,0:00:34.76,B,,0,0,0,,{\pos(540,1415)}de verano que le pagaban
+Dialogue: 0,0:00:34.76,0:00:36.18,B,,0,0,0,,{\pos(540,1415)}exactamente lo mismo que valía
+Dialogue: 0,0:00:36.18,0:00:36.83,B,,0,0,0,,{\pos(540,1415)}la formación
+Dialogue: 0,0:00:36.83,0:00:37.52,B,,0,0,0,,{\pos(540,1415)}Se presentó
+Dialogue: 0,0:00:37.52,0:00:38.02,B,,0,0,0,,{\pos(540,1415)}Y la hizo
+Dialogue: 0,0:00:38.02,0:00:39.30,B,,0,0,0,,{\pos(540,1415)}No atraes lo que quieres
+Dialogue: 0,0:00:39.30,0:00:40.32,B,,0,0,0,,{\pos(540,1415)}atraes lo que mereces
+Dialogue: 0,0:00:40.32,0:00:41.72,B,,0,0,0,,{\pos(540,1415)}y Mengano ya era alguien
+Dialogue: 0,0:00:41.72,0:00:42.84,B,,0,0,0,,{\pos(540,1415)}que sentía que iba
+Dialogue: 0,0:00:42.84,0:00:43.85,B,,0,0,0,,{\pos(540,1415)}a hacer esa formación
+Dialogue: 0,0:00:43.85,0:00:44.62,B,,0,0,0,,{\pos(540,1415)}No sabía cómo
+Dialogue: 0,0:00:44.62,0:00:45.58,B,,0,0,0,,{\pos(540,1415)}Pero él lo sentía dentro
+Dialogue: 0,0:00:45.58,0:00:46.41,B,,0,0,0,,{\pos(540,1415)}de él con una fe
+Dialogue: 0,0:00:46.41,0:00:47.42,B,,0,0,0,,{\pos(540,1415)}al 100%
+Dialogue: 0,0:00:47.42,0:00:48.52,B,,0,0,0,,{\pos(540,1415)}Cuando fuerzas algo desde
+Dialogue: 0,0:00:48.52,0:00:49.18,B,,0,0,0,,{\pos(540,1415)}la ansiedad
+Dialogue: 0,0:00:49.18,0:00:50.10,B,,0,0,0,,{\pos(540,1415)}jamás te va a llegar
+Dialogue: 0,0:00:50.10,0:00:51.03,B,,0,0,0,,{\pos(540,1415)}porque ese mismo miedo
+Dialogue: 0,0:00:51.03,0:00:51.91,B,,0,0,0,,{\pos(540,1415)}es lo que lo repele
+Dialogue: 0,0:00:51.91,0:00:53.00,B,,0,0,0,,{\pos(540,1415)}Pero cuando estás tranquilo
+Dialogue: 0,0:00:53.00,0:00:53.96,B,,0,0,0,,{\pos(540,1415)}y ya sientes dentro
+Dialogue: 0,0:00:53.96,0:00:54.39,B,,0,0,0,,{\pos(540,1415)}de ti
+Dialogue: 0,0:00:54.39,0:00:55.59,B,,0,0,0,,{\pos(540,1415)}Eso que tiene que suceder
+Dialogue: 0,0:00:55.59,0:00:56.96,B,,0,0,0,,{\pos(540,1415)}como si ya hubiera sucedido
+Dialogue: 0,0:00:56.96,0:00:58.14,B,,0,0,0,,{\pos(540,1415)}Empiezas a comportarte
+Dialogue: 0,0:00:58.14,0:00:59.24,B,,0,0,0,,{\pos(540,1415)}de una manera mucho más
+Dialogue: 0,0:00:59.24,0:00:59.78,B,,0,0,0,,{\pos(540,1415)}abundante
+Dialogue: 0,0:00:59.78,0:01:00.59,B,,0,0,0,,{\pos(540,1415)}Así que pregúntate
+Dialogue: 0,0:01:00.59,0:01:01.96,B,,0,0,0,,{\pos(540,1415)}en qué piensas cada día
+Dialogue: 0,0:01:01.96,0:01:02.86,B,,0,0,0,,{\pos(540,1415)}En lo que te falta
+Dialogue: 0,0:01:02.86,0:01:03.82,B,,0,0,0,,{\pos(540,1415)}O en lo que tú estás
+Dialogue: 0,0:01:03.82,0:01:04.58,B,,0,0,0,,{\pos(540,1415)}construyendo

@@ -1,0 +1,16 @@
+{
+ "ref": {
+  "dur": 25.4,
+  "cortes_imagen": 1,
+  "cortes_cada_10s": 0.4,
+  "palabras_por_s": 4.77,
+  "primera_palabra_s": 0.0,
+  "hueco_mediana": 0.0,
+  "hueco_p90": 0.04,
+  "hueco_max": 0.22,
+  "huecos_>0,3": 0.0,
+  "silencio_total_s": 1.3,
+  "gancho": "Tu vida no es una mierda por culpa del mundo, atento a esto.",
+  "texto": "Tu vida no es una mierda por culpa del mundo, atento a esto. Lo que piensas crea lo que sientes. Lo que sientes se convierte en una emoción. Esa emoción se convierte en una vibración. Y esa vibración se convierte en un imán que atrae cosas hacia ti. Y también repele cosas de ti. Así que piensa solamente en lo que quieres. Olvida lo que no quieres y nunca hables de lo que no tienes. Si no hay un enemigo en el interior de tu mente, ningún enemigo externo puede hacerte daño. Haz lo que tú quieras y sé una persona auténtica. Solo asegúrate de que lo que haces es bueno para ti y para los demás."
+ }
+}

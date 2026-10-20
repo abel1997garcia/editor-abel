@@ -1,0 +1,139 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  18,
+  29,
+  30,
+  [
+   42,
+   null,
+   "le escriba,"
+  ],
+  44,
+  46,
+  47,
+  49,
+  50,
+  64,
+  89,
+  [
+   94,
+   null,
+   "suceda,"
+  ],
+  [
+   95,
+   "y como no está",
+   null
+  ],
+  96,
+  98,
+  100,
+  101,
+  103
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "No consigues lo que quieres justo porque lo persigues DESESPERADO cada día:",
+   "musica": "ÉPICA/Caleb Bryant - Imperius (instrumental) [ slowed ].mp3",
+   "gancho": [
+    0
+   ]
+  },
+  "r2": {
+   "titulo": "Cuanto más persigues que te quieran, más se ALEJA todo el mundo de ti:",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3",
+   "gancho": [
+    2
+   ]
+  },
+  "r3": {
+   "titulo": "La gente se aleja justo cuando más la necesitas, y es por ESTO:",
+   "musica": "ÉPICA/Ogryzek - AURA.mp3",
+   "gancho": [
+    5
+   ]
+  },
+  "r4": {
+   "titulo": "Miras el móvil cada cinco minutos esperando su mensaje y por eso NO llega:",
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3",
+   "gancho": [
+    11
+   ]
+  },
+  "r5": {
+   "titulo": "\"Si me quisiera, me escribiría\", y justo por pensar eso NUNCA te escribe:",
+   "musica": "EMOCIONAL/Skott - Overcome (528Hz).mp3",
+   "gancho": [
+    12,
+    13,
+    14
+   ]
+  }
+ },
+ "estilo": "historia",
+ "diapos": [
+  {
+   "frase": "Cuando dices o piensas",
+   "titulo": "Pones el foco en lo que te **falta**",
+   "dibujo": "escenas/historia03/1_foco_en_lo_que_falta_rojo"
+  },
+  {
+   "frase": "Fulano se pasa",
+   "titulo": "**Fulano** persigue que le quieran",
+   "dibujo": "escenas/historia03/2_fulano_persigue_rojo"
+  },
+  {
+   "frase": "Es como si",
+   "titulo": "Como perseguir a un **gato**",
+   "dibujo": "escenas/historia03/3_perseguir_gato_rojo"
+  },
+  {
+   "frase": "Pero si tú te sientas",
+   "titulo": "Te sientas y **viene solo**",
+   "dibujo": "escenas/historia03/4_gato_viene_solo_azul"
+  },
+  {
+   "frase": "Así que Mengano",
+   "titulo": "Mengano ya se siente **suficiente**",
+   "dibujo": "escenas/historia03/5_mengano_suficiente_azul"
+  },
+  {
+   "frase": "No espera",
+   "titulo": "No persigue y se le **acerca**",
+   "dibujo": "escenas/historia03/6_no_persigue_se_acerca_azul"
+  },
+  {
+   "frase": "Si persigues siempre",
+   "titulo": "Persigues o te **quieres**",
+   "dibujo": "escenas/historia03/7_persigues_o_te_quieres_ambos"
+  },
+  {
+   "frase": "Así que la próxima",
+   "titulo": "**Suelta** el móvil",
+   "dibujo": "escenas/historia03/8_suelta_el_movil_azul"
+  }
+ ],
+ "corrige": [
+  [
+   "fulano",
+   "Fulano"
+  ],
+  [
+   "mengano",
+   "Mengano"
+  ],
+  [
+   "Fula no",
+   "Fulano"
+  ],
+  [
+   "Fura no",
+   "Fulano"
+  ],
+  [
+   "escribéis",
+   "escribe"
+  ]
+ ]
+}

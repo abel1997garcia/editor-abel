@@ -1,0 +1,65 @@
+{
+ "velocidad": 1.0,
+ "guion": "Te has visto todos los vídeos, te has leído todos los libros, sabes perfectamente qué te pasa, y sigues igual. Porque la cabeza sirve para entender, pero lo que manda es lo que sientes. Y si intentas cambiar cómo te sientes a base de pensar, te vas a pasar la vida en guardia y agotado. Cambias cuando dejas de huir de lo que llevas dentro y lo escuchas. Mueve tu cuerpo, siente, cuida lo que consumes, rodéate de gente que te sume. Deja de intentar entenderte tanto, y empieza a sentirte.",
+ "cuerpo": [
+  10,
+  [
+   13,
+   null,
+   "te pasa"
+  ],
+  [
+   13,
+   "la cabeza",
+   null
+  ],
+  14,
+  [
+   17,
+   null,
+   "base de pensar"
+  ],
+  19,
+  24,
+  26,
+  30
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Te sabes de memoria lo que te pasa y aun así sigues igual de J*DIDO:",
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3",
+   "gancho": [
+    0
+   ]
+  },
+  "r2": {
+   "titulo": "Llevas años intentando entenderte y sigues exactamente en el MISMO sitio:",
+   "musica": "ÉPICA/Ogryzek - AURA.mp3",
+   "gancho": [
+    1
+   ]
+  },
+  "r3": {
+   "titulo": "No te vas a curar entendiendo lo que te pasó, te vas a curar SINTIÉNDOLO:",
+   "musica": "EMOCIONAL/Andrea Vanzo - Soulmate x Amélie x Interstellar x Passacaglia.mp3",
+   "gancho": [
+    7
+   ]
+  },
+  "r4": {
+   "titulo": "Pensar en positivo no sirve de nada si por dentro sigues HUYENDO:",
+   "musica": "ÉPICA/Caleb Bryant - Imperius (instrumental) [ slowed ].mp3",
+   "gancho": [
+    8
+   ]
+  },
+  "r5": {
+   "titulo": "Ir al psicólogo no te va a cambiar si no haces ESTO:",
+   "musica": "EMOCIONAL/Skott - Overcome (528Hz).mp3",
+   "gancho": [
+    9
+   ]
+  }
+ },
+ "corrige": []
+}

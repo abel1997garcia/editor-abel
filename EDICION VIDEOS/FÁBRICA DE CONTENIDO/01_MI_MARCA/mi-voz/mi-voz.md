@@ -142,6 +142,9 @@ Uso **"tú"** casi siempre. Cambio a **"vosotros"** cuando me dirijo a un colect
 
 ## Lo que NUNCA hago
 
+- **Ejemplos de su edad y género** (29 años, hombre; Abel 13/10/2026): gustos, referencias y ejemplos que diría él, sin sonar a colega. MAL: «mujeres de 40».
+- **Español de España, nunca latino** (Abel 13/10/2026): «visitas», no «vistas»; «me gusta», no «like»; nada de «cagazo» (se dice «esto da miedo»). Ante la duda, cómo lo diría alguien de España.
+
 - **Escenas que la persona no vive de verdad** (corrección de Abel). Test obligatorio de cada escena: ¿esto lo hace o lo siente la persona casi todos los días? Si no, se busca otra (el móvil en la cama, el café con el WhatsApp, el domingo por la tarde…). La conexión sale de describir su día a día y cómo se siente, como en `transcripciones/04`.
 
 - **Tics de IA** (corrección de Abel): fragmentos cortados para crear efecto ("Siete noches.", "No. Una."), repeticiones enfáticas ("haz una cosa, solo una"), comas dramáticas ("se queda dentro, vibrando,"). Ojo: el banco B-xxx está escrito con ese estilo; se usa su IDEA, nunca su ritmo.
@@ -155,3 +158,6 @@ Uso **"tú"** casi siempre. Cambio a **"vosotros"** cuando me dirijo a un colect
 ## Plantilla mental de un vídeo mío (no se escribe con títulos en el guion)
 
 **Verdad rotunda** → la amplío con "o sea" o un ejemplo → **escena o diálogo concreto** → pregunta "¿pero por qué?" y me la respondo → **mi prueba personal** → **golpe final corto**.
+
+## 🔴 SIN RELLENO, PERO FLUIDO (Abel 18/10/2026)
+Fuera todo lo que no añade información vital (repeticiones, muletillas, «y te lo digo claro», «así que»); el texto tiene que fluir y conectar como se habla, sin trocear frases.

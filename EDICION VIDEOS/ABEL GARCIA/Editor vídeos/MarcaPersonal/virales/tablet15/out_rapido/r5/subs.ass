@@ -1,0 +1,96 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Montserrat Medium,64,&H00FFFFFF,&H00FFFFFF,&H70000000,&H80000000,0,0,0,0,100,100,0,0,1,3,2,5,0,0,0,1
+Style: B,Montserrat ExtraBold,80,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.46,B,,0,0,0,,{\pos(540,1415)}Te han vendido
+Dialogue: 0,0:00:00.46,0:00:01.22,B,,0,0,0,,{\pos(540,1415)}lo que no importa
+Dialogue: 0,0:00:01.22,0:00:01.89,B,,0,0,0,,{\pos(540,1415)}y nadie te ha dicho
+Dialogue: 0,0:00:01.89,0:00:02.32,B,,0,0,0,,{\pos(540,1415)}lo que sí
+Dialogue: 0,0:00:02.32,0:00:03.84,B,,0,0,0,,{\pos(540,1415)}Las afirmaciones no importan
+Dialogue: 0,0:00:03.84,0:00:04.71,B,,0,0,0,,{\pos(540,1415)}si no te las crees
+Dialogue: 0,0:00:04.71,0:00:05.17,B,,0,0,0,,{\pos(540,1415)}Lo que manda
+Dialogue: 0,0:00:05.17,0:00:05.89,B,,0,0,0,,{\pos(540,1415)}es lo que sientes cuando
+Dialogue: 0,0:00:05.89,0:00:06.46,B,,0,0,0,,{\pos(540,1415)}las dices
+Dialogue: 0,0:00:06.46,0:00:07.45,B,,0,0,0,,{\pos(540,1415)}Sentir la emoción en vez
+Dialogue: 0,0:00:07.45,0:00:08.10,B,,0,0,0,,{\pos(540,1415)}de taparla
+Dialogue: 0,0:00:08.10,0:00:08.47,B,,0,0,0,,{\pos(540,1415)}muy
+Dialogue: 0,0:00:08.47,0:00:09.52,B,,0,0,0,,{\pos(540,1415)}pero que muy importante
+Dialogue: 0,0:00:09.52,0:00:10.15,B,,0,0,0,,{\pos(540,1415)}Porque lo que tapas
+Dialogue: 0,0:00:10.15,0:00:10.88,B,,0,0,0,,{\pos(540,1415)}se queda dentro
+Dialogue: 0,0:00:10.88,0:00:11.76,B,,0,0,0,,{\pos(540,1415)}y te sigue controlando
+Dialogue: 0,0:00:11.76,0:00:12.40,B,,0,0,0,,{\pos(540,1415)}Pensar en positivo
+Dialogue: 0,0:00:12.40,0:00:13.61,B,,0,0,0,,{\pos(540,1415)}a la fuerza no importa
+Dialogue: 0,0:00:13.61,0:00:14.67,B,,0,0,0,,{\pos(540,1415)}Porque si sonríes por fuera
+Dialogue: 0,0:00:14.67,0:00:15.53,B,,0,0,0,,{\pos(540,1415)}pero por dentro estás hecho
+Dialogue: 0,0:00:15.53,0:00:16.02,B,,0,0,0,,{\pos(540,1415)}una mierda
+Dialogue: 0,0:00:16.02,0:00:16.83,B,,0,0,0,,{\pos(540,1415)}tu energía no cambia
+Dialogue: 0,0:00:16.83,0:00:17.86,B,,0,0,0,,{\pos(540,1415)}Cumplir lo que prometes
+Dialogue: 0,0:00:17.86,0:00:18.79,B,,0,0,0,,{\pos(540,1415)}muy importante
+Dialogue: 0,0:00:18.79,0:00:20.05,B,,0,0,0,,{\pos(540,1415)}Cuando cumples con tu palabra
+Dialogue: 0,0:00:20.05,0:00:21.21,B,,0,0,0,,{\pos(540,1415)}empiezas a tener más confianza
+Dialogue: 0,0:00:21.21,0:00:21.40,B,,0,0,0,,{\pos(540,1415)}en ti
+Dialogue: 0,0:00:21.40,0:00:22.21,B,,0,0,0,,{\pos(540,1415)}Leer más libros
+Dialogue: 0,0:00:22.21,0:00:23.19,B,,0,0,0,,{\pos(540,1415)}no importa si no aplicas
+Dialogue: 0,0:00:23.19,0:00:23.47,B,,0,0,0,,{\pos(540,1415)}nada
+Dialogue: 0,0:00:23.47,0:00:24.91,B,,0,0,0,,{\pos(540,1415)}Saberlo no implica cambiarlo
+Dialogue: 0,0:00:24.91,0:00:25.77,B,,0,0,0,,{\pos(540,1415)}Lo que consumes
+Dialogue: 0,0:00:25.77,0:00:26.78,B,,0,0,0,,{\pos(540,1415)}muy importante
+Dialogue: 0,0:00:26.78,0:00:27.68,B,,0,0,0,,{\pos(540,1415)}Porque las noticias
+Dialogue: 0,0:00:27.68,0:00:28.81,B,,0,0,0,,{\pos(540,1415)}el scroll y donde pones
+Dialogue: 0,0:00:28.81,0:00:29.99,B,,0,0,0,,{\pos(540,1415)}tu atención se queda dentro
+Dialogue: 0,0:00:29.99,0:00:30.33,B,,0,0,0,,{\pos(540,1415)}de ti
+Dialogue: 0,0:00:30.33,0:00:31.44,B,,0,0,0,,{\pos(540,1415)}Que te aprueben los demás
+Dialogue: 0,0:00:31.44,0:00:32.08,B,,0,0,0,,{\pos(540,1415)}no importa
+Dialogue: 0,0:00:32.08,0:00:32.94,B,,0,0,0,,{\pos(540,1415)}Si tu valor depende
+Dialogue: 0,0:00:32.94,0:00:33.68,B,,0,0,0,,{\pos(540,1415)}de cuántos me gustas
+Dialogue: 0,0:00:33.68,0:00:34.63,B,,0,0,0,,{\pos(540,1415)}o cuántos seguidores tienes
+Dialogue: 0,0:00:34.63,0:00:35.28,B,,0,0,0,,{\pos(540,1415)}o si agradas
+Dialogue: 0,0:00:35.28,0:00:35.81,B,,0,0,0,,{\pos(540,1415)}a los demás
+Dialogue: 0,0:00:35.81,0:00:36.70,B,,0,0,0,,{\pos(540,1415)}Todo tu valor depende
+Dialogue: 0,0:00:36.70,0:00:37.35,B,,0,0,0,,{\pos(540,1415)}de lo externo
+Dialogue: 0,0:00:37.35,0:00:38.13,B,,0,0,0,,{\pos(540,1415)}Mover tu cuerpo
+Dialogue: 0,0:00:38.13,0:00:39.00,B,,0,0,0,,{\pos(540,1415)}muy importante
+Dialogue: 0,0:00:39.00,0:00:39.58,B,,0,0,0,,{\pos(540,1415)}El ejercicio
+Dialogue: 0,0:00:39.58,0:00:40.79,B,,0,0,0,,{\pos(540,1415)}una ducha fría o caminar
+Dialogue: 0,0:00:40.79,0:00:41.54,B,,0,0,0,,{\pos(540,1415)}mueven la energía
+Dialogue: 0,0:00:41.54,0:00:42.40,B,,0,0,0,,{\pos(540,1415)}que se ha mantenido durante
+Dialogue: 0,0:00:42.40,0:00:43.46,B,,0,0,0,,{\pos(540,1415)}mucho tiempo estancada
+Dialogue: 0,0:00:43.46,0:00:44.31,B,,0,0,0,,{\pos(540,1415)}Compararte en redes
+Dialogue: 0,0:00:44.31,0:00:44.95,B,,0,0,0,,{\pos(540,1415)}ni te suma
+Dialogue: 0,0:00:44.95,0:00:45.75,B,,0,0,0,,{\pos(540,1415)}y te resta mucho
+Dialogue: 0,0:00:45.75,0:00:46.41,B,,0,0,0,,{\pos(540,1415)}Porque ves lo mejor
+Dialogue: 0,0:00:46.41,0:00:47.35,B,,0,0,0,,{\pos(540,1415)}de los demás y siempre
+Dialogue: 0,0:00:47.35,0:00:48.54,B,,0,0,0,,{\pos(540,1415)}te comparas por debajo
+Dialogue: 0,0:00:48.54,0:00:49.18,B,,0,0,0,,{\pos(540,1415)}y ves lo peor
+Dialogue: 0,0:00:49.18,0:00:49.33,B,,0,0,0,,{\pos(540,1415)}de ti
+Dialogue: 0,0:00:49.33,0:00:50.81,B,,0,0,0,,{\pos(540,1415)}Estar en silencio importa
+Dialogue: 0,0:00:50.81,0:00:51.73,B,,0,0,0,,{\pos(540,1415)}Porque 10 minutos al día
+Dialogue: 0,0:00:51.73,0:00:52.80,B,,0,0,0,,{\pos(540,1415)}sin ruido te fuerza
+Dialogue: 0,0:00:52.80,0:00:53.75,B,,0,0,0,,{\pos(540,1415)}a estar en el presente
+Dialogue: 0,0:00:53.75,0:00:54.67,B,,0,0,0,,{\pos(540,1415)}y es el único lugar
+Dialogue: 0,0:00:54.67,0:00:55.62,B,,0,0,0,,{\pos(540,1415)}desde el que puedes cambiar
+Dialogue: 0,0:00:55.62,0:00:55.98,B,,0,0,0,,{\pos(540,1415)}tu vida
+Dialogue: 0,0:00:55.98,0:00:56.82,B,,0,0,0,,{\pos(540,1415)}Tu energía sexual
+Dialogue: 0,0:00:56.82,0:00:57.71,B,,0,0,0,,{\pos(540,1415)}muy importante
+Dialogue: 0,0:00:57.71,0:00:58.80,B,,0,0,0,,{\pos(540,1415)}Si la gastas sin conciencia
+Dialogue: 0,0:00:58.80,0:00:59.72,B,,0,0,0,,{\pos(540,1415)}te quedas sin energía
+Dialogue: 0,0:00:59.72,0:01:00.64,B,,0,0,0,,{\pos(540,1415)}para aplicarla a todo
+Dialogue: 0,0:01:00.64,0:01:01.74,B,,0,0,0,,{\pos(540,1415)}lo demás que realmente
+Dialogue: 0,0:01:01.74,0:01:02.45,B,,0,0,0,,{\pos(540,1415)}es bueno para ti
+Dialogue: 0,0:01:02.45,0:01:03.25,B,,0,0,0,,{\pos(540,1415)}Poner límites
+Dialogue: 0,0:01:03.25,0:01:04.28,B,,0,0,0,,{\pos(540,1415)}súper importante
+Dialogue: 0,0:01:04.28,0:01:05.24,B,,0,0,0,,{\pos(540,1415)}Porque cada no que dices
+Dialogue: 0,0:01:05.24,0:01:06.44,B,,0,0,0,,{\pos(540,1415)}cuando realmente lo sientes
+Dialogue: 0,0:01:06.44,0:01:07.31,B,,0,0,0,,{\pos(540,1415)}es energía que dejas
+Dialogue: 0,0:01:07.31,0:01:08.28,B,,0,0,0,,{\pos(540,1415)}de regalar a los demás
+Dialogue: 0,0:01:08.28,0:01:08.90,B,,0,0,0,,{\pos(540,1415)}y que puedes usar
+Dialogue: 0,0:01:08.90,0:01:09.42,B,,0,0,0,,{\pos(540,1415)}a tu favor

@@ -1,0 +1,72 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Montserrat Medium,64,&H00FFFFFF,&H00FFFFFF,&H70000000,&H80000000,0,0,0,0,100,100,0,0,1,3,2,5,0,0,0,1
+Style: B,Montserrat ExtraBold,80,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.04,0:00:00.83,B,,0,0,0,,{\pos(540,1415)}Esperas a tenerlo
+Dialogue: 0,0:00:00.83,0:00:01.94,B,,0,0,0,,{\pos(540,1415)}para sentirte bien
+Dialogue: 0,0:00:01.94,0:00:02.56,B,,0,0,0,,{\pos(540,1415)}y por eso nunca
+Dialogue: 0,0:00:02.56,0:00:03.12,B,,0,0,0,,{\pos(540,1415)}te llega
+Dialogue: 0,0:00:03.12,0:00:04.14,B,,0,0,0,,{\pos(540,1415)}Para conseguir lo que quieres
+Dialogue: 0,0:00:04.14,0:00:05.33,B,,0,0,0,,{\pos(540,1415)}tienes que ser la persona
+Dialogue: 0,0:00:05.33,0:00:06.00,B,,0,0,0,,{\pos(540,1415)}que ya lo tiene
+Dialogue: 0,0:00:06.00,0:00:06.92,B,,0,0,0,,{\pos(540,1415)}¿Quieres vivir de tu proyecto?
+Dialogue: 0,0:00:06.92,0:00:07.83,B,,0,0,0,,{\pos(540,1415)}Te sientas y dices
+Dialogue: 0,0:00:07.83,0:00:08.69,B,,0,0,0,,{\pos(540,1415)}¿cómo me voy a sentir
+Dialogue: 0,0:00:08.69,0:00:10.13,B,,0,0,0,,{\pos(540,1415)}bien si tengo 100€
+Dialogue: 0,0:00:10.13,0:00:11.11,B,,0,0,0,,{\pos(540,1415)}en la cuenta y estoy
+Dialogue: 0,0:00:11.11,0:00:12.36,B,,0,0,0,,{\pos(540,1415)}estresado todo el puto día?
+Dialogue: 0,0:00:12.36,0:00:12.78,B,,0,0,0,,{\pos(540,1415)}Y ahí se queda
+Dialogue: 0,0:00:12.78,0:00:13.66,B,,0,0,0,,{\pos(540,1415)}la mayoría de gente
+Dialogue: 0,0:00:13.66,0:00:14.84,B,,0,0,0,,{\pos(540,1415)}chocando con lo que ve
+Dialogue: 0,0:00:14.84,0:00:16.16,B,,0,0,0,,{\pos(540,1415)}en su realidad hoy mismo
+Dialogue: 0,0:00:16.16,0:00:16.66,B,,0,0,0,,{\pos(540,1415)}Pero tu vida no
+Dialogue: 0,0:00:16.66,0:00:17.54,B,,0,0,0,,{\pos(540,1415)}se crea fuera
+Dialogue: 0,0:00:17.54,0:00:18.41,B,,0,0,0,,{\pos(540,1415)}tu vida se crea dentro
+Dialogue: 0,0:00:18.41,0:00:19.12,B,,0,0,0,,{\pos(540,1415)}en lo que tú crees
+Dialogue: 0,0:00:19.12,0:00:19.76,B,,0,0,0,,{\pos(540,1415)}que mereces
+Dialogue: 0,0:00:19.76,0:00:20.44,B,,0,0,0,,{\pos(540,1415)}y en lo que crees
+Dialogue: 0,0:00:20.44,0:00:21.12,B,,0,0,0,,{\pos(540,1415)}que eres capaz
+Dialogue: 0,0:00:21.12,0:00:22.41,B,,0,0,0,,{\pos(540,1415)}Pregúntate realmente cómo
+Dialogue: 0,0:00:22.41,0:00:23.95,B,,0,0,0,,{\pos(540,1415)}serías y cómo te comportarías
+Dialogue: 0,0:00:23.95,0:00:24.54,B,,0,0,0,,{\pos(540,1415)}si ya vivieras
+Dialogue: 0,0:00:24.54,0:00:25.07,B,,0,0,0,,{\pos(540,1415)}de tu sueño
+Dialogue: 0,0:00:25.07,0:00:26.40,B,,0,0,0,,{\pos(540,1415)}Estarías mucho más tranquilo
+Dialogue: 0,0:00:26.40,0:00:27.33,B,,0,0,0,,{\pos(540,1415)}te comportarías de otra
+Dialogue: 0,0:00:27.33,0:00:27.67,B,,0,0,0,,{\pos(540,1415)}manera
+Dialogue: 0,0:00:27.67,0:00:28.92,B,,0,0,0,,{\pos(540,1415)}hablarías de otra manera muy
+Dialogue: 0,0:00:28.92,0:00:29.56,B,,0,0,0,,{\pos(540,1415)}distinta
+Dialogue: 0,0:00:29.56,0:00:30.47,B,,0,0,0,,{\pos(540,1415)}otra pose
+Dialogue: 0,0:00:30.47,0:00:31.65,B,,0,0,0,,{\pos(540,1415)}un gasto de golpe no
+Dialogue: 0,0:00:31.65,0:00:33.01,B,,0,0,0,,{\pos(540,1415)}te tocaría los cojones tanto
+Dialogue: 0,0:00:33.01,0:00:34.11,B,,0,0,0,,{\pos(540,1415)}¿Pensarías en el siguiente
+Dialogue: 0,0:00:34.11,0:00:35.57,B,,0,0,0,,{\pos(540,1415)}proyecto o tendrías un entorno
+Dialogue: 0,0:00:35.57,0:00:36.70,B,,0,0,0,,{\pos(540,1415)}que realmente te apoye?
+Dialogue: 0,0:00:36.70,0:00:37.48,B,,0,0,0,,{\pos(540,1415)}Y todo eso lo puedes
+Dialogue: 0,0:00:37.48,0:00:39.02,B,,0,0,0,,{\pos(540,1415)}hacer hoy mismo gratis
+Dialogue: 0,0:00:39.02,0:00:40.04,B,,0,0,0,,{\pos(540,1415)}con todo lo que piensas
+Dialogue: 0,0:00:40.04,0:00:40.70,B,,0,0,0,,{\pos(540,1415)}sobre ti
+Dialogue: 0,0:00:40.70,0:00:41.85,B,,0,0,0,,{\pos(540,1415)}todo lo que sientes sobre
+Dialogue: 0,0:00:41.85,0:00:42.76,B,,0,0,0,,{\pos(540,1415)}ti lo que mereces
+Dialogue: 0,0:00:42.76,0:00:43.17,B,,0,0,0,,{\pos(540,1415)}lo que piensas
+Dialogue: 0,0:00:43.17,0:00:43.82,B,,0,0,0,,{\pos(540,1415)}de la vida
+Dialogue: 0,0:00:43.82,0:00:44.46,B,,0,0,0,,{\pos(540,1415)}Y empezarás a ver
+Dialogue: 0,0:00:44.46,0:00:45.71,B,,0,0,0,,{\pos(540,1415)}oportunidades que siempre han
+Dialogue: 0,0:00:45.71,0:00:46.10,B,,0,0,0,,{\pos(540,1415)}estado ahí
+Dialogue: 0,0:00:46.10,0:00:47.15,B,,0,0,0,,{\pos(540,1415)}pero nunca las veías
+Dialogue: 0,0:00:47.15,0:00:48.52,B,,0,0,0,,{\pos(540,1415)}porque solo estabas centrado
+Dialogue: 0,0:00:48.52,0:00:49.44,B,,0,0,0,,{\pos(540,1415)}en lo que no tenías
+Dialogue: 0,0:00:49.44,0:00:50.29,B,,0,0,0,,{\pos(540,1415)}y en lo que te faltaba
+Dialogue: 0,0:00:50.29,0:00:50.72,B,,0,0,0,,{\pos(540,1415)}Así que empieza hoy
+Dialogue: 0,0:00:50.72,0:00:51.69,B,,0,0,0,,{\pos(540,1415)}y empieza a actuar como
+Dialogue: 0,0:00:51.69,0:00:52.93,B,,0,0,0,,{\pos(540,1415)}lo haría esa mejor versión
+Dialogue: 0,0:00:52.93,0:00:53.31,B,,0,0,0,,{\pos(540,1415)}de ti
+Dialogue: 0,0:00:53.31,0:00:54.30,B,,0,0,0,,{\pos(540,1415)}aunque sea pequeña

@@ -1,0 +1,4 @@
+##### r1 · 64.9 s · 24 trozos
+huecos > 0,10 s (onda): ninguno ✓
+✗ ISLA REPETIDA: [20, 31]
+✗  37.33s se oye de más: ['a']  ·  «y como él a él. Y empezó a creérselo poco a poco.»

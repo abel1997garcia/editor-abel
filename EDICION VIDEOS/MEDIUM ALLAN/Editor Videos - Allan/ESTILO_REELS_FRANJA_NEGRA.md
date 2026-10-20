@@ -4,6 +4,13 @@
 horizontal en el medio** (la da el usuario). Nada que ver con el estilo «franjas azules».
 Referencia: `trabajo/referencia_franja_negra.png`.
 
+**Formato 2 = sesiones** (Abel 18/10/2026). Este documento es la variante **2a: vertical con franja negra** (vídeo ya
+preeditado por Abel). La variante **2b: sesión en horizontal SIN franja** (p. ej. canalizaciones grabadas en un evento;
+Abel dirá «saca 4-5 en formato sesiones sin franja negra») lleva EXACTAMENTE el mismo contenido y la misma edición
+(abajo); solo cambia la presentación: cortar entre cuando habla Allan y cuando habla la persona, que se entienda
+claro quién dice qué, y subtítulos en Montserrat bien colocados. Posición/tamaño/encuadre de 2b: PENDIENTE, lo define
+Abel con el primer vídeo (preguntar antes de montar).
+
 ## Contenido (lo que importa)
 - Siempre es una **canalización**: Allan dice mensajes o lo que percibe, y la persona de abajo **confirma**
   (dice que sí, que es verdad, o da más datos que lo corroboran).
@@ -32,8 +39,11 @@ Referencia: `trabajo/referencia_franja_negra.png`.
 - Si el audio dice algo más veces de lo que Whisper escribió («calma» ×4), se escribe lo que se oye y se reparte.
 
 ## Cómo se hace
+
+**Audio primero:** `reel_franjas.py <spec> --voz` -> `voz.wav`; revisar con `espectro_cortes.py`, `oir_empalmes.py --voz`
+y `onda.py`; corregir en el original; solo después el render del vídeo.
 - Igual que franjas azules (transcribir + alinear en `trabajo/<video>/`), con spec `"estilo": "franja_negra"`, `"video"` y
-  `"tiempos"` (ver `reels/specs/crear_specs_shorts_prueba.py`). `reel_franjas.py` monta; `medir_sync.py` mide la cara de
+  `"tiempos"` (ver `trabajo/specs/crear_specs_shorts_prueba.py`). `reel_franjas.py` monta; `medir_sync.py` mide la cara de
   Allan (zona de arriba); `comprobar_reel.py` y `oir.py` verifican.
 - Estructura que funciona (igual que los reels del usuario «Abuela muerta» y «Mensajes del más allá»): arranque en
   seco con un dato concreto de Allan + confirmación inmediata; luego 3–4 bloques «Allan percibe → la persona confirma

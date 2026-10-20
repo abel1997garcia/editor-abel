@@ -1,0 +1,193 @@
+{
+ "velocidad": 1.0,
+ "guion": "A lo mejor eres la persona que más da, la que siempre está, la que lo aguanta todo, pero nada de eso hace que te elijan, porque se nota que lo das para que te quieran. Y por eso la persona que menos da a veces es la más valorada, y tú, que lo das todo, acabas sintiendo que nunca es suficiente. ¿Qué cambia? Dos cosas. La primera, que cada vez que te traicionas para agradar pierdes energía, y la gente lo nota aunque no sepa explicarlo. Y la segunda, que no te eliges tú primero. Piénsalo: nadie se queda al lado de alguien que no se queda a su propio lado. Yo llegué a ganar diecisiete mil euros en un mes y aun así me sentía vacío, porque buscaba fuera lo que no me estaba dando yo. Así que deja de darlo todo para que te elijan y empieza a elegirte tú, porque cuando subes tu energía, la gente que te valora llega sola.",
+ "cuerpo": [
+  10,
+  17,
+  19,
+  21,
+  28,
+  32,
+  33,
+  34,
+  35,
+  40,
+  42,
+  {
+   "isla": 44,
+   "b": 189.69
+  },
+  {
+   "isla": 44,
+   "a": 189.86
+  }
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Si das todo para que te quieran, vas a acabar SOLO y sin energía:",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3",
+   "gancho": [
+    2
+   ]
+  },
+  "r2": {
+   "titulo": "Ser \"buena persona\" te está saliendo carísimo: nadie te elige y encima te usan:",
+   "musica": "EMOCIONAL/Andrea Vanzo - Soulmate x Amélie x Interstellar x Passacaglia.mp3",
+   "gancho": [
+    5
+   ]
+  },
+  "r3": {
+   "titulo": "Cuanto más das para que te valoren, menos te respetan (y lo sabes):",
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3",
+   "gancho": [
+    6
+   ],
+   "cuerpo": [
+    10,
+    17,
+    21,
+    28,
+    32,
+    33,
+    34,
+    35,
+    40,
+    42,
+    {
+     "isla": 44,
+     "b": 189.69
+    },
+    {
+     "isla": 44,
+     "a": 189.86
+    }
+   ],
+   "diapos": [
+    {
+     "frase": "A lo mejor eres",
+     "titulo": "Das todo para que te **quieran**",
+     "dibujo": "escenas/historia01/1_das_todo_rojo"
+    },
+    {
+     "frase": "Y tú que lo",
+     "titulo": "Y nunca es **suficiente**",
+     "dibujo": "escenas/historia01/2_nunca_suficiente_rojo"
+    },
+    {
+     "frase": "Entonces, ¿qué cambia?",
+     "titulo": "¿Qué **cambia**? Dos cosas",
+     "dibujo": "escenas/historia01/3_que_cambia_azul"
+    },
+    {
+     "frase": "La primera es",
+     "titulo": "Te **traicionas** para agradar",
+     "dibujo": "escenas/historia01/4_te_traicionas_rojo"
+    },
+    {
+     "frase": "Y la segunda es",
+     "titulo": "**Elígete** tú primero",
+     "dibujo": "escenas/historia01/5_eligete_azul"
+    },
+    {
+     "frase": "Yo llegué a ganar",
+     "titulo": "Lo tenía todo y estaba **vacío**",
+     "dibujo": "escenas/historia01/6_todo_y_vacio_rojo"
+    },
+    {
+     "frase": "Así que deja de",
+     "titulo": "Te eliges y **llegan solos**",
+     "dibujo": "escenas/historia01/7_llegan_solos_azul"
+    }
+   ]
+  },
+  "r4": {
+   "titulo": "Complacer a todos no es ser bueno, es tener PÁNICO a que te dejen:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3",
+   "gancho": [
+    7
+   ]
+  },
+  "r5": {
+   "titulo": "Si no te eliges tú primero, nadie que valga la pena te va a ELEGIR:",
+   "musica": "EMOCIONAL/Tony Ann - ICARUS _ EPIC Orchestral Version.mp3",
+   "gancho": [
+    8
+   ],
+   "cuerpo": [
+    10,
+    17,
+    19,
+    21,
+    28,
+    32,
+    33,
+    34,
+    [
+     35,
+     null,
+     "respeto,"
+    ],
+    40,
+    42,
+    {
+     "isla": 44,
+     "b": 189.69
+    },
+    {
+     "isla": 44,
+     "a": 189.86
+    }
+   ]
+  }
+ },
+ "estilo": "historia",
+ "diapos": [
+  {
+   "frase": "A lo mejor eres",
+   "titulo": "Das todo para que te **quieran**",
+   "dibujo": "escenas/historia01/1_das_todo_rojo"
+  },
+  {
+   "frase": "Y por eso la persona",
+   "titulo": "Y nunca es **suficiente**",
+   "dibujo": "escenas/historia01/2_nunca_suficiente_rojo"
+  },
+  {
+   "frase": "Entonces, ¿qué cambia?",
+   "titulo": "¿Qué **cambia**? Dos cosas",
+   "dibujo": "escenas/historia01/3_que_cambia_azul"
+  },
+  {
+   "frase": "La primera es",
+   "titulo": "Te **traicionas** para agradar",
+   "dibujo": "escenas/historia01/4_te_traicionas_rojo"
+  },
+  {
+   "frase": "Y la segunda es",
+   "titulo": "**Elígete** tú primero",
+   "dibujo": "escenas/historia01/5_eligete_azul"
+  },
+  {
+   "frase": "Yo llegué a ganar",
+   "titulo": "Lo tenía todo y estaba **vacío**",
+   "dibujo": "escenas/historia01/6_todo_y_vacio_rojo"
+  },
+  {
+   "frase": "Así que deja de",
+   "titulo": "Te eliges y **llegan solos**",
+   "dibujo": "escenas/historia01/7_llegan_solos_azul"
+  }
+ ],
+ "corrige": [
+  [
+   "17 .000",
+   "17.000"
+  ],
+  [
+   "eliges tu primero",
+   "eliges tú primero"
+  ]
+ ],
+ "musica_db": -3.5
+}

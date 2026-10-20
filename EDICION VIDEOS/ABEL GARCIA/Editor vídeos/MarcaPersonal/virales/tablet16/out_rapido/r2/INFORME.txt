@@ -1,0 +1,7 @@
+##### r2 · 48.4 s · 15 trozos
+huecos > 0,10 s (onda): [(38.59, 38.730000000000004), (43.36, 43.52)]
+✗  38.69s unión con 0.14 s de silencio (islas 44→47)
+✗  43.53s unión con 0.16 s de silencio (islas 47→53)
+· reel entero replace: esperado «carga» · se oye «cargas»
+· reel entero replace: esperado «Con placer,» · se oye «complacer,»
+· reel entero insert: esperado «» · se oye «O»

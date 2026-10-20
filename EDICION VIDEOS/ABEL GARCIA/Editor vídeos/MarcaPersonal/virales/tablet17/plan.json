@@ -1,0 +1,108 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  17,
+  21,
+  [
+   30,
+   null,
+   "parejas,"
+  ],
+  31,
+  32,
+  33,
+  35,
+  38,
+  [
+   39,
+   "así que conviértete en",
+   null
+  ],
+  41,
+  42
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Sube tanto de nivel que la gente que te hizo daño tenga que volver a CONOCERTE:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "gancho": [
+    0
+   ],
+   "cuerpo": [
+    12,
+    17,
+    21,
+    [
+     30,
+     null,
+     "parejas,"
+    ],
+    31,
+    32,
+    33,
+    35,
+    38,
+    [
+     39,
+     "así que conviértete en",
+     null
+    ],
+    41,
+    42
+   ]
+  },
+  "r2": {
+   "titulo": "Te siguen haciendo daño porque sigues siendo la misma persona que lo PERMITÍA:",
+   "musica": "EMOCIONAL/Tony Ann - ICARUS _ EPIC Orchestral Version.mp3",
+   "gancho": [
+    7
+   ]
+  },
+  "r3": {
+   "titulo": "Exiges que te traten distinto y sigues haciendo exactamente lo MISMO de siempre:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3",
+   "gancho": [
+    9
+   ]
+  },
+  "r4": {
+   "titulo": "Cambiar por fuera no te va a servir de nada si por dentro sigues IGUAL:",
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3",
+   "gancho": [
+    10
+   ]
+  },
+  "r5": {
+   "titulo": "Haz estas siete cosas y la gente que te ignoraba ya no te va a RECONOCER:",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3",
+   "gancho": [
+    11
+   ]
+  }
+ },
+ "estilo": "tablet",
+ "tablet": {
+  "forma": "escalera",
+  "args": [
+   [
+    "Mírate a ti",
+    "Cumple 90 días",
+    "Siente",
+    "Di lo que piensas",
+    "Di que no",
+    "Cuida tu energía",
+    "Suelta"
+   ]
+  ],
+  "momentos": [
+   "Deja de compararte",
+   "Cumple con tu palabra",
+   "Deja de tapar lo que sientes con las",
+   "Deja de callarte",
+   "Aprende a decir",
+   "Cuida mucho",
+   "Y deja de darle"
+  ]
+ },
+ "corrige": []
+}

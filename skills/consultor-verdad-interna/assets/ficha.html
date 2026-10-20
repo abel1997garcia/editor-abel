@@ -1,0 +1,62 @@
+<h2 class="sr-only">Ficha de llamada: {{TEMA}}</h2>
+<div style="display:flex; flex-direction:column; gap:10px; padding: 0.5rem 0;">
+
+  <div style="background: var(--bg-tint-violet); border-radius: 12px; padding: 14px 16px;">
+    <p style="font-size:12px; color: var(--text-tint-violet); margin:0 0 6px;"><i class="ti ti-target-arrow" aria-hidden="true"></i> {{TEMA}}</p>
+    <p style="font-size:20px; font-weight:500; line-height:1.4; margin:0; color: var(--text-tint-violet);">{{FRASE}}</p>
+  </div>
+
+  <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap:10px;">
+    <div style="background: var(--bg-tint-orange); border-radius: 12px; padding:10px 12px;">
+      <p style="font-size:12px; color: var(--text-tint-orange); margin:0 0 4px;"><i class="ti ti-body-scan" aria-hidden="true"></i> Cuerpo</p>
+      <p style="font-size:14px; margin:0; line-height:1.5; color: var(--text-tint-orange);">{{CUERPO}}</p>
+    </div>
+    <div style="background: var(--bg-tint-magenta); border-radius: 12px; padding:10px 12px;">
+      <p style="font-size:12px; color: var(--text-tint-magenta); margin:0 0 4px;"><i class="ti ti-heart" aria-hidden="true"></i> Lo que siente</p>
+      <p style="font-size:14px; margin:0; line-height:1.5; color: var(--text-tint-magenta);">{{SIENTE}}</p>
+    </div>
+    <div style="background: var(--bg-tint-aqua); border-radius: 12px; padding:10px 12px;">
+      <p style="font-size:12px; color: var(--text-tint-aqua); margin:0 0 4px;"><i class="ti ti-git-fork" aria-hidden="true"></i> Origen</p>
+      <p style="font-size:14px; margin:0; line-height:1.5; color: var(--text-tint-aqua);">{{ORIGEN}}</p>
+    </div>
+  </div>
+
+  <div style="background: var(--bg-tint-yellow); border-radius: 12px; padding:12px 14px;">
+    <p style="font-size:12px; color: var(--text-tint-yellow); margin:0 0 4px;"><i class="ti ti-route" aria-hidden="true"></i> Encamina la conversación</p>
+    <p style="font-size:15px; margin:0; line-height:1.5; color: var(--text-tint-yellow);">{{ENCAMINAR}}</p>
+  </div>
+
+  <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:10px;">
+    <div style="background: var(--bg-tint-blue); border-radius: 12px; padding:12px 14px;">
+      <p style="font-size:12px; color: var(--text-tint-blue); margin:0 0 6px;"><i class="ti ti-message-question" aria-hidden="true"></i> Preguntas</p>
+      <ol style="margin:0; padding-left:18px; font-size:14px; line-height:1.7; color: var(--text-tint-blue);">
+        <li>{{P1}}</li><li>{{P2}}</li><li>{{P3}}</li>
+      </ol>
+    </div>
+    <div style="background: var(--surface-1); border-radius: 12px; padding:12px 14px;">
+      <p style="font-size:12px; color: var(--text-secondary); margin:0 0 6px;"><i class="ti ti-arrows-split" aria-hidden="true"></i> Si sale…</p>
+      <p style="font-size:14px; margin:0 0 6px; line-height:1.5;">{{RAMA1}}</p>
+      <p style="font-size:14px; margin:0; line-height:1.5;">{{RAMA2}}</p>
+    </div>
+  </div>
+
+  <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:10px;">
+    <div style="background: var(--surface-2); border: 2px solid var(--border-accent); border-radius: 12px; padding:12px 14px;">
+      <p style="font-size:12px; color: var(--text-accent); margin:0 0 4px;"><i class="ti ti-player-play" aria-hidden="true"></i> En la llamada · A</p>
+      <p style="font-size:14px; font-weight:500; margin:0 0 4px;">{{EJ_A_NOMBRE}}</p>
+      <p style="font-size:14px; margin:0; line-height:1.5;">{{EJ_A}}</p>
+    </div>
+    <div style="background: var(--surface-2); border: 2px solid var(--border-accent); border-radius: 12px; padding:12px 14px;">
+      <p style="font-size:12px; color: var(--text-accent); margin:0 0 4px;"><i class="ti ti-player-play" aria-hidden="true"></i> En la llamada · B</p>
+      <p style="font-size:14px; font-weight:500; margin:0 0 4px;">{{EJ_B_NOMBRE}}</p>
+      <p style="font-size:14px; margin:0; line-height:1.5;">{{EJ_B}}</p>
+    </div>
+  </div>
+
+  <div style="background: var(--bg-tint-green); border-radius: 12px; padding:12px 14px;">
+    <p style="font-size:12px; color: var(--text-tint-green); margin:0 0 4px;"><i class="ti ti-home" aria-hidden="true"></i> En casa</p>
+    <p style="font-size:14px; margin:0 0 8px; line-height:1.5; color: var(--text-tint-green);">{{CASA}}</p>
+    <p style="font-size:13px; margin:0 0 8px; color: var(--text-tint-green);"><i class="ti ti-brand-youtube" aria-hidden="true"></i> <a href="https://www.youtube.com/results?search_query={{YT_URL}}">{{YT}}</a></p>
+    <p style="font-size:14px; margin:0; color: var(--text-tint-green);"><i class="ti ti-plant" aria-hidden="true"></i> Notará: {{NOTARA}}</p>
+  </div>
+</div>

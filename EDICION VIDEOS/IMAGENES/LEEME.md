@@ -16,3 +16,6 @@ Hoja de todo lo que hay: `_hoja_biblioteca.png` (rehacerla al añadir).
 3. **Todo el texto en español**: tapar cada texto con el color de su fondo y escribir la traducción en Montserrat; los esquemas que son casi solo texto, rehacerlos enteros. Ejemplo: `_traducir_lote1.py`. Quitar marcas de agua de otras cuentas.
 
 4. **Al terminar, borrar `_originales/` y los temporales** (Abel: no guardar copias, ocupan espacio). Si una traducción hay que rehacerla, se pinta encima de la imagen final.
+
+## Familia «pizarra» (escenas de los reels HISTORIA, desde 19/10/2026)
+Cada vídeo HISTORIA tiene sus ESCENAS en `pizarra/escenas/<vídeo>/`: el MISMO personaje en todas (hojas `pizarra/_personaje/hoja_rojo.png` y `hoja_azul.png`, que se pasan como referencia), metido en la situación completa, sin fondo ni marco (PNG transparente). Se generan con `herramientas/pizarra_replicate.py` (el método, explicado en su docstring) y se apuntan solas en `catalogo.json` con su significado y cuándo usarlas; antes de generar, `buscar`. Los dibujos de la primera prueba (cada uno con un personaje distinto) están en `pizarra/_antiguos/` (familia `pizarra-antigua`): no se usan. Pruebas y crudos: `pizarra/_pruebas/`, `pizarra/_personaje/crudos/`.

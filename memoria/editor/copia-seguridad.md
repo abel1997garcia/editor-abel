@@ -26,3 +26,5 @@ metadata:
 Antes de cada subida, buscar secretos (sk-, IGAA…, access_token=).
 
 **How to apply:** al terminar cambios importantes (herramientas, skills, memoria), ejecutar `python actualizar_copia.py --subir` y decírselo. El zip del USB solo cuando lo pida.
+
+**Kit del portátil (18/10):** `python herramientas/kit_portatil.py` → Escritorio/«KIT ABEL <fecha>» con 4 módulos (0_COMUN, 1_EDITOR_ABEL, 2_EDITOR_ALLAN, 3_FABRICA; cada editor con su memoria) + INSTALAR.bat (doble clic: winget + instalar.py, que coloca todo, arregla rutas si el usuario de Windows no es «Clap» e instala librerías). Plantillas del instalador en herramientas/kit/. Usa los filtros de actualizar_copia.py (sin secretos). Si Abel pide «el kit del portátil», regenerarlo así: `python herramientas/kit_portatil.py --sin-material` (lo vital; el 4_MATERIAL_PROPIO, decenas de GB, solo si lo pide). Último: Escritorio/KIT ABEL 2026-10-20 (1,8 GB).

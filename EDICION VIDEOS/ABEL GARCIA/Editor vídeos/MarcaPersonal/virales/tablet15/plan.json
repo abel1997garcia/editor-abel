@@ -1,0 +1,154 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  9,
+  11,
+  12,
+  14,
+  17,
+  22,
+  23,
+  28,
+  35,
+  37,
+  38,
+  39,
+  42,
+  44,
+  47,
+  51,
+  [
+   57,
+   "Compararte en redes ni",
+   null
+  ],
+  58,
+  61,
+  63,
+  66,
+  69,
+  70,
+  72
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Te repites \"me quiero\" frente al espejo y por dentro sigues igual de VACÍO:",
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3",
+   "gancho": [
+    1
+   ]
+  },
+  "r2": {
+   "titulo": "Llevas años quemando tu energía en lo que NO importa para quererte:",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3",
+   "gancho": [
+    2
+   ]
+  },
+  "r3": {
+   "titulo": "Te han vendido \"quiérete más\" y nadie te dice lo que de verdad FUNCIONA:",
+   "musica": "ÉPICA/Ogryzek - AURA.mp3",
+   "gancho": [
+    4
+   ]
+  },
+  "r4": {
+   "titulo": "Pensar en positivo a la fuerza no te sube la autoestima, te la HUNDE:",
+   "musica": "ÉPICA/Caleb Bryant - Imperius (instrumental) [ slowed ].mp3",
+   "gancho": [
+    6
+   ]
+  },
+  "r5": {
+   "titulo": "Si tu valor depende de un \"me gusta\", se lo regalas a CUALQUIERA:",
+   "musica": "EMOCIONAL/Andrea Vanzo - Soulmate x Amélie x Interstellar x Passacaglia.mp3",
+   "gancho": [
+    8
+   ]
+  }
+ },
+ "estilo": "tablet",
+ "tablet": {
+  "forma": "columnas",
+  "args": [
+   "IMPORTA",
+   "NO\nIMPORTA",
+   [
+    [
+     "Afirmaciones",
+     "der"
+    ],
+    [
+     "Sentir",
+     "izq"
+    ],
+    [
+     "Positivo a la fuerza",
+     "der"
+    ],
+    [
+     "Tu palabra",
+     "izq"
+    ],
+    [
+     "Más libros",
+     "der"
+    ],
+    [
+     "Lo que consumes",
+     "izq"
+    ],
+    [
+     "Aprobación",
+     "der"
+    ],
+    [
+     "Moverte",
+     "izq"
+    ],
+    [
+     "Compararte",
+     "der"
+    ],
+    [
+     "Silencio",
+     "izq"
+    ],
+    [
+     "Energía sexual",
+     "izq"
+    ],
+    [
+     "Límites",
+     "izq"
+    ]
+   ]
+  ],
+  "kwargs": {
+   "iconos": [
+    "C:\\Users\\Clap\\Desktop\\EDICION VIDEOS\\IMAGENES\\pizarra\\iconos\\check_verde.png",
+    "C:\\Users\\Clap\\Desktop\\EDICION VIDEOS\\IMAGENES\\pizarra\\iconos\\cruz_roja.png"
+   ]
+  },
+  "momentos": [
+   "Las afirmaciones no",
+   "Sentir la emoción",
+   "Pensar en positivo",
+   "Cumplir lo que prometes",
+   "Leer más libros",
+   "Lo que consumes",
+   "Que te aprueben",
+   "Mover tu cuerpo",
+   "Compararte en redes ni",
+   "Estar en silencio",
+   "Tu energía sexual",
+   "Poner límites"
+  ]
+ },
+ "corrige": [
+  [
+   "Sigue repitiendo",
+   "Sigues repitiendo"
+  ]
+ ]
+}

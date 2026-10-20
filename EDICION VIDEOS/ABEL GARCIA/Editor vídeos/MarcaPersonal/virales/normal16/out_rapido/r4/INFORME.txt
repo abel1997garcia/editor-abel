@@ -1,0 +1,5 @@
+##### r4 · 46.8 s · 15 trozos
+huecos > 0,10 s (onda): [(23.37, 23.48)]
+✗  23.44s unión con 0.11 s de silencio (islas 30→42)
+· reel entero replace: esperado «Rubius» · se oye «rubio»
+✗ el reel repite «todo lo que te ha costado»

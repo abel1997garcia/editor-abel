@@ -1,0 +1,51 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  17,
+  18,
+  20,
+  24,
+  28,
+  30
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Lo más difícil de cambiar tu vida no es el esfuerzo, es ESTO:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "gancho": [
+    0
+   ]
+  },
+  "r2": {
+   "titulo": "Si mides tu cambio por lo que ves fuera, lo vas a DEJAR tirado:",
+   "musica": "EMOCIONAL/Skott - Overcome (528Hz).mp3",
+   "gancho": [
+    1,
+    2
+   ]
+  },
+  "r3": {
+   "titulo": "Cambias de método cada semana y el problema nunca fue el MÉTODO:",
+   "musica": "ÉPICA/Caleb Bryant - Imperius (instrumental) [ slowed ].mp3",
+   "gancho": [
+    7,
+    8
+   ]
+  },
+  "r4": {
+   "titulo": "El gimnasio, los libros y la meditación no te van a quitar el VACÍO:",
+   "musica": "EMOCIONAL/Tony Ann - ICARUS _ EPIC Orchestral Version.mp3",
+   "gancho": [
+    11
+   ]
+  },
+  "r5": {
+   "titulo": "\"Ya lo he probado todo\", todo menos mirar cómo te sientes por DENTRO:",
+   "musica": "ÉPICA/Don't tell your dreams - LOVIXX, STOSLIV.mp3",
+   "gancho": [
+    13
+   ]
+  }
+ },
+ "corrige": []
+}

@@ -1,0 +1,5 @@
+##### r3 · 32.0 s · 11 trozos
+huecos > 0,10 s (onda): ninguno ✓
+✗   5.51s unión con 0.10 s de silencio (islas 10→11)
+✗   9.06s unión con 0.10 s de silencio (islas 12→13)
+· reel entero replace: esperado «les» · se oye «le»

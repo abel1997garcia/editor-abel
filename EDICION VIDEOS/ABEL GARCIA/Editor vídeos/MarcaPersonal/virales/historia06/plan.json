@@ -1,0 +1,123 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  0,
+  11,
+  13,
+  19,
+  21,
+  23,
+  24,
+  27,
+  33,
+  42
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Esperas a tenerlo todo para sentirte suficiente y así NUNCA te va a llegar:",
+   "musica": "EMOCIONAL/Tony Ann - ICARUS _ EPIC Orchestral Version.mp3",
+   "gancho": [
+    0
+   ],
+   "cuerpo": [
+    11,
+    13,
+    19,
+    21,
+    23,
+    24,
+    27,
+    33,
+    42
+   ]
+  },
+  "r2": {
+   "titulo": "Esperas a tener dinero para sentirte bien, y por eso sigues sin NADA:",
+   "musica": "ÉPICA/Ogryzek - AURA.mp3",
+   "gancho": [
+    1
+   ]
+  },
+  "r3": {
+   "titulo": "\"Con cien euros en la cuenta, ¿cómo me voy a sentir bien?\" Así, y por ESO:",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3",
+   "gancho": [
+    3,
+    4
+   ]
+  },
+  "r4": {
+   "titulo": "Te estrellas siempre en el mismo sitio porque solo miras lo que te FALTA:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "gancho": [
+    5
+   ]
+  },
+  "r5": {
+   "titulo": "Puedes trabajar el doble que nadie, que si te sientes pequeño seguirás PEQUEÑO:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3",
+   "gancho": [
+    7
+   ]
+  }
+ },
+ "estilo": "historia",
+ "diapos": [
+  {
+   "frase": "Para conseguir lo que",
+   "titulo": "Sé quien **ya** lo tiene",
+   "dibujo": "escenas/historia05/7_vive_como_si_ya_azul"
+  },
+  {
+   "frase": "Quieres vivir de tu",
+   "titulo": "Con **100 €** en la cuenta",
+   "dibujo": "escenas/historia06/1_cien_euros_rojo"
+  },
+  {
+   "frase": "Y ahí se queda",
+   "titulo": "Chocas con lo que **ves**",
+   "dibujo": "escenas/historia06/2_choca_con_lo_que_ve_rojo"
+  },
+  {
+   "frase": "Pero tu vida no",
+   "titulo": "Tu vida se crea **dentro**",
+   "dibujo": "escenas/historia06/3_se_crea_dentro_azul"
+  },
+  {
+   "frase": "Pregúntate realmente",
+   "titulo": "¿Cómo te **comportarías**?",
+   "dibujo": "escenas/historia05/1_tu_version_que_se_quiere_azul"
+  },
+  {
+   "frase": "Estarías mucho más",
+   "titulo": "Tranquilo y con **otra** pose",
+   "dibujo": "escenas/historia05/3_como_viste_azul"
+  },
+  {
+   "frase": "un gasto de golpe",
+   "titulo": "Un gasto ya no te **hunde**",
+   "dibujo": "escenas/historia05/6_como_reacciona_azul"
+  },
+  {
+   "frase": "Pensarías en el siguiente",
+   "titulo": "Piensas en tu **próximo** proyecto",
+   "dibujo": "escenas/historia03/5_mengano_suficiente_azul"
+  },
+  {
+   "frase": "Y todo eso lo puedes",
+   "titulo": "Y lo puedes hacer **hoy**, gratis",
+   "dibujo": "escenas/historia02/6_mengano_se_trata_bien_azul"
+  },
+  {
+   "frase": "Y empezarás a ver",
+   "titulo": "Ves **oportunidades**",
+   "dibujo": "escenas/historia06/4_ve_oportunidades_azul"
+  },
+  {
+   "frase": "Así que empieza hoy",
+   "titulo": "Empieza **hoy**",
+   "dibujo": "escenas/historia03/8_suelta_el_movil_azul"
+  }
+ ],
+ "corrige": []
+}

@@ -29,6 +29,10 @@ La transcripción con tiempos está en `VideosLargos/mi-historia/historia_texto.
 
 El 09/10 ya se recortaron así los 12 clips de «Mi Historia» que lo tenían.
 
+**Sus hermanas Sara (2009) y Eva (2012): de momento NO salen en nada** (Abel 18/10/2026, «prefiero que no salgan»), ni en carruseles. Descartar toda foto en la que aparezcan (bebés y niñas pequeñas de los álbumes 2009-2016).
+
+**Su archivo de fotos (disco TOSHIBA, D:):** `anterior a la ultima copia de seguridad/` → `PC CASA/FOTOS ORDENADAS/imagenes y fotos/FOTOGRAFIA ORDENADA ABEL/AÑO 1997…2016` (el álbum de casa por años: su edad = año − 1997), `Fotos cd/` y `abel/FOTOS TRABAJO` (un trabajo que hizo sobre la VIDA DE SU ABUELO: sale gente que Abel no conoce, preguntar antes de usarla). Solo se lee y se copia; nunca se toca. Escaneo de caras y hojas de candidatas en `MarcaPersonal/_escaneo_fotos/` (`herramientas/fotos/`). No hay nada de 2015 ni de 2017 en adelante: eso está en su móvil.
+
 `12-familia-no-reels` y lo marcado `reels:false` (otras personas, su madre, la primera novia, el médium) NO van en reels.
 
 **Cómo elegir la imagen de cada frase** (Abel, 08/10/2026):
@@ -56,7 +60,7 @@ El 09/10 ya se recortaron así los 12 clips de «Mi Historia» que lo tenían.
 5. **Primera novia:** canalizaba mensajes de su abuelo, y eso le quitó la culpa y abrió su búsqueda de «algo más».
 6. **Fiestas y adicciones (≈16-22).**
    - Segunda relación, tóxica.
-   - Cambió los videojuegos por la fiesta: alcohol, apuestas (perdió 2.100 € en un día; apostaba al ping-pong a las 3 de la mañana) y tragaperras.
+   - Cambió los videojuegos por la fiesta: alcohol, apuestas (perdió 2.500 € en una noche, 2.100 € de ellos en una sola apuesta al ping-pong, tumbado en la cama con el móvil) y tragaperras.
    - Veranos en los pueblos de León, de miércoles a domingo de fiesta. Después, las fiestas de Castelldans y Borges.
    - Camarero los fines de semana desde los 16; monitor de tiempo libre en verano. Se gastó en fiesta el dinero del carnet.
    - En la universidad tonteó con sustancias, pero paró a tiempo.
@@ -68,7 +72,7 @@ El 09/10 ya se recortaron así los 12 clips de «Mi Historia» que lo tenían.
    - Se gastaba todo el dinero en fiesta y estaba hecho una mierda; el ir y volver entre León y Castelldans le reabría la herida.
    - No se lo dijo a nadie. NO hay foto de esto.
 9. **Época del dinero (≈2021-2022).**
-   - Antes se formó: curso Crece Tube de Romuald Fons (700 €) y la presentación de su libro.
+   - Antes se formó: curso Crece Tube de Romuald Fons (≈900 €, Crecetube) y la presentación de su libro.
    - Canal de **automatización**: más de 5 cifras al mes (17.000 €/mes en el Mundial de Qatar 2022).
    - Se hizo autónomo y montó una empresa. Placa de los 100K.
    - Rechazó 550.000 € por el canal.
@@ -154,3 +158,96 @@ Edades: 20 años ≈2017 · ADE 2015-2019 · pandemia 2020 (23) · dinero 2022 (
 - **Segundo fondo y sanación (Lérida, tras Australia)** → `10-segundo-fondo-y-sanacion/` (espejo, llorando en la sesión con psilocibina; miniatura del médium, sin reels).
 - **Ahora, Lérida, su canal** → `11-ahora/`: gimnasio, pizarra, vídeo de su piso de Lérida, scroll de sus vídeos de pizarra.
 - **Familia** → `12-familia-no-reels/`: nunca en reels. Incluye la vuelta por sorpresa y a la primera novia.
+
+## Puntualizaciones de Abel para contar su historia (13/10/2026)
+- **Juez:** con 10 años tuvo que declarar ante un juez para decidir quién se quedaba con su custodia. Se quedó con su madre, se fueron a Castelldans y el primer año sufrió bullying.
+- **Abuelo:** enfermó y MURIÓ cuando Abel tenía 11 años. Hay que decir «murió», no solo «enfermó». Al contar la historia se lleva «un poquito al extremo», siempre que sea real.
+- **Sus canales de YouTube de pequeño (Packard Minecraft…):** los empezó para crearse una BURBUJA y salir de unas emociones y de un mundo que no sabía gestionar. NO por gusto ni para ganar dinero: «eso queda muy comercial, pero no es verdad».
+- **Apuestas:** eran apuestas ONLINE (perdió 2.500 € en una noche, 2.100 € en una sola apuesta al ping-pong, de noche en la cama). Hay que decirlo, porque si no parece que estaba con amigos.
+- **Psicóloga y terapias:** no le funcionaron porque entendía las cosas, pero seguía sintiéndose igual.
+- **Asia:** viajó solo y conoció a mucha gente. La psilocibina fue MÁS TARDE, en Lérida, tras el segundo fondo. En Asia no leyó tanto a David Hawkins.
+- **Su camino de emprendedor (Abel 13/10/2026):** probó muchos canales de YouTube, dropshipping, Facebook Ads, inteligencia artificial y un bot de trading. Hizo el curso de Romuald Fons (≈900 €, Crecetube) para mejorar y poder ganar dinero, y ayudó a otras personas con consejos de YouTube. Hay que contarlo en su historia: demuestra que conoce el mercado. (No hay fechas exactas de cada cosa: preguntar si hace falta el orden.)
+- **Psilocibina:** fue «lo último de lo último» de su proceso, después del segundo fondo y de Allan.
+- **Al contar su historia:** no describir hechos («eso no le importa a la gente»), sino CÓMO SE SENTÍA en cada momento y POR QUÉ HACÍA lo que hacía.
+
+## LÍNEA DE TIEMPO CORREGIDA POR ABEL (13/10/2026). Manda sobre lo de arriba si choca.
+Documento para que la corrija: Google Doc «MI HISTORIA · Línea de tiempo (para corregir)» en FÁBRICA DE CONTENIDO (id `1ARKCKXT5Dgju8KIzAD2UURQehXclwMAAmJTAf4owHqk`). Cuando conteste, se pasa aquí lo que diga.
+- **Infancia y adolescencia:**
+  - Padres separados cuando tenía **7 años** (no 5).
+  - Juez con **10**, cuando se mudó de Boñar a Castelldans.
+  - Foto del Sella con **11** (`01-infancia/abel_11_anos_descenso_del_sella_asturias.jpg`, 2 años después del juez según Abel).
+  - Abuelo muerto en **2009** (él tenía 12). Murió DESPUÉS de su cumpleaños del 15/3/2009 (su 12.º, el último con él).
+  - El juez fue DESPUÉS de su 10.º cumpleaños (15/3/2007).
+- **Emprendimiento, por orden:**
+  1. Canal de Minecraft con 15 años, solo para disfrutar.
+  2. Facebook Ads, dropshipping, webs y tiendas online.
+  3. Canal Gael Blog (≈18 años; la captura es de junio de 2017).
+  4. Canal de Clash Royale en la pandemia (2020). Ahí vio que se podía ganar dinero con YouTube.
+  5. El curso de Romuald Fons, 2-3 meses DESPUÉS de empezar el de Clash, para mejorar.
+  6. Canales de muchas temáticas (afiliación, psicología…).
+  7. Con ≈23 años, otro curso, de automatización.
+  8. Canal de automatización SIN SALIR ÉL: 17.000 €/mes y la libertad.
+  9. Consejos de YouTube gratis, hace unos 4 años (nunca cobró por ayudar).
+- **IA y bot de trading:** DESPUÉS de volver de Australia y Asia, no antes.
+- **Trabajos:**
+  - de joven: ayudante de camarero, azafato de eventos, entrenador de fútbol de chavales, monitor de tiempo libre y monitor de la campaña de Navidad (mono rojo);
+  - después: la oficina al salir de la universidad (2 meses), secretario en una cooperativa (contabilidad entera, aprendió cómo funciona un negocio) y Rodi (Lérida), donde pasó al departamento de marketing digital mientras hacía el máster de marketing digital, combinándolo con sus vídeos.
+- **La caída:** cierre de las cuentas, deuda con Hacienda (por deshacer la empresa) y ruptura. Se fue a Australia para pagar la deuda. Año y medio entre Australia y Asia.
+  - **Cómo lo vivió (Abel 18/10/2026, para ganchos de confesión):** al principio no se lo contaba a nadie, por miedo a que pensaran que era un farsante o que había fracasado; se alejó un poco de su entorno; y cuando por fin lo contaba, lo adornaba («no he fracasado del todo, estoy cambiando de negocio»).
+- **Respuestas de Abel (13/10/2026):**
+  - **550.000 €:** se los OFRECIERON por el canal y los RECHAZÓ: prefería cobrar 17.000 €/mes que tenerlos de golpe.
+  - **Máster:** el de marketing digital y comercio electrónico online, mientras trabajaba en el departamento de marketing digital de Rodi.
+  - **Cooperativa:** de 2020 a 2021 (≈1,5 años). **Rodi:** ≈1,5 años.
+  - **Curso de automatización:** a «un chico», sin nombre (NO nombrarlo).
+  - **IA, tras volver:** automatizaciones para agencias (eficiencia, ahorro de tiempo y recursos, personalizaciones), un bot de trading con código e IA, y una app para controlar macronutrientes y entrenamientos.
+  - **Psilocibina:** «este último año», 2-3 veces, siempre con máximo respeto y como parte de la terapia, cuando ya tenía mucha conciencia por otras terapias y estudios.
+- **POR QUÉ SE ESCONDÍA (clave para demostrar lo que vende):**
+  - En el canal de automatización no salía porque sentía que no era suficiente para mostrarse a 100.000 personas. Además, le daba libertad, pero sobre todo era miedo: a no ser suficiente y a la crítica.
+  - Buscaba negocios en los que no le vieran, «ingresos pasivos»: si no se exponía, ganaba dinero, vivía tranquilo, la gente no se enteraba y no había flanco para la crítica.
+- **Gael Blog (≈18):** blogs de crecimiento personal en los que SÍ salía él. En su pueblo pusieron uno de sus vídeos en la tele de un bar y se enteró todo el mundo: «no supe sostenerlo».
+- **Primera vez que da la cara contando lo suyo:** 2023, con su canal actual de YouTube. En Minecraft y Clash Royale solo jugaba.
+- **Autenticidad:**
+  - Al principio imitaba la forma de hablar de alguien a quien idolatraba («como un loro») y le llovía el hate por cosas que ni pensaba.
+  - Su vídeo de reacción a experiencias cercanas a la muerte le trajo críticas («que engañaba a la gente»).
+  - Hoy la diferencia es la INTENCIÓN: lo hace desde su verdad, no desde el rencor ni por puro dinero, «a quien le guste bien, y a quien no, estupendo».
+- **Primera clienta:** una mujer con una terapia entre el inconsciente y la energía. Le costó cobrar y le cobró 200 €/mes: «con 200 € no había el compromiso que tenía que haber… el low ticket es una mierda».
+- **Su porqué hoy (desde el 18/10/2026):** el de `00-avatar-operativo.md` (Especialista en Autoestima). No trabaja con quien solo quiere dinero («si te comportas de forma egoísta, la vida te lo devuelve»).
+- **Críticas de su entorno (13/10/2026):** cuando decía que quería hacer vídeos de YouTube y crear negocios, casi todos le criticaban: «eso no va a funcionar», «qué friki». Se sentía bastante mal.
+- **RESULTADOS QUE SE PUEDEN CONTAR (13/10/2026):**
+  - ha ayudado a marcas a facturar MÁS DE 10.000 €/MES DE FORMA RECURRENTE, a llenar su agenda y a crear servicios complementarios;
+  - y por dentro: entender por qué hacen lo que hacen, ganar confianza, entender sus emociones y sanar un poco el niño interior («una especie de coach de mentalidad, pero no solo»).
+- **Lo que regala:** toda la información, gratis, en su canal de YouTube (y en los reels).
+- **Pendiente de que confirme:**
+  - ¿el máster de 8.000 € es el de marketing digital?
+  - ¿«me pagaron 500.000» o rechazó 550.000?
+  - las fechas de la cooperativa y de Rodi;
+  - el curso de automatización, de quién;
+  - qué hizo con la IA y el bot;
+  - cuándo fue la psilocibina.
+
+**Imágenes de contexto en los reels (Abel 15/10/2026):** cuanto MÁS se expone, mejor: si habla de sus 30.000 suscriptores, se enseña el CANAL (captura con los suscriptores legibles, recortada y ampliada: `04-canal-clap/captura_canal_clap_31_8k_suscriptores.png`). **Si dice una cifra (200 €), en la imagen tiene que verse ESA cifra**; si sale otra (la captura de ingresos marca 11,73 €), no se usa: pierde el valor. Abel va a pasar capturas de sus canales vigentes y de los suscriptores actuales para guardarlas y clasificarlas aquí.
+
+## Sus recuerdos con sus palabras (audio de Abel, 18/10/2026) — la base emocional de los carruseles
+- **Su abuelo paterno:** «un niño en el cuerpo de un mayor», muy divertido. Le tiraba de los mofletes y le llamaba **«piloña»**. Al verle jugar al fútbol se asombraba porque es zurdo: **«hostia, vaya zurda tiene»**. Le enseñaba a dar de comer a sus **jilgueros**, le llevaba en moto, asaban castañas; su **almacén** lleno de cosas le dejaba alucinado: era un manitas, lo arreglaba todo.
+- **Su muerte:** Abel vivía ya en Castelldans. Volvió de la escuela y **su madre le sentó en la cama y se lo dijo**: uno de los recuerdos de más dolor de su vida; no sabía qué hacer. **La culpa:** la familia paterna estaba en León, a 7,5-8 h; solo le veía en vacaciones (volaba solo, con una azafata; el billete lo pagaban entre su padre y su madre). Sentía que no había estado con él ni aprovechado los últimos momentos. La última vez (entre Navidad y Semana Santa) había pegado un bajón enorme y casi no podía hablar: le impactó mucho.
+- **El juez (10 años):** lo recuerda poco («mi mente lo bloqueó»). Ya había pasado el verano en Castelldans; bajaron a León al juzgado, con su madre y su padre. El juez le preguntó si le gustaba Lérida y con quién quería quedarse: dijo que **no le gustaba Lérida** y que estaba muy bien con su padre, **no por nada contra su madre, sino porque no quería irse de León** (familia, amigos).
+- **La mudanza a Castelldans:** dejó a sus amigos, a sus abuelos paternos (los únicos vivos), a su padre, el idioma: «toda mi vida». Al volver de vacaciones los demás ya tenían otros amigos: **«no era ni de Castelldans ni de León, siempre a dos aguas»**. Primer año: **bullying** por cosas que se habían inventado de él; vivían con sus tíos a las afueras y **caminaba 40-45 min al colegio con mucho frío**; **se rompió un dedo de la mano izquierda (es zurdo) y le costaba escribir**. Paseaba con **el perro de sus tíos** por el campo, miraba la plana y la puesta de sol, y en las montañas del fondo **se imaginaba el Pico Cueto de Boñar**, y lloraba mucho. Ese perro le acompañó muchísimo.
+- **La fiesta:** empezó «tonteando»; bebía de más **para ser el guay, el popular, el que más bebía**, por falta de autoestima; no sabía controlarse, acababa a las 7-8 de la mañana hecho polvo. **Buscaba el valor fuera:** aprobación social, autoexigencia (si no marcaba o no daba una asistencia, estaba amargado todo el día) y dinero. Tragaperras: se fundió en mes y medio lo ahorrado de camarero y monitor para el carnet (su madre le pagó los 500 € del carnet). Luego **Bet365**: ganó dos veces 500 € en la tragaperras («voy a ganar más»), llegó a tener 3.000 y pico y **perdió 2.500 € en una noche, 2.100 € de ellos en una sola apuesta al ping-pong**; no podía dormir.
+- **MUY DELICADO:** el primer verano que volvió a Boñar y regresó a Castelldans (≈10-11 años) quiso quitarse la vida. **En contenido NUNCA el método ni detalles**; solo si Abel decide contarlo, y siempre con esperanza y ayuda (en España, 024).
+
+- **Familia (18/10/2026):** su TÍO (chaqueta vaquera) es en cuya casa vivió el primer año en Castelldans; el hombre de la foto de 2016 con luces es su PADRASTRO. «REGALO.mp4» (2018) es un vídeo que le hizo de regalo a su madre. Fue entrenador de fútbol de chavales (≈16 años, 2013): `07b-entrenador-futbol/`.
+- **Australia (Abel 18/10/2026):** grabó llorando un vídeo «sin guion y sin careta», de los que más le cambiaron la vida; es verdad y se puede contar (FOTOS MIAS/08-australia/video_llorando_video_emocional_australia.mp4).
+
+## CORRECCIONES DE ABEL (19/10/2026) — mandan sobre lo de arriba si choca
+- **Dónde vivía:** hasta los 10, en Boñar (León). Desde los 10 (2007) hasta irse a Australia (2023), SIEMPRE en casa de su madre en Castelldans: fiesta, apuestas, universidad, época del dinero, la caída. Semana Santa, Navidad y verano, de vacaciones en Boñar. Tras Australia y Asia, piso propio en Lérida.
+- **Apuestas:** perdió 2.500 € en una noche; 2.100 € de ellos en UNA SOLA apuesta al ping-pong. En casa (Castelldans), de noche, tumbado en la cama con el móvil. También tragaperras.
+- **Crecetube (Romuald Fons):** unos 900 €.
+- **Canal de automatización:** meses de 11.000 € y un pico de 17.000 € en un mes; generando eso le ofrecieron 550.000 € por el canal (y los rechazó). Vivía en casa de su madre; las 3:40 con el corazón acelerado eran en su cama de allí.
+- **Ataques de ansiedad:** varios con 19 años, en Castelldans (de noche, en el borde de su cama, sin despertar a nadie). El MÁS FUERTE, con 24 años (≈2021): en Madrid, en un circo, viendo una función con su tío y su padre; le vino de repente.
+- **Universidad:** ADE en la Universidad de Lleida (2015-2019).
+- **Cumpleaños 26:** en casa de su madre.
+- **La apertura (llorar y pedir perdón a su madre):** en el despacho de casa de su madre. Venía de entrenar, había leído, estaba con muy buena energía y música sana; entendió de golpe lo que había hecho mal, subió y se puso a llorar pidiéndole perdón.
+- **Gael Blog:** el vídeo lo pusieron en la tele de un bar de Boñar, en Semana Santa.
+- **Atletismo:** medallas sobre todo en 2007 (10 años); la más importante en Segovia: 3.º de Castilla y León en marcha atlética.
+- La skill de miniaturas de ChatGPT (`miniaturas-abel-vida`, en su Escritorio) lleva esta historia con sitios en `references/mi-historia.md`.
+

@@ -1,0 +1,5 @@
+##### r2 · 70.4 s · 24 trozos
+huecos > 0,10 s (onda): [(19.27, 19.42)]
+✗ ISLA REPETIDA: [20, 31]
+✗  34.58s unión con 0.10 s de silencio (islas 41→49)
+· reel entero insert: esperado «» · se oye «en»

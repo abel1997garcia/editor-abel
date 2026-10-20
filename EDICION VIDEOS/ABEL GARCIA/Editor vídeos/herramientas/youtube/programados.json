@@ -131,18 +131,21 @@
  },
  "002 · TRIAL · empezar · e9-g2 · Si nadie te critica, tu contenido NO vende.mp4": {
   "canal": "trial",
-  "cuando": "2026-11-26T17:00:00+01:00",
-  "respuesta": "{\"ok\":true}"
+  "cuando": "2026-10-15T17:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "nota": "fecha corregida a la de YouTube (13/10/2026)"
  },
  "031 · TRIAL · energia · e2-g4 · No existe la «competencia», existe tu miedo a vender.mp4": {
   "canal": "trial",
-  "cuando": "2026-11-27T17:00:00+01:00",
-  "respuesta": "{\"ok\":true}"
+  "cuando": "2026-10-15T19:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "nota": "fecha corregida a la de YouTube (13/10/2026)"
  },
  "004 · TRIAL · empezar · e3-g21 · Por esto hablar de 50 temas te deja sin clientes.mp4": {
   "canal": "trial",
-  "cuando": "2026-11-27T19:00:00+01:00",
-  "respuesta": "{\"ok\":true}"
+  "cuando": "2026-10-14T19:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "nota": "fecha corregida a la de YouTube (13/10/2026)"
  },
  "006 · TRIAL · empezar · e1-g20 · El miedo que no te deja empezar tu marca personal.mp4": {
   "canal": "trial",
@@ -151,12 +154,340 @@
  },
  "008 · TRIAL · empezar · e7-g3 · Si ofreces de todo, jamás vas a llenar tu agenda.mp4": {
   "canal": "trial",
-  "cuando": "2026-11-29T17:00:00+01:00",
-  "respuesta": "{\"ok\":true}"
+  "cuando": "2026-10-14T21:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "nota": "fecha corregida a la de YouTube (13/10/2026)"
  },
  "010 · TRIAL · empezar · e5-g26 · Lo que haces «como hobby» podría ser tu negocio.mp4": {
   "canal": "trial",
-  "cuando": "2026-11-27T21:00:00+01:00",
+  "cuando": "2026-10-15T21:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "nota": "fecha corregida a la de YouTube (13/10/2026)"
+ },
+ "035 · PUBLICAR · cobrar · e7-g1 · No es falta de preparación, es miedo a cobrar lo que vales.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-14T23:00:00+02:00",
   "respuesta": "{\"ok\":true}"
+ },
+ "045 · PUBLICAR · las340 · e1-g1 · Vendía motivación mientras por dentro estaba hundido.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-15T18:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "055 · PUBLICAR · energia2 · e1-g1 · Tu miedo no es al fracaso, es al éxito.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-15T20:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "036 · PUBLICAR · cobrar · e2-g2 · Porqué tu «low ticket» jamás te dará testimonios.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-15T22:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "046 · PUBLICAR · las340 · e3-g2 · Ganar más no arregla lo que llevas dentro.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-15T23:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "056 · PUBLICAR · energia2 · e2-g2 · Celebrar cada venta te está frenando.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-16T16:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "037 · PUBLICAR · cobrar · e9-g3 · Si necesitas que te compren, tu cliente lo nota.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-16T18:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "047 · PUBLICAR · las340 · e2-g3 · Si tu marca ya no es tuya, eres su esclavo.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-16T20:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "057 · PUBLICAR · energia2 · e3-g3 · Nadie te enseñó a regularte (y se nota en tu negocio).mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-16T22:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "038 · PUBLICAR · cobrar · e12-g4 · Regalar tu servicio no compromete a nadie.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-16T23:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "048 · PUBLICAR · las340 · e5-g4 · Fingir que eres auténtico se nota (aunque no lo creas).mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-17T14:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "058 · PUBLICAR · energia2 · e4-g4 · Trabajar por obligación te está quemando.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-17T16:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "039 · PUBLICAR · cobrar · e5-g5 · Así es como regalar tu trabajo te acaba quemando.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-17T18:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "049 · PUBLICAR · las340 · e6-g5 · Elegir entre 4 opciones no es pensar por ti mismo.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-17T20:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "059 · PUBLICAR · energia2 · e5-g5 · Es en tus ratos muertos donde más peligras.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-17T22:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "040 · PUBLICAR · cobrar · e13-g6 · Justificar tu precio te está haciendo perder clientes.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-17T23:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "050 · PUBLICAR · las340 · e8-g6 · Por esto te comparan por precio (y no te eligen).mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-18T00:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "060 · PUBLICAR · energia2 · e6-g6 · Si no aguantas equivocarte, tu negocio no va a funcionar.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-18T14:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "041 · PUBLICAR · cobrar · e1-g7 · Bajar tu precio no te hará vender más.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-18T16:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "051 · PUBLICAR · las340 · e10-g7 · Lo que mejor se te da es justo lo que infravaloras.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-18T18:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "061 · PUBLICAR · energia2 · e7-g7 · «Ya he grabado vídeos» es la excusa que te frena.mp4": {
+  "canal": "principal",
+  "cuando": "2026-10-18T20:00:00+02:00",
+  "respuesta": "{\"ok\":true}"
+ },
+ "042 · TRIAL · cobrar · e11-g8 · Me sabía mal cobrar a quien lo pasaba mal… y era un error.mp4": {
+  "canal": "trial",
+  "cuando": "2026-10-13T17:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-13T11:15:00+02:00"
+ },
+ "052 · TRIAL · las340 · e4-g8 · Hasta tus seguidores te obligan a llevar una careta.mp4": {
+  "canal": "trial",
+  "cuando": "2026-10-13T19:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-13T11:15:00+02:00"
+ },
+ "062 · TRIAL · energia2 · e8-g8 · Hoy tienes una llamada importante y te sientes fatal.mp4": {
+  "canal": "trial",
+  "cuando": "2026-10-13T21:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-13T11:15:00+02:00"
+ },
+ "043 · TRIAL · cobrar · e6-g9 · Un cliente barato te roba más energía de la que paga.mp4": {
+  "canal": "trial",
+  "cuando": "2026-10-14T17:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-13T11:15:00+02:00"
+ },
+ "085 · TRIAL · tablet05 · e1-g1 · Enseñas tu vida perfecta y por eso nadie te compra.mp4": {
+  "canal": "trial",
+  "cuando": "2026-10-16T15:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:23:02.320491+02:00"
+ },
+ "076 · TRIAL · tablet01 · e1-g1 · Trabajas a ciegas y por eso tu agenda sigue vacía.mp4": {
+  "canal": "club",
+  "cuando": "2026-10-16T17:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:23:14.960806+02:00"
+ },
+ "079 · TRIAL · tablet03 · e1-g1 · Regalas tu conocimiento y por eso te comparan por PRECIO.mp4": {
+  "canal": "trial",
+  "cuando": "2026-10-16T18:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:23:46.629390+02:00"
+ },
+ "082 · TRIAL · tablet04 · e1-g1 · Por esto nadie siente que le hablas a él.mp4": {
+  "canal": "club",
+  "cuando": "2026-10-16T20:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:24:13.609905+02:00"
+ },
+ "092 · TRIAL · tablet07 · e1-g1 · Si te da vergüenza publicar lo que piensas, tu agenda seguirá VACÍA.mp4": {
+  "canal": "trial",
+  "cuando": "2026-10-16T21:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:24:32.405167+02:00"
+ },
+ "095 · TRIAL · tablet08 · e1-g1 · Si te rindes porque un mes no entra nada, estás J-DIDO.mp4": {
+  "canal": "club",
+  "cuando": "2026-10-16T23:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:24:43.167238+02:00"
+ },
+ "098 · TRIAL · tablet09 · e1-g1 · Tú eres el motivo por el que tu Marca Personal fracasa (no el algoritmo).mp4": {
+  "canal": "trial",
+  "cuando": "2026-10-17T15:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:24:59.205093+02:00"
+ },
+ "101 · TRIAL · tablet10 · e1-g1 · Si te da asco verte en cámara, jamás vas a VENDER nada.mp4": {
+  "canal": "club",
+  "cuando": "2026-10-17T17:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:25:20.274920+02:00"
+ },
+ "104 · TRIAL · tablet11 · e1-g1 · Si te levantas pensando nadie me va a ver, jamás vas a VENDER.mp4": {
+  "canal": "trial",
+  "cuando": "2026-10-17T18:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:25:48.872483+02:00"
+ },
+ "107 · TRIAL · tablet12 · e1-g1 · Te arreglas tanto para grabar que nadie te COMPRA.mp4": {
+  "canal": "club",
+  "cuando": "2026-10-17T20:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:26:05.903568+02:00"
+ },
+ "110 · TRIAL · tablet13 · e1-g1 · Si sigues buscando tu nicho, jamás vas a VENDER.mp4": {
+  "canal": "trial",
+  "cuando": "2026-10-17T21:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:26:24.965984+02:00"
+ },
+ "113 · TRIAL · tablet02 · e1-g1 · Si esperas que tu entorno te aplauda, jamás vas a VENDER.mp4": {
+  "canal": "club",
+  "cuando": "2026-10-17T23:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:26:50.183919+02:00"
+ },
+ "077 · TRIAL · tablet01 · e1-g2 · Si no sabes si lo haces bien, estás JDIDO.mp4": {
+  "canal": "trial",
+  "cuando": "2026-10-18T15:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:27:03.240804+02:00"
+ },
+ "086 · TRIAL · tablet05 · e1-g2 · Si sigues haciendo de influencer, jamás te van a COMPRAR.mp4": {
+  "canal": "club",
+  "cuando": "2026-10-18T17:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:27:41.941731+02:00"
+ },
+ "096 · TRIAL · tablet08 · e1-g2 · Por esto quieres dejarlo todo a los 3 meses de emprender.mp4": {
+  "canal": "trial",
+  "cuando": "2026-10-18T18:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:27:53.844805+02:00"
+ },
+ "093 · TRIAL · tablet07 · e1-g2 · Solo hablas de tu negocio y por eso tu Marca Personal no vende NADA (ni lo hará).mp4": {
+  "canal": "club",
+  "cuando": "2026-10-18T20:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:28:09.557056+02:00"
+ },
+ "102 · TRIAL · tablet10 · e1-g2 · Borras tus vídeos porque dan asco y por eso nadie te CONTRATA.mp4": {
+  "canal": "trial",
+  "cuando": "2026-10-18T21:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:28:25.445622+02:00"
+ },
+ "099 · TRIAL · tablet09 · e1-g2 · Si lo dejas a los 5 vídeos por vergüenza, estás J-DIDO.mp4": {
+  "canal": "club",
+  "cuando": "2026-10-18T23:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:28:43.802413+02:00"
+ },
+ "108 · TRIAL · tablet12 · e1-g2 · Si solo grabas cuando te ves perfecto, estás J-DIDO.mp4": {
+  "canal": "trial",
+  "cuando": "2026-10-19T15:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:29:02.437031+02:00"
+ },
+ "105 · TRIAL · tablet11 · e1-g2 · Por esto no vendes aunque grabes todos los días (es tu cabeza).mp4": {
+  "canal": "instagram",
+  "cuando": "2026-10-16T22:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:29:31.245938+02:00",
+  "movido_a_mano": true
+ },
+ "111 · TRIAL · tablet13 · e1-g2 · Por esto nadie te compra aunque tengas el nicho perfecto.mp4": {
+  "canal": "club",
+  "cuando": "2026-10-19T17:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:29:48.257432+02:00"
+ },
+ "087 · TRIAL · tablet05 · e1-g3 · El motivo por el que tu Marca Personal no conecta con nadie.mp4": {
+  "canal": "instagram",
+  "cuando": "2026-10-17T22:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:31:17.505491+02:00",
+  "movido_a_mano": true
+ },
+ "078 · TRIAL · tablet01 · e1-g3 · Jamás llenarás tu agenda cambiando de estrategia cada semana.mp4": {
+  "canal": "instagram",
+  "cuando": "2026-10-17T16:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:31:29.775040+02:00",
+  "movido_a_mano": true
+ },
+ "094 · TRIAL · tablet07 · e1-g3 · Tú eres el motivo por el que nadie conecta con tu contenido (y lo sabes).mp4": {
+  "canal": "instagram",
+  "cuando": "2026-10-19T16:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:31:44.335261+02:00",
+  "movido_a_mano": true
+ },
+ "084 · TRIAL · tablet04 · e1-g3 · Jamás conectarás con nadie hablándole a todos.mp4": {
+  "canal": "instagram",
+  "cuando": "2026-10-17T19:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:32:14.581846+02:00",
+  "movido_a_mano": true
+ },
+ "097 · TRIAL · tablet08 · e1-g3 · Jamás llenarás tu agenda si no tienes fe en tu Marca Personal.mp4": {
+  "canal": "instagram",
+  "cuando": "2026-10-19T19:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:32:28.819633+02:00",
+  "movido_a_mano": true
+ },
+ "100 · TRIAL · tablet09 · e1-g3 · Por esto abandonas tu Marca Personal justo antes de que FUNCIONE.mp4": {
+  "canal": "instagram",
+  "cuando": "2026-10-16T16:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:32:45.686817+02:00",
+  "movido_a_mano": true
+ },
+ "103 · TRIAL · tablet10 · e1-g3 · Por esto tu Marca Personal no arranca (y tus vídeos malos no tienen la culpa).mp4": {
+  "canal": "instagram",
+  "cuando": "2026-10-16T19:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:33:06.199519+02:00",
+  "movido_a_mano": true
+ },
+ "109 · TRIAL · tablet12 · e1-g3 · Jamás vas a vender si sigues actuando delante de la cámara.mp4": {
+  "canal": "instagram",
+  "cuando": "2026-10-18T16:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:33:29.187087+02:00",
+  "movido_a_mano": true
+ },
+ "112 · TRIAL · tablet13 · e1-g3 · Te comparan por precio porque vendes técnicas (y no a ti).mp4": {
+  "canal": "instagram",
+  "cuando": "2026-10-18T19:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:33:46.134307+02:00",
+  "movido_a_mano": true
+ },
+ "115 · TRIAL · tablet02 · e1-g3 · Dejas de grabar porque nadie te comenta (y es un ERROR).mp4": {
+  "canal": "instagram",
+  "cuando": "2026-10-18T22:00:00+02:00",
+  "respuesta": "{\"ok\":true}",
+  "subido": "2026-10-16T12:34:29.189061+02:00",
+  "movido_a_mano": true
  }
 }

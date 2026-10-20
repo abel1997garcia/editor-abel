@@ -1,0 +1,68 @@
+{
+ "velocidad": 1.0,
+ "guion": "Dices tu primer «no», te tiembla la voz, te sientes culpable como si hubieras hecho algo malo, y al final pides perdón. Es normal, esa vergüenza y esa culpa llevan años dentro, y justo ahora están saliendo. Si huyes de ellas, vuelves a decir que sí a todo, y te pasas la vida pidiendo permiso hasta para existir. Siéntelas, déjalas salir, que se pasan. Cada «no» te va a costar un poco menos. Te vas a sentir ridículo al principio, y es perfecto.",
+ "cuerpo": [
+  [
+   33,
+   null,
+   "malo"
+  ],
+  [
+   33,
+   "y entonces",
+   null
+  ],
+  34,
+  39,
+  [
+   40,
+   "así que siéntelas",
+   null
+  ],
+  46,
+  [
+   49,
+   "y te va a dar",
+   null
+  ],
+  50
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Pides perdón cada vez que dices \"no\" porque crees que no tienes DERECHO:",
+   "musica": "ÉPICA/ECHO SAX END but it sounds like Øneheart.mp3",
+   "gancho": [
+    0
+   ]
+  },
+  "r2": {
+   "titulo": "Cuando empieces a decir que no, se va a ir media gente (y está BIEN):",
+   "musica": "ÉPICA/Ogryzek - AURA.mp3",
+   "gancho": [
+    6,
+    7
+   ]
+  },
+  "r3": {
+   "titulo": "Si te tiembla la voz al decir \"no\", llevas años traicionándote SIN darte cuenta:",
+   "musica": "EMOCIONAL/Tony Ann - ICARUS _ EPIC Orchestral Version.mp3",
+   "gancho": [
+    10
+   ]
+  },
+  "r4": {
+   "titulo": "Poner límites te hará sentir ridículo, y aun así es lo que te SALVA:",
+   "musica": "EMOCIONAL/Outro - M83 only the best part.mp3",
+   "gancho": [
+    12
+   ]
+  },
+  "r5": {
+   "titulo": "Pedir perdón cada vez que pones un límite no es educación, es MIEDO:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3",
+   "gancho": [
+    15
+   ]
+  }
+ }
+}

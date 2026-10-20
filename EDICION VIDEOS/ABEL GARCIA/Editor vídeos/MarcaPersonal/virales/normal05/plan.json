@@ -1,0 +1,49 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  19,
+  20,
+  21,
+  24,
+  29,
+  36
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Es imposible que fracases cambiando tu vida, lo que haces es RENDIRTE:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "gancho": [
+    2
+   ]
+  },
+  "r2": {
+   "titulo": "Nadie fracasa en su cambio, se avergüenza y lo deja a MEDIAS:",
+   "musica": "EMOCIONAL/Tony Ann - ICARUS _ EPIC Orchestral Version.mp3",
+   "gancho": [
+    4
+   ]
+  },
+  "r3": {
+   "titulo": "No has fracasado, lo has dejado porque te importa más lo que PIENSEN:",
+   "musica": "ÉPICA/Caleb Bryant - Imperius (instrumental) [ slowed ].mp3",
+   "gancho": [
+    9
+   ]
+  },
+  "r4": {
+   "titulo": "Si lo dejas por el qué dirán, no quieres cambiar, quieres caer BIEN:",
+   "musica": "EMOCIONAL/Outro - M83 only the best part.mp3",
+   "gancho": [
+    14
+   ]
+  },
+  "r5": {
+   "titulo": "La mayoría lo deja justo antes de que empiece a FUNCIONAR:",
+   "musica": "ÉPICA/Don't tell your dreams - LOVIXX, STOSLIV.mp3",
+   "gancho": [
+    17
+   ]
+  }
+ },
+ "corrige": []
+}

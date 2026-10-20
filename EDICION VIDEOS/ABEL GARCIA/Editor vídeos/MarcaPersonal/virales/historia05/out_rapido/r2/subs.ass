@@ -1,0 +1,68 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Montserrat Medium,64,&H00FFFFFF,&H00FFFFFF,&H70000000,&H80000000,0,0,0,0,100,100,0,0,1,3,2,5,0,0,0,1
+Style: B,Montserrat ExtraBold,80,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.01,0:00:00.71,B,,0,0,0,,{\pos(540,1415)}La versión de ti
+Dialogue: 0,0:00:00.71,0:00:01.77,B,,0,0,0,,{\pos(540,1415)}que se quiere no vive
+Dialogue: 0,0:00:01.77,0:00:02.13,B,,0,0,0,,{\pos(540,1415)}como tú
+Dialogue: 0,0:00:02.13,0:00:03.25,B,,0,0,0,,{\pos(540,1415)}Imagínate que tienes delante
+Dialogue: 0,0:00:03.25,0:00:04.16,B,,0,0,0,,{\pos(540,1415)}de ti la persona
+Dialogue: 0,0:00:04.16,0:00:04.92,B,,0,0,0,,{\pos(540,1415)}que tú quieres ser
+Dialogue: 0,0:00:04.92,0:00:05.54,B,,0,0,0,,{\pos(540,1415)}en el futuro
+Dialogue: 0,0:00:05.54,0:00:06.30,B,,0,0,0,,{\pos(540,1415)}que ya se quiere
+Dialogue: 0,0:00:06.30,0:00:07.50,B,,0,0,0,,{\pos(540,1415)}que es tu mejor versión
+Dialogue: 0,0:00:07.50,0:00:08.21,B,,0,0,0,,{\pos(540,1415)}y a partir de ahí
+Dialogue: 0,0:00:08.21,0:00:09.04,B,,0,0,0,,{\pos(540,1415)}contesta estas cinco
+Dialogue: 0,0:00:09.04,0:00:09.73,B,,0,0,0,,{\pos(540,1415)}preguntas
+Dialogue: 0,0:00:09.73,0:00:10.58,B,,0,0,0,,{\pos(540,1415)}Pregunta 1
+Dialogue: 0,0:00:10.58,0:00:11.98,B,,0,0,0,,{\pos(540,1415)}¿Cuánto gana en un año?
+Dialogue: 0,0:00:11.98,0:00:13.24,B,,0,0,0,,{\pos(540,1415)}Pon la cifra exacta
+Dialogue: 0,0:00:13.24,0:00:14.13,B,,0,0,0,,{\pos(540,1415)}no te quedes corto
+Dialogue: 0,0:00:14.13,0:00:15.01,B,,0,0,0,,{\pos(540,1415)}Pregunta número 2
+Dialogue: 0,0:00:15.01,0:00:15.78,B,,0,0,0,,{\pos(540,1415)}¿Cómo se viste?
+Dialogue: 0,0:00:15.78,0:00:16.80,B,,0,0,0,,{\pos(540,1415)}¿Qué colores lleva?
+Dialogue: 0,0:00:16.80,0:00:17.58,B,,0,0,0,,{\pos(540,1415)}Y sobre todo
+Dialogue: 0,0:00:17.58,0:00:18.31,B,,0,0,0,,{\pos(540,1415)}¿cómo se mueve?
+Dialogue: 0,0:00:18.31,0:00:19.70,B,,0,0,0,,{\pos(540,1415)}Pregunta número 3
+Dialogue: 0,0:00:19.70,0:00:20.90,B,,0,0,0,,{\pos(540,1415)}¿Dónde vive?
+Dialogue: 0,0:00:20.90,0:00:21.94,B,,0,0,0,,{\pos(540,1415)}Y quiero que lo describas
+Dialogue: 0,0:00:21.94,0:00:23.34,B,,0,0,0,,{\pos(540,1415)}con todo lujo de detalles
+Dialogue: 0,0:00:23.34,0:00:24.76,B,,0,0,0,,{\pos(540,1415)}Pregunta número 4
+Dialogue: 0,0:00:24.76,0:00:25.50,B,,0,0,0,,{\pos(540,1415)}¿De qué habla?
+Dialogue: 0,0:00:25.50,0:00:26.20,B,,0,0,0,,{\pos(540,1415)}De viajes
+Dialogue: 0,0:00:26.20,0:00:26.92,B,,0,0,0,,{\pos(540,1415)}de negocios
+Dialogue: 0,0:00:26.92,0:00:27.95,B,,0,0,0,,{\pos(540,1415)}de nuevos proyectos
+Dialogue: 0,0:00:27.95,0:00:29.06,B,,0,0,0,,{\pos(540,1415)}de nuevas ilusiones
+Dialogue: 0,0:00:29.06,0:00:30.28,B,,0,0,0,,{\pos(540,1415)}Y pregunta número 5
+Dialogue: 0,0:00:30.28,0:00:31.40,B,,0,0,0,,{\pos(540,1415)}y la más importante
+Dialogue: 0,0:00:31.40,0:00:32.80,B,,0,0,0,,{\pos(540,1415)}¿Cómo reacciona cuando algo
+Dialogue: 0,0:00:32.80,0:00:33.66,B,,0,0,0,,{\pos(540,1415)}le sale mal?
+Dialogue: 0,0:00:33.66,0:00:35.02,B,,0,0,0,,{\pos(540,1415)}Se hunde o sabe dentro
+Dialogue: 0,0:00:35.02,0:00:35.67,B,,0,0,0,,{\pos(540,1415)}de sí que lo va
+Dialogue: 0,0:00:35.67,0:00:36.64,B,,0,0,0,,{\pos(540,1415)}a arreglar cueste
+Dialogue: 0,0:00:36.64,0:00:37.46,B,,0,0,0,,{\pos(540,1415)}lo que cueste y pase
+Dialogue: 0,0:00:37.46,0:00:37.88,B,,0,0,0,,{\pos(540,1415)}lo que pase
+Dialogue: 0,0:00:37.88,0:00:39.31,B,,0,0,0,,{\pos(540,1415)}Y ahora lo más importante
+Dialogue: 0,0:00:39.31,0:00:40.35,B,,0,0,0,,{\pos(540,1415)}vive tu vida como si
+Dialogue: 0,0:00:40.35,0:00:41.97,B,,0,0,0,,{\pos(540,1415)}esas cinco preguntas ya
+Dialogue: 0,0:00:41.97,0:00:43.47,B,,0,0,0,,{\pos(540,1415)}estuvieran realizadas y ya
+Dialogue: 0,0:00:43.47,0:00:44.06,B,,0,0,0,,{\pos(540,1415)}fueran verdad
+Dialogue: 0,0:00:44.06,0:00:45.04,B,,0,0,0,,{\pos(540,1415)}En cómo te hablas
+Dialogue: 0,0:00:45.04,0:00:45.98,B,,0,0,0,,{\pos(540,1415)}en lo que decides
+Dialogue: 0,0:00:45.98,0:00:46.90,B,,0,0,0,,{\pos(540,1415)}en qué haces
+Dialogue: 0,0:00:46.90,0:00:47.81,B,,0,0,0,,{\pos(540,1415)}en qué te centras
+Dialogue: 0,0:00:47.81,0:00:48.73,B,,0,0,0,,{\pos(540,1415)}Me suda los huevos
+Dialogue: 0,0:00:48.73,0:00:49.48,B,,0,0,0,,{\pos(540,1415)}que tu vida de hoy
+Dialogue: 0,0:00:49.48,0:00:50.49,B,,0,0,0,,{\pos(540,1415)}sea otra completamente
+Dialogue: 0,0:00:50.49,0:00:51.05,B,,0,0,0,,{\pos(540,1415)}diferente
+Dialogue: 0,0:00:51.05,0:00:52.20,B,,0,0,0,,{\pos(540,1415)}Hazlo durante un mes
+Dialogue: 0,0:00:52.20,0:00:53.14,B,,0,0,0,,{\pos(540,1415)}Y mira lo que pasa

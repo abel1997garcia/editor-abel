@@ -1,0 +1,45 @@
+[
+ {
+  "foto": "herramientas/carruseles/fotogramas/grabando_empezar_desde_0.png",
+  "grande": "Cómo subir tu energía (y tu autoestima con ella)",
+  "peque": []
+ },
+ {
+  "arriba": "MarcaPersonal/FOTOS MIAS/02-antes-de-despertar/abel_21_anos_retrato_oscuro_2018-07.jpg",
+  "txt_arriba": "Si hay días en los que te sientes vacío y no sabes por qué…",
+  "abajo": "herramientas/carruseles/fotogramas/llorando_australia.png",
+  "txt_abajo": "Siéntelo"
+ },
+ {
+  "arriba": "MarcaPersonal/FOTOS MIAS/01b-adolescencia/abel_15_anos_solo_en_un_restaurante.jpg",
+  "txt_arriba": "Si te pasas el día dándole vueltas a lo que hiciste mal…",
+  "abajo": "MarcaPersonal/FOTOS MIAS/01b-adolescencia/abel_17_anos_en_el_desfiladero_del_cares.jpg",
+  "txt_abajo": "Desconecta"
+ },
+ {
+  "arriba": "MarcaPersonal/FOTOS MIAS/10-segundo-fondo-y-sanacion/abel_segundo_fondo_mal_estado_fisico.jpg",
+  "txt_arriba": "Si hay días en los que no tienes ganas ni de levantarte…",
+  "abajo": "MarcaPersonal/FOTOS MIAS/11-ahora/abel_gimnasio.jpg",
+  "txt_abajo": "Muévete"
+ },
+ {
+  "arriba": "MarcaPersonal/FOTOS MIAS/02-antes-de-despertar/oficina_primer_trabajo_tras_la_carrera.png",
+  "txt_arriba": "Si cada día vas a un sitio que te apaga por dentro…",
+  "abajo": "MarcaPersonal/FOTOS MIAS/09-sudeste-asiatico/abel_mochila_viajando_solo_asia.jpg",
+  "txt_abajo": "Elige dónde estás"
+ },
+ {
+  "arriba": "MarcaPersonal/FOTOS MIAS/02-antes-de-despertar/abel_19_anos_mirando_hacia_abajo.jpg",
+  "txt_arriba": "Si tu cabeza no para de decirte que no vales…",
+  "abajo": "MarcaPersonal/FOTOS MIAS/08-australia/abel_leyendo_sudadera_azul_primera_casa.png",
+  "txt_abajo": "Lee"
+ },
+ {
+  "foto": "MarcaPersonal/FOTOS MIAS/11-ahora/abel_pizarra_ego_emocion.jpg",
+  "grande": "Tu energía = tu autoestima.",
+  "peque": [
+   "Cada cosa que haces en tu día la sube o la baja.",
+   "Y cuando la subes, dejas de buscar fuera lo que ya eres."
+  ]
+ }
+]

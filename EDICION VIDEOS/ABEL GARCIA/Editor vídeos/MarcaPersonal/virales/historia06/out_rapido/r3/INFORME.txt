@@ -1,0 +1,5 @@
+##### r3 · 55.0 s · 17 trozos
+huecos > 0,10 s (onda): [(38.24, 38.38)]
+· reel entero insert: esperado «» · se oye «euros»
+· reel entero replace: esperado «fuera,» · se oye «afuera.»
+· reel entero delete: esperado «o» · se oye «»

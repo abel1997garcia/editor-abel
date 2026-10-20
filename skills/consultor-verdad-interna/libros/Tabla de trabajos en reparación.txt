@@ -1,0 +1,132 @@
+                                   Proyecto Sentido
+
+                         Tabla de trabajos de reparación
+
+  Profesión u oficio     Lo que busca o se intenta reparar con respecto a su clan
+
+Abogado                  Injusticias
+Actor                    La falta de alegría; revivir a un muerto.
+Administrador            Dinero perdido.
+Agente de seguros        Dinero perdido.
+Agente de viajes         Huir o escapar.
+Agricultor               Unir amorosamente por medio de la comida que siembra y cosecha; hambrunas en el clan.
+Albañil                  Dar un refugio; dramas relacionados a la ausencia de hogar.
+Antropólogo              Descubrir los secretos.
+Archivista               Descubrir los secretos.
+Arquitecto               Dar un refugio; dramas relacionados a la ausencia de hogar.
+Asistente social         Abandono de niños por parte de la madre.
+Azafata                  Huir o escapar del clan.
+Banquero                 Dinero perdido.
+Bibliotecario            Descubrir los secretos.
+Bioquímico               Descubrir los secretos.
+Buzo de salvación        Rescatar, encontrar a un desaparecido o revivir a un muerto.
+Cajero                   Dinero perdido.
+Cantante                 La falta de alegría.
+Capitán de barco         Huir, escapar.
+Catequista               Limpiar las aberraciones, la maldad o los pecados.
+Chef                     Unir amorosamente través de la comida; unir a la familia en la mesa.
+Chofer de ambulancia     Rescatar; encontrar a un desaparecido o revivir a un muerto.
+Chofer de pasajeros      Huir, escapar.
+Cirquero                 Falta de alegría.
+Coaching                 Sanar la locura y la salud mental; reparar la autoestima debido a abuso de poder.
+Cocinero                 Unir amorosamente través de la comida; unir a la familia en la mesa.
+Comediante               Falta de alegría.
+Comerciante              Robos o estafas.
+Costurero                Separaciones.
+Cronista                 Descubrir los secretos.
+Cura                     Limpiar las aberraciones, la maldad o los pecados.
+Decorador de interiores  Dar un refugio; ausencia de hogar.
+Delegado                 Falta de reconocimiento de algunos miembros; el no reconocimiento de la familia.
+
+                         www.desprogramacionevolutiva.com
+                         Proyecto Sentido
+
+Dermatólogo              La autoestima en el clan debido al abuso de poder.
+Diseñador gráfico        Obstáculos de comunicación.
+Diseño de indumentaria   La autoestima en el clan debido al abuso de poder.
+Dentista                 Reparar a la familia en general.
+Detective                Descubrir los secretos en el clan. Rescatar, encontrar a un desaparecido. Revivir a un muerto.
+Educador de niños        Reparar abusos con los niños en la familia.
+Ejército                 Busca al padre; hubo ausencia o exceso de autoridad.
+Enfermero                Busca sanar o evitar la muerte de los miembros del clan.
+Entrenador deportivo     Rescatar, encontrar a un desaparecido. Revivir a un muerto.
+Entrenador de perros     Busca el amor de las madres.
+Estilista                Reparar la autoestima debido al abuso de poder. Limpiar y maquillar las cosas sucias.
+Florista                 Busca dar alegría al clan.
+Gimnasta                 Rescatar, encontrar a un desaparecido. Revivir a un muerto.
+Historiador              Descubrir los secretos en el clan.
+Hotelería                Huir del clan, reparar temas de hambre o desunión familiar.
+Ingeniería en alimentos  Busca el amor de las madres.
+Ingeniero civil          Busca dar un refugio al clan.
+Inmobiliario             Busca dar un refugio al clan.
+Instalador de alfombras  Mejorar la imagen, limpiar, cubrir o tapar las porquerías y basuras de la familia.
+Intérprete               Las injusticias y los problemas de comunicación.
+Investigador             Descubrir los secretos en el clan.
+Juez                     Hacer justicia.
+Lavacopas/Lavaplatos     Mejorar la imagen, limpiar, cubrir o tapar las porquerías y basuras de la familia.
+Líder sindical           Falta de reconocimiento o el hecho de que no se le reconoce a la familia.
+Locución                 Obstáculos de la comunicación.
+Maquillista              Reparar la autoestima en el clan debido al abuso de poder.
+Matemático               Busca al padre.
+Mecánico                 Reparar a la familia en general.
+Médico                   Sanar o evitar la muerte.
+Médico forense           Rescatar, encontrar a un desaparecido o revivir a un muerto.
+Mesero                   Unir al clan a través del amor. Unir a la familia en la mesa.
+Ministerio público       Hacer justicia.
+Misionero                Limpiar las aberraciones, la maldad o los pecados.
+Modelaje                 Reparar la autoestima en el clan debido al abuso de poder.
+
+                         www.desprogramacionevolutiva.com
+                                  Proyecto Sentido
+
+Monja                             Limpiar las aberraciones, la maldad o los pecados.
+Músico                            Busca dar alegría al clan.
+Neurólogo                         Sanar la locura y la salud mental.
+Niñera                            Reparar abusos con los niños.
+Notario                           El dinero perdido.
+Nutricionista                     Busca el amor de las madres del clan.
+Panadero                          Busca unir a través del amor. Unir a la familia en la mesa.
+Payaso                            Busca dar alegría al clan.
+Pediatría                         Abusos de los niños en el clan o el abandono de estos por su madre.
+Peinadora                         La autoestima debido al abuso de poder; limpiar y maquillar las cosas sucias del clan.
+Personal de cruceros              Huir, escapar del clan.
+Personal de lavandería            Mejorar la imagen, limpiar, cubrir o tapar las porquerías y basuras.
+Personal de limpieza              Mejorar la imagen, limpiar, cubrir o tapar las porquerías y basuras.
+Personal de tintorería            Mejorar la imagen, limpiar, cubrir o tapar las porquerías y basuras.
+Piloto de avión                   Huir, escapar del clan.
+Pintor                            Dar alegría al clan.
+Pintor de casas                   Dar un refugio al clan.
+Policía                           Busca al padre; hubo ausencia o exceso de autoridad.
+Político                          Falta de reconocimiento de algunos miembros o no se le reconoce a la familia.
+Profesor                          La educación de niños; en el clan hubo integrantes que no pudieron ir a la escuela o
+                                  alcanzaron un nivel muy básico de escolaridad.
+Primeros auxilios                 Rescatar, encontrar a un desaparecido o revivir a un muerto.
+Psicólogo                         Descubrir los secretos del clan; reparar los problemas con la madre. La salud mental.
+Psiquiatría                       Sanar la locura y la salud mental.
+Publicista                        Los obstáculos de comunicación.
+Químico                           Busca a la madre.
+Relaciones públicas               Los obstáculos de comunicación.
+Reparación de aparatos y equipos  Reparar a la familia en general.
+Repostero                         Unir al clan a través del amor. Unir a la familia en la mesa.
+Rescatista                        Rescatar, encontrar a un desaparecido o revivir a un muerto.
+Sastre                            Las separaciones.
+Secretaria                        Descubrir los secretos.
+Senador                           La falta de reconocimiento de algunos miembros, o no se le reconoce a la familia.
+Tapicero                          Mejorar la imagen, limpiar, cubrir o tapar las porquerías y basuras.
+
+                                  www.desprogramacionevolutiva.com
+                          Proyecto Sentido
+
+Técnico mecánico          Reparar a la familia en general.
+Telefonista               Los obstáculos de comunicación.
+Terapeuta/Terapista       Sanar la locura y la salud mental. Sanar o evitar la muerte.
+Trabajar con maquinaria   Reparar a la familia en general.
+Trabajar con herramienta  Reparar a la familia en general.
+Trabajo en laboratorio    Descubrir los secretos en el clan.
+Traductor                 Las injusticias; los problemas de comunicación.
+Turismo                   Huir o escapar del clan.
+Veterinario               Busca el amor de las madres, reparar la ausencia de amor materno.
+Voluntario social         Limpiar las aberraciones, la maldad o los pecados.
+
+                          www.desprogramacionevolutiva.com
+

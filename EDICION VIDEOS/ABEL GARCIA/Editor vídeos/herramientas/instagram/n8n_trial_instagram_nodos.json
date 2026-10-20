@@ -1,0 +1,174 @@
+{
+ "nodes": [
+  {
+   "parameters": {
+    "method": "POST",
+    "authentication": "genericCredentialType",
+    "genericAuthType": "httpHeaderAuth",
+    "options": {},
+    "url": "https://graph.instagram.com/v23.0/me/media",
+    "sendBody": true,
+    "specifyBody": "json",
+    "jsonBody": "={{ JSON.stringify({ media_type: 'REELS', upload_type: 'resumable', caption: $('Webhook').item.json.body.titulo + '\n\n' + $('Webhook').item.json.body.descripcion, trial_params: { graduation_strategy: 'MANUAL' } }) }}"
+   },
+   "name": "Crear contenedor (trial)",
+   "type": "n8n-nodes-base.httpRequest",
+   "typeVersion": 4.2,
+   "position": [
+    500,
+    700
+   ]
+  },
+  {
+   "parameters": {
+    "jsCode": "// el vídeo que llegó al Webhook, junto a la respuesta del contenedor (id y uri de subida)\nreturn [{ json: $json, binary: $('Webhook').first().binary }];"
+   },
+   "name": "Juntar vídeo",
+   "type": "n8n-nodes-base.code",
+   "typeVersion": 2,
+   "position": [
+    720,
+    700
+   ]
+  },
+  {
+   "parameters": {
+    "method": "POST",
+    "authentication": "genericCredentialType",
+    "genericAuthType": "httpHeaderAuth",
+    "options": {},
+    "url": "={{ $json.uri }}",
+    "sendHeaders": true,
+    "headerParameters": {
+     "parameters": [
+      {
+       "name": "offset",
+       "value": "0"
+      },
+      {
+       "name": "file_size",
+       "value": "={{ $('Webhook').item.json.body.file_size }}"
+      }
+     ]
+    },
+    "sendBody": true,
+    "contentType": "binaryData",
+    "inputDataFieldName": "video0"
+   },
+   "name": "Subir vídeo",
+   "type": "n8n-nodes-base.httpRequest",
+   "typeVersion": 4.2,
+   "position": [
+    940,
+    700
+   ]
+  },
+  {
+   "parameters": {
+    "respondWith": "json",
+    "responseBody": "={ \"ok\": true, \"id\": \"{{ $('Crear contenedor (trial)').item.json.id }}\" }",
+    "options": {}
+   },
+   "name": "Responder Instagram",
+   "type": "n8n-nodes-base.respondToWebhook",
+   "typeVersion": 1.1,
+   "position": [
+    1160,
+    700
+   ]
+  },
+  {
+   "parameters": {
+    "resume": "specificTime",
+    "dateTime": "={{ $('Webhook').item.json.body.publicar_en }}"
+   },
+   "name": "Esperar a la hora",
+   "type": "n8n-nodes-base.wait",
+   "typeVersion": 1.1,
+   "position": [
+    1380,
+    700
+   ],
+   "webhookId": "espera-trial-ig"
+  },
+  {
+   "parameters": {
+    "method": "POST",
+    "authentication": "genericCredentialType",
+    "genericAuthType": "httpHeaderAuth",
+    "options": {},
+    "url": "https://graph.instagram.com/v23.0/me/media_publish",
+    "sendBody": true,
+    "specifyBody": "json",
+    "jsonBody": "={{ JSON.stringify({ creation_id: $('Crear contenedor (trial)').item.json.id }) }}"
+   },
+   "name": "Publicar en Instagram",
+   "type": "n8n-nodes-base.httpRequest",
+   "typeVersion": 4.2,
+   "position": [
+    1600,
+    700
+   ],
+   "retryOnFail": true,
+   "maxTries": 5,
+   "waitBetweenTries": 5000
+  }
+ ],
+ "connections": {
+  "Crear contenedor (trial)": {
+   "main": [
+    [
+     {
+      "node": "Juntar vídeo",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Juntar vídeo": {
+   "main": [
+    [
+     {
+      "node": "Subir vídeo",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Subir vídeo": {
+   "main": [
+    [
+     {
+      "node": "Responder Instagram",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Responder Instagram": {
+   "main": [
+    [
+     {
+      "node": "Esperar a la hora",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  },
+  "Esperar a la hora": {
+   "main": [
+    [
+     {
+      "node": "Publicar en Instagram",
+      "type": "main",
+      "index": 0
+     }
+    ]
+   ]
+  }
+ }
+}

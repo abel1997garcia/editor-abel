@@ -1,0 +1,4 @@
+##### r5 · 69.7 s · 27 trozos
+huecos > 0,10 s (onda): [(31.35, 31.470000000000002)]
+✗  37.37s unión con 0.10 s de silencio (islas 44→47)
+· reel entero replace: esperado «manda» · se oye «mandas»

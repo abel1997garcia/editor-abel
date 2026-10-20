@@ -95,6 +95,42 @@ El usuario pidió apuntar fallos y correcciones. Edición de historia allan medi
    silencio («antiguo nos lo llevamos»), no cortar ahí: incluir la frase anterior completa. La pasada por tramos de
    Whisper a veces «repite» frases al final de un tramo: confirmar con oir.py antes de tocar nada (eran invenciones).
 
+23. (sigue, 2026-10-17) Aparecieron «eh» DENTRO de palabras estiradas (aviso «palabra sospechosa» de 1,7-1,9 s): la
+   palabra real arranca mucho después; buscar_inicio no encuentra arranque limpio -> mirar energía y fijar ini_fijo en el
+   silencio justo antes de la palabra. Repeticiones de énfasis («pero siempre, siempre») y risas que suenan a «sí»
+   también asoman en los empalmes: se detectan escuchando TODOS los empalmes. buscar_inicio/fin puede dar tiempos
+   incoherentes (>1 s de la alineación): confirmar siempre con oir.py en trocitos del original. onda.py necesita
+   PYTHONIOENCODING=utf-8 en Windows. Una pausa dramática de 0,56 s dentro de una frase se acepta y se explica.
+
+24. (2026-10-17, feedback) En reels anteriores se colaban «eh» repetidos: revisaba sobre el MP4 renderizado.
+   Ahora se revisa primero la voz sola con espectrograma ([[audio-primero]]).
+
+25. (sigue_01, 17/10/2026) **El AUDIO se iba adelantando respecto a la imagen** (−8, −28, −45… hasta ~−50 ms,
+   1,5 fotogramas) y medir_sync.py no lo veía porque solo mide la IMAGEN. Causa: el audio de cada trozo .mkv salía
+   unos ms más corto que su imagen y al juntar + loudnorm los huecos se cerraban. Corrección: la pista del mp4 es
+   ahora la voz aprobada (voz.wav, exacta: +1 ms en cada trozo), y nueva comprobación
+   `herramientas/medir_sync_audio.py reels/<n>.mp4` (todo ~1 ms). Probablemente afectó a reels anteriores.
+26. (sigue_01) «siempre» cortado por un fin_max en el silencio de la «p» (ver [[cortes-palabras-obligatorio]]):
+   nuevo `fin_fijo` y aviso «PALABRA CORTADA».
+
+27. (sigue_02-04, 17/10/2026, con el método voz primero) Lo que se coló en reels «ya entregados»: repeticiones
+   («y me quedo… me quedo impresionado», «la mayoría, la mayoría»), tartamudeo («¿qué es esto? Pa… ¿para qué ha
+   sucedido?»), frase redundante («¿para qué es así?»), autocorrección («aunque parezcan, sean muy parecidas»),
+   cuatro «¿no?», un «eh», la cola de «por ejemplo» delante del gancho, el «cu-» de «cuando» comido, y vocales
+   alargadas cortadas en seco. Whisper OMITE autocorrecciones y repeticiones en la transcripción larga, así que
+   la alineación las reparte entre palabras vecinas: solo salen escuchando la voz montada entera
+   (`oir_voz_entera.py`) y con `voz_sin_palabra.py --oir`.
+28. `ini_fijo` suma +0,03 y redondea HACIA DELANTE al fotograma (hasta +0,063 s): poner ini_fijo ≈ arranque − 0,07,
+   si no se come la primera letra («le da» -> «da»). Un «¿no?» pegado sin silencio a la palabra siguiente no se
+   puede separar limpio: quitar esa frase y compensar con otra de la misma idea.
+29. Whisper INVENTA al principio de un archivo («Por ejemplo», «Pero» delante de «cuando») y al final de una
+   ventana cortada («¿para qué es así?», «en mi vida»): confirmar en el ORIGINAL con varios arranques/duraciones.
+30. Reel corto (< 50 s): alargar con frases de la MISMA idea y conectores naturales («Entonces,»), no con relleno.
+
 **Why:** son errores que ya le costaron revisiones al usuario.
 **How to apply:** antes de entregar: medir_sync.py (todo 0), comprobar_reel.py, y revisar avisos de ráfaga y la lista
 de cortes. Ver [[estilo-reel-franjas-azules]] y [[proceso-reels-allan]].
+
+**Ver la pista de audio (Abel 13/10/2026):** en los reels de Allan NO se aplica el ritmo rápido de Abel («quizá hacerlos tan rápidos para su mensaje no sea lo mejor»). Sí se usa la vista de la forma de onda para perfilar los cortes:
+- `python herramientas/onda.py --hueco 0.55 --final 0.4 reels/<reel>.mp4`, y se mira la imagen antes de entregar.
+- En un reel ya publicado marcaba 5 huecos de 0,59-0,91 s.

@@ -1,0 +1,71 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Montserrat Medium,64,&H00FFFFFF,&H00FFFFFF,&H70000000,&H80000000,0,0,0,0,100,100,0,0,1,3,2,5,0,0,0,1
+Style: B,Montserrat ExtraBold,80,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.01,0:00:01.66,B,,0,0,0,,{\pos(540,1415)}Llevas meses cambiando de idea
+Dialogue: 0,0:00:01.66,0:00:02.38,B,,0,0,0,,{\pos(540,1415)}y luego dices que no
+Dialogue: 0,0:00:02.38,0:00:02.97,B,,0,0,0,,{\pos(540,1415)}te llega nada
+Dialogue: 0,0:00:02.97,0:00:03.40,B,,0,0,0,,{\pos(540,1415)}Lo que quieres
+Dialogue: 0,0:00:03.40,0:00:04.13,B,,0,0,0,,{\pos(540,1415)}para tu vida es como
+Dialogue: 0,0:00:04.13,0:00:05.37,B,,0,0,0,,{\pos(540,1415)}si hicieras un pedido online
+Dialogue: 0,0:00:05.37,0:00:05.96,B,,0,0,0,,{\pos(540,1415)}Lo has pagado
+Dialogue: 0,0:00:05.96,0:00:06.83,B,,0,0,0,,{\pos(540,1415)}todavía no lo tienes
+Dialogue: 0,0:00:06.83,0:00:07.33,B,,0,0,0,,{\pos(540,1415)}en la mano
+Dialogue: 0,0:00:07.33,0:00:08.75,B,,0,0,0,,{\pos(540,1415)}pero sabes que existe
+Dialogue: 0,0:00:08.75,0:00:09.71,B,,0,0,0,,{\pos(540,1415)}y que está en camino
+Dialogue: 0,0:00:09.71,0:00:10.41,B,,0,0,0,,{\pos(540,1415)}¿No te pasas el día
+Dialogue: 0,0:00:10.41,0:00:12.01,B,,0,0,0,,{\pos(540,1415)}en la ventana súper preocupado
+Dialogue: 0,0:00:12.01,0:00:12.68,B,,0,0,0,,{\pos(540,1415)}que si puse bien
+Dialogue: 0,0:00:12.68,0:00:14.07,B,,0,0,0,,{\pos(540,1415)}la dirección lo habrán
+Dialogue: 0,0:00:14.07,0:00:15.33,B,,0,0,0,,{\pos(540,1415)}entendido lo que yo quiero?
+Dialogue: 0,0:00:15.33,0:00:16.53,B,,0,0,0,,{\pos(540,1415)}¿Realmente me va a llegar?
+Dialogue: 0,0:00:16.53,0:00:17.48,B,,0,0,0,,{\pos(540,1415)}Haces el pedido
+Dialogue: 0,0:00:17.48,0:00:18.43,B,,0,0,0,,{\pos(540,1415)}sabes que va a llegar
+Dialogue: 0,0:00:18.43,0:00:19.84,B,,0,0,0,,{\pos(540,1415)}y entonces coges y tranquilo
+Dialogue: 0,0:00:19.84,0:00:20.69,B,,0,0,0,,{\pos(540,1415)}sigues con tu vida
+Dialogue: 0,0:00:20.69,0:00:21.48,B,,0,0,0,,{\pos(540,1415)}Con lo que quieres pasa
+Dialogue: 0,0:00:21.48,0:00:21.95,B,,0,0,0,,{\pos(540,1415)}igual
+Dialogue: 0,0:00:21.95,0:00:22.93,B,,0,0,0,,{\pos(540,1415)}Decides quererte
+Dialogue: 0,0:00:22.93,0:00:24.11,B,,0,0,0,,{\pos(540,1415)}empezar lo tuyo
+Dialogue: 0,0:00:24.11,0:00:25.15,B,,0,0,0,,{\pos(540,1415)}empiezas a emprender
+Dialogue: 0,0:00:25.15,0:00:26.21,B,,0,0,0,,{\pos(540,1415)}empiezas a tomar acción
+Dialogue: 0,0:00:26.21,0:00:26.99,B,,0,0,0,,{\pos(540,1415)}Y sigues con tu vida
+Dialogue: 0,0:00:26.99,0:00:28.24,B,,0,0,0,,{\pos(540,1415)}tranquilo sabiendo que eso
+Dialogue: 0,0:00:28.24,0:00:28.92,B,,0,0,0,,{\pos(540,1415)}viene en camino
+Dialogue: 0,0:00:28.92,0:00:30.29,B,,0,0,0,,{\pos(540,1415)}Ahora imagínate tú con tus
+Dialogue: 0,0:00:30.29,0:00:31.65,B,,0,0,0,,{\pos(540,1415)}dudas que llega el repartidor
+Dialogue: 0,0:00:31.65,0:00:32.25,B,,0,0,0,,{\pos(540,1415)}y te dice
+Dialogue: 0,0:00:32.25,0:00:32.79,B,,0,0,0,,{\pos(540,1415)}No bueno
+Dialogue: 0,0:00:32.79,0:00:33.62,B,,0,0,0,,{\pos(540,1415)}es que no
+Dialogue: 0,0:00:33.62,0:00:34.56,B,,0,0,0,,{\pos(540,1415)}porque no lo merezco
+Dialogue: 0,0:00:34.56,0:00:34.78,B,,0,0,0,,{\pos(540,1415)}Bueno
+Dialogue: 0,0:00:34.78,0:00:35.49,B,,0,0,0,,{\pos(540,1415)}quédatelo
+Dialogue: 0,0:00:35.49,0:00:35.68,B,,0,0,0,,{\pos(540,1415)}Bueno
+Dialogue: 0,0:00:35.68,0:00:36.32,B,,0,0,0,,{\pos(540,1415)}mejor sí
+Dialogue: 0,0:00:36.32,0:00:36.87,B,,0,0,0,,{\pos(540,1415)}Hoy no
+Dialogue: 0,0:00:36.87,0:00:37.77,B,,0,0,0,,{\pos(540,1415)}porque no tengo tiempo
+Dialogue: 0,0:00:37.77,0:00:39.48,B,,0,0,0,,{\pos(540,1415)}El repartidor siempre te va
+Dialogue: 0,0:00:39.48,0:00:40.50,B,,0,0,0,,{\pos(540,1415)}a hacer caso en todo
+Dialogue: 0,0:00:40.50,0:00:41.49,B,,0,0,0,,{\pos(540,1415)}y por eso nunca va
+Dialogue: 0,0:00:41.49,0:00:41.93,B,,0,0,0,,{\pos(540,1415)}a llegar
+Dialogue: 0,0:00:41.93,0:00:42.74,B,,0,0,0,,{\pos(540,1415)}Así que decide estar
+Dialogue: 0,0:00:42.74,0:00:43.27,B,,0,0,0,,{\pos(540,1415)}tranquilo
+Dialogue: 0,0:00:43.27,0:00:44.51,B,,0,0,0,,{\pos(540,1415)}deja de mandar mensajes
+Dialogue: 0,0:00:44.51,0:00:45.27,B,,0,0,0,,{\pos(540,1415)}preocupado
+Dialogue: 0,0:00:45.27,0:00:46.20,B,,0,0,0,,{\pos(540,1415)}buscando siempre
+Dialogue: 0,0:00:46.20,0:00:46.97,B,,0,0,0,,{\pos(540,1415)}la confirmación
+Dialogue: 0,0:00:46.97,0:00:47.60,B,,0,0,0,,{\pos(540,1415)}Porque cuando estás
+Dialogue: 0,0:00:47.60,0:00:48.68,B,,0,0,0,,{\pos(540,1415)}completamente seguro
+Dialogue: 0,0:00:48.68,0:00:49.03,B,,0,0,0,,{\pos(540,1415)}de que eso va
+Dialogue: 0,0:00:49.03,0:00:49.46,B,,0,0,0,,{\pos(540,1415)}a llegar
+Dialogue: 0,0:00:49.46,0:00:49.91,B,,0,0,0,,{\pos(540,1415)}Llega
+Dialogue: 0,0:00:49.91,0:00:50.75,B,,0,0,0,,{\pos(540,1415)}Pero no tengas miedo

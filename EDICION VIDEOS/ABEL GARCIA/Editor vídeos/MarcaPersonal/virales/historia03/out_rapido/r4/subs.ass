@@ -1,0 +1,78 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Montserrat Medium,64,&H00FFFFFF,&H00FFFFFF,&H70000000,&H80000000,0,0,0,0,100,100,0,0,1,3,2,5,0,0,0,1
+Style: B,Montserrat ExtraBold,80,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.02,0:00:00.89,B,,0,0,0,,{\pos(540,1415)}Si miras el móvil cada
+Dialogue: 0,0:00:00.89,0:00:01.75,B,,0,0,0,,{\pos(540,1415)}5 minutos esperando
+Dialogue: 0,0:00:01.75,0:00:02.48,B,,0,0,0,,{\pos(540,1415)}su mensaje
+Dialogue: 0,0:00:02.48,0:00:03.24,B,,0,0,0,,{\pos(540,1415)}por eso no llega
+Dialogue: 0,0:00:03.24,0:00:04.27,B,,0,0,0,,{\pos(540,1415)}Cuando dices o piensas
+Dialogue: 0,0:00:04.27,0:00:05.79,B,,0,0,0,,{\pos(540,1415)}necesito que me quieran
+Dialogue: 0,0:00:05.79,0:00:06.97,B,,0,0,0,,{\pos(540,1415)}tu cabeza automáticamente está
+Dialogue: 0,0:00:06.97,0:00:08.34,B,,0,0,0,,{\pos(540,1415)}poniendo el foco en todo
+Dialogue: 0,0:00:08.34,0:00:08.98,B,,0,0,0,,{\pos(540,1415)}lo que le falta
+Dialogue: 0,0:00:08.98,0:00:09.50,B,,0,0,0,,{\pos(540,1415)}Y no puedes tener
+Dialogue: 0,0:00:09.50,0:00:10.15,B,,0,0,0,,{\pos(540,1415)}lo que quieres
+Dialogue: 0,0:00:10.15,0:00:11.23,B,,0,0,0,,{\pos(540,1415)}Tienes lo que crees
+Dialogue: 0,0:00:11.23,0:00:11.94,B,,0,0,0,,{\pos(540,1415)}que mereces
+Dialogue: 0,0:00:11.94,0:00:12.75,B,,0,0,0,,{\pos(540,1415)}Fulano se pasa todo
+Dialogue: 0,0:00:12.75,0:00:13.70,B,,0,0,0,,{\pos(540,1415)}el día persiguiendo
+Dialogue: 0,0:00:13.70,0:00:14.87,B,,0,0,0,,{\pos(540,1415)}que su pareja le escriba
+Dialogue: 0,0:00:14.87,0:00:15.59,B,,0,0,0,,{\pos(540,1415)}que su jefe le diga
+Dialogue: 0,0:00:15.59,0:00:16.33,B,,0,0,0,,{\pos(540,1415)}lo que hace bien
+Dialogue: 0,0:00:16.33,0:00:17.41,B,,0,0,0,,{\pos(540,1415)}que lo que publica tenga
+Dialogue: 0,0:00:17.41,0:00:18.33,B,,0,0,0,,{\pos(540,1415)}un montón de likes
+Dialogue: 0,0:00:18.33,0:00:19.04,B,,0,0,0,,{\pos(540,1415)}y seguidores
+Dialogue: 0,0:00:19.04,0:00:20.44,B,,0,0,0,,{\pos(540,1415)}Pero cuanto más lo persigue
+Dialogue: 0,0:00:20.44,0:00:21.23,B,,0,0,0,,{\pos(540,1415)}con ansiedad
+Dialogue: 0,0:00:21.23,0:00:22.13,B,,0,0,0,,{\pos(540,1415)}más lo aleja
+Dialogue: 0,0:00:22.13,0:00:22.97,B,,0,0,0,,{\pos(540,1415)}Es como si persiguieras
+Dialogue: 0,0:00:22.97,0:00:23.32,B,,0,0,0,,{\pos(540,1415)}un gato
+Dialogue: 0,0:00:23.32,0:00:24.03,B,,0,0,0,,{\pos(540,1415)}si corres detrás
+Dialogue: 0,0:00:24.03,0:00:25.01,B,,0,0,0,,{\pos(540,1415)}de él para cogerlo
+Dialogue: 0,0:00:25.01,0:00:25.76,B,,0,0,0,,{\pos(540,1415)}el gato se va
+Dialogue: 0,0:00:25.76,0:00:26.59,B,,0,0,0,,{\pos(540,1415)}Pero si tú te sientas
+Dialogue: 0,0:00:26.59,0:00:27.12,B,,0,0,0,,{\pos(540,1415)}tranquilo
+Dialogue: 0,0:00:27.12,0:00:28.14,B,,0,0,0,,{\pos(540,1415)}es muy probable que ese
+Dialogue: 0,0:00:28.14,0:00:28.97,B,,0,0,0,,{\pos(540,1415)}gato venga a ti
+Dialogue: 0,0:00:28.97,0:00:29.55,B,,0,0,0,,{\pos(540,1415)}sin forzarlo
+Dialogue: 0,0:00:29.55,0:00:30.39,B,,0,0,0,,{\pos(540,1415)}Así que Mengano pilló
+Dialogue: 0,0:00:30.39,0:00:31.11,B,,0,0,0,,{\pos(540,1415)}el truco
+Dialogue: 0,0:00:31.11,0:00:32.58,B,,0,0,0,,{\pos(540,1415)}no empieza por la necesidad
+Dialogue: 0,0:00:32.58,0:00:33.94,B,,0,0,0,,{\pos(540,1415)}y vive como si ya
+Dialogue: 0,0:00:33.94,0:00:34.89,B,,0,0,0,,{\pos(540,1415)}fuera suficiente
+Dialogue: 0,0:00:34.89,0:00:35.62,B,,0,0,0,,{\pos(540,1415)}Y hace lo que tiene
+Dialogue: 0,0:00:35.62,0:00:36.45,B,,0,0,0,,{\pos(540,1415)}que hacer igualmente
+Dialogue: 0,0:00:36.45,0:00:37.18,B,,0,0,0,,{\pos(540,1415)}tanto si le escriben
+Dialogue: 0,0:00:37.18,0:00:38.04,B,,0,0,0,,{\pos(540,1415)}o le dan likes
+Dialogue: 0,0:00:38.04,0:00:38.71,B,,0,0,0,,{\pos(540,1415)}No espera
+Dialogue: 0,0:00:38.71,0:00:39.48,B,,0,0,0,,{\pos(540,1415)}no se agobia
+Dialogue: 0,0:00:39.48,0:00:40.15,B,,0,0,0,,{\pos(540,1415)}no persigue
+Dialogue: 0,0:00:40.15,0:00:40.83,B,,0,0,0,,{\pos(540,1415)}no tiene ese miedo
+Dialogue: 0,0:00:40.83,0:00:41.74,B,,0,0,0,,{\pos(540,1415)}de que no suceda
+Dialogue: 0,0:00:41.74,0:00:42.65,B,,0,0,0,,{\pos(540,1415)}y como no está actuando
+Dialogue: 0,0:00:42.65,0:00:43.68,B,,0,0,0,,{\pos(540,1415)}desde la ansiedad
+Dialogue: 0,0:00:43.68,0:00:44.60,B,,0,0,0,,{\pos(540,1415)}y la necesidad
+Dialogue: 0,0:00:44.60,0:00:45.64,B,,0,0,0,,{\pos(540,1415)}Eso lo atrae
+Dialogue: 0,0:00:45.64,0:00:46.62,B,,0,0,0,,{\pos(540,1415)}Si persigues siempre
+Dialogue: 0,0:00:46.62,0:00:47.91,B,,0,0,0,,{\pos(540,1415)}con ansiedad que te quieran
+Dialogue: 0,0:00:47.91,0:00:49.08,B,,0,0,0,,{\pos(540,1415)}siempre se van a alejar
+Dialogue: 0,0:00:49.08,0:00:50.26,B,,0,0,0,,{\pos(540,1415)}Si te conviertes en alguien
+Dialogue: 0,0:00:50.26,0:00:51.12,B,,0,0,0,,{\pos(540,1415)}que ya se quiere
+Dialogue: 0,0:00:51.12,0:00:52.37,B,,0,0,0,,{\pos(540,1415)}y actúas en consecuencia
+Dialogue: 0,0:00:52.37,0:00:53.76,B,,0,0,0,,{\pos(540,1415)}Todo eso también lo vas
+Dialogue: 0,0:00:53.76,0:00:54.07,B,,0,0,0,,{\pos(540,1415)}a atraer
+Dialogue: 0,0:00:54.07,0:00:55.00,B,,0,0,0,,{\pos(540,1415)}Así que la próxima vez
+Dialogue: 0,0:00:55.00,0:00:55.88,B,,0,0,0,,{\pos(540,1415)}que estés con el móvil
+Dialogue: 0,0:00:55.88,0:00:56.75,B,,0,0,0,,{\pos(540,1415)}esperando un mensaje
+Dialogue: 0,0:00:56.75,0:00:57.71,B,,0,0,0,,{\pos(540,1415)}ponte a hacer el trabajo
+Dialogue: 0,0:00:57.71,0:00:58.64,B,,0,0,0,,{\pos(540,1415)}y olvídate de eso

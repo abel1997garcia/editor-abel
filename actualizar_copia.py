@@ -48,7 +48,7 @@ def secreto(p: Path):
 
 
 def vale(p: Path, modo):
-    if secreto(p): return False
+    if secreto(p) or p.name.endswith('.info.json'): return False   # metadatos de yt-dlp: inútiles y con cadenas que parecen claves
     try:
         if p.stat().st_size > MAX: return False
     except OSError: return False

@@ -7,7 +7,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 RAIZ = Path(__file__).resolve().parent.parent
 nombre, i, lado = sys.argv[1], int(sys.argv[2]), sys.argv[3]
 M = json.load(open(RAIZ / 'trabajo' / 'reels' / nombre / 'montaje.json', encoding='utf-8'))
-spec = json.load(open(RAIZ / 'reels' / 'specs' / f'{nombre}.json', encoding='utf-8'))
+spec = json.load(open(RAIZ / 'trabajo' / 'specs' / f'{nombre}.json', encoding='utf-8'))
 W = json.load(open(RAIZ / spec['tiempos'], encoding='utf-8'))
 sg = M['segmentos'][i]
 k = sg['palabras'][0] if lado == 'ini' else sg['palabras'][-1]

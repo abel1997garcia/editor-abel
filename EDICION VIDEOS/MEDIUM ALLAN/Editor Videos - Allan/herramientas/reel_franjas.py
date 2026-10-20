@@ -90,7 +90,7 @@ def trozos(W, lineas):
     segs = []
     for j, (k, n) in enumerate(orden):
         nuevo = (j == 0 or orden[j - 1][0] != k - 1 or (W[k]["s"] - W[k - 1]["e"]) > MAX_PAUSA
-                 or "hueco_antes" in W[k] or "ini_fijo" in W[k] or (k > 0 and "fin_max" in W[k - 1]))
+                 or "hueco_antes" in W[k] or "ini_fijo" in W[k] or (k > 0 and ("fin_max" in W[k - 1] or "fin_fijo" in W[k - 1])))
         if nuevo:
             segs.append({"palabras": [k]})
         else:
@@ -175,6 +175,24 @@ def _huecos(t0, t1, u, minimo=0.04):
     return out, ts, r
 
 
+def montar_voz(segs, video, tmp):
+    """PASO 1 (Abel 17/10/2026): SOLO la voz, con exactamente los mismos cortes y fundidos -> tmp/voz.wav.
+    Es además la pista de audio DEFINITIVA del mp4 (ver render): exacta al milisegundo en cada trozo."""
+    piezas = []
+    for i, sg in enumerate(segs):
+        d = sg["fin"] - sg["ini"]
+        f = tmp / f"voz_{i:03d}.wav"
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{max(0.0, sg['ini'] - 0.001):.4f}", "-i", video,
+                        "-t", f"{d:.4f}", "-vn", "-af",
+                        f"aresample={SR},afade=t=in:d={FUNDIDO},afade=t=out:st={max(0, d - FUNDIDO):.4f}:d={FUNDIDO}",
+                        "-ac", "2", "-c:a", "pcm_s16le", str(f)], check=True)
+        piezas.append(f"file '{f.as_posix()}'")
+    (tmp / "voz.ffconcat").write_text("ffconcat version 1.0\n" + "\n".join(piezas) + "\n", encoding="utf-8")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(tmp / "voz.ffconcat"),
+                    "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", str(SR), str(tmp / "voz.wav")], check=True)
+    return tmp / "voz.wav"
+
+
 def refinar_bordes(W, segs):
     """Coloca cada corte en el silencio REAL (energía del audio), no donde dice la alineación.
     Feedback del usuario: «a veces cortas la palabra, otras no acaba la palabra y la cortas, otras dejas demasiado
@@ -213,6 +231,8 @@ def refinar_bordes(W, segs):
             fin = min(fin, W[b]["fin_max"])
         if "fin_max" in W[b]:
             fin = min(fin, W[b]["fin_max"])
+        if "fin_fijo" in W[b]:      # final MEDIDO (energía + oído) de una palabra alargada («siempreee»): manda tal cual.
+            fin = W[b]["fin_fijo"]  # La alineación la da por acabada antes y el valle de energía caía dentro de la vocal.
         sg["fin"] = math.floor(fin * FPS + 1e-6) / FPS if math.ceil(fin * FPS - 1e-6) / FPS > fin + 0.02 else math.ceil(fin * FPS - 1e-6) / FPS
         # ---- inicio del trozo ----
         frontera = W[a]["s"]
@@ -224,6 +244,8 @@ def refinar_bordes(W, segs):
             frontera = max(frontera, W[a]["hueco_antes"][1])
         if a > 0 and "fin_max" in W[a - 1]:
             t0 = max(t0, W[a - 1]["fin_max"])
+        if a > 0 and "fin_fijo" in W[a - 1]:
+            t0 = max(t0, W[a - 1]["fin_fijo"])
         u = _umbral(t0, t1)
         huecos, ts, r = _huecos(max(0.0, t0), t1, u, minimo=0.06)
         if "hueco_antes" in W[a]:
@@ -282,7 +304,7 @@ def quitar_rafagas(W, segs, ventana=3.0, pausa_max=0.8):
             for b in (j - 1, j, j + 1):            # frontera entre segs[b] y segs[b+1]
                 x, y = segs[b]["palabras"][-1], segs[b + 1]["palabras"][0]
                 gap = W[y]["s"] - W[x]["e"]
-                manual = "hueco_antes" in W[y] or "ini_fijo" in W[y] or "fin_max" in W[x]   # cortes puestos a mano: no se deshacen
+                manual = "hueco_antes" in W[y] or "ini_fijo" in W[y] or "fin_max" in W[x] or "fin_fijo" in W[x]   # cortes puestos a mano: no se deshacen
                 if y == x + 1 and not manual and gap <= pausa_max:
                     cands.append((gap, b))
             if cands:
@@ -524,6 +546,9 @@ def main():
     ap.add_argument("--salida", default=str(RAIZ / "reels"))
     ap.add_argument("--borrador", action="store_true", help="render rápido a 540x960")
     ap.add_argument("--solo-hoja", action="store_true", help="solo guion y PNG de muestra, sin render")
+    ap.add_argument("--voz", action="store_true",
+                    help="PASO 1 (Abel 17/10/2026): monta SOLO la voz con los mismos cortes -> trabajo/reels/<n>/voz.wav; "
+                         "se revisa (onda, espectrograma de cortes, empalmes) y solo después se renderiza el vídeo")
     a = ap.parse_args()
 
     spec = json.loads(Path(a.spec).read_text(encoding="utf-8"))
@@ -537,7 +562,7 @@ def main():
     if ajustes.exists():
         for k, v in json.loads(ajustes.read_text(encoding="utf-8")).items():
             if k.isdigit():
-                W[int(k)].update({c: v[c] for c in ("w", "s", "e", "hueco_antes", "fin_max", "ini_fijo") if c in v})
+                W[int(k)].update({c: v[c] for c in ("w", "s", "e", "hueco_antes", "fin_max", "fin_fijo", "ini_fijo") if c in v})
     global AUDIO
     wav16 = Path(a.tiempos).parent / "audio16k.wav"
     raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(wav16 if wav16.exists() else a.video), "-vn", "-ac", "1",
@@ -633,9 +658,21 @@ def main():
         lista += [f"file '{f.as_posix()}'", f"duration {s['t1'] - s['t0']:.4f}"]
     lista.append(f"file '{(tmp / f'sub_{len(subs) - 1:03d}.png').as_posix()}'")
     (tmp / "capas.ffconcat").write_text("\n".join(lista) + "\n", encoding="utf-8")
+    # PALABRA CORTADA (Abel 17/10/2026, «siempre» en el s. 38): un fin_max puesto en el silencio de una oclusiva
+    # («siem|pre») cortaba la palabra. Ningún trozo puede acabar antes del final alineado de su última palabra.
+    for i, sg in enumerate(segs):
+        ult = W[sg["palabras"][-1]]
+        if sg["fin"] < ult["e"] - 0.005 and "fin_fijo" not in ult:
+            print(f"   ¡¡AVISO PALABRA CORTADA!! trozo {i}: acaba en {sg['fin']:.2f} y «{ult['w']}» acaba en {ult['e']:.2f}"
+                  " -> revisa su fin_max escuchando y midiendo energía (¿silencio de una p/t/c dentro de la palabra?)")
     json.dump({"estilo": estilo, "video": a.video, "componer": spec.get("componer"), "segmentos": segs, "subtitulos": subs, "duracion": dur}, open(tmp / "montaje.json", "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
     if a.solo_hoja:
+        return
+
+    if a.voz:
+        montar_voz(segs, a.video, tmp)
+        print(f"   -> VOZ {tmp / 'voz.wav'}  (revisar: onda.py, espectro_cortes.py, voz_sin_palabra.py, oir_empalmes.py --voz; luego render)")
         return
 
     # --- trozos: imagen y audio SIEMPRE del mismo corte (sincronía por construcción) ---
@@ -687,16 +724,21 @@ def main():
         video_v = "[0:v]setpts=PTS-STARTPTS,format=yuv420p[v];"
     filtro = (video_v +
               f"[1:v]fps={FPS},format=rgba[c];"
-              f"[v][c]overlay=0:0:format=auto:shortest=0:eof_action=repeat{escala},format=yuv420p[o];"
-              f"[0:a]loudnorm=I=-14:TP=-1.5:LRA=11,aresample={SR}[a]")
+              f"[v][c]overlay=0:0:format=auto:shortest=0:eof_action=repeat{escala},format=yuv420p[o]")
+    # AUDIO = la voz aprobada (voz.wav), NO el audio de los trozos (Abel 17/10/2026, medido en sigue_01): cada trozo
+    # .mkv traía el audio unos ms más corto que su imagen y, al juntar y normalizar, esos huecos se cerraban -> el audio
+    # se iba ADELANTANDO (-8, -28, -45… hasta ~-50 ms = 1,5 fotogramas). voz.wav es exacta (+1 ms en todos los trozos).
+    voz = montar_voz(segs, a.video, tmp)
+    i_voz = 3 if comp else 2
     (tmp / "filtro.txt").write_text(filtro, encoding="utf-8")
     final = salida / (f"{nombre}_borrador.mp4" if a.borrador else f"{nombre}.mp4")
     cmd = ["ffmpeg", "-v", "error", "-stats", "-y",
            "-f", "concat", "-safe", "0", "-i", str(tmp / "trozos.ffconcat"),
            "-f", "concat", "-safe", "0", "-i", str(tmp / "capas.ffconcat"),
            *(["-i", fondo] if comp else []),
+           "-i", str(voz),
            "-filter_complex_script", str(tmp / "filtro.txt"),
-           "-map", "[o]", "-map", "[a]", "-t", f"{dur:.4f}",
+           "-map", "[o]", "-map", f"{i_voz}:a", "-t", f"{dur:.4f}",
            "-c:v", "libx264", "-preset", "veryfast" if a.borrador else "medium", "-crf", "26" if a.borrador else "18",
            "-r", str(FPS), "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(final)]
     subprocess.run(cmd, check=True)

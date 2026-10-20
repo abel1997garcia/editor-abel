@@ -8,11 +8,13 @@ metadata:
   modified: 2026-10-10T20:21:04.592Z
 ---
 
+**Si Abel pide REELS VIRALES, [[referencias-virales]] manda sobre este archivo.**
+
 Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una referencia de «Referencias reels» ([[referencias-virales]]).
 
 **1. La referencia la elige él por algo:** muchas visitas, un gancho que le llama la atención y el tema.
 - **Conservar lo que la hizo funcionar:** el gancho, la estructura y el ritmo. No copiarla al 100 %, adaptarla un poco a él.
-- **Adaptarla a lo que vende y a quién** ([[estrategia-contenido-80-15-5]], `00-avatar-operativo.md`): su nicho y su avatar. Si el tema es de mentalidad o emociones, lleva **REMATE PARA EMPRENDEDORES**.
+- **Adaptarla a quién le habla** (`00-avatar-operativo.md`): la persona que no se siente suficiente.
 - **NO hace falta que encaje con una de las 200 descripciones.**
 - Nunca traducir literal: el contenido sale de sus creencias, su lente y su historia real ([[fotos-vida-abel]]). No contradecir sus afirmaciones públicas. Lo invisible, como experiencia vivida.
 
@@ -25,9 +27,9 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 **UNA IDEA = UN REEL.** Si la referencia es viral pero no cumple algo (no tiene colleja, mezcla ideas, no da solución…), se mira de qué va y se adapta hasta que cumpla la estructura.
 
 **🟢 FORMATO DEFINITIVO DEL GUION DE REEL (Abel, 11/10/2026, MANDA SOBRE TODO LO DE ABAJO):**
-- **El doc lleva SOLO:** `# Título` · `**Idea:**` · `## Hooks` (3) · `**Problema:**` en UNA frase · `**Solución:**` en UNA frase.
+- **El doc lleva SOLO:** `# Título` · `**Idea:**` · `## Hooks` (5, ver [[referencias-virales]]) · `**Problema:**` en UNA frase · `**Solución:**` en UNA frase.
 - **Él lo graba todo del tirón con sus palabras.** Sin «cómo lo diría yo», sin teleprompter: pasar el guion al teleprompter «es más lento» y suena menos natural.
-- **TODO apunta al avatar y a lo que vende** (coaches, terapeutas, guías…; agenda, clientes, contenido, precio, cámara), aunque sea de forma indirecta. Las referencias de emociones generales se bajan a su negocio. Ej.: «Dar demasiadas explicaciones es una respuesta al trauma» pasa a «Dar tantas explicaciones de tu precio es una respuesta al trauma».
+- **TODO apunta al avatar** (lo que siente, se dice, duda y cree de la realidad), aunque sea de forma indirecta.
 - Siguen valiendo el test de hooks de [[ganchos]], la coherencia y la connotación negativa.
 
 **🎙️ APRENDER SU VOZ DE VERDAD (Abel 10/10/2026: «pásame ejemplos de cómo hablaría yo, incluso un audio, transcríbelo y analiza tono y ritmo… si no, no nos vamos a aclarar»).**
@@ -36,8 +38,7 @@ Abel (09/10/2026) aprobó estos parámetros para cada guion que sale de una refe
 - Los guiones se adaptan a ESA forma de hablar.
 
 **FORMATO FINAL DEL DOC (10/10/2026, Abel: «me suena a mí… todo lo demás top»):**
-- `# Título` · `**Idea:**` · `## Hooks` (3) · `## Problema` (viñetas) · `## Solución` (1 viñeta);
-- `**Remate para emprendedores:**` UNA frase que baja el tema a su negocio, su contenido o su agenda (nicho del 10/10/2026), y que también cierra el «cómo lo diría yo».
+- `# Título` · `**Idea:**` · `## Hooks` (5) · `## Problema` (viñetas) · `## Solución` (1 viñeta);
 - `**Problema:**` en UNA frase corta y `**Solución:**` en UNA frase corta (Abel 10/10): que al verlo diga «hoy estoy inspirado, sé de qué problema hablar y qué solución dar» y lo cuente él con los hooks.
 - `## Cómo lo diría yo (empieza DESPUÉS del hook; dilo con tus palabras)`: un párrafo con SU voz según `mi-voz.md` ⭐.
   - **✅ APROBADO Y «CLAVADO»** (Abel 10/10: «lo has clavado, lo entiendes, guárdalo en la memoria porque esto es muy importante»).
@@ -119,13 +120,13 @@ Lo de abajo (colleja ≤ 2 frases + solución) vale SOLO para referencias en esp
 **⚠️ FORMATO VIGENTE (Abel 09/10/2026, «demasiada info para hablar»; APROBADO: «estupendo, seguiremos así»): él lee el hook e IMPROVISA.** El doc lleva SOLO:
 - `# Título`;
 - `**Idea:**`;
-- `## Hooks` (3);
+- `## Hooks` (5);
 - `**Colleja:**` en MÁXIMO 2 frases;
 - `**Solución:**` aproximada, en 1 FRASE (con el niño o la niña interior, sin mentoría);
 - `## Descripción del post`.
 
 **HOOK 1 = EL GANCHO ORIGINAL DE LA REFERENCIA, TAL CUAL (Abel 10/10/2026).** Casi siempre vendrán en inglés y son reels YA VALIDADOS que funcionan: se traduce y se deja tal cual («You can feel extremely rich before making money» → «Puedes sentirte extremadamente rico antes de ganar dinero»). Solo si no tiene connotación negativa se le puede añadir un poco.
-**Los hooks 2 y 3: variaciones cercanas al original que TENGAN SENTIDO.** MAL: «Eres pobre aunque cobres el doble» (Abel: «no tiene sentido»). BIEN: «Puedes ganar mucho dinero y seguir sintiéndote pobre», «Para llegar a tu siguiente nivel no te falta nada, te sobra». Esto sustituye a la regla anterior de «3 hooks distintos del original».
+**Los hooks 2 a 5: variaciones cercanas al original que TENGAN SENTIDO.** MAL: «Eres pobre aunque cobres el doble» (Abel: «no tiene sentido»). BIEN: «Puedes ganar mucho dinero y seguir sintiéndote pobre», «Para llegar a tu siguiente nivel no te falta nada, te sobra». Esto sustituye a la regla anterior de «3 hooks distintos del original».
 HOOKS siempre DIRECTOS A LA PERSONA y, siempre que se pueda, de TÚ a TÚ; nunca una frase que solo da información (ver [[ganchos]]).
 
 NADA MÁS: ni cuerpo, ni «De qué hablar», ni datos extra. Las reglas de abajo sobre collejas y solución valen para el CONTENIDO de esas frases.
@@ -136,7 +137,7 @@ NADA MÁS: ni cuerpo, ni «De qué hablar», ni datos extra. Las reglas de abajo
 - `## Cuerpo`: UN párrafo seguido que encaja detrás de cualquiera de los 3. EMPIEZA DIRECTO con la escena («Tú te levantas, visualizas…»), NO con «Porque…»;
   - OBLIGATORIO, la COLLEJA de verdad («no veo ni una connotación negativa, no cumple»): lo que hace mal, que se está engañando, cómo repite el error y qué le va a pasar si sigue así, llevado al extremo («y así vas a seguir, ganes lo que ganes, toda tu vida», «vas a seguir en el mismo sitio dentro de diez años»);
   - después, su prueba y la solución con una acción.
-- `## Descripción del post`: sin CTA, con #abelunidad #marcapersonal #negocios (Abel 12/10/2026).
+- `## Descripción del post`: sin CTA, con #abelunidad #autoestima #crecimientopersonal.
 - **NADA MÁS:** ni «guion para teleprompter», ni título de pantalla, ni nota.
 
 **Estilo del cuerpo (muy hablado, ver `mi-voz/mi-voz.md` y G-001):**
@@ -195,3 +196,5 @@ Las versiones que él rechaza se mueven a REELS/_descartados (id `1PFadK1T75WZu5
   - **NUNCA hablar de su trabajo ni de la mentoría en los reels** (Abel 09/10, «fundamental»: nada de «eso es justo lo que hago con la gente con la que trabajo»). Eso lo dice él de forma indirecta en YouTube. Como mucho, el cambio que se ve fuera («empezó a pedir lo que vale»).
   - **LO QUE MÁS LE GUSTA:** hablarle a la parte más profunda y sensible de la persona, a **ese niño o esa niña interior**, porque todas las emociones vienen de ahí. BIEN: «vio que era el miedo de ese niño que escuchaba que no llegaba, lo sanó…», «ese miedo a quedarte solo es el de ese niño o esa niña que un día sintió que si no aguantaba lo iban a dejar de querer». En cada solución, aterrizarlo al tema.
 - **Versión vigente (09/10):** «Puedes ganar mucho dinero…» `18UlbBF6RsSVbSExDbqVor3WpENtioKFEDAoPd1QgeQ8` · «Tu siguiente nivel…» `1o8wbpdmPilBAiPzHCqeuVUb6dfCsaYoI7ke6NQOrTA0`. Las anteriores están en _descartados.
+
+**🔴 SIN RELLENO, PERO FLUIDO (Abel 18/10/2026):** «conector» = todo lo que NO añade información vital y útil (repetir lo ya dicho, «sí, sí y sí», «y te lo digo claro», «así que», muletillas). Eso fuera, siempre. Pero el texto tiene que FLUIR y CONECTAR como se habla: las palabras que unen las ideas con sentido («y», «que», «mientras», «porque») se quedan. Trocear frases quitando «y» y «que» a hachazos es peor («qué mierda de guion es este… ni es fluido ni conecta»). Ver [[sin-conectores]].

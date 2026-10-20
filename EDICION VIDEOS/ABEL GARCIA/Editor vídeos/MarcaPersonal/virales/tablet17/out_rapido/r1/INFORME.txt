@@ -1,0 +1,3 @@
+##### r1 · 38.2 s · 13 trozos
+huecos > 0,10 s (onda): ninguno ✓
+✗  23.29s unión con 0.10 s de silencio (islas 33→35)

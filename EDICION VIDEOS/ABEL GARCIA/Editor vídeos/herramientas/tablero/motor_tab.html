@@ -1,0 +1,79 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+/* TAB · plantilla yapping vertical (Abel 15/10/2026, maqueta MarcaPersonal/virales/tablet01/maqueta_v3.png):
+   la grabación ya trae la plantilla blanca con su franja de vídeo (y 557–1348, él a la izquierda).
+   Título negro arriba de la franja · subtítulos blancos CENTRADOS en la zona libre de la derecha (3-4 palabras) · abajo en blanco
+   · foto suya 1:1 a la derecha solo cuando cuenta su historia · sin emojis · movimiento barato: zoom suave de la franja en los cortes y entrada pop */
+@font-face{font-family:M;src:url(Montserrat-Variable.ttf);font-weight:100 900}
+html,body{margin:0;background:#fff}
+#r{position:relative;width:1080px;height:1920px;overflow:hidden;background:#fff;font-family:M}
+#fondo{position:absolute;left:0;top:0;width:1080px;height:1920px}
+#franja{position:absolute;left:0;overflow:hidden}
+#franja img{position:absolute;left:0;width:1080px;height:1920px}
+.abs{position:absolute;left:0;top:0;transform-origin:center;will-change:transform}
+#tit{font-weight:800;font-size:50px;line-height:1.24;color:#111;text-align:center;width:1000px}
+#sub.lista{color:#111;text-shadow:none;width:1000px;font-weight:800;font-size:56px}
+#sub{font-weight:900;font-size:52px;line-height:1.14;color:#fff;text-align:center;width:400px;text-shadow:0 2px 4px rgba(0,0,0,.6),0 4px 22px rgba(0,0,0,.55)}
+.foto{position:absolute;left:0;top:0;border-radius:24px;border:6px solid #fff;background-size:cover;background-position:center;box-shadow:0 14px 34px rgba(0,0,0,.45);will-change:transform,opacity}
+</style></head><body><div id="r"><img id="fondo"><div id="franja"><img id="foto"></div></div>
+<script src="datos.js"></script><script>
+const R = document.getElementById('r'), FONDO = document.getElementById('fondo'), FR = document.getElementById('franja'), FOTO = document.getElementById('foto');
+const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v)), lerp = (a, b, k) => a + (b - a) * k;
+const P = (t, t0, d) => clamp((t - t0) / Math.max(d, 1e-3)), out = u => 1 - (1 - u) ** 3, io = u => u < .5 ? 4 * u ** 3 : 1 - (-2 * u + 2) ** 3 / 2;
+const back = u => u <= 0 ? 0 : u >= 1 ? 1 : 1 + 2.7 * (u - 1) ** 3 + 1.7 * (u - 1) ** 2;
+const pon = (e, x, y, s = 1, o = 1) => { e.style.opacity = clamp(o).toFixed(3); e.style.transform = `translate(${x.toFixed(1)}px,${y.toFixed(1)}px) translate(-50%,-50%) scale(${s.toFixed(4)})`; };
+const norm = w => w.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9ñ%]/g, '');
+function en(palabra, desde = 0) { const f = palabra.split(' ').map(norm);
+  for (let k = 0; k < PAL.length; k++) { if (PAL[k][1] < desde - .6) continue; if (f.every((w, j) => PAL[k + j] && norm(PAL[k + j][0]) === w)) return PAL[k][1]; }
+  console.error(`en: no encuentro «${palabra}» desde ${desde}`); return desde; }
+const SFX = []; window.SFX = SFX;
+function suena(t, id, vol = .3) { if (t < 0 || SFX.some(x => Math.abs(x[0] - t) < .3)) return; SFX.push([+t.toFixed(3), id, vol]); }
+/* franja de vídeo: sale de la propia grabación (B0–B1); la zona derecha (texto, fotos) centrada en CX */
+const LISTA = typeof ES_LISTA !== 'undefined' && ES_LISTA;
+const B0 = BANDA[0], B1 = BANDA[1], BC = (B0 + B1) / 2, CX = 840;
+Object.assign(FR.style, { top: B0 + 'px', width: '1080px', height: (B1 - B0) + 'px' }); FOTO.style.top = -B0 + 'px';
+FOTO.style.transformOrigin = `${FX}px ${FY + B0}px`;   // en coordenadas de la imagen entera (la franja empieza en B0)
+/* zoom suave SOLO dentro de la franja (la plantilla blanca no se mueve): 1,00/1,06 en cada salto + deriva lenta */
+const zoomEn = t => { let z = 1, t0 = 0; for (const [a, zz] of CORTES) if (t >= a) { z = zz > 1 ? 1.04 : 1; t0 = a; }   // 1,00/1,04: sin cortarle la cabeza (Abel 15/10/2026)
+  return z * (1 + .02 * P(t, t0, 5)) * (1 + .05 * io(P(t, DUR - 3.5, 3.4))); };
+/* título arriba de la franja, todo el reel */
+const TIT = document.createElement('div'); TIT.className = 'abs'; TIT.id = 'tit'; TIT.innerHTML = TITULO.join('<br>'); R.appendChild(TIT);
+/* fotos suyas 1:1 (solo historia): a la derecha, los subtítulos bajan debajo */
+const FOTOS = [];
+function imagen(src, t0, t1, o = {}) { const d = document.createElement('div'); d.className = 'foto'; const l = o.w || o.lado || 330, hh = o.h || l;   // o.w/o.h: capturas apaisadas (canal, cifras)
+  Object.assign(d.style, { width: l + 'px', height: hh + 'px', backgroundImage: `url(${src})`, backgroundPosition: o.pos || 'center', backgroundSize: o.size || 'cover', backgroundColor: '#fff' }); R.appendChild(d);
+  const f = { d, t0, t1: Math.max(t1, t0 + 3), l }; FOTOS.push(f); suena(t0, 'pop', .25); return f; }
+let _cierre = false;
+function cierraFotos() { FOTOS.sort((a, b) => a.t0 - b.t0); FOTOS.forEach((f, i) => { if (FOTOS[i + 1]) f.t1 = Math.min(f.t1, FOTOS[i + 1].t0 - .05); }); _cierre = true; }   // una foto se va cuando entra la siguiente (nunca dos a la vez)
+const fotoEn = t => { if (!_cierre) cierraFotos(); return FOTOS.find(f => t > f.t0 - .1 && t < f.t1 + .1); };
+function pintarFotos(t) { if (!_cierre) cierraFotos(); FOTOS.forEach(f => { const k = back(P(t, f.t0 - .05, .4)), o = Math.min(P(t, f.t0 - .05, .15) * 3, 1 - P(t, f.t1 - .15, .2));
+  f.d.style.display = t > f.t0 - .1 && t < f.t1 + .1 ? '' : 'none'; pon(f.d, CX, BC - 120 + 4 * Math.sin((t - f.t0) * 1.4), lerp(.85, 1, k), o); }); }
+/* subtítulos: 3-4 palabras (≤ 22 letras), nunca cruzando un punto ni una pausa; mayúscula al empezar y tras punto */
+const BLOQUES = [];
+for (let i = 0; i < PAL.length;) { let j = i, txt = '';
+  while (j < PAL.length && j - i < 3 && (txt + ' ' + PAL[j][0]).trim().length <= 18) { txt = (txt + ' ' + PAL[j][0]).trim(); j++; if (/[.?!…,]$/.test(PAL[j - 1][0]) || (j < PAL.length && (PAL[j][1] - PAL[j - 1][2] > .6 || /^(asi|porque|pero)$/.test(norm(PAL[j][0])) || (/^[A-ZÁÉÍÓÚÑ¿¡]/.test(PAL[j][0]) && !/^(youtube|instagram|tiktok|google|siroko|rubius|ibai)$/.test(norm(PAL[j][0])))))) break; }   // frase nueva (mayúscula): bloque nuevo («igual Todo cambió»)   // nunca dos frases en un bloque («distinta así que»)
+  if (j === i) { txt = PAL[i][0]; j = i + 1; }
+  const corta = /^(de|del|a|al|el|la|lo|los|las|que|y|o|en|un|una|con|por|para|su|tu|mi|se|te|me|le|es|ni|sin)$/;   // nunca acabar en palabra corta («ser auténtico de» | «verdad»)
+  const sigue = k => k + 1 < PAL.length && PAL[k + 1][1] - PAL[k][2] < .6 && !/^[A-ZÁÉÍÓÚÑ¿¡]/.test(PAL[k + 1][0]) && !/^(asi|porque|pero)$/.test(norm(PAL[k + 1][0])) && !/[.?!…,]$/.test(PAL[k][0]);
+  while (j - i > 1 && j < PAL.length && corta.test(norm(PAL[j - 1][0])) && sigue(j - 1)) { j--; txt = txt.split(' ').slice(0, -1).join(' '); }   // solo si va pegada a la siguiente (si no, se quedaba sola: «el», «de»)
+  BLOQUES.push([txt.replace(/[,.]$/, ''), PAL[i][1]]); i = j; }
+for (let q = 0; q + 1 < BLOQUES.length; q++) {                       // una palabra corta sola («es», «Y», «de», «Ese») se une a la siguiente
+  if (!/\s/.test(BLOQUES[q][0]) && norm(BLOQUES[q][0]).length <= 3 && (BLOQUES[q][0] + ' ' + BLOQUES[q + 1][0]).length <= 24) {
+    BLOQUES[q + 1] = [BLOQUES[q][0] + ' ' + BLOQUES[q + 1][0], BLOQUES[q][1]]; BLOQUES.splice(q, 1); q--; } }
+const SUB = document.createElement('div'); SUB.className = LISTA ? 'abs lista' : 'abs'; SUB.id = 'sub'; R.appendChild(SUB);
+function pintarSub(t) {
+  const b = [...BLOQUES].reverse().find(x => x[1] <= t + .10); SUB.textContent = b ? b[0].replace(/^~/, '') : '';   // 0,1 s antes que la voz: nunca tarde
+  if (!LISTA) { let fs = 52; SUB.style.fontSize = fs + 'px'; while (fs > 30 && SUB.scrollWidth > 400) { fs -= 2; SUB.style.fontSize = fs + 'px'; } }   // nunca se sale de la zona derecha («completamente», Abel 15/10/2026)
+  const e = P(t, b ? b[1] - .1 : 0, .2), f = fotoEn(t);
+  if (LISTA) { pon(SUB, 540, B1 + 70, lerp(.92, 1, back(e)), b ? 1 : 0); return; }   // LISTA: abajo en la parte blanca; la derecha es de la tablet
+  pon(SUB, CX, (f ? BC + 190 : BC) + 3 * Math.sin(t * 1.6), lerp(.88, 1, back(e)), b ? 1 : 0);   // opaco desde el primer fotograma (con fundido «no se ven», 082)
+}
+window.cargarFoto = i => new Promise(res => { let n = 0; const ok = () => { if (++n === 2) res(); }; const src = `frames/${String(i + 1).padStart(5, '0')}.jpg`;
+  FOTO.onload = FOTO.onerror = FONDO.onload = FONDO.onerror = ok; FOTO.src = src; FONDO.src = src; });
+window.pintar = t => {
+  FOTO.style.transform = `scale(${zoomEn(t).toFixed(4)})`;
+  pon(TIT, 540, B0 - 30 - TIT.offsetHeight / 2, 1, P(t, -.1, .3) * 3);
+  pintarFotos(t); pintarSub(t);
+};
+</script><script src="escenas.js"></script><script>
+document.fonts.load('800 20px M').then(() => document.fonts.load('900 20px M')).then(async () => { await window.cargarFoto(0); window.pintar(0); document.title = 'listo'; });
+</script></body></html>

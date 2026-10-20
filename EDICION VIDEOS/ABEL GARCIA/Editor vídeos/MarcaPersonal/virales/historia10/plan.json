@@ -1,0 +1,139 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  12,
+  16,
+  17,
+  18,
+  24,
+  25,
+  33,
+  34,
+  35,
+  36,
+  37,
+  [
+   38,
+   null,
+   "repele."
+  ],
+  41,
+  42,
+  43,
+  47,
+  48,
+  49
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Le echaron del trabajo y un mes después vivía de lo que QUERÍA, así:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "gancho": [
+    1
+   ]
+  },
+  "r2": {
+   "titulo": "No te falta dinero para empezar, te falta CREÉRTELO de una vez:",
+   "musica": "ÉPICA/Caleb Bryant - Imperius (instrumental) [ slowed ].mp3",
+   "gancho": [
+    2
+   ]
+  },
+  "r3": {
+   "titulo": "Cuanto más fuerzas que algo llegue, más lo ALEJAS de tu vida:",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3",
+   "gancho": [
+    4
+   ]
+  },
+  "r4": {
+   "titulo": "Lo que piensas y sientes cada día decide todo lo que te PASA:",
+   "musica": "EMOCIONAL/Skott - Overcome (528Hz).mp3",
+   "gancho": [
+    6
+   ]
+  },
+  "r5": {
+   "titulo": "\"Cuando tenga dinero, empiezo\", y así no vas a empezar NUNCA:",
+   "musica": "ÉPICA/Ogryzek - AURA.mp3",
+   "gancho": [
+    7,
+    8
+   ]
+  }
+ },
+ "estilo": "historia",
+ "diapos": [
+  {
+   "frase": "A Mengano le echaron",
+   "titulo": "Le **echan** del trabajo",
+   "dibujo": "escenas/historia10/1_le_echan_azul"
+  },
+  {
+   "frase": "A la semana vio",
+   "titulo": "La formación que **quería**",
+   "dibujo": "escenas/historia10/2_formacion_sin_dinero_azul"
+  },
+  {
+   "frase": "Pero lo sabía.",
+   "titulo": "Pero lo **sabía**",
+   "dibujo": "escenas/historia09/2_no_lo_esperaba_lo_sabia_azul"
+  },
+  {
+   "frase": "Se imaginaba yendo",
+   "titulo": "Se **imaginaba** en clase",
+   "dibujo": "escenas/historia09/3_lo_imaginaba_azul"
+  },
+  {
+   "frase": "No lo esperaba,",
+   "titulo": "Lo daba por hecho y se **movía**",
+   "dibujo": "escenas/historia07/6_lo_que_construyes_azul"
+  },
+  {
+   "frase": "A los pocos días,",
+   "titulo": "Y llega la **oportunidad**",
+   "dibujo": "escenas/historia06/4_ve_oportunidades_azul"
+  },
+  {
+   "frase": "Se presentó.",
+   "titulo": "Y la **hizo**",
+   "dibujo": "escenas/historia10/3_y_la_hizo_azul"
+  },
+  {
+   "frase": "y Mengano ya era",
+   "titulo": "Atraes lo que **mereces**",
+   "dibujo": "escenas/historia02/1_atraes_lo_que_eres_azul"
+  },
+  {
+   "frase": "Pero él lo sentía",
+   "titulo": "Con una fe al **100 %**",
+   "dibujo": "escenas/historia06/3_se_crea_dentro_azul"
+  },
+  {
+   "frase": "Cuando fuerzas algo",
+   "titulo": "Forzar desde la **ansiedad**",
+   "dibujo": "escenas/historia03/2_fulano_persigue_rojo"
+  },
+  {
+   "frase": "Pero cuando estás tranquilo",
+   "titulo": "Tranquilo y **confiando**",
+   "dibujo": "escenas/historia03/4_gato_viene_solo_azul"
+  },
+  {
+   "frase": "Empiezas a comportarte",
+   "titulo": "Te comportas con **abundancia**",
+   "dibujo": "escenas/historia08/6_paga_y_sigue_azul"
+  },
+  {
+   "frase": "Así que pregúntate",
+   "titulo": "¿En qué **piensas** cada día?",
+   "dibujo": "escenas/historia03/7_persigues_o_te_quieres_ambos"
+  }
+ ],
+ "corrige": [
+  [
+   "mengano",
+   "Mengano"
+  ]
+ ]
+}

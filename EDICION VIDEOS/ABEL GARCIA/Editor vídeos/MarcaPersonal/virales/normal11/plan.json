@@ -1,0 +1,60 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  15,
+  19,
+  20,
+  24,
+  25,
+  33,
+  34
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Solo enseñas la versión de ti que gusta y luego te quejas de que no te CONOCEN:",
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3",
+   "gancho": [
+    0
+   ]
+  },
+  "r2": {
+   "titulo": "Te quieren a medias porque solo enseñas lo que sabes que va a GUSTAR:",
+   "musica": "ÉPICA/Ogryzek - AURA.mp3",
+   "gancho": [
+    3
+   ]
+  },
+  "r3": {
+   "titulo": "Si crees que se irían al conocerte de verdad, es que nadie te CONOCE:",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3",
+   "gancho": [
+    4,
+    5
+   ]
+  },
+  "r4": {
+   "titulo": "Callarte lo que piensas para caer bien no es ser majo, es tener MIEDO:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3",
+   "gancho": [
+    10
+   ]
+  },
+  "r5": {
+   "titulo": "Te quejas de que nadie te entiende y nunca has enseñado quién ERES:",
+   "musica": "EMOCIONAL/Andrea Vanzo - Soulmate x Amélie x Interstellar x Passacaglia.mp3",
+   "gancho": [
+    11
+   ]
+  }
+ },
+ "corrige": [
+  [
+   "La versión de Tik",
+   "La versión de ti"
+  ],
+  [
+   "versión de Tik",
+   "versión de ti"
+  ]
+ ]
+}

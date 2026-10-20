@@ -1,0 +1,86 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Montserrat Medium,64,&H00FFFFFF,&H00FFFFFF,&H70000000,&H80000000,0,0,0,0,100,100,0,0,1,3,2,5,0,0,0,1
+Style: B,Montserrat ExtraBold,80,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.03,0:00:01.04,B,,0,0,0,,{\pos(540,1415)}No atraes lo que quieres
+Dialogue: 0,0:00:01.04,0:00:02.10,B,,0,0,0,,{\pos(540,1415)}atraes lo que crees
+Dialogue: 0,0:00:02.10,0:00:02.84,B,,0,0,0,,{\pos(540,1415)}que mereces
+Dialogue: 0,0:00:02.84,0:00:03.72,B,,0,0,0,,{\pos(540,1415)}Atraes lo que eres
+Dialogue: 0,0:00:03.72,0:00:04.31,B,,0,0,0,,{\pos(540,1415)}y lo que eres
+Dialogue: 0,0:00:04.31,0:00:05.18,B,,0,0,0,,{\pos(540,1415)}es lo que piensas
+Dialogue: 0,0:00:05.18,0:00:05.38,B,,0,0,0,,{\pos(540,1415)}de ti
+Dialogue: 0,0:00:05.38,0:00:06.80,B,,0,0,0,,{\pos(540,1415)}lo que piensas que mereces
+Dialogue: 0,0:00:06.80,0:00:07.55,B,,0,0,0,,{\pos(540,1415)}y lo que has vivido
+Dialogue: 0,0:00:07.55,0:00:08.83,B,,0,0,0,,{\pos(540,1415)}Te presento a Fulano
+Dialogue: 0,0:00:08.83,0:00:09.47,B,,0,0,0,,{\pos(540,1415)}y a Mengano
+Dialogue: 0,0:00:09.47,0:00:10.32,B,,0,0,0,,{\pos(540,1415)}Fulano lo pasó mal
+Dialogue: 0,0:00:10.32,0:00:11.65,B,,0,0,0,,{\pos(540,1415)}de pequeño y aprendió
+Dialogue: 0,0:00:11.65,0:00:12.67,B,,0,0,0,,{\pos(540,1415)}que para que le quieran
+Dialogue: 0,0:00:12.67,0:00:13.91,B,,0,0,0,,{\pos(540,1415)}tenía que dar un montón
+Dialogue: 0,0:00:13.91,0:00:14.46,B,,0,0,0,,{\pos(540,1415)}Que su valor está
+Dialogue: 0,0:00:14.46,0:00:15.07,B,,0,0,0,,{\pos(540,1415)}en lo que hace
+Dialogue: 0,0:00:15.07,0:00:15.97,B,,0,0,0,,{\pos(540,1415)}por otros que tenía
+Dialogue: 0,0:00:15.97,0:00:17.08,B,,0,0,0,,{\pos(540,1415)}que esforzarse el doble
+Dialogue: 0,0:00:17.08,0:00:17.72,B,,0,0,0,,{\pos(540,1415)}que los demás
+Dialogue: 0,0:00:17.72,0:00:19.39,B,,0,0,0,,{\pos(540,1415)}y que lo bueno siempre
+Dialogue: 0,0:00:19.39,0:00:20.30,B,,0,0,0,,{\pos(540,1415)}era para otros
+Dialogue: 0,0:00:20.30,0:00:21.21,B,,0,0,0,,{\pos(540,1415)}Se lo creyó tanto
+Dialogue: 0,0:00:21.21,0:00:21.83,B,,0,0,0,,{\pos(540,1415)}que es lo único
+Dialogue: 0,0:00:21.83,0:00:22.83,B,,0,0,0,,{\pos(540,1415)}en lo que se fija
+Dialogue: 0,0:00:22.83,0:00:23.92,B,,0,0,0,,{\pos(540,1415)}Y la vida le trae
+Dialogue: 0,0:00:23.92,0:00:24.53,B,,0,0,0,,{\pos(540,1415)}justo eso
+Dialogue: 0,0:00:24.53,0:00:25.75,B,,0,0,0,,{\pos(540,1415)}gente que no le valora
+Dialogue: 0,0:00:25.75,0:00:27.06,B,,0,0,0,,{\pos(540,1415)}parejas que no le eligen
+Dialogue: 0,0:00:27.06,0:00:27.93,B,,0,0,0,,{\pos(540,1415)}entorno que se ríe
+Dialogue: 0,0:00:27.93,0:00:28.35,B,,0,0,0,,{\pos(540,1415)}de él
+Dialogue: 0,0:00:28.35,0:00:29.28,B,,0,0,0,,{\pos(540,1415)}Y esas ideas suyas
+Dialogue: 0,0:00:29.28,0:00:30.42,B,,0,0,0,,{\pos(540,1415)}que nunca se ha atrevido
+Dialogue: 0,0:00:30.42,0:00:31.68,B,,0,0,0,,{\pos(540,1415)}a enseñar por esa creencia
+Dialogue: 0,0:00:31.68,0:00:33.18,B,,0,0,0,,{\pos(540,1415)}interna de quién soy yo
+Dialogue: 0,0:00:33.18,0:00:34.55,B,,0,0,0,,{\pos(540,1415)}para decir o enseñar esto
+Dialogue: 0,0:00:34.55,0:00:35.66,B,,0,0,0,,{\pos(540,1415)}Mengano vivió exactamente
+Dialogue: 0,0:00:35.66,0:00:36.33,B,,0,0,0,,{\pos(540,1415)}lo mismo hasta
+Dialogue: 0,0:00:36.33,0:00:37.07,B,,0,0,0,,{\pos(540,1415)}que se dio cuenta
+Dialogue: 0,0:00:37.07,0:00:37.92,B,,0,0,0,,{\pos(540,1415)}de que él no tenía
+Dialogue: 0,0:00:37.92,0:00:38.84,B,,0,0,0,,{\pos(540,1415)}que ganarse nada
+Dialogue: 0,0:00:38.84,0:00:39.96,B,,0,0,0,,{\pos(540,1415)}y que le podían querer
+Dialogue: 0,0:00:39.96,0:00:40.90,B,,0,0,0,,{\pos(540,1415)}Tal y como era él
+Dialogue: 0,0:00:40.90,0:00:41.75,B,,0,0,0,,{\pos(540,1415)}Y empezó a creérselo poco
+Dialogue: 0,0:00:41.75,0:00:42.18,B,,0,0,0,,{\pos(540,1415)}a poco
+Dialogue: 0,0:00:42.18,0:00:43.59,B,,0,0,0,,{\pos(540,1415)}empezó a tratarse como alguien
+Dialogue: 0,0:00:43.59,0:00:44.80,B,,0,0,0,,{\pos(540,1415)}que realmente se quiere
+Dialogue: 0,0:00:44.80,0:00:46.01,B,,0,0,0,,{\pos(540,1415)}empezó a enseñar cosas
+Dialogue: 0,0:00:46.01,0:00:47.34,B,,0,0,0,,{\pos(540,1415)}que realmente le gustan
+Dialogue: 0,0:00:47.34,0:00:48.32,B,,0,0,0,,{\pos(540,1415)}Y la vida le empezó
+Dialogue: 0,0:00:48.32,0:00:49.80,B,,0,0,0,,{\pos(540,1415)}a traer exactamente lo mismo
+Dialogue: 0,0:00:49.80,0:00:51.00,B,,0,0,0,,{\pos(540,1415)}personas que le respetan
+Dialogue: 0,0:00:51.00,0:00:51.66,B,,0,0,0,,{\pos(540,1415)}que le quieren
+Dialogue: 0,0:00:51.66,0:00:52.54,B,,0,0,0,,{\pos(540,1415)}que le valoran
+Dialogue: 0,0:00:52.54,0:00:53.83,B,,0,0,0,,{\pos(540,1415)}y que pagan por aquello
+Dialogue: 0,0:00:53.83,0:00:54.45,B,,0,0,0,,{\pos(540,1415)}que él sabe
+Dialogue: 0,0:00:54.45,0:00:55.34,B,,0,0,0,,{\pos(540,1415)}Los dos atraen igual
+Dialogue: 0,0:00:55.34,0:00:55.66,B,,0,0,0,,{\pos(540,1415)}de bien
+Dialogue: 0,0:00:55.66,0:00:56.89,B,,0,0,0,,{\pos(540,1415)}la diferencia entre uno
+Dialogue: 0,0:00:56.89,0:00:57.16,B,,0,0,0,,{\pos(540,1415)}y otro
+Dialogue: 0,0:00:57.16,0:00:58.19,B,,0,0,0,,{\pos(540,1415)}es lo que sienten
+Dialogue: 0,0:00:58.19,0:00:59.37,B,,0,0,0,,{\pos(540,1415)}en su corazón que merecen
+Dialogue: 0,0:00:59.37,0:01:00.25,B,,0,0,0,,{\pos(540,1415)}Y lo que cada uno
+Dialogue: 0,0:01:00.25,0:01:01.43,B,,0,0,0,,{\pos(540,1415)}cree de sí mismo cuando
+Dialogue: 0,0:01:01.43,0:01:01.81,B,,0,0,0,,{\pos(540,1415)}está solo
+Dialogue: 0,0:01:01.81,0:01:02.68,B,,0,0,0,,{\pos(540,1415)}Así que no cambies
+Dialogue: 0,0:01:02.68,0:01:03.27,B,,0,0,0,,{\pos(540,1415)}lo que pides
+Dialogue: 0,0:01:03.27,0:01:04.38,B,,0,0,0,,{\pos(540,1415)}cambia lo que crees
+Dialogue: 0,0:01:04.38,0:01:05.71,B,,0,0,0,,{\pos(540,1415)}en el fondo que mereces
+Dialogue: 0,0:01:05.71,0:01:06.86,B,,0,0,0,,{\pos(540,1415)}Y empieza hoy tratándote como
+Dialogue: 0,0:01:06.86,0:01:08.44,B,,0,0,0,,{\pos(540,1415)}alguien que ya es suficiente
+Dialogue: 0,0:01:08.44,0:01:09.27,B,,0,0,0,,{\pos(540,1415)}Tenga lo que tenga
+Dialogue: 0,0:01:09.27,0:01:10.17,B,,0,0,0,,{\pos(540,1415)}o haga lo que haga

@@ -1,0 +1,162 @@
+{
+ "fuente": "../../VideosLargos/cobras-barato/5 señales de que cobras BARATO con tu marca personal - horizontal.mp4",
+ "tiempos": "../../VideosLargos/cobras-barato/5 señales de que cobras BARATO con tu marca personal - horizontal.tiempos.json",
+ "montaje": "../../VideosLargos/cobras-barato/5 señales de que cobras BARATO con tu marca personal - horizontal.montaje.json",
+ "salida": "out_f1",
+ "reels": {
+  "c08_g12e14_F1": {
+   "gancho": [
+    [
+     1914,
+     1928
+    ]
+   ],
+   "cuerpo": [
+    [
+     1865,
+     1899
+    ],
+    [
+     1905,
+     1910
+    ],
+    [
+     1929,
+     1981
+    ],
+    [
+     1989,
+     1998
+    ],
+    [
+     3043,
+     3050
+    ],
+    [
+     3066,
+     3076
+    ],
+    [
+     3102,
+     3134
+    ]
+   ],
+   "enfasis": [
+    [
+     1925,
+     1928
+    ],
+    [
+     1932,
+     1935
+    ],
+    [
+     3128,
+     3134
+    ]
+   ],
+   "titulo": "Perfeccionar tu información no te hará vender más:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3"
+  },
+  "c09_g13e15_F1": {
+   "gancho": [
+    [
+     2315,
+     2331
+    ]
+   ],
+   "cuerpo": [
+    [
+     2199,
+     2217
+    ],
+    [
+     2218,
+     2225
+    ],
+    [
+     2263,
+     2272
+    ],
+    [
+     2285,
+     2291
+    ],
+    [
+     2124,
+     2149
+    ],
+    [
+     2150,
+     2157
+    ],
+    [
+     2353,
+     2363
+    ],
+    [
+     2373,
+     2405
+    ]
+   ],
+   "enfasis": [
+    [
+     2323,
+     2326
+    ],
+    [
+     2286,
+     2291
+    ],
+    [
+     2403,
+     2405
+    ]
+   ],
+   "titulo": "Si rebajas tu precio cuando el cliente duda, te estás fallando:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3"
+  },
+  "t04_g14e16_F1": {
+   "gancho": [
+    [
+     2430,
+     2442
+    ]
+   ],
+   "cuerpo": [
+    [
+     2452,
+     2502
+    ],
+    [
+     2505,
+     2545
+    ],
+    [
+     2559,
+     2564
+    ],
+    [
+     2565,
+     2644
+    ]
+   ],
+   "enfasis": [
+    [
+     2440,
+     2442
+    ],
+    [
+     2571,
+     2574
+    ],
+    [
+     2614,
+     2617
+    ]
+   ],
+   "titulo": "Te cuesta decir tu precio porque no sabes lo que vales:",
+   "musica": "ÉPICA/ECHO SAX END but it sounds like Øneheart.mp3"
+  }
+ }
+}

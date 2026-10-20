@@ -1,0 +1,145 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  2,
+  15,
+  21,
+  22,
+  23,
+  27,
+  46,
+  47,
+  49,
+  56,
+  57,
+  59,
+  60
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Quieres que tu vida cambie sin cambiar tú, y eso es peinar el ESPEJO:",
+   "musica": "ÉPICA/Ogryzek - AURA.mp3",
+   "gancho": [
+    2
+   ],
+   "cuerpo": [
+    15,
+    21,
+    22,
+    23,
+    27,
+    46,
+    47,
+    49,
+    56,
+    57,
+    59,
+    60
+   ]
+  },
+  "r2": {
+   "titulo": "Te pasas el día quejándote y luego te extraña que nada te SALGA bien:",
+   "musica": "EMOCIONAL/Tony Ann - ICARUS _ EPIC Orchestral Version.mp3",
+   "gancho": [
+    6
+   ],
+   "cuerpo": [
+    2,
+    21,
+    22,
+    23,
+    27,
+    46,
+    47,
+    49,
+    56,
+    57,
+    59,
+    60
+   ]
+  },
+  "r3": {
+   "titulo": "Quejarte de todo es justo lo que hace que tu vida siga EXACTAMENTE igual:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "gancho": [
+    9
+   ]
+  },
+  "r4": {
+   "titulo": "Tu vida es un espejo y cada día le estás enseñando tu PEOR cara:",
+   "musica": "EMOCIONAL/Outro - M83 only the best part.mp3",
+   "gancho": [
+    10
+   ]
+  },
+  "r5": {
+   "titulo": "\"Nunca me sale nada bien\", y no te das cuenta de lo que TÚ le enseñas:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3",
+   "gancho": [
+    12,
+    13
+   ]
+  }
+ },
+ "estilo": "historia",
+ "diapos": [
+  {
+   "frase": "Si te levantas",
+   "titulo": "¿Peinas el **espejo**?",
+   "dibujo": "escenas/historia04/1_peinar_el_espejo_rojo"
+  },
+  {
+   "frase": "El espejo es como",
+   "titulo": "Tu vida es un **espejo**",
+   "dibujo": "escenas/historia04/2_la_vida_es_un_espejo_rojo"
+  },
+  {
+   "frase": "quiere estar mejor",
+   "titulo": "Fulano se **queja** de todo",
+   "dibujo": "escenas/historia04/3_fulano_se_queja_rojo"
+  },
+  {
+   "frase": "Quiere que su vida",
+   "titulo": "Y le devuelve **lo mismo**",
+   "dibujo": "escenas/historia04/4_el_espejo_devuelve_lo_mismo_rojo"
+  },
+  {
+   "frase": "Pero Mengano pilló",
+   "titulo": "Mengano empezó a **cuidarse**",
+   "dibujo": "escenas/historia04/5_mengano_se_cuida_azul"
+  },
+  {
+   "frase": "Y el espejo no",
+   "titulo": "Y el espejo le **sonríe**",
+   "dibujo": "escenas/historia04/6_el_espejo_le_sonrie_azul"
+  },
+  {
+   "frase": "El espejo o la vida",
+   "titulo": "Cambia por **dentro**",
+   "dibujo": "escenas/historia02/1_atraes_lo_que_eres_azul"
+  },
+  {
+   "frase": "Así que hoy",
+   "titulo": "Cambia la queja por **gratitud**",
+   "dibujo": "escenas/historia04/7_queja_por_gratitud_azul"
+  }
+ ],
+ "corrige": [
+  [
+   "Fula no",
+   "Fulano"
+  ],
+  [
+   "fulano",
+   "Fulano"
+  ],
+  [
+   "mengano",
+   "Mengano"
+  ],
+  [
+   "Vengando",
+   "Mengano"
+  ]
+ ]
+}

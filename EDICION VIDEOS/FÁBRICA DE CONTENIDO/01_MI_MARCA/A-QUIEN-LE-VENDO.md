@@ -1,237 +1,384 @@
 # A quién le vendo · Abel García
 
-**Nicho:** Si emprendes, te enseño a llenar tu agenda con tu marca personal. Sin perseguir clientes ni perder tu autenticidad.
+**Especialista en Autoestima · Espiritualidad que funciona**
 
-**Qué vendo:** mentoría 1:1 (997 € · 3 meses) para coaches, terapeutas, guías, gente de reiki y médiums: su mensaje, contenido que vende, captar sin perseguir y lo de dentro que les sabotea la agenda.
+**Qué vendo:** Acompañamiento 1 a 1 de Club Unidad (997 €) para la persona, hombre o mujer, que no se siente suficiente: trabajar lo que siente de sí misma y todo lo que le sube o le baja la energía (Método Unidad), sin años de terapia.
 
-**Cómo usar este documento:** cada descripción es un ángulo de contenido. El gancho nombra su situación; la colleja, lo que hace mal y lo que le cuesta; la solución, su mensaje y lo de dentro, con el ejemplo de Abel o de Allan. Sin CTA.
+**285 descripciones**, no por edad ni sexo: escritas como lo diría la persona, en primera persona y con sus palabras (lo que vive y lo que siente y piensa por dentro de sí misma, de la vida, de lo que merece, de lo que puede conseguir, de Dios, del amor y de enseñar lo suyo; y, del 23 al 30, la vida que QUIERE). Sacadas de cómo habla la gente de verdad en foros y comentarios (VOZ-DEL-CLIENTE.md).
 
-## 1 · Tienen un don y la agenda medio vacía
+**Cómo usarlo (360, como Luigi y Rebeca):** siempre esta misma persona, cada pieza desde un bloque distinto, rotando; cada frase es un gancho que la persona reconoce como suyo. La colleja, lo que hace mal y lo que le cuesta; la solución, desde la lente de Abel (emociones bajas → energía baja → autoestima baja) con su ejemplo. Sin CTA.
 
-1. Terapeutas que cambian la vida de cada persona que pasa por su consulta y aun así tienen huecos en la agenda toda la semana.
-2. Coaches que tienen una certificación detrás de otra y siguen sin un solo cliente que no venga de un amigo.
-3. Gente de reiki que da sesiones increíbles y vive con miedo a final de mes porque nunca sabe cuántas personas vendrán.
-4. Médiums con un don que impresiona a cualquiera, que siguen atendiendo solo a conocidos de conocidos.
-5. Profesores de yoga que llenan una clase en verano y la ven medio vacía en cuanto llega septiembre.
-6. Terapeutas que dependen del boca a boca y se quedan sin clientes en cuanto alguien deja de recomendarlas.
-7. Guías que saben que podrían ayudar a cientos de personas y se conforman con cinco porque no saben llegar a más.
-8. Coaches que compaginan su don con un trabajo que odian porque con sus sesiones no les da para vivir.
-9. Sanadores que dicen «lo que tenga que llegar, llegará» mientras pasan los meses sin que llegue nadie.
-10. Terapeutas que tienen la consulta perfecta, la camilla y la web, y nadie que entre por la puerta.
-11. Profesionales del bienestar que han invertido miles de euros en formarse y no han recuperado ni la mitad.
-12. Personas que dejaron su trabajo para dedicarse a ayudar y ahora se plantean volver porque no llegan a fin de mes.
-13. Terapeutas que hacen un trabajo mejor que la mitad de los que se anuncian y tienen la mitad de clientes.
-14. Gente con un don que lo esconde de lunes a viernes detrás de un trabajo de oficina.
-15. Terapeutas que cada mes empiezan de cero porque no tienen nada que haga que los clientes lleguen solos.
-16. Facilitadores de retiros que ponen fecha, lo preparan todo y cancelan porque se han apuntado tres personas.
-17. Coaches que miran su agenda los domingos por la noche con un nudo en el estómago.
-18. Tarotistas y médiums que cobran por debajo de lo que valen porque piensan que si suben no vendrá nadie.
-19. Personas con un talento real que empiezan a dudar de si sirven para esto solo porque no les llegan clientes.
-20. Coaches que tienen una lista de espera en la cabeza y un calendario real lleno de huecos.
+## 1 · Por fuera, todo bien
 
-## 2 · Les da vergüenza venderse (y lo llaman humildad)
+1. «Todo el mundo me ve bien. Si supieran cómo llego a casa.»
+2. «Me río con todos y luego en el coche, a solas, se me cae la cara.»
+3. «Me preguntan qué tal y digo “bien, bien”, por no dar la chapa.»
+4. «Siempre estoy sonriendo como tonta y por dentro tengo un dolor que no sé explicar.»
+5. «Tengo trabajo, pareja y amigos. ¿De qué me quejo? Y aun así estoy fatal.»
+6. «Todos me cuentan sus problemas a mí. A mí no me pregunta nadie.»
+7. «Lloro en la ducha para que no me oigan.»
+8. «Subo una foto riéndome, la miro y pienso: menuda mentira.»
+9. «En el trabajo parezco el más seguro, y estoy pendiente de lo que piensa cada uno.» [AMBOS]
+10. «Llevo tanto tiempo haciendo como que estoy bien que ya no sé cómo es estar bien.»
+11. «Me lleno el día de cosas para no tener ni un minuto para pensar.»
+12. «Lo mío no es tan grave, hay gente mucho peor. Así que me lo callo.»
 
-21. Coaches que dicen «no me gusta venderme» y lo llaman humildad, cuando lo que hay es miedo a que les digan que no.
-22. Terapeutas que nunca dicen en sus redes que tienen hueco por miedo a parecer desesperadas.
-23. Gente de reiki que siente que hablar de precio ensucia lo que hace.
-24. Médiums que no ponen en su perfil que dan sesiones porque les da apuro que lo vea su familia.
-25. Guías que, cuando alguien les pregunta a qué se dedican, lo explican tan por encima que nadie se entera.
-26. Terapeutas que hablan de todo en sus redes menos de cómo pueden ayudarte.
-27. Coaches que borran una historia vendiendo su servicio a los diez minutos de subirla.
-28. Personas que esperan a que el cliente les pida trabajar juntos porque ellas no se atreven a ofrecerlo.
-29. Terapeutas que sienten que si venden pierden su espiritualidad.
-30. Profesionales que tienen una conversación preciosa por DM y nunca llegan a decir «¿quieres que trabajemos juntos?».
-31. Coaches que se esconden detrás de un logo porque les da vergüenza que se les vea la cara.
-32. Personas que no hablan de sus resultados porque les parece presumir.
-33. Terapeutas que confunden vender con manipular, y por eso no venden nada.
-34. Sanadores que creen que el universo les mandará clientes sin tener que decir que existen.
-35. Coaches que tienen un testimonio brutal guardado en el móvil y nunca lo enseñan.
-36. Personas que en persona convencen a cualquiera y delante de la cámara no saben ni presentarse.
-37. Terapeutas a las que les tiembla la voz cuando dicen su precio.
-38. Guías espirituales que piensan que quien vende es un interesado y no quieren parecerse a él.
-39. Coaches que hacen un directo al año y lo viven como si saltaran de un avión.
-40. Personas que dicen «ya me encontrarán» y llevan dos años sin que las encuentre nadie.
+## 2 · Dicen que sí a todo
 
-## 3 · No saben qué publicar ni cómo grabarse
+13. «Digo que sí y nada más colgar ya me estoy arrepintiendo.»
+14. «Pido perdón hasta cuando no he hecho nada.»
+15. «No sé decir que no. Y luego me como el marrón yo solo.»
+16. «Me quedo en planes que no me apetecen nada para no quedar mal.»
+17. «Si alguien está serio, ya pienso que es por algo que he hecho yo.»
+18. «“Me da igual, lo que tú quieras”. Y luego me siento invisible.»
+19. «Lo hago todo en casa y encima me siento culpable si un día me siento en el sofá.»
+20. «Le doy demasiada importancia a lo que piensan de mí.»
+21. «Me callo lo que pienso para no liarla.»
+22. «Me piden un favor, no me apetece y lo hago igual. Siempre.»
+23. «Cuando por fin digo lo que pienso, me siento la peor persona del mundo.»
+24. «Me hacen daño y encima soy yo el que pide perdón.»
 
-41. Coaches que abren Instagram, miran la pantalla en blanco y lo cierran sin publicar nada.
-42. Terapeutas que graban un vídeo diez veces y no suben ninguno porque no se gustan.
-43. Gente de reiki que publica una vez al mes cuando le viene la inspiración y desaparece el resto.
-44. Médiums que no saben explicar lo que hacen sin sonar raros.
-45. Guías que publican frases de otros porque no saben qué decir con sus propias palabras.
-46. Coaches que se pasan la tarde viendo tutoriales de edición en vez de grabar.
-47. Terapeutas que creen que necesitan una cámara y una luz profesional para empezar.
-48. Personas que tienen cien ideas en las notas del móvil y ninguna grabada.
-49. Coaches que se bloquean delante de la cámara y hablan como si leyeran un informe.
-50. Terapeutas que hacen vídeos de diez minutos explicando teoría que nadie termina de ver.
-51. Profesores de yoga que solo suben fotos de posturas y no cuentan nada de ellos.
-52. Coaches que copian los bailes y trucos de moda y no les pega nada con lo que hacen.
-53. Terapeutas que empiezan todos sus vídeos con «hola, hoy os quiero hablar de» y pierden a la gente en el primer segundo.
-54. Personas que piensan que no tienen nada interesante que contar.
-55. Guías que publican todos los días sin saber para qué y se queman en un mes.
-56. Coaches que no saben qué decir sin dar los mismos consejos que ya ha dado todo el mundo.
-57. Terapeutas que esperan a tenerlo todo perfecto para empezar, y nunca está perfecto.
-58. Sanadores que dejan las redes porque «no es lo suyo» sin haberlo intentado de verdad.
-59. Coaches que no saben contar su historia sin sentir que dan pena.
-60. Personas que ven a otros grabarse con naturalidad y piensan que ellas nunca podrán.
+## 3 · Necesitan a alguien para estar bien
 
-## 4 · Publican y no les escribe nadie
+25. «Me paso el día mirando si está en línea.»
+26. «No me ha contestado en dos horas y ya me estoy montando películas.»
+27. «Sé que esta relación no me hace bien, pero si lo dejo, ¿quién me va a querer?»
+28. «Lo dejamos hace meses y sigo mirando sus historias.»
+29. «Un fin de semana sola en casa y me entra una ansiedad que no puedo.»
+30. «A poco que me den, yo lo doy todo.»
+31. «Me cambio hasta la forma de vestir para gustarle.»
+32. «Si no me dicen que lo he hecho bien, no me lo creo.»
+33. «Vuelvo con quien me hizo daño porque estar sola me da más miedo.»
+34. «Tengo cuarenta años y sigo esperando que mi padre me diga que está orgulloso de mí.»
+35. «Si me deja, me quedo sin nada. Yo era yo con él.»
+36. «No sé si la quiero o si me da pánico estar solo.»
 
-61. Terapeutas que publican frases bonitas con un atardecer de fondo y luego se preguntan por qué nadie les escribe.
-62. Coaches que tienen mil seguidores y ni un mensaje privado en meses.
-63. Gente de reiki que recibe muchos «qué bonito» en los comentarios y ningún cliente.
-64. Médiums que hacen contenido que entretiene pero que no hace que nadie quiera trabajar con ellos.
-65. Guías que hablan de su método y no del problema que tiene la persona que les ve.
-66. Coaches obsesionados con los seguidores que no se dan cuenta de que lo que necesitan son conversaciones.
-67. Terapeutas que publican para otros terapeutas en vez de para quien las puede contratar.
-68. Personas que hacen contenido educativo impecable en el que nadie siente que le hablan a él.
-69. Coaches que tienen visualizaciones pero nadie que les pregunte cómo trabajar juntos.
-70. Terapeutas que nunca dicen en un vídeo a quién ayudan exactamente.
-71. Profesionales que hablan con palabras técnicas que su cliente no entiende.
-72. Sanadores que hablan de vibración y frecuencia a gente que solo quiere dormir bien.
-73. Coaches que publican lo mismo que otros cien coaches y no hay nada que los diferencie.
-74. Terapeutas que contestan los mensajes tarde y mal porque no saben qué decir cuando les escriben.
-75. Personas que hacen un vídeo viral y no consiguen ni un cliente porque no le hablaba a nadie en concreto.
-76. Guías que no enseñan nunca historias de personas a las que han ayudado.
-77. Coaches que publican en cinco redes a la vez y no destacan en ninguna.
-78. Terapeutas que tienen una bio que no dice ni a qué se dedican.
-79. Personas que culpan al algoritmo de lo que en realidad es un mensaje que no conecta.
-80. Coaches que creen que el problema es cuánto publican cuando el problema es lo que publican.
+## 4 · Se comparan con todos
 
-## 5 · Persiguen clientes y regalan su trabajo
+37. «Abro Instagram cinco minutos y salgo sintiéndome una mierda.»
+38. «Todos mis amigos tienen pareja, casa y niños. Y yo aquí.»
+39. «Tengo treinta años y siento que he fracasado en la vida.»
+40. «Sigo viviendo con mis padres y me da vergüenza decirlo.»
+41. «Me veo en una foto y solo veo defectos.»
+42. «Me miro al espejo y me doy asco.»
+43. «Me alegro por los demás, pero por dentro me escuece.»
+44. «Siempre hay alguien más guapo, más listo o con más dinero que yo.»
+45. «No enseño lo que hago porque lo de los demás es mejor.» [AMBOS]
+46. «En mi familia siempre fui el que no daba la talla.»
+47. «En un grupo me hago pequeñito y casi ni hablo.»
+48. «Me veo más vieja que mi amiga de sesenta.»
 
-81. Coaches que escriben a desconocidos por DM ofreciendo una sesión y sienten que mendigan.
-82. Terapeutas que regalan sesiones «para darse a conocer» y nunca convierten a nadie en cliente.
-83. Gente de reiki que persigue a antiguos clientes para que vuelvan.
-84. Médiums que hacen lecturas gratis en directos y luego nadie paga una.
-85. Guías que se pasan el día comentando en grupos de Facebook para ver si alguien les contrata.
-86. Coaches que mandan audios de cinco minutos a personas que no les han pedido nada.
-87. Terapeutas que hacen descuentos constantes porque sienten que sin descuento no vendrá nadie.
-88. Personas que dan tanto gratis que el cliente ya no necesita pagarles.
-89. Coaches que llaman «seguimiento» a perseguir a alguien que ya les dijo que no.
-90. Terapeutas que aceptan a cualquier cliente aunque no les encaje, por miedo a quedarse sin ninguno.
-91. Facilitadores que llenan sus talleres a base de pedir favores a sus amigos.
-92. Coaches que se agotan haciendo llamadas de descubrimiento que nunca terminan en venta.
-93. Terapeutas que contestan dudas gratis por WhatsApp hasta las once de la noche.
-94. Sanadores que trabajan «por la voluntad» y luego se sienten utilizados.
-95. Personas que van a eventos a repartir tarjetas y vuelven a casa con la misma agenda.
-96. Coaches que bajan el precio en mitad de la llamada en cuanto notan una duda.
-97. Terapeutas que sienten que tienen que convencer a la gente de que las necesita.
-98. Médiums que se pasan horas de más con un cliente sin cobrarlas porque les sabe mal.
-99. Guías que regalan lo mejor que tienen en un PDF y luego no saben qué vender.
-100. Personas que creen que persiguiendo más conseguirán más, cuando cada mensaje las aleja un poco más.
+## 5 · Buscan su valor fuera
 
-## 6 · Culpa por cobrar y precios bajos
+49. «Si me va bien en el trabajo, estoy bien. Si no, soy una mierda.» [AMBOS]
+50. «Voy al gimnasio todos los días y sigo sin gustarme.»
+51. «“Cuando cobre más, ahí sí”. Eso llevo diciendo diez años.» [AMBOS]
+52. «Me dicen veinte cosas buenas y una mala, y me quedo con la mala toda la semana.»
+53. «Me compro algo, estoy contento dos días y vuelta a lo mismo.»
+54. «Si no voy arreglada, no salgo de casa.»
+55. «Si descanso, me siento un vago.»
+56. «Lo he conseguido todo para que mi familia me vea, y sigue sin verme.» [AMBOS]
+57. «Si fallo en algo, siento que el que ha fallado soy yo.»
+58. «Me he quedado sin trabajo y ahora no sé ni quién soy.» [AMBOS]
+59. «Siempre tengo que ser el más fuerte, el que más trabaja, el que nunca falla.»
 
-101. Terapeutas que sienten que cobrar por ayudar está mal, y por eso cobran como si les diera vergüenza.
-102. Coaches que llevan tres años con el mismo precio porque les da miedo subirlo.
-103. Gente de reiki que cree que los dones no se cobran y luego no llega a fin de mes.
-104. Médiums que se sienten culpables cuando alguien paga una sesión y no sale como esperaba.
-105. Guías que piensan que si ganan dinero dejarán de ser espirituales.
-106. Coaches que dicen su precio y enseguida añaden «pero si no puedes, lo hablamos».
-107. Terapeutas que trabajan sesenta horas a la semana a precio de saldo y lo llaman vocación.
-108. Personas que crecieron oyendo que el dinero es sucio y hoy lo apartan sin darse cuenta.
-109. Coaches que cobran menos que su peluquero por cambiarle la vida a alguien.
-110. Terapeutas que se queman porque necesitan muchos clientes baratos para llegar a fin de mes.
-111. Sanadores que se sienten en deuda con cada persona que les paga.
-112. Coaches que no se atreven a vender un programa porque «quién soy yo para cobrar eso».
-113. Terapeutas que hacen excepciones de precio con todo el mundo y luego no les salen las cuentas.
-114. Personas que ayudan a todos a vivir con abundancia menos a sí mismas.
-115. Profesores de yoga que cobran lo mismo que el gimnasio de la esquina y sienten que valen más.
-116. Coaches que tienen miedo de que los juzguen por ganar dinero ayudando.
-117. Terapeutas que se ponen nerviosas cada vez que tienen que mandar una factura.
-118. Guías que se comparan con quien cobra más y piensan «ese es un vendehúmos».
-119. Médiums que creen que si cobran bien el don se les irá.
-120. Personas que dicen que el dinero no les importa y viven agobiadas por él.
+## 6 · Tapan el vacío
 
-## 7 · Se comparan, se sienten impostores y esperan a estar preparados
+60. «Lo primero que hago al despertar es coger el móvil. Lo último antes de dormir, también.»
+61. «Cuanto más me miro, más ansiedad me entra y más como.»
+62. «Sin una cerveza por la noche no consigo desconectar.»
+63. «Salgo todos los findes, y el lunes estoy peor que el viernes.»
+64. «Me pongo series hasta las tres para no pensar.»
+65. «Me digo que es la última vez. Siempre es la última vez.»
+66. «Tengo el armario lleno de ropa que no me pongo.»
+67. «No aguanto el silencio. Siempre tengo algo puesto de fondo.»
+68. «Echo doce horas en el trabajo para no tener que estar en casa.» [AMBOS]
+69. «Me río de todo, hasta de lo que me duele. Así no tengo que hablarlo.»
+70. «Cuando todo se calla, noto un agujero en el pecho.»
 
-121. Coaches que ven a otros con menos formación llenar la agenda y sienten rabia y envidia a la vez.
-122. Terapeutas que hacen otro curso más porque sienten que todavía no saben lo suficiente.
-123. Gente de reiki que piensa que todavía no está preparada para tener clientes de verdad.
-124. Médiums que tienen miedo de que alguien les diga en público que lo suyo es mentira.
-125. Guías que se sienten un fraude cada vez que alguien les da las gracias.
-126. Coaches que no se atreven a hablar de un tema porque «ya lo ha dicho otro mejor».
-127. Terapeutas que se comparan con quien tiene cien mil seguidores y se paralizan.
-128. Personas con veinte certificados colgados en la pared y ninguna seguridad por dentro.
-129. Coaches que esperan a tener su propia vida resuelta para empezar a ayudar a otros.
-130. Terapeutas que piensan que el mercado está saturado y que no hay sitio para ellas.
-131. Sanadores que creen que tienen que ser perfectos para poder ayudar.
-132. Coaches que miran las estadísticas de otros todos los días y se sienten pequeños.
-133. Terapeutas que no se sienten legítimas porque no tienen un título «oficial».
-134. Guías que esconden su pasado porque creen que les quita autoridad, cuando es lo que más conecta.
-135. Personas que dicen «cuando tenga más experiencia» y llevan cinco años diciéndolo.
-136. Coaches que necesitan la aprobación de su mentor para cada paso que dan.
-137. Terapeutas que se paralizan con un comentario negativo entre cien buenos.
-138. Médiums que se callan lo que perciben por miedo a equivocarse en público.
-139. Coaches que se sienten pequeños al lado de un cliente al que le va bien en la vida.
-140. Personas que creen que el éxito es para otros con más suerte, más contactos o más carisma.
+## 7 · Lo que se dicen por dentro
 
-## 8 · Pierden su autenticidad copiando a otros
+71. «Soy tonto. ¿Cómo he podido decir eso?»
+72. «Me voy a la cama repasando todo lo que dije mal en el día.»
+73. «Si me conocieran de verdad, no me querría nadie.»
+74. «Me dicen que estoy guapa y pienso que lo dicen por quedar bien.»
+75. «Siento que molesto hasta cuando hablo.»
+76. «No me veo capaz de hacer nada bien. Y si me sale bien, pienso que ha sido suerte.»
+77. «¿Qué me pasa? ¿Por qué no puedo ser normal?»
+78. «Algo empieza a ir bien y ya estoy esperando a fastidiarlo.»
+79. «Me castigo tres días por un fallo de nada.»
+80. «Me miro y en la cabeza me suena: “gorda”, “fea”, “inútil”.»
+81. «Para qué voy a soñar con nada, si no lo voy a conseguir.»
+82. «Soy una carga para los que me quieren.»
 
-141. Coaches que copian el estilo de su mentor y suenan a una copia barata.
-142. Terapeutas que en redes hablan con una voz que no es la suya, más seria, más técnica y más fría.
-143. Gente de reiki que esconde su lado espiritual porque cree que asusta a la gente.
-144. Médiums que se disfrazan de algo que no son para parecer más creíbles.
-145. Guías que siguen todas las tendencias aunque les dé vergüenza ajena hacerlas.
-146. Coaches que se ponen la máscara de «todo me va genial» y con quienes nadie conecta.
-147. Terapeutas que nunca cuentan lo que vivieron ellas, que es justo lo que las hace únicas.
-148. Personas que hablan como un anuncio y luego no entienden por qué no generan confianza.
-149. Coaches que usan las mismas palabras que todo su sector y se vuelven invisibles.
-150. Terapeutas que quitan su opinión de todo para no molestar a nadie y no conectan con nadie.
-151. Sanadores que publican lo que creen que la gente quiere ver en vez de lo que piensan de verdad.
-152. Coaches que cambian de nicho cada tres meses porque alguien les dijo que ahí está el dinero.
-153. Terapeutas que se avergüenzan de su acento, de su casa o de su forma de hablar delante de la cámara.
-154. Guías que tienen opiniones fuertes y se las callan por miedo a perder seguidores.
-155. Personas que usan plantillas de guiones que no suenan a ellas, y se nota en cada vídeo.
-156. Coaches que imitan a gurús americanos cuando su público es de su barrio.
-157. Terapeutas que enseñan solo sus títulos y nunca a la persona que hay detrás.
-158. Médiums que suavizan tanto lo que hacen que nadie sabe exactamente qué ofrecen.
-159. Coaches que tienen miedo de que su familia vea en redes quiénes son de verdad.
-160. Personas que se pierden intentando gustar a todos y acaban sin gustarle a nadie.
+## 8 · Ya lo han probado todo
 
-## 9 · Solo miran el dinero y se olvidan de su mensaje
+83. «Me he leído veinte libros de autoestima y estoy igual.»
+84. «Fui años al psicólogo. Entiendo perfectamente lo que me pasa. Y no cambia nada.»
+85. «Me pongo delante del espejo a decirme cosas bonitas y no me creo ni una.»
+86. «He empezado a meditar diez veces. Diez veces lo he dejado.»
+87. «Vuelvo de un retiro como nuevo y a la semana estoy igual.»
+88. «Estoy harto de que me digan “quiérete más”. ¿Cómo, exactamente?»
+89. «Lo sé todo del niño interior y no sé qué hacer con el mío.»
+90. «Me he gastado un dineral en cosas que no me han servido.» [AMBOS]
+91. «Ya desconfío de todo lo que suena a desarrollo personal.» [AMBOS]
+92. «Lo entiendo con la cabeza, pero por dentro sigo igual.»
+93. «Mejoro dos semanas y vuelvo a caer.»
+94. «Igual lo mío no tiene arreglo.»
 
-161. Coaches que solo hablan de facturación y se les ha olvidado por qué empezaron a ayudar.
-162. Terapeutas que venden desde la escasez, y el cliente lo nota en cada mensaje.
-163. Gente de reiki que mete urgencia falsa en cada publicación porque necesita vender este mes.
-164. Médiums que prometen cosas que no pueden cumplir para cerrar una venta.
-165. Guías espirituales que usan la espiritualidad para sentirse por encima de sus clientes.
-166. Coaches que aceptan clientes a los que no pueden ayudar solo porque necesitan el dinero.
-167. Terapeutas que cambian su mensaje cada mes según lo que creen que vende más.
-168. Personas que lanzan programas sin haber escuchado nunca qué necesita su cliente.
-169. Coaches que miden lo que valen por lo que facturan y se hunden cuando un mes va mal.
-170. Terapeutas que hablan de abundancia en redes y viven angustiadas por el alquiler.
-171. Sanadores que ayudan para que les vean, no para ayudar, y la gente lo siente.
-172. Coaches que copian lanzamientos agresivos que no van con ellos y se sienten sucios después.
-173. Terapeutas que quieren salvar a todo el mundo y se olvidan de que no todos quieren que les salven.
-174. Guías que venden el resultado de otros como si fuera suyo.
-175. Coaches que se apuntan a cada moda de negocio online y no construyen nada propio.
-176. Personas que confunden tener éxito con tener muchos seguidores.
-177. Terapeutas que se comparan en cifras con otros y pierden de vista a la persona que tienen delante.
-178. Coaches que, cuando no venden, culpan a la gente de «no estar preparada».
-179. Médiums que han convertido su don en un producto frío y ya no disfrutan.
-180. Personas que tienen una verdad que contar y la cambian por lo que dice el último curso de marketing.
+## 9 · Lo que vivieron de pequeños
 
-## 10 · Lo de dentro que les sabotea el negocio
+95. «Mi padre jamás estaba satisfecho con nada.»
+96. «En mi casa no se lloraba. “No llores, que no es para tanto”.»
+97. «Mis padres se separaron y yo pensaba que era por mi culpa.»
+98. «Aprendí que, si me portaba bien, había menos gritos.»
+99. «Con ocho años ya hacía de mayor en casa.»
+100. «En el colegio se reían de mí, y todavía me siento así en cualquier grupo.»
+101. «Me comparaban con mi hermano, y sigo sintiendo que no llego.»
+102. «Nos mudamos y nunca volví a sentirme de ningún sitio.»
+103. «Alguien me levanta la voz y me quedo bloqueado, como cuando era pequeño.»
+104. «Estoy repitiendo con mis hijos lo que me hicieron a mí, y me odio por ello.»
+105. «No me acuerdo de la última vez que me sentí protegida.»
 
-181. Terapeutas que ayudan a otros a sanar sus heridas y no han mirado la suya con el dinero.
-182. Coaches que de pequeños aprendieron que destacar era peligroso y hoy no se atreven a enseñarse.
-183. Gente de reiki que tiene tanto miedo a la crítica que prefiere no publicar.
-184. Médiums que siguen sintiendo que tienen que demostrarle algo a su familia.
-185. Guías que se sabotean justo cuando empieza a irles bien.
-186. Coaches que dicen que quieren más clientes y les entra el pánico cuando alguien les escribe.
-187. Terapeutas que crecieron oyendo «no te creas más que nadie» y hoy no saben hablar de lo que valen.
-188. Personas que dejan el contenido para mañana porque grabarse las enfrenta a cómo se ven.
-189. Coaches que viven con ansiedad cada vez que publican algo personal.
-190. Terapeutas que se sienten responsables de las emociones de cada cliente y acaban agotadas.
-191. Sanadores que no ponen límites a sus clientes y luego no tienen energía para nada más.
-192. Coaches que necesitan que cada vídeo funcione para sentir que valen algo.
-193. Terapeutas que tienen miedo de tener éxito porque creen que perderán a su gente.
-194. Guías que repiten con sus clientes la misma complacencia que tienen con su familia.
-195. Personas que se exigen tanto que nada de lo que publican les parece suficiente.
-196. Coaches que se quedan bloqueados cada vez que alguien les deja de seguir.
-197. Terapeutas que no se permiten ganar más que sus padres sin sentir que los traicionan.
-198. Médiums que escuchan lo que perciben de los demás y se callan lo que perciben de sí mismos.
-199. Coaches que esconden su ansiedad detrás de mensajes de «todo es posible».
-200. Personas que saben que el miedo les está frenando la agenda y aun así siguen pensando que les falta estrategia.
+## 10 · Tienen la energía por los suelos
+
+106. «Duermo ocho horas y me levanto como si me hubiera pasado un camión por encima.»
+107. «Ando todo el día triste, sin ganas de nada.»
+108. «Tengo un nudo en el estómago casi todos los días.»
+109. «De casa al trabajo y del trabajo a casa. Así llevo años.»
+110. «El domingo por la tarde ya me empieza la ansiedad.»
+111. «Ya no hago nada de lo que me gustaba. Ni me acuerdo de cuándo lo dejé.»
+112. «Salto por cualquier tontería y luego no sé ni por qué.»
+113. «No me acuerdo de la última vez que me reí de verdad.»
+114. «Se me ha ido la chispa que yo tenía.»
+115. «Veo pasar los años y todo sigue igual.»
+116. «Sé que algo tiene que cambiar y no sé ni por dónde empezar.»
+
+## 11 · Lo que sienten de sí mismos
+
+117. «Siento que tengo algo roto que los demás no tienen.»
+118. «Sobro en casi todos los sitios a los que voy.»
+119. «Me quiero más bien poco.»
+120. «Soy demasiado: demasiado sensible, demasiado intensa, demasiado todo.»
+121. «Me da vergüenza ser yo, y no sé ni de qué.»
+122. «No me reconozco. No sé en qué me he convertido.»
+123. «Si no estoy haciendo algo por alguien, no sé quién soy.»
+124. «Me paso el día haciendo de alguien que no soy.»
+125. «Nadie me conoce de verdad. Ni yo.»
+126. «Me falta algo y no sé ni ponerle nombre.»
+
+## 12 · Lo que sienten de la vida
+
+127. «Mi vida va cuesta abajo y sin frenos.»
+128. «La semana es aguantar hasta el viernes.»
+129. «A otros les sale todo. A mí todo me cuesta el doble.»
+130. «Cuando algo va bien, ya sé que viene el palo.»
+131. «Me levanto y no sé ni para qué.»
+132. «Ser feliz es para otros.»
+133. «Estoy esperando a que pase algo que me cambie la vida.»
+134. «Miro atrás y siento que he tirado los mejores años.»
+135. «La vida es esto: sufrir y tirar.»
+136. «La vida me pasa por delante y yo solo miro.»
+
+## 13 · Lo que creen que merecen
+
+137. «Si me pasa algo bueno, me siento culpable.»
+138. «Aguanto lo que sea porque no creo que pueda aspirar a más.»
+139. «Si alguien me trata bien, desconfío.»
+140. «No pido un aumento porque ¿quién soy yo para pedirlo?» [AMBOS]
+141. «Descansaré cuando termine todo. Y nunca termino.»
+142. «Me conformo con migajas porque es lo que he tenido siempre.»
+143. «Algo habré hecho para merecer esto.»
+144. «Estar bien cuando mi madre está mal me parece de mala persona.»
+145. «Pedir más me parece de desagradecido.»
+146. «Lo bueno siempre les pasa a otros.»
+
+## 14 · Lo que creen que pueden conseguir
+
+147. «¿Quién soy yo para hacer eso?» [AMBOS]
+148. «No lo intento, y así no fallo.» [AMBOS]
+149. «Ya sabía yo que no iba a salir.»
+150. «Ya no estoy a tiempo de nada.»
+151. «Me pongo metas pequeñas para no llevarme el chasco.» [AMBOS]
+152. «De aquí no salgo. Esto es lo que me ha tocado.»
+153. «No soy tan listo como para cambiar de vida.» [AMBOS]
+154. «Otros pueden. Yo no.»
+155. «Necesito que venga alguien y me saque de aquí.»
+156. «Vivir una vida que me guste es pedir demasiado.»
+
+## 15 · Lo que piensan de Dios, del universo y de lo espiritual
+
+157. «¿Por qué a mí? ¿Qué he hecho yo?»
+158. «Siento que Dios se ha olvidado de mí.»
+159. «Rezo, pido señales y no me llega nada.»
+160. «Desde que murió mi madre no creo en nada.»
+161. «Leo cosas espirituales y me siento peor, porque yo no estoy en paz.»
+162. «Estaré pagando algo, porque esto no es normal.»
+163. «Lo de manifestar a mí no me funciona. Algo hago mal.»
+164. «Tengo miedo a morirme y no lo hablo con nadie.»
+165. «Me pregunto si mi padre estará bien, esté donde esté.»
+166. «No me siento unida a nada: ni a la gente, ni a mí, ni a nada.»
+167. «La vida me pone pruebas y ya no puedo con una más.»
+
+## 16 · Lo que sienten del amor y de la gente
+
+168. «Siempre doy más de lo que recibo.»
+169. «No me fío de nadie. Ya me la han liado demasiadas veces.»
+170. «Nadie me elige primero.»
+171. «Al final todos se cansan de mí.»
+172. «Estoy rodeada de gente y me siento sola.»
+173. «Si le digo lo que siento, le pierdo.»
+174. «El amor de verdad no es para mí.»
+175. «En las conversaciones ni participo. No sé qué decir.»
+176. «Me necesitan, pero no sé si me quieren.»
+177. «Me voy a quedar sola. Lo veo venir.»
+178. «Voy por la calle y siento que todos me miran y piensan lo peor.»
+
+## 17 · Lo suyo, sin atreverse a enseñarlo
+
+179. «Tengo veinte vídeos grabados en el móvil y ninguno subido.» [AMBOS]
+180. «Me pongo a grabar, me escucho la voz y lo borro.» [AMBOS]
+181. «Escribo el guion, lo reescribo diez veces y al final no grabo nada.» [AMBOS]
+182. «No sé ni de qué hablar. ¿A quién le va a interesar lo mío?» [AMBOS]
+183. «Subo algo y me paso la tarde mirando cuántos likes tiene.» [AMBOS]
+184. «Si me ve alguien del trabajo, me muero de la vergüenza.» [AMBOS]
+185. «¿Qué va a pensar mi familia si me ve hablando a una cámara?» [AMBOS]
+186. «Empiezo con muchas ganas, a la semana lo dejo, y me siento un fracasado otra vez.» [AMBOS]
+187. «Veo a gente que empezó después que yo y ya vive de esto.» [AMBOS]
+188. «Me da vergüenza cobrar por lo que sé. Me siento un vendehumos.» [AMBOS]
+189. «Con doscientos seguidores, ¿quién soy yo para dar consejos?» [AMBOS]
+190. «Publico lo que creo que va a gustar, no lo que pienso de verdad.» [AMBOS]
+191. «Me da pánico que me pongan un comentario malo.» [AMBOS]
+192. «Mi historia me la guardo. Eso no se le cuenta a nadie.» [AMBOS]
+193. «Pienso en dejar el trabajo y vivir de lo mío, y me entra el pánico.» [AMBOS]
+
+## 18 · Quieren tener confianza
+
+194. «En la reunión tengo la idea y me la callo. Luego la dice otro y le aplauden.»
+195. «Me cuesta mirar a la gente a los ojos cuando hablo.»
+196. «Antes de llamar por teléfono repaso tres veces lo que voy a decir.»
+197. «Me gusta alguien y no le digo nada, por si acaso.»
+198. «Entro en un sitio lleno de gente y no sé ni dónde poner las manos.»
+199. «Me tiembla la voz en cuanto todos me miran.»
+200. «Me pruebo cinco veces la ropa antes de salir y al final me quedo en casa.»
+201. «Me pongo a la defensiva en cuanto alguien me lleva la contraria.»
+202. «Ojalá ser de esa gente que entra en un sitio y se le nota segura.»
+
+## 19 · Quieren tener más energía
+
+203. «Llego a las cuatro de la tarde arrastrándome, a base de cafés.»
+204. «Tengo mil cosas que hacer y me paso la tarde tirado en el sofá con el móvil.»
+205. «Me apunto al gimnasio en enero y en febrero ya no voy.»
+206. «Hay gente con la que quedo y vuelvo a casa reventado.»
+207. «Me levanto y lo primero que hago es mirar las noticias y el Instagram.»
+208. «Me acuesto a las tantas viendo vídeos, sabiendo que mañana lo voy a pagar.»
+209. «Ya no me apetece ni quedar. Todo me da pereza.»
+210. «Digo que mañana empiezo, y mañana estoy igual de cansado.»
+211. «Antes tenía ganas de comerme el mundo. Ahora con llegar al viernes me vale.»
+
+## 20 · Quieren dejar de pensar en negativo
+
+212. «Me meto en la cama y la cabeza no para.»
+213. «Me imagino lo peor antes de que pase nada.»
+214. «Me dicen algo y le doy vueltas tres días.»
+215. «Intento pensar en positivo y a los cinco minutos estoy otra vez igual.»
+216. «Me escribe mi jefe “¿tienes un momento?” y ya pienso que me echan.»
+217. «Siempre veo lo que falta, nunca lo que tengo.»
+218. «Quedo con mis amigos y acabamos siempre quejándonos de todo.»
+219. «Si algo va bien, pienso que pronto se va a torcer.»
+
+## 21 · Quieren dejar de sentirse mal
+
+220. «Me levanto bien y de repente, sin motivo, me viene el bajón.»
+221. «Estoy en una fiesta y me siento fuera, como si no pintara nada.»
+222. «Me siento culpable por todo, hasta por descansar.»
+223. «Me da vergüenza todavía lo que hice hace diez años.»
+224. «Como sin hambre cuando estoy mal, y luego me siento peor.»
+225. «Me enfado por todo y luego me arrepiento.»
+226. «Tengo envidia de gente que quiero, y me siento fatal por tenerla.»
+227. «Quiero sentirme bien un día entero, sin motivo, solo bien.»
+
+## 22 · Quieren elevar su energía
+
+228. «Quiero subir mi vibración y no sé ni qué significa eso.»
+229. «Pruebo lo de la ley de la atracción y no me pasa nada.»
+230. «Hago la lista de gratitud por la mañana y por la tarde estoy fatal.»
+231. «Me compro cuarzos, inciensos, de todo, y sigo igual.»
+232. «Siento que hay algo más, pero no sé por dónde empezar.»
+233. «Medito y lo único que consigo es pensar más.»
+234. «Me dicen que atraigo lo que me pasa y encima me siento culpable.»
+235. «Veo vídeos de espiritualidad hasta las tantas y al día siguiente nada cambia.»
+
+## 23 · Quiere cuidarse (hábitos)
+
+236. «Quiero levantarme con ganas, no arrastrándome.»
+237. «Quiero ir al gimnasio porque me apetece, no para castigarme.»
+238. «Quiero comer bien sin estar contando cada cosa que me meto en la boca.»
+239. «Quiero dormir del tirón, sin la cabeza dándome vueltas.»
+240. «Quiero tener mis ratos para mí sin sentirme culpable.»
+241. «Quiero cumplir lo que me digo, aunque sea salir a andar media hora.»
+242. «Quiero mirarme al espejo y caerme bien.»
+
+## 24 · Quiere llenarse de otras cosas (lo que lee, mira y escucha)
+
+243. «Quiero dejar de tragarme Instagram hasta las tantas.»
+244. «Quiero leer cosas que me sirvan de verdad, no frases bonitas.»
+245. «Quiero escuchar a gente que ya está donde yo quiero estar.»
+246. «Quiero aprender cosas de energía, de la mente, de por qué soy como soy.»
+247. «Quiero dejar de ver noticias que me dejan con mal cuerpo todo el día.»
+248. «Quiero que lo que veo me suba, no que me compare.»
+
+## 25 · Quiere otras conversaciones y otros amigos
+
+249. «Quiero quedar con gente que hable de sueños, no de quejas.»
+250. «Quiero un amigo al que poder contarle lo que me pasa sin que me juzgue.»
+251. «Quiero dejar de reírle las gracias a quien me hace de menos.»
+252. «Quiero sentirme a gusto en un grupo, sin estar pendiente de caer bien.»
+253. «Quiero poder decir lo que pienso en una cena sin pasarlo mal.»
+254. «Quiero rodearme de gente que me empuje hacia arriba.»
+
+## 26 · Quiere una buena pareja
+
+255. «Quiero una pareja que me elija, no que me aguante.»
+256. «Quiero estar con alguien sin miedo a que me deje.»
+257. «Quiero que me quieran como soy, sin tener que hacer el papel.»
+258. «Quiero poder decir que no a mi pareja sin que sea un drama.»
+259. «Quiero estar bien solo para elegir bien con quién estoy.»
+260. «Quiero una relación tranquila, sin estar mirando el móvil cada cinco minutos.»
+
+## 27 · Quiere estar bien con su familia
+
+261. «Quiero ir a casa de mis padres y no salir con mal cuerpo.»
+262. «Quiero que mi familia esté orgullosa de mí, y estarlo yo primero.»
+263. «Quiero poder ayudar a los míos cuando lo necesiten.»
+264. «Quiero que mis hijos tengan un padre que se quiere.»
+265. «Quiero sentirme querido y apoyado en mi casa.»
+266. «Quiero dejar de repetir lo que vi en casa de pequeño.»
+
+## 28 · Quiere crear la vida de sus sueños
+
+267. «Quiero trabajar de lo mío y no tener que pedir permiso para irme de vacaciones.»
+268. «Quiero crear mi propio negocio y vivir de lo que sé.»
+269. «Quiero poder comprarme lo que quiera sin mirar el precio.»
+270. «Quiero viajar cuando me apetezca.»
+271. «Quiero tener más libertad: de tiempo, de dinero y de dónde vivir.»
+272. «Quiero llegar a viejo sin la sensación de que me quedé con las ganas.»
+273. «Quiero hacer algo grande, siento que he venido a algo más.»
+
+## 29 · Quiere sentirse bien por dentro
+
+274. «Quiero estar tranquilo conmigo, sin necesitar que nadie me diga que valgo.»
+275. «Quiero dejar de pensar lo peor de todo.»
+276. «Quiero sentirme suficiente sin tener que demostrar nada.»
+277. «Quiero confiar en mí cuando tengo que tomar una decisión.»
+278. «Quiero ser feliz sin motivo, un martes cualquiera.»
+279. «Quiero perdonarme lo que hice y dejar de cargarlo.»
+
+## 30 · Quiere vivir con energía y sentido
+
+280. «Quiero sentir que mi vida tiene sentido.»
+281. «Quiero notar que lo que hago me llena.»
+282. «Quiero saber escuchar mi intuición y fiarme de ella.»
+283. «Quiero sentirme unido a algo más grande, sin que nadie me venda humo.»
+284. «Quiero dejar de vivir en piloto automático.»
+285. «Quiero estar presente, aquí, y no siempre en mi cabeza.»

@@ -1,0 +1,186 @@
+APUNTES: SEGUIMIENTO DEL PROGRESO, PLAZOS ESPERABLES Y EFECTO PLACEBO
+Para que la persona sepa si está mejorando, si su camino funciona o si toca buscar otra alternativa, y para que entienda por qué funcionan el placebo y las pastillas.
+Apuntes propios, escritos a partir de la investigación publicada (citada en cada apartado).
+
+======================================================================
+PARTE 1. POR QUÉ HAY QUE MEDIR
+======================================================================
+Tres trampas impiden saber si algo funciona de verdad:
+1. **Regresión a la media**: la gente suele buscar ayuda en su peor momento. Desde ahí, casi cualquier cosa parece funcionar, porque el estado tiende a volver a su nivel habitual de todos modos.
+2. **Memoria sesgada**: al cabo de un mes no recordamos bien cómo estábamos. Si no hay un punto de partida anotado, no se puede comparar.
+3. **Autoengaño en las dos direcciones**: querer que funcione (y verlo donde no lo hay) o desanimarse con un mal día (y no ver la tendencia).
+La solución es **apuntar un punto de partida y medir lo mismo, de la misma forma, cada semana**.
+
+======================================================================
+PARTE 2. QUÉ MEDIR (herramientas sencillas)
+======================================================================
+
+2.1 SUDS: la intensidad del malestar, de 0 a 10 (para cada recuerdo, emoción o situación)
+- "Cuando piensas en ___ ahora mismo, ¿cuánto malestar sientes, de 0 (nada) a 10 (el máximo imaginable)?"
+- Se mide antes y después de cada práctica, y cada semana con los mismos recuerdos.
+- Es la escala que se usa en EMDR y EFT.
+
+2.2 VOC: lo verdadera que se siente una creencia nueva, de 1 a 7
+- "Cuando piensas en ___, ¿cuánto sientes que es verdad 'tengo derecho a existir' (o la creencia que corresponda), de 1 (nada) a 7 (totalmente)?"
+- Indica cuánto se ha integrado la creencia nueva. Viene del EMDR.
+
+2.3 DIARIO DEL SÍNTOMA O DEL PATRÓN (cada día, 1 minuto)
+- Para un síntoma: ¿apareció hoy? ¿A qué hora? ¿Intensidad de 0 a 10? ¿Cuánto duró? ¿Qué pasaba justo antes (emoción, persona, situación)?
+- Para un patrón: ¿se repitió hoy? ¿Cómo reaccioné? ¿Usé la práctica?
+- Se miran 3 cosas cada semana: la **frecuencia** (cuántas veces), la **intensidad** media y la **recuperación** (cuánto tardé en volver a estar bien). A menudo lo primero que mejora es la recuperación, antes que la frecuencia.
+
+2.4 ÍNDICE DE BIENESTAR WHO-5 (Organización Mundial de la Salud; una vez por semana)
+Cada frase se puntúa según cómo te has sentido en las últimas 2 semanas: 5 = todo el tiempo, 4 = la mayor parte del tiempo, 3 = más de la mitad del tiempo, 2 = menos de la mitad del tiempo, 1 = de vez en cuando, 0 = nunca.
+1. Me he sentido alegre y de buen ánimo.
+2. Me he sentido tranquilo y relajado.
+3. Me he sentido activo y con energía.
+4. Me he despertado fresco y descansado.
+5. Mi vida diaria ha estado llena de cosas que me interesan.
+- Se suman las 5 puntuaciones (de 0 a 25) y se multiplica por 4, para obtener un resultado de 0 a 100.
+- Interpretación: 50 o menos indica un bienestar bajo, y 28 o menos, una probable depresión (conviene valorarlo con un profesional). **Una subida de 10 puntos o más se considera un cambio real.**
+
+2.5 CUESTIONARIOS ESTANDARIZADOS (versiones oficiales y gratuitas en español, en phqscreeners.com)
+- **PHQ-9** para la depresión (de 0 a 27): de 5 a 9 es leve, de 10 a 14 moderada, de 15 a 19 moderada-grave y de 20 en adelante grave. Un cambio real es una bajada de 5 o más puntos, o del 50%.
+- **GAD-7** para la ansiedad (de 0 a 21): de 5 a 9 es leve, de 10 a 14 moderada y de 15 en adelante grave. Un cambio real es una bajada de 4 o más puntos.
+- Se hacen al empezar y cada 2–4 semanas.
+- ⚠️ La pregunta 9 del PHQ-9 trata de pensamientos de muerte o de hacerse daño. Si la respuesta es distinta de "nunca", hay que pedir ayuda ya: el 024 en España, o el 112.
+
+2.6 ESCALA DE OBJETIVOS PERSONALES (versión sencilla de la Goal Attainment Scaling)
+- Para cada objetivo, la persona describe 5 niveles concretos: -2 (mucho peor de lo esperado), -1, 0 (el resultado esperado en 8 semanas), +1 y +2 (mucho mejor de lo esperado).
+- Ejemplo con el objetivo "poner límites a mi madre": -2 = "no puedo decirle nada"; 0 = "le digo que no al menos una vez a la semana sin sentir culpa durante días"; +2 = "le digo lo que pienso con calma y me quedo en paz".
+- Se puntúa cada 2 semanas.
+
+======================================================================
+PARTE 3. QUÉ ESPERAR Y CUÁNDO (plazos orientativos)
+======================================================================
+Son medias de la investigación. Cada persona tiene su ritmo, y por eso se mide.
+
+DE INMEDIATO (en minutos, durante la misma práctica)
+- La regulación (respiración, suspiro, orientación): baja la activación en 2–5 minutos.
+- Dejar ir, EFT, El Trabajo, silla vacía: el SUDS del tema trabajado suele bajar dentro de la sesión.
+- Ritual o acto simbólico: sensación de cierre y alivio.
+→ Si ni siquiera hay un alivio puntual después de 3–5 intentos bien hechos, esa práctica quizá no es la adecuada para esta persona. Prueba otra del mismo grupo.
+
+SEMANAS 1–2
+- Es normal que algunas cosas **se remuevan**: sueños más vívidos, recuerdos que aparecen solos, emociones más a flor de piel, cansancio. Pasa en la escritura expresiva, en el EMDR y después de una constelación o una silla vacía.
+- Lo que se mide aquí es la **adherencia**: ¿se está haciendo la práctica? Sin práctica no hay resultado.
+
+SEMANAS 3–6
+- Primeros cambios en el día a día: se **recupera antes** después de un disparador, la reacción es menos intensa y hay "momentos de darse cuenta" ("antes habría explotado").
+- El diario del síntoma o del patrón empieza a mostrar tendencia: menos frecuencia o menos intensidad.
+- El WHO-5 puede empezar a subir.
+→ **Primer punto de decisión, en la semana 4–6**: si no hay NINGÚN cambio en el diario ni en el SUDS de los temas trabajados, ajusta: revisa la técnica, cambia de práctica, añade un profesional o busca otro ángulo (quizá la causa principal es otra: otra lealtad, otra herida, otro trauma).
+
+SEMANAS 6–12
+- Cambio claro y medible: en los programas de 8 semanas (mindfulness, autocompasión) y en terapias como el EMDR (6–12 sesiones), aquí es donde suelen verse las mejoras en el PHQ-9, el GAD-7 y el WHO-5.
+- Las creencias nuevas suben en el VOC, por ejemplo de 2/7 a 5/7.
+- Los demás empiezan a notar el cambio ("estás distinto").
+→ **Segundo punto de decisión, en la semana 8–12**: si no hay mejora real (por ejemplo, PHQ-9 sin bajar 5 puntos, WHO-5 sin subir 10 o el síntoma igual de frecuente), **ese camino no está funcionando lo suficiente**. Hay que cambiar de enfoque y no insistir por fe.
+
+MESES 2–8
+- El hábito nuevo se vuelve automático: una media de 66 días, con un rango de 18 a 254 (Lally y col., 2010).
+- Cambios de identidad: la persona reacciona distinto sin esforzarse, que es el "nuevo yo" de Dispenza.
+- Los patrones de relación cambian. Pueden aparecer tensiones en el clan cuando alguien deja de cumplir su papel (lealtades invisibles: crecer se vive como una deslealtad). Es una señal de cambio, no de fracaso.
+
+MESES 6–12 Y DESPUÉS
+- Estabilidad. Los efectos de las constelaciones se mantenían a los 12 meses en el ensayo de Heidelberg, y los del EMDR y la TCC suelen mantenerse.
+- **Las recaídas puntuales son normales**, sobre todo en aniversarios, fechas clave o situaciones parecidas al conflicto original (las pistas de Hamer). Lo importante es que duren menos y se recuperen antes.
+
+======================================================================
+PARTE 4. ¿FUNCIONA O TENGO QUE BUSCAR OTRO CAMINO? (criterios claros)
+======================================================================
+
+SEÑALES DE QUE ESTÁ FUNCIONANDO
+- El SUDS de los temas trabajados baja y **se mantiene bajo** de una semana a otra.
+- Te recuperas antes después de un disparador.
+- El síntoma o el patrón aparece con menos frecuencia o con menos intensidad (según el diario).
+- El WHO-5 sube 10 puntos o más; el PHQ-9 o el GAD-7 bajan.
+- Sientes la creencia nueva como más verdadera (el VOC sube).
+- Haces cosas que antes evitabas.
+- Duermes mejor y tienes más energía.
+
+SEÑALES DE QUE NO ESTÁ FUNCIONANDO (cambia de enfoque)
+- No hay ningún cambio en 4–6 semanas a pesar de practicar con regularidad.
+- Hay alivio en la sesión, pero todo vuelve igual al día siguiente durante semanas. Probablemente falta trabajar la causa de fondo, o hace falta un profesional.
+- Te sientes peor de forma sostenida durante más de 2–3 semanas (no solo el "removerse" de los primeros días).
+- La práctica genera desbordamiento, disociación o pánico. Para y regúlate, y busca un profesional del trauma.
+
+⚠️ NO CONFUNDAS EMPEORAR CON "CRISIS DE CURACIÓN"
+- La biblioteca (Hamer) habla de síntomas de la fase de curación y de "crisis épica". Es una lectura interesante, pero **no puede servir para justificar un empeoramiento que se mantiene**.
+- Regla práctica: si un síntoma físico empeora claramente durante más de 1–2 semanas, aparece algo nuevo e intenso o hay señales de alarma, tiene que valorarlo un médico. Se puede seguir con el trabajo emocional a la vez.
+
+QUÉ HACER SI NO FUNCIONA
+1. Revisar la técnica: ¿se hacía bien? ¿Con la frecuencia suficiente? ¿Durante el tiempo suficiente?
+2. Revisar el foco: ¿es esta la causa principal? Volver a la consulta con los datos del diario. Quizá hay otra lealtad, otra herida, otro trauma o un beneficio secundario que mantiene el síntoma.
+3. Cambiar de ángulo: si se trabajaba con la mente (Katie, TCC), probar con el cuerpo (regulación, EFT, yoga, Experiencia Somática); si se trabajaba con el cuerpo, probar con el clan (constelaciones, Wolynn), o al revés.
+4. Añadir un profesional: EMDR, Experiencia Somática, IFS o constelaciones presenciales.
+5. Revisar las bases: sueño, ejercicio, alimentación, alcohol y otras sustancias.
+
+======================================================================
+PARTE 5. EL EFECTO PLACEBO: POR QUÉ FUNCIONA (y qué tiene que ver con todo esto)
+======================================================================
+
+5.1 QUÉ ES
+- Un placebo es algo sin principio activo (una pastilla de azúcar, una inyección de suero) que produce mejoría porque **el cerebro y el cuerpo responden al contexto de curación**: la expectativa, el ritual, la relación con quien cura y el aprendizaje previo.
+- **No es "imaginación" ni "engaño": produce cambios biológicos medibles.**
+
+5.2 LOS MECANISMOS DEMOSTRADOS
+1. **Opioides endógenos**: el cerebro libera sus propios analgésicos (endorfinas). El efecto placebo sobre el dolor se bloquea en parte con naloxona, un fármaco que bloquea los opioides (Levine y Fields, 1978; Benedetti y otros). Hay un metaanálisis sobre el tema (Sauro y Greenberg, 2005, *Journal of Psychosomatic Research*).
+2. **Dopamina**: en el párkinson, el placebo libera dopamina en el cerebro (de la Fuente-Fernández y col., 2001, *Science*). La dopamina es también el sistema de la recompensa y de la anticipación.
+3. **Condicionamiento**: si el cuerpo ha asociado antes una pastilla a un efecto, la pastilla falsa puede reproducirlo, incluso en el sistema inmunitario (Ader y Cohen, condicionamiento inmune). Amanzio y Benedetti (1999) separaron los efectos de la expectativa (opioides) de los del condicionamiento.
+4. **Expectativa y predicción**: el cerebro funciona como una máquina de predecir. Si espera alivio, ajusta cómo percibe las señales del cuerpo (modelos de codificación predictiva). **Esto es lo mismo que dice Lipton**: la percepción y la creencia modulan la biología.
+5. **El ritual y la relación de cuidado**: en el estudio de Kaptchuk y col. (2008, *BMJ*) con colon irritable, el mismo tratamiento falso funcionaba mucho más cuando el terapeuta era cálido, atento y empático.
+6. **Menos ansiedad**: el contexto de cuidado reduce la alarma (el simpático), y eso por sí solo alivia síntomas.
+
+5.3 EL PLACEBO "ABIERTO" O SIN ENGAÑO (lo más sorprendente)
+- En 2010, Kaptchuk y col. dieron a pacientes con colon irritable pastillas de las que **se les dijo claramente que eran placebo** ("no tienen principio activo, pero los estudios muestran que pueden activar procesos de autocuración del cuerpo"). Mejoraron de forma significativa frente al grupo sin tratamiento.
+- Los metaanálisis posteriores (*Scientific Reports*, 2021, con ensayos clínicos) confirman efectos moderados del placebo abierto, sobre todo en **síntomas que se perciben subjetivamente**: dolor, fatiga, colon irritable, ansiedad, sofocos. La explicación que se da a la persona (el "relato") influye mucho.
+- Lección: **no hace falta engañarse para que el ritual funcione**. Hacer un acto con sentido, con intención y en un contexto de cuidado activa los mecanismos de autorregulación. Esto explica en parte por qué funcionan los rituales, la psicomagia, el reiki y las meditaciones de Dispenza (su propio retiro incluía "rituales de curación con placebo abierto").
+
+5.4 EL NOCEBO (el reverso)
+- Igual que la expectativa positiva alivia, la negativa enferma. Una parte grande de los efectos secundarios que se notan con los medicamentos aparece **también en el grupo que toma placebo**, solo por haber leído el prospecto.
+- Ejemplo: en el ensayo sobre estatinas SAMSON (2021, *New England Journal of Medicine*), cerca del 90% de los síntomas que las personas atribuían a la estatina aparecían también con la pastilla de placebo.
+- Lección para la consulta: **las palabras importan**. Un diagnóstico dicho con miedo o una interpretación catastrófica ("eso es porque tu clan está maldito") pueden empeorar. El consultor habla en hipótesis, con calma y con esperanza realista. Esto conecta con Hamer, que sostenía que el miedo al diagnóstico desencadena nuevos conflictos: aquí la investigación sobre el nocebo le da la razón en parte.
+
+5.5 ¿Y LAS PASTILLAS DE VERDAD (antidepresivos, ansiolíticos…)?
+- Funcionan por dos vías a la vez: **su efecto químico más el efecto placebo del contexto**. En los ensayos de antidepresivos, una parte importante de la mejoría también aparece en el grupo de placebo (Kirsch y col., 2008). La diferencia entre ambos es más grande en las depresiones graves.
+- Por eso: (1) la creencia y el contexto suman a cualquier tratamiento; (2) lo que la persona cree sobre su pastilla influye en lo que le hace; (3) **nunca hay que dejar una medicación por cuenta propia** porque "parte es placebo". Si se quiere reducir, se hace con el médico y de forma gradual, porque retirarla de golpe puede provocar síntomas de abstinencia.
+- Integración: el trabajo emocional y las prácticas no compiten con las pastillas. Pueden potenciarse entre sí, y con el tiempo y supervisión médica a veces permiten reducir la dosis.
+
+5.6 LA GRAN CONCLUSIÓN, Y POR QUÉ ESTÁ EN EL CENTRO DE LA BIBLIOTECA
+- El placebo es la **prueba científica de que la mente, la creencia, la expectativa, el ritual y la relación cambian la biología**. Es la base común de Lipton (la biología de la creencia), Dispenza ("el placebo eres tú"), Neville (la suposición), Hill (la fe y la autosugestión) y Hawkins (el nivel de conciencia).
+- Pero también marca **su límite**: el placebo actúa sobre todo en síntomas subjetivos (dolor, ansiedad, fatiga, cómo se perciben los síntomas). No cura tumores, ni infecciones graves, ni fracturas. Por eso lo emocional va **junto** a lo médico, no en su lugar.
+- Para la persona, esto significa que **su intención, sus rituales y su forma de interpretar lo que le pasa son herramientas biológicas reales**, y que medir permite saber cuánto le están ayudando.
+
+======================================================================
+PARTE 6. PLANTILLA DE PLAN DE PRÁCTICA (para entregar al final de una consulta)
+======================================================================
+
+MI PLAN (fecha de inicio: ___)
+Tema principal: ___
+Hipótesis que trabajo: ___
+
+PUNTO DE PARTIDA (día 0):
+- SUDS del recuerdo o la situación clave: __/10
+- VOC de la creencia nueva "___": __/7
+- WHO-5: __/100 (y, si procede, PHQ-9: __ / GAD-7: __)
+- Síntoma o patrón: frecuencia __ por semana, intensidad media __/10
+
+PRÁCTICAS (máximo 3):
+1. Regulación diaria: ___ (cuándo, cuánto tiempo)
+2. Práctica principal: ___ (cuándo, cuánto tiempo, paso a paso)
+3. Acto o práctica semanal, o profesional: ___
+
+PLAN SI-ENTONCES (WOOP): "Si aparece ___, entonces haré ___."
+
+SEGUIMIENTO:
+- Diario del síntoma o del patrón: cada día, 1 minuto.
+- Cada domingo: SUDS, VOC y WHO-5.
+- Semana 4–6: primer punto de decisión. ¿Hay algún cambio? Si no, ajustar.
+- Semana 8–12: segundo punto de decisión. ¿Hay un cambio real? Si no, cambiar de enfoque.
+
+QUÉ ESPERO VER:
+- Semanas 1–2: puede removerse algo; lo importante es la constancia.
+- Semanas 3–6: me recupero antes y reacciono con menos intensidad.
+- Semanas 6–12: cambios medibles en las escalas y en mi vida.
+- Meses 2–8: el hábito y la nueva forma de ser se vuelven automáticos.

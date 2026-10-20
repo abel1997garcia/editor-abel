@@ -64,7 +64,7 @@ N0 Inconsciente · N1 Problema · N2 Solución · N3 Necesita ayuda · N4 Provee
 | M-27 | Demostrar a su padre y la familia paterna | validación, éxito |
 | M-28 | Relación con la chica atractiva narcisista | ser elegido, pareja |
 | M-29 | Vigilar el WhatsApp de la pareja | dependencia, miedo al abandono |
-| M-30 | 100.000 suscriptores y 15.000€/mes | éxito y vacío |
+| M-30 | 100.000 suscriptores y 17.000€/mes | éxito y vacío |
 | M-31 | La calma del dinero duró dos semanas | ansiedad y dinero |
 | M-32 | Revisar métricas compulsivamente | control, miedo a perder |
 | M-33 | Despertarse a las 3:40 con el corazón acelerado ("estar espabilado") | ansiedad, insomnio |

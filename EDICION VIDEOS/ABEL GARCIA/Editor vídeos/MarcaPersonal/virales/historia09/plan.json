@@ -1,0 +1,125 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  20,
+  40,
+  42,
+  [
+   44,
+   null,
+   "mundo,"
+  ],
+  45,
+  46,
+  62,
+  63,
+  64,
+  66,
+  70
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Ganó 112 millones y no fue suerte: hacía cada día lo que tú NO haces:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "gancho": [
+    0
+   ]
+  },
+  "r2": {
+   "titulo": "Lo que esta millonaria hacía cada mañana es justo lo CONTRARIO de lo tuyo:",
+   "musica": "ÉPICA/Ogryzek - AURA.mp3",
+   "gancho": [
+    3
+   ]
+  },
+  "r3": {
+   "titulo": "Casi todo el mundo falla en este punto y por eso nunca les LLEGA nada:",
+   "musica": "EMOCIONAL/Tony Ann - ICARUS _ EPIC Orchestral Version.mp3",
+   "gancho": [
+    6
+   ]
+  },
+  "r4": {
+   "titulo": "Te dices cada día que no tienes suerte y luego te EXTRAÑA no tenerla:",
+   "musica": "EMOCIONAL/Andrea Vanzo - Soulmate x Amélie x Interstellar x Passacaglia.mp3",
+   "gancho": [
+    7
+   ]
+  },
+  "r5": {
+   "titulo": "Ser millonario no es suerte, es lo que te dices cada MAÑANA al levantarte:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3",
+   "gancho": [
+    9
+   ]
+  }
+ },
+ "estilo": "historia",
+ "diapos": [
+  {
+   "frase": "Cynthia Stafford ganó",
+   "titulo": "**112 millones** de dólares",
+   "dibujo": "escenas/historia09/1_gano_112_millones_azul"
+  },
+  {
+   "frase": "Punto 1.",
+   "titulo": "Cambiaba el pensamiento **negativo**",
+   "dibujo": "escenas/historia04/7_queja_por_gratitud_azul"
+  },
+  {
+   "frase": "Ella había tenido",
+   "titulo": "Una vida **dura**, y no se enganchaba",
+   "dibujo": "escenas/historia07/3_lo_que_sientes_va_al_miedo_rojo"
+  },
+  {
+   "frase": "Punto 2, la autoestima",
+   "titulo": "Se decía que tenía **suerte**",
+   "dibujo": "escenas/historia04/6_el_espejo_le_sonrie_azul"
+  },
+  {
+   "frase": "Se lo creía.",
+   "titulo": "Y se lo **creía**",
+   "dibujo": "escenas/historia06/3_se_crea_dentro_azul"
+  },
+  {
+   "frase": "Punto 3, la confianza",
+   "titulo": "La **confianza**: aquí falla todo el mundo",
+   "dibujo": "escenas/historia03/2_fulano_persigue_rojo"
+  },
+  {
+   "frase": "No estaba esperando",
+   "titulo": "No lo esperaba, lo **sabía**",
+   "dibujo": "escenas/historia09/2_no_lo_esperaba_lo_sabia_azul"
+  },
+  {
+   "frase": "Punto 4, lo imaginaba",
+   "titulo": "Lo **imaginaba** con detalle",
+   "dibujo": "escenas/historia09/3_lo_imaginaba_azul"
+  },
+  {
+   "frase": "Tú haces justo",
+   "titulo": "Tú haces lo **contrario**",
+   "dibujo": "escenas/historia07/2_piensa_en_lo_que_teme_rojo"
+  },
+  {
+   "frase": "Y no hace falta",
+   "titulo": "Empieza por tu **autoestima**",
+   "dibujo": "escenas/historia04/5_mengano_se_cuida_azul"
+  },
+  {
+   "frase": "y te aseguro de que con",
+   "titulo": "Te vas a creer **merecedor**",
+   "dibujo": "escenas/historia02/6_mengano_se_trata_bien_azul"
+  }
+ ],
+ "corrige": [
+  [
+   "en cada maña.",
+   "cada mañana."
+  ],
+  [
+   "se dice en cada mañana.",
+   "se dice cada mañana."
+  ]
+ ]
+}

@@ -22,3 +22,5 @@ La skill `animaciones-horizontal-combinadas` (de skill_edicion_video_v3.zip) est
 - Citas de los vídeos largos: `herramientas/fuentes/InterCita.ttf` (Inter estática wght 900, familia «Inter Cita»).
 
 - **Llevarlo a otro ordenador:** `herramientas/empaquetar.py` crea `Escritorio/PAQUETE_EDICION_ABEL.zip` (editor + Fábrica + música + skills + las dos memorias, sin vídeos); la guía es `INSTALAR.md`. Volver a ejecutarlo tras cambios importantes.
+
+**Whisper con la GPU (RTX 2060), 13/10/2026:** faster-whisper con `device='cuda'` falla con «cublas64_12.dll is not found» porque las DLL están en los paquetes pip `nvidia` (`site-packages/nvidia/cublas/bin` y `cudnn/bin`), fuera del PATH. Arreglo: antes de importar faster_whisper, hacer `os.add_dll_directory` y añadir esas carpetas al PATH (ejemplo en `MEDIUM ALLAN/Editor Videos - Allan/trabajo/historia_allan/transcribir.py`). Con GPU, 15 min de audio se transcriben en menos de 4 min; con CPU, horas.

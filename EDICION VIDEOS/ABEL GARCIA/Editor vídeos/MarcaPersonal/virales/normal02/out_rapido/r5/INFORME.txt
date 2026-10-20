@@ -1,0 +1,4 @@
+##### r5 · 31.0 s · 10 trozos
+huecos > 0,10 s (onda): [(24.84, 24.97)]
+✗ ISLA REPETIDA: [33]
+✗  24.94s unión con 0.13 s de silencio (islas 40→46)

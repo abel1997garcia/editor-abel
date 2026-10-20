@@ -1,0 +1,4 @@
+##### r5 · 59.2 s · 23 trozos
+huecos > 0,10 s (onda): [(3.42, 3.5700000000000003), (57.94, 58.06)]
+✗   3.54s unión con 0.15 s de silencio (islas 14→18)
+· reel entero replace: esperado «escribéis.» · se oye «escribe.»

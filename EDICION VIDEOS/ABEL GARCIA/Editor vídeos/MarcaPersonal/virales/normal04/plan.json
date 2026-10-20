@@ -1,0 +1,56 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  16,
+  17,
+  22,
+  24,
+  31,
+  32,
+  37
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "No es que tengas mala suerte, es que vas con la energía por los SUELOS:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3",
+   "gancho": [
+    0
+   ]
+  },
+  "r2": {
+   "titulo": "\"Es que tengo una mala suerte\", y no te das cuenta de que la provocas TÚ:",
+   "musica": "ÉPICA/Ogryzek - AURA.mp3",
+   "gancho": [
+    1
+   ]
+  },
+  "r3": {
+   "titulo": "Quien dice que tiene mala suerte se está engañando a sí MISMO:",
+   "musica": "EMOCIONAL/Interstellar Official Soundtrack _ Cornfield Chase – Hans Zimmer _ WaterTower.mp3",
+   "gancho": [
+    2
+   ]
+  },
+  "r4": {
+   "titulo": "Echarle la culpa a la suerte es la forma más cómoda de no MIRARTE:",
+   "musica": "ÉPICA/Gustavo Bravetti - Babel.mp3",
+   "gancho": [
+    8
+   ]
+  },
+  "r5": {
+   "titulo": "Esta semana te ha salido todo mal y te aseguro que no es la SUERTE:",
+   "musica": "EMOCIONAL/Andrea Vanzo - Soulmate x Amélie x Interstellar x Passacaglia.mp3",
+   "gancho": [
+    14,
+    15
+   ]
+  }
+ },
+ "corrige": [
+  [
+   "Cállate la puta boca.",
+   "Cállate la puta boca."
+  ]
+ ]
+}

@@ -1,0 +1,4 @@
+##### r5 · 45.0 s · 17 trozos
+huecos > 0,10 s (onda): [(7.7700000000000005, 7.91)]
+✗   7.91s unión con 0.14 s de silencio (islas 10→16)
+✗  18.07s unión con 0.10 s de silencio (islas 18→18)

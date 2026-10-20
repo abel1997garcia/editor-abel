@@ -1,0 +1,46 @@
+KIT DEL SISTEMA DE ABEL · cómo tenerlo igual en otro ordenador
+==============================================================
+
+NO descomprimas nada a mano. NO vuelvas a comprimir la carpeta. Cópiala tal cual al USB y al portátil.
+El instalador descomprime cada zip en su sitio exacto.
+
+QUÉ HAY
+- 0_COMUN.zip ............ lo que usan todos los proyectos: skills de Claude, tareas programadas, música, imágenes, logos
+- 1_EDITOR_ABEL.zip ...... proyecto «Editor vídeos» (tu marca) + lo que Claude sabe de ti
+- 2_EDITOR_ALLAN.zip ..... proyecto «Editor Videos - Allan» + lo que Claude sabe de Allan
+- 3_FABRICA.zip .......... proyecto «FÁBRICA DE CONTENIDO» + su memoria
+- 4_MATERIAL_PROPIO.zip .. tus fotos y vídeos propios (MARCA PERSONAL, Mi historia…) y los de Allan (testimonios, evento…)
+                           (solo si lo pides: «haz el kit del portátil CON el material»; son decenas de GB y no hace falta para trabajar)
+- INSTALAR.bat ........... el instalador
+
+INSTALAR (una sola vez, instala los tres proyectos a la vez)
+1. Copia la carpeta del kit del USB al Escritorio del portátil.
+2. Doble clic en INSTALAR.bat y déjalo terminar (tarda: descarga librerías grandes).
+   - Si te dice que Python se acaba de instalar: cierra la ventana y vuelve a hacer doble clic.
+   - Si Windows pregunta «¿Permitir cambios?», acepta (es la instalación de Python, Node, ffmpeg y Git).
+3. Instala la app de Claude (escritorio) y entra con tu cuenta.
+4. En Claude → Ajustes → Conectores: conecta Google Drive y Google Sheets.
+   Instala «Google Drive para escritorio» para que aparezca la unidad G: (PARA GRABAR, CARRUSELES, GRABADOS…).
+
+CÓMO SE ABRE CADA PROYECTO (en Claude, «abrir carpeta»)
+- Tu marca (reels, carruseles, fichas de YouTube, stories):
+    Escritorio\EDICION VIDEOS\ABEL GARCIA\Editor vídeos
+- Allan (sus reels y vídeos):
+    Escritorio\EDICION VIDEOS\MEDIUM ALLAN\Editor Videos - Allan
+- La Fábrica de contenido:
+    Escritorio\EDICION VIDEOS\FÁBRICA DE CONTENIDO
+Al abrir cada carpeta, Claude carga sola su memoria y sus skills: trabajas igual que en el ordenador principal.
+Prueba rápida: abre «Editor vídeos» y pregúntale «¿qué sabes de mi nicho?».
+
+SI SOLO QUIERES UN PROYECTO
+Deja en la carpeta 0_COMUN.zip + el zip de ese proyecto (y 4_MATERIAL_PROPIO.zip si quieres las fotos y vídeos) y haz doble clic en INSTALAR.bat.
+
+LO QUE NO VIAJA (a propósito)
+- Contraseñas, el token de Instagram y la configuración privada de Claude (settings.json). n8n está online: no hace falta.
+- La clave de Replicate (escenas de pizarra de los HISTORIA). En el portátil, crea el archivo C:\Users\<tu usuario>\.replicate_token
+  y pega dentro tu clave (la ves en replicate.com → Account → API tokens). Sin ella, todo funciona menos generar escenas nuevas.
+- Los vídeos de referencia de otros creadores (se pueden volver a bajar; sus transcripciones y análisis SÍ van).
+
+ACTUALIZAR EL KIT MÁS ADELANTE
+En el ordenador principal, pídele a Claude «haz el kit del portátil» y vuelve a copiar la carpeta.
+Instalarlo encima en el portátil sustituye los archivos por los nuevos (no borra lo que hayas hecho allí aparte).

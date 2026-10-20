@@ -1,3 +1,5 @@
+- [Los 2 formatos de reels de Allan](formatos-reels-allan.md) — 1) mensajes de vídeos normales (franjas azules); 2) sesiones percibe→confirma: franja negra si viene preeditado, o horizontal sin franja (eventos, estilo pendiente)
+- [OBLIGATORIO: audio primero](audio-primero.md) — montar SOLO la voz (--voz), revisarla con espectrograma/onda/empalmes y corregir; después el vídeo encima
 - [OBLIGATORIO: cortes y empalmes](cortes-palabras-obligatorio.md) — nunca cortar dentro de una palabra (3 quejas: «exist», «cort»); escuchar TODOS los empalmes antes de entregar
 - [Estilo reel franjas azules](estilo-reel-franjas-azules.md) — reel vertical de Allan con franjas azules: título 60px / subtítulos 44px Montserrat negros, gancho primero, fluido, 50–90 s
 - [Proceso reels Allan](proceso-reels-allan.md) — flujo aprobado: transcribir/alinear, elegir ganchos y mensaje, guion de cortes, montar y verificar
@@ -5,3 +7,5 @@
 - [Descripción Instagram de cada reel](descripcion-instagram-reels.md) — .txt junto a cada vídeo: gancho crudo entre comillas 👇, conexión, objeción, pregunta, CTA "INFO" de sesiones
 - [Estilo reel franja negra](estilo-reel-franja-negra.md) — canalizaciones: Allan arriba, persona abajo, franja negra con subtítulos Montserrat Bold MAYÚSCULAS 2–3 palabras; gancho = mensaje + confirmación
 - [Usuario y su marca personal](usuario-marca-personal.md) — Abel vende a emprendedores espirituales «llenar agenda sin perseguir clientes»; competidores Abel Guerra (Hawkins, dejar ir) y Candela del Castillo
+- [Carruseles de Allan](carruseles-allan.md) — LEER RUTINA_CARRUSELES_ALLAN.md: historia y microhistorias (ref. @jun_yuh) siempre hacia sus sesiones/formación; su historia aún PENDIENTE de Abel
+- [Carpeta definitiva reels/](carpeta-definitiva-reels.md) — en reels/ SOLO el mp4 final y su .txt; ondas, voz, espectros y guiones (trabajo/specs) en trabajo/

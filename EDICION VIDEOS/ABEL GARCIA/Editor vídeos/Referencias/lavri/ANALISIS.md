@@ -28,6 +28,15 @@ Canal: youtube.com/@alexlavri · eslogan «contenido que vende». Vídeos transc
    - «No busquéis viralidad, buscad conversión y comunidad.»
    - «Si no vives para servir, no sirves para vivir.»
 
+## Títulos de YouTube: siempre en positivo (Abel, 13/10/2026)
+«La carátula la ves como algo positivo, como ayuda, como consejo. Ahí está la clave.» Mezcla de motivación y «te enseño a…»; los errores y mentiras van dentro del vídeo.
+- «Así atraerás ventas a tu negocio publicando en redes sociales (cópiame)»
+- «Dame 16:10 minutos y jamás tendrás miedo a la crítica»
+- «Desvelo la "ventaja competitiva" que me genera €230k/mes (cópiame)»
+- «Estoy harta de que os mientan (desvelo cómo cerrar €10k/mes con tu marca personal)»
+- «Las 2 únicas maneras de monetizar tus redes sociales»
+- «Por esto llegar a €10k/mes es "fácil"»
+
 ## Tono y producción
 - **Tono:** crudo y con tacos («jodidamente», «papanatas», «puta prioridad»), «chicos», «familia».
 - **Producción:** graba con el móvil y le da igual el eco: «compito por información, no por edición».
@@ -47,7 +56,7 @@ Vídeos en `reels/`, medidas en `reels/analisis.json`, portadas en `reels/portad
 - **Subtítulos:** una palabra cada vez, pequeña y discreta sobre el vídeo.
 
 # Banco de títulos de referencia (Rebeca y Lavri, 12/10/2026)
-Abel: «los que tengan franja negra, siempre mejor». Se usan para copiar la ESTRUCTURA, nunca el título; siempre adaptados a su mensaje y con connotación negativa.
+Títulos de REELS (los de YouTube, arriba, van en positivo). Abel: «los que tengan franja negra, siempre mejor». Se usan para copiar la ESTRUCTURA, nunca el título; siempre adaptados a su mensaje y con connotación negativa.
 - **Rebeca (franja negra):**
   - «No vendas espiritualidad con tu Marca Personal:»
   - «Si no sabes en qué eres bueno, olvídate de crear Marca Personal auténtica:»

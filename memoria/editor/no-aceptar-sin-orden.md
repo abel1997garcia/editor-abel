@@ -13,3 +13,5 @@ Abel (11/10/2026): «no aceptes nada si no te lo digo yo». La frase surgió con
 **Why:** quiere controlar él qué se sube, se acepta o se autoriza en su ordenador y en sus cuentas.
 
 **How to apply:** nunca aceptar avisos, permisos, copias de seguridad, subidas, cookies ni diálogos de apps sin su orden explícita en el chat. Primero se le explica qué es, y él decide.
+
+**Guiones del Drive (Abel 19/10/2026):** una vez entregados, NO se tocan (ni reescribir, ni mover, ni recuperar de `_descartados`) sin su orden: él los va grabando y moviendo a la carpeta de grabados, y cualquier cambio crea duplicados. El filtro de congruencia se aplica al editar.

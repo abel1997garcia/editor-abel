@@ -27,7 +27,7 @@ formato horizontal irán en documentos aparte cuando se definan.)
   el vídeo escalado a 1080x768 en el hueco y = 588–1356, recortando los laterales. En el spec:
   `"componer": {"fondo": "plantillas/fondo_franjas_azules.png", "y": 588, "alto": 768, "x": 90}` (x = recorte
   horizontal sobre 1365 px; 90 deja la cara de Allan centrada en sus vídeos caminando). Ver
-  `reels/specs/crear_specs_desaparecidos.py`.
+  `trabajo/specs/crear_specs_desaparecidos.py`.
 
 ## Título (franja de arriba, todo el reel)
 - Montserrat **ExtraBold 60 px** (a 1080 de ancho), **MAYÚSCULAS siempre**, centrado,
@@ -53,6 +53,9 @@ Tamaños fijados por el usuario en px (5-10-2026): título 60 px, subtítulos 44
 con un factor ×1,5 sobre OpusClip, dio subtítulos de 66 px: demasiado grandes.)
 
 ## Cómo se hace (herramientas del proyecto)
+
+**Audio primero:** `reel_franjas.py <spec> --voz` -> `voz.wav`; revisar con `espectro_cortes.py`, `oir_empalmes.py --voz`
+y `onda.py`; corregir en el original; solo después el render del vídeo.
 1. Entorno: la skill `animaciones-horizontal-combinadas` (en `.claude/skills/`) aporta Whisper + alineación forzada:
    `python .claude/skills/animaciones-horizontal-combinadas/scripts/anim.py entorno` (todo instalado; GPU RTX 2060).
    Fuentes en `fuentes/` (Montserrat ExtraBold y Bold, OFL).
@@ -63,8 +66,8 @@ con un factor ×1,5 sobre OpusClip, dio subtítulos de 66 px: demasiado grandes.
    python .claude/skills/animaciones-horizontal-combinadas/scripts/alinear.py trabajo/audio16k.wav trabajo/guion.txt --salida trabajo/tiempos.json
    ```
 3. Elegir los reels y escribir el guion de cortes de cada uno: lista de `[palabra_ini, palabra_fin, "texto del subtítulo"]`
-   en el orden del reel (ver `reels/specs/crear_specs_historia.py`). Lo que no está en ninguna línea se corta.
-4. Montar: `python herramientas/reel_franjas.py reels/specs/<reel>.json` (`--solo-hoja` para ver duración y guion
+   en el orden del reel (ver `trabajo/specs/crear_specs_historia.py`). Lo que no está en ninguna línea se corta.
+4. Montar: `python herramientas/reel_franjas.py trabajo/specs/<reel>.json` (`--solo-hoja` para ver duración y guion
    sin renderizar). Sale `reels/<reel>.mp4` (1080×1920, 30 fps, H.264 CRF 18, audio −14 LUFS).
 5. **Comprobar siempre**: `python herramientas/comprobar_reel.py reels/<reel>.mp4` vuelve a transcribir y lista
    palabras que faltan o sobran. Lo dudoso se escucha con `python herramientas/oir.py <mp4> ini:fin ...`.

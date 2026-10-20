@@ -1,0 +1,172 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  16,
+  20,
+  21,
+  22,
+  24,
+  25,
+  27,
+  [
+   29,
+   "haces mil cosas",
+   null
+  ],
+  [
+   30,
+   "y por mucho que eleves",
+   null
+  ],
+  44,
+  47,
+  53,
+  54
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Haces de todo por quererte y sigues igual porque nadie te habla de ESTO:",
+   "musica": "EMOCIONAL/Skott - Overcome (528Hz).mp3",
+   "gancho": [
+    1
+   ]
+  },
+  "r2": {
+   "titulo": "Tu autoestima no está baja, está llena de AGUJEROS y ni siquiera los ves:",
+   "musica": "ÉPICA/Gustavo Bravetti - Babel.mp3",
+   "gancho": [
+    4
+   ],
+   "cuerpo": [
+    [
+     16,
+     "y depende",
+     null
+    ],
+    20,
+    21,
+    22,
+    24,
+    25,
+    27,
+    [
+     29,
+     "haces mil cosas",
+     null
+    ],
+    [
+     30,
+     "y por mucho que eleves",
+     null
+    ],
+    44,
+    47,
+    53,
+    54
+   ]
+  },
+  "r3": {
+   "titulo": "Gimnasio, libros y meditación no te sirven de nada si no tapas ESTO primero:",
+   "musica": "ÉPICA/Don't tell your dreams - LOVIXX, STOSLIV.mp3",
+   "gancho": [
+    6
+   ]
+  },
+  "r4": {
+   "titulo": "Puedes cargarte de energía cada mañana y acabar igual de VACÍO cada noche:",
+   "musica": "EMOCIONAL/Outro - M83 only the best part.mp3",
+   "gancho": [
+    10
+   ]
+  },
+  "r5": {
+   "titulo": "No te falta hacer más cosas para quererte, te sobran FUGAS que ni ves:",
+   "musica": "ÉPICA/ECHO SAX END but it sounds like Øneheart.mp3",
+   "gancho": [
+    14
+   ]
+  }
+ },
+ "estilo": "tablet",
+ "tablet": {
+  "forma": "columnas",
+  "args": [
+   "CARGA",
+   "DESCARGA",
+   [
+    [
+     "Escucharte",
+     "izq"
+    ],
+    [
+     "Moverte",
+     "izq"
+    ],
+    [
+     "Silencio",
+     "izq"
+    ],
+    [
+     "Tu palabra",
+     "izq"
+    ],
+    [
+     "Quien te suma",
+     "izq"
+    ],
+    [
+     "Tapar emociones",
+     "der"
+    ],
+    [
+     "Complacer",
+     "der"
+    ],
+    [
+     "Que te elijan",
+     "der"
+    ],
+    [
+     "Compararte",
+     "der"
+    ],
+    [
+     "Lo que consumes",
+     "der"
+    ]
+   ]
+  ],
+  "momentos": [
+   "escuchar lo que sientes",
+   "moverte",
+   "momentos de silencio",
+   "Cumplir con tu",
+   "rodearte con gente",
+   "tapar lo que sientes",
+   "fingir que",
+   "depender siempre",
+   "Compararte con",
+   "todo lo que consumes"
+  ],
+  "kwargs": {
+   "iconos": [
+    "C:/Users/Clap/Desktop/EDICION VIDEOS/IMAGENES/pizarra/iconos/bateria_carga_verde.png",
+    "C:/Users/Clap/Desktop/EDICION VIDEOS/IMAGENES/pizarra/iconos/bateria_descarga_roja.png"
+   ]
+  }
+ },
+ "corrige": [
+  [
+   "Con placer",
+   "Complacer"
+  ],
+  [
+   "con placer",
+   "complacer"
+  ],
+  [
+   "Y todo lo que consume es",
+   "Y todo lo que consumes"
+  ]
+ ]
+}

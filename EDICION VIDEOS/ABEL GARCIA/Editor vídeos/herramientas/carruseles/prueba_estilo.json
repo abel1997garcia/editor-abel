@@ -1,0 +1,28 @@
+{
+ "salida": "G:/Mi unidad/FÁBRICA DE CONTENIDO/CARRUSELES/00 · Prueba de estilo",
+ "descripcion": "Prueba de estilo (no publicar).",
+ "diapositivas": [
+  {
+   "foto": "C:/Users/Clap/Desktop/EDICION VIDEOS/ABEL GARCIA/Editor vídeos/MarcaPersonal/FOTOS MIAS/05-canal-automatizacion-ganaba-dinero/abel_placa_100k_suscriptores_youtube.jpg",
+   "titular": "Con 25 años facturaba 17.000 € al mes.",
+   "lineas": [
+    "Con 26 me lo cerraron todo en un día.",
+    "Si acabas de llegar, no conoces la historia…"
+   ],
+   "posicion": "abajo",
+   "foco": [
+    0.5,
+    0.56
+   ],
+   "columna": "der"
+  },
+  {
+   "foto": "C:/Users/Clap/Desktop/EDICION VIDEOS/ABEL GARCIA/Editor vídeos/MarcaPersonal/FOTOS MIAS/08-australia/abel_obrero_chaleco_amarillo_cargas.jpg",
+   "titular": "Me fui a Australia solo y sin saber inglés.",
+   "lineas": [
+    "Al tercer día ya estaba cargando palés de 30 kilos.",
+    "Nadie sabía quién había sido yo."
+   ]
+  }
+ ]
+}

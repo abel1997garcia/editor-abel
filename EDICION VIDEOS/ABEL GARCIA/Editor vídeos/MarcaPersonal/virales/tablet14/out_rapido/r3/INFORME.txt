@@ -1,0 +1,6 @@
+##### r3 · 36.3 s · 14 trozos
+huecos > 0,10 s (onda): [(15.65, 15.8)]
+✗ ISLA REPETIDA: [46]
+✗  15.75s unión con 0.15 s de silencio (islas 24→25)
+✗  22.07s unión con 0.10 s de silencio (islas 29→30)
+· reel entero replace: esperado «sienta» · se oye «sientas»

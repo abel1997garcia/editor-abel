@@ -1,0 +1,5 @@
+##### r1 · 44.3 s · 13 trozos
+huecos > 0,10 s (onda): [(23.01, 23.12), (40.300000000000004, 40.42)]
+✗  23.12s unión con 0.11 s de silencio (islas 11→12)
+✗  43.29s unión con 0.10 s de silencio (islas 33→34)
+✗ el reel repite «piensa en lo bonito que es»

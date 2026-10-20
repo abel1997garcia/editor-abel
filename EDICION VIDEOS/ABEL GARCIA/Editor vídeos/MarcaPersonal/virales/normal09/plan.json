@@ -1,0 +1,56 @@
+{
+ "velocidad": 1.0,
+ "cuerpo": [
+  16,
+  19,
+  20,
+  22,
+  27,
+  28,
+  29
+ ],
+ "reels": {
+  "r1": {
+   "titulo": "Deja de leer libros de autoestima, lo que te cambia es justo ESTO:",
+   "musica": "ÉPICA/Hans Zimmer - Time (Inception) _ EPIC EMOTIONAL VERSION.mp3",
+   "gancho": [
+    1
+   ]
+  },
+  "r2": {
+   "titulo": "Leer libros de autoestima no te va a hacer quererte NUNCA:",
+   "musica": "EMOCIONAL/Ludovico Einaudi - Experience (Slowed).mp3",
+   "gancho": [
+    2
+   ]
+  },
+  "r3": {
+   "titulo": "Te has leído mil libros de autoestima y sigues EXACTAMENTE igual:",
+   "musica": "ÉPICA/Kanye West - Runaway (Instrumental).mp3",
+   "gancho": [
+    8
+   ]
+  },
+  "r4": {
+   "titulo": "Si esperas que un libro te haga quererte, no quieres cambiar, quieres un MILAGRO:",
+   "musica": "EMOCIONAL/Andrea Vanzo - Soulmate x Amélie x Interstellar x Passacaglia.mp3",
+   "gancho": [
+    10
+   ]
+  },
+  "r5": {
+   "titulo": "\"Quiérete más\" es el peor consejo que te pueden DAR:",
+   "musica": "ÉPICA/Don't tell your dreams - LOVIXX, STOSLIV.mp3",
+   "gancho": [
+    11,
+    12
+   ]
+  }
+ },
+ "corrige": [
+  [
+   "Quierete más.",
+   "Quiérete más."
+  ]
+ ]
+}
